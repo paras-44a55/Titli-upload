@@ -1,7 +1,7 @@
 {
-    "versionCode":  4,
-    "versionName":  "1.3",
-    "apkUrl":  "https://github.com/paras-44a55/Titli-upload/releases/download/v1.3/titli-v1.3-build4.apk",
-    "sha256":  "0795494a21e73117f767b98b4aed92c922e265f661aa660f749009687ce33a3d",
-    "releaseNotes":  "Fixes the Registration screen not showing newly registered tags: the Registered RFID Tags list and counter now update immediately from local data instead of waiting on the upload queue, and the list is no longer cleared moments after a tag is added. A duplicate tag number is now reported clearly instead of silently doing nothing."
+    "versionCode":  5,
+    "versionName":  "1.4",
+    "apkUrl":  "https://github.com/paras-44a55/Titli-upload/releases/download/v1.4/titli-v1.4-build5.apk",
+    "sha256":  "640349ed0fe3db59d38c8087e447ff219e81048f5306a37712f61b95cb2e93d1",
+    "releaseNotes":  "Fixes the app silently showing old data after the login session expires. Previously an expired session was ignored: dropdowns kept yesterday\u0027s brands, Sync Data reported success while fetching nothing, and audits and tag uploads were discarded without warning. The app now says \u0027Session expired\u0027 and takes you to the login screen. Registered tags are kept safely on the device and upload automatically after you log back in."
 }
