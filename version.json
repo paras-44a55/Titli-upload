@@ -1,7 +1,7 @@
 {
-    "versionCode":  5,
-    "versionName":  "1.4",
-    "apkUrl":  "https://github.com/paras-44a55/Titli-upload/releases/download/v1.4/titli-v1.4-build5.apk",
-    "sha256":  "640349ed0fe3db59d38c8087e447ff219e81048f5306a37712f61b95cb2e93d1",
-    "releaseNotes":  "Fixes the app silently showing old data after the login session expires. Previously an expired session was ignored: dropdowns kept yesterday\u0027s brands, Sync Data reported success while fetching nothing, and audits and tag uploads were discarded without warning. The app now says \u0027Session expired\u0027 and takes you to the login screen. Registered tags are kept safely on the device and upload automatically after you log back in."
+    "versionCode":  6,
+    "versionName":  "1.5",
+    "apkUrl":  "https://github.com/paras-44a55/Titli-upload/releases/download/v1.5/titli-v1.5-build6.apk",
+    "sha256":  "c503dba482ff66c6dfbeceb59237c65a5e9d7bbbf4001f0e6c5645e69e82f1da",
+    "releaseNotes":  "Adds a shareable error log. Settings now has a Diagnostics section with a Share Error Log button that sends the device\u0027s full log to WhatsApp or email, so a problem on a handheld can be diagnosed without having the device in hand. You can also long-press the red upload message on the Registration screen to share it. Also fixes tag uploads failing with \u0027Each tag must have a valid id\u0027: a tag written before its product was synced no longer blocks every later tag from uploading. It repairs itself after Sync Data, and healthy tags now upload past it."
 }
