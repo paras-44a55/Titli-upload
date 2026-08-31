@@ -1,7 +1,7 @@
 {
-    "versionCode":  6,
-    "versionName":  "1.5",
-    "apkUrl":  "https://github.com/paras-44a55/Titli-upload/releases/download/v1.5/titli-v1.5-build6.apk",
-    "sha256":  "c503dba482ff66c6dfbeceb59237c65a5e9d7bbbf4001f0e6c5645e69e82f1da",
-    "releaseNotes":  "Adds a shareable error log. Settings now has a Diagnostics section with a Share Error Log button that sends the device\u0027s full log to WhatsApp or email, so a problem on a handheld can be diagnosed without having the device in hand. You can also long-press the red upload message on the Registration screen to share it. Also fixes tag uploads failing with \u0027Each tag must have a valid id\u0027: a tag written before its product was synced no longer blocks every later tag from uploading. It repairs itself after Sync Data, and healthy tags now upload past it."
+    "versionCode":  7,
+    "versionName":  "1.6",
+    "apkUrl":  "https://github.com/paras-44a55/Titli-upload/releases/download/v1.6/titli-v1.6-build7.apk",
+    "sha256":  "2e3c74f50a70b53e3cc5d9b83f9e45969455a069223ce58b079a37210a7ce99d",
+    "releaseNotes":  "Serial numbers now come from the server instead of a counter kept on each handheld. Two handhelds can register the same item code at the same time without ever producing the same tag number. If the server cannot be reached, the tag is NOT written and the screen says so, rather than the handheld inventing a number that later turns out to belong to another garment. The RFID reader now powers up only when a scanning screen needs it, and every scanning screen shows whether the reader is ready. Error messages now show what the server actually said instead of a code with raw data appended. The device\u0027s error log is also sent to support automatically, so a problem can be looked into without anyone having to notice it and press Share in Settings."
 }
