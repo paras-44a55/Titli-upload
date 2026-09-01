@@ -1,0 +1,111 @@
+# pushed 2026-09-01 15:36:14.431 (backgrounded)
+# app=1.8 (build 9) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 177079..191457
+
+09-01 15:31:06.527 24464 24472 W System  : A resource failed to call close. 
+09-01 15:31:06.528 24464 24472 W System  : A resource failed to call close. 
+09-01 15:31:08.609 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8df7c52
+2026-09-01 15:31:12.892  W  UhfSession: Could not power up the UHF reader
+09-01 15:31:15.005 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@51a1902
+09-01 15:31:16.082 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8d26392
+09-01 15:31:16.498 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ec06949
+09-01 15:31:22.686 24464 24699 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+09-01 15:31:25.206 24464 24668 W System.err: java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.29.222 (port 49060) after 8000ms
+09-01 15:31:25.214 24464 24668 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+09-01 15:31:25.215 24464 24668 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+09-01 15:31:25.215 24464 24668 W System.err: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+09-01 15:31:25.215 24464 24668 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+09-01 15:31:25.215 24464 24668 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+09-01 15:31:25.215 24464 24668 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+09-01 15:31:25.216 24464 24668 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+09-01 15:31:25.216 24464 24668 W System.err: 	at java.net.Socket.connect(Socket.java:646)
+09-01 15:31:25.216 24464 24668 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+09-01 15:31:25.216 24464 24668 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+09-01 15:31:25.216 24464 24668 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-01 15:31:25.216 24464 24668 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-01 15:31:25.216 24464 24668 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-01 15:31:25.216 24464 24668 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-01 15:31:25.217 24464 24668 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-01 15:31:25.217 24464 24668 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-01 15:31:25.217 24464 24668 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-01 15:31:25.217 24464 24668 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+09-01 15:31:25.217 24464 24668 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+09-01 15:31:25.217 24464 24668 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+09-01 15:31:25.217 24464 24668 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(LoginActivity.kt:0)
+09-01 15:31:25.218 24464 24668 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+09-01 15:31:25.218 24464 24668 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+09-01 15:31:25.382 24464 24643 W System.err: java.net.SocketTimeoutException: timeout
+09-01 15:31:25.382 24464 24643 W System.err: 	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+09-01 15:31:25.382 24464 24643 W System.err: 	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+09-01 15:31:25.382 24464 24643 W System.err: 	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+09-01 15:31:25.382 24464 24643 W System.err: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+09-01 15:31:25.382 24464 24643 W System.err: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+09-01 15:31:25.382 24464 24643 W System.err: 	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+09-01 15:31:25.382 24464 24643 W System.err: 	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+09-01 15:31:25.382 24464 24643 W System.err: 	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+09-01 15:31:25.382 24464 24643 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+09-01 15:31:25.382 24464 24643 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+09-01 15:31:25.382 24464 24643 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+09-01 15:31:25.383 24464 24643 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+09-01 15:31:25.383 24464 24643 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+09-01 15:31:25.383 24464 24643 W System.err: 	at com.poxo.tittlifashionapplication.ui.audit.NewAuditActivity.syncMappedProductsOnOpen$lambda$13(NewAuditActivity.kt:212)
+09-01 15:31:25.383 24464 24643 W System.err: 	at com.poxo.tittlifashionapplication.ui.audit.NewAuditActivity.$r8$lambda$e9n9R8h-GAwfyQDi1IUDU5vNnfs(NewAuditActivity.kt:0)
+09-01 15:31:25.383 24464 24643 W System.err: 	at com.poxo.tittlifashionapplication.ui.audit.NewAuditActivity$$ExternalSyntheticLambda33.run(D8$$SyntheticClass:0)
+09-01 15:31:25.383 24464 24643 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+09-01 15:31:25.383 24464 24643 W System.err: Caused by: java.net.SocketException: Socket closed
+09-01 15:31:25.383 24464 24643 W System.err: 	at java.net.SocketInputStream.read(SocketInputStream.java:188)
+09-01 15:31:25.383 24464 24643 W System.err: 	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+09-01 15:31:25.383 24464 24643 W System.err: 	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+09-01 15:31:25.384 24464 24643 W System.err: 	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+09-01 15:31:25.384 24464 24643 W System.err: 	... 14 more
+09-01 15:31:39.537 24464 24725 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(LoginActivity.kt:0)
+09-01 15:31:39.538 24464 24725 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-01 15:31:39.538 24464 24725 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+09-01 15:31:39.539 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@dc68867
+09-01 15:31:44.000 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@437fb6a
+09-01 15:31:47.278 24464 24754 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(LoginActivity.kt:0)
+09-01 15:31:47.278 24464 24754 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-01 15:31:47.278 24464 24754 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+09-01 15:31:47.304 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@27cdf93
+09-01 15:31:49.477 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ec508ea
+09-01 15:34:04.932 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c100281
+09-01 15:34:05.632 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@50a61be
+09-01 15:34:19.265 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9d0a9f5
+2026-09-01 15:34:19.992  I  UhfSession: UHF reader powered up
+09-01 15:34:21.401 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@eb73eea
+09-01 15:34:33.910 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ddb3027
+09-01 15:34:33.919 24464 24464 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-01 15:34:34.622 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d578129
+2026-09-01 15:34:39.404  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-01 15:34:39.411 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e58f360
+2026-09-01 15:34:53.315  W  UhfSession: Could not power up the UHF reader
+09-01 15:35:00.890 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6348a85
+09-01 15:35:00.901 24464 24464 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-01 15:35:02.733 24464 24464 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7a0ad09
+2026-09-01 15:35:07.802  I  UhfSession: UHF reader powered up
