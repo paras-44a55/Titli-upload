@@ -1,7 +1,7 @@
 {
-    "versionCode":  7,
-    "versionName":  "1.6",
-    "apkUrl":  "https://github.com/paras-44a55/Titli-upload/releases/download/v1.6/titli-v1.6-build7.apk",
-    "sha256":  "2e3c74f50a70b53e3cc5d9b83f9e45969455a069223ce58b079a37210a7ce99d",
-    "releaseNotes":  "Serial numbers now come from the server instead of a counter kept on each handheld. Two handhelds can register the same item code at the same time without ever producing the same tag number. If the server cannot be reached, the tag is NOT written and the screen says so, rather than the handheld inventing a number that later turns out to belong to another garment. The RFID reader now powers up only when a scanning screen needs it, and every scanning screen shows whether the reader is ready. Error messages now show what the server actually said instead of a code with raw data appended. The device\u0027s error log is also sent to support automatically, so a problem can be looked into without anyone having to notice it and press Share in Settings."
+    "versionCode":  8,
+    "versionName":  "1.7",
+    "apkUrl":  "https://github.com/paras-44a55/Titli-upload/releases/download/v1.7/titli-v1.7-build8.apk",
+    "sha256":  "d1d9cd23e4f45a57fbe0a3f704a4170d2692d33c2d2c45039fc964b2f39f856d",
+    "releaseNotes":  "Fixed: RFID tags were being permanently rejected by the server after being physically written. The app no longer reserves a serial number before writing a tag, which was the cause. Also added a screen in Settings to review and, if needed, discard tags the server has refused (the tag numbers are saved to the error log first)."
 }
