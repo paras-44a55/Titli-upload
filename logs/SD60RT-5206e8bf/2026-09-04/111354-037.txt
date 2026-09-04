@@ -1,0 +1,74 @@
+# pushed 2026-09-04 11:13:54.037 (scheduled)
+# app=1.9 (build 10) device=alps SD60RT display=V.SD60RT.2.1.29.2019120516 android=8.1.0 (sdk 27) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 128606..136531
+
+09-02 12:44:11.197  2718  2727 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-02 12:44:11.203  2718  2727 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-02 12:44:21.709  2718  2872 E SPEEDATA: @XU@[ Thread-10: XinLianQilian.java:1741 run ] - last errcode:0  errstr:SUCCESS
+09-02 12:44:21.709  2718  2872 E SPEEDATA: @XU@[ Thread-10: XinLianQilian.java:1743 run ] - Inventory error code=0
+2026-09-02 12:44:21.935  I  UhfSession: UHF reader powered down: operator asked to reconnect
+09-02 12:44:21.972  2718  2718 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+2026-09-02 12:44:22.900  I  UhfSession: UHF reader powered up
+09-02 12:44:24.546  2718  3040 E SPEEDATA: @XU@[ Thread-155: XinLianQilian.java:1741 run ] - last errcode:fefd  errstr:IO_RECV_TIMEOUT
+09-02 12:44:24.546  2718  3040 E SPEEDATA: @XU@[ Thread-155: XinLianQilian.java:1743 run ] - Inventory error code=65277
+2026-09-02 12:44:30.953  I  UhfSession: UHF reader powered down: operator asked to reconnect
+09-02 12:44:30.984  2718  2718 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+2026-09-02 12:44:31.913  I  UhfSession: UHF reader powered up
+2026-09-02 12:44:59.169  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-03 18:01:34.932  I  Session: app=1.9 (build 10) device=alps SD60RT display=V.SD60RT.2.1.29.2019120516 android=8.1.0 (sdk 27) server=<not configured> location=TITLI BHILWARA
+2026-09-03 18:01:34.963  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as SD60RT-5206e8bf
+--------- beginning of main
+2026-09-03 18:01:34.973  I  Net: wifi connected
+2026-09-03 18:01:34.977  W  Net: wifi is up but has NO internet (rssi -58 dBm)
+09-03 18:01:35.744 21732 21764 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-03 18:01:35.744 21732 21764 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+09-03 18:01:35.744 21732 21764 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+09-03 18:01:35.744 21732 21764 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+09-03 18:01:35.745 21732 21764 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+09-03 18:01:35.745 21732 21764 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+09-03 18:01:35.745 21732 21764 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+09-03 18:01:35.745 21732 21764 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+09-03 18:01:35.745 21732 21764 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+09-03 18:01:35.745 21732 21764 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+09-03 18:01:35.745 21732 21764 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:538)
+09-03 18:01:35.745 21732 21764 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+09-03 18:01:35.745 21732 21764 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(Unknown Source:0)
+09-03 18:01:35.746 21732 21764 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+09-03 18:01:35.746 21732 21764 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+2026-09-03 18:01:36.192  W  LogUploader: Log push failed
+javax.net.ssl.SSLHandshakeException: Connection closed by peer
+	at com.android.org.conscrypt.NativeCrypto.SSL_do_handshake(Native Method)
+	at com.android.org.conscrypt.SslWrapper.doHandshake(SslWrapper.java:374)
+	at com.android.org.conscrypt.ConscryptFileDescriptorSocket.startHandshake(ConscryptFileDescriptorSocket.java:217)
+	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:192)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:149)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:258)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:218)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.onAppBackgrounded$lambda$4(LogUploader.kt:111)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$97WdKDTZ-jpHvA_e-mMDIwC79ws(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+	at java.lang.Thread.run(Thread.java:764)
+2026-09-04 11:13:23.984  I  Session: app=1.9 (build 10) device=alps SD60RT display=V.SD60RT.2.1.29.2019120516 android=8.1.0 (sdk 27) server=<not configured> location=TITLI BHILWARA
+2026-09-04 11:13:24.004  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as SD60RT-5206e8bf
+--------- beginning of main
+2026-09-04 11:13:24.015  I  Net: wifi connected
+2026-09-04 11:13:24.019  I  Net: wifi has internet (rssi -30 dBm)
+09-04 11:13:33.465 11691 11700 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 11:13:33.467 11691 11700 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
