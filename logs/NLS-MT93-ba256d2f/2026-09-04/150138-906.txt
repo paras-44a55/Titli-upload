@@ -1,0 +1,134 @@
+# pushed 2026-09-04 15:01:38.906 (backgrounded)
+# app=1.9 (build 10) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 114112..134273
+
+2026-09-04 14:55:17.830  I  UhfSession: UHF reader powered down: app moved to the background
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: Could not make request to the backend
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: java.net.SocketException: Software caused connection abort
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at java.net.SocketInputStream.socketRead0(Native Method)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at java.net.SocketInputStream.socketRead(SocketInputStream.java:118)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at java.net.SocketInputStream.read(SocketInputStream.java:173)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readFromSocket(ConscryptEngineSocket.java:1015)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:979)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readUntilDataAvailable(ConscryptEngineSocket.java:894)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.read(ConscryptEngineSocket.java:867)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:106)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:30)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.cct.CctTransportBackend.doSend(CctTransportBackend.java:318)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.cct.CctTransportBackend.access$lambda$0(CctTransportBackend.java:0)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.cct.CctTransportBackend$$Lambda$1.apply(CctTransportBackend.java:4)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.runtime.retries.Retries.retry(Retries.java:54)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.cct.CctTransportBackend.send(CctTransportBackend.java:373)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.runtime.scheduling.jobscheduling.Uploader.logAndUpdateState(Uploader.java:121)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.runtime.scheduling.jobscheduling.Uploader.lambda$upload$1(Uploader.java:88)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.runtime.scheduling.jobscheduling.Uploader$$Lambda$1.run(Uploader.java:8)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.runtime.SafeLoggingExecutor$SafeLoggingRunnable.run(SafeLoggingExecutor.java:47)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-04 14:57:12.508  5176  5252 E TransportRuntime.CctTransportBackend: 	at java.lang.Thread.run(Thread.java:1572)
+09-04 14:57:29.627  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1d03366
+09-04 14:57:29.634  5176  5841 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#44(BLAST Consumer)44](id:143800000034,api:4,p:1460,c:5176) cancelBuffer: BufferQueue has been abandoned
+09-04 14:57:29.636  5176  5841 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#44(BLAST Consumer)44](id:143800000034,api:4,p:1460,c:5176) cancelBuffer: BufferQueue has been abandoned
+09-04 14:57:29.636  5176  5841 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#44(BLAST Consumer)44](id:143800000034,api:4,p:1460,c:5176) queueBuffer: BufferQueue has been abandoned
+09-04 14:57:29.654  5176  5841 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#44(BLAST Consumer)44](id:143800000034,api:4,p:1460,c:5176) cancelBuffer: BufferQueue has been abandoned
+09-04 14:57:29.655  5176  5841 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#44(BLAST Consumer)44](id:143800000034,api:4,p:1460,c:5176) cancelBuffer: BufferQueue has been abandoned
+09-04 14:57:29.656  5176  5841 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#44(BLAST Consumer)44](id:143800000034,api:4,p:1460,c:5176) cancelBuffer: BufferQueue has been abandoned
+2026-09-04 14:57:30.425  I  UhfSession: UHF reader powered up
+09-04 14:57:31.768  5176  8285 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+09-04 14:57:49.618  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8d7dd00
+09-04 14:57:56.453  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@57d752d
+09-04 14:58:08.513  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fdccbfc
+09-04 14:58:31.222  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@68e4c3a
+09-04 14:58:44.070  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ba5ffb0
+2026-09-04 14:58:45.743  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-04 14:58:45.744  I  Net: Blank Audit: mapped-product sync started
+2026-09-04 14:58:45.843  I  Net: Blank Audit: mapped-product sync finished (186 in 1 page(s))
+09-04 14:58:47.339  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2d7252
+09-04 14:58:50.650  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@973a503
+09-04 14:58:54.218  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ab7ac65
+2026-09-04 14:58:54.919  I  Net: Blank Audit: closed, releasing the UHF module
+09-04 14:58:54.925  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@df45682
+09-04 14:58:57.207  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@204982d
+09-04 14:58:57.421  5176  5185 W System  : A resource failed to call close. 
+09-04 14:58:57.421  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 14:58:57.421  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 14:58:57.421  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 14:58:57.422  5176  5185 W System  : A resource failed to call close. 
+09-04 14:58:57.422  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 14:58:57.422  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 14:58:57.422  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 14:58:57.423  5176  5185 W System  : A resource failed to call close. 
+09-04 14:58:57.423  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 14:58:57.423  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 14:58:57.423  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 14:58:57.430  5176  5185 W System  : A resource failed to call close. 
+09-04 14:58:57.431  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 14:58:57.431  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 14:58:57.431  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 14:58:57.431  5176  5185 W System  : A resource failed to call close. 
+09-04 14:58:57.431  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 14:58:57.431  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 14:58:57.431  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 14:58:57.432  5176  5185 W System  : A resource failed to call close. 
+09-04 14:58:57.432  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 14:58:57.432  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 14:58:57.432  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 14:58:57.436  5176  5185 W System  : A resource failed to call close. 
+09-04 14:58:57.436  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 14:58:57.436  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 14:58:57.436  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 14:58:57.437  5176  5185 W System  : A resource failed to call close. 
+09-04 14:58:57.437  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 14:58:57.437  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 14:58:57.437  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 14:58:57.774  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d72b20c
+2026-09-04 14:58:59.168  I  UhfSession: UHF reader powered down: app moved to the background
+09-04 15:00:27.061  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c672ed7
+09-04 15:00:27.750  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c94e9ac
+2026-09-04 15:00:32.185  I  UhfSession: UHF reader powered up
+09-04 15:00:37.132  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@efd9def
+09-04 15:01:02.875  5176  5185 W System  : A resource failed to call close. 
+09-04 15:01:02.875  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 15:01:02.875  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 15:01:02.875  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 15:01:02.880  5176  5185 W System  : A resource failed to call close. 
+09-04 15:01:02.880  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 15:01:02.880  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 15:01:02.880  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 15:01:02.881  5176  5185 W System  : A resource failed to call close. 
+09-04 15:01:02.881  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 15:01:02.881  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 15:01:02.881  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 15:01:02.882  5176  5185 W System  : A resource failed to call close. 
+09-04 15:01:02.882  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 15:01:02.882  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 15:01:02.882  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 15:01:02.883  5176  5185 W System  : A resource failed to call close. 
+09-04 15:01:02.883  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 15:01:02.883  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 15:01:02.883  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 15:01:02.885  5176  5185 W System  : A resource failed to call close. 
+09-04 15:01:02.885  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 15:01:02.885  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 15:01:02.885  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 15:01:02.886  5176  5185 W System  : A resource failed to call close. 
+09-04 15:01:02.886  5176  5185 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-04 15:01:02.886  5176  5185 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-04 15:01:02.886  5176  5185 W System  : A resource failed to call SQLiteConnection.close. 
+09-04 15:01:20.506  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fcfc957
+09-04 15:01:20.517  5176  5176 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-04 15:01:38.512  5176  5176 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ce229a8
+09-04 15:01:38.883  5176  6076 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#63(BLAST Consumer)63](id:143800000049,api:4,p:1460,c:5176) queueBuffer: BufferQueue has been abandoned
