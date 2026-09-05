@@ -1,0 +1,146 @@
+# pushed 2026-09-05 16:51:22.202 (scheduled)
+# app=1.9 (build 10) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 287265..308167
+
+2026-09-05 16:36:13.051  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-05 16:36:26.492  W  UhfSession: Could not power up the UHF reader
+2026-09-05 16:36:35.990  I  UhfSession: UHF reader powered up
+09-05 16:36:49.748  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@160017d
+09-05 16:36:49.759  4683  4683 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-05 16:37:04.893  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d2ba4fd
+2026-09-05 16:37:05.189  I  SerialService: 'ELA-V9195': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV91950001)
+2026-09-05 16:37:17.163  I  SerialService: 'ELA-V9195': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV91950001)
+2026-09-05 16:37:19.370  I  Registration: Upload accepted for ELAV91950001: HTTP 200 {"updated":1,"tags":[{"id":734,"epc":"ELAV91950001","itemCode":"ELA-V9195","serialNo":1}]}
+2026-09-05 16:37:19.372  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-05 16:37:23.090  4683  4704 W System  : A resource failed to call close. 
+09-05 16:37:23.090  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:37:23.090  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:37:23.090  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 16:38:17.853  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e558c67
+09-05 16:38:20.016  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@328a9b5
+09-05 16:38:28.884  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8a599d2
+09-05 16:38:28.895  4683  4683 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-05 16:38:29.153  I  SerialService: 'ELA-V12623': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV126230001)
+2026-09-05 16:38:34.373  I  SerialService: 'ELA-V12623': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV126230001)
+2026-09-05 16:38:35.455  I  Registration: Upload accepted for ELAV126230001: HTTP 200 {"updated":1,"tags":[{"id":735,"epc":"ELAV126230001","itemCode":"ELA-V12623","serialNo":1}]}
+2026-09-05 16:38:35.457  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-05 16:39:04.496  4683  4704 W System  : A resource failed to call close. 
+09-05 16:39:04.496  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:39:04.496  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:39:04.496  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-05 16:39:42.075  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-05 16:40:25.470  W  UhfSession: Could not power up the UHF reader
+2026-09-05 16:40:28.168  I  SerialService: 'ELA-V12623': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV126230002)
+2026-09-05 16:40:30.904  I  SerialService: 'ELA-V12623': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV126230002)
+2026-09-05 16:40:31.479  I  Registration: Upload accepted for ELAV126230002: HTTP 200 {"updated":1,"tags":[{"id":736,"epc":"ELAV126230002","itemCode":"ELA-V12623","serialNo":2}]}
+2026-09-05 16:40:31.481  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-05 16:40:31.680  I  UhfSession: UHF reader powered up
+2026-09-05 16:40:32.209  E  Registration: No product id for item code 'ELA-V12623' - tag ELAV126230002 (serial 2) saved with id -1 and cannot be uploaded until Sync Data runs. Neither unMappedProduct nor mappedProduct has a row for it.
+09-05 16:40:32.211  4683 10295 W System.err: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: serialized_tags.epc (code 1555 SQLITE_CONSTRAINT_PRIMARYKEY)
+2026-09-05 16:40:32.215  E  Registration: EPC collision: ELAV126230002 (seq 2, item ELA-V12623) already exists in serialized_tags - the allocator handed out a number already in use
+09-05 16:40:32.215  4683 10295 W System.err: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+09-05 16:40:32.215  4683 10295 W System.err: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:974)
+09-05 16:40:32.215  4683 10295 W System.err: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:814)
+09-05 16:40:32.215  4683 10295 W System.err: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+09-05 16:40:32.215  4683 10295 W System.err: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1981)
+09-05 16:40:32.215  4683 10295 W System.err: 	at com.poxo.tittlifashionapplication.data.AssetRepository.insertSerializedTag(AssetRepository.kt:865)
+09-05 16:40:32.215  4683 10295 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.saveAndUploadTag$lambda$40(RegistrationActivity.kt:680)
+09-05 16:40:32.215  4683 10295 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$vEOmhcXKW5Icm-iJ04auOYnUTE8(RegistrationActivity.kt:0)
+09-05 16:40:32.215  4683 10295 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda56.run(D8$$SyntheticClass:0)
+09-05 16:40:32.215  4683 10295 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+09-05 16:41:16.722  4683  9706 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:124b0000003a,api:4,p:1498,c:4683) queueBuffer: BufferQueue has been abandoned
+09-05 16:41:16.737  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f9ba5af
+09-05 16:41:16.756  4683  7611 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:124b0000003a,api:4,p:1498,c:4683) queueBuffer: BufferQueue has been abandoned
+09-05 16:41:16.771  4683  7611 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:124b0000003a,api:4,p:1498,c:4683) cancelBuffer: BufferQueue has been abandoned
+09-05 16:41:16.773  4683  7611 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:124b0000003a,api:4,p:1498,c:4683) cancelBuffer: BufferQueue has been abandoned
+09-05 16:41:16.774  4683  7611 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:124b0000003a,api:4,p:1498,c:4683) cancelBuffer: BufferQueue has been abandoned
+09-05 16:41:16.775  4683  7611 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:124b0000003a,api:4,p:1498,c:4683) cancelBuffer: BufferQueue has been abandoned
+09-05 16:41:16.783  4683  7611 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:124b0000003a,api:4,p:1498,c:4683) queueBuffer: BufferQueue has been abandoned
+09-05 16:41:56.707  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1d7cc2c
+09-05 16:41:56.721  4683  4683 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-05 16:41:59.407  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@28eb4c8
+09-05 16:42:10.525  4683  4704 W System  : A resource failed to call close. 
+09-05 16:42:10.525  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:42:10.525  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:42:10.525  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 16:42:10.526  4683  4704 W System  : A resource failed to call close. 
+09-05 16:42:10.526  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:42:10.527  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:42:10.527  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 16:42:10.527  4683  4704 W System  : A resource failed to call close. 
+09-05 16:42:10.527  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:42:10.527  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:42:10.528  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 16:42:10.531  4683  4704 W System  : A resource failed to call close. 
+09-05 16:42:10.531  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:42:10.531  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:42:10.531  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 16:42:10.531  4683  4704 W System  : A resource failed to call close. 
+09-05 16:42:10.531  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:42:10.531  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:42:10.531  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 16:42:21.164  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@19c9645
+09-05 16:42:21.172  4683  4683 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-05 16:42:30.571  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2c02122
+09-05 16:42:30.577  4683  4683 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-05 16:42:30.969  I  SerialService: 'ELA-V12621': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV126210001)
+2026-09-05 16:42:35.076  I  SerialService: 'ELA-V12621': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV126210001)
+2026-09-05 16:42:37.919  I  Registration: Upload accepted for ELAV126210001: HTTP 200 {"updated":1,"tags":[{"id":737,"epc":"ELAV126210001","itemCode":"ELA-V12621","serialNo":1}]}
+2026-09-05 16:42:37.921  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-05 16:42:42.490  4683  4704 W System  : A resource failed to call close. 
+09-05 16:42:42.490  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:42:42.490  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:42:42.490  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 16:42:42.497  4683  4704 W System  : A resource failed to call close. 
+09-05 16:42:42.497  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:42:42.497  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:42:42.497  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-05 16:43:03.788  I  SerialService: 'ELA-V12621': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV126210002)
+2026-09-05 16:43:04.782  I  Registration: Upload accepted for ELAV126210002: HTTP 200 {"updated":1,"tags":[{"id":738,"epc":"ELAV126210002","itemCode":"ELA-V12621","serialNo":2}]}
+2026-09-05 16:43:04.785  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-05 16:44:35.004  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3d0e26e
+09-05 16:44:35.011  4683  4683 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-05 16:44:45.458  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2512c13
+09-05 16:44:45.467  4683  4683 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-05 16:44:45.676  I  SerialService: 'ELA-V13193': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV131930001)
+2026-09-05 16:44:50.263  I  SerialService: 'ELA-V13193': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV131930001)
+2026-09-05 16:44:51.473  I  Registration: Upload accepted for ELAV131930001: HTTP 200 {"updated":1,"tags":[{"id":739,"epc":"ELAV131930001","itemCode":"ELA-V13193","serialNo":1}]}
+2026-09-05 16:44:51.474  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-05 16:44:54.531  4683  4704 W System  : A resource failed to call close. 
+09-05 16:44:54.531  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:44:54.531  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:44:54.531  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 16:45:57.042  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bcd744c
+09-05 16:45:57.054  4683  4683 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-05 16:46:03.391  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9dc7ae1
+09-05 16:46:03.399  4683  4683 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-05 16:46:03.590  I  SerialService: 'ELA-V11386': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV113860001)
+2026-09-05 16:46:30.386  I  SerialService: 'ELA-V11386': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV113860001)
+2026-09-05 16:46:31.633  I  Registration: Upload accepted for ELAV113860001: HTTP 200 {"updated":1,"tags":[{"id":740,"epc":"ELAV113860001","itemCode":"ELA-V11386","serialNo":1}]}
+2026-09-05 16:46:31.634  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-05 16:46:33.313  4683  4704 W System  : A resource failed to call close. 
+09-05 16:46:33.313  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:46:33.313  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:46:33.313  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 16:48:03.728  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@43a9518
+09-05 16:48:03.741  4683  4683 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-05 16:48:06.106  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@76a1092
+09-05 16:48:06.118  4683  4683 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-05 16:48:22.646  4683  4683 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6686b00
+2026-09-05 16:48:22.889  I  SerialService: 'ELA-V12305': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV123050001)
+2026-09-05 16:48:26.799  I  SerialService: 'ELA-V12305': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV123050001)
+2026-09-05 16:48:27.813  I  Registration: Upload accepted for ELAV123050001: HTTP 200 {"updated":1,"tags":[{"id":741,"epc":"ELAV123050001","itemCode":"ELA-V12305","serialNo":1}]}
+2026-09-05 16:48:27.816  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-05 16:48:43.434  4683  4704 W System  : A resource failed to call close. 
+09-05 16:48:43.434  4683  4704 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 16:48:43.434  4683  4704 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 16:48:43.434  4683  4704 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-05 16:49:10.400  I  SerialService: 'ELA-V12305': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV123050002)
+2026-09-05 16:49:13.239  I  Registration: Upload accepted for ELAV123050002: HTTP 200 {"updated":1,"tags":[{"id":742,"epc":"ELAV123050002","itemCode":"ELA-V12305","serialNo":2}]}
+2026-09-05 16:49:13.244  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-05 16:49:13.405  I  SerialService: 'ELA-V12305': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ELAV123050003)
+2026-09-05 16:49:14.394  I  Registration: Upload accepted for ELAV123050003: HTTP 200 {"updated":1,"tags":[{"id":743,"epc":"ELAV123050003","itemCode":"ELA-V12305","serialNo":3}]}
+2026-09-05 16:49:14.395  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-05 16:49:45.567  I  SerialService: 'ELA-V12305': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (ELAV123050004)
+2026-09-05 16:49:46.542  I  Registration: Upload accepted for ELAV123050004: HTTP 200 {"updated":1,"tags":[{"id":744,"epc":"ELAV123050004","itemCode":"ELA-V12305","serialNo":4}]}
+2026-09-05 16:49:46.542  I  Registration: Uploaded 1 tag(s); 0 still pending
