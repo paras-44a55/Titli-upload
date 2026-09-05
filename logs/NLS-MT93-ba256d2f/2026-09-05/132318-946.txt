@@ -1,0 +1,203 @@
+# pushed 2026-09-05 13:23:18.946 (backgrounded)
+# app=1.9 (build 10) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 80270..109835
+
+2026-09-05 13:14:42.753  W  UhfSession: Could not power up the UHF reader
+09-05 13:14:43.302  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@98b40f
+09-05 13:14:43.314  4546  4546 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-05 13:14:47.840  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b1cf574
+09-05 13:14:47.849  4546  4546 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-05 13:14:48.047  I  SerialService: 'RFS-187-5': server holds 0 RFID(s); taking the lowest free serial 1 (RFS18750001)
+2026-09-05 13:14:59.585  I  SerialService: 'RFS-187-5': server holds 0 RFID(s); taking the lowest free serial 1 (RFS18750001)
+2026-09-05 13:15:02.264  I  UhfSession: UHF reader powered up
+09-05 13:15:02.360  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:15:02.360  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:15:02.360  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:15:02.360  4546  4556 W System  : A resource failed to call close. 
+09-05 13:15:02.365  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:15:02.365  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:15:02.366  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:15:02.366  4546  4556 W System  : A resource failed to call close. 
+09-05 13:15:02.366  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:15:02.366  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:15:02.366  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:15:02.366  4546  4556 W System  : A resource failed to call close. 
+2026-09-05 13:15:02.405  I  SerialService: 'RFS-187-5': server holds 0 RFID(s); taking the lowest free serial 1 (RFS18750001)
+2026-09-05 13:15:06.949  I  SerialService: 'RFS-187-5': server holds 0 RFID(s); taking the lowest free serial 1 (RFS18750001)
+2026-09-05 13:15:07.379  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-05 13:15:07.528  I  Registration: Upload accepted for RFS18750001: HTTP 200 {"updated":1,"tags":[{"id":713,"epc":"RFS18750001","itemCode":"RFS-187-5","serialNo":1}]}
+2026-09-05 13:15:07.529  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-05 13:15:09.287  E  Registration: No product id for item code 'RFS-187-5' - tag RFS18750001 (serial 1) saved with id -1 and cannot be uploaded until Sync Data runs. Neither unMappedProduct nor mappedProduct has a row for it.
+09-05 13:15:09.289  4546 23260 W System.err: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: serialized_tags.epc (code 1555 SQLITE_CONSTRAINT_PRIMARYKEY)
+2026-09-05 13:15:09.294  E  Registration: EPC collision: RFS18750001 (seq 1, item RFS-187-5) already exists in serialized_tags - the allocator handed out a number already in use
+09-05 13:15:09.293  4546 23260 W System.err: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+09-05 13:15:09.293  4546 23260 W System.err: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:974)
+09-05 13:15:09.293  4546 23260 W System.err: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:814)
+09-05 13:15:09.293  4546 23260 W System.err: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+09-05 13:15:09.293  4546 23260 W System.err: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1981)
+09-05 13:15:09.293  4546 23260 W System.err: 	at com.poxo.tittlifashionapplication.data.AssetRepository.insertSerializedTag(AssetRepository.kt:865)
+09-05 13:15:09.293  4546 23260 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.saveAndUploadTag$lambda$40(RegistrationActivity.kt:680)
+09-05 13:15:09.293  4546 23260 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$vEOmhcXKW5Icm-iJ04auOYnUTE8(RegistrationActivity.kt:0)
+09-05 13:15:09.293  4546 23260 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda56.run(D8$$SyntheticClass:0)
+09-05 13:15:09.294  4546 23260 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+09-05 13:15:16.166  4546 15424 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#213(BLAST Consumer)213](id:11c2000000f3,api:4,p:1494,c:4546) queueBuffer: BufferQueue has been abandoned
+09-05 13:15:16.174  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@217e5d7
+09-05 13:15:16.205  4546 15424 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#213(BLAST Consumer)213](id:11c2000000f3,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+09-05 13:15:16.206  4546 15424 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#213(BLAST Consumer)213](id:11c2000000f3,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+09-05 13:15:16.210  4546 15424 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#213(BLAST Consumer)213](id:11c2000000f3,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+09-05 13:15:16.212  4546 15424 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#213(BLAST Consumer)213](id:11c2000000f3,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+09-05 13:15:16.220  4546 15424 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#213(BLAST Consumer)213](id:11c2000000f3,api:4,p:1494,c:4546) queueBuffer: BufferQueue has been abandoned
+2026-09-05 13:15:16.768  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-05 13:15:16.768  I  Net: Blank Audit: mapped-product sync started
+2026-09-05 13:15:16.913  I  Net: Blank Audit: mapped-product sync finished (287 in 1 page(s))
+09-05 13:15:18.051  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@55edc04
+09-05 13:15:20.349  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b880ecd
+09-05 13:15:24.070  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d36cf47
+2026-09-05 13:15:24.772  I  Net: Blank Audit: closed, releasing the UHF module
+09-05 13:15:24.777  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4fc7ffa
+2026-09-05 13:15:29.677  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-05 13:15:51.218  W  UhfSession: Could not power up the UHF reader
+2026-09-05 13:15:59.968  I  UhfSession: UHF reader powered up
+09-05 13:16:01.951  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:16:01.951  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:16:01.951  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:16:01.951  4546  4556 W System  : A resource failed to call close. 
+09-05 13:16:01.951  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:16:01.951  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:16:01.951  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:16:01.951  4546  4556 W System  : A resource failed to call close. 
+09-05 13:16:07.555  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2e86690
+09-05 13:16:11.650  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@374ca6d
+09-05 13:16:11.660  4546  4546 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-05 13:16:11.907  I  SerialService: 'RFS-172-2': server holds 0 RFID(s); taking the lowest free serial 1 (RFS17220001)
+2026-09-05 13:16:14.272  I  SerialService: 'RFS-172-2': server holds 0 RFID(s); taking the lowest free serial 1 (RFS17220001)
+2026-09-05 13:16:15.064  I  Registration: Upload accepted for RFS17220001: HTTP 200 {"updated":1,"tags":[{"id":714,"epc":"RFS17220001","itemCode":"RFS-172-2","serialNo":1}]}
+2026-09-05 13:16:15.066  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-05 13:16:22.320  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2e6a381
+09-05 13:16:22.353  4546 10352 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#223(BLAST Consumer)223](id:11c2000000ff,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+09-05 13:16:22.353  4546 10352 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#223(BLAST Consumer)223](id:11c2000000ff,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+09-05 13:16:22.354  4546 10352 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#223(BLAST Consumer)223](id:11c2000000ff,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+09-05 13:16:22.355  4546 10352 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#223(BLAST Consumer)223](id:11c2000000ff,api:4,p:1494,c:4546) queueBuffer: BufferQueue has been abandoned
+09-05 13:16:22.357  4546 10352 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#223(BLAST Consumer)223](id:11c2000000ff,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+2026-09-05 13:16:27.405  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-05 13:16:31.805  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-05 13:16:31.806  I  Net: Blank Audit: mapped-product sync started
+2026-09-05 13:16:31.993  I  Net: Blank Audit: mapped-product sync finished (288 in 1 page(s))
+09-05 13:16:33.058  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3308a22
+2026-09-05 13:16:34.313  W  UhfSession: Could not power up the UHF reader
+09-05 13:16:40.078  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d4f3093
+2026-09-05 13:16:44.067  I  UhfSession: UHF reader powered up
+2026-09-05 13:16:45.449  I  UhfSession: UHF reader powered down: operator asked to reconnect
+2026-09-05 13:16:47.972  W  UhfSession: Could not power up the UHF reader
+2026-09-05 13:16:50.672  I  UhfSession: UHF reader powered up
+09-05 13:16:54.705  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@839f857
+2026-09-05 13:16:55.362  I  Net: Blank Audit: closed, releasing the UHF module
+09-05 13:16:55.367  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ab60dfa
+2026-09-05 13:17:00.075  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-05 13:17:23.863  W  UhfSession: Could not power up the UHF reader
+09-05 13:17:24.693  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c8214b7
+09-05 13:17:24.710  4546  4546 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-05 13:17:25.833  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:17:25.833  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:17:25.834  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:17:25.834  4546  4556 W System  : A resource failed to call close. 
+09-05 13:17:25.834  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:17:25.834  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:17:25.834  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:17:25.834  4546  4556 W System  : A resource failed to call close. 
+09-05 13:17:25.847  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:17:25.847  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:17:25.847  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:17:25.847  4546  4556 W System  : A resource failed to call close. 
+09-05 13:18:03.392  4546  4556 W System  : A resource failed to call close. 
+09-05 13:18:03.392  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:18:03.392  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:18:03.392  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:18:03.392  4546  4556 W System  : A resource failed to call close. 
+09-05 13:18:03.392  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:18:03.392  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:18:03.392  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:18:03.393  4546  4556 W System  : A resource failed to call close. 
+09-05 13:18:03.393  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:18:03.393  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:18:03.393  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:18:03.394  4546  4556 W System  : A resource failed to call close. 
+09-05 13:18:03.394  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:18:03.394  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:18:03.394  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:18:03.394  4546  4556 W System  : A resource failed to call close. 
+09-05 13:18:03.394  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:18:03.394  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:18:03.394  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:18:03.395  4546  4556 W System  : A resource failed to call close. 
+09-05 13:18:03.395  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:18:03.395  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:18:03.395  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:18:03.396  4546  4556 W System  : A resource failed to call close. 
+09-05 13:18:03.396  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:18:03.396  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:18:03.396  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:18:03.397  4546  4556 W System  : A resource failed to call close. 
+09-05 13:18:03.397  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:18:03.397  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:18:03.397  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:18:29.663  4546  4558 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#233](f:1,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-05 13:18:29.917  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6569b30
+2026-09-05 13:21:35.308  I  UhfSession: UHF reader powered up
+2026-09-05 13:21:36.679  I  UhfSession: UHF reader powered down: operator asked to reconnect
+2026-09-05 13:21:39.192  W  UhfSession: Could not power up the UHF reader
+09-05 13:21:45.296  4546  4556 W System  : A resource failed to call close. 
+09-05 13:21:45.296  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:21:45.296  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:21:45.296  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:21:46.863  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c97fb6
+2026-09-05 13:21:47.289  I  SerialService: 'RFS-172-7': server holds 0 RFID(s); taking the lowest free serial 1 (RFS17270001)
+2026-09-05 13:21:52.882  I  SerialService: 'RFS-172-7': server holds 0 RFID(s); taking the lowest free serial 1 (RFS17270001)
+2026-09-05 13:21:55.562  I  UhfSession: UHF reader powered up
+2026-09-05 13:21:56.097  I  SerialService: 'RFS-172-7': server holds 0 RFID(s); taking the lowest free serial 2 (RFS17270002)
+2026-09-05 13:21:56.143  I  Registration: Upload accepted for RFS17270001: HTTP 200 {"updated":1,"tags":[{"id":715,"epc":"RFS17270001","itemCode":"RFS-172-7","serialNo":1}]}
+2026-09-05 13:21:56.145  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-05 13:21:56.629  E  Registration: No product id for item code 'RFS-172-7' - tag RFS17270002 (serial 2) saved with id -1 and cannot be uploaded until Sync Data runs. Neither unMappedProduct nor mappedProduct has a row for it.
+2026-09-05 13:21:56.638  E  Registration: Tag RFS17270002 (item 'RFS-172-7', serial 2) has product id -1. The server will answer 400 'Each tag must have a valid id' to this. No row for 'RFS-172-7' in unMappedProduct or mappedProduct - the product list on this device is stale or the item code differs from the one that was synced.
+09-05 13:22:06.160  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5ee6a38
+09-05 13:22:06.176  4546  4558 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#237(BLAST Consumer)237](id:11c20000010f,api:4,p:1494,c:4546) queueBuffer: BufferQueue has been abandoned
+09-05 13:22:06.194  4546  4558 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#237(BLAST Consumer)237](id:11c20000010f,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+09-05 13:22:06.195  4546  4558 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#237(BLAST Consumer)237](id:11c20000010f,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+09-05 13:22:06.195  4546  4558 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#237(BLAST Consumer)237](id:11c20000010f,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+09-05 13:22:06.196  4546  4558 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#237(BLAST Consumer)237](id:11c20000010f,api:4,p:1494,c:4546) cancelBuffer: BufferQueue has been abandoned
+09-05 13:22:06.204  4546  4558 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#237(BLAST Consumer)237](id:11c20000010f,api:4,p:1494,c:4546) queueBuffer: BufferQueue has been abandoned
+2026-09-05 13:22:08.669  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-05 13:22:08.670  I  Net: Blank Audit: mapped-product sync started
+2026-09-05 13:22:08.815  I  Net: Blank Audit: mapped-product sync finished (289 in 1 page(s))
+09-05 13:22:10.203  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d183e9d
+09-05 13:22:14.522  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8411e72
+2026-09-05 13:22:33.270  I  Net: Blank Audit: closed, releasing the UHF module
+09-05 13:22:33.276  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8841b6
+09-05 13:22:50.039  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c9980fd
+09-05 13:22:50.055  4546  4546 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-05 13:23:00.409  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bfdf388
+2026-09-05 13:23:00.962  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-05 13:23:00.963  I  Net: Blank Audit: mapped-product sync started
+2026-09-05 13:23:01.106  I  Net: Blank Audit: mapped-product sync finished (289 in 1 page(s))
+09-05 13:23:02.074  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7905bb2
+09-05 13:23:04.950  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3a593e5
+09-05 13:23:09.098  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5d0ba8f
+09-05 13:23:09.226  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:23:09.226  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:23:09.226  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:23:09.226  4546  4556 W System  : A resource failed to call close. 
+09-05 13:23:09.226  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:23:09.226  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:23:09.227  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:23:09.227  4546  4556 W System  : A resource failed to call close. 
+09-05 13:23:09.227  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:23:09.227  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:23:09.227  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:23:09.227  4546  4556 W System  : A resource failed to call close. 
+09-05 13:23:09.234  4546  4556 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 13:23:09.234  4546  4556 W System  : A resource failed to call SQLiteConnection.close. 
+09-05 13:23:09.234  4546  4556 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-05 13:23:09.234  4546  4556 W System  : A resource failed to call close. 
+2026-09-05 13:23:09.797  I  Net: Blank Audit: closed, releasing the UHF module
+09-05 13:23:09.806  4546  4546 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ff108ad
+2026-09-05 13:23:15.087  I  UhfSession: UHF reader powered down: no screen is using the reader
