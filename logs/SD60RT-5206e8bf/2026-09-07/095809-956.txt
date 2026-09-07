@@ -1,0 +1,32 @@
+# pushed 2026-09-07 09:58:09.956 (scheduled)
+# app=1.9 (build 10) device=alps SD60RT display=V.SD60RT.2.1.29.2019120516 android=8.1.0 (sdk 27) server=http://164.52.223.163:4636 location=TITLI FASHIONS — BARODA
+# bytes 143208..146525
+
+2026-09-07 09:57:39.924  I  Session: app=1.9 (build 10) device=alps SD60RT display=V.SD60RT.2.1.29.2019120516 android=8.1.0 (sdk 27) server=<not configured> location=TITLI FASHIONS — BARODA
+2026-09-07 09:57:39.951  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as SD60RT-5206e8bf
+2026-09-07 09:57:39.961  I  Net: wifi connected
+2026-09-07 09:57:39.966  W  Net: wifi is up but has NO internet (rssi -57 dBm)
+--------- beginning of main
+09-07 09:57:40.838 19357 19401 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-07 09:57:40.839 19357 19401 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+09-07 09:57:40.839 19357 19401 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+09-07 09:57:40.839 19357 19401 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+09-07 09:57:40.840 19357 19401 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+09-07 09:57:40.840 19357 19401 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+09-07 09:57:40.840 19357 19401 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+09-07 09:57:40.840 19357 19401 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+09-07 09:57:40.840 19357 19401 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+09-07 09:57:40.840 19357 19401 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+09-07 09:57:40.840 19357 19401 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:538)
+09-07 09:57:40.840 19357 19401 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+09-07 09:57:40.841 19357 19401 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(Unknown Source:0)
+09-07 09:57:40.841 19357 19401 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+09-07 09:57:40.841 19357 19401 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+2026-09-07 09:57:41.341  W  Net: wifi DISCONNECTED — link had been up for 1s
+09-07 09:57:48.444 19357 19366 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+2026-09-07 09:57:48.451  I  Net: wifi connected
+2026-09-07 09:57:48.457  W  Net: wifi is up but has NO internet (rssi -59 dBm)
+2026-09-07 09:57:59.177  W  Net: wifi DISCONNECTED — link had been up for 10s
+2026-09-07 09:58:06.021  I  Net: wifi connected
+2026-09-07 09:58:06.033  W  Net: wifi is up but has NO internet (rssi -25 dBm)
+2026-09-07 09:58:06.629  I  Net: wifi has internet (rssi -25 dBm)
