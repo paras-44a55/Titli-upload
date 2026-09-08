@@ -1,0 +1,149 @@
+# pushed 2026-09-08 17:59:49.825 (scheduled)
+# app=1.9 (build 10) device=alps SD60RT display=V.SD60RT.2.1.29.2019120516 android=8.1.0 (sdk 27) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 231984..247048
+
+09-08 17:57:25.670  8613  8613 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-08 17:57:25.680  8613  8613 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-08 17:57:25.760  8613  8613 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-08 17:57:25.825  8613  8613 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-08 17:57:25.832  8613  8613 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-08 17:57:26.082  8613  8682 W OkHttpClient: A connection to https://api.github.com/ was leaked. Did you forget to close a response body?
+09-08 17:57:35.189  8613  8613 W AudioTrack: Client adjusted notificationFrames from 1024 to 256 for frameCount 960
+09-08 17:57:35.436  8613  8613 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+09-08 17:57:35.530  8613  8613 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+2026-09-08 17:57:35.906  I  UhfSession: UHF reader powered up
+09-08 17:57:35.908  8613  8760 W GooglePlayServicesUtil: com.poxo.tittlifashionapplication requires the Google Play Store, but it is missing.
+09-08 17:57:35.909  8613  8760 W GoogleApiManager: The service for com.google.android.gms.common.internal.service.zap is not available: ConnectionResult{statusCode=SERVICE_INVALID, resolution=null, message=null}
+09-08 17:57:36.078  8613  8613 E GED     : ged_gpu_timestamp: GED_ERROR_FAIL eErr = 0, 7
+09-08 17:57:36.362  8613  8613 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+09-08 17:57:36.488  8613  8785 W LegacyRequestMapper: convertRequestMetadata - control.awbRegions setting is not supported, ignoring value
+09-08 17:57:36.488  8613  8785 W LegacyRequestMapper: Only received metering rectangles with weight 0.
+09-08 17:57:36.489  8613  8785 W LegacyRequestMapper: Only received metering rectangles with weight 0.
+09-08 17:57:36.826  8613  8786 E BufferQueueProducer: [SurfaceTexture-0-8613-0](this:0x7cc2345800,id:2,api:1,p:8613,c:8613) *** UNEXPECTED graphic buffer allocation result ***
+09-08 17:57:36.909  8613  8786 E BufferQueueProducer: [SurfaceTexture-0-8613-0](this:0x7cc2345800,id:2,api:1,p:8613,c:8613) *** UNEXPECTED graphic buffer allocation result ***
+09-08 17:57:37.056  8613  8760 W GooglePlayServicesUtil: com.poxo.tittlifashionapplication requires the Google Play Store, but it is missing.
+09-08 17:57:37.057  8613  8760 W GoogleApiManager: The service for com.google.android.gms.common.internal.service.zap is not available: ConnectionResult{statusCode=SERVICE_INVALID, resolution=null, message=null}
+2026-09-08 17:57:50.238  E  ProductSync: mapped page 1 failed
+java.net.SocketTimeoutException: failed to connect to /10.255.255.1 (port 9) from /192.168.137.192 (port 40388) after 15000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:185)
+	at libcore.io.IoBridge.connect(IoBridge.java:130)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:129)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:356)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:357)
+	at java.net.Socket.connect(Socket.java:626)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:141)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:538)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:887)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:764)
+09-08 17:58:01.741  8613  8786 E BufferQueueProducer: [SurfaceTexture-0-8613-0](this:0x7cc2345800,id:2,api:1,p:8613,c:8613) *** UNEXPECTED graphic buffer allocation result ***
+2026-09-08 17:58:05.279  W  ProductSync: unmapped row-count probe failed
+java.net.SocketTimeoutException: failed to connect to /10.255.255.1 (port 9) from /192.168.137.192 (port 40390) after 15000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:185)
+	at libcore.io.IoBridge.connect(IoBridge.java:130)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:129)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:356)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:357)
+	at java.net.Socket.connect(Socket.java:626)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:141)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:538)
+	at com.poxo.tittlifashionapplication.data.ProductSync.serverRowCount(ProductSync.kt:228)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:177)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:965)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:764)
+2026-09-08 17:58:20.311  E  ProductSync: unmapped page 1 failed
+java.net.SocketTimeoutException: failed to connect to /10.255.255.1 (port 9) from /192.168.137.192 (port 40392) after 15000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:185)
+	at libcore.io.IoBridge.connect(IoBridge.java:130)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:129)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:356)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:357)
+	at java.net.Socket.connect(Socket.java:626)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:141)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:538)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:965)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:764)
+09-08 17:59:11.921  8613  8786 W SurfaceTextureRenderer: No output surfaces configured for GL drawing.
+09-08 17:59:12.866  8613  8613 W AudioTrack: Client adjusted notificationFrames from 1024 to 256 for frameCount 960
+09-08 17:59:13.010  8613  8613 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+09-08 17:59:13.074  8613  8613 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+09-08 17:59:13.491  8613  8622 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-08 17:59:13.608  8613  8988 W LegacyRequestMapper: convertRequestMetadata - control.awbRegions setting is not supported, ignoring value
+09-08 17:59:13.608  8613  8988 W LegacyRequestMapper: Only received metering rectangles with weight 0.
+09-08 17:59:13.608  8613  8988 W LegacyRequestMapper: Only received metering rectangles with weight 0.
+09-08 17:59:13.897  8613  8989 E BufferQueueProducer: [SurfaceTexture-0-8613-4](this:0x7cc3bb6000,id:8,api:1,p:8613,c:8613) *** UNEXPECTED graphic buffer allocation result ***
+09-08 17:59:13.965  8613  8989 E BufferQueueProducer: [SurfaceTexture-0-8613-4](this:0x7cc3bb6000,id:8,api:1,p:8613,c:8613) *** UNEXPECTED graphic buffer allocation result ***
+2026-09-08 17:59:19.769  I  Session: app=1.9 (build 10) device=alps SD60RT display=V.SD60RT.2.1.29.2019120516 android=8.1.0 (sdk 27) server=<not configured> location=TITLI NEEMUCH
+2026-09-08 17:59:19.792  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as SD60RT-5206e8bf
+2026-09-08 17:59:19.803  I  Net: wifi connected
+2026-09-08 17:59:19.809  I  Net: wifi has internet (rssi -38 dBm)
+--------- beginning of main
+09-08 17:59:23.853  9032  9032 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-08 17:59:23.860  9032  9032 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-08 17:59:23.934  9032  9032 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-08 17:59:23.999  9032  9032 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-08 17:59:24.006  9032  9032 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-08 17:59:35.805  9032  9032 W AudioTrack: Client adjusted notificationFrames from 1024 to 256 for frameCount 960
+09-08 17:59:36.041  9032  9032 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+09-08 17:59:36.131  9032  9032 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+2026-09-08 17:59:36.527  I  UhfSession: UHF reader powered up
+09-08 17:59:36.544  9032  9150 W GooglePlayServicesUtil: com.poxo.tittlifashionapplication requires the Google Play Store, but it is missing.
+09-08 17:59:36.546  9032  9150 W GoogleApiManager: The service for com.google.android.gms.common.internal.service.zap is not available: ConnectionResult{statusCode=SERVICE_INVALID, resolution=null, message=null}
+09-08 17:59:36.754  9032  9032 E GED     : ged_gpu_timestamp: GED_ERROR_FAIL eErr = 0, 7
+09-08 17:59:37.043  9032  9032 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+09-08 17:59:37.179  9032  9175 W LegacyRequestMapper: convertRequestMetadata - control.awbRegions setting is not supported, ignoring value
+09-08 17:59:37.179  9032  9175 W LegacyRequestMapper: Only received metering rectangles with weight 0.
+09-08 17:59:37.179  9032  9175 W LegacyRequestMapper: Only received metering rectangles with weight 0.
+2026-09-08 17:59:37.353  I  ProductSync: unmapped unchanged at 290 row(s) — skipped the full pull
+09-08 17:59:37.476  9032  9176 E BufferQueueProducer: [SurfaceTexture-0-9032-0](this:0x7ca6a3d800,id:2,api:1,p:9032,c:9032) *** UNEXPECTED graphic buffer allocation result ***
+09-08 17:59:37.553  9032  9176 E BufferQueueProducer: [SurfaceTexture-0-9032-0](this:0x7ca6a3d800,id:2,api:1,p:9032,c:9032) *** UNEXPECTED graphic buffer allocation result ***
+09-08 17:59:37.686  9032  9150 W GooglePlayServicesUtil: com.poxo.tittlifashionapplication requires the Google Play Store, but it is missing.
+09-08 17:59:37.686  9032  9150 W GoogleApiManager: The service for com.google.android.gms.common.internal.service.zap is not available: ConnectionResult{statusCode=SERVICE_INVALID, resolution=null, message=null}
+09-08 17:59:38.027  9032  9041 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
