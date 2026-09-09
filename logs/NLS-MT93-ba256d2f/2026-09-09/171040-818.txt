@@ -1,0 +1,114 @@
+# pushed 2026-09-09 17:10:40.818 (backgrounded)
+# app=2.0 (build 11) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 143950..159745
+
+09-09 17:03:08.544  4536  4544 W System  : A resource failed to call close. 
+09-09 17:03:08.544  4536  4544 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-09 17:03:08.544  4536  4544 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-09 17:03:08.544  4536  4544 W System  : A resource failed to call SQLiteConnection.close. 
+09-09 17:03:43.196  4536  9150 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#83(BLAST Consumer)83](id:11b80000005b,api:4,p:1494,c:4536) dequeueBuffer: BufferQueue has been abandoned
+09-09 17:03:43.211  4536  9150 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#83(BLAST Consumer)83](id:11b80000005b,api:4,p:1494,c:4536) queueBuffer: BufferQueue has been abandoned
+09-09 17:03:43.241  4536  4754 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#83(BLAST Consumer)83](id:11b80000005b,api:4,p:1494,c:4536) queueBuffer: BufferQueue has been abandoned
+09-09 17:03:43.253  4536  4754 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#83(BLAST Consumer)83](id:11b80000005b,api:4,p:1494,c:4536) cancelBuffer: BufferQueue has been abandoned
+09-09 17:03:43.255  4536  4754 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#83(BLAST Consumer)83](id:11b80000005b,api:4,p:1494,c:4536) cancelBuffer: BufferQueue has been abandoned
+09-09 17:03:43.256  4536  4754 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#83(BLAST Consumer)83](id:11b80000005b,api:4,p:1494,c:4536) cancelBuffer: BufferQueue has been abandoned
+2026-09-09 17:03:44.616  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-09 17:04:05.355  I  UhfSession: UHF reader powered up
+2026-09-09 17:04:07.718  I  SerialService: 'PGH-9062': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH90620002)
+2026-09-09 17:04:08.324  I  Registration: Upload accepted for PGH90620002: HTTP 200 {"updated":1,"tags":[{"id":920,"epc":"PGH90620002","itemCode":"PGH-9062","serialNo":2}]}
+2026-09-09 17:04:08.325  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-09 17:04:27.318  4536  4536 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@753b6ec
+09-09 17:04:27.326  4536  4536 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-09 17:04:27.760  I  SerialService: 'PGH-9091': server holds 0 RFID(s); taking the lowest free serial 1 (PGH90910001)
+2026-09-09 17:04:32.780  I  SerialService: 'PGH-9091': server holds 0 RFID(s); taking the lowest free serial 1 (PGH90910001)
+2026-09-09 17:04:33.973  I  SerialService: 'PGH-9091': server holds 0 RFID(s); taking the lowest free serial 1 (PGH90910001)
+09-09 17:04:35.508  4536  4544 W System  : A resource failed to call close. 
+09-09 17:04:35.508  4536  4544 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-09 17:04:35.509  4536  4544 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-09 17:04:35.509  4536  4544 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-09 17:04:36.845  I  SerialService: 'PGH-9091': server holds 0 RFID(s); taking the lowest free serial 1 (PGH90910001)
+2026-09-09 17:04:36.894  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-09 17:04:37.437  I  Registration: Upload accepted for PGH90910001: HTTP 200 {"updated":1,"tags":[{"id":921,"epc":"PGH90910001","itemCode":"PGH-9091","serialNo":1}]}
+2026-09-09 17:04:37.438  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-09 17:04:38.124  4536 10814 W System.err: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: serialized_tags.epc (code 1555 SQLITE_CONSTRAINT_PRIMARYKEY)
+09-09 17:04:38.127  4536 10814 W System.err: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+09-09 17:04:38.128  4536 10814 W System.err: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:974)
+2026-09-09 17:04:38.129  E  Registration: EPC collision: PGH90910001 (seq 1, item PGH-9091) already exists in serialized_tags - the allocator handed out a number already in use
+09-09 17:04:38.128  4536 10814 W System.err: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:814)
+09-09 17:04:38.128  4536 10814 W System.err: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+09-09 17:04:38.128  4536 10814 W System.err: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1981)
+09-09 17:04:38.128  4536 10814 W System.err: 	at com.poxo.tittlifashionapplication.data.AssetRepository.insertSerializedTag(AssetRepository.kt:865)
+09-09 17:04:38.128  4536 10814 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.saveAndUploadTag$lambda$40(RegistrationActivity.kt:681)
+09-09 17:04:38.128  4536 10814 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$vEOmhcXKW5Icm-iJ04auOYnUTE8(RegistrationActivity.kt:0)
+09-09 17:04:38.129  4536 10814 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda60.run(D8$$SyntheticClass:0)
+09-09 17:04:38.129  4536 10814 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+2026-09-09 17:04:46.584  I  SerialService: 'PGH-9091': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH90910002)
+2026-09-09 17:04:47.253  I  Registration: Upload accepted for PGH90910002: HTTP 200 {"updated":1,"tags":[{"id":922,"epc":"PGH90910002","itemCode":"PGH-9091","serialNo":2}]}
+2026-09-09 17:04:47.255  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-09 17:05:06.212  I  SerialService: 'PGH-9091': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PGH90910003)
+2026-09-09 17:05:06.818  I  Registration: Upload accepted for PGH90910003: HTTP 200 {"updated":1,"tags":[{"id":923,"epc":"PGH90910003","itemCode":"PGH-9091","serialNo":3}]}
+2026-09-09 17:05:06.819  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-09 17:05:14.544  I  SerialService: 'PGH-9091': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (PGH90910004)
+2026-09-09 17:05:15.917  I  Registration: Upload accepted for PGH90910004: HTTP 200 {"updated":1,"tags":[{"id":924,"epc":"PGH90910004","itemCode":"PGH-9091","serialNo":4}]}
+2026-09-09 17:05:15.918  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-09 17:05:36.464  4536  4536 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e2a3716
+09-09 17:05:36.473  4536  4536 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-09 17:05:43.750  4536  4536 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@687cb4e
+09-09 17:05:43.758  4536  4536 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-09 17:05:44.090  I  SerialService: 'PGH-9167': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91670001)
+2026-09-09 17:05:47.137  I  SerialService: 'PGH-9167': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91670001)
+2026-09-09 17:05:48.111  I  SerialService: 'PGH-9167': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91670001)
+2026-09-09 17:05:51.250  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-09 17:05:52.357  I  Registration: Upload accepted for PGH91670001: HTTP 200 {"updated":1,"tags":[{"id":925,"epc":"PGH91670001","itemCode":"PGH-9167","serialNo":1}]}
+2026-09-09 17:05:52.358  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-09 17:06:00.411  I  SerialService: 'PGH-9167': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH91670002)
+2026-09-09 17:06:03.061  I  Registration: Upload accepted for PGH91670002: HTTP 200 {"updated":1,"tags":[{"id":926,"epc":"PGH91670002","itemCode":"PGH-9167","serialNo":2}]}
+2026-09-09 17:06:03.064  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-09 17:06:14.770  4536  4536 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@14fe4a5
+09-09 17:06:14.776  4536  4536 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-09 17:06:14.896  4536  4544 W System  : A resource failed to call close. 
+09-09 17:06:14.896  4536  4544 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-09 17:06:14.896  4536  4544 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-09 17:06:14.896  4536  4544 W System  : A resource failed to call SQLiteConnection.close. 
+09-09 17:06:40.912  4536  4536 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c8818e5
+09-09 17:06:40.920  4536  4536 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-09 17:06:41.013  I  SerialService: 'PGH-9205': server holds 0 RFID(s); taking the lowest free serial 1 (PGH92050001)
+2026-09-09 17:06:48.291  I  SerialService: 'PGH-9205': server holds 0 RFID(s); taking the lowest free serial 1 (PGH92050001)
+2026-09-09 17:06:49.018  I  Registration: Upload accepted for PGH92050001: HTTP 200 {"updated":1,"tags":[{"id":927,"epc":"PGH92050001","itemCode":"PGH-9205","serialNo":1}]}
+2026-09-09 17:06:49.019  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-09 17:07:27.571  I  SerialService: 'PGH-9205': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH92050002)
+2026-09-09 17:07:28.208  I  Registration: Upload accepted for PGH92050002: HTTP 200 {"updated":1,"tags":[{"id":928,"epc":"PGH92050002","itemCode":"PGH-9205","serialNo":2}]}
+2026-09-09 17:07:28.210  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-09 17:07:55.759  4536  4536 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ca5fa7b
+09-09 17:07:55.771  4536  4536 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-09 17:07:56.082  I  SerialService: 'PGH-9047': server holds 0 RFID(s); taking the lowest free serial 1 (PGH90470001)
+2026-09-09 17:07:57.800  I  SerialService: 'PGH-9047': server holds 0 RFID(s); taking the lowest free serial 1 (PGH90470001)
+2026-09-09 17:07:58.607  I  Registration: Upload accepted for PGH90470001: HTTP 200 {"updated":1,"tags":[{"id":929,"epc":"PGH90470001","itemCode":"PGH-9047","serialNo":1}]}
+2026-09-09 17:07:58.608  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-09 17:08:15.378  I  SerialService: 'PGH-9047': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH90470002)
+2026-09-09 17:08:16.760  I  Registration: Upload accepted for PGH90470002: HTTP 200 {"updated":1,"tags":[{"id":930,"epc":"PGH90470002","itemCode":"PGH-9047","serialNo":2}]}
+2026-09-09 17:08:16.761  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-09 17:08:28.994  I  SerialService: 'PGH-9047': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PGH90470003)
+2026-09-09 17:08:29.854  I  Registration: Upload accepted for PGH90470003: HTTP 200 {"updated":1,"tags":[{"id":931,"epc":"PGH90470003","itemCode":"PGH-9047","serialNo":3}]}
+2026-09-09 17:08:29.856  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-09 17:08:31.313  4536  4544 W System  : A resource failed to call close. 
+09-09 17:08:31.314  4536  4544 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-09 17:08:31.314  4536  4544 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-09 17:08:31.314  4536  4544 W System  : A resource failed to call SQLiteConnection.close. 
+09-09 17:08:43.753  4536  4536 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fb46bcd
+09-09 17:08:47.472  4536  4536 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ff2c1f6
+2026-09-09 17:08:47.519  I  SerialService: 'PGH-9080': server holds 0 RFID(s); taking the lowest free serial 1 (PGH90800001)
+2026-09-09 17:08:56.608  I  SerialService: 'PGH-9080': server holds 0 RFID(s); taking the lowest free serial 1 (PGH90800001)
+2026-09-09 17:08:57.793  I  SerialService: 'PGH-9080': server holds 0 RFID(s); taking the lowest free serial 1 (PGH90800001)
+2026-09-09 17:09:00.607  I  SerialService: 'PGH-9080': server holds 0 RFID(s); taking the lowest free serial 1 (PGH90800001)
+2026-09-09 17:09:01.152  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-09 17:09:01.426  I  Registration: Upload accepted for PGH90800001: HTTP 200 {"updated":1,"tags":[{"id":932,"epc":"PGH90800001","itemCode":"PGH-9080","serialNo":1}]}
+2026-09-09 17:09:01.427  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-09 17:09:01.986  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-09 17:09:15.882  I  SerialService: 'PGH-9080': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH90800002)
+2026-09-09 17:09:16.774  I  Registration: Upload accepted for PGH90800002: HTTP 200 {"updated":1,"tags":[{"id":933,"epc":"PGH90800002","itemCode":"PGH-9080","serialNo":2}]}
+2026-09-09 17:09:16.776  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-09 17:09:35.368  I  SerialService: 'PGH-9080': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PGH90800003)
+2026-09-09 17:09:36.239  I  Registration: Upload accepted for PGH90800003: HTTP 200 {"updated":1,"tags":[{"id":934,"epc":"PGH90800003","itemCode":"PGH-9080","serialNo":3}]}
+2026-09-09 17:09:36.240  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-09 17:10:40.805  4536  9150 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#88(BLAST Consumer)88](id:11b800000060,api:4,p:1494,c:4536) queueBuffer: BufferQueue has been abandoned
