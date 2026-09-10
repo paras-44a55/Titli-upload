@@ -1,0 +1,230 @@
+# pushed 2026-09-10 14:40:06.048 (scheduled)
+# app=2.0 (build 11) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 39069..65467
+
+09-10 14:24:51.410 20179 20287 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#75(BLAST Consumer)75](id:4ed300000051,api:4,p:1466,c:20179) queueBuffer: BufferQueue has been abandoned
+09-10 14:24:51.434 20179 20287 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#75(BLAST Consumer)75](id:4ed300000051,api:4,p:1466,c:20179) cancelBuffer: BufferQueue has been abandoned
+09-10 14:24:51.434 20179 20739 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#75(BLAST Consumer)75](id:4ed300000051,api:4,p:1466,c:20179) cancelBuffer: BufferQueue has been abandoned
+09-10 14:24:51.435 20179 20739 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#75(BLAST Consumer)75](id:4ed300000051,api:4,p:1466,c:20179) cancelBuffer: BufferQueue has been abandoned
+09-10 14:24:51.443 20179 20739 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#75(BLAST Consumer)75](id:4ed300000051,api:4,p:1466,c:20179) cancelBuffer: BufferQueue has been abandoned
+2026-09-10 14:24:52.791  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-10 14:36:46.700  W  Net: wifi DISCONNECTED — link had been up for 3473s
+2026-09-10 14:36:49.397  I  UhfSession: UHF reader powered up
+09-10 14:36:51.290 20179 20185 W hionapplication: Reducing the number of considered missed Gc histogram windows from 236 to 100
+09-10 14:39:04.561 20179 20179 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@71467d0
+2026-09-10 14:39:04.575  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.refreshMappedProducts(RegistrationActivity.kt:1770)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:380)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-10 14:39:04.580  E  SerialService: RFID lookup for 'RAPL-3037' failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:86)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:161)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:160)
+	at com.poxo.tittlifashionapplication.data.SerialService.nextFreeSerial(SerialService.kt:191)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:385)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-10 14:39:07.098  E  SerialService: RFID lookup for 'RAPL-3037' failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:86)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:161)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-10 14:39:07.100  E  Registration: Write blocked for 'RAPL-3037': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-09-10 14:39:10.841  E  SerialService: RFID lookup for 'RAPL-3037' failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:86)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:161)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-10 14:39:10.844  E  Registration: Write blocked for 'RAPL-3037': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-09-10 14:39:15.131  E  SerialService: RFID lookup for 'RAPL-3037' failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:86)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:161)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-10 14:39:15.134  E  Registration: Write blocked for 'RAPL-3037': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-09-10 14:39:16.677  E  SerialService: RFID lookup for 'RAPL-3037' failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:86)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:161)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-10 14:39:16.678  E  Registration: Write blocked for 'RAPL-3037': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-09-10 14:39:21.344  E  SerialService: RFID lookup for 'RAPL-3037' failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:86)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:161)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-10 14:39:21.347  E  Registration: Write blocked for 'RAPL-3037': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+09-10 14:39:28.995 20179 20191 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#79](f:1,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-10 14:39:29.132 20179 26421 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#79(BLAST Consumer)79](id:4ed300000055,api:4,p:1466,c:20179) queueBuffer: BufferQueue has been abandoned
+09-10 14:39:29.158 20179 20738 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#79(BLAST Consumer)79](id:4ed300000055,api:4,p:1466,c:20179) queueBuffer: BufferQueue has been abandoned
+09-10 14:39:29.169 20179 20738 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#79(BLAST Consumer)79](id:4ed300000055,api:4,p:1466,c:20179) cancelBuffer: BufferQueue has been abandoned
+09-10 14:39:29.170 20179 20738 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#79(BLAST Consumer)79](id:4ed300000055,api:4,p:1466,c:20179) cancelBuffer: BufferQueue has been abandoned
+09-10 14:39:29.171 20179 20738 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#79(BLAST Consumer)79](id:4ed300000055,api:4,p:1466,c:20179) cancelBuffer: BufferQueue has been abandoned
+09-10 14:39:29.171 20179 20738 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#79(BLAST Consumer)79](id:4ed300000055,api:4,p:1466,c:20179) cancelBuffer: BufferQueue has been abandoned
+2026-09-10 14:39:36.024  I  Session: app=2.0 (build 11) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-09-10 14:39:36.037  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+--------- beginning of main
+09-10 14:39:36.077 26773 26798 W QT      : qt_process_init() called
+09-10 14:39:36.077 26773 26798 E QT      : [QT]file does not exist
+09-10 14:39:36.077 26773 26798 W QT      : Support!!
+09-10 14:39:36.303 26773 26773 W HWUI    : Unknown dataspace 0
+09-10 14:39:36.314 26773 26800 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-10 14:39:36.315 26773 26800 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+09-10 14:39:36.315 26773 26800 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-10 14:39:36.315 26773 26800 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-10 14:39:36.315 26773 26800 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-10 14:39:36.315 26773 26800 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-10 14:39:36.315 26773 26800 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-10 14:39:36.315 26773 26800 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-10 14:39:36.316 26773 26800 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-10 14:39:36.316 26773 26800 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+09-10 14:39:36.316 26773 26800 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+09-10 14:39:36.316 26773 26800 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+09-10 14:39:36.316 26773 26800 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(LoginActivity.kt:0)
+09-10 14:39:36.316 26773 26800 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+09-10 14:39:36.316 26773 26800 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+09-10 14:39:36.443 26773 26796 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-10 14:39:36.467 26773 26796 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-10 14:39:37.801 26773 26844 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+09-10 14:39:40.209 26773 26868 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-10 14:39:40.209 26773 26868 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+09-10 14:39:40.209 26773 26868 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-10 14:39:40.209 26773 26868 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-10 14:39:40.209 26773 26868 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-10 14:39:40.209 26773 26868 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-10 14:39:40.210 26773 26868 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-10 14:39:40.210 26773 26868 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-10 14:39:40.210 26773 26868 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-10 14:39:40.210 26773 26868 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-10 14:39:40.210 26773 26868 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-10 14:39:40.210 26773 26868 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-10 14:39:40.210 26773 26868 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-10 14:39:40.216 26773 26868 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(LoginActivity.kt:0)
+09-10 14:39:40.216 26773 26868 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-10 14:39:40.216 26773 26868 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+09-10 14:39:40.236 26773 26773 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1c6fb59
+09-10 14:39:41.086 26773 26773 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8bc3165
+09-10 14:39:41.686 26773 26872 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-10 14:39:41.686 26773 26872 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-10 14:39:41.687 26773 26872 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(LoginActivity.kt:0)
+09-10 14:39:41.687 26773 26872 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-10 14:39:41.688 26773 26872 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+09-10 14:39:41.701 26773 26773 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6f1dd31
+09-10 14:39:42.426 26773 26773 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1046b80
+09-10 14:39:59.164 26773 26781 W System  : A resource failed to call close. 
+09-10 14:39:59.164 26773 26781 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-10 14:39:59.164 26773 26781 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-10 14:39:59.164 26773 26781 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-10 14:39:59.321  I  Net: wifi connected
+2026-09-10 14:39:59.324  W  Net: wifi is up but has NO internet (rssi -77 dBm)
+2026-09-10 14:39:59.339  I  Net: wifi has internet (rssi -77 dBm)
