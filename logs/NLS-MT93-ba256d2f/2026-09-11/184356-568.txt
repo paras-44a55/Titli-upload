@@ -1,0 +1,92 @@
+# pushed 2026-09-11 18:43:56.568 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 488352..501533
+
+09-11 18:39:07.717 13760 14737 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#147](f:1,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-11 18:39:07.958 13760 13760 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@69b5e4a
+2026-09-11 18:39:09.094  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-11 18:40:06.189  W  UhfSession: Could not power up the UHF reader
+09-11 18:40:23.104 13760 13760 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a7c0f80
+2026-09-11 18:40:23.892  I  SerialService: 'PMFG-1462': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1462 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:40:23.925  I  SerialService: 'PMFG-1462': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1462&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:40:23.956  I  SerialService: 'PMFG-1462': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1462&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:40:23.962  I  SerialService: 'PMFG-1462': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 18:40:23.963  I  SerialService: 'PMFG-1462': server holds 0 RFID(s); taking the lowest free serial 1 (PMFG14620001)
+2026-09-11 18:40:31.639  I  SerialService: 'PMFG-1462': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1462 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:40:31.671  I  SerialService: 'PMFG-1462': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1462&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:40:31.704  I  SerialService: 'PMFG-1462': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1462&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:40:31.711  I  SerialService: 'PMFG-1462': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 18:40:31.712  I  SerialService: 'PMFG-1462': server holds 0 RFID(s); taking the lowest free serial 1 (PMFG14620001)
+2026-09-11 18:40:34.373  I  UhfSession: UHF reader powered up
+2026-09-11 18:40:35.003  I  Registration: Upload accepted for PMFG14620001: HTTP 200 {"updated":1,"tags":[{"id":1297,"epc":"PMFG14620001","itemCode":"PMFG-1462","serialNo":1}]}
+2026-09-11 18:40:35.007  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-11 18:40:41.297  I  SerialService: 'PMFG-1462': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PMFG14620002)
+2026-09-11 18:40:41.923  I  Registration: Upload accepted for PMFG14620002: HTTP 200 {"updated":1,"tags":[{"id":1298,"epc":"PMFG14620002","itemCode":"PMFG-1462","serialNo":2}]}
+2026-09-11 18:40:41.924  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 18:40:45.366 13760 13768 W System  : A resource failed to call close. 
+09-11 18:40:45.366 13760 13768 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-11 18:40:45.366 13760 13768 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-11 18:40:45.366 13760 13768 W System  : A resource failed to call SQLiteConnection.close. 
+09-11 18:40:45.366 13760 13768 W System  : A resource failed to call AbstractCursor.close. 
+09-11 18:40:45.368 13760 13768 W System  : A resource failed to call AbstractCursor.close. 
+09-11 18:40:45.370 13760 13768 W System  : A resource failed to call AbstractCursor.close. 
+09-11 18:41:04.625 13760 13760 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ada3220
+09-11 18:41:13.665 13760 13760 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fb41b8
+09-11 18:41:13.677 13760 13760 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 18:41:13.715  I  SerialService: 'PMFG-1517': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1517 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:41:13.749  I  SerialService: 'PMFG-1517': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1517&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:41:13.781  I  SerialService: 'PMFG-1517': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1517&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:41:13.785  I  SerialService: 'PMFG-1517': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 18:41:13.786  I  SerialService: 'PMFG-1517': server holds 0 RFID(s); taking the lowest free serial 1 (PMFG15170001)
+09-11 18:41:17.873 13760 13768 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-11 18:41:18.549  I  SerialService: 'PMFG-1517': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1517 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:41:18.586  I  SerialService: 'PMFG-1517': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1517&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:41:18.624  I  SerialService: 'PMFG-1517': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1517&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:41:18.632  I  SerialService: 'PMFG-1517': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 18:41:18.634  I  SerialService: 'PMFG-1517': server holds 0 RFID(s); taking the lowest free serial 1 (PMFG15170001)
+2026-09-11 18:41:19.730  I  Registration: Upload accepted for PMFG15170001: HTTP 200 {"updated":1,"tags":[{"id":1299,"epc":"PMFG15170001","itemCode":"PMFG-1517","serialNo":1}]}
+2026-09-11 18:41:19.732  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-11 18:41:21.990  W  Net: wifi DISCONNECTED — link had been up for 499s
+2026-09-11 18:41:25.175  I  Net: wifi connected
+2026-09-11 18:41:25.176  W  Net: wifi is up but has NO internet (rssi -71 dBm)
+2026-09-11 18:41:25.191  I  Net: wifi has internet (rssi -71 dBm)
+2026-09-11 18:41:27.509  I  SerialService: 'PMFG-1517': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PMFG15170002)
+2026-09-11 18:41:28.122  I  Registration: Upload accepted for PMFG15170002: HTTP 200 {"updated":1,"tags":[{"id":1300,"epc":"PMFG15170002","itemCode":"PMFG-1517","serialNo":2}]}
+2026-09-11 18:41:28.123  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-11 18:41:34.111  I  SerialService: 'PMFG-1517': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PMFG15170003)
+2026-09-11 18:41:36.645  I  Registration: Upload accepted for PMFG15170003: HTTP 200 {"updated":1,"tags":[{"id":1301,"epc":"PMFG15170003","itemCode":"PMFG-1517","serialNo":3}]}
+2026-09-11 18:41:36.646  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 18:41:46.406 13760 13760 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f91c91e
+09-11 18:41:50.797 13760 13768 W System  : A resource failed to call AbstractCursor.close. 
+09-11 18:41:50.799 13760 13768 W System  : A resource failed to call AbstractCursor.close. 
+09-11 18:41:50.800 13760 13768 W System  : A resource failed to call AbstractCursor.close. 
+09-11 18:43:04.998 13760 13760 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d49d948
+2026-09-11 18:43:05.329  I  SerialService: 'PMFG-1501': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1501 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:43:05.360  I  SerialService: 'PMFG-1501': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1501&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:43:05.392  I  SerialService: 'PMFG-1501': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1501&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:43:05.395  I  SerialService: 'PMFG-1501': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 18:43:05.397  I  SerialService: 'PMFG-1501': server holds 0 RFID(s); taking the lowest free serial 1 (PMFG15010001)
+2026-09-11 18:43:18.367  I  SerialService: 'PMFG-1501': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1501 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:43:18.403  I  SerialService: 'PMFG-1501': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1501&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:43:18.438  I  SerialService: 'PMFG-1501': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1501&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 18:43:18.449  I  SerialService: 'PMFG-1501': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 18:43:18.451  I  SerialService: 'PMFG-1501': server holds 0 RFID(s); taking the lowest free serial 1 (PMFG15010001)
+2026-09-11 18:43:19.072  I  Registration: Upload accepted for PMFG15010001: HTTP 200 {"updated":1,"tags":[{"id":1302,"epc":"PMFG15010001","itemCode":"PMFG-1501","serialNo":1}]}
+2026-09-11 18:43:19.073  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-11 18:43:28.574  I  SerialService: 'PMFG-1501': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PMFG15010002)
+09-11 18:43:31.078 13760 13768 W System  : A resource failed to call close. 
+09-11 18:43:31.078 13760 13768 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-11 18:43:31.078 13760 13768 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-11 18:43:31.078 13760 13768 W System  : A resource failed to call SQLiteConnection.close. 
+09-11 18:43:31.078 13760 13768 W System  : A resource failed to call AbstractCursor.close. 
+09-11 18:43:31.081 13760 13768 W System  : A resource failed to call AbstractCursor.close. 
+09-11 18:43:31.083 13760 13768 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-11 18:43:32.376  I  Registration: Upload accepted for PMFG15010002: HTTP 200 {"updated":1,"tags":[{"id":1303,"epc":"PMFG15010002","itemCode":"PMFG-1501","serialNo":2}]}
+2026-09-11 18:43:32.378  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-11 18:43:34.276  W  Net: wifi DISCONNECTED — link had been up for 129s
+2026-09-11 18:43:34.780  I  Net: wifi connected
+2026-09-11 18:43:34.781  W  Net: wifi is up but has NO internet (rssi -76 dBm)
+2026-09-11 18:43:34.818  I  Net: wifi has internet (rssi -76 dBm)
+09-11 18:43:51.988 13760 13760 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7ed55b
+09-11 18:43:56.502 13760 13760 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2881c3b
+2026-09-11 18:43:56.560  I  SerialService: 'PMFG-1514': GET http://164.52.223.163:4636/api/device/products/mapped?search=PMFG-1514 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
