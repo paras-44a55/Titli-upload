@@ -1,0 +1,379 @@
+# pushed 2026-09-11 15:48:30.115 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 169994..228517
+
+09-11 15:32:07.440  6831  7102 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#62(BLAST Consumer)62](id:1aaf00000044,api:4,p:1493,c:6831) queueBuffer: BufferQueue has been abandoned
+09-11 15:32:07.471  6831  7102 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#62(BLAST Consumer)62](id:1aaf00000044,api:4,p:1493,c:6831) cancelBuffer: BufferQueue has been abandoned
+09-11 15:32:07.472  6831  6841 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#62(BLAST Consumer)62](id:1aaf00000044,api:4,p:1493,c:6831) cancelBuffer: BufferQueue has been abandoned
+09-11 15:32:07.472  6831  6841 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#62(BLAST Consumer)62](id:1aaf00000044,api:4,p:1493,c:6831) cancelBuffer: BufferQueue has been abandoned
+2026-09-11 15:32:08.810  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-11 15:40:44.338  W  Net: wifi DISCONNECTED — link had been up for 528s
+2026-09-11 15:40:44.727  W  UhfSession: Could not power up the UHF reader
+2026-09-11 15:40:46.577  E  SerialService: RFID lookup for 'KB-8060' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-8060
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-11 15:40:46.580  E  Registration: Write blocked for 'KB-8060': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-09-11 15:40:49.120  I  Net: wifi connected
+2026-09-11 15:40:49.128  W  Net: wifi is up but has NO internet (rssi -66 dBm)
+2026-09-11 15:40:49.166  I  Net: wifi has internet (rssi -66 dBm)
+2026-09-11 15:40:50.759  I  SerialService: 'KB-8060': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB80600002)
+2026-09-11 15:40:53.437  I  UhfSession: UHF reader powered up
+2026-09-11 15:40:56.485  I  SerialService: 'KB-8060': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB80600002)
+2026-09-11 15:40:56.950  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-11 15:40:57.324  I  SerialService: 'KB-8060': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB80600002)
+2026-09-11 15:41:00.390  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-11 15:41:00.394  I  SerialService: 'KB-8060': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB80600002)
+09-11 15:41:00.820  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:41:00.821  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:41:00.822  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:41:00.824  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-11 15:41:01.041  I  Registration: Upload accepted for KB80600002: HTTP 200 {"updated":1,"tags":[{"id":1244,"epc":"KB80600002","itemCode":"KB-8060","serialNo":2}]}
+2026-09-11 15:41:01.044  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-11 15:41:01.772  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+09-11 15:41:20.303  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d2da548
+09-11 15:41:27.319  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e5843d2
+09-11 15:41:27.329  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:41:27.790  I  SerialService: 'KB-9033': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9033 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:27.828  I  SerialService: 'KB-9033': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9033&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:27.859  I  SerialService: 'KB-9033': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9033&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:27.864  I  SerialService: 'KB-9033': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:41:27.865  I  SerialService: 'KB-9033': server holds 0 RFID(s); taking the lowest free serial 1 (KB90330001)
+2026-09-11 15:41:29.318  I  SerialService: 'KB-9033': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9033 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:29.351  I  SerialService: 'KB-9033': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9033&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:29.385  I  SerialService: 'KB-9033': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9033&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:29.390  I  SerialService: 'KB-9033': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:41:29.392  I  SerialService: 'KB-9033': server holds 0 RFID(s); taking the lowest free serial 1 (KB90330001)
+2026-09-11 15:41:30.347  I  Registration: Upload accepted for KB90330001: HTTP 200 {"updated":1,"tags":[{"id":1245,"epc":"KB90330001","itemCode":"KB-9033","serialNo":1}]}
+2026-09-11 15:41:30.349  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:41:33.807  6831  6839 W System  : A resource failed to call close. 
+09-11 15:41:33.807  6831  6839 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-11 15:41:33.807  6831  6839 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-11 15:41:33.807  6831  6839 W System  : A resource failed to call SQLiteConnection.close. 
+09-11 15:41:33.808  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:41:33.809  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:41:42.335  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@43f173f
+09-11 15:41:47.241  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8a6a625
+09-11 15:41:47.258  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:41:47.277  I  SerialService: 'KB-8063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-8063 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:47.306  I  SerialService: 'KB-8063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-8063&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:47.338  I  SerialService: 'KB-8063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-8063&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:47.344  I  SerialService: 'KB-8063': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:41:47.346  I  SerialService: 'KB-8063': server holds 0 RFID(s); taking the lowest free serial 1 (KB80630001)
+2026-09-11 15:41:49.955  I  SerialService: 'KB-8063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-8063 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:49.988  I  SerialService: 'KB-8063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-8063&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:50.030  I  SerialService: 'KB-8063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-8063&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:41:50.040  I  SerialService: 'KB-8063': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:41:50.043  I  SerialService: 'KB-8063': server holds 0 RFID(s); taking the lowest free serial 1 (KB80630001)
+2026-09-11 15:41:51.148  I  Registration: Upload accepted for KB80630001: HTTP 200 {"updated":1,"tags":[{"id":1246,"epc":"KB80630001","itemCode":"KB-8063","serialNo":1}]}
+2026-09-11 15:41:51.150  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:42:01.882  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9042f6
+09-11 15:42:08.743  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d5d46b3
+09-11 15:42:08.753  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:42:08.780  I  SerialService: 'KB-9029': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9029 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:08.810  I  SerialService: 'KB-9029': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9029&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:08.841  I  SerialService: 'KB-9029': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9029&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:08.848  I  SerialService: 'KB-9029': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:42:08.851  I  SerialService: 'KB-9029': server holds 0 RFID(s); taking the lowest free serial 1 (KB90290001)
+09-11 15:42:09.058  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:42:09.059  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:42:09.063  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-11 15:42:13.386  I  SerialService: 'KB-9029': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9029 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:13.423  I  SerialService: 'KB-9029': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9029&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:13.458  I  SerialService: 'KB-9029': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-9029&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:13.471  I  SerialService: 'KB-9029': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:42:13.474  I  SerialService: 'KB-9029': server holds 0 RFID(s); taking the lowest free serial 1 (KB90290001)
+2026-09-11 15:42:16.245  I  Registration: Upload accepted for KB90290001: HTTP 200 {"updated":1,"tags":[{"id":1247,"epc":"KB90290001","itemCode":"KB-9029","serialNo":1}]}
+2026-09-11 15:42:16.247  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:42:46.124  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:42:48.011  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8c24c6
+2026-09-11 15:42:48.611  I  SerialService: 'KB-4079': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4079 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:48.652  I  SerialService: 'KB-4079': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4079&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:48.682  I  SerialService: 'KB-4079': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4079&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:48.685  I  SerialService: 'KB-4079': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:42:48.686  I  SerialService: 'KB-4079': server holds 0 RFID(s); taking the lowest free serial 1 (KB40790001)
+2026-09-11 15:42:51.131  I  SerialService: 'KB-4079': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4079 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:51.168  I  SerialService: 'KB-4079': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4079&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:51.201  I  SerialService: 'KB-4079': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4079&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:42:51.211  I  SerialService: 'KB-4079': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:42:51.213  I  SerialService: 'KB-4079': server holds 0 RFID(s); taking the lowest free serial 1 (KB40790001)
+2026-09-11 15:42:52.159  I  Registration: Upload accepted for KB40790001: HTTP 200 {"updated":1,"tags":[{"id":1248,"epc":"KB40790001","itemCode":"KB-4079","serialNo":1}]}
+2026-09-11 15:42:52.160  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:43:10.569  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8f44499
+09-11 15:43:10.578  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-11 15:43:14.581  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@894535a
+09-11 15:43:14.590  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:43:14.620  I  SerialService: 'KB-4044': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4044 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:14.655  I  SerialService: 'KB-4044': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4044&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:14.705  I  SerialService: 'KB-4044': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4044&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:14.714  I  SerialService: 'KB-4044': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:43:14.716  I  SerialService: 'KB-4044': server holds 0 RFID(s); taking the lowest free serial 1 (KB40440001)
+2026-09-11 15:43:16.193  I  SerialService: 'KB-4044': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4044 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:16.232  I  SerialService: 'KB-4044': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4044&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:16.284  I  SerialService: 'KB-4044': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4044&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:16.292  I  SerialService: 'KB-4044': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:43:16.294  I  SerialService: 'KB-4044': server holds 0 RFID(s); taking the lowest free serial 1 (KB40440001)
+2026-09-11 15:43:17.255  I  Registration: Upload accepted for KB40440001: HTTP 200 {"updated":1,"tags":[{"id":1249,"epc":"KB40440001","itemCode":"KB-4044","serialNo":1}]}
+2026-09-11 15:43:17.256  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:43:20.497  6831  6839 W System  : A resource failed to call close. 
+09-11 15:43:20.497  6831  6839 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-11 15:43:20.497  6831  6839 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-11 15:43:20.497  6831  6839 W System  : A resource failed to call SQLiteConnection.close. 
+09-11 15:43:20.498  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:43:20.498  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:43:20.504  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:43:20.505  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:43:29.073  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@402df79
+2026-09-11 15:43:29.103  I  SerialService: 'KB-4071': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4071 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:29.132  I  SerialService: 'KB-4071': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4071&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:29.162  I  SerialService: 'KB-4071': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4071&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:29.167  I  SerialService: 'KB-4071': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:43:29.168  I  SerialService: 'KB-4071': server holds 0 RFID(s); taking the lowest free serial 1 (KB40710001)
+2026-09-11 15:43:31.082  I  SerialService: 'KB-4071': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4071 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:31.124  I  SerialService: 'KB-4071': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4071&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:31.157  I  SerialService: 'KB-4071': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4071&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:43:31.167  I  SerialService: 'KB-4071': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:43:31.169  I  SerialService: 'KB-4071': server holds 0 RFID(s); taking the lowest free serial 1 (KB40710001)
+2026-09-11 15:43:32.154  I  Registration: Upload accepted for KB40710001: HTTP 200 {"updated":1,"tags":[{"id":1250,"epc":"KB40710001","itemCode":"KB-4071","serialNo":1}]}
+2026-09-11 15:43:32.155  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:43:42.407  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c7f6437
+09-11 15:43:42.415  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:43:42.506  I  SerialService: 'KB-4063': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB40630002)
+2026-09-11 15:43:47.019  I  SerialService: 'KB-4063': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB40630002)
+2026-09-11 15:43:48.015  I  Registration: Upload accepted for KB40630002: HTTP 200 {"updated":1,"tags":[{"id":1251,"epc":"KB40630002","itemCode":"KB-4063","serialNo":2}]}
+2026-09-11 15:43:48.016  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:43:58.503  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@eb5a901
+09-11 15:43:59.661  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:43:59.662  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:44:03.187  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@140e6c5
+2026-09-11 15:44:03.650  I  SerialService: 'KB-3041': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-3041 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:03.679  I  SerialService: 'KB-3041': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-3041&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:03.710  I  SerialService: 'KB-3041': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-3041&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:03.715  I  SerialService: 'KB-3041': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:44:03.716  I  SerialService: 'KB-3041': server holds 0 RFID(s); taking the lowest free serial 1 (KB30410001)
+2026-09-11 15:44:06.598  I  SerialService: 'KB-3041': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-3041 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:06.629  I  SerialService: 'KB-3041': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-3041&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:06.661  I  SerialService: 'KB-3041': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-3041&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:06.669  I  SerialService: 'KB-3041': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:44:06.671  I  SerialService: 'KB-3041': server holds 0 RFID(s); taking the lowest free serial 1 (KB30410001)
+2026-09-11 15:44:07.630  I  Registration: Upload accepted for KB30410001: HTTP 200 {"updated":1,"tags":[{"id":1252,"epc":"KB30410001","itemCode":"KB-3041","serialNo":1}]}
+2026-09-11 15:44:07.632  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:44:16.540  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8103631
+09-11 15:44:21.542  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4be7a89
+09-11 15:44:21.548  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:44:21.580  I  SerialService: 'KB-4474': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4474 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:21.609  I  SerialService: 'KB-4474': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4474&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:21.638  I  SerialService: 'KB-4474': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4474&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:21.644  I  SerialService: 'KB-4474': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:44:21.647  I  SerialService: 'KB-4474': server holds 0 RFID(s); taking the lowest free serial 1 (KB44740001)
+2026-09-11 15:44:25.416  I  SerialService: 'KB-4474': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4474 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:25.448  I  SerialService: 'KB-4474': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4474&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:25.479  I  SerialService: 'KB-4474': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4474&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:25.492  I  SerialService: 'KB-4474': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:44:25.494  I  SerialService: 'KB-4474': server holds 0 RFID(s); taking the lowest free serial 1 (KB44740001)
+2026-09-11 15:44:26.441  I  Registration: Upload accepted for KB44740001: HTTP 200 {"updated":1,"tags":[{"id":1253,"epc":"KB44740001","itemCode":"KB-4474","serialNo":1}]}
+2026-09-11 15:44:26.442  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:44:32.870  6831  6839 W System  : A resource failed to call close. 
+09-11 15:44:32.870  6831  6839 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-11 15:44:32.870  6831  6839 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-11 15:44:32.870  6831  6839 W System  : A resource failed to call SQLiteConnection.close. 
+09-11 15:44:32.871  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:44:32.872  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:44:32.877  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:44:32.878  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:44:38.230  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8872702
+09-11 15:44:38.238  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:44:38.272  I  SerialService: 'KB-4002': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4002 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:38.302  I  SerialService: 'KB-4002': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4002&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:38.331  I  SerialService: 'KB-4002': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4002&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:38.337  I  SerialService: 'KB-4002': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:44:38.339  I  SerialService: 'KB-4002': server holds 0 RFID(s); taking the lowest free serial 1 (KB40020001)
+2026-09-11 15:44:40.033  I  SerialService: 'KB-4002': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4002 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:40.061  I  SerialService: 'KB-4002': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4002&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:40.093  I  SerialService: 'KB-4002': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4002&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:44:40.100  I  SerialService: 'KB-4002': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:44:40.102  I  SerialService: 'KB-4002': server holds 0 RFID(s); taking the lowest free serial 1 (KB40020001)
+2026-09-11 15:44:41.059  I  Registration: Upload accepted for KB40020001: HTTP 200 {"updated":1,"tags":[{"id":1254,"epc":"KB40020001","itemCode":"KB-4002","serialNo":1}]}
+2026-09-11 15:44:41.061  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:44:48.324  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9329802
+09-11 15:44:48.338  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-11 15:44:54.698  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f22cd57
+09-11 15:44:54.706  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:44:54.797  I  SerialService: 'KB-4474': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB44740002)
+2026-09-11 15:44:57.989  I  SerialService: 'KB-4474': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB44740002)
+2026-09-11 15:44:58.938  I  Registration: Upload accepted for KB44740002: HTTP 200 {"updated":1,"tags":[{"id":1255,"epc":"KB44740002","itemCode":"KB-4474","serialNo":2}]}
+2026-09-11 15:44:58.946  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:45:06.181  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:45:06.182  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:45:06.187  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:45:06.188  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:45:09.290  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7013ac
+09-11 15:45:13.795  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9d2e767
+2026-09-11 15:45:14.283  I  SerialService: 'KB-4071': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB40710002)
+2026-09-11 15:45:16.697  I  SerialService: 'KB-4071': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB40710002)
+2026-09-11 15:45:17.654  I  Registration: Upload accepted for KB40710002: HTTP 200 {"updated":1,"tags":[{"id":1256,"epc":"KB40710002","itemCode":"KB-4071","serialNo":2}]}
+2026-09-11 15:45:17.655  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:45:24.699  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@579a005
+09-11 15:45:24.706  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-11 15:45:33.302  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6514452
+2026-09-11 15:45:33.407  I  SerialService: 'KB-4044': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB40440002)
+2026-09-11 15:45:36.103  I  SerialService: 'KB-4044': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB40440002)
+2026-09-11 15:45:38.874  I  Registration: Upload accepted for KB40440002: HTTP 200 {"updated":1,"tags":[{"id":1257,"epc":"KB40440002","itemCode":"KB-4044","serialNo":2}]}
+2026-09-11 15:45:38.875  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:45:39.351  6831  6839 W System  : A resource failed to call close. 
+09-11 15:45:39.351  6831  6839 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-11 15:45:39.351  6831  6839 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-11 15:45:39.351  6831  6839 W System  : A resource failed to call SQLiteConnection.close. 
+09-11 15:45:45.534  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ac8370e
+09-11 15:45:45.540  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-11 15:45:51.528  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1e8a7a6
+2026-09-11 15:45:51.565  I  SerialService: 'KB-5009': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5009 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:45:51.596  I  SerialService: 'KB-5009': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5009&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:45:51.628  I  SerialService: 'KB-5009': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5009&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:45:51.634  I  SerialService: 'KB-5009': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:45:51.637  I  SerialService: 'KB-5009': server holds 0 RFID(s); taking the lowest free serial 1 (KB50090001)
+2026-09-11 15:45:58.034  I  SerialService: 'KB-5009': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5009 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:45:58.068  I  SerialService: 'KB-5009': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5009&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:45:58.101  I  SerialService: 'KB-5009': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5009&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:45:58.110  I  SerialService: 'KB-5009': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:45:58.114  I  SerialService: 'KB-5009': server holds 0 RFID(s); taking the lowest free serial 1 (KB50090001)
+2026-09-11 15:45:59.095  I  Registration: Upload accepted for KB50090001: HTTP 200 {"updated":1,"tags":[{"id":1258,"epc":"KB50090001","itemCode":"KB-5009","serialNo":1}]}
+2026-09-11 15:45:59.096  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:46:06.185  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@944e2fa
+09-11 15:46:06.192  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:46:06.221  I  SerialService: 'KB-2063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2063 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:06.253  I  SerialService: 'KB-2063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2063&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:06.282  I  SerialService: 'KB-2063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2063&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:06.289  I  SerialService: 'KB-2063': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:46:06.291  I  SerialService: 'KB-2063': server holds 0 RFID(s); taking the lowest free serial 1 (KB20630001)
+2026-09-11 15:46:08.682  I  SerialService: 'KB-2063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2063 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:08.714  I  SerialService: 'KB-2063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2063&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:08.745  I  SerialService: 'KB-2063': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2063&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:08.748  I  SerialService: 'KB-2063': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:46:08.748  I  SerialService: 'KB-2063': server holds 0 RFID(s); taking the lowest free serial 1 (KB20630001)
+2026-09-11 15:46:09.704  I  Registration: Upload accepted for KB20630001: HTTP 200 {"updated":1,"tags":[{"id":1259,"epc":"KB20630001","itemCode":"KB-2063","serialNo":1}]}
+2026-09-11 15:46:09.707  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:46:12.557  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:46:12.558  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:46:12.560  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:46:12.561  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:46:24.924  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3f249e2
+09-11 15:46:24.933  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:46:25.413  I  SerialService: 'KB-5010': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5010 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:25.445  I  SerialService: 'KB-5010': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5010&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:25.481  I  SerialService: 'KB-5010': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5010&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:25.486  I  SerialService: 'KB-5010': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:46:25.487  I  SerialService: 'KB-5010': server holds 0 RFID(s); taking the lowest free serial 1 (KB50100001)
+2026-09-11 15:46:28.741  I  SerialService: 'KB-5010': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5010 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:28.776  I  SerialService: 'KB-5010': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5010&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:28.809  I  SerialService: 'KB-5010': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-5010&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:28.817  I  SerialService: 'KB-5010': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:46:28.820  I  SerialService: 'KB-5010': server holds 0 RFID(s); taking the lowest free serial 1 (KB50100001)
+2026-09-11 15:46:29.771  I  Registration: Upload accepted for KB50100001: HTTP 200 {"updated":1,"tags":[{"id":1260,"epc":"KB50100001","itemCode":"KB-5010","serialNo":1}]}
+2026-09-11 15:46:29.774  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:46:38.823  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@327ee44
+2026-09-11 15:46:39.022  I  SerialService: 'KB-5009': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB50090002)
+2026-09-11 15:46:42.277  I  SerialService: 'KB-5009': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB50090002)
+2026-09-11 15:46:43.226  I  Registration: Upload accepted for KB50090002: HTTP 200 {"updated":1,"tags":[{"id":1261,"epc":"KB50090002","itemCode":"KB-5009","serialNo":2}]}
+2026-09-11 15:46:43.227  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:46:45.629  6831  6839 W System  : A resource failed to call close. 
+09-11 15:46:45.629  6831  6839 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-11 15:46:45.629  6831  6839 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-11 15:46:45.629  6831  6839 W System  : A resource failed to call SQLiteConnection.close. 
+09-11 15:46:45.630  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:46:45.631  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:46:55.515  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bd49d0
+09-11 15:46:58.190  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bf8a512
+09-11 15:46:58.206  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:46:58.231  I  SerialService: 'KB-2070': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2070 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:58.262  I  SerialService: 'KB-2070': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2070&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:58.297  I  SerialService: 'KB-2070': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2070&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:46:58.300  I  SerialService: 'KB-2070': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:46:58.301  I  SerialService: 'KB-2070': server holds 0 RFID(s); taking the lowest free serial 1 (KB20700001)
+2026-09-11 15:47:01.070  I  SerialService: 'KB-2070': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2070 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:01.101  I  SerialService: 'KB-2070': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2070&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:01.136  I  SerialService: 'KB-2070': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-2070&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:01.143  I  SerialService: 'KB-2070': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:47:01.145  I  SerialService: 'KB-2070': server holds 0 RFID(s); taking the lowest free serial 1 (KB20700001)
+2026-09-11 15:47:02.090  I  Registration: Upload accepted for KB20700001: HTTP 200 {"updated":1,"tags":[{"id":1262,"epc":"KB20700001","itemCode":"KB-2070","serialNo":1}]}
+2026-09-11 15:47:02.091  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-11 15:47:08.144  I  SerialService: 'KB-2070': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB20700002)
+2026-09-11 15:47:10.923  I  Registration: Upload accepted for KB20700002: HTTP 200 {"updated":1,"tags":[{"id":1263,"epc":"KB20700002","itemCode":"KB-2070","serialNo":2}]}
+2026-09-11 15:47:10.925  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:47:18.749  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:47:18.750  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:47:18.752  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:47:18.950  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f399cbe
+09-11 15:47:22.636  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@88fde68
+2026-09-11 15:47:22.745  I  SerialService: 'KB-5010': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB50100002)
+2026-09-11 15:47:27.046  I  SerialService: 'KB-5010': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB50100002)
+2026-09-11 15:47:28.051  I  Registration: Upload accepted for KB50100002: HTTP 200 {"updated":1,"tags":[{"id":1264,"epc":"KB50100002","itemCode":"KB-5010","serialNo":2}]}
+2026-09-11 15:47:28.052  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:47:37.249  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e4d020
+09-11 15:47:41.478  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@284d8eb
+09-11 15:47:41.486  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:47:41.918  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:41.945  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:41.973  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:41.976  I  SerialService: 'KB-4072': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:47:41.977  I  SerialService: 'KB-4072': server holds 0 RFID(s); taking the lowest free serial 1 (KB40720001)
+2026-09-11 15:47:46.563  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:46.601  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:46.629  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:46.635  I  SerialService: 'KB-4072': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:47:46.637  I  SerialService: 'KB-4072': server holds 0 RFID(s); taking the lowest free serial 1 (KB40720001)
+2026-09-11 15:47:48.412  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:48.440  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:48.468  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:48.473  I  SerialService: 'KB-4072': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:47:48.474  I  SerialService: 'KB-4072': server holds 0 RFID(s); taking the lowest free serial 1 (KB40720001)
+2026-09-11 15:47:50.324  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-11 15:47:50.383  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:50.423  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:50.455  I  SerialService: 'KB-4072': GET http://164.52.223.163:4636/api/device/products/mapped?search=KB-4072&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-11 15:47:50.463  I  SerialService: 'KB-4072': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-11 15:47:50.466  I  SerialService: 'KB-4072': server holds 0 RFID(s); taking the lowest free serial 1 (KB40720001)
+09-11 15:47:51.728  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:47:51.730  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:47:51.736  6831  6839 W System  : A resource failed to call close. 
+09-11 15:47:51.736  6831  6839 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-11 15:47:51.736  6831  6839 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-11 15:47:51.736  6831  6839 W System  : A resource failed to call SQLiteConnection.close. 
+09-11 15:47:51.736  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:47:51.738  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:47:51.738  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+09-11 15:47:51.739  6831  6839 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-11 15:47:52.269  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-11 15:47:52.868  I  Registration: Upload accepted for KB40720001: HTTP 200 {"updated":1,"tags":[{"id":1265,"epc":"KB40720001","itemCode":"KB-4072","serialNo":1}]}
+2026-09-11 15:47:52.869  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:48:02.882  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f710ac5
+09-11 15:48:02.902  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-11 15:48:05.678  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@959d826
+2026-09-11 15:48:05.785  I  SerialService: 'KB-2063': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB20630002)
+2026-09-11 15:48:08.372  I  SerialService: 'KB-2063': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB20630002)
+2026-09-11 15:48:09.350  I  Registration: Upload accepted for KB20630002: HTTP 200 {"updated":1,"tags":[{"id":1266,"epc":"KB20630002","itemCode":"KB-2063","serialNo":2}]}
+2026-09-11 15:48:09.351  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-11 15:48:15.997  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b227d06
+09-11 15:48:16.006  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-11 15:48:19.227  6831  6831 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2e72bed
+09-11 15:48:19.237  6831  6831 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-11 15:48:19.359  I  SerialService: 'KB-9029': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB90290002)
+2026-09-11 15:48:21.998  I  SerialService: 'KB-9029': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KB90290002)
+2026-09-11 15:48:24.783  I  Registration: Upload accepted for KB90290002: HTTP 200 {"updated":1,"tags":[{"id":1267,"epc":"KB90290002","itemCode":"KB-9029","serialNo":2}]}
+2026-09-11 15:48:24.785  I  Registration: Uploaded 1 tag(s); 0 still pending
