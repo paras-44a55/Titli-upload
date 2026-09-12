@@ -1,0 +1,114 @@
+# pushed 2026-09-12 14:02:34.163 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 324555..341244
+
+2026-09-12 13:59:05.299  I  UhfSession: UHF reader powered down: app moved to the background
+09-12 13:59:10.822  3304  3332 W System  : A resource failed to call close. 
+09-12 13:59:10.822  3304  3332 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 13:59:10.823  3304  3332 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 13:59:10.823  3304  3332 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 13:59:35.161  3304  3304 E SurfaceSyncer: Failed to find sync for id=0
+09-12 13:59:35.161  3304  3304 E SurfaceSyncer: Failed to find sync for id=1
+09-12 13:59:35.161  3304  3304 E SurfaceSyncer: Failed to find sync for id=2
+2026-09-12 13:59:39.586  I  UhfSession: UHF reader powered up
+09-12 13:59:40.546  3304  3354 W Parcel  : Expecting binder but got null!
+2026-09-12 13:59:41.275  I  ProductSync: unmapped for location 4 needed 3 page(s): 596 row(s), server reported 596
+2026-09-12 13:59:42.402  I  SerialService: 'PDS-663': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-663 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:59:42.469  I  SerialService: 'PDS-663': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-663&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:59:42.800  I  SerialService: 'PDS-663': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-663&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:59:42.805  I  SerialService: 'PDS-663': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 13:59:42.806  I  SerialService: 'PDS-663': server holds 0 RFID(s); taking the lowest free serial 1 (PDS6630001)
+2026-09-12 13:59:45.285  I  SerialService: 'PDS-663': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-663 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:59:45.692  I  SerialService: 'PDS-663': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-663&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:59:46.125  I  SerialService: 'PDS-663': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-663&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:59:46.133  I  SerialService: 'PDS-663': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 13:59:46.135  I  SerialService: 'PDS-663': server holds 0 RFID(s); taking the lowest free serial 1 (PDS6630001)
+2026-09-12 13:59:46.918  I  Registration: Upload accepted for PDS6630001: HTTP 200 {"updated":1,"tags":[{"id":1635,"epc":"PDS6630001","itemCode":"PDS-663","serialNo":1}]}
+2026-09-12 13:59:46.921  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 13:59:58.296  3304  3332 W System  : A resource failed to call CursorWindow.close. 
+09-12 13:59:58.296  3304  3332 W System  : A resource failed to call AbstractCursor.close. 
+09-12 13:59:58.297  3304  3332 W System  : A resource failed to call CursorWindow.close. 
+09-12 13:59:58.297  3304  3332 W System  : A resource failed to call AbstractCursor.close. 
+09-12 13:59:58.298  3304  3332 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 13:59:58.298  3304  3332 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 13:59:58.299  3304  3332 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 13:59:58.299  3304  3332 W System  : A resource failed to call close. 
+09-12 13:59:58.299  3304  3332 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 13:59:58.299  3304  3332 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 13:59:58.300  3304  3332 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 13:59:58.300  3304  3332 W System  : A resource failed to call close. 
+09-12 13:59:58.304  3304  3332 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 13:59:58.304  3304  3332 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 13:59:58.304  3304  3332 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 13:59:58.304  3304  3332 W System  : A resource failed to call close. 
+09-12 14:00:09.944  3304  3354 W Parcel  : Expecting binder but got null!
+09-12 14:00:21.243  3304  3354 W Parcel  : Expecting binder but got null!
+09-12 14:00:26.171  3304  3332 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 14:00:26.171  3304  3332 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 14:00:26.172  3304  3332 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 14:00:26.172  3304  3332 W System  : A resource failed to call close. 
+09-12 14:00:27.041  3304  3548 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#730(BLAST Consumer)730](id:ce80000031e,api:4,p:1169,c:3304) queueBuffer: BufferQueue has been abandoned
+09-12 14:00:27.064  3304 21517 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#730(BLAST Consumer)730](id:ce80000031e,api:4,p:1169,c:3304) queueBuffer: BufferQueue has been abandoned
+09-12 14:00:27.065  3304 21517 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#730(BLAST Consumer)730](id:ce80000031e,api:4,p:1169,c:3304) cancelBuffer: BufferQueue has been abandoned
+09-12 14:00:27.069  3304  3548 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#730(BLAST Consumer)730](id:ce80000031e,api:4,p:1169,c:3304) cancelBuffer: BufferQueue has been abandoned
+09-12 14:00:27.070  3304  3548 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#730(BLAST Consumer)730](id:ce80000031e,api:4,p:1169,c:3304) cancelBuffer: BufferQueue has been abandoned
+09-12 14:00:27.072  3304  3548 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#730(BLAST Consumer)730](id:ce80000031e,api:4,p:1169,c:3304) cancelBuffer: BufferQueue has been abandoned
+09-12 14:00:27.073  3304  3550 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#730(BLAST Consumer)730](id:ce80000031e,api:4,p:1169,c:3304) cancelBuffer: BufferQueue has been abandoned
+09-12 14:00:28.096  3304  3354 W Parcel  : Expecting binder but got null!
+2026-09-12 14:00:28.630  I  SerialService: 'PDS-577': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-577 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:00:28.775  I  SerialService: 'PDS-577': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-577&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:00:28.988  I  SerialService: 'PDS-577': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-577&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:00:28.996  I  SerialService: 'PDS-577': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 14:00:28.998  I  SerialService: 'PDS-577': server holds 0 RFID(s); taking the lowest free serial 1 (PDS5770001)
+2026-09-12 14:00:34.229  I  SerialService: 'PDS-577': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-577 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:00:34.317  I  SerialService: 'PDS-577': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-577&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:00:34.398  I  SerialService: 'PDS-577': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-577&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:00:34.405  I  SerialService: 'PDS-577': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 14:00:34.407  I  SerialService: 'PDS-577': server holds 0 RFID(s); taking the lowest free serial 1 (PDS5770001)
+09-12 14:00:35.171  3304  3332 W System  : A resource failed to call CursorWindow.close. 
+09-12 14:00:35.171  3304  3332 W System  : A resource failed to call AbstractCursor.close. 
+09-12 14:00:35.172  3304  3332 W System  : A resource failed to call CursorWindow.close. 
+09-12 14:00:35.172  3304  3332 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-12 14:00:36.627  I  Registration: Upload accepted for PDS5770001: HTTP 200 {"updated":1,"tags":[{"id":1639,"epc":"PDS5770001","itemCode":"PDS-577","serialNo":1}]}
+2026-09-12 14:00:36.629  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-12 14:01:18.384  I  SerialService: 'PDS-577': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PDS5770002)
+2026-09-12 14:01:19.035  I  Registration: Upload accepted for PDS5770002: HTTP 200 {"updated":1,"tags":[{"id":1642,"epc":"PDS5770002","itemCode":"PDS-577","serialNo":2}]}
+2026-09-12 14:01:19.037  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 14:01:28.997  3304  3332 W System  : A resource failed to call CursorWindow.close. 
+09-12 14:01:28.997  3304  3332 W System  : A resource failed to call AbstractCursor.close. 
+09-12 14:01:28.999  3304  3332 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 14:01:28.999  3304  3332 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 14:01:28.999  3304  3332 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 14:01:28.999  3304  3332 W System  : A resource failed to call close. 
+09-12 14:01:29.002  3304  3332 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 14:01:29.002  3304  3332 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 14:01:29.003  3304  3332 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 14:01:29.003  3304  3332 W System  : A resource failed to call close. 
+2026-09-12 14:01:41.033  I  SerialService: 'PDS-577': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PDS5770003)
+2026-09-12 14:01:41.709  I  Registration: Upload accepted for PDS5770003: HTTP 200 {"updated":1,"tags":[{"id":1644,"epc":"PDS5770003","itemCode":"PDS-577","serialNo":3}]}
+2026-09-12 14:01:41.710  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 14:01:54.955  3304  3332 W System  : A resource failed to call CursorWindow.close. 
+09-12 14:01:54.955  3304  3332 W System  : A resource failed to call AbstractCursor.close. 
+09-12 14:02:14.083  3304  3354 W Parcel  : Expecting binder but got null!
+2026-09-12 14:02:17.415  I  SerialService: 'PS-11520': GET http://164.52.223.163:4636/api/device/products/mapped?search=PS-11520 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:02:17.550  I  SerialService: 'PS-11520': GET http://164.52.223.163:4636/api/device/products/mapped?search=PS-11520&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:02:17.630  I  SerialService: 'PS-11520': GET http://164.52.223.163:4636/api/device/products/mapped?search=PS-11520&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:02:17.634  I  SerialService: 'PS-11520': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 14:02:17.635  I  SerialService: 'PS-11520': server holds 0 RFID(s); taking the lowest free serial 1 (PS115200001)
+09-12 14:02:22.245  3304  3332 W System  : A resource failed to call CursorWindow.close. 
+09-12 14:02:22.245  3304  3332 W System  : A resource failed to call AbstractCursor.close. 
+09-12 14:02:22.245  3304  3332 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 14:02:22.245  3304  3332 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 14:02:22.246  3304  3332 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 14:02:22.246  3304  3332 W System  : A resource failed to call close. 
+09-12 14:02:22.246  3304  3332 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 14:02:22.246  3304  3332 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 14:02:22.246  3304  3332 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 14:02:22.246  3304  3332 W System  : A resource failed to call close. 
+2026-09-12 14:02:27.632  I  SerialService: 'PS-11520': GET http://164.52.223.163:4636/api/device/products/mapped?search=PS-11520 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:02:27.715  I  SerialService: 'PS-11520': GET http://164.52.223.163:4636/api/device/products/mapped?search=PS-11520&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:02:27.802  I  SerialService: 'PS-11520': GET http://164.52.223.163:4636/api/device/products/mapped?search=PS-11520&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 14:02:27.811  I  SerialService: 'PS-11520': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 14:02:27.813  I  SerialService: 'PS-11520': server holds 0 RFID(s); taking the lowest free serial 1 (PS115200001)
+2026-09-12 14:02:28.550  I  Registration: Upload accepted for PS115200001: HTTP 200 {"updated":1,"tags":[{"id":1646,"epc":"PS115200001","itemCode":"PS-11520","serialNo":1}]}
+2026-09-12 14:02:28.553  I  Registration: Uploaded 1 tag(s); 0 still pending
