@@ -1,0 +1,242 @@
+# pushed 2026-09-12 11:23:00.640 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 333305..370293
+
+09-12 11:09:00.666 21075 21095 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#61(BLAST Consumer)61](id:525300000043,api:4,p:1496,c:21075) queueBuffer: BufferQueue has been abandoned
+09-12 11:09:00.711 21075 21095 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#61(BLAST Consumer)61](id:525300000043,api:4,p:1496,c:21075) queueBuffer: BufferQueue has been abandoned
+09-12 11:09:00.729 21075 21095 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#61(BLAST Consumer)61](id:525300000043,api:4,p:1496,c:21075) queueBuffer: BufferQueue has been abandoned
+2026-09-12 11:09:02.039  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-12 11:10:17.803  W  UhfSession: Could not power up the UHF reader
+2026-09-12 11:10:20.465  I  UhfSession: UHF reader powered up
+09-12 11:10:28.038 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@69922a4
+09-12 11:10:33.322 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a64c7ae
+2026-09-12 11:10:34.117  I  SerialService: 'ANK-35-9': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-9 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:10:34.160  I  SerialService: 'ANK-35-9': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-9&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:10:34.203  I  SerialService: 'ANK-35-9': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-9&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:10:34.218  I  SerialService: 'ANK-35-9': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:10:34.225  I  SerialService: 'ANK-35-9': server holds 0 RFID(s); taking the lowest free serial 1 (ANK3590001)
+2026-09-12 11:10:41.309  I  SerialService: 'ANK-35-9': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-9 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:10:41.348  I  SerialService: 'ANK-35-9': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-9&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:10:41.386  I  SerialService: 'ANK-35-9': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-9&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:10:41.395  I  SerialService: 'ANK-35-9': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:10:41.404  I  SerialService: 'ANK-35-9': server holds 0 RFID(s); taking the lowest free serial 1 (ANK3590001)
+2026-09-12 11:10:42.187  I  Registration: Upload accepted for ANK3590001: HTTP 200 {"updated":1,"tags":[{"id":1419,"epc":"ANK3590001","itemCode":"ANK-35-9","serialNo":1}]}
+2026-09-12 11:10:42.191  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 11:10:54.627 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5d48d39
+09-12 11:10:56.787 21075 21084 W System  : A resource failed to call close. 
+09-12 11:10:56.787 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 11:10:56.787 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 11:10:56.787 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 11:10:56.789 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:10:56.794 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:11:03.716 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2376a95
+2026-09-12 11:11:03.769  I  SerialService: 'ANK-35-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-7 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:11:03.812  I  SerialService: 'ANK-35-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-7&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:11:03.863  I  SerialService: 'ANK-35-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-7&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:11:03.878  I  SerialService: 'ANK-35-7': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:11:03.902  I  SerialService: 'ANK-35-7': server holds 0 RFID(s); taking the lowest free serial 1 (ANK3570001)
+09-12 11:11:34.764 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:11:38.897 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7106104
+09-12 11:11:38.917 21075 21075 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-12 11:11:39.938  I  SerialService: 'ANK-35-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-7 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:11:39.972  I  SerialService: 'ANK-35-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-7&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:11:40.029  I  SerialService: 'ANK-35-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-7&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:11:40.036  I  SerialService: 'ANK-35-7': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:11:40.040  I  SerialService: 'ANK-35-7': server holds 0 RFID(s); taking the lowest free serial 1 (ANK3570001)
+2026-09-12 11:11:43.544  I  SerialService: 'ANK-35-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-7 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:11:43.581  I  SerialService: 'ANK-35-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-7&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:11:43.623  I  SerialService: 'ANK-35-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-7&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:11:43.632  I  SerialService: 'ANK-35-7': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:11:43.634  I  SerialService: 'ANK-35-7': server holds 0 RFID(s); taking the lowest free serial 1 (ANK3570001)
+2026-09-12 11:11:44.637  I  Registration: Upload accepted for ANK3570001: HTTP 200 {"updated":1,"tags":[{"id":1420,"epc":"ANK3570001","itemCode":"ANK-35-7","serialNo":1}]}
+2026-09-12 11:11:44.639  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-12 11:11:49.327  I  SerialService: 'ANK-35-7': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANK3570002)
+2026-09-12 11:11:50.344  I  Registration: Upload accepted for ANK3570002: HTTP 200 {"updated":1,"tags":[{"id":1421,"epc":"ANK3570002","itemCode":"ANK-35-7","serialNo":2}]}
+2026-09-12 11:11:50.349  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 11:12:03.129 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b6308e7
+09-12 11:12:03.156 21075 21075 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-12 11:12:10.125 21075 21084 W System  : A resource failed to call close. 
+09-12 11:12:10.125 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 11:12:10.125 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 11:12:10.125 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 11:12:10.127 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:12:10.133 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:12:10.140 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:12:18.245 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f36a3c
+2026-09-12 11:12:18.303  I  SerialService: 'AS-911': GET http://164.52.223.163:4636/api/device/products/mapped?search=AS-911 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:18.345  I  SerialService: 'AS-911': GET http://164.52.223.163:4636/api/device/products/mapped?search=AS-911&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:18.394  I  SerialService: 'AS-911': GET http://164.52.223.163:4636/api/device/products/mapped?search=AS-911&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:18.409  I  SerialService: 'AS-911': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:12:18.414  I  SerialService: 'AS-911': server holds 0 RFID(s); taking the lowest free serial 1 (AS9110001)
+2026-09-12 11:12:22.384  I  SerialService: 'AS-911': GET http://164.52.223.163:4636/api/device/products/mapped?search=AS-911 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:22.422  I  SerialService: 'AS-911': GET http://164.52.223.163:4636/api/device/products/mapped?search=AS-911&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:22.461  I  SerialService: 'AS-911': GET http://164.52.223.163:4636/api/device/products/mapped?search=AS-911&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:22.469  I  SerialService: 'AS-911': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:12:22.473  I  SerialService: 'AS-911': server holds 0 RFID(s); taking the lowest free serial 1 (AS9110001)
+2026-09-12 11:12:23.261  I  Registration: Upload accepted for AS9110001: HTTP 200 {"updated":1,"tags":[{"id":1422,"epc":"AS9110001","itemCode":"AS-911","serialNo":1}]}
+2026-09-12 11:12:23.266  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 11:12:30.687 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@202fc8a
+09-12 11:12:35.001 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8e2469e
+2026-09-12 11:12:35.053  I  SerialService: 'ANK-904': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-904 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:35.092  I  SerialService: 'ANK-904': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-904&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:35.134  I  SerialService: 'ANK-904': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-904&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:35.167  I  SerialService: 'ANK-904': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:12:35.170  I  SerialService: 'ANK-904': server holds 0 RFID(s); taking the lowest free serial 1 (ANK9040001)
+09-12 11:12:47.762 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:12:47.764 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:12:47.781 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-12 11:12:57.738  I  SerialService: 'ANK-904': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-904 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:57.781  I  SerialService: 'ANK-904': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-904&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:57.819  I  SerialService: 'ANK-904': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-904&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:12:57.826  I  SerialService: 'ANK-904': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:12:57.829  I  SerialService: 'ANK-904': server holds 0 RFID(s); taking the lowest free serial 1 (ANK9040001)
+2026-09-12 11:12:58.849  I  Registration: Upload accepted for ANK9040001: HTTP 200 {"updated":1,"tags":[{"id":1423,"epc":"ANK9040001","itemCode":"ANK-904","serialNo":1}]}
+2026-09-12 11:12:58.851  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-12 11:13:02.406  I  SerialService: 'ANK-904': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANK9040002)
+2026-09-12 11:13:03.510  I  Registration: Upload accepted for ANK9040002: HTTP 200 {"updated":1,"tags":[{"id":1424,"epc":"ANK9040002","itemCode":"ANK-904","serialNo":2}]}
+2026-09-12 11:13:03.515  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 11:13:12.417 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@427495a
+09-12 11:13:20.759 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7d8265c
+2026-09-12 11:13:21.789  I  SerialService: 'ANK-976': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-976 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:13:21.842  I  SerialService: 'ANK-976': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-976&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:13:21.885  I  SerialService: 'ANK-976': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-976&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:13:21.892  I  SerialService: 'ANK-976': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:13:21.899  I  SerialService: 'ANK-976': server holds 0 RFID(s); taking the lowest free serial 1 (ANK9760001)
+09-12 11:13:23.513 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:13:23.517 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:13:23.546 21075 21084 W System  : A resource failed to call close. 
+09-12 11:13:23.546 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 11:13:23.546 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 11:13:23.546 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 11:13:23.549 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-12 11:13:32.470  I  SerialService: 'ANK-976': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-976 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:13:32.507  I  SerialService: 'ANK-976': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-976&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:13:32.542  I  SerialService: 'ANK-976': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-976&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:13:32.549  I  SerialService: 'ANK-976': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:13:32.551  I  SerialService: 'ANK-976': server holds 0 RFID(s); taking the lowest free serial 1 (ANK9760001)
+2026-09-12 11:13:33.234  I  Registration: Upload accepted for ANK9760001: HTTP 200 {"updated":1,"tags":[{"id":1425,"epc":"ANK9760001","itemCode":"ANK-976","serialNo":1}]}
+2026-09-12 11:13:33.240  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-12 11:13:42.047  I  SerialService: 'ANK-976': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANK9760002)
+2026-09-12 11:13:42.863  I  Registration: Upload accepted for ANK9760002: HTTP 200 {"updated":1,"tags":[{"id":1426,"epc":"ANK9760002","itemCode":"ANK-976","serialNo":2}]}
+2026-09-12 11:13:42.866  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 11:13:52.970 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4e89dcc
+09-12 11:13:56.410 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e4b1abc
+2026-09-12 11:13:56.464  I  SerialService: 'ANK-35-8': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-8 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:13:56.519  I  SerialService: 'ANK-35-8': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-8&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:13:56.572  I  SerialService: 'ANK-35-8': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-8&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:13:56.581  I  SerialService: 'ANK-35-8': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:13:56.583  I  SerialService: 'ANK-35-8': server holds 0 RFID(s); taking the lowest free serial 1 (ANK3580001)
+2026-09-12 11:14:00.339  I  SerialService: 'ANK-35-8': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-8 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:14:00.382  I  SerialService: 'ANK-35-8': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-8&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:14:00.472  I  SerialService: 'ANK-35-8': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-35-8&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:14:00.482  I  SerialService: 'ANK-35-8': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:14:00.485  I  SerialService: 'ANK-35-8': server holds 0 RFID(s); taking the lowest free serial 1 (ANK3580001)
+2026-09-12 11:14:01.755  I  Registration: Upload accepted for ANK3580001: HTTP 200 {"updated":1,"tags":[{"id":1427,"epc":"ANK3580001","itemCode":"ANK-35-8","serialNo":1}]}
+2026-09-12 11:14:01.761  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 11:14:02.459 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:14:02.464 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:14:02.489 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:14:02.491 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:14:07.386 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f6c660a
+09-12 11:14:07.415 21075 21075 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-12 11:14:17.940 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ac1c0a0
+2026-09-12 11:14:18.000  I  SerialService: 'ANK-961': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-961 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:14:18.072  I  SerialService: 'ANK-961': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-961&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:14:18.194  I  SerialService: 'ANK-961': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-961&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:14:18.204  I  SerialService: 'ANK-961': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:14:18.206  I  SerialService: 'ANK-961': server holds 0 RFID(s); taking the lowest free serial 1 (ANK9610001)
+2026-09-12 11:14:23.307  I  SerialService: 'ANK-961': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-961 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:14:23.351  I  SerialService: 'ANK-961': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-961&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:14:23.400  I  SerialService: 'ANK-961': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-961&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 11:14:23.407  I  SerialService: 'ANK-961': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 11:14:23.410  I  SerialService: 'ANK-961': server holds 0 RFID(s); taking the lowest free serial 1 (ANK9610001)
+2026-09-12 11:14:24.452  I  Registration: Upload accepted for ANK9610001: HTTP 200 {"updated":1,"tags":[{"id":1428,"epc":"ANK9610001","itemCode":"ANK-961","serialNo":1}]}
+2026-09-12 11:14:24.454  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-12 11:14:31.914  I  SerialService: 'ANK-961': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANK9610002)
+2026-09-12 11:14:32.975  I  Registration: Upload accepted for ANK9610002: HTTP 200 {"updated":1,"tags":[{"id":1429,"epc":"ANK9610002","itemCode":"ANK-961","serialNo":2}]}
+2026-09-12 11:14:32.981  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 11:14:39.267 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6844056
+09-12 11:14:40.353 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:14:40.364 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:14:40.377 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 11:16:12.206 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2018321
+09-12 11:16:12.230 21075 21075 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-12 11:16:13.159 21075 23704 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:525300000048,api:4,p:1496,c:21075) dequeueBuffer: BufferQueue has been abandoned
+09-12 11:16:13.165 21075 23704 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:525300000048,api:4,p:1496,c:21075) queueBuffer: BufferQueue has been abandoned
+09-12 11:16:13.183 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@dff1e4a
+09-12 11:16:13.189 21075 21087 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:525300000048,api:4,p:1496,c:21075) queueBuffer: BufferQueue has been abandoned
+09-12 11:16:13.223 21075 21087 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:525300000048,api:4,p:1496,c:21075) queueBuffer: BufferQueue has been abandoned
+09-12 11:16:13.231 21075 21087 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:525300000048,api:4,p:1496,c:21075) cancelBuffer: BufferQueue has been abandoned
+09-12 11:16:13.232 21075 21087 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:525300000048,api:4,p:1496,c:21075) cancelBuffer: BufferQueue has been abandoned
+09-12 11:16:13.249 21075 21087 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:525300000048,api:4,p:1496,c:21075) queueBuffer: BufferQueue has been abandoned
+2026-09-12 11:16:14.481  I  ProductSync: unmapped for location 2 needed 3 page(s): 480 row(s), server reported 480
+2026-09-12 11:16:16.123  I  ProductSync: unmapped for location 2 needed 3 page(s): 480 row(s), server reported 480
+09-12 11:16:16.900 21075 21084 W System  : A resource failed to call close. 
+09-12 11:16:16.900 21075 21084 W System  : A resource failed to call close. 
+2026-09-12 11:16:17.743  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-12 11:16:18.449 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ac84ba5
+2026-09-12 11:16:19.701  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-12 11:16:19.703  I  Net: Blank Audit: mapped-product sync started
+2026-09-12 11:16:19.704  I  Net: Blank Audit: local products still fresh, no sync needed
+2026-09-12 11:16:22.219  W  UhfSession: Could not power up the UHF reader
+09-12 11:16:22.304 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a78244a
+09-12 11:16:25.421 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@10a279b
+2026-09-12 11:17:07.817  I  UhfSession: UHF reader powered up
+09-12 11:19:56.329 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d869933
+2026-09-12 11:19:57.099  I  Net: Blank Audit: closed, releasing the UHF module
+09-12 11:19:57.105 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@34a900f
+2026-09-12 11:19:59.887  I  ProductSync: unmapped for location 2 needed 3 page(s): 480 row(s), server reported 480
+2026-09-12 11:20:01.504  I  ProductSync: unmapped for location 2 needed 3 page(s): 480 row(s), server reported 480
+2026-09-12 11:20:01.548  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-12 11:20:01.555 21075 21084 W System  : A resource failed to call close. 
+09-12 11:20:01.555 21075 21084 W System  : A resource failed to call close. 
+09-12 11:20:01.560 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 11:20:01.560 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 11:20:01.561 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 11:20:01.561 21075 21084 W System  : A resource failed to call close. 
+09-12 11:20:01.561 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 11:20:01.561 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 11:20:01.561 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 11:20:01.561 21075 21084 W System  : A resource failed to call close. 
+09-12 11:20:01.561 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 11:20:01.561 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 11:20:01.561 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 11:20:01.561 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 11:20:01.561 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 11:20:01.562 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-09-12 11:20:02.399  I  ProductSync: unmapped for location 2 needed 3 page(s): 480 row(s), server reported 480
+2026-09-12 11:20:03.673  I  ProductSync: unmapped for location 2 needed 3 page(s): 480 row(s), server reported 480
+09-12 11:20:04.127 21075 21084 W System  : A resource failed to call close. 
+09-12 11:20:04.127 21075 21084 W System  : A resource failed to call close. 
+09-12 11:20:04.127 21075 21084 W System  : A resource failed to call close. 
+09-12 11:20:04.128 21075 21084 W System  : A resource failed to call close. 
+09-12 11:20:04.128 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 11:20:04.128 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 11:20:04.128 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 11:20:04.128 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 11:20:04.128 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 11:20:04.128 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 11:20:05.054 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c484664
+2026-09-12 11:20:08.747  W  UhfSession: Could not power up the UHF reader
+2026-09-12 11:20:14.493  I  UhfSession: UHF reader powered up
+09-12 11:20:17.671 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@db09a4b
+09-12 11:20:27.991 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@621986e
+09-12 11:20:28.005 21075 21075 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-12 11:20:45.701 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2bca3e8
+09-12 11:20:56.755 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@56bef11
+2026-09-12 11:20:59.453  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-12 11:20:59.454  I  Net: Blank Audit: mapped-product sync started
+2026-09-12 11:20:59.455  I  Net: Blank Audit: local products still fresh, no sync needed
+09-12 11:21:00.512 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5ad2e66
+09-12 11:21:03.308 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f656387
+09-12 11:22:26.728 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@35ba3d0
+2026-09-12 11:22:27.418  I  Net: Blank Audit: closed, releasing the UHF module
+09-12 11:22:27.426 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@40f66b1
+2026-09-12 11:22:31.397  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-12 11:22:31.398  I  Net: Blank Audit: mapped-product sync started
+2026-09-12 11:22:31.399  I  Net: Blank Audit: local products still fresh, no sync needed
+2026-09-12 11:22:32.171  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-12 11:22:34.681  W  UhfSession: Could not power up the UHF reader
+09-12 11:22:35.014 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8756984
+09-12 11:22:36.938 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1b5e97f
+2026-09-12 11:22:40.895  I  UhfSession: UHF reader powered up
