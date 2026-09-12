@@ -1,0 +1,28 @@
+# pushed 2026-09-12 13:53:04.506 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 106294..110418
+
+09-12 13:47:13.855 21075 21088 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#416](f:3,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-12 13:47:13.888 21075 21088 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#416](f:4,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-12 13:47:14.135 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3aa0001
+2026-09-12 13:47:15.218  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-12 13:50:12.233  I  UhfSession: UHF reader powered up
+09-12 13:50:25.668 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fa6378a
+2026-09-12 13:50:26.147  I  SerialService: 'VINAY-485-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=VINAY-485-16 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:50:26.177  I  SerialService: 'VINAY-485-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=VINAY-485-16&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:50:26.208  I  SerialService: 'VINAY-485-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=VINAY-485-16&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:50:26.212  I  SerialService: 'VINAY-485-16': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 13:50:26.213  I  SerialService: 'VINAY-485-16': server holds 0 RFID(s); taking the lowest free serial 1 (VINAY485160001)
+2026-09-12 13:50:32.961  I  SerialService: 'VINAY-485-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=VINAY-485-16 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:50:32.997  I  SerialService: 'VINAY-485-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=VINAY-485-16&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:50:33.037  I  SerialService: 'VINAY-485-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=VINAY-485-16&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 13:50:33.049  I  SerialService: 'VINAY-485-16': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 13:50:33.052  I  SerialService: 'VINAY-485-16': server holds 0 RFID(s); taking the lowest free serial 1 (VINAY485160001)
+09-12 13:50:33.645 21075 21084 W System  : A resource failed to call close. 
+09-12 13:50:33.645 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 13:50:33.645 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 13:50:33.645 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 13:50:33.645 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 13:50:33.648 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-12 13:50:33.877  I  Registration: Upload accepted for VINAY485160001: HTTP 200 {"updated":1,"tags":[{"id":1610,"epc":"VINAY485160001","itemCode":"VINAY-485-16","serialNo":1}]}
+2026-09-12 13:50:33.878  I  Registration: Uploaded 1 tag(s); 0 still pending
