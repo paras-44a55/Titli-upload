@@ -1,0 +1,231 @@
+# pushed 2026-09-12 12:45:07.029 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 62570..99082
+
+09-12 12:34:53.447 21075 21088 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#359](f:2,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-12 12:34:53.494 21075 21095 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#359](f:3,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+2026-09-12 12:34:54.837  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-12 12:35:14.096  I  UhfSession: UHF reader powered up
+09-12 12:35:36.432 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@418d108
+2026-09-12 12:35:38.211  I  SerialService: 'PDS-11300': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11300 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:35:38.278  I  SerialService: 'PDS-11300': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11300&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:35:38.341  I  SerialService: 'PDS-11300': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11300&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:35:38.353  I  SerialService: 'PDS-11300': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:35:38.357  I  SerialService: 'PDS-11300': server holds 0 RFID(s); taking the lowest free serial 1 (PDS113000001)
+2026-09-12 12:35:46.766  I  SerialService: 'PDS-11300': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11300 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:35:46.836  I  SerialService: 'PDS-11300': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11300&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:35:46.905  I  SerialService: 'PDS-11300': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11300&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:35:46.912  I  SerialService: 'PDS-11300': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:35:46.919  I  SerialService: 'PDS-11300': server holds 0 RFID(s); taking the lowest free serial 1 (PDS113000001)
+2026-09-12 12:35:50.281  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+09-12 12:35:51.491 21075 21084 W System  : A resource failed to call close. 
+09-12 12:35:51.491 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 12:35:51.491 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 12:35:51.491 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 12:35:51.497 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:35:51.506 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-12 12:35:58.840  I  SerialService: 'PDS-11300': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11300 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:35:58.883  I  SerialService: 'PDS-11300': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11300&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:35:58.929  I  SerialService: 'PDS-11300': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11300&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:35:58.938  I  SerialService: 'PDS-11300': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:35:58.941  I  SerialService: 'PDS-11300': server holds 0 RFID(s); taking the lowest free serial 1 (PDS113000001)
+2026-09-12 12:35:59.654  I  Registration: Upload accepted for PDS113000001: HTTP 200 {"updated":1,"tags":[{"id":1530,"epc":"PDS113000001","itemCode":"PDS-11300","serialNo":1}]}
+2026-09-12 12:35:59.663  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-12 12:36:03.927  I  SerialService: 'PDS-11300': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PDS113000002)
+2026-09-12 12:36:04.704  I  Registration: Upload accepted for PDS113000002: HTTP 200 {"updated":1,"tags":[{"id":1531,"epc":"PDS113000002","itemCode":"PDS-11300","serialNo":2}]}
+2026-09-12 12:36:04.710  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 12:36:21.130 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@34d6578
+09-12 12:36:27.215 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:36:27.224 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:36:30.335 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8b26b2c
+2026-09-12 12:36:30.404  I  SerialService: 'PDS-4167': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4167 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:36:30.469  I  SerialService: 'PDS-4167': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4167&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:36:30.540  I  SerialService: 'PDS-4167': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4167&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:36:30.549  I  SerialService: 'PDS-4167': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:36:30.561  I  SerialService: 'PDS-4167': server holds 0 RFID(s); taking the lowest free serial 1 (PDS41670001)
+2026-09-12 12:36:34.465  I  SerialService: 'PDS-4167': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4167 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:36:34.532  I  SerialService: 'PDS-4167': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4167&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:36:34.588  I  SerialService: 'PDS-4167': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4167&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:36:34.598  I  SerialService: 'PDS-4167': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:36:34.601  I  SerialService: 'PDS-4167': server holds 0 RFID(s); taking the lowest free serial 1 (PDS41670001)
+2026-09-12 12:36:35.607  I  Registration: Upload accepted for PDS41670001: HTTP 200 {"updated":1,"tags":[{"id":1532,"epc":"PDS41670001","itemCode":"PDS-4167","serialNo":1}]}
+2026-09-12 12:36:35.610  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 12:36:43.274 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d7748f6
+09-12 12:37:03.365 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:37:03.367 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:37:43.497 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@308d18b
+2026-09-12 12:37:44.547  I  SerialService: 'PDS-4085': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4085 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:37:44.601  I  SerialService: 'PDS-4085': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4085&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:37:44.653  I  SerialService: 'PDS-4085': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4085&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:37:44.662  I  SerialService: 'PDS-4085': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:37:44.664  I  SerialService: 'PDS-4085': server holds 0 RFID(s); taking the lowest free serial 1 (PDS40850001)
+2026-09-12 12:37:50.849  I  SerialService: 'PDS-4085': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4085 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:37:50.889  I  SerialService: 'PDS-4085': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4085&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:37:50.927  I  SerialService: 'PDS-4085': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4085&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:37:50.935  I  SerialService: 'PDS-4085': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:37:50.939  I  SerialService: 'PDS-4085': server holds 0 RFID(s); taking the lowest free serial 1 (PDS40850001)
+2026-09-12 12:37:51.906  I  Registration: Upload accepted for PDS40850001: HTTP 200 {"updated":1,"tags":[{"id":1533,"epc":"PDS40850001","itemCode":"PDS-4085","serialNo":1}]}
+2026-09-12 12:37:51.911  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-12 12:37:56.466  I  SerialService: 'PDS-4085': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PDS40850002)
+2026-09-12 12:37:57.224  I  Registration: Upload accepted for PDS40850002: HTTP 200 {"updated":1,"tags":[{"id":1534,"epc":"PDS40850002","itemCode":"PDS-4085","serialNo":2}]}
+2026-09-12 12:37:57.228  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 12:38:13.552 21075 21084 W System  : A resource failed to call close. 
+09-12 12:38:13.553 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 12:38:13.553 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 12:38:13.553 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 12:38:13.555 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:38:13.563 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:38:13.571 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:38:15.650 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2f17e64
+09-12 12:38:20.775 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@aced5d1
+2026-09-12 12:38:20.831  I  SerialService: 'PDS-3005': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-3005 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:20.871  I  SerialService: 'PDS-3005': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-3005&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:20.933  I  SerialService: 'PDS-3005': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-3005&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:20.949  I  SerialService: 'PDS-3005': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:38:20.962  I  SerialService: 'PDS-3005': server holds 0 RFID(s); taking the lowest free serial 1 (PDS30050001)
+2026-09-12 12:38:24.415  I  SerialService: 'PDS-3005': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-3005 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:24.459  I  SerialService: 'PDS-3005': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-3005&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:24.510  I  SerialService: 'PDS-3005': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-3005&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:24.533  I  SerialService: 'PDS-3005': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:38:24.537  I  SerialService: 'PDS-3005': server holds 0 RFID(s); taking the lowest free serial 1 (PDS30050001)
+2026-09-12 12:38:25.513  I  Registration: Upload accepted for PDS30050001: HTTP 200 {"updated":1,"tags":[{"id":1535,"epc":"PDS30050001","itemCode":"PDS-3005","serialNo":1}]}
+2026-09-12 12:38:25.516  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 12:38:37.194 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@21b323a
+09-12 12:38:37.212 21075 21075 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-12 12:38:40.993 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bae7de0
+09-12 12:38:41.027 21075 21075 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-12 12:38:41.086  I  SerialService: 'PDS-4069': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4069 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:41.144  I  SerialService: 'PDS-4069': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4069&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:41.210  I  SerialService: 'PDS-4069': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4069&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:41.230  I  SerialService: 'PDS-4069': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:38:41.237  I  SerialService: 'PDS-4069': server holds 0 RFID(s); taking the lowest free serial 1 (PDS40690001)
+2026-09-12 12:38:51.552  I  SerialService: 'PDS-4069': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4069 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:51.591  I  SerialService: 'PDS-4069': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4069&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:51.635  I  SerialService: 'PDS-4069': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4069&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:38:51.642  I  SerialService: 'PDS-4069': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:38:51.644  I  SerialService: 'PDS-4069': server holds 0 RFID(s); taking the lowest free serial 1 (PDS40690001)
+2026-09-12 12:38:52.572  I  Registration: Upload accepted for PDS40690001: HTTP 200 {"updated":1,"tags":[{"id":1536,"epc":"PDS40690001","itemCode":"PDS-4069","serialNo":1}]}
+2026-09-12 12:38:52.574  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 12:39:01.849 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4bf649d
+09-12 12:39:01.876 21075 21075 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-12 12:39:02.564 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:39:02.566 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:39:02.580 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:39:02.602 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:39:06.075 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a6a2a4b
+09-12 12:39:06.099 21075 21075 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-12 12:39:07.352  I  SerialService: 'PDS-11681-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11681-13 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:07.403  I  SerialService: 'PDS-11681-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11681-13&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:07.440  I  SerialService: 'PDS-11681-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11681-13&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:07.474  I  SerialService: 'PDS-11681-13': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:39:07.476  I  SerialService: 'PDS-11681-13': server holds 0 RFID(s); taking the lowest free serial 1 (PDS11681130001)
+2026-09-12 12:39:11.485  I  SerialService: 'PDS-11681-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11681-13 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:11.521  I  SerialService: 'PDS-11681-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11681-13&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:11.563  I  SerialService: 'PDS-11681-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-11681-13&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:11.571  I  SerialService: 'PDS-11681-13': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:39:11.579  I  SerialService: 'PDS-11681-13': server holds 0 RFID(s); taking the lowest free serial 1 (PDS11681130001)
+2026-09-12 12:39:13.103  I  Registration: Upload accepted for PDS11681130001: HTTP 200 {"updated":1,"tags":[{"id":1537,"epc":"PDS11681130001","itemCode":"PDS-11681-13","serialNo":1}]}
+2026-09-12 12:39:13.110  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 12:39:23.256 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@dd1f0a1
+09-12 12:39:26.989 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2fff2f7
+2026-09-12 12:39:27.039  I  SerialService: 'PDS-4095': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4095 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:27.089  I  SerialService: 'PDS-4095': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4095&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:27.137  I  SerialService: 'PDS-4095': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4095&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:27.156  I  SerialService: 'PDS-4095': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:39:27.158  I  SerialService: 'PDS-4095': server holds 0 RFID(s); taking the lowest free serial 1 (PDS40950001)
+2026-09-12 12:39:31.177  I  SerialService: 'PDS-4095': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4095 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:31.225  I  SerialService: 'PDS-4095': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4095&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:31.273  I  SerialService: 'PDS-4095': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4095&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:31.281  I  SerialService: 'PDS-4095': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:39:31.283  I  SerialService: 'PDS-4095': server holds 0 RFID(s); taking the lowest free serial 1 (PDS40950001)
+2026-09-12 12:39:33.117  I  Registration: Upload accepted for PDS40950001: HTTP 200 {"updated":1,"tags":[{"id":1538,"epc":"PDS40950001","itemCode":"PDS-4095","serialNo":1}]}
+2026-09-12 12:39:33.120  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 12:39:44.702 21075 21084 W System  : A resource failed to call close. 
+09-12 12:39:44.702 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 12:39:44.703 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 12:39:44.703 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 12:39:44.704 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:39:44.706 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:39:44.719 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:39:44.729 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:39:53.277 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@779f1eb
+09-12 12:39:57.899 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c8351a1
+2026-09-12 12:39:57.959  I  SerialService: 'PDS-4045': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4045 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:58.068  I  SerialService: 'PDS-4045': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4045&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:58.161  I  SerialService: 'PDS-4045': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4045&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:39:58.170  I  SerialService: 'PDS-4045': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:39:58.175  I  SerialService: 'PDS-4045': server holds 0 RFID(s); taking the lowest free serial 1 (PDS40450001)
+2026-09-12 12:40:03.274  I  SerialService: 'PDS-4045': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4045 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:40:03.319  I  SerialService: 'PDS-4045': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4045&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:40:03.360  I  SerialService: 'PDS-4045': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDS-4045&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-12 12:40:03.368  I  SerialService: 'PDS-4045': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-12 12:40:03.373  I  SerialService: 'PDS-4045': server holds 0 RFID(s); taking the lowest free serial 1 (PDS40450001)
+2026-09-12 12:40:04.361  I  Registration: Upload accepted for PDS40450001: HTTP 200 {"updated":1,"tags":[{"id":1539,"epc":"PDS40450001","itemCode":"PDS-4045","serialNo":1}]}
+2026-09-12 12:40:04.367  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-12 12:40:08.447 21075 23038 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#379(BLAST Consumer)379](id:525300000193,api:4,p:1496,c:21075) queueBuffer: BufferQueue has been abandoned
+09-12 12:40:08.459 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@aab775c
+09-12 12:40:08.475 21075 23038 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#379(BLAST Consumer)379](id:525300000193,api:4,p:1496,c:21075) queueBuffer: BufferQueue has been abandoned
+09-12 12:40:08.495 21075 21086 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#379(BLAST Consumer)379](id:525300000193,api:4,p:1496,c:21075) queueBuffer: BufferQueue has been abandoned
+09-12 12:40:08.502 21075 23038 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#379(BLAST Consumer)379](id:525300000193,api:4,p:1496,c:21075) cancelBuffer: BufferQueue has been abandoned
+09-12 12:40:08.504 21075 23038 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#379(BLAST Consumer)379](id:525300000193,api:4,p:1496,c:21075) cancelBuffer: BufferQueue has been abandoned
+09-12 12:40:08.506 21075 23038 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#379(BLAST Consumer)379](id:525300000193,api:4,p:1496,c:21075) cancelBuffer: BufferQueue has been abandoned
+09-12 12:40:08.507 21075 23038 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#379(BLAST Consumer)379](id:525300000193,api:4,p:1496,c:21075) cancelBuffer: BufferQueue has been abandoned
+2026-09-12 12:40:10.268  I  ProductSync: unmapped for location 2 needed 2 page(s): 370 row(s), server reported 370
+2026-09-12 12:40:13.207  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-12 12:40:13.311  I  ProductSync: unmapped for location 2 needed 2 page(s): 370 row(s), server reported 370
+09-12 12:40:13.762 21075 21084 W System  : A resource failed to call close. 
+09-12 12:40:13.762 21075 21084 W System  : A resource failed to call close. 
+09-12 12:40:13.768 21075 21084 W System  : A resource failed to call CursorWindow.close. 
+09-12 12:40:13.768 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:40:13.771 21075 21084 W System  : A resource failed to call CursorWindow.close. 
+09-12 12:40:13.771 21075 21084 W System  : A resource failed to call AbstractCursor.close. 
+09-12 12:40:15.611 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cffae0f
+2026-09-12 12:40:16.086  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-12 12:40:16.089  I  Net: Blank Audit: mapped-product sync started
+2026-09-12 12:40:16.090  I  Net: Blank Audit: local products still fresh, no sync needed
+09-12 12:40:17.297 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a346d31
+2026-09-12 12:40:18.604  W  UhfSession: Could not power up the UHF reader
+09-12 12:40:25.596 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f6249b
+2026-09-12 12:40:31.539  I  UhfSession: UHF reader powered up
+09-12 12:41:59.237 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bc829bf
+09-12 12:41:59.246 21075 21075 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-12 12:43:05.531 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c3dafb4
+2026-09-12 12:43:06.257  I  Net: Blank Audit: closed, releasing the UHF module
+09-12 12:43:06.265 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8b167a5
+2026-09-12 12:43:11.263  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-12 12:43:26.035  I  ProductSync: unmapped for location 2 needed 2 page(s): 370 row(s), server reported 370
+2026-09-12 12:43:27.049  I  ProductSync: unmapped for location 2 needed 2 page(s): 370 row(s), server reported 370
+09-12 12:43:27.116 21075 21084 W System  : A resource failed to call close. 
+09-12 12:43:27.116 21075 21084 W System  : A resource failed to call close. 
+09-12 12:43:27.125 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 12:43:27.125 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 12:43:27.125 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 12:43:27.126 21075 21084 W System  : A resource failed to call close. 
+09-12 12:43:27.128 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 12:43:27.128 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 12:43:27.129 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 12:43:27.129 21075 21084 W System  : A resource failed to call close. 
+09-12 12:43:27.129 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 12:43:27.129 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 12:43:27.129 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 12:43:27.129 21075 21084 W System  : A resource failed to call close. 
+09-12 12:43:27.129 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 12:43:27.129 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 12:43:27.130 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 12:43:27.130 21075 21084 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-12 12:43:27.130 21075 21084 W System  : A resource failed to call SQLiteConnection.close. 
+09-12 12:43:27.130 21075 21084 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-12 12:43:28.859 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6130101
+2026-09-12 12:43:32.494  W  UhfSession: Could not power up the UHF reader
+09-12 12:43:46.945 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@745fe8d
+2026-09-12 12:43:51.512  I  UhfSession: UHF reader powered up
+09-12 12:43:54.319 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2953879
+2026-09-12 12:43:55.578  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-12 12:43:55.578  I  Net: Blank Audit: mapped-product sync started
+2026-09-12 12:43:55.579  I  Net: Blank Audit: local products still fresh, no sync needed
+09-12 12:43:56.757 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@eba9a81
+09-12 12:44:05.860 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7f5086
+09-12 12:44:57.872 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e1fc4ee
+2026-09-12 12:44:58.527  I  Net: Blank Audit: closed, releasing the UHF module
+09-12 12:44:58.534 21075 21075 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@24407fb
+2026-09-12 12:45:03.031  I  UhfSession: UHF reader powered down: no screen is using the reader
