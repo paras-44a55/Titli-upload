@@ -1,0 +1,55 @@
+# pushed 2026-09-13 17:42:24.702 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 233376..241354
+
+09-13 17:34:31.937  4409  7025 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#206](f:1,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+2026-09-13 17:34:33.320  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-13 17:41:42.204  W  Net: wifi DISCONNECTED — link had been up for 1447s
+09-13 17:41:46.656  4409  4409 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e159614
+2026-09-13 17:41:46.698  I  UhfSession: UHF reader powered up
+2026-09-13 17:41:46.830  I  Net: wifi connected
+2026-09-13 17:41:46.840  W  Net: wifi is up but has NO internet (rssi -74 dBm)
+2026-09-13 17:41:46.849  I  Net: wifi has internet (rssi -74 dBm)
+09-13 17:41:50.613  4409  4420 W System  : A resource failed to call close. 
+09-13 17:41:50.613  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 17:41:50.613  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 17:41:50.613  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 17:41:52.111  4409  4409 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@90926ee
+2026-09-13 17:41:53.445  I  SerialService: 'UV-77663': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-77663 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:41:53.483  I  SerialService: 'UV-77663': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-77663&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:41:53.522  I  SerialService: 'UV-77663': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-77663&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:41:53.532  I  SerialService: 'UV-77663': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-13 17:41:53.533  I  SerialService: 'UV-77663': server holds 0 RFID(s); taking the lowest free serial 1 (UV776630001)
+2026-09-13 17:41:56.402  I  SerialService: 'UV-77663': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-77663 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:41:56.440  I  SerialService: 'UV-77663': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-77663&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:41:56.477  I  SerialService: 'UV-77663': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-77663&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:41:56.490  I  SerialService: 'UV-77663': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-13 17:41:56.492  I  SerialService: 'UV-77663': server holds 0 RFID(s); taking the lowest free serial 1 (UV776630001)
+2026-09-13 17:41:58.802  I  Registration: Upload accepted for UV776630001: HTTP 200 {"updated":1,"tags":[{"id":1961,"epc":"UV776630001","itemCode":"UV-77663","serialNo":1}]}
+2026-09-13 17:41:58.803  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-13 17:42:10.498  4409  4409 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@eed7595
+09-13 17:42:10.506  4409  4409 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-13 17:42:13.560  4409  4409 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bdc3084
+09-13 17:42:13.576  4409  4409 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-13 17:42:13.601  I  SerialService: 'UV-14245': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-14245 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:42:13.635  I  SerialService: 'UV-14245': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-14245&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:42:13.675  I  SerialService: 'UV-14245': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-14245&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:42:13.686  I  SerialService: 'UV-14245': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-13 17:42:13.688  I  SerialService: 'UV-14245': server holds 0 RFID(s); taking the lowest free serial 1 (UV142450001)
+2026-09-13 17:42:15.870  I  SerialService: 'UV-14245': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-14245 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:42:15.905  I  SerialService: 'UV-14245': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-14245&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:42:15.942  I  SerialService: 'UV-14245': GET http://164.52.223.163:4636/api/device/products/mapped?search=UV-14245&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-13 17:42:15.955  I  SerialService: 'UV-14245': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-13 17:42:15.957  I  SerialService: 'UV-14245': server holds 0 RFID(s); taking the lowest free serial 1 (UV142450001)
+2026-09-13 17:42:16.594  I  Registration: Upload accepted for UV142450001: HTTP 200 {"updated":1,"tags":[{"id":1962,"epc":"UV142450001","itemCode":"UV-14245","serialNo":1}]}
+2026-09-13 17:42:16.596  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-13 17:42:23.634  4409  4420 W System  : A resource failed to call close. 
+09-13 17:42:23.634  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 17:42:23.634  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 17:42:23.634  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 17:42:23.635  4409  4420 W System  : A resource failed to call AbstractCursor.close. 
+09-13 17:42:23.636  4409  4420 W System  : A resource failed to call AbstractCursor.close. 
+09-13 17:42:23.646  4409  4420 W System  : A resource failed to call AbstractCursor.close. 
+09-13 17:42:23.648  4409  4420 W System  : A resource failed to call AbstractCursor.close. 
+09-13 17:42:23.655  4409  4409 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5fe05d
+09-13 17:42:23.661  4409  4409 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
