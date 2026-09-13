@@ -1,0 +1,119 @@
+# pushed 2026-09-13 16:57:15.004 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 146531..160306
+
+09-13 16:56:37.193  4409  4418 W hionapplication: Reducing the number of considered missed Gc histogram windows from 103 to 100
+09-13 16:56:37.223  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:56:37.223  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:56:37.223  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:56:37.223  4409  4420 W System  : A resource failed to call close. 
+09-13 16:56:37.227  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:56:37.227  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:56:37.230  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:56:37.230  4409  4420 W System  : A resource failed to call close. 
+09-13 16:56:37.230  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:56:37.230  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:56:37.230  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:56:37.230  4409  4420 W System  : A resource failed to call close. 
+09-13 16:56:37.231  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:56:37.231  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:56:37.232  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:56:37.232  4409  4420 W System  : A resource failed to call close. 
+09-13 16:56:37.233  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:56:37.233  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:56:37.234  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:56:37.234  4409  4420 W System  : A resource failed to call close. 
+2026-09-13 16:56:38.668  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:887)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-13 16:56:38.676  W  ProductSync: unmapped row-count probe failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.serverRowCount(ProductSync.kt:228)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:177)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:965)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-13 16:56:38.690  E  ProductSync: unmapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:965)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-13 16:56:38.857  W  Net: wifi DISCONNECTED — link had been up for 3368s
+2026-09-13 16:56:39.703  W  UhfSession: Could not power up the UHF reader
+2026-09-13 16:56:43.661  I  Net: wifi connected
+2026-09-13 16:56:43.663  W  Net: wifi is up but has NO internet (rssi -30 dBm)
+2026-09-13 16:56:43.700  I  Net: wifi has internet (rssi -30 dBm)
+09-13 16:57:10.987  4409  4420 W System  : A resource failed to call close. 
+09-13 16:57:10.987  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:57:10.987  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:57:10.987  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:57:10.988  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:57:10.988  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:57:10.988  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:57:10.989  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:57:10.989  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:57:10.989  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:57:10.990  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:57:10.990  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:57:10.990  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:57:10.990  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:57:10.990  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:57:10.990  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:57:10.990  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:57:10.991  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:57:10.991  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:57:10.992  4409  4420 W System  : A resource failed to call close. 
+09-13 16:57:10.992  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:57:10.992  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:57:10.992  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:57:10.994  4409  4420 W System  : A resource failed to call close. 
+09-13 16:57:10.994  4409  4420 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-13 16:57:10.994  4409  4420 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-13 16:57:10.994  4409  4420 W System  : A resource failed to call SQLiteConnection.close. 
+09-13 16:57:14.468  4409  4409 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e086b5b
+09-13 16:57:14.976  4409  4422 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#130(BLAST Consumer)130](id:113900000088,api:4,p:1496,c:4409) queueBuffer: BufferQueue has been abandoned
+09-13 16:57:14.991  4409  4422 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#130(BLAST Consumer)130](id:113900000088,api:4,p:1496,c:4409) dequeueBuffer: BufferQueue has been abandoned
