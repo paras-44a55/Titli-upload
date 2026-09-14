@@ -1,0 +1,202 @@
+# pushed 2026-09-14 16:29:09.515 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 62620..84289
+
+09-14 16:21:40.412 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:21:40.412 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:21:40.413 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:21:40.413 22887 22899 W System  : A resource failed to call close. 
+09-14 16:21:41.149 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:21:41.151  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+09-14 16:21:41.156 22887 22897 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+2026-09-14 16:21:41.233  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:21:41.309  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:21:41.388  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:21:41.463  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+09-14 16:21:41.617 22887 23086 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-09-14 16:21:42.244  W  UhfSession: Could not power up the UHF reader
+2026-09-14 16:21:44.800  I  UhfSession: UHF reader powered up
+2026-09-14 16:21:44.925  I  SerialService: 'SK-2615': GET http://164.52.223.163:4636/api/device/products/mapped?search=SK-2615 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:21:45.010  I  SerialService: 'SK-2615': GET http://164.52.223.163:4636/api/device/products/mapped?search=SK-2615&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:21:45.093  I  SerialService: 'SK-2615': GET http://164.52.223.163:4636/api/device/products/mapped?search=SK-2615&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:21:45.100  I  SerialService: 'SK-2615': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:21:45.103  I  SerialService: 'SK-2615': server holds 0 RFID(s); taking the lowest free serial 1 (SK26150001)
+2026-09-14 16:21:46.821  I  SerialService: 'SK-2615': GET http://164.52.223.163:4636/api/device/products/mapped?search=SK-2615 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:21:46.909  I  SerialService: 'SK-2615': GET http://164.52.223.163:4636/api/device/products/mapped?search=SK-2615&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:21:47.000  I  SerialService: 'SK-2615': GET http://164.52.223.163:4636/api/device/products/mapped?search=SK-2615&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:21:47.008  I  SerialService: 'SK-2615': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:21:47.011  I  SerialService: 'SK-2615': server holds 0 RFID(s); taking the lowest free serial 1 (SK26150001)
+2026-09-14 16:21:47.676  E  Registration: Upload rejected for RCPL17200001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1882,"epc":"RCPL17200001","itemCode":"RCPL-1720","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:21:47.757  E  Registration: Upload rejected for RCPL17200002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1883,"epc":"RCPL17200002","itemCode":"RCPL-1720","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:21:47.835  E  Registration: Upload rejected for RCPL78300001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1888,"epc":"RCPL78300001","itemCode":"RCPL-7830","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:21:47.912  E  Registration: Upload rejected for RCPL16190002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1907,"epc":"RCPL16190002","itemCode":"RCPL-1619","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:21:47.991  E  Registration: Upload rejected for RCPL26540001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1898,"epc":"RCPL26540001","itemCode":"RCPL-2654","serialNo":1}]}
+  HTTP 500
+  response: 
+09-14 16:21:49.800 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:21:49.801 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:21:49.807 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:21:49.807 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:21:49.808 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:21:49.808 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:21:49.809 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:21:49.809 22887 22899 W System  : A resource failed to call close. 
+09-14 16:22:02.484 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:22:03.096  I  ProductSync: unmapped for location 4 needed 4 page(s): 646 row(s), server reported 646
+09-14 16:22:03.497 22887 22899 W System  : A resource failed to call close. 
+09-14 16:22:03.497 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:22:03.497 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:22:03.497 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-14 16:22:04.182  I  ProductSync: unmapped for location 4 needed 4 page(s): 646 row(s), server reported 646
+09-14 16:22:04.479 22887 22899 W System  : A resource failed to call close. 
+09-14 16:22:04.479 22887 22899 W System  : A resource failed to call close. 
+2026-09-14 16:22:05.214  I  ProductSync: unmapped for location 4 needed 4 page(s): 646 row(s), server reported 646
+2026-09-14 16:22:05.231  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-14 16:22:05.502 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:22:05.502 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:22:05.502 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:22:05.502 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:22:05.503 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:22:05.503 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:22:05.503 22887 22899 W System  : A resource failed to call close. 
+09-14 16:22:05.503 22887 22899 W System  : A resource failed to call close. 
+2026-09-14 16:22:06.158  I  ProductSync: unmapped for location 4 needed 4 page(s): 646 row(s), server reported 646
+09-14 16:22:06.406 22887 22899 W System  : A resource failed to call close. 
+09-14 16:22:06.406 22887 22899 W System  : A resource failed to call close. 
+09-14 16:22:06.406 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:22:06.406 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:22:06.406 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:22:06.406 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:22:06.406 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:22:06.407 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-09-14 16:22:10.585  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-14 16:22:10.586  I  Net: Blank Audit: mapped-product sync started
+2026-09-14 16:22:10.588  I  Net: Blank Audit: local products still fresh, no sync needed
+09-14 16:22:10.658 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:22:11.697 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:22:13.096  W  UhfSession: Could not power up the UHF reader
+09-14 16:22:15.589 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:22:20.314  I  UhfSession: UHF reader powered up
+2026-09-14 16:22:56.845  I  Net: Blank Audit: closed, releasing the UHF module
+09-14 16:22:59.596 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:23:00.231  I  ProductSync: unmapped for location 4 needed 4 page(s): 646 row(s), server reported 646
+09-14 16:23:00.336 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:23:00.336 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:23:00.336 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:23:00.336 22887 22899 W System  : A resource failed to call close. 
+09-14 16:23:00.337 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:23:00.337 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:23:00.337 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:23:00.337 22887 22899 W System  : A resource failed to call close. 
+09-14 16:23:00.338 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:23:00.338 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:23:00.338 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:23:00.338 22887 22899 W System  : A resource failed to call close. 
+09-14 16:23:00.338 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:23:00.338 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:23:00.339 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:23:00.339 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:23:00.339 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:23:00.339 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-09-14 16:23:01.234  I  ProductSync: unmapped for location 4 needed 4 page(s): 646 row(s), server reported 646
+09-14 16:23:01.505 22887 22899 W System  : A resource failed to call close. 
+09-14 16:23:01.505 22887 22899 W System  : A resource failed to call close. 
+2026-09-14 16:23:01.802  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-14 16:23:46.196 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:23:46.866  I  ProductSync: unmapped for location 4 needed 4 page(s): 646 row(s), server reported 646
+09-14 16:23:47.203 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:23:47.203 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:23:47.203 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:23:47.204 22887 22899 W System  : A resource failed to call close. 
+09-14 16:23:47.204 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:23:47.204 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:23:47.204 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:23:47.204 22887 22899 W System  : A resource failed to call close. 
+09-14 16:23:47.204 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:23:47.204 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:23:47.204 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:23:47.204 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:23:47.204 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:23:47.204 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-09-14 16:23:48.044  I  ProductSync: unmapped for location 4 needed 4 page(s): 646 row(s), server reported 646
+09-14 16:23:48.350 22887 22899 W System  : A resource failed to call close. 
+09-14 16:23:48.350 22887 22899 W System  : A resource failed to call close. 
+09-14 16:23:49.315 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:23:51.779  W  UhfSession: Could not power up the UHF reader
+2026-09-14 16:23:54.358  I  UhfSession: UHF reader powered up
+2026-09-14 16:24:42.862  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-14 16:25:01.766 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:25:02.423  I  ProductSync: unmapped for location 4 needed 4 page(s): 646 row(s), server reported 646
+09-14 16:25:02.480 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:25:02.480 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:25:02.481 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:25:02.481 22887 22899 W System  : A resource failed to call close. 
+09-14 16:25:02.836 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:25:02.836 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:25:02.837 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:25:02.837 22887 22899 W System  : A resource failed to call close. 
+09-14 16:25:02.837 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:25:02.837 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:25:02.838 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:25:02.838 22887 22899 W System  : A resource failed to call close. 
+09-14 16:25:02.838 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:25:02.838 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:25:02.839 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:25:02.839 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:25:02.839 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:25:02.839 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:25:14.165 22887 22899 W System  : A resource failed to call close. 
+09-14 16:25:14.165 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:25:14.165 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:25:14.165 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:25:14.166 22887 22899 W System  : A resource failed to call close. 
+09-14 16:25:14.166 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:25:14.166 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:25:14.166 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:27:48.487 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:27:49.232  I  ProductSync: unmapped for location 4 needed 4 page(s): 646 row(s), server reported 646
+2026-09-14 16:27:53.086  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-14 16:27:53.086  I  Net: Blank Audit: mapped-product sync started
+2026-09-14 16:27:53.087  I  Net: Blank Audit: local products still fresh, no sync needed
+09-14 16:27:53.149 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:27:54.043 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:27:55.600  W  UhfSession: Could not power up the UHF reader
+2026-09-14 16:28:04.103  I  Net: Blank Audit: closed, releasing the UHF module
