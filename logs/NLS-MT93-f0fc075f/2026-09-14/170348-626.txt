@@ -1,0 +1,917 @@
+# pushed 2026-09-14 17:03:48.626 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 234837..317703
+
+09-14 16:53:18.674 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:53:18.674 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:53:18.675 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:53:18.675 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:53:18.677 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:53:18.677 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:53:18.678 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:53:18.678 22887 22899 W System  : A resource failed to call close. 
+09-14 16:53:18.680 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:53:18.680 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:53:18.680 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:53:18.680 22887 22899 W System  : A resource failed to call close. 
+09-14 16:53:18.680 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:53:18.680 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:53:18.681 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:53:18.681 22887 22899 W System  : A resource failed to call close. 
+09-14 16:53:18.681 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:53:18.681 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:53:18.681 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:53:18.681 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:53:18.681 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:53:18.682 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-09-14 16:53:46.194  I  SerialService: 'MB-WHITEMOTI2BL': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-WHITEMOTI2BL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:53:46.276  I  SerialService: 'MB-WHITEMOTI2BL': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-WHITEMOTI2BL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:53:46.358  I  SerialService: 'MB-WHITEMOTI2BL': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-WHITEMOTI2BL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:53:46.367  I  SerialService: 'MB-WHITEMOTI2BL': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:53:46.370  I  SerialService: 'MB-WHITEMOTI2BL': server holds 0 RFID(s); taking the lowest free serial 2 (MBWHITEMOTI2BL0002)
+2026-09-14 16:53:47.000  E  Registration: Upload rejected for RCPL17650003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1879,"epc":"RCPL17650003","itemCode":"RCPL-1765","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-14 16:53:47.069  E  Registration: Upload rejected for RCPL15550003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1897,"epc":"RCPL15550003","itemCode":"RCPL-1555","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-14 16:53:47.142  E  Registration: Upload rejected for RCPL78300002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1888,"epc":"RCPL78300002","itemCode":"RCPL-7830","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:53:47.221  E  Registration: Upload rejected for RCPL17200003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1882,"epc":"RCPL17200003","itemCode":"RCPL-1720","serialNo":3}]}
+  HTTP 500
+  response: 
+09-14 16:53:47.257 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:53:47.257 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-14 16:53:47.304  I  Registration: Upload accepted for MBWHITEMOTI2BL0001: HTTP 200 {"updated":1,"tags":[{"id":2048,"epc":"MBWHITEMOTI2BL0001","itemCode":"MB-WHITEMOTI2BL","serialNo":1}]}
+2026-09-14 16:53:47.384  I  Registration: Upload accepted for MBWHITEMOTI2BL0002: HTTP 200 {"updated":1,"tags":[{"id":2049,"epc":"MBWHITEMOTI2BL0002","itemCode":"MB-WHITEMOTI2BL","serialNo":2}]}
+2026-09-14 16:53:47.458  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:53:47.462  I  Registration: Uploaded 2 tag(s); 14 still pending
+09-14 16:54:01.181 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:54:18.135 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:54:25.969  I  SerialService: 'MB-2DSTAR': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-2DSTAR -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:26.047  I  SerialService: 'MB-2DSTAR': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-2DSTAR&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:26.126  I  SerialService: 'MB-2DSTAR': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-2DSTAR&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:26.135  I  SerialService: 'MB-2DSTAR': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:54:26.137  I  SerialService: 'MB-2DSTAR': server holds 0 RFID(s); taking the lowest free serial 1 (MB2DSTAR0001)
+2026-09-14 16:54:26.891  I  SerialService: 'MB-2DSTAR': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-2DSTAR -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:26.977  I  SerialService: 'MB-2DSTAR': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-2DSTAR&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:27.063  I  SerialService: 'MB-2DSTAR': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-2DSTAR&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:27.079  I  SerialService: 'MB-2DSTAR': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:54:27.082  I  SerialService: 'MB-2DSTAR': server holds 0 RFID(s); taking the lowest free serial 1 (MB2DSTAR0001)
+2026-09-14 16:54:27.886  I  Registration: Upload accepted for MB2DSTAR0001: HTTP 200 {"updated":1,"tags":[{"id":2050,"epc":"MB2DSTAR0001","itemCode":"MB-2DSTAR","serialNo":1}]}
+2026-09-14 16:54:27.968  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:54:28.042  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:54:28.116  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:54:28.194  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:54:28.271  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:54:28.274  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:54:36.464 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:54:40.826 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:54:40.826 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:54:40.826 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:54:40.826 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:54:40.827 22887 22899 W System  : A resource failed to call close. 
+09-14 16:54:41.387 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:54:44.931  I  SerialService: 'MB-LONGFLOWER3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-LONGFLOWER3 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:45.021  I  SerialService: 'MB-LONGFLOWER3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-LONGFLOWER3&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:45.102  I  SerialService: 'MB-LONGFLOWER3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-LONGFLOWER3&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:45.110  I  SerialService: 'MB-LONGFLOWER3': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:54:45.112  I  SerialService: 'MB-LONGFLOWER3': server holds 0 RFID(s); taking the lowest free serial 1 (MBLONGFLOWER30001)
+2026-09-14 16:54:46.364  I  SerialService: 'MB-LONGFLOWER3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-LONGFLOWER3 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:46.445  I  SerialService: 'MB-LONGFLOWER3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-LONGFLOWER3&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:46.526  I  SerialService: 'MB-LONGFLOWER3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-LONGFLOWER3&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:54:46.542  I  SerialService: 'MB-LONGFLOWER3': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:54:46.543  I  SerialService: 'MB-LONGFLOWER3': server holds 0 RFID(s); taking the lowest free serial 1 (MBLONGFLOWER30001)
+2026-09-14 16:54:47.975  I  Registration: Upload accepted for MBLONGFLOWER30001: HTTP 200 {"updated":1,"tags":[{"id":2051,"epc":"MBLONGFLOWER30001","itemCode":"MB-LONGFLOWER3","serialNo":1}]}
+2026-09-14 16:54:48.050  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:54:48.126  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:54:48.208  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:54:48.284  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:54:48.360  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:54:48.363  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:55:00.088 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:55:03.655 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:55:07.588 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:55:07.588 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:55:07.588 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:55:07.588 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:55:07.592 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:55:07.592 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:55:07.593 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:55:08.705 22887 22887 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-14 16:55:08.808  I  SerialService: 'MB-CHANDRAMUKHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHANDRAMUKHI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:08.894  I  SerialService: 'MB-CHANDRAMUKHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHANDRAMUKHI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:09.026  I  SerialService: 'MB-CHANDRAMUKHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHANDRAMUKHI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:09.034  I  SerialService: 'MB-CHANDRAMUKHI': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:55:09.036  I  SerialService: 'MB-CHANDRAMUKHI': server holds 0 RFID(s); taking the lowest free serial 1 (MBCHANDRAMUKHI0001)
+2026-09-14 16:55:10.341  I  SerialService: 'MB-CHANDRAMUKHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHANDRAMUKHI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:10.423  I  SerialService: 'MB-CHANDRAMUKHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHANDRAMUKHI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:10.505  I  SerialService: 'MB-CHANDRAMUKHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHANDRAMUKHI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:10.516  I  SerialService: 'MB-CHANDRAMUKHI': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:55:10.518  I  SerialService: 'MB-CHANDRAMUKHI': server holds 0 RFID(s); taking the lowest free serial 1 (MBCHANDRAMUKHI0001)
+2026-09-14 16:55:11.162  I  Registration: Upload accepted for MBCHANDRAMUKHI0001: HTTP 200 {"updated":1,"tags":[{"id":2052,"epc":"MBCHANDRAMUKHI0001","itemCode":"MB-CHANDRAMUKHI","serialNo":1}]}
+2026-09-14 16:55:11.233  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:11.304  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:11.376  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:11.632  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:11.707  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:11.711  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:55:26.083 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:55:26.083 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:55:26.083 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:55:26.083 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-14 16:55:29.145  I  SerialService: 'MB-CHANDRAMUKHI': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (MBCHANDRAMUKHI0002)
+2026-09-14 16:55:31.602  I  Registration: Upload accepted for MBCHANDRAMUKHI0002: HTTP 200 {"updated":1,"tags":[{"id":2053,"epc":"MBCHANDRAMUKHI0002","itemCode":"MB-CHANDRAMUKHI","serialNo":2}]}
+2026-09-14 16:55:31.680  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:31.752  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:31.824  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:31.899  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:31.984  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:31.987  I  Registration: Uploaded 1 tag(s); 14 still pending
+2026-09-14 16:55:35.595  I  SerialService: 'MB-CHANDRAMUKHI': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (MBCHANDRAMUKHI0003)
+2026-09-14 16:55:36.245  I  Registration: Upload accepted for MBCHANDRAMUKHI0003: HTTP 200 {"updated":1,"tags":[{"id":2054,"epc":"MBCHANDRAMUKHI0003","itemCode":"MB-CHANDRAMUKHI","serialNo":3}]}
+2026-09-14 16:55:36.317  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:36.389  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:36.474  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:36.549  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:36.621  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:36.625  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:55:40.317 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:55:40.317 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:55:40.318 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:55:40.318 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:55:41.035 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:55:43.115 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:55:50.710  I  SerialService: 'MB-JACKETSTYLE3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-JACKETSTYLE3 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:50.791  I  SerialService: 'MB-JACKETSTYLE3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-JACKETSTYLE3&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:50.870  I  SerialService: 'MB-JACKETSTYLE3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-JACKETSTYLE3&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:50.880  I  SerialService: 'MB-JACKETSTYLE3': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:55:50.883  I  SerialService: 'MB-JACKETSTYLE3': server holds 0 RFID(s); taking the lowest free serial 1 (MBJACKETSTYLE30001)
+2026-09-14 16:55:51.425  I  SerialService: 'MB-JACKETSTYLE3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-JACKETSTYLE3 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:51.607  I  SerialService: 'MB-JACKETSTYLE3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-JACKETSTYLE3&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:51.690  I  SerialService: 'MB-JACKETSTYLE3': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-JACKETSTYLE3&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:55:51.702  I  SerialService: 'MB-JACKETSTYLE3': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:55:51.704  I  SerialService: 'MB-JACKETSTYLE3': server holds 0 RFID(s); taking the lowest free serial 1 (MBJACKETSTYLE30001)
+2026-09-14 16:55:52.332  I  Registration: Upload accepted for MBJACKETSTYLE30001: HTTP 200 {"updated":1,"tags":[{"id":2055,"epc":"MBJACKETSTYLE30001","itemCode":"MB-JACKETSTYLE3","serialNo":1}]}
+2026-09-14 16:55:52.404  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:52.475  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:52.547  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:52.619  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:52.694  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:55:52.697  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:56:02.421 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:56:06.721 22887 22887 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-14 16:56:07.357 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:56:09.711 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:56:09.711 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:56:09.711 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:56:09.711 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-14 16:56:09.748  I  SerialService: 'MB-CRUSHPITHA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CRUSHPITHA2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:09.829  I  SerialService: 'MB-CRUSHPITHA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CRUSHPITHA2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:09.910  I  SerialService: 'MB-CRUSHPITHA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CRUSHPITHA2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:09.923  I  SerialService: 'MB-CRUSHPITHA2': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:56:09.926  I  SerialService: 'MB-CRUSHPITHA2': server holds 0 RFID(s); taking the lowest free serial 1 (MBCRUSHPITHA20001)
+2026-09-14 16:56:11.218  I  SerialService: 'MB-CRUSHPITHA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CRUSHPITHA2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:11.303  I  SerialService: 'MB-CRUSHPITHA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CRUSHPITHA2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:11.389  I  SerialService: 'MB-CRUSHPITHA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CRUSHPITHA2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:11.401  I  SerialService: 'MB-CRUSHPITHA2': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:56:11.403  I  SerialService: 'MB-CRUSHPITHA2': server holds 0 RFID(s); taking the lowest free serial 1 (MBCRUSHPITHA20001)
+2026-09-14 16:56:12.188  I  Registration: Upload accepted for MBCRUSHPITHA20001: HTTP 200 {"updated":1,"tags":[{"id":2056,"epc":"MBCRUSHPITHA20001","itemCode":"MB-CRUSHPITHA2","serialNo":1}]}
+2026-09-14 16:56:12.263  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:12.338  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:12.411  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:12.486  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:12.561  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:12.564  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:56:22.103 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:56:27.109 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:56:28.407  I  SerialService: 'MB-1777-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-1777-1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:28.492  I  SerialService: 'MB-1777-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-1777-1&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:28.575  I  SerialService: 'MB-1777-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-1777-1&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:28.583  I  SerialService: 'MB-1777-1': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:56:28.585  I  SerialService: 'MB-1777-1': server holds 0 RFID(s); taking the lowest free serial 1 (MB177710001)
+2026-09-14 16:56:29.390  I  SerialService: 'MB-1777-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-1777-1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:29.469  I  SerialService: 'MB-1777-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-1777-1&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:29.549  I  SerialService: 'MB-1777-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-1777-1&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:29.558  I  SerialService: 'MB-1777-1': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:56:29.560  I  SerialService: 'MB-1777-1': server holds 0 RFID(s); taking the lowest free serial 1 (MB177710001)
+2026-09-14 16:56:30.349  I  Registration: Upload accepted for MB177710001: HTTP 200 {"updated":1,"tags":[{"id":2057,"epc":"MB177710001","itemCode":"MB-1777-1","serialNo":1}]}
+2026-09-14 16:56:30.422  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:30.494  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:30.566  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:30.649  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:30.728  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:30.732  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:56:37.476 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:56:37.476 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:56:37.477 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:56:37.477 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:56:37.482 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:56:37.482 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:56:37.482 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:56:37.482 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:56:37.484 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:56:37.484 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:56:37.485 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:56:37.485 22887 22899 W System  : A resource failed to call close. 
+09-14 16:56:37.824 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:56:41.692 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:56:44.263  I  SerialService: 'MB-CHAAVA6': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA6 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:44.344  I  SerialService: 'MB-CHAAVA6': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA6&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:44.428  I  SerialService: 'MB-CHAAVA6': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA6&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:44.436  I  SerialService: 'MB-CHAAVA6': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:56:44.438  I  SerialService: 'MB-CHAAVA6': server holds 0 RFID(s); taking the lowest free serial 1 (MBCHAAVA60001)
+2026-09-14 16:56:48.918  I  SerialService: 'MB-CHAAVA6': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA6 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:48.996  I  SerialService: 'MB-CHAAVA6': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA6&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:49.076  I  SerialService: 'MB-CHAAVA6': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA6&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:56:49.084  I  SerialService: 'MB-CHAAVA6': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:56:49.085  I  SerialService: 'MB-CHAAVA6': server holds 0 RFID(s); taking the lowest free serial 1 (MBCHAAVA60001)
+2026-09-14 16:56:50.438  I  Registration: Upload accepted for MBCHAAVA60001: HTTP 200 {"updated":1,"tags":[{"id":2058,"epc":"MBCHAAVA60001","itemCode":"MB-CHAAVA6","serialNo":1}]}
+2026-09-14 16:56:50.509  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:50.584  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:50.658  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:50.744  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:50.822  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:50.827  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:56:58.174 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:56:58.174 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:56:58.177 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:56:58.177 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-14 16:56:58.872  I  SerialService: 'MB-CHAAVA6': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (MBCHAAVA60002)
+2026-09-14 16:56:59.501  I  Registration: Upload accepted for MBCHAAVA60002: HTTP 200 {"updated":1,"tags":[{"id":2059,"epc":"MBCHAAVA60002","itemCode":"MB-CHAAVA6","serialNo":2}]}
+2026-09-14 16:56:59.650  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:59.725  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:59.803  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:59.884  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:59.960  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:56:59.963  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:57:05.312 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:57:09.574 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:57:11.681 22887 22887 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-14 16:57:11.930 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:57:11.930 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-14 16:57:12.339  I  SerialService: 'MB-PRINCY': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-PRINCY -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:12.436  I  SerialService: 'MB-PRINCY': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-PRINCY&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:12.519  I  SerialService: 'MB-PRINCY': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-PRINCY&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:12.527  I  SerialService: 'MB-PRINCY': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:57:12.529  I  SerialService: 'MB-PRINCY': server holds 0 RFID(s); taking the lowest free serial 1 (MBPRINCY0001)
+2026-09-14 16:57:15.638  I  SerialService: 'MB-PRINCY': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-PRINCY -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:15.721  I  SerialService: 'MB-PRINCY': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-PRINCY&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:15.807  I  SerialService: 'MB-PRINCY': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-PRINCY&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:15.818  I  SerialService: 'MB-PRINCY': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:57:15.820  I  SerialService: 'MB-PRINCY': server holds 0 RFID(s); taking the lowest free serial 1 (MBPRINCY0001)
+2026-09-14 16:57:16.975  I  Registration: Upload accepted for MBPRINCY0001: HTTP 200 {"updated":1,"tags":[{"id":2060,"epc":"MBPRINCY0001","itemCode":"MB-PRINCY","serialNo":1}]}
+2026-09-14 16:57:17.048  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:17.121  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:17.195  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:17.272  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:17.347  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:17.351  I  Registration: Uploaded 1 tag(s); 14 still pending
+2026-09-14 16:57:22.348  I  SerialService: 'MB-PRINCY': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (MBPRINCY0002)
+2026-09-14 16:57:24.943  I  Registration: Upload accepted for MBPRINCY0002: HTTP 200 {"updated":1,"tags":[{"id":2061,"epc":"MBPRINCY0002","itemCode":"MB-PRINCY","serialNo":2}]}
+2026-09-14 16:57:25.021  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:25.095  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:25.169  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:25.245  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:25.321  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:25.324  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:57:29.998 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:57:31.055 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:57:31.056 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:57:31.056 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:57:31.056 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:57:31.057 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:57:31.057 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:57:33.670 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:57:35.012  I  SerialService: 'MB-CHAAVA8': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA8 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:35.092  I  SerialService: 'MB-CHAAVA8': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA8&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:35.165  I  SerialService: 'MB-CHAAVA8': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA8&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:35.171  I  SerialService: 'MB-CHAAVA8': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:57:35.173  I  SerialService: 'MB-CHAAVA8': server holds 0 RFID(s); taking the lowest free serial 1 (MBCHAAVA80001)
+2026-09-14 16:57:37.044  I  SerialService: 'MB-CHAAVA8': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA8 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:37.121  I  SerialService: 'MB-CHAAVA8': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA8&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:37.199  I  SerialService: 'MB-CHAAVA8': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA8&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:57:37.210  I  SerialService: 'MB-CHAAVA8': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:57:37.212  I  SerialService: 'MB-CHAAVA8': server holds 0 RFID(s); taking the lowest free serial 1 (MBCHAAVA80001)
+2026-09-14 16:57:39.664  I  Registration: Upload accepted for MBCHAAVA80001: HTTP 200 {"updated":1,"tags":[{"id":2062,"epc":"MBCHAAVA80001","itemCode":"MB-CHAAVA8","serialNo":1}]}
+2026-09-14 16:57:39.736  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:39.823  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:39.896  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:39.973  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:40.047  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:40.050  I  Registration: Uploaded 1 tag(s); 14 still pending
+2026-09-14 16:57:44.866  I  SerialService: 'MB-CHAAVA8': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (MBCHAAVA80002)
+2026-09-14 16:57:45.508  I  Registration: Upload accepted for MBCHAAVA80002: HTTP 200 {"updated":1,"tags":[{"id":2063,"epc":"MBCHAAVA80002","itemCode":"MB-CHAAVA8","serialNo":2}]}
+2026-09-14 16:57:45.581  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:45.653  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:45.729  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:45.804  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:45.883  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:45.886  I  Registration: Uploaded 1 tag(s); 14 still pending
+2026-09-14 16:57:51.181  I  SerialService: 'MB-CHAAVA8': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (MBCHAAVA80003)
+2026-09-14 16:57:52.128  I  Registration: Upload accepted for MBCHAAVA80003: HTTP 200 {"updated":1,"tags":[{"id":2064,"epc":"MBCHAAVA80003","itemCode":"MB-CHAAVA8","serialNo":3}]}
+2026-09-14 16:57:52.203  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:52.280  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:52.353  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:52.428  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:52.505  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:57:52.508  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:57:53.962 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:57:53.962 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:57:53.963 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:57:53.963 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:57:53.963 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:57:53.963 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:57:53.964 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:57:53.964 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:57:53.970 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:57:53.970 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:57:53.971 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:57:53.971 22887 22899 W System  : A resource failed to call close. 
+09-14 16:57:59.079 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:58:03.516 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:58:09.145  I  SerialService: 'MB-CHAAVA7': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA7 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:09.222  I  SerialService: 'MB-CHAAVA7': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA7&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:09.299  I  SerialService: 'MB-CHAAVA7': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA7&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:09.311  I  SerialService: 'MB-CHAAVA7': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:58:09.312  I  SerialService: 'MB-CHAAVA7': server holds 0 RFID(s); taking the lowest free serial 1 (MBCHAAVA70001)
+2026-09-14 16:58:12.891  I  SerialService: 'MB-CHAAVA7': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA7 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:12.967  I  SerialService: 'MB-CHAAVA7': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA7&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:13.050  I  SerialService: 'MB-CHAAVA7': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-CHAAVA7&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:13.058  I  SerialService: 'MB-CHAAVA7': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:58:13.060  I  SerialService: 'MB-CHAAVA7': server holds 0 RFID(s); taking the lowest free serial 1 (MBCHAAVA70001)
+09-14 16:58:13.780 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:58:13.780 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:58:13.781 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:58:13.782 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-14 16:58:13.840  I  Registration: Upload accepted for MBCHAAVA70001: HTTP 200 {"updated":1,"tags":[{"id":2065,"epc":"MBCHAAVA70001","itemCode":"MB-CHAAVA7","serialNo":1}]}
+2026-09-14 16:58:13.914  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:13.999  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:14.080  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:14.156  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:14.231  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:14.235  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:58:20.005 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:58:24.283 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:58:25.366 22887 22887 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-14 16:58:25.906  I  SerialService: 'MB-GULABO2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-GULABO2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:25.981  I  SerialService: 'MB-GULABO2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-GULABO2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:26.055  I  SerialService: 'MB-GULABO2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-GULABO2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:26.063  I  SerialService: 'MB-GULABO2': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:58:26.065  I  SerialService: 'MB-GULABO2': server holds 0 RFID(s); taking the lowest free serial 1 (MBGULABO20001)
+2026-09-14 16:58:27.401  I  SerialService: 'MB-GULABO2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-GULABO2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:27.496  I  SerialService: 'MB-GULABO2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-GULABO2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:27.576  I  SerialService: 'MB-GULABO2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-GULABO2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:27.588  I  SerialService: 'MB-GULABO2': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:58:27.589  I  SerialService: 'MB-GULABO2': server holds 0 RFID(s); taking the lowest free serial 1 (MBGULABO20001)
+2026-09-14 16:58:28.337  I  Registration: Upload accepted for MBGULABO20001: HTTP 200 {"updated":1,"tags":[{"id":2066,"epc":"MBGULABO20001","itemCode":"MB-GULABO2","serialNo":1}]}
+2026-09-14 16:58:28.408  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:28.481  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:28.555  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:28.629  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:28.706  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:28.709  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:58:34.935 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:58:37.194 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:58:37.194 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:58:37.195 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:58:37.195 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:58:37.195 22887 22899 W System  : A resource failed to call close. 
+09-14 16:58:37.875 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:58:41.844 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:58:43.891  I  SerialService: 'MB-MAHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-MAHI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:43.965  I  SerialService: 'MB-MAHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-MAHI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:44.038  I  SerialService: 'MB-MAHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-MAHI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:44.047  I  SerialService: 'MB-MAHI': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:58:44.049  I  SerialService: 'MB-MAHI': server holds 0 RFID(s); taking the lowest free serial 1 (MBMAHI0001)
+2026-09-14 16:58:47.279  I  SerialService: 'MB-MAHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-MAHI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:47.362  I  SerialService: 'MB-MAHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-MAHI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:47.441  I  SerialService: 'MB-MAHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-MAHI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:58:47.455  I  SerialService: 'MB-MAHI': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:58:47.457  I  SerialService: 'MB-MAHI': server holds 0 RFID(s); taking the lowest free serial 1 (MBMAHI0001)
+2026-09-14 16:58:48.231  I  Registration: Upload accepted for MBMAHI0001: HTTP 200 {"updated":1,"tags":[{"id":2067,"epc":"MBMAHI0001","itemCode":"MB-MAHI","serialNo":1}]}
+2026-09-14 16:58:48.305  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:48.379  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:48.454  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:48.526  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:48.602  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:58:48.604  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:58:56.001 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:59:00.744 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:59:02.205 22887 22887 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-14 16:59:02.272  I  SerialService: 'MB-SHAHIJODA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-SHAHIJODA2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:02.347  I  SerialService: 'MB-SHAHIJODA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-SHAHIJODA2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:02.421  I  SerialService: 'MB-SHAHIJODA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-SHAHIJODA2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:02.432  I  SerialService: 'MB-SHAHIJODA2': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:59:02.433  I  SerialService: 'MB-SHAHIJODA2': server holds 0 RFID(s); taking the lowest free serial 1 (MBSHAHIJODA20001)
+2026-09-14 16:59:04.346  I  SerialService: 'MB-SHAHIJODA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-SHAHIJODA2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:04.423  I  SerialService: 'MB-SHAHIJODA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-SHAHIJODA2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:04.503  I  SerialService: 'MB-SHAHIJODA2': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-SHAHIJODA2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:04.512  I  SerialService: 'MB-SHAHIJODA2': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:59:04.514  I  SerialService: 'MB-SHAHIJODA2': server holds 0 RFID(s); taking the lowest free serial 1 (MBSHAHIJODA20001)
+2026-09-14 16:59:05.284  I  Registration: Upload accepted for MBSHAHIJODA20001: HTTP 200 {"updated":1,"tags":[{"id":2068,"epc":"MBSHAHIJODA20001","itemCode":"MB-SHAHIJODA2","serialNo":1}]}
+2026-09-14 16:59:05.358  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+09-14 16:59:05.433 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+2026-09-14 16:59:05.434  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+09-14 16:59:05.434 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:59:05.434 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:59:05.434 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:59:05.440 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:59:05.440 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:59:05.441 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:59:05.441 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:59:05.450 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:59:05.450 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:59:05.450 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-09-14 16:59:05.511  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:59:05.589  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:59:05.665  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:59:05.668  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:59:10.044 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 16:59:13.593 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:59:14.341  I  SerialService: 'MB-HOKNOT': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-HOKNOT -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:14.416  I  SerialService: 'MB-HOKNOT': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-HOKNOT&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:14.491  I  SerialService: 'MB-HOKNOT': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-HOKNOT&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:14.498  I  SerialService: 'MB-HOKNOT': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:59:14.499  I  SerialService: 'MB-HOKNOT': server holds 0 RFID(s); taking the lowest free serial 1 (MBHOKNOT0001)
+2026-09-14 16:59:16.310  I  SerialService: 'MB-HOKNOT': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-HOKNOT -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:16.395  I  SerialService: 'MB-HOKNOT': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-HOKNOT&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:16.472  I  SerialService: 'MB-HOKNOT': GET http://164.52.223.163:4636/api/device/products/mapped?search=MB-HOKNOT&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-14 16:59:16.489  I  SerialService: 'MB-HOKNOT': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-14 16:59:16.492  I  SerialService: 'MB-HOKNOT': server holds 0 RFID(s); taking the lowest free serial 1 (MBHOKNOT0001)
+2026-09-14 16:59:18.939  I  Registration: Upload accepted for MBHOKNOT0001: HTTP 200 {"updated":1,"tags":[{"id":2069,"epc":"MBHOKNOT0001","itemCode":"MB-HOKNOT","serialNo":1}]}
+2026-09-14 16:59:19.015  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:59:19.092  E  Registration: Upload rejected for RCPL16900001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1880,"epc":"RCPL16900001","itemCode":"RCPL-1690","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:59:19.166  E  Registration: Upload rejected for RCPL16900002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1881,"epc":"RCPL16900002","itemCode":"RCPL-1690","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:59:19.239  E  Registration: Upload rejected for RCPL17100001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1884,"epc":"RCPL17100001","itemCode":"RCPL-1710","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-14 16:59:19.315  E  Registration: Upload rejected for RCPL17100002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1885,"epc":"RCPL17100002","itemCode":"RCPL-1710","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-14 16:59:19.318  I  Registration: Uploaded 1 tag(s); 14 still pending
+09-14 16:59:28.446 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:59:28.446 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:59:28.446 22887 22899 W System  : A resource failed to call CursorWindow.close. 
+09-14 16:59:28.446 22887 22899 W System  : A resource failed to call AbstractCursor.close. 
+09-14 16:59:28.499 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:59:29.026  I  ProductSync: unmapped for location 4 needed 3 page(s): 600 row(s), server reported 600
+09-14 16:59:29.398 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 16:59:29.399 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 16:59:29.399 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 16:59:29.399 22887 22899 W System  : A resource failed to call close. 
+2026-09-14 16:59:30.015  I  ProductSync: unmapped for location 4 needed 3 page(s): 600 row(s), server reported 600
+09-14 16:59:30.285 22887 22899 W System  : A resource failed to call close. 
+09-14 16:59:30.285 22887 22899 W System  : A resource failed to call close. 
+2026-09-14 16:59:31.701  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-14 16:59:34.241  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-14 16:59:34.242  I  Net: Blank Audit: mapped-product sync started
+2026-09-14 16:59:34.243  I  Net: Blank Audit: local products still fresh, no sync needed
+09-14 16:59:34.288 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:59:36.750  W  UhfSession: Could not power up the UHF reader
+09-14 16:59:46.764 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 16:59:58.454  I  UhfSession: UHF reader powered up
+2026-09-14 17:01:43.481  I  Net: Blank Audit: closed, releasing the UHF module
+09-14 17:01:47.791 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 17:01:48.428  I  ProductSync: unmapped for location 4 needed 3 page(s): 600 row(s), server reported 600
+09-14 17:01:48.516 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 17:01:48.516 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 17:01:48.516 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 17:01:48.516 22887 22899 W System  : A resource failed to call close. 
+09-14 17:01:48.519 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 17:01:48.519 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 17:01:48.519 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 17:01:48.520 22887 22899 W System  : A resource failed to call close. 
+09-14 17:01:48.520 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 17:01:48.520 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 17:01:48.520 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 17:01:48.521 22887 22899 W System  : A resource failed to call close. 
+09-14 17:01:48.522 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 17:01:48.522 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 17:01:48.522 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-14 17:01:48.522 22887 22899 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-14 17:01:48.522 22887 22899 W System  : A resource failed to call SQLiteConnection.close. 
+09-14 17:01:48.522 22887 22899 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-09-14 17:01:48.982  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-14 17:01:49.590  I  ProductSync: unmapped for location 4 needed 3 page(s): 600 row(s), server reported 600
+09-14 17:01:49.902 22887 22899 W System  : A resource failed to call close. 
+09-14 17:01:49.902 22887 22899 W System  : A resource failed to call close. 
+2026-09-14 17:01:52.457  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-14 17:01:52.458  I  Net: Blank Audit: mapped-product sync started
+2026-09-14 17:01:52.459  I  Net: Blank Audit: local products still fresh, no sync needed
+09-14 17:01:52.506 22887 22917 W Parcel  : Expecting binder but got null!
+09-14 17:01:53.349 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 17:01:54.967  W  UhfSession: Could not power up the UHF reader
+09-14 17:01:59.656 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 17:02:11.151  I  UhfSession: UHF reader powered up
+09-14 17:02:44.225 22887 22917 W Parcel  : Expecting binder but got null!
+2026-09-14 17:03:48.618  I  Net: Blank Audit: closed, releasing the UHF module
