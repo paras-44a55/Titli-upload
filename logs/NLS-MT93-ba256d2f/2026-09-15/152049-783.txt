@@ -1,0 +1,220 @@
+# pushed 2026-09-15 15:20:49.783 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 67987..100520
+
+09-15 15:09:47.196 26684 26694 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#22](f:3,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-15 15:09:47.222 26684 26694 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#22](f:4,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+2026-09-15 15:10:04.500  I  UhfSession: UHF reader powered up
+2026-09-15 15:10:09.752  I  SerialService: 'JT-2888-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:10:09.798  I  SerialService: 'JT-2888-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-1&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:10:09.843  I  SerialService: 'JT-2888-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-1&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:10:09.856  I  SerialService: 'JT-2888-1': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-15 15:10:09.857  I  SerialService: 'JT-2888-1': server holds 0 RFID(s); taking the lowest free serial 1 (JT288810001)
+2026-09-15 15:10:10.719  I  Registration: Upload accepted for JT288810001: HTTP 200 {"updated":1,"tags":[{"id":2234,"epc":"JT288810001","itemCode":"JT-2888-1","serialNo":1}]}
+2026-09-15 15:10:10.722  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-15 15:10:15.746  I  SerialService: 'JT-2888-1': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (JT288810002)
+2026-09-15 15:10:16.377  I  Registration: Upload accepted for JT288810002: HTTP 200 {"updated":1,"tags":[{"id":2235,"epc":"JT288810002","itemCode":"JT-2888-1","serialNo":2}]}
+2026-09-15 15:10:16.378  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-15 15:10:20.533  I  SerialService: 'JT-2888-1': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (JT288810003)
+2026-09-15 15:10:21.186  I  Registration: Upload accepted for JT288810003: HTTP 200 {"updated":1,"tags":[{"id":2236,"epc":"JT288810003","itemCode":"JT-2888-1","serialNo":3}]}
+2026-09-15 15:10:21.187  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-15 15:10:25.329 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@829e0f6
+2026-09-15 15:10:26.122  I  SerialService: 'JT-2888-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:10:26.162  I  SerialService: 'JT-2888-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:10:26.199  I  SerialService: 'JT-2888-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:10:26.205  I  SerialService: 'JT-2888-2': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-15 15:10:26.206  I  SerialService: 'JT-2888-2': server holds 0 RFID(s); taking the lowest free serial 1 (JT288820001)
+09-15 15:10:30.972 26684 26692 W System  : A resource failed to call AbstractCursor.close. 
+09-15 15:10:30.974 26684 26692 W System  : A resource failed to call AbstractCursor.close. 
+09-15 15:10:30.975 26684 26692 W System  : A resource failed to call AbstractCursor.close. 
+09-15 15:10:30.979 26684 26692 W System  : A resource failed to call close. 
+09-15 15:10:30.979 26684 26692 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 15:10:30.979 26684 26692 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 15:10:30.980 26684 26692 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 15:10:30.980 26684 26692 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-15 15:10:43.421  I  SerialService: 'JT-2888-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:10:43.520  I  SerialService: 'JT-2888-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:10:43.638  I  SerialService: 'JT-2888-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:10:43.642  I  SerialService: 'JT-2888-2': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-15 15:10:43.643  I  SerialService: 'JT-2888-2': server holds 0 RFID(s); taking the lowest free serial 1 (JT288820001)
+2026-09-15 15:10:44.285  I  Registration: Upload accepted for JT288820001: HTTP 200 {"updated":1,"tags":[{"id":2237,"epc":"JT288820001","itemCode":"JT-2888-2","serialNo":1}]}
+2026-09-15 15:10:44.286  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-15 15:10:48.352  I  SerialService: 'JT-2888-2': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (JT288820002)
+2026-09-15 15:10:49.018  I  Registration: Upload accepted for JT288820002: HTTP 200 {"updated":1,"tags":[{"id":2238,"epc":"JT288820002","itemCode":"JT-2888-2","serialNo":2}]}
+2026-09-15 15:10:49.019  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-15 15:10:52.734  I  SerialService: 'JT-2888-2': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (JT288820003)
+2026-09-15 15:10:53.325  I  Registration: Upload accepted for JT288820003: HTTP 200 {"updated":1,"tags":[{"id":2239,"epc":"JT288820003","itemCode":"JT-2888-2","serialNo":3}]}
+2026-09-15 15:10:53.327  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-15 15:10:57.537 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3823f3a
+09-15 15:10:57.545 26684 26684 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-15 15:11:03.818 26684 26692 W System  : A resource failed to call AbstractCursor.close. 
+09-15 15:11:03.820 26684 26692 W System  : A resource failed to call AbstractCursor.close. 
+09-15 15:11:03.826 26684 26692 W System  : A resource failed to call AbstractCursor.close. 
+09-15 15:11:08.037 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@48c501a
+09-15 15:11:11.784 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4617929
+2026-09-15 15:11:11.836  I  SerialService: 'JT-2888-3': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-3 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:11.885  I  SerialService: 'JT-2888-3': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-3&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:11.939  I  SerialService: 'JT-2888-3': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-3&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:11.948  I  SerialService: 'JT-2888-3': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-15 15:11:11.950  I  SerialService: 'JT-2888-3': server holds 0 RFID(s); taking the lowest free serial 1 (JT288830001)
+2026-09-15 15:11:19.437  I  SerialService: 'JT-2888-3': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-3 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:19.483  I  SerialService: 'JT-2888-3': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-3&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:19.522  I  SerialService: 'JT-2888-3': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2888-3&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:19.535  I  SerialService: 'JT-2888-3': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-15 15:11:19.537  I  SerialService: 'JT-2888-3': server holds 0 RFID(s); taking the lowest free serial 1 (JT288830001)
+2026-09-15 15:11:20.143  I  Registration: Upload accepted for JT288830001: HTTP 200 {"updated":1,"tags":[{"id":2241,"epc":"JT288830001","itemCode":"JT-2888-3","serialNo":1}]}
+2026-09-15 15:11:20.144  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-15 15:11:31.885 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d1a9477
+09-15 15:11:35.087 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ad882e1
+09-15 15:11:37.075 26684 26692 W System  : A resource failed to call AbstractCursor.close. 
+09-15 15:11:37.091 26684 26692 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-15 15:11:39.056  I  SerialService: 'JT-2096-5': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2096-5 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:39.312  I  SerialService: 'JT-2096-5': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2096-5&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:39.407  I  SerialService: 'JT-2096-5': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2096-5&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:39.430  I  SerialService: 'JT-2096-5': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-15 15:11:39.433  I  SerialService: 'JT-2096-5': server holds 0 RFID(s); taking the lowest free serial 1 (JT209650001)
+2026-09-15 15:11:40.849  I  SerialService: 'JT-2096-5': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2096-5 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:40.891  I  SerialService: 'JT-2096-5': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2096-5&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:40.944  I  SerialService: 'JT-2096-5': GET http://164.52.223.163:4636/api/device/products/mapped?search=JT-2096-5&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 15:11:40.963  I  SerialService: 'JT-2096-5': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-15 15:11:40.965  I  SerialService: 'JT-2096-5': server holds 0 RFID(s); taking the lowest free serial 1 (JT209650001)
+2026-09-15 15:11:41.634  I  Registration: Upload accepted for JT209650001: HTTP 200 {"updated":1,"tags":[{"id":2243,"epc":"JT209650001","itemCode":"JT-2096-5","serialNo":1}]}
+2026-09-15 15:11:41.637  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-15 15:11:44.113 26684 26696 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#26(BLAST Consumer)26](id:683c00000022,api:4,p:1497,c:26684) dequeueBuffer: BufferQueue has been abandoned
+09-15 15:11:44.123 26684 26887 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#26(BLAST Consumer)26](id:683c00000022,api:4,p:1497,c:26684) queueBuffer: BufferQueue has been abandoned
+09-15 15:11:44.130 26684 26887 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#26(BLAST Consumer)26](id:683c00000022,api:4,p:1497,c:26684) queueBuffer: BufferQueue has been abandoned
+09-15 15:11:44.142 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@938716c
+09-15 15:11:44.163 26684 26887 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#26(BLAST Consumer)26](id:683c00000022,api:4,p:1497,c:26684) queueBuffer: BufferQueue has been abandoned
+09-15 15:11:44.190 26684 26887 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#26(BLAST Consumer)26](id:683c00000022,api:4,p:1497,c:26684) cancelBuffer: BufferQueue has been abandoned
+09-15 15:11:44.191 26684 26887 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#26(BLAST Consumer)26](id:683c00000022,api:4,p:1497,c:26684) cancelBuffer: BufferQueue has been abandoned
+09-15 15:11:44.192 26684 26887 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#26(BLAST Consumer)26](id:683c00000022,api:4,p:1497,c:26684) cancelBuffer: BufferQueue has been abandoned
+09-15 15:11:44.197 26684 26887 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#26(BLAST Consumer)26](id:683c00000022,api:4,p:1497,c:26684) queueBuffer: BufferQueue has been abandoned
+2026-09-15 15:11:45.658  I  ProductSync: unmapped for location 2 needed 3 page(s): 429 row(s), server reported 429
+09-15 15:11:46.366 26684 26692 W System  : A resource failed to call CursorWindow.close. 
+09-15 15:11:46.366 26684 26692 W System  : A resource failed to call AbstractCursor.close. 
+09-15 15:11:46.367 26684 26692 W System  : A resource failed to call CursorWindow.close. 
+09-15 15:11:46.367 26684 26692 W System  : A resource failed to call AbstractCursor.close. 
+09-15 15:11:46.368 26684 26692 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 15:11:46.368 26684 26692 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 15:11:46.368 26684 26692 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 15:11:46.368 26684 26692 W System  : A resource failed to call close. 
+2026-09-15 15:11:47.102  I  ProductSync: unmapped for location 2 needed 3 page(s): 429 row(s), server reported 429
+09-15 15:11:48.969 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@847787
+2026-09-15 15:11:49.039  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-15 15:11:49.516  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-15 15:11:49.517  I  Net: Blank Audit: mapped-product sync started
+2026-09-15 15:11:49.517  I  Net: Blank Audit: local products still fresh, no sync needed
+09-15 15:11:50.459 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@936fe07
+2026-09-15 15:11:52.026  W  UhfSession: Could not power up the UHF reader
+09-15 15:11:55.597 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4392301
+2026-09-15 15:12:01.302  I  UhfSession: UHF reader powered up
+09-15 15:12:33.061 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@52411d3
+2026-09-15 15:12:34.028  I  Net: Blank Audit: closed, releasing the UHF module
+09-15 15:12:34.033 26684 26684 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d01749b
+2026-09-15 15:12:36.789  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-15 15:16:12.477  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-09-15 15:16:12.527  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-09-15 15:16:12.545  I  Net: wifi connected
+2026-09-15 15:16:12.548  I  Net: wifi has internet (rssi -73 dBm)
+--------- beginning of main
+09-15 15:16:12.681  6547  6605 W QT      : qt_process_init() called
+09-15 15:16:12.682  6547  6605 E QT      : [QT]file does not exist
+09-15 15:16:12.682  6547  6605 W QT      : Support!!
+09-15 15:16:13.202  6547  6547 W HWUI    : Unknown dataspace 0
+09-15 15:16:13.514  6547  6602 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-15 15:16:13.599  6547  6602 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-15 15:16:20.296  6547  6908 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+09-15 15:16:29.554  6547  6547 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ac395e7
+09-15 15:16:29.684  6547  6935 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+09-15 15:16:30.341  6547  6547 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@69b2b56
+09-15 15:16:32.192  6547  6553 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+09-15 15:16:32.235  6547  6555 W System  : A resource failed to call close. 
+09-15 15:16:32.235  6547  6555 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 15:16:32.235  6547  6555 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 15:16:32.235  6547  6555 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 15:16:32.236  6547  6555 W System  : A resource failed to call close. 
+09-15 15:16:32.236  6547  6555 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 15:16:32.236  6547  6555 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 15:16:32.236  6547  6555 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 15:16:32.238  6547  6555 W System  : A resource failed to call close. 
+09-15 15:16:32.238  6547  6555 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 15:16:32.239  6547  6555 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 15:16:32.239  6547  6555 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 15:16:32.240  6547  6555 W System  : A resource failed to call close. 
+09-15 15:16:32.240  6547  6555 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 15:16:32.240  6547  6555 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 15:16:32.240  6547  6555 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 15:16:33.090  6547  7047 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-09-15 15:16:34.703  I  UhfSession: UHF reader powered up
+2026-09-15 15:16:47.546  W  LogUploader: Log push failed
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(LogUploader.kt:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:369)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:324)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:1572)
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Linux.android_getaddrinfo(Native Method)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:134)
+	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:222)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:134)
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:135)
+	... 28 more
+2026-09-15 15:16:49.961  W  Net: wifi DISCONNECTED — link had been up for 37s
+09-15 15:17:27.290  6547  7215 E SBE     : this page is abnormal implementation
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          2026-09-15 15:20:19.765  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-09-15 15:20:19.799  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-09-15 15:20:19.824  I  Net: wifi connected
+2026-09-15 15:20:19.826  I  Net: wifi has internet (rssi -77 dBm)
+--------- beginning of main
+09-15 15:20:20.090  6497  6551 W QT      : qt_process_init() called
+09-15 15:20:20.090  6497  6551 E QT      : [QT]file does not exist
+09-15 15:20:20.090  6497  6551 W QT      : Support!!
+09-15 15:20:20.903  6497  6497 W HWUI    : Unknown dataspace 0
+09-15 15:20:25.090  6497  6549 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-15 15:20:25.127  6497  6549 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-15 15:20:28.867  6497  6917 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+09-15 15:20:40.212  6497  6497 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@40ee5bb
+09-15 15:20:40.764  6497  7009 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+09-15 15:20:41.033  6497  6497 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@378b181
+09-15 15:20:42.387  6497  6512 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+09-15 15:20:42.440  6497  6514 W System  : A resource failed to call close. 
+09-15 15:20:42.440  6497  6514 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 15:20:42.441  6497  6514 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 15:20:42.441  6497  6514 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 15:20:42.443  6497  6514 W System  : A resource failed to call close. 
+09-15 15:20:42.443  6497  6514 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 15:20:42.443  6497  6514 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 15:20:42.443  6497  6514 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 15:20:42.444  6497  6514 W System  : A resource failed to call close. 
+09-15 15:20:42.444  6497  6514 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 15:20:42.444  6497  6514 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 15:20:42.444  6497  6514 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 15:20:42.447  6497  6514 W System  : A resource failed to call close. 
+09-15 15:20:42.447  6497  6514 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 15:20:42.447  6497  6514 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 15:20:42.447  6497  6514 W System  : A resource failed to call SQLiteConnection.close. 
