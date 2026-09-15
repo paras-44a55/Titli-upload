@@ -1,0 +1,94 @@
+# pushed 2026-09-15 16:39:59.458 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 192728..206912
+
+09-15 16:33:20.788  4638  8927 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#43](f:1,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-15 16:33:20.833  4638  8927 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#43](f:2,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-15 16:33:20.839  4638  7868 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#43](f:3,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-15 16:33:20.874  4638  4670 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#43](f:4,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+2026-09-15 16:33:22.144  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-15 16:36:17.629  W  UhfSession: Could not power up the UHF reader
+2026-09-15 16:36:34.426  I  SerialService: 'SCPL-1622': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1622 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:34.460  I  SerialService: 'SCPL-1622': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1622&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:34.492  I  SerialService: 'SCPL-1622': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1622&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:34.498  I  SerialService: 'SCPL-1622': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-15 16:36:34.499  I  SerialService: 'SCPL-1622': server holds 0 RFID(s); taking the lowest free serial 1 (SCPL16220001)
+09-15 16:36:37.136  4638  4650 W System  : A resource failed to call close. 
+09-15 16:36:37.136  4638  4650 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 16:36:37.136  4638  4650 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 16:36:37.136  4638  4650 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 16:36:37.137  4638  4650 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-15 16:36:38.539  I  UhfSession: UHF reader powered up
+2026-09-15 16:36:40.710  I  SerialService: 'SCPL-1622': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1622 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:40.742  I  SerialService: 'SCPL-1622': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1622&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:40.773  I  SerialService: 'SCPL-1622': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1622&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:40.782  I  SerialService: 'SCPL-1622': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-15 16:36:40.783  I  SerialService: 'SCPL-1622': server holds 0 RFID(s); taking the lowest free serial 1 (SCPL16220001)
+2026-09-15 16:36:41.431  I  Registration: Upload accepted for SCPL16220001: HTTP 200 {"updated":1,"tags":[{"id":2315,"epc":"SCPL16220001","itemCode":"SCPL-1622","serialNo":1}]}
+2026-09-15 16:36:41.434  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-15 16:36:51.643  I  SerialService: 'SCPL-1553': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1553 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:51.679  I  SerialService: 'SCPL-1553': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1553&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:51.712  I  SerialService: 'SCPL-1553': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1553&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:51.717  I  SerialService: 'SCPL-1553': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-15 16:36:51.721  I  SerialService: 'SCPL-1553': server holds 0 RFID(s); taking the lowest free serial 1 (SCPL15530001)
+2026-09-15 16:36:54.673  I  SerialService: 'SCPL-1553': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1553 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:54.707  I  SerialService: 'SCPL-1553': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1553&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:54.750  I  SerialService: 'SCPL-1553': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCPL-1553&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-15 16:36:54.762  I  SerialService: 'SCPL-1553': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-15 16:36:54.763  I  SerialService: 'SCPL-1553': server holds 0 RFID(s); taking the lowest free serial 1 (SCPL15530001)
+2026-09-15 16:36:55.415  I  Registration: Upload accepted for SCPL15530001: HTTP 200 {"updated":1,"tags":[{"id":2316,"epc":"SCPL15530001","itemCode":"SCPL-1553","serialNo":1}]}
+2026-09-15 16:36:55.417  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-15 16:36:57.910  4638  4638 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@799ad5f
+09-15 16:36:57.918  4638  8927 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#45(BLAST Consumer)45](id:121e00000031,api:4,p:1465,c:4638) queueBuffer: BufferQueue has been abandoned
+09-15 16:36:57.939  4638  8927 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#45(BLAST Consumer)45](id:121e00000031,api:4,p:1465,c:4638) cancelBuffer: BufferQueue has been abandoned
+09-15 16:36:57.942  4638  6906 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#45(BLAST Consumer)45](id:121e00000031,api:4,p:1465,c:4638) cancelBuffer: BufferQueue has been abandoned
+09-15 16:36:57.944  4638  6906 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#45(BLAST Consumer)45](id:121e00000031,api:4,p:1465,c:4638) cancelBuffer: BufferQueue has been abandoned
+09-15 16:36:57.944  4638  6906 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#45(BLAST Consumer)45](id:121e00000031,api:4,p:1465,c:4638) cancelBuffer: BufferQueue has been abandoned
+09-15 16:36:57.944  4638  6906 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#45(BLAST Consumer)45](id:121e00000031,api:4,p:1465,c:4638) cancelBuffer: BufferQueue has been abandoned
+2026-09-15 16:36:59.045  I  ProductSync: unmapped for location 2 needed 3 page(s): 435 row(s), server reported 435
+09-15 16:37:00.770  4638  4650 W System  : A resource failed to call close. 
+09-15 16:37:00.770  4638  4650 W System  : A resource failed to call close. 
+09-15 16:37:00.772  4638  4650 W System  : A resource failed to call CursorWindow.close. 
+09-15 16:37:00.772  4638  4650 W System  : A resource failed to call AbstractCursor.close. 
+09-15 16:37:00.773  4638  4650 W System  : A resource failed to call CursorWindow.close. 
+09-15 16:37:00.773  4638  4650 W System  : A resource failed to call AbstractCursor.close. 
+09-15 16:37:00.778  4638  4650 W System  : A resource failed to call CursorWindow.close. 
+09-15 16:37:00.778  4638  4650 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-15 16:37:00.852  I  ProductSync: unmapped for location 2 needed 3 page(s): 435 row(s), server reported 435
+09-15 16:37:01.954  4638  4638 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4ff911c
+2026-09-15 16:37:02.620  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-15 16:37:02.620  I  Net: Blank Audit: mapped-product sync started
+2026-09-15 16:37:02.621  I  Net: Blank Audit: local products still fresh, no sync needed
+2026-09-15 16:37:02.961  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-15 16:37:03.837  4638  4638 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9cd10f
+2026-09-15 16:37:05.467  W  UhfSession: Could not power up the UHF reader
+09-15 16:37:16.373  4638  4638 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@73530c9
+2026-09-15 16:37:23.239  I  UhfSession: UHF reader powered up
+09-15 16:37:45.984  4638  4638 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3429658
+2026-09-15 16:37:46.644  I  Net: Blank Audit: closed, releasing the UHF module
+09-15 16:37:46.649  4638  4638 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@148c923
+2026-09-15 16:37:51.675  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-15 16:38:27.524  W  UhfSession: Could not power up the UHF reader
+09-15 16:38:32.897  4638  4650 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 16:38:32.897  4638  4650 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 16:38:32.898  4638  4650 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 16:38:32.898  4638  4650 W System  : A resource failed to call close. 
+09-15 16:38:32.899  4638  4650 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 16:38:32.899  4638  4650 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 16:38:32.899  4638  4650 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 16:38:32.899  4638  4650 W System  : A resource failed to call close. 
+09-15 16:38:32.899  4638  4650 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 16:38:32.899  4638  4650 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 16:38:32.900  4638  4650 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 16:38:32.900  4638  4650 W System  : A resource failed to call close. 
+09-15 16:38:32.900  4638  4650 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 16:38:32.900  4638  4650 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 16:38:32.900  4638  4650 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 16:38:32.900  4638  4650 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 16:38:32.900  4638  4650 W System  : A resource failed to call SQLiteConnection.close. 
+09-15 16:38:32.901  4638  4650 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-09-15 16:39:02.107  I  UhfSession: UHF reader powered up
+09-15 16:39:06.357  4638  4650 W System  : A resource failed to call close. 
+09-15 16:39:06.357  4638  4650 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 16:39:06.357  4638  4650 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 16:39:06.357  4638  4650 W System  : A resource failed to call SQLiteConnection.close. 
