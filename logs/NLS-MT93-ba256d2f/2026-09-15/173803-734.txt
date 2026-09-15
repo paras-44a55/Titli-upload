@@ -1,0 +1,96 @@
+# pushed 2026-09-15 17:38:03.734 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 307862..319259
+
+2026-09-15 17:09:09.728  I  Net: Blank Audit: closed, releasing the UHF module
+2026-09-15 17:09:11.110  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-15 17:11:12.063  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-15 17:11:14.575  W  UhfSession: Could not power up the UHF reader
+2026-09-15 17:11:17.237  I  UhfSession: UHF reader powered up
+09-15 17:14:00.280  5685  6843 E SBE     : this page is abnormal implementation
+09-15 17:14:00.443  5685  6843 E SBE     : this page is abnormal implementation
+2026-09-15 17:16:57.369  I  UhfSession: UHF reader powered down: idle for 3 min
+09-15 17:24:13.689  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9666b5d
+2026-09-15 17:24:14.577  I  Net: Blank Audit: closed, releasing the UHF module
+09-15 17:24:14.586  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6a41956
+2026-09-15 17:24:20.164  W  UhfSession: Could not power up the UHF reader
+2026-09-15 17:24:32.676  E  ProductSync: mapped page 1 failed
+java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.29.222 (port 50308) after 15000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+	at libcore.io.IoBridge.connect(IoBridge.java:179)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity.syncMappedProductsOnOpen$lambda$14(ReWriteActivity.kt:132)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity.$r8$lambda$oU5CZog7OG5XmnfdZWoOlneDId0(ReWriteActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+09-15 17:24:32.725  5685  5695 W hionapplication: Reducing the number of considered missed Gc histogram windows from 101 to 100
+09-15 17:24:32.734  5685  5697 W System  : A resource failed to call close. 
+09-15 17:24:32.734  5685  5697 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-15 17:24:32.734  5685  5697 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-15 17:24:32.734  5685  5697 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-15 17:24:39.540  I  UhfSession: UHF reader powered up
+09-15 17:24:48.759  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fe33ccf
+09-15 17:24:59.329  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9ea99d5
+2026-09-15 17:25:03.260  W  Net: wifi DISCONNECTED — link had been up for 1151s
+09-15 17:25:16.915  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b46a245
+09-15 17:26:07.972  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e814287
+09-15 17:26:07.987  5685  5685 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-15 17:26:30.050  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1382c26
+09-15 17:26:37.605  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d003698
+09-15 17:27:27.690  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e8e105b
+09-15 17:27:44.787  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c62d83b
+2026-09-15 17:28:18.487  I  Net: wifi connected
+2026-09-15 17:28:18.488  W  Net: wifi is up but has NO internet (rssi -56 dBm)
+2026-09-15 17:28:18.516  I  Net: wifi has internet (rssi -56 dBm)
+09-15 17:28:18.782  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c5645b8
+09-15 17:29:02.521  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e145cad
+09-15 17:29:35.122  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4261090
+09-15 17:29:56.875  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d3cb21c
+09-15 17:30:05.285  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bf6df9e
+09-15 17:30:24.005  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@425b77b
+09-15 17:30:49.356  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@52790d
+09-15 17:30:49.370  5685  5685 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-15 17:31:28.847  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@579c39c
+09-15 17:31:41.312  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@12a951e
+09-15 17:32:05.246  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cd59318
+09-15 17:32:18.347  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d34ee42
+09-15 17:32:23.072  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@779f354
+09-15 17:32:34.943  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@74dce16
+09-15 17:32:47.815  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fd54050
+09-15 17:32:56.216  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@25d5c98
+09-15 17:33:24.074  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f11000d
+09-15 17:33:54.009  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@453d60f
+09-15 17:34:09.027  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b668d01
+09-15 17:34:38.776  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@261563
+09-15 17:35:16.773  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a0f224a
+09-15 17:35:35.165  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@482ace4
+09-15 17:36:05.641  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6f8cd26
+09-15 17:36:05.650  5685  5685 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-15 17:36:11.478  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ef60599
+09-15 17:36:18.999  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@74e4cd3
+09-15 17:36:55.245  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4e5cfa5
+09-15 17:37:06.455  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@68fefff
+09-15 17:37:23.126  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7b6b918
+09-15 17:37:37.324  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b374a8d
+09-15 17:38:03.192  5685  5685 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a5fdfee
+09-15 17:38:03.201  5685  5685 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
