@@ -1,0 +1,60 @@
+# pushed 2026-09-16 12:34:59.528 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 205877..210688
+
+2026-09-15 21:23:29.004  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-09-15 21:23:29.030  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-09-15 21:23:29.046  I  Net: wifi connected
+2026-09-15 21:23:29.050  I  Net: wifi has internet (rssi -29 dBm)
+--------- beginning of main
+09-15 21:23:29.128 13522 13571 W QT      : qt_process_init() called
+09-15 21:23:29.129 13522 13571 E QT      : [QT]file does not exist
+09-15 21:23:29.129 13522 13571 W QT      : Support!!
+09-15 21:23:29.561 13522 13522 W HWUI    : Unknown dataspace 0
+2026-09-15 21:23:34.561  W  Home: Update check at login failed: No internet connection. Please check your network and try again.
+2026-09-15 21:23:35.031  W  LogUploader: Log push failed
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.onAppBackgrounded$lambda$4(LogUploader.kt:111)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$97WdKDTZ-jpHvA_e-mMDIwC79ws(LogUploader.kt:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:323)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:1572)
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Linux.android_getaddrinfo(Native Method)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:134)
+	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:222)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:134)
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:135)
+	... 28 more
+2026-09-16 01:14:52.032  W  Net: wifi DISCONNECTED — link had been up for 13882s
+2026-09-16 01:15:13.581  I  Net: wifi connected
+2026-09-16 01:15:13.586  W  Net: wifi is up but has NO internet (rssi -27 dBm)
+2026-09-16 01:15:13.664  I  Net: wifi has internet (rssi -27 dBm)
+09-16 12:34:55.093 13522 13569 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-16 12:34:55.144 13522 13569 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-16 12:34:58.791 13522 13522 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5337d0b
+09-16 12:34:59.523 13522 13522 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@828d854
