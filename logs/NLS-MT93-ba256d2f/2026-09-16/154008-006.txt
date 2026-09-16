@@ -1,0 +1,68 @@
+# pushed 2026-09-16 15:40:08.006 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 1881..6746
+
+2026-09-16 15:39:43.562  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 15:39:43.591  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 15:39:43.619  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 15:39:43.657  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 15:39:43.685  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 15:39:46.004  W  UhfSession: Could not power up the UHF reader
+2026-09-16 15:39:49.565  I  UhfSession: UHF reader powered up
+2026-09-16 15:39:56.391  I  SerialService: 'MTF-5346': GET http://164.52.223.163:4636/api/device/products/mapped?search=MTF-5346 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 15:39:56.430  I  SerialService: 'MTF-5346': GET http://164.52.223.163:4636/api/device/products/mapped?search=MTF-5346&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 15:39:56.793  I  SerialService: 'MTF-5346': GET http://164.52.223.163:4636/api/device/products/mapped?search=MTF-5346&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 15:39:56.800  I  SerialService: 'MTF-5346': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 15:39:56.802  I  SerialService: 'MTF-5346': server holds 0 RFID(s); taking the lowest free serial 1 (MTF53460001)
+2026-09-16 15:40:05.383  I  SerialService: 'MTF-5346': GET http://164.52.223.163:4636/api/device/products/mapped?search=MTF-5346 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 15:40:05.420  I  SerialService: 'MTF-5346': GET http://164.52.223.163:4636/api/device/products/mapped?search=MTF-5346&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 15:40:05.457  I  SerialService: 'MTF-5346': GET http://164.52.223.163:4636/api/device/products/mapped?search=MTF-5346&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 15:40:05.467  I  SerialService: 'MTF-5346': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 15:40:05.469  I  SerialService: 'MTF-5346': server holds 0 RFID(s); taking the lowest free serial 1 (MTF53460001)
+2026-09-16 15:40:06.087  E  Registration: Upload rejected for RCPL56080004
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080004","itemCode":"RCPL-5608","serialNo":4}]}
+  HTTP 500
+  response: 
+2026-09-16 15:40:06.135  I  Registration: Upload accepted for MTF53460001: HTTP 200 {"updated":1,"tags":[{"id":2635,"epc":"MTF53460001","itemCode":"MTF-5346","serialNo":1}]}
+2026-09-16 15:40:06.408  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 15:40:06.469  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 15:40:06.505  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 15:40:06.546  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 15:40:06.550  I  Registration: Uploaded 1 tag(s); 6 still pending
