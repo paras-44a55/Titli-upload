@@ -1,0 +1,1394 @@
+# pushed 2026-09-16 19:16:35.726 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 316821..457244
+
+09-16 18:41:15.294  6876  6876 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f5efd9f
+2026-09-16 18:41:19.232  W  UhfSession: Could not power up the UHF reader
+2026-09-16 18:41:27.402  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:887)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-16 18:41:27.410  W  ProductSync: unmapped row-count probe failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.serverRowCount(ProductSync.kt:228)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:177)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:965)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-16 18:41:27.426  E  ProductSync: unmapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:965)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-16 18:41:27.448  E  Registration: POST http://164.52.223.163:4636/api/device/tags/serialise failed before a response was read
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.postJsonWithAuth(RegistrationActivity.kt:1457)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.flushPendingTags(RegistrationActivity.kt:1591)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:1035)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-16 18:41:27.449  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 0
+  response: 
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.postJsonWithAuth(RegistrationActivity.kt:1457)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.flushPendingTags(RegistrationActivity.kt:1591)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:1035)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-16 18:41:32.400  W  Net: wifi DISCONNECTED — link had been up for 2475s
+09-16 18:41:38.912  6876  6883 W hionapplication: Reducing the number of considered missed Gc histogram windows from 212 to 100
+09-16 18:41:38.999  6876  6885 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:41:38.999  6876  6885 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 18:41:39.000  6876  6885 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:41:39.000  6876  6885 W System  : A resource failed to call close. 
+09-16 18:41:39.000  6876  6885 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:41:39.000  6876  6885 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 18:41:39.001  6876  6885 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:41:39.001  6876  6885 W System  : A resource failed to call close. 
+09-16 18:41:39.008  6876  6885 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:41:39.008  6876  6885 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 18:41:39.010  6876  6885 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:41:39.010  6876  6885 W System  : A resource failed to call close. 
+09-16 18:41:39.027  6876  6885 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:41:39.027  6876  6885 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 18:41:39.029  6876  6885 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:41:39.029  6876  6885 W System  : A resource failed to call close. 
+09-16 18:41:39.029  6876  6885 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:41:39.029  6876  6885 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 18:41:39.029  6876  6885 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:41:39.029  6876  6885 W System  : A resource failed to call close. 
+2026-09-16 18:41:42.594  I  UhfSession: UHF reader powered up
+09-16 18:42:11.951  6876  6885 W System  : A resource failed to call close. 
+09-16 18:42:11.951  6876  6885 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:42:11.951  6876  6885 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:42:11.951  6876  6885 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 18:42:11.953  6876  6885 W System  : A resource failed to call close. 
+09-16 18:42:11.953  6876  6885 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:42:11.953  6876  6885 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:42:11.954  6876  6885 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-16 18:43:15.715  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-16 18:43:19.896  I  Net: wifi connected
+2026-09-16 18:43:19.918  W  Net: wifi is up but has NO internet (rssi -81 dBm)
+2026-09-16 18:43:19.945  I  Net: wifi has internet (rssi -81 dBm)
+09-16 18:43:19.989  6876  6876 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+2026-09-16 18:47:23.535  W  UhfSession: Could not power up the UHF reader
+2026-09-16 18:47:29.215  I  UhfSession: UHF reader powered up
+2026-09-16 18:47:37.464  W  Net: wifi DISCONNECTED — link had been up for 257s
+09-16 18:48:03.053  6876  6876 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f826905
+09-16 18:48:18.458  6876  6876 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1e8fe30
+2026-09-16 18:48:18.464  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.refreshMappedProducts(RegistrationActivity.kt:1770)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:380)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-16 18:48:18.469  E  SerialService: RFID lookup for 'LF-25069' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25069
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.data.SerialService.nextFreeSerial(SerialService.kt:306)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:385)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-16 18:48:24.153  E  SerialService: RFID lookup for 'LF-25069' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25069
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-16 18:48:24.154  E  Registration: Write blocked for 'LF-25069': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-09-16 18:48:29.148  E  SerialService: RFID lookup for 'LF-25069' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25069
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-16 18:48:29.150  E  Registration: Write blocked for 'LF-25069': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+09-16 18:48:41.493  6876  6888 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#136(BLAST Consumer)136](id:1adc0000008c,api:4,p:1499,c:6876) dequeueBuffer: BufferQueue has been abandoned
+09-16 18:48:41.512  6876  6888 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#136(BLAST Consumer)136](id:1adc0000008c,api:4,p:1499,c:6876) queueBuffer: BufferQueue has been abandoned
+09-16 18:48:41.537  6876  6888 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#136(BLAST Consumer)136](id:1adc0000008c,api:4,p:1499,c:6876) queueBuffer: BufferQueue has been abandoned
+09-16 18:48:41.564  6876  6887 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#136(BLAST Consumer)136](id:1adc0000008c,api:4,p:1499,c:6876) queueBuffer: BufferQueue has been abandoned
+09-16 18:48:41.592  6876  6888 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#136(BLAST Consumer)136](id:1adc0000008c,api:4,p:1499,c:6876) queueBuffer: BufferQueue has been abandoned
+09-16 18:48:41.627  6876  6888 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#136(BLAST Consumer)136](id:1adc0000008c,api:4,p:1499,c:6876) queueBuffer: BufferQueue has been abandoned
+09-16 18:48:41.662  6876  6888 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#136(BLAST Consumer)136](id:1adc0000008c,api:4,p:1499,c:6876) queueBuffer: BufferQueue has been abandoned
+2026-09-16 18:48:43.062  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-16 18:55:22.668  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-09-16 18:55:22.702  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-09-16 18:55:22.777  I  Net: wifi connected
+2026-09-16 18:55:22.779  I  Net: wifi has internet (rssi -71 dBm)
+--------- beginning of main
+09-16 18:55:22.810  4832  4903 W QT      : qt_process_init() called
+09-16 18:55:22.810  4832  4903 E QT      : [QT]file does not exist
+09-16 18:55:22.810  4832  4903 W QT      : Support!!
+09-16 18:55:23.377  4832  4832 W HWUI    : Unknown dataspace 0
+09-16 18:55:23.728  4832  4900 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-16 18:55:23.774  4832  4900 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-16 18:55:26.466  4832  5373 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+09-16 18:55:35.807  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3c26416
+09-16 18:55:36.044  4832  6568 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+09-16 18:55:36.856  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@51e2911
+2026-09-16 18:55:38.817  I  ProductSync: unmapped for location 2 needed 2 page(s): 392 row(s), server reported 392
+09-16 18:55:38.914  4832  4844 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+09-16 18:55:38.954  4832  4846 W System  : A resource failed to call close. 
+09-16 18:55:38.954  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:55:38.955  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:55:38.955  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 18:55:38.959  4832  4846 W System  : A resource failed to call close. 
+09-16 18:55:38.959  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:55:38.959  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:55:38.959  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 18:55:38.959  4832  4846 W System  : A resource failed to call close. 
+09-16 18:55:38.959  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:55:38.959  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:55:38.959  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 18:55:38.960  4832  4846 W System  : A resource failed to call close. 
+09-16 18:55:38.960  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:55:38.960  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:55:38.960  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 18:55:40.886  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b0f518b
+09-16 18:55:42.849  4832  6912 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-09-16 18:55:44.225  W  UhfSession: Could not power up the UHF reader
+2026-09-16 18:55:51.695  E  Registration: POST http://164.52.223.163:4636/api/device/tags/serialise failed before a response was read
+java.net.SocketTimeoutException: timeout
+	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.postJsonWithAuth(RegistrationActivity.kt:1462)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.flushPendingTags(RegistrationActivity.kt:1591)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:1035)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:188)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	... 16 more
+2026-09-16 18:55:51.697  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 0
+  response: 
+java.net.SocketTimeoutException: timeout
+	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.postJsonWithAuth(RegistrationActivity.kt:1462)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.flushPendingTags(RegistrationActivity.kt:1591)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:1035)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:188)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	... 16 more
+09-16 18:55:52.751  4832  4846 W System  : A resource failed to call close. 
+09-16 18:55:52.751  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:55:52.751  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:55:52.751  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 18:55:52.752  4832  4846 W System  : A resource failed to call close. 
+09-16 18:55:52.752  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 18:55:52.753  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 18:55:52.753  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-16 18:55:56.077  I  UhfSession: UHF reader powered up
+09-16 18:55:58.706  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cc4e26e
+2026-09-16 18:56:12.723  W  LogUploader: Log push failed
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(LogUploader.kt:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:369)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:324)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:1572)
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Linux.android_getaddrinfo(Native Method)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:134)
+	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:222)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:134)
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:135)
+	... 28 more
+2026-09-16 18:56:12.928  W  Net: wifi DISCONNECTED — link had been up for 50s
+09-16 18:56:14.259  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@40bed5c
+2026-09-16 18:56:14.271  E  SerialService: RFID lookup for 'LF-25069' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25069
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.data.SerialService.nextFreeSerial(SerialService.kt:306)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:385)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-16 18:56:26.167  E  SerialService: RFID lookup for 'LF-25069' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25069
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-16 18:56:26.168  E  Registration: Write blocked for 'LF-25069': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+09-16 18:56:54.135  4832  6932 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:12e000000008,api:4,p:1493,c:4832) dequeueBuffer: BufferQueue has been abandoned
+09-16 18:56:54.139  4832  6991 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:12e000000008,api:4,p:1493,c:4832) queueBuffer: BufferQueue has been abandoned
+09-16 18:56:54.173  4832  6991 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:12e000000008,api:4,p:1493,c:4832) queueBuffer: BufferQueue has been abandoned
+09-16 18:56:54.217  4832  6932 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:12e000000008,api:4,p:1493,c:4832) queueBuffer: BufferQueue has been abandoned
+09-16 18:56:54.239  4832  6932 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:12e000000008,api:4,p:1493,c:4832) queueBuffer: BufferQueue has been abandoned
+09-16 18:56:54.269  4832  6932 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:12e000000008,api:4,p:1493,c:4832) queueBuffer: BufferQueue has been abandoned
+09-16 18:56:54.300  4832  6932 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:12e000000008,api:4,p:1493,c:4832) queueBuffer: BufferQueue has been abandoned
+2026-09-16 18:56:55.753  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-16 18:58:03.520  I  Net: wifi connected
+2026-09-16 18:58:03.526  W  Net: wifi is up but has NO internet (rssi -65 dBm)
+2026-09-16 18:58:03.582  I  Net: wifi has internet (rssi -65 dBm)
+2026-09-16 19:01:10.374  W  UhfSession: Could not power up the UHF reader
+2026-09-16 19:01:13.043  I  UhfSession: UHF reader powered up
+2026-09-16 19:01:13.350  I  SerialService: 'LF-25069': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25069 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:01:13.406  I  SerialService: 'LF-25069': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25069&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:01:13.457  I  SerialService: 'LF-25069': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25069&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:01:13.485  I  SerialService: 'LF-25069': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:01:13.489  I  SerialService: 'LF-25069': server holds 0 RFID(s); taking the lowest free serial 1 (LF250690001)
+09-16 19:01:13.600  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-16 19:01:14.645  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:01:14.676  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:01:14.715  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:01:14.749  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:01:14.808  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:01:18.325  I  SerialService: 'LF-25069': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25069 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:01:18.371  I  SerialService: 'LF-25069': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25069&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:01:18.418  I  SerialService: 'LF-25069': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25069&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:01:18.427  I  SerialService: 'LF-25069': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:01:18.429  I  SerialService: 'LF-25069': server holds 0 RFID(s); taking the lowest free serial 2 (LF250690002)
+2026-09-16 19:01:19.085  E  Registration: Upload rejected for RCPL56080004
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080004","itemCode":"RCPL-5608","serialNo":4}]}
+  HTTP 500
+  response: 
+2026-09-16 19:01:19.136  I  Registration: Upload accepted for LF250690001: HTTP 200 {"updated":1,"tags":[{"id":2697,"epc":"LF250690001","itemCode":"LF-25069","serialNo":1}]}
+2026-09-16 19:01:19.179  I  Registration: Upload accepted for LF250690002: HTTP 200 {"updated":1,"tags":[{"id":2698,"epc":"LF250690002","itemCode":"LF-25069","serialNo":2}]}
+2026-09-16 19:01:19.215  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:01:19.245  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:01:19.277  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:01:19.313  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:01:19.314  I  Registration: Uploaded 2 tag(s); 6 still pending
+09-16 19:01:32.997  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5d09caa
+09-16 19:01:40.933  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:01:56.499  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c3ed4c1
+2026-09-16 19:01:57.131  I  SerialService: 'LF-25065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25065 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:01:57.178  I  SerialService: 'LF-25065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25065&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:01:57.218  I  SerialService: 'LF-25065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25065&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:01:57.223  I  SerialService: 'LF-25065': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:01:57.224  I  SerialService: 'LF-25065': server holds 0 RFID(s); taking the lowest free serial 1 (LF250650001)
+09-16 19:02:14.609  4832  4846 W System  : A resource failed to call close. 
+09-16 19:02:14.609  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 19:02:14.609  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 19:02:14.609  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 19:02:14.609  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-16 19:02:29.230  I  SerialService: 'LF-25065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25065 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:02:29.278  I  SerialService: 'LF-25065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25065&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:02:29.321  I  SerialService: 'LF-25065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25065&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:02:29.333  I  SerialService: 'LF-25065': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:02:29.334  I  SerialService: 'LF-25065': server holds 0 RFID(s); taking the lowest free serial 1 (LF250650001)
+2026-09-16 19:02:30.161  I  Registration: Upload accepted for LF250650001: HTTP 200 {"updated":1,"tags":[{"id":2699,"epc":"LF250650001","itemCode":"LF-25065","serialNo":1}]}
+2026-09-16 19:02:30.196  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:02:30.226  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:02:30.258  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:02:30.288  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:02:30.318  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:02:30.320  I  Registration: Uploaded 1 tag(s); 6 still pending
+2026-09-16 19:02:35.623  I  SerialService: 'LF-25065': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (LF250650002)
+2026-09-16 19:02:36.209  I  Registration: Upload accepted for LF250650002: HTTP 200 {"updated":1,"tags":[{"id":2700,"epc":"LF250650002","itemCode":"LF-25065","serialNo":2}]}
+2026-09-16 19:02:36.240  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:02:36.273  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:02:36.307  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:02:36.339  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:02:36.376  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:02:36.379  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:02:47.823  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:02:47.825  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:03:00.270  4832  6991 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#10](f:1,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-16 19:03:16.657  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ad174df
+09-16 19:03:23.558  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b50880d
+2026-09-16 19:03:24.220  I  SerialService: 'LF-25038': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25038 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:03:24.260  I  SerialService: 'LF-25038': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25038&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:03:24.296  I  SerialService: 'LF-25038': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25038&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:03:24.303  I  SerialService: 'LF-25038': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:03:24.304  I  SerialService: 'LF-25038': server holds 0 RFID(s); taking the lowest free serial 1 (LF250380001)
+2026-09-16 19:03:29.020  I  SerialService: 'LF-25038': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25038 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:03:29.062  I  SerialService: 'LF-25038': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25038&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:03:29.104  I  SerialService: 'LF-25038': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25038&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:03:29.118  I  SerialService: 'LF-25038': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:03:29.120  I  SerialService: 'LF-25038': server holds 0 RFID(s); taking the lowest free serial 1 (LF250380001)
+2026-09-16 19:03:29.708  I  Registration: Upload accepted for LF250380001: HTTP 200 {"updated":1,"tags":[{"id":2701,"epc":"LF250380001","itemCode":"LF-25038","serialNo":1}]}
+2026-09-16 19:03:29.743  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:03:29.780  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:03:29.813  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:03:29.886  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:03:29.922  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:03:29.926  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:03:39.278  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:03:39.278  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:03:39.280  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:03:39.280  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:03:39.280  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 19:03:39.280  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 19:03:39.280  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 19:03:39.280  4832  4846 W System  : A resource failed to call close. 
+09-16 19:03:44.609  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@aeed100
+09-16 19:03:55.436  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@30c8e58
+2026-09-16 19:03:55.484  I  SerialService: 'LF-25002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25002 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:03:55.526  I  SerialService: 'LF-25002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25002&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:03:55.570  I  SerialService: 'LF-25002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25002&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:03:55.584  I  SerialService: 'LF-25002': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:03:55.585  I  SerialService: 'LF-25002': server holds 0 RFID(s); taking the lowest free serial 1 (LF250020001)
+2026-09-16 19:03:59.981  I  SerialService: 'LF-25002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25002 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:04:00.025  I  SerialService: 'LF-25002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25002&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:04:00.066  I  SerialService: 'LF-25002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25002&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:04:00.080  I  SerialService: 'LF-25002': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:04:00.081  I  SerialService: 'LF-25002': server holds 0 RFID(s); taking the lowest free serial 1 (LF250020001)
+2026-09-16 19:04:01.463  I  Registration: Upload accepted for LF250020001: HTTP 200 {"updated":1,"tags":[{"id":2702,"epc":"LF250020001","itemCode":"LF-25002","serialNo":1}]}
+2026-09-16 19:04:01.519  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:04:01.547  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:04:01.576  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:04:01.606  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:04:01.635  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:04:01.639  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:04:08.727  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:04:08.728  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:04:18.960  4832  4832 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+09-16 19:04:21.634  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@730d124
+09-16 19:04:27.108  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a923bc7
+2026-09-16 19:04:28.464  I  SerialService: 'LF-24017': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24017 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:04:28.503  I  SerialService: 'LF-24017': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24017&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:04:28.542  I  SerialService: 'LF-24017': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24017&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:04:28.547  I  SerialService: 'LF-24017': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:04:28.552  I  SerialService: 'LF-24017': server holds 0 RFID(s); taking the lowest free serial 1 (LF240170001)
+2026-09-16 19:04:36.897  I  SerialService: 'LF-24017': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24017 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:04:36.936  I  SerialService: 'LF-24017': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24017&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:04:36.976  I  SerialService: 'LF-24017': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24017&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:04:36.980  I  SerialService: 'LF-24017': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:04:36.981  I  SerialService: 'LF-24017': server holds 0 RFID(s); taking the lowest free serial 1 (LF240170001)
+2026-09-16 19:04:37.622  I  Registration: Upload accepted for LF240170001: HTTP 200 {"updated":1,"tags":[{"id":2703,"epc":"LF240170001","itemCode":"LF-24017","serialNo":1}]}
+2026-09-16 19:04:37.654  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+09-16 19:04:37.678  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:04:37.678  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-16 19:04:37.682  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+09-16 19:04:37.681  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:04:37.681  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:04:37.681  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 19:04:37.681  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 19:04:37.682  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 19:04:37.682  4832  4846 W System  : A resource failed to call close. 
+2026-09-16 19:04:37.709  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:04:37.740  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:04:37.773  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:04:37.776  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:04:45.024  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ebfe14
+09-16 19:04:45.035  4832  4832 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-16 19:04:47.090  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@be0fe59
+09-16 19:04:53.510  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7fcac92
+09-16 19:05:08.343  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@375778c
+2026-09-16 19:05:08.398  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:08.456  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:08.519  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:08.529  I  SerialService: 'LF-25077': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:05:08.530  I  SerialService: 'LF-25077': server holds 0 RFID(s); taking the lowest free serial 1 (LF250770001)
+09-16 19:05:11.260  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-16 19:05:11.842  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:11.883  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:11.926  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:11.939  I  SerialService: 'LF-25077': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:05:11.941  I  SerialService: 'LF-25077': server holds 0 RFID(s); taking the lowest free serial 1 (LF250770001)
+2026-09-16 19:05:12.214  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:12.257  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:12.301  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:12.312  I  SerialService: 'LF-25077': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:05:12.313  I  SerialService: 'LF-25077': server holds 0 RFID(s); taking the lowest free serial 1 (LF250770001)
+2026-09-16 19:05:17.059  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-16 19:05:17.431  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-16 19:05:17.857  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:17.927  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:17.971  I  SerialService: 'LF-25077': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25077&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:17.984  I  SerialService: 'LF-25077': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:05:17.985  I  SerialService: 'LF-25077': server holds 0 RFID(s); taking the lowest free serial 1 (LF250770001)
+2026-09-16 19:05:18.869  I  Registration: Upload accepted for LF250770001: HTTP 200 {"updated":1,"tags":[{"id":2704,"epc":"LF250770001","itemCode":"LF-25077","serialNo":1}]}
+2026-09-16 19:05:18.929  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:05:18.970  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:05:19.070  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:05:19.283  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:05:19.335  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:05:19.337  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:05:30.048  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@621b0c6
+09-16 19:05:44.228  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:05:44.228  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:05:44.230  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:05:52.143  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d7806e8
+2026-09-16 19:05:52.767  I  SerialService: 'LF-24062': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24062 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:52.814  I  SerialService: 'LF-24062': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24062&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:52.862  I  SerialService: 'LF-24062': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24062&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:05:52.867  I  SerialService: 'LF-24062': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:05:52.868  I  SerialService: 'LF-24062': server holds 0 RFID(s); taking the lowest free serial 1 (LF240620001)
+09-16 19:06:05.072  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@391ef62
+2026-09-16 19:06:05.127  I  SerialService: 'LF-24065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24065 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:05.223  I  SerialService: 'LF-24065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24065&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:05.290  I  SerialService: 'LF-24065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24065&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:05.304  I  SerialService: 'LF-24065': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:06:05.305  I  SerialService: 'LF-24065': server holds 0 RFID(s); taking the lowest free serial 1 (LF240650001)
+2026-09-16 19:06:09.963  I  SerialService: 'LF-24065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24065 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:10.057  I  SerialService: 'LF-24065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24065&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:10.172  I  SerialService: 'LF-24065': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24065&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:10.184  I  SerialService: 'LF-24065': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:06:10.186  I  SerialService: 'LF-24065': server holds 0 RFID(s); taking the lowest free serial 1 (LF240650001)
+2026-09-16 19:06:10.908  I  Registration: Upload accepted for LF240650001: HTTP 200 {"updated":1,"tags":[{"id":2705,"epc":"LF240650001","itemCode":"LF-24065","serialNo":1}]}
+2026-09-16 19:06:10.998  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:06:11.551  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:06:11.719  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:06:11.749  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:06:11.840  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:06:11.843  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:06:17.560  4832  4846 W System  : A resource failed to call close. 
+09-16 19:06:17.560  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 19:06:17.560  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 19:06:17.560  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 19:06:17.561  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:06:17.571  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:06:17.572  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:06:35.810  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bf43183
+09-16 19:06:44.375  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2d33154
+2026-09-16 19:06:44.460  I  SerialService: 'LF-25059': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25059 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:44.559  I  SerialService: 'LF-25059': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25059&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:44.641  I  SerialService: 'LF-25059': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25059&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:44.645  I  SerialService: 'LF-25059': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:06:44.646  I  SerialService: 'LF-25059': server holds 0 RFID(s); taking the lowest free serial 1 (LF250590001)
+09-16 19:06:45.280  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-16 19:06:48.478  I  SerialService: 'LF-25059': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25059 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:48.522  I  SerialService: 'LF-25059': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25059&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:48.788  I  SerialService: 'LF-25059': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25059&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:06:48.794  I  SerialService: 'LF-25059': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:06:48.795  I  SerialService: 'LF-25059': server holds 0 RFID(s); taking the lowest free serial 1 (LF250590001)
+2026-09-16 19:06:49.647  I  Registration: Upload accepted for LF250590001: HTTP 200 {"updated":1,"tags":[{"id":2706,"epc":"LF250590001","itemCode":"LF-25059","serialNo":1}]}
+2026-09-16 19:06:50.001  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:06:50.047  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:06:50.079  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:06:50.434  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:06:50.518  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:06:50.522  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:07:09.702  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:07:28.624  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a08e363
+09-16 19:07:35.771  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7c3f15
+09-16 19:07:35.784  4832  4832 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-16 19:07:36.525  I  SerialService: 'LF-24042': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24042 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:07:36.582  I  SerialService: 'LF-24042': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24042&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:07:36.627  I  SerialService: 'LF-24042': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24042&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:07:36.631  I  SerialService: 'LF-24042': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:07:36.632  I  SerialService: 'LF-24042': server holds 0 RFID(s); taking the lowest free serial 1 (LF240420001)
+2026-09-16 19:07:41.612  I  SerialService: 'LF-24042': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24042 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:07:41.653  I  SerialService: 'LF-24042': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24042&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:07:41.703  I  SerialService: 'LF-24042': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24042&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:07:41.720  I  SerialService: 'LF-24042': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:07:41.721  I  SerialService: 'LF-24042': server holds 0 RFID(s); taking the lowest free serial 1 (LF240420001)
+09-16 19:07:41.849  4832  4846 W System  : A resource failed to call close. 
+09-16 19:07:41.849  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 19:07:41.849  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 19:07:41.849  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 19:07:41.849  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:07:41.851  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-16 19:07:42.593  I  Registration: Upload accepted for LF240420001: HTTP 200 {"updated":1,"tags":[{"id":2707,"epc":"LF240420001","itemCode":"LF-24042","serialNo":1}]}
+2026-09-16 19:07:42.624  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:07:42.653  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:07:42.680  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:07:42.707  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:07:42.747  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:07:42.750  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:08:03.534  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4be30b7
+09-16 19:08:07.908  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ec84a81
+2026-09-16 19:08:07.953  I  SerialService: 'LF-24022': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24022 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:07.995  I  SerialService: 'LF-24022': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24022&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:08.053  I  SerialService: 'LF-24022': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24022&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:08.067  I  SerialService: 'LF-24022': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:08:08.069  I  SerialService: 'LF-24022': server holds 0 RFID(s); taking the lowest free serial 1 (LF240220001)
+09-16 19:08:14.114  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:08:17.999  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ddecabe
+2026-09-16 19:08:18.042  I  SerialService: 'LF-24002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24002 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:18.082  I  SerialService: 'LF-24002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24002&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:18.124  I  SerialService: 'LF-24002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24002&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:18.136  I  SerialService: 'LF-24002': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:08:18.137  I  SerialService: 'LF-24002': server holds 0 RFID(s); taking the lowest free serial 1 (LF240020001)
+2026-09-16 19:08:23.010  I  SerialService: 'LF-24002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24002 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:23.053  I  SerialService: 'LF-24002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24002&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:23.104  I  SerialService: 'LF-24002': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24002&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:23.116  I  SerialService: 'LF-24002': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:08:23.118  I  SerialService: 'LF-24002': server holds 0 RFID(s); taking the lowest free serial 1 (LF240020001)
+2026-09-16 19:08:24.004  I  Registration: Upload accepted for LF240020001: HTTP 200 {"updated":1,"tags":[{"id":2708,"epc":"LF240020001","itemCode":"LF-24002","serialNo":1}]}
+2026-09-16 19:08:24.035  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:08:24.064  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:08:24.093  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:08:24.122  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:08:24.153  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:08:24.155  I  Registration: Uploaded 1 tag(s); 6 still pending
+2026-09-16 19:08:30.563  I  SerialService: 'LF-25058': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25058 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:30.605  I  SerialService: 'LF-25058': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25058&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:30.645  I  SerialService: 'LF-25058': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25058&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:30.657  I  SerialService: 'LF-25058': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:08:30.658  I  SerialService: 'LF-25058': server holds 0 RFID(s); taking the lowest free serial 1 (LF250580001)
+2026-09-16 19:08:44.765  I  SerialService: 'LF-25058': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25058 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:44.805  I  SerialService: 'LF-25058': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25058&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:44.845  I  SerialService: 'LF-25058': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25058&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:08:44.857  I  SerialService: 'LF-25058': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:08:44.859  I  SerialService: 'LF-25058': server holds 0 RFID(s); taking the lowest free serial 1 (LF250580001)
+2026-09-16 19:08:45.450  I  Registration: Upload accepted for LF250580001: HTTP 200 {"updated":1,"tags":[{"id":2709,"epc":"LF250580001","itemCode":"LF-25058","serialNo":1}]}
+2026-09-16 19:08:45.491  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:08:45.521  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:08:45.557  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:08:45.586  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:08:45.619  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:08:45.622  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:08:47.550  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:08:47.551  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:08:47.553  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:08:47.556  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:09:24.395  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@11590a7
+09-16 19:09:24.408  4832  4832 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-16 19:09:29.408  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c26ee1c
+09-16 19:09:29.414  4832  4832 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-16 19:09:30.511  I  SerialService: 'LF-24022': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24022 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:09:30.546  I  SerialService: 'LF-24022': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24022&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:09:30.587  I  SerialService: 'LF-24022': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24022&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:09:30.595  I  SerialService: 'LF-24022': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:09:30.597  I  SerialService: 'LF-24022': server holds 0 RFID(s); taking the lowest free serial 1 (LF240220001)
+2026-09-16 19:09:32.749  I  SerialService: 'LF-24022': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24022 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:09:32.790  I  SerialService: 'LF-24022': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24022&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:09:32.831  I  SerialService: 'LF-24022': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24022&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:09:32.844  I  SerialService: 'LF-24022': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:09:32.845  I  SerialService: 'LF-24022': server holds 0 RFID(s); taking the lowest free serial 1 (LF240220001)
+2026-09-16 19:09:33.637  I  Registration: Upload accepted for LF240220001: HTTP 200 {"updated":1,"tags":[{"id":2710,"epc":"LF240220001","itemCode":"LF-24022","serialNo":1}]}
+2026-09-16 19:09:33.669  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:09:33.697  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:09:33.724  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:09:33.752  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:09:33.779  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:09:33.780  I  Registration: Uploaded 1 tag(s); 6 still pending
+2026-09-16 19:09:41.658  I  SerialService: 'LF-23014': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23014 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:09:41.693  I  SerialService: 'LF-23014': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23014&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:09:41.729  I  SerialService: 'LF-23014': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23014&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:09:41.737  I  SerialService: 'LF-23014': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:09:41.738  I  SerialService: 'LF-23014': server holds 0 RFID(s); taking the lowest free serial 1 (LF230140001)
+09-16 19:09:43.563  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:09:43.563  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:09:43.566  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:09:43.566  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:09:43.566  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:09:43.566  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:09:43.566  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 19:09:43.567  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 19:09:43.567  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 19:09:43.567  4832  4846 W System  : A resource failed to call close. 
+2026-09-16 19:09:55.776  W  Net: wifi DISCONNECTED — link had been up for 712s
+2026-09-16 19:09:56.233  I  Net: wifi connected
+2026-09-16 19:09:56.234  W  Net: wifi is up but has NO internet (rssi -74 dBm)
+2026-09-16 19:09:56.269  I  Net: wifi has internet (rssi -74 dBm)
+2026-09-16 19:10:01.719  I  SerialService: 'LF-23014': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23014 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:01.759  I  SerialService: 'LF-23014': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23014&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:01.802  I  SerialService: 'LF-23014': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23014&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:01.807  I  SerialService: 'LF-23014': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:10:01.809  I  SerialService: 'LF-23014': server holds 0 RFID(s); taking the lowest free serial 1 (LF230140001)
+2026-09-16 19:10:02.624  I  Registration: Upload accepted for LF230140001: HTTP 200 {"updated":1,"tags":[{"id":2711,"epc":"LF230140001","itemCode":"LF-23014","serialNo":1}]}
+2026-09-16 19:10:02.654  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:02.682  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:03.013  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:03.045  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:03.078  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:03.081  I  Registration: Uploaded 1 tag(s); 6 still pending
+2026-09-16 19:10:15.869  I  SerialService: 'LF-23115': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23115 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:15.908  I  SerialService: 'LF-23115': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23115&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:16.162  I  SerialService: 'LF-23115': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23115&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:16.177  I  SerialService: 'LF-23115': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:10:16.179  I  SerialService: 'LF-23115': server holds 0 RFID(s); taking the lowest free serial 1 (LF231150001)
+09-16 19:10:16.745  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:10:16.749  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-16 19:10:23.156  I  SerialService: 'LF-23115': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23115 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:23.196  I  SerialService: 'LF-23115': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23115&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:23.238  I  SerialService: 'LF-23115': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-23115&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:23.255  I  SerialService: 'LF-23115': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:10:23.256  I  SerialService: 'LF-23115': server holds 0 RFID(s); taking the lowest free serial 1 (LF231150001)
+2026-09-16 19:10:25.008  I  Registration: Upload accepted for LF231150001: HTTP 200 {"updated":1,"tags":[{"id":2712,"epc":"LF231150001","itemCode":"LF-23115","serialNo":1}]}
+2026-09-16 19:10:25.037  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:25.062  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:25.093  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:25.118  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:25.195  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:25.197  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:10:45.230  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@efdbf9
+09-16 19:10:48.890  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:10:52.666  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@334ffe7
+2026-09-16 19:10:53.624  I  SerialService: 'LF-25028': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25028 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:53.660  I  SerialService: 'LF-25028': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25028&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:53.697  I  SerialService: 'LF-25028': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25028&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:53.703  I  SerialService: 'LF-25028': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:10:53.704  I  SerialService: 'LF-25028': server holds 0 RFID(s); taking the lowest free serial 1 (LF250280001)
+2026-09-16 19:10:57.200  I  SerialService: 'LF-25028': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25028 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:57.305  I  SerialService: 'LF-25028': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25028&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:57.342  I  SerialService: 'LF-25028': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25028&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:10:57.347  I  SerialService: 'LF-25028': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:10:57.348  I  SerialService: 'LF-25028': server holds 0 RFID(s); taking the lowest free serial 1 (LF250280001)
+2026-09-16 19:10:57.927  I  Registration: Upload accepted for LF250280001: HTTP 200 {"updated":1,"tags":[{"id":2713,"epc":"LF250280001","itemCode":"LF-25028","serialNo":1}]}
+2026-09-16 19:10:57.955  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:57.981  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:58.006  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:58.034  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:58.058  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:10:58.059  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:11:19.047  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:11:19.047  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:11:19.048  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:11:19.048  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:11:19.048  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 19:11:19.048  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 19:11:19.048  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 19:11:19.048  4832  4846 W System  : A resource failed to call close. 
+09-16 19:11:34.433  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@645628b
+09-16 19:12:00.855  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ba8e201
+09-16 19:12:00.867  4832  4832 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-16 19:12:14.376  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@dac4b78
+2026-09-16 19:12:15.174  I  SerialService: 'LF-24030': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24030 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:15.214  I  SerialService: 'LF-24030': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24030&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:15.252  I  SerialService: 'LF-24030': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24030&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:15.258  I  SerialService: 'LF-24030': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:12:15.259  I  SerialService: 'LF-24030': server holds 0 RFID(s); taking the lowest free serial 1 (LF240300001)
+2026-09-16 19:12:16.893  I  SerialService: 'LF-24030': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24030 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:16.967  I  SerialService: 'LF-24030': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24030&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:17.017  I  SerialService: 'LF-24030': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24030&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:17.029  I  SerialService: 'LF-24030': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:12:17.030  I  SerialService: 'LF-24030': server holds 0 RFID(s); taking the lowest free serial 1 (LF240300001)
+2026-09-16 19:12:17.941  I  Registration: Upload accepted for LF240300001: HTTP 200 {"updated":1,"tags":[{"id":2714,"epc":"LF240300001","itemCode":"LF-24030","serialNo":1}]}
+2026-09-16 19:12:17.983  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:12:18.013  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:12:18.043  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:12:18.077  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:12:18.108  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:12:18.110  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:12:28.991  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1882e67
+09-16 19:12:32.574  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a7b4143
+2026-09-16 19:12:32.620  I  SerialService: 'LF-24013': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24013 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:32.657  I  SerialService: 'LF-24013': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24013&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:32.694  I  SerialService: 'LF-24013': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24013&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:32.705  I  SerialService: 'LF-24013': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:12:32.706  I  SerialService: 'LF-24013': server holds 0 RFID(s); taking the lowest free serial 1 (LF240130001)
+2026-09-16 19:12:35.905  I  SerialService: 'LF-24013': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24013 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:35.944  I  SerialService: 'LF-24013': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24013&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:36.122  I  SerialService: 'LF-24013': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24013&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:36.129  I  SerialService: 'LF-24013': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:12:36.130  I  SerialService: 'LF-24013': server holds 0 RFID(s); taking the lowest free serial 1 (LF240130001)
+2026-09-16 19:12:37.033  I  Registration: Upload accepted for LF240130001: HTTP 200 {"updated":1,"tags":[{"id":2715,"epc":"LF240130001","itemCode":"LF-24013","serialNo":1}]}
+2026-09-16 19:12:37.061  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:12:37.092  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:12:37.122  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:12:37.151  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:12:37.183  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:12:37.184  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:12:38.609  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:12:38.609  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:12:38.610  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:12:38.610  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:12:38.614  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:12:38.614  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:12:38.615  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:12:38.615  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:12:38.615  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 19:12:38.615  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 19:12:38.616  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 19:12:38.616  4832  4846 W System  : A resource failed to call close. 
+2026-09-16 19:12:44.039  I  SerialService: 'LF24026': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF24026 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:44.097  I  SerialService: 'LF24026': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF24026&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:44.361  I  SerialService: 'LF24026': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF24026&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:12:44.371  I  SerialService: 'LF24026': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:12:44.372  I  SerialService: 'LF24026': server holds 0 RFID(s); taking the lowest free serial 1 (LF240260001)
+2026-09-16 19:13:03.069  I  SerialService: 'LF24026': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF24026 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:03.108  I  SerialService: 'LF24026': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF24026&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:03.152  I  SerialService: 'LF24026': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF24026&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:03.164  I  SerialService: 'LF24026': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:13:03.166  I  SerialService: 'LF24026': server holds 0 RFID(s); taking the lowest free serial 1 (LF240260001)
+2026-09-16 19:13:03.966  I  Registration: Upload accepted for LF240260001: HTTP 200 {"updated":1,"tags":[{"id":2716,"epc":"LF240260001","itemCode":"LF24026","serialNo":1}]}
+2026-09-16 19:13:04.001  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:04.029  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:04.057  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:04.086  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:04.117  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:04.120  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:13:11.851  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:13:11.857  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-16 19:13:19.098  I  SerialService: 'LF-24062': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24062 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:19.255  I  SerialService: 'LF-24062': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24062&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:19.297  I  SerialService: 'LF-24062': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24062&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:19.304  I  SerialService: 'LF-24062': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:13:19.305  I  SerialService: 'LF-24062': server holds 0 RFID(s); taking the lowest free serial 1 (LF240620001)
+2026-09-16 19:13:29.551  I  SerialService: 'LF-24062': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24062 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:29.797  I  SerialService: 'LF-24062': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24062&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:30.041  I  SerialService: 'LF-24062': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-24062&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:30.056  I  SerialService: 'LF-24062': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:13:30.057  I  SerialService: 'LF-24062': server holds 0 RFID(s); taking the lowest free serial 1 (LF240620001)
+2026-09-16 19:13:31.816  I  Registration: Upload accepted for LF240620001: HTTP 200 {"updated":1,"tags":[{"id":2717,"epc":"LF240620001","itemCode":"LF-24062","serialNo":1}]}
+2026-09-16 19:13:31.847  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:31.877  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:31.906  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:32.543  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:32.577  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:32.579  I  Registration: Uploaded 1 tag(s); 6 still pending
+2026-09-16 19:13:43.408  I  SerialService: 'LF-25047': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25047 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+09-16 19:13:43.421  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:13:43.421  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:13:43.426  4832  4846 W System  : A resource failed to call CursorWindow.close. 
+09-16 19:13:43.426  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:13:43.426  4832  4846 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-16 19:13:43.426  4832  4846 W System  : A resource failed to call SQLiteConnection.close. 
+09-16 19:13:43.427  4832  4846 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-16 19:13:43.427  4832  4846 W System  : A resource failed to call close. 
+2026-09-16 19:13:43.453  I  SerialService: 'LF-25047': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25047&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:43.491  I  SerialService: 'LF-25047': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25047&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:43.496  I  SerialService: 'LF-25047': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:13:43.497  I  SerialService: 'LF-25047': server holds 0 RFID(s); taking the lowest free serial 1 (LF250470001)
+2026-09-16 19:13:51.848  I  SerialService: 'LF-25047': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25047 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:51.889  I  SerialService: 'LF-25047': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25047&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:51.933  I  SerialService: 'LF-25047': GET http://164.52.223.163:4636/api/device/products/mapped?search=LF-25047&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-16 19:13:51.948  I  SerialService: 'LF-25047': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-16 19:13:51.949  I  SerialService: 'LF-25047': server holds 0 RFID(s); taking the lowest free serial 1 (LF250470001)
+2026-09-16 19:13:52.533  I  Registration: Upload accepted for LF250470001: HTTP 200 {"updated":1,"tags":[{"id":2718,"epc":"LF250470001","itemCode":"LF-25047","serialNo":1}]}
+2026-09-16 19:13:52.571  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:52.597  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:52.625  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:52.651  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:52.677  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-16 19:13:52.680  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-16 19:14:16.851  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:14:16.855  4832  4846 W System  : A resource failed to call AbstractCursor.close. 
+09-16 19:14:18.250  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9aa66d2
+09-16 19:15:15.972  4832  4832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e230c04
+09-16 19:15:15.985  4832  4832 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
