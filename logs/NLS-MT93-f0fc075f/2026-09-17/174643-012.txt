@@ -1,0 +1,55 @@
+# pushed 2026-09-17 17:46:43.012 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 21287..25767
+
+2026-09-17 17:37:55.469  I  UhfSession: UHF reader powered down: app moved to the background
+09-17 17:38:01.775  1002  1111 W System  : A resource failed to call close. 
+09-17 17:38:01.775  1002  1111 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 17:38:01.775  1002  1111 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 17:38:01.775  1002  1111 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 17:41:43.275  1002  1002 E SurfaceSyncer: Failed to find sync for id=0
+09-17 17:41:43.275  1002  1002 E SurfaceSyncer: Failed to find sync for id=1
+09-17 17:41:43.275  1002  1002 E SurfaceSyncer: Failed to find sync for id=2
+2026-09-17 17:41:47.715  I  UhfSession: UHF reader powered up
+2026-09-17 17:42:44.801  I  UhfSession: UHF reader powered down: app moved to the background
+09-17 17:44:56.484  1002  1002 E SurfaceSyncer: Failed to find sync for id=0
+09-17 17:44:56.485  1002  1002 E SurfaceSyncer: Failed to find sync for id=1
+09-17 17:44:56.485  1002  1002 E SurfaceSyncer: Failed to find sync for id=2
+09-17 17:44:56.485  1002  1002 E SurfaceSyncer: Failed to find sync for id=3
+2026-09-17 17:45:00.997  I  UhfSession: UHF reader powered up
+2026-09-17 17:45:33.313  I  SerialService: 'YASH-RG-81': GET http://164.52.223.163:4636/api/device/products/mapped?search=YASH-RG-81 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 17:45:33.400  I  SerialService: 'YASH-RG-81': GET http://164.52.223.163:4636/api/device/products/mapped?search=YASH-RG-81&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 17:45:33.492  I  SerialService: 'YASH-RG-81': GET http://164.52.223.163:4636/api/device/products/mapped?search=YASH-RG-81&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 17:45:33.508  I  SerialService: 'YASH-RG-81': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 17:45:33.512  I  SerialService: 'YASH-RG-81': server holds 0 RFID(s); taking the lowest free serial 3 (YASHRG810003)
+2026-09-17 17:45:34.276  I  Registration: Upload accepted for YASHRG810001: HTTP 200 {"updated":1,"tags":[{"id":2881,"epc":"YASHRG810001","itemCode":"YASH-RG-81","serialNo":1}]}
+2026-09-17 17:45:34.352  I  Registration: Upload accepted for YASHRG810002: HTTP 200 {"updated":1,"tags":[{"id":2882,"epc":"YASHRG810002","itemCode":"YASH-RG-81","serialNo":2}]}
+2026-09-17 17:45:34.423  I  Registration: Upload accepted for YASHRG810003: HTTP 200 {"updated":1,"tags":[{"id":2883,"epc":"YASHRG810003","itemCode":"YASH-RG-81","serialNo":3}]}
+2026-09-17 17:45:34.503  E  Registration: Upload rejected for RCPL17200001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1882,"epc":"RCPL17200001","itemCode":"RCPL-1720","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 17:45:34.638  E  Registration: Upload rejected for RCPL17200002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1883,"epc":"RCPL17200002","itemCode":"RCPL-1720","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 17:45:34.707  E  Registration: Upload rejected for RCPL17200003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1882,"epc":"RCPL17200003","itemCode":"RCPL-1720","serialNo":3}]}
+  HTTP 500
+  response: 
+09-17 17:45:34.741  1002  1111 W System  : A resource failed to call CursorWindow.close. 
+09-17 17:45:34.741  1002  1111 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-17 17:45:34.779  E  Registration: Upload rejected for RCPL16190002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1907,"epc":"RCPL16190002","itemCode":"RCPL-1619","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 17:45:34.849  E  Registration: Upload rejected for RCPL26540001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1898,"epc":"RCPL26540001","itemCode":"RCPL-2654","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 17:45:34.852  I  Registration: Uploaded 3 tag(s); 15 still pending
