@@ -1,0 +1,503 @@
+# pushed 2026-09-17 18:36:44.168 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 86964..134227
+
+09-17 18:28:56.381  6386  6386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b0c82d9
+09-17 18:29:05.825  6386  6386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d023a19
+09-17 18:29:05.834  6386  6386 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-17 18:29:06.940  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:06.983  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:07.025  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:07.034  I  SerialService: 'MNM-2864': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:29:07.036  I  SerialService: 'MNM-2864': server holds 0 RFID(s); taking the lowest free serial 4 (MNM28640004)
+2026-09-17 18:29:11.215  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:11.257  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:11.299  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:11.314  I  SerialService: 'MNM-2864': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:29:11.319  I  SerialService: 'MNM-2864': server holds 0 RFID(s); taking the lowest free serial 4 (MNM28640004)
+2026-09-17 18:29:11.913  E  Registration: Upload rejected for MNM28640004
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2678,"epc":"MNM28640004","itemCode":"MNM-2864","serialNo":4}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:11.946  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:11.972  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:11.998  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:12.024  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:18.143  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:18.186  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:18.235  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:18.245  I  SerialService: 'MNM-2864': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:29:18.247  I  SerialService: 'MNM-2864': server holds 0 RFID(s); taking the lowest free serial 5 (MNM28640005)
+2026-09-17 18:29:18.826  E  Registration: Upload rejected for MNM28640005
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2679,"epc":"MNM28640005","itemCode":"MNM-2864","serialNo":5}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:18.853  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:18.879  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:18.909  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:18.938  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:26.080  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:26.128  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:26.169  I  SerialService: 'MNM-2864': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-2864&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:26.175  I  SerialService: 'MNM-2864': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:29:26.177  I  SerialService: 'MNM-2864': server holds 0 RFID(s); taking the lowest free serial 6 (MNM28640006)
+2026-09-17 18:29:26.768  E  Registration: Upload rejected for MNM28640006
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2680,"epc":"MNM28640006","itemCode":"MNM-2864","serialNo":6}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:26.795  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:26.823  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:26.850  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:26.884  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+09-17 18:29:39.538  6386  6396 W System  : A resource failed to call close. 
+09-17 18:29:39.538  6386  6396 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 18:29:39.538  6386  6396 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 18:29:39.538  6386  6396 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 18:29:39.539  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:29:39.540  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:29:39.541  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:29:39.543  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-17 18:29:53.195  I  SerialService: 'MNM-241': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-241 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:53.235  I  SerialService: 'MNM-241': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-241&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:53.282  I  SerialService: 'MNM-241': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-241&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:53.297  I  SerialService: 'MNM-241': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:29:53.299  I  SerialService: 'MNM-241': server holds 0 RFID(s); taking the lowest free serial 3 (MNM2410003)
+2026-09-17 18:29:59.239  I  SerialService: 'MNM-241': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-241 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:59.280  I  SerialService: 'MNM-241': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-241&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:59.322  I  SerialService: 'MNM-241': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-241&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:29:59.326  I  SerialService: 'MNM-241': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:29:59.327  I  SerialService: 'MNM-241': server holds 0 RFID(s); taking the lowest free serial 3 (MNM2410003)
+2026-09-17 18:29:59.919  E  Registration: Upload rejected for MNM2410003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2667,"epc":"MNM2410003","itemCode":"MNM-241","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:59.946  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:29:59.974  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:00.005  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:00.033  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:05.937  I  SerialService: 'MNM-241': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-241 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:05.982  I  SerialService: 'MNM-241': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-241&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:06.026  I  SerialService: 'MNM-241': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-241&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:06.038  I  SerialService: 'MNM-241': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:30:06.040  I  SerialService: 'MNM-241': server holds 0 RFID(s); taking the lowest free serial 4 (MNM2410004)
+2026-09-17 18:30:06.884  E  Registration: Upload rejected for MNM2410004
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2668,"epc":"MNM2410004","itemCode":"MNM-241","serialNo":4}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:06.914  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:06.943  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:06.972  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:07.004  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+09-17 18:30:12.579  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:30:12.580  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:30:12.582  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-17 18:30:14.828  I  SerialService: 'MNM-242': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-242 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:14.882  I  SerialService: 'MNM-242': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-242&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:14.920  I  SerialService: 'MNM-242': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-242&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:14.925  I  SerialService: 'MNM-242': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:30:14.926  I  SerialService: 'MNM-242': server holds 0 RFID(s); taking the lowest free serial 3 (MNM2420003)
+2026-09-17 18:30:17.405  I  SerialService: 'MNM-242': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-242 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:17.449  I  SerialService: 'MNM-242': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-242&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:17.494  I  SerialService: 'MNM-242': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-242&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:17.508  I  SerialService: 'MNM-242': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:30:17.510  I  SerialService: 'MNM-242': server holds 0 RFID(s); taking the lowest free serial 3 (MNM2420003)
+2026-09-17 18:30:18.391  E  Registration: Upload rejected for MNM2420003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2676,"epc":"MNM2420003","itemCode":"MNM-242","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:18.425  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:18.460  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:18.495  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:18.523  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:22.468  I  SerialService: 'MNM-242': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-242 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:22.509  I  SerialService: 'MNM-242': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-242&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:22.550  I  SerialService: 'MNM-242': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-242&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:22.567  I  SerialService: 'MNM-242': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:30:22.570  I  SerialService: 'MNM-242': server holds 0 RFID(s); taking the lowest free serial 4 (MNM2420004)
+2026-09-17 18:30:23.148  E  Registration: Upload rejected for MNM2420004
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2677,"epc":"MNM2420004","itemCode":"MNM-242","serialNo":4}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:23.175  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:23.211  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:23.237  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:23.263  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:29.234  I  SerialService: 'MNM-256': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-256 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:29.275  I  SerialService: 'MNM-256': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-256&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:29.319  I  SerialService: 'MNM-256': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-256&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:29.333  I  SerialService: 'MNM-256': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:30:29.336  I  SerialService: 'MNM-256': server holds 0 RFID(s); taking the lowest free serial 3 (MNM2560003)
+2026-09-17 18:30:32.880  I  SerialService: 'MNM-256': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-256 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:32.922  I  SerialService: 'MNM-256': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-256&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:32.970  I  SerialService: 'MNM-256': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-256&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:32.978  I  SerialService: 'MNM-256': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:30:32.980  I  SerialService: 'MNM-256': server holds 0 RFID(s); taking the lowest free serial 3 (MNM2560003)
+09-17 18:30:33.574  6386  6396 W System  : A resource failed to call CursorWindow.close. 
+2026-09-17 18:30:33.575  E  Registration: Upload rejected for MNM2560003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2674,"epc":"MNM2560003","itemCode":"MNM-256","serialNo":3}]}
+  HTTP 500
+  response: 
+09-17 18:30:33.574  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:30:33.575  6386  6396 W System  : A resource failed to call CursorWindow.close. 
+09-17 18:30:33.575  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:30:33.577  6386  6396 W System  : A resource failed to call CursorWindow.close. 
+09-17 18:30:33.577  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:30:33.578  6386  6396 W System  : A resource failed to call CursorWindow.close. 
+09-17 18:30:33.578  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:30:33.579  6386  6396 W System  : A resource failed to call CursorWindow.close. 
+09-17 18:30:33.579  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:30:33.579  6386  6396 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 18:30:33.579  6386  6396 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 18:30:33.580  6386  6396 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 18:30:33.580  6386  6396 W System  : A resource failed to call close. 
+2026-09-17 18:30:33.607  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:33.643  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:33.669  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:33.699  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:35.846  I  SerialService: 'MNM-256': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-256 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:35.890  I  SerialService: 'MNM-256': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-256&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:35.937  I  SerialService: 'MNM-256': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-256&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:35.947  I  SerialService: 'MNM-256': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:30:35.949  I  SerialService: 'MNM-256': server holds 0 RFID(s); taking the lowest free serial 4 (MNM2560004)
+2026-09-17 18:30:36.539  E  Registration: Upload rejected for MNM2560004
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2675,"epc":"MNM2560004","itemCode":"MNM-256","serialNo":4}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:36.568  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:36.599  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:36.632  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:36.666  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:45.907  I  SerialService: 'MNM-276': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-276 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:45.945  I  SerialService: 'MNM-276': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-276&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:45.982  I  SerialService: 'MNM-276': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-276&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:45.993  I  SerialService: 'MNM-276': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:30:45.995  I  SerialService: 'MNM-276': server holds 0 RFID(s); taking the lowest free serial 3 (MNM2760003)
+2026-09-17 18:30:48.552  I  SerialService: 'MNM-276': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-276 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:48.595  I  SerialService: 'MNM-276': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-276&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:48.643  I  SerialService: 'MNM-276': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-276&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:48.659  I  SerialService: 'MNM-276': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:30:48.663  I  SerialService: 'MNM-276': server holds 0 RFID(s); taking the lowest free serial 3 (MNM2760003)
+2026-09-17 18:30:50.296  E  Registration: Upload rejected for MNM2760003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2665,"epc":"MNM2760003","itemCode":"MNM-276","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:50.326  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:50.356  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:50.394  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:50.422  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:52.929  I  SerialService: 'MNM-276': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-276 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:52.971  I  SerialService: 'MNM-276': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-276&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:53.017  I  SerialService: 'MNM-276': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-276&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:30:53.030  I  SerialService: 'MNM-276': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:30:53.032  I  SerialService: 'MNM-276': server holds 0 RFID(s); taking the lowest free serial 4 (MNM2760004)
+2026-09-17 18:30:53.605  E  Registration: Upload rejected for MNM2760004
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2666,"epc":"MNM2760004","itemCode":"MNM-276","serialNo":4}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:53.634  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:53.691  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:53.739  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:30:53.780  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+09-17 18:31:04.887  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:31:04.892  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:31:04.894  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:31:04.896  6386  6396 W System  : A resource failed to call AbstractCursor.close. 
+09-17 18:31:06.045  6386  6386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7344d96
+09-17 18:31:06.056  6386  6386 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-17 18:31:06.772  6386  6386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@38bc3a1
+09-17 18:31:06.775  6386  9458 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#204(BLAST Consumer)204](id:18f2000000e6,api:4,p:1496,c:6386) queueBuffer: BufferQueue has been abandoned
+09-17 18:31:06.790  6386  9458 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#204(BLAST Consumer)204](id:18f2000000e6,api:4,p:1496,c:6386) cancelBuffer: BufferQueue has been abandoned
+09-17 18:31:06.793  6386 14248 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#204(BLAST Consumer)204](id:18f2000000e6,api:4,p:1496,c:6386) cancelBuffer: BufferQueue has been abandoned
+09-17 18:31:06.794  6386 14248 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#204(BLAST Consumer)204](id:18f2000000e6,api:4,p:1496,c:6386) cancelBuffer: BufferQueue has been abandoned
+09-17 18:31:06.794  6386 14248 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#204(BLAST Consumer)204](id:18f2000000e6,api:4,p:1496,c:6386) cancelBuffer: BufferQueue has been abandoned
+09-17 18:31:06.796  6386  6399 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#204(BLAST Consumer)204](id:18f2000000e6,api:4,p:1496,c:6386) cancelBuffer: BufferQueue has been abandoned
+2026-09-17 18:31:07.633  I  ProductSync: unmapped for location 2 needed 2 page(s): 377 row(s), server reported 377
+2026-09-17 18:31:08.805  I  ProductSync: unmapped for location 2 needed 2 page(s): 377 row(s), server reported 377
+09-17 18:31:09.100  6386  6396 W System  : A resource failed to call close. 
+09-17 18:31:09.100  6386  6396 W System  : A resource failed to call close. 
+2026-09-17 18:31:09.781  I  ProductSync: unmapped for location 2 needed 2 page(s): 377 row(s), server reported 377
+09-17 18:31:10.250  6386  6396 W System  : A resource failed to call close. 
+09-17 18:31:10.250  6386  6396 W System  : A resource failed to call close. 
+09-17 18:31:10.250  6386  6396 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 18:31:10.250  6386  6396 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 18:31:10.251  6386  6396 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 18:31:10.251  6386  6396 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 18:31:10.251  6386  6396 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 18:31:10.251  6386  6396 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-09-17 18:31:10.792  I  ProductSync: unmapped for location 2 needed 2 page(s): 377 row(s), server reported 377
+09-17 18:31:11.805  6386  6386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@111ca76
+2026-09-17 18:31:11.864  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-17 18:31:16.973  6386  6396 W System  : A resource failed to call close. 
+09-17 18:31:16.973  6386  6396 W System  : A resource failed to call close. 
+09-17 18:31:16.973  6386  6396 W System  : A resource failed to call close. 
+09-17 18:31:16.973  6386  6396 W System  : A resource failed to call close. 
+2026-09-17 18:31:16.986  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-17 18:31:16.987  I  Net: Blank Audit: mapped-product sync started
+2026-09-17 18:31:16.988  I  Net: Blank Audit: local products still fresh, no sync needed
+2026-09-17 18:31:19.501  W  UhfSession: Could not power up the UHF reader
+2026-09-17 18:31:24.841  I  UhfSession: UHF reader powered up
+09-17 18:31:30.009  6386  6386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ae00b94
+09-17 18:31:45.719  6386  6386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5dd971d
+2026-09-17 18:32:03.315  I  Net: Blank Audit: closed, releasing the UHF module
+09-17 18:32:03.320  6386  6386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@29d915f
+2026-09-17 18:32:04.362  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 18:32:04.389  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:32:04.417  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 18:32:04.446  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 18:32:04.471  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+09-17 18:32:13.538  6386  6386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b846131
+09-17 18:32:13.547  6386  6386 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-17 18:32:20.297  I  SerialService: 'MNM-275': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-275 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:32:20.337  I  SerialService: 'MNM-275': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-275&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:32:20.380  I  SerialService: 'MNM-275': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-275&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 18:32:20.387  I  SerialService: 'MNM-275': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 18:32:20.391  I  SerialService: 'MNM-275': server holds 0 RFID(s); taking the lowest free serial 11 (MNM2750011)
+09-17 18:32:23.139  6386  6386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1feaab4
+09-17 18:32:23.151  6386  9458 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#218(BLAST Consumer)218](id:18f2000000f6,api:4,p:1496,c:6386) queueBuffer: BufferQueue has been abandoned
+09-17 18:32:23.171  6386  9458 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#218(BLAST Consumer)218](id:18f2000000f6,api:4,p:1496,c:6386) cancelBuffer: BufferQueue has been abandoned
+09-17 18:32:23.171  6386  9458 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#218(BLAST Consumer)218](id:18f2000000f6,api:4,p:1496,c:6386) cancelBuffer: BufferQueue has been abandoned
+09-17 18:32:23.172  6386  9458 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#218(BLAST Consumer)218](id:18f2000000f6,api:4,p:1496,c:6386) cancelBuffer: BufferQueue has been abandoned
+09-17 18:32:23.173  6386  9458 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#218(BLAST Consumer)218](id:18f2000000f6,api:4,p:1496,c:6386) cancelBuffer: BufferQueue has been abandoned
+09-17 18:32:23.182  6386  9458 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#218(BLAST Consumer)218](id:18f2000000f6,api:4,p:1496,c:6386) queueBuffer: BufferQueue has been abandoned
+2026-09-17 18:32:28.338  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-17 18:33:39.543  6386  9458 W mediametrics::Item: Reacquire service connection on next request
+2026-09-17 18:36:14.130  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-09-17 18:36:14.156  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-09-17 18:36:14.194  I  Net: wifi connected
+2026-09-17 18:36:14.201  I  Net: wifi has internet (rssi -63 dBm)
+--------- beginning of main
+09-17 18:36:14.615  6186  6186 W HWUI    : Unknown dataspace 0
+09-17 18:36:14.816  6186  6289 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-17 18:36:14.894  6186  6289 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-17 18:36:21.258  6186  6665 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+09-17 18:36:24.312  6186  6186 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@614dce5
+09-17 18:36:24.427  6186  6688 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+09-17 18:36:25.076  6186  6186 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@62b9da4
+2026-09-17 18:36:27.732  I  ProductSync: unmapped for location 2 needed 2 page(s): 377 row(s), server reported 377
+09-17 18:36:27.801  6186  6197 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+09-17 18:36:27.831  6186  6199 W System  : A resource failed to call close. 
+09-17 18:36:27.831  6186  6199 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 18:36:27.831  6186  6199 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 18:36:27.832  6186  6199 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 18:36:27.832  6186  6199 W System  : A resource failed to call close. 
+09-17 18:36:27.832  6186  6199 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 18:36:27.832  6186  6199 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 18:36:27.832  6186  6199 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 18:36:27.832  6186  6199 W System  : A resource failed to call close. 
+09-17 18:36:27.832  6186  6199 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 18:36:27.833  6186  6199 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 18:36:27.833  6186  6199 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 18:36:27.834  6186  6199 W System  : A resource failed to call close. 
+09-17 18:36:27.834  6186  6199 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 18:36:27.834  6186  6199 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 18:36:27.834  6186  6199 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-17 18:36:30.191  I  ProductSync: unmapped for location 2 needed 2 page(s): 377 row(s), server reported 377
+09-17 18:36:30.579  6186  6199 W System  : A resource failed to call close. 
+09-17 18:36:30.579  6186  6199 W System  : A resource failed to call close. 
