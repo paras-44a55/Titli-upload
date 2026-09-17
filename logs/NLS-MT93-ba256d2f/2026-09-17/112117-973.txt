@@ -1,0 +1,471 @@
+# pushed 2026-09-17 11:21:17.973 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 495491..19561
+
+09-17 11:07:28.704 21976 21987 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 11:07:28.705 21976 21987 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 11:07:28.705 21976 21987 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 11:07:28.705 21976 21987 W System  : A resource failed to call close. 
+09-17 11:07:28.705 21976 21987 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 11:07:28.705 21976 21987 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 11:07:28.705 21976 21987 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 11:07:53.341 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3ab61ef
+09-17 11:07:53.368 21976 21976 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-17 11:08:22.372 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2024fda
+09-17 11:08:41.411 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8ae38fe
+09-17 11:08:41.421 21976 21976 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-17 11:08:42.098  I  SerialService: 'SBSK-SSS-3789S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3789S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:08:42.140  I  SerialService: 'SBSK-SSS-3789S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3789S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:08:42.180  I  SerialService: 'SBSK-SSS-3789S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3789S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:08:42.186  I  SerialService: 'SBSK-SSS-3789S': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:08:42.188  I  SerialService: 'SBSK-SSS-3789S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS3789S0001)
+2026-09-17 11:08:47.057  I  SerialService: 'SBSK-SSS-3789S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3789S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:08:47.104  I  SerialService: 'SBSK-SSS-3789S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3789S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:08:47.148  I  SerialService: 'SBSK-SSS-3789S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3789S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:08:47.156  I  SerialService: 'SBSK-SSS-3789S': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:08:47.158  I  SerialService: 'SBSK-SSS-3789S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS3789S0001)
+2026-09-17 11:08:47.753  E  Registration: Upload rejected for RCPL56080004
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080004","itemCode":"RCPL-5608","serialNo":4}]}
+  HTTP 500
+  response: 
+2026-09-17 11:08:47.840  I  Registration: Upload accepted for SBSKSSS3789S0001: HTTP 200 {"updated":1,"tags":[{"id":2720,"epc":"SBSKSSS3789S0001","itemCode":"SBSK-SSS-3789S","serialNo":1}]}
+2026-09-17 11:08:47.872  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 11:08:47.905  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:08:47.942  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:08:47.977  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:08:47.981  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-17 11:09:08.585 21976 21987 W System  : A resource failed to call close. 
+09-17 11:09:08.585 21976 21987 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 11:09:08.585 21976 21987 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 11:09:08.585 21976 21987 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 11:09:08.586 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:09:08.589 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:09:37.837 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@248b93e
+09-17 11:09:45.728 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d8c4620
+09-17 11:09:45.737 21976 21976 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-17 11:09:46.443  I  SerialService: 'SBSK-SSS-3794S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3794S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:09:46.494  I  SerialService: 'SBSK-SSS-3794S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3794S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:09:46.539  I  SerialService: 'SBSK-SSS-3794S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3794S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:09:46.548  I  SerialService: 'SBSK-SSS-3794S': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:09:46.549  I  SerialService: 'SBSK-SSS-3794S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS3794S0001)
+2026-09-17 11:09:57.483  I  SerialService: 'SBSK-SSS-3794S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3794S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:09:57.534  I  SerialService: 'SBSK-SSS-3794S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3794S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:09:57.579  I  SerialService: 'SBSK-SSS-3794S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3794S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:09:57.593  I  SerialService: 'SBSK-SSS-3794S': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:09:57.594  I  SerialService: 'SBSK-SSS-3794S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS3794S0001)
+2026-09-17 11:09:58.192  I  Registration: Upload accepted for SBSKSSS3794S0001: HTTP 200 {"updated":1,"tags":[{"id":2721,"epc":"SBSKSSS3794S0001","itemCode":"SBSK-SSS-3794S","serialNo":1}]}
+2026-09-17 11:09:58.230  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 11:09:58.504  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:09:58.539  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:09:58.574  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:09:58.609  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:09:58.612  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-17 11:10:12.184 21976 21987 W System  : A resource failed to call close. 
+09-17 11:10:12.184 21976 21987 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 11:10:12.184 21976 21987 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 11:10:12.184 21976 21987 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 11:10:12.185 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:10:12.188 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:10:19.511 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@61e69e9
+09-17 11:10:26.100 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@aec9857
+2026-09-17 11:10:26.345  I  SerialService: 'SBSK-MB-89': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-MB-89 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:10:26.725  I  SerialService: 'SBSK-MB-89': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-MB-89&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:10:26.770  I  SerialService: 'SBSK-MB-89': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-MB-89&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:10:26.777  I  SerialService: 'SBSK-MB-89': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:10:26.778  I  SerialService: 'SBSK-MB-89': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKMB890001)
+2026-09-17 11:10:30.866  I  SerialService: 'SBSK-MB-89': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-MB-89 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:10:30.916  I  SerialService: 'SBSK-MB-89': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-MB-89&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:10:30.971  I  SerialService: 'SBSK-MB-89': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-MB-89&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:10:30.983  I  SerialService: 'SBSK-MB-89': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:10:30.984  I  SerialService: 'SBSK-MB-89': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKMB890001)
+2026-09-17 11:10:32.715  I  Registration: Upload accepted for SBSKMB890001: HTTP 200 {"updated":1,"tags":[{"id":2722,"epc":"SBSKMB890001","itemCode":"SBSK-MB-89","serialNo":1}]}
+2026-09-17 11:10:32.753  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 11:10:32.787  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:10:32.820  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:10:32.852  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:10:32.890  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:10:32.892  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-17 11:10:48.063 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:10:48.064 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:10:48.323 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c745e9e
+09-17 11:10:52.669 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ceb2879
+2026-09-17 11:10:53.323  I  SerialService: 'SBSK-NEW-08': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-NEW-08 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:10:53.363  I  SerialService: 'SBSK-NEW-08': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-NEW-08&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:10:53.404  I  SerialService: 'SBSK-NEW-08': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-NEW-08&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:10:53.416  I  SerialService: 'SBSK-NEW-08': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:10:53.418  I  SerialService: 'SBSK-NEW-08': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKNEW080001)
+09-17 11:11:21.583 21976 21987 W System  : A resource failed to call close. 
+09-17 11:11:21.583 21976 21987 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 11:11:21.583 21976 21987 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 11:11:21.583 21976 21987 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 11:11:21.584 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-17 11:11:44.745  I  SerialService: 'SBSK-NEW-08': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-NEW-08 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:11:44.803  I  SerialService: 'SBSK-NEW-08': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-NEW-08&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:11:45.100  I  SerialService: 'SBSK-NEW-08': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-NEW-08&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:11:45.115  I  SerialService: 'SBSK-NEW-08': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:11:45.116  I  SerialService: 'SBSK-NEW-08': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKNEW080001)
+2026-09-17 11:11:46.001  I  Registration: Upload accepted for SBSKNEW080001: HTTP 200 {"updated":1,"tags":[{"id":2723,"epc":"SBSKNEW080001","itemCode":"SBSK-NEW-08","serialNo":1}]}
+2026-09-17 11:11:46.062  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 11:11:46.401  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:11:46.436  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:11:46.479  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:11:46.858  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:11:46.862  I  Registration: Uploaded 1 tag(s); 6 still pending
+2026-09-17 11:11:51.128  I  SerialService: 'SBSK-NEW-08': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SBSKNEW080002)
+2026-09-17 11:11:51.835  I  Registration: Upload accepted for SBSKNEW080002: HTTP 200 {"updated":1,"tags":[{"id":2724,"epc":"SBSKNEW080002","itemCode":"SBSK-NEW-08","serialNo":2}]}
+2026-09-17 11:11:51.870  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 11:11:51.905  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:11:51.938  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:11:51.979  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:11:52.021  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:11:52.025  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-17 11:11:54.704 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:11:54.706 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:12:12.840 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5077f76
+09-17 11:12:19.772 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2bdf5e8
+2026-09-17 11:12:20.664  I  SerialService: 'SBSK-CT-78': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-78 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:20.708  I  SerialService: 'SBSK-CT-78': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-78&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:20.750  I  SerialService: 'SBSK-CT-78': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-78&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:20.756  I  SerialService: 'SBSK-CT-78': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:12:20.757  I  SerialService: 'SBSK-CT-78': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCT780001)
+2026-09-17 11:12:25.843  I  SerialService: 'SBSK-CT-78': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-78 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:25.891  I  SerialService: 'SBSK-CT-78': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-78&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:25.933  I  SerialService: 'SBSK-CT-78': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-78&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:25.942  I  SerialService: 'SBSK-CT-78': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:12:25.944  I  SerialService: 'SBSK-CT-78': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCT780001)
+2026-09-17 11:12:26.588  I  Registration: Upload accepted for SBSKCT780001: HTTP 200 {"updated":1,"tags":[{"id":2725,"epc":"SBSKCT780001","itemCode":"SBSK-CT-78","serialNo":1}]}
+2026-09-17 11:12:26.634  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 11:12:26.668  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:12:26.715  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:12:26.756  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:12:26.803  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:12:26.805  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-17 11:12:27.599 21976 21987 W System  : A resource failed to call CursorWindow.close. 
+09-17 11:12:27.599 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:12:27.601 21976 21987 W System  : A resource failed to call CursorWindow.close. 
+09-17 11:12:27.601 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:12:27.601 21976 21987 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 11:12:27.601 21976 21987 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 11:12:27.602 21976 21987 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 11:12:27.602 21976 21987 W System  : A resource failed to call close. 
+09-17 11:12:46.859 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@704b65b
+09-17 11:12:50.118 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6cb6169
+2026-09-17 11:12:50.173  I  SerialService: 'SBSK-CCC-21': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-21 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:50.244  I  SerialService: 'SBSK-CCC-21': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-21&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:50.289  I  SerialService: 'SBSK-CCC-21': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-21&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:50.301  I  SerialService: 'SBSK-CCC-21': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:12:50.302  I  SerialService: 'SBSK-CCC-21': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCCC210001)
+2026-09-17 11:12:57.593  I  SerialService: 'SBSK-CCC-21': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-21 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:57.650  I  SerialService: 'SBSK-CCC-21': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-21&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:57.702  I  SerialService: 'SBSK-CCC-21': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-21&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:12:57.720  I  SerialService: 'SBSK-CCC-21': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:12:57.722  I  SerialService: 'SBSK-CCC-21': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCCC210001)
+2026-09-17 11:12:58.546  I  Registration: Upload accepted for SBSKCCC210001: HTTP 200 {"updated":1,"tags":[{"id":2726,"epc":"SBSKCCC210001","itemCode":"SBSK-CCC-21","serialNo":1}]}
+2026-09-17 11:12:58.592  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 11:12:58.636  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:12:58.678  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:12:58.717  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:12:58.756  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:12:58.759  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-17 11:13:01.015 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:13:01.018 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:13:17.005 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7108e46
+09-17 11:13:27.812 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b586c1a
+2026-09-17 11:13:28.441  I  SerialService: 'SBSK-SSS-3792S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3792S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:28.480  I  SerialService: 'SBSK-SSS-3792S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3792S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:28.528  I  SerialService: 'SBSK-SSS-3792S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3792S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:28.539  I  SerialService: 'SBSK-SSS-3792S': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:13:28.541  I  SerialService: 'SBSK-SSS-3792S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS3792S0001)
+09-17 11:13:34.185 21976 21987 W System  : A resource failed to call close. 
+09-17 11:13:34.185 21976 21987 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 11:13:34.185 21976 21987 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 11:13:34.185 21976 21987 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 11:13:34.186 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-17 11:13:34.353  I  SerialService: 'SBSK-SSS-3792S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3792S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:34.393  I  SerialService: 'SBSK-SSS-3792S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3792S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:34.433  I  SerialService: 'SBSK-SSS-3792S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3792S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:34.446  I  SerialService: 'SBSK-SSS-3792S': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:13:34.447  I  SerialService: 'SBSK-SSS-3792S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS3792S0001)
+2026-09-17 11:13:35.038  I  Registration: Upload accepted for SBSKSSS3792S0001: HTTP 200 {"updated":1,"tags":[{"id":2727,"epc":"SBSKSSS3792S0001","itemCode":"SBSK-SSS-3792S","serialNo":1}]}
+2026-09-17 11:13:35.075  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 11:13:35.104  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:13:35.132  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:13:35.160  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:13:35.193  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:13:35.196  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-17 11:13:41.621 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2017aa0
+09-17 11:13:45.370 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@85eb004
+2026-09-17 11:13:45.418  I  SerialService: 'SBSK-CCC-03': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-03 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:45.461  I  SerialService: 'SBSK-CCC-03': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-03&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:45.515  I  SerialService: 'SBSK-CCC-03': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-03&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:45.523  I  SerialService: 'SBSK-CCC-03': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:13:45.524  I  SerialService: 'SBSK-CCC-03': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCCC030001)
+2026-09-17 11:13:48.440  I  SerialService: 'SBSK-CCC-03': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-03 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:48.485  I  SerialService: 'SBSK-CCC-03': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-03&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:48.537  I  SerialService: 'SBSK-CCC-03': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CCC-03&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:13:48.554  I  SerialService: 'SBSK-CCC-03': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:13:48.557  I  SerialService: 'SBSK-CCC-03': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCCC030001)
+2026-09-17 11:13:49.137  I  Registration: Upload accepted for SBSKCCC030001: HTTP 200 {"updated":1,"tags":[{"id":2728,"epc":"SBSKCCC030001","itemCode":"SBSK-CCC-03","serialNo":1}]}
+2026-09-17 11:13:49.168  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 11:13:49.198  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:13:49.229  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:13:49.262  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:13:49.329  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:13:49.332  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-17 11:14:07.383 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:14:07.388 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:14:07.388 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:14:28.243 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6b976f2
+09-17 11:14:51.229 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7f98b62
+2026-09-17 11:14:51.884  I  SerialService: 'SBSK-ZZZ-175': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-175 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:14:51.929  I  SerialService: 'SBSK-ZZZ-175': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-175&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:14:51.967  I  SerialService: 'SBSK-ZZZ-175': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-175&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:14:51.978  I  SerialService: 'SBSK-ZZZ-175': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:14:51.981  I  SerialService: 'SBSK-ZZZ-175': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKZZZ1750001)
+2026-09-17 11:15:01.203  I  SerialService: 'SBSK-ZZZ-175': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-175 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:15:01.247  I  SerialService: 'SBSK-ZZZ-175': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-175&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:15:01.288  I  SerialService: 'SBSK-ZZZ-175': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-175&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 11:15:01.302  I  SerialService: 'SBSK-ZZZ-175': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 11:15:01.305  I  SerialService: 'SBSK-ZZZ-175': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKZZZ1750001)
+2026-09-17 11:15:02.121  I  Registration: Upload accepted for SBSKZZZ1750001: HTTP 200 {"updated":1,"tags":[{"id":2729,"epc":"SBSKZZZ1750001","itemCode":"SBSK-ZZZ-175","serialNo":1}]}
+2026-09-17 11:15:02.167  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 11:15:02.197  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:15:02.229  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:15:02.256  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 11:15:02.291  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 11:15:02.293  I  Registration: Uploaded 1 tag(s); 6 still pending
+09-17 11:15:14.229 21976 21987 W System  : A resource failed to call close. 
+09-17 11:15:14.229 21976 21987 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 11:15:14.229 21976 21987 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 11:15:14.229 21976 21987 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 11:15:14.229 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:15:14.232 21976 21987 W System  : A resource failed to call AbstractCursor.close. 
+09-17 11:15:16.104 21976 22372 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:55d800000006,api:4,p:1493,c:21976) dequeueBuffer: BufferQueue has been abandoned
+09-17 11:15:16.111 21976 22030 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:55d800000006,api:4,p:1493,c:21976) queueBuffer: BufferQueue has been abandoned
+09-17 11:15:16.119 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@103db7d
+09-17 11:15:16.125 21976 21990 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:55d800000006,api:4,p:1493,c:21976) queueBuffer: BufferQueue has been abandoned
+09-17 11:15:16.148 21976 21990 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:55d800000006,api:4,p:1493,c:21976) cancelBuffer: BufferQueue has been abandoned
+09-17 11:15:16.148 21976 21990 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:55d800000006,api:4,p:1493,c:21976) cancelBuffer: BufferQueue has been abandoned
+09-17 11:15:16.149 21976 21990 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:55d800000006,api:4,p:1493,c:21976) cancelBuffer: BufferQueue has been abandoned
+09-17 11:15:16.150 21976 21990 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:55d800000006,api:4,p:1493,c:21976) cancelBuffer: BufferQueue has been abandoned
+2026-09-17 11:15:18.197  I  ProductSync: unmapped for location 2 needed 2 page(s): 359 row(s), server reported 359
+2026-09-17 11:15:20.034  I  ProductSync: unmapped for location 2 needed 2 page(s): 359 row(s), server reported 359
+09-17 11:15:20.423 21976 21987 W System  : A resource failed to call close. 
+09-17 11:15:20.423 21976 21987 W System  : A resource failed to call close. 
+2026-09-17 11:15:20.844  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-17 11:15:21.344 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c6bb60b
+2026-09-17 11:15:22.089  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-17 11:15:22.090  I  Net: Blank Audit: mapped-product sync started
+2026-09-17 11:15:22.091  I  Net: Blank Audit: local products still fresh, no sync needed
+09-17 11:15:23.441 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@68d8f76
+2026-09-17 11:15:24.598  W  UhfSession: Could not power up the UHF reader
+09-17 11:15:35.988 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@67bf57
+2026-09-17 11:15:41.246  I  UhfSession: UHF reader powered up
+2026-09-17 11:19:56.194  I  UhfSession: UHF reader powered down: idle for 3 min
+2026-09-17 11:20:01.049  W  UhfSession: Could not power up the UHF reader
+2026-09-17 11:20:04.242  W  Net: wifi DISCONNECTED — link had been up for 798s
+2026-09-17 11:20:05.709  I  Net: wifi connected
+2026-09-17 11:20:05.710  W  Net: wifi is up but has NO internet (rssi -76 dBm)
+2026-09-17 11:20:05.725  I  Net: wifi has internet (rssi -76 dBm)
+2026-09-17 11:20:06.457  I  UhfSession: UHF reader powered up
+09-17 11:20:14.669 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4a04c9b
+2026-09-17 11:20:15.710  I  Net: Blank Audit: closed, releasing the UHF module
+09-17 11:20:15.716 21976 21976 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6226cda
+2026-09-17 11:20:20.883  I  UhfSession: UHF reader powered down: no screen is using the reader
