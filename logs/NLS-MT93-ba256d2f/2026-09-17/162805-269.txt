@@ -1,0 +1,443 @@
+# pushed 2026-09-17 16:28:05.269 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 495609..18199
+
+09-17 16:19:24.669 22270 23010 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#125](f:1,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-17 16:19:24.895 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8b51c0e
+2026-09-17 16:19:42.931  I  UhfSession: UHF reader powered up
+09-17 16:19:47.920 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e62f721
+09-17 16:20:03.391 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9b623e6
+2026-09-17 16:20:04.770  I  SerialService: 'ANC-ZW556': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW556 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:04.811  I  SerialService: 'ANC-ZW556': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW556&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:04.860  I  SerialService: 'ANC-ZW556': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW556&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:04.865  I  SerialService: 'ANC-ZW556': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:20:04.867  I  SerialService: 'ANC-ZW556': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW5560001)
+2026-09-17 16:20:07.089  I  SerialService: 'ANC-ZW556': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW556 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:07.131  I  SerialService: 'ANC-ZW556': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW556&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:07.175  I  SerialService: 'ANC-ZW556': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW556&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:07.188  I  SerialService: 'ANC-ZW556': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:20:07.191  I  SerialService: 'ANC-ZW556': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW5560001)
+2026-09-17 16:20:07.790  E  Registration: Upload rejected for RCPL56080004
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080004","itemCode":"RCPL-5608","serialNo":4}]}
+  HTTP 500
+  response: 
+2026-09-17 16:20:07.829  E  Registration: Upload rejected for JSI31860001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2337,"epc":"JSI31860001","itemCode":"JSI-3186","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 16:20:07.860  I  Registration: Upload accepted for ANCZW5560001: HTTP 200 {"updated":1,"tags":[{"id":2807,"epc":"ANCZW5560001","itemCode":"ANC-ZW556","serialNo":1}]}
+2026-09-17 16:20:07.890  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 16:20:07.924  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:20:07.952  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:20:07.957  I  Registration: Uploaded 1 tag(s); 7 still pending
+09-17 16:20:14.499 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d9fc33c
+09-17 16:20:20.090 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e9a3d8
+2026-09-17 16:20:20.135  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:20.175  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:20.220  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:20.233  I  SerialService: 'ANC-ZW540': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:20:20.234  I  SerialService: 'ANC-ZW540': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW5400001)
+09-17 16:20:21.377 22270 22279 W System  : A resource failed to call CursorWindow.close. 
+09-17 16:20:21.377 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:20:21.383 22270 22279 W System  : A resource failed to call CursorWindow.close. 
+09-17 16:20:21.383 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:20:21.383 22270 22279 W System  : A resource failed to call CursorWindow.close. 
+09-17 16:20:21.383 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:20:21.383 22270 22279 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 16:20:21.383 22270 22279 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 16:20:21.384 22270 22279 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 16:20:21.384 22270 22279 W System  : A resource failed to call close. 
+09-17 16:20:50.600 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@64223b2
+2026-09-17 16:20:50.654  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:50.702  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:50.746  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:20:50.750  I  SerialService: 'ANC-ZW540': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:20:50.751  I  SerialService: 'ANC-ZW540': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW5400001)
+09-17 16:20:54.902 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:21:28.009 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@36e9fec
+2026-09-17 16:21:28.765  I  SerialService: 'ANC-ZW540-VS': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-VS -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:28.897  I  SerialService: 'ANC-ZW540-VS': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-VS&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:29.691  I  SerialService: 'ANC-ZW540-VS': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-VS&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:29.703  I  SerialService: 'ANC-ZW540-VS': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:21:29.704  I  SerialService: 'ANC-ZW540-VS': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW540VS0001)
+2026-09-17 16:21:39.261  I  SerialService: 'ANC-ZW540-VS': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-VS -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:39.301  I  SerialService: 'ANC-ZW540-VS': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-VS&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:39.343  I  SerialService: 'ANC-ZW540-VS': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-VS&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:39.353  I  SerialService: 'ANC-ZW540-VS': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:21:39.356  I  SerialService: 'ANC-ZW540-VS': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW540VS0001)
+2026-09-17 16:21:40.167  I  Registration: Upload accepted for ANCZW540VS0001: HTTP 200 {"updated":1,"tags":[{"id":2808,"epc":"ANCZW540VS0001","itemCode":"ANC-ZW540-VS","serialNo":1}]}
+2026-09-17 16:21:40.200  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 16:21:40.232  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:21:40.261  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:21:40.289  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:21:40.326  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:21:40.327  I  Registration: Uploaded 1 tag(s); 7 still pending
+09-17 16:21:51.608 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f7ad76a
+09-17 16:21:54.953 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5fc3d74
+2026-09-17 16:21:54.998  I  SerialService: 'ANC-ZW540-RUSSIAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-RUSSIAN -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:55.038  I  SerialService: 'ANC-ZW540-RUSSIAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-RUSSIAN&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:55.079  I  SerialService: 'ANC-ZW540-RUSSIAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-RUSSIAN&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:55.094  I  SerialService: 'ANC-ZW540-RUSSIAN': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:21:55.096  I  SerialService: 'ANC-ZW540-RUSSIAN': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW540RUSSIAN0001)
+2026-09-17 16:21:59.017  I  SerialService: 'ANC-ZW540-RUSSIAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-RUSSIAN -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:59.059  I  SerialService: 'ANC-ZW540-RUSSIAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-RUSSIAN&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:59.111  I  SerialService: 'ANC-ZW540-RUSSIAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-RUSSIAN&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:21:59.126  I  SerialService: 'ANC-ZW540-RUSSIAN': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:21:59.128  I  SerialService: 'ANC-ZW540-RUSSIAN': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW540RUSSIAN0001)
+2026-09-17 16:21:59.951  I  Registration: Upload accepted for ANCZW540RUSSIAN0001: HTTP 200 {"updated":1,"tags":[{"id":2809,"epc":"ANCZW540RUSSIAN0001","itemCode":"ANC-ZW540-RUSSIAN","serialNo":1}]}
+2026-09-17 16:21:59.981  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:00.009  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:00.039  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:00.072  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:00.102  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:00.105  I  Registration: Uploaded 1 tag(s); 7 still pending
+09-17 16:22:01.417 22270 22279 W System  : A resource failed to call close. 
+09-17 16:22:01.417 22270 22279 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 16:22:01.417 22270 22279 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 16:22:01.417 22270 22279 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 16:22:01.418 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:22:01.420 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:22:01.425 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:22:01.426 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:22:15.755 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@798b114
+09-17 16:22:20.673 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8e07f7a
+09-17 16:22:20.689 22270 22270 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-17 16:22:20.730  I  SerialService: 'ANC-ZW535': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW535 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:20.770  I  SerialService: 'ANC-ZW535': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW535&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:20.816  I  SerialService: 'ANC-ZW535': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW535&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:20.827  I  SerialService: 'ANC-ZW535': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:22:20.828  I  SerialService: 'ANC-ZW535': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW5350001)
+2026-09-17 16:22:24.618  I  SerialService: 'ANC-ZW535': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW535 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:24.705  I  SerialService: 'ANC-ZW535': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW535&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:24.786  I  SerialService: 'ANC-ZW535': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW535&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:24.800  I  SerialService: 'ANC-ZW535': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:22:24.801  I  SerialService: 'ANC-ZW535': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW5350001)
+2026-09-17 16:22:25.674  I  Registration: Upload accepted for ANCZW5350001: HTTP 200 {"updated":1,"tags":[{"id":2810,"epc":"ANCZW5350001","itemCode":"ANC-ZW535","serialNo":1}]}
+2026-09-17 16:22:25.702  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:25.732  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:25.759  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:25.789  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:25.820  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:25.823  I  Registration: Uploaded 1 tag(s); 7 still pending
+09-17 16:22:31.899 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:22:31.900 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:22:33.215 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5e9996c
+09-17 16:22:36.115 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c37c2c0
+2026-09-17 16:22:36.971  I  SerialService: 'ANC-ZW540-DIGITAL': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-DIGITAL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:37.011  I  SerialService: 'ANC-ZW540-DIGITAL': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-DIGITAL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:37.049  I  SerialService: 'ANC-ZW540-DIGITAL': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-DIGITAL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:37.058  I  SerialService: 'ANC-ZW540-DIGITAL': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:22:37.059  I  SerialService: 'ANC-ZW540-DIGITAL': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW540DIGITAL0001)
+2026-09-17 16:22:38.742  I  SerialService: 'ANC-ZW540-DIGITAL': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-DIGITAL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:38.788  I  SerialService: 'ANC-ZW540-DIGITAL': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-DIGITAL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:38.831  I  SerialService: 'ANC-ZW540-DIGITAL': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540-DIGITAL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-17 16:22:38.847  I  SerialService: 'ANC-ZW540-DIGITAL': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:22:38.848  I  SerialService: 'ANC-ZW540-DIGITAL': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW540DIGITAL0001)
+2026-09-17 16:22:39.431  I  Registration: Upload accepted for ANCZW540DIGITAL0001: HTTP 200 {"updated":1,"tags":[{"id":2811,"epc":"ANCZW540DIGITAL0001","itemCode":"ANC-ZW540-DIGITAL","serialNo":1}]}
+2026-09-17 16:22:39.461  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:39.498  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:39.527  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:39.561  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:39.591  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:39.593  I  Registration: Uploaded 1 tag(s); 7 still pending
+2026-09-17 16:22:43.757  I  SerialService: 'ANC-ZW540-DIGITAL': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANCZW540DIGITAL0002)
+2026-09-17 16:22:44.534  I  Registration: Upload accepted for ANCZW540DIGITAL0002: HTTP 200 {"updated":1,"tags":[{"id":2812,"epc":"ANCZW540DIGITAL0002","itemCode":"ANC-ZW540-DIGITAL","serialNo":2}]}
+2026-09-17 16:22:44.568  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:44.595  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:44.625  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:44.655  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:44.684  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:44.685  I  Registration: Uploaded 1 tag(s); 7 still pending
+2026-09-17 16:22:48.287  I  SerialService: 'ANC-ZW540-DIGITAL': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANCZW540DIGITAL0003)
+2026-09-17 16:22:49.936  I  Registration: Upload accepted for ANCZW540DIGITAL0003: HTTP 200 {"updated":1,"tags":[{"id":2813,"epc":"ANCZW540DIGITAL0003","itemCode":"ANC-ZW540-DIGITAL","serialNo":3}]}
+2026-09-17 16:22:49.965  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:49.996  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:50.024  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:50.065  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:50.100  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:22:50.105  I  Registration: Uploaded 1 tag(s); 7 still pending
+09-17 16:22:53.274 22270 22279 W System  : A resource failed to call CursorWindow.close. 
+09-17 16:22:53.274 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:22:53.275 22270 22279 W System  : A resource failed to call CursorWindow.close. 
+09-17 16:22:53.275 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:22:53.276 22270 22279 W System  : A resource failed to call CursorWindow.close. 
+09-17 16:22:53.276 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:22:53.277 22270 22279 W System  : A resource failed to call CursorWindow.close. 
+09-17 16:22:53.277 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:22:53.277 22270 22279 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 16:22:53.277 22270 22279 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 16:22:53.278 22270 22279 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 16:22:53.278 22270 22279 W System  : A resource failed to call close. 
+09-17 16:23:00.541 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c4e60e
+09-17 16:23:04.592 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5187751
+2026-09-17 16:23:04.648  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540 -> HTTP 200, 5 item(s), total=5, 0 matching row(s), no serial: {"items":[{"id":4569,"branch":"All Locations","itemCode":"ANC-ZW540-DIGITAL","productName":"ZW 540 DIGITAL","category":"Saree","variant":null,"unit":"PCS","brand":"A N CREATION","billNo":"9 PC","mrp":9570.00,"sellingPrice":9570.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":3,
+2026-09-17 16:23:04.696  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540&locationId=2 -> HTTP 200, 5 item(s), total=5, 0 matching row(s), no serial: {"items":[{"id":4569,"branch":"All Locations","itemCode":"ANC-ZW540-DIGITAL","productName":"ZW 540 DIGITAL","category":"Saree","variant":null,"unit":"PCS","brand":"A N CREATION","billNo":"9 PC","mrp":9570.00,"sellingPrice":9570.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":3,
+2026-09-17 16:23:04.743  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540&locationId=4 -> HTTP 200, 5 item(s), total=5, 0 matching row(s), no serial: {"items":[{"id":4569,"branch":"All Locations","itemCode":"ANC-ZW540-DIGITAL","productName":"ZW 540 DIGITAL","category":"Saree","variant":null,"unit":"PCS","brand":"A N CREATION","billNo":"9 PC","mrp":9570.00,"sellingPrice":9570.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":3,
+2026-09-17 16:23:04.755  I  SerialService: 'ANC-ZW540': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:23:04.756  I  SerialService: 'ANC-ZW540': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW5400001)
+2026-09-17 16:23:07.888  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540 -> HTTP 200, 5 item(s), total=5, 0 matching row(s), no serial: {"items":[{"id":4569,"branch":"All Locations","itemCode":"ANC-ZW540-DIGITAL","productName":"ZW 540 DIGITAL","category":"Saree","variant":null,"unit":"PCS","brand":"A N CREATION","billNo":"9 PC","mrp":9570.00,"sellingPrice":9570.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":3,
+2026-09-17 16:23:07.938  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540&locationId=2 -> HTTP 200, 5 item(s), total=5, 0 matching row(s), no serial: {"items":[{"id":4569,"branch":"All Locations","itemCode":"ANC-ZW540-DIGITAL","productName":"ZW 540 DIGITAL","category":"Saree","variant":null,"unit":"PCS","brand":"A N CREATION","billNo":"9 PC","mrp":9570.00,"sellingPrice":9570.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":3,
+2026-09-17 16:23:07.986  I  SerialService: 'ANC-ZW540': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANC-ZW540&locationId=4 -> HTTP 200, 5 item(s), total=5, 0 matching row(s), no serial: {"items":[{"id":4569,"branch":"All Locations","itemCode":"ANC-ZW540-DIGITAL","productName":"ZW 540 DIGITAL","category":"Saree","variant":null,"unit":"PCS","brand":"A N CREATION","billNo":"9 PC","mrp":9570.00,"sellingPrice":9570.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":3,
+2026-09-17 16:23:07.995  I  SerialService: 'ANC-ZW540': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-17 16:23:07.996  I  SerialService: 'ANC-ZW540': server holds 0 RFID(s); taking the lowest free serial 1 (ANCZW5400001)
+2026-09-17 16:23:09.575  I  Registration: Upload accepted for ANCZW5400001: HTTP 200 {"updated":1,"tags":[{"id":2814,"epc":"ANCZW5400001","itemCode":"ANC-ZW540","serialNo":1}]}
+2026-09-17 16:23:09.606  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 16:23:09.633  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:23:09.659  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:23:09.687  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:23:09.713  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:23:09.715  I  Registration: Uploaded 1 tag(s); 7 still pending
+2026-09-17 16:23:12.836  I  SerialService: 'ANC-ZW540': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANCZW5400002)
+2026-09-17 16:23:13.422  I  Registration: Upload accepted for ANCZW5400002: HTTP 200 {"updated":1,"tags":[{"id":2815,"epc":"ANCZW5400002","itemCode":"ANC-ZW540","serialNo":2}]}
+2026-09-17 16:23:13.451  E  Registration: Upload rejected for JSI31680001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680001","itemCode":"JSI-3168","serialNo":1}]}
+  HTTP 500
+  response: 
+2026-09-17 16:23:13.490  E  Registration: Upload rejected for JSI31680002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680002","itemCode":"JSI-3168","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:23:13.529  E  Registration: Upload rejected for JSI31680003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":2334,"epc":"JSI31680003","itemCode":"JSI-3168","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:23:13.576  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 500
+  response: 
+2026-09-17 16:23:13.689  E  Registration: Upload rejected for RCPL56080003
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080003","itemCode":"RCPL-5608","serialNo":3}]}
+  HTTP 500
+  response: 
+2026-09-17 16:23:13.694  I  Registration: Uploaded 1 tag(s); 7 still pending
+09-17 16:23:17.940 22270 27019 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#128(BLAST Consumer)128](id:56fe0000008e,api:4,p:1493,c:22270) dequeueBuffer: BufferQueue has been abandoned
+09-17 16:23:17.958 22270 27019 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#128(BLAST Consumer)128](id:56fe0000008e,api:4,p:1493,c:22270) queueBuffer: BufferQueue has been abandoned
+09-17 16:23:17.959 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b15579
+09-17 16:23:17.973 22270 27019 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#128(BLAST Consumer)128](id:56fe0000008e,api:4,p:1493,c:22270) cancelBuffer: BufferQueue has been abandoned
+09-17 16:23:17.992 22270 27019 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#128(BLAST Consumer)128](id:56fe0000008e,api:4,p:1493,c:22270) cancelBuffer: BufferQueue has been abandoned
+09-17 16:23:17.992 22270 27019 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#128(BLAST Consumer)128](id:56fe0000008e,api:4,p:1493,c:22270) cancelBuffer: BufferQueue has been abandoned
+09-17 16:23:18.002 22270 27019 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#128(BLAST Consumer)128](id:56fe0000008e,api:4,p:1493,c:22270) cancelBuffer: BufferQueue has been abandoned
+2026-09-17 16:23:18.789  I  ProductSync: unmapped for location 2 needed 2 page(s): 400 row(s), server reported 400
+09-17 16:23:19.269 22270 22279 W System  : A resource failed to call CursorWindow.close. 
+09-17 16:23:19.269 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:23:19.271 22270 22279 W System  : A resource failed to call CursorWindow.close. 
+09-17 16:23:19.271 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+09-17 16:23:19.271 22270 22279 W System  : A resource failed to call CursorWindow.close. 
+09-17 16:23:19.271 22270 22279 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-17 16:23:20.006  I  ProductSync: unmapped for location 2 needed 2 page(s): 400 row(s), server reported 400
+09-17 16:23:21.235 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9509493
+09-17 16:23:21.264 22270 22279 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 16:23:21.264 22270 22279 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 16:23:21.265 22270 22279 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 16:23:21.265 22270 22279 W System  : A resource failed to call close. 
+09-17 16:23:21.265 22270 22279 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 16:23:21.265 22270 22279 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 16:23:21.265 22270 22279 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 16:23:21.265 22270 22279 W System  : A resource failed to call close. 
+09-17 16:23:21.265 22270 22279 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 16:23:21.266 22270 22279 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 16:23:21.266 22270 22279 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 16:23:21.266 22270 22279 W System  : A resource failed to call close. 
+09-17 16:23:21.266 22270 22279 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 16:23:21.266 22270 22279 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 16:23:21.267 22270 22279 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 16:23:21.267 22270 22279 W System  : A resource failed to call close. 
+2026-09-17 16:23:22.619  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-17 16:23:22.704  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-17 16:23:22.704  I  Net: Blank Audit: mapped-product sync started
+2026-09-17 16:23:22.705  I  Net: Blank Audit: local products still fresh, no sync needed
+09-17 16:23:24.099 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5f2f05
+2026-09-17 16:23:25.218  W  UhfSession: Could not power up the UHF reader
+09-17 16:23:25.983 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@310eeba
+2026-09-17 16:23:30.697  I  UhfSession: UHF reader powered up
+09-17 16:24:17.070 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@56aa542
+2026-09-17 16:24:17.742  I  Net: Blank Audit: closed, releasing the UHF module
+09-17 16:24:17.748 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e74d939
+09-17 16:24:36.669 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ec565c1
+09-17 16:24:38.441 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d524131
+09-17 16:24:49.253 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@58eeeab
+09-17 16:24:49.269 22270 22270 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-17 16:25:10.752 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cebd426
+09-17 16:25:18.141 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@43b9e98
+09-17 16:25:42.692 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b29ffba
+09-17 16:26:01.447 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@29b3c3c
+09-17 16:26:21.475 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@595c00f
+09-17 16:26:26.595 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@159866e
+2026-09-17 16:26:27.515  I  ProductSync: unmapped for location 2 needed 3 page(s): 402 row(s), server reported 402
+09-17 16:26:28.169 22270 22279 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 16:26:28.169 22270 22279 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 16:26:28.169 22270 22279 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 16:26:28.169 22270 22279 W System  : A resource failed to call close. 
+09-17 16:26:28.169 22270 22279 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-17 16:26:28.169 22270 22279 W System  : A resource failed to call SQLiteConnection.close. 
+09-17 16:26:28.169 22270 22279 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-17 16:26:28.169 22270 22279 W System  : A resource failed to call close. 
+09-17 16:26:30.092 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a939a1c
+2026-09-17 16:26:30.400  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-17 16:26:30.401  I  Net: Blank Audit: mapped-product sync started
+2026-09-17 16:26:30.402  I  Net: Blank Audit: local products still fresh, no sync needed
+2026-09-17 16:26:31.453  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-17 16:26:32.709 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8b0c958
+2026-09-17 16:26:33.962  W  UhfSession: Could not power up the UHF reader
+09-17 16:26:34.387 22270 22270 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6d2282a
+2026-09-17 16:26:37.892  I  UhfSession: UHF reader powered up
+2026-09-17 16:28:05.249  I  Net: Blank Audit: closed, releasing the UHF module
