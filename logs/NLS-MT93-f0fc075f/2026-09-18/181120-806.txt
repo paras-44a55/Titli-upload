@@ -1,0 +1,217 @@
+# pushed 2026-09-18 18:11:20.806 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 469588..493891
+
+09-18 18:07:35.254 30958 30958 E SurfaceSyncer: Failed to find sync for id=0
+09-18 18:07:35.254 30958 30958 E SurfaceSyncer: Failed to find sync for id=1
+09-18 18:07:35.254 30958 30958 E SurfaceSyncer: Failed to find sync for id=2
+09-18 18:07:37.413 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 18:07:37.744  I  UhfSession: UHF reader powered up
+2026-09-18 18:07:52.347  I  SerialService: 'LD-VANYA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-VANYA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+09-18 18:07:52.428 30958 30970 W System  : A resource failed to call close. 
+2026-09-18 18:07:52.443  I  SerialService: 'LD-VANYA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-VANYA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:07:52.542  I  SerialService: 'LD-VANYA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-VANYA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:07:52.549  I  SerialService: 'LD-VANYA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 18:07:52.551  I  SerialService: 'LD-VANYA': server holds 0 RFID(s); taking the lowest free serial 1 (LDVANYA0001)
+2026-09-18 18:07:53.585  I  SerialService: 'LD-VANYA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-VANYA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:07:53.678  I  SerialService: 'LD-VANYA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-VANYA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:07:53.772  I  SerialService: 'LD-VANYA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-VANYA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:07:53.782  I  SerialService: 'LD-VANYA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 18:07:53.783  I  SerialService: 'LD-VANYA': server holds 0 RFID(s); taking the lowest free serial 1 (LDVANYA0001)
+2026-09-18 18:07:54.646  I  Registration: Upload accepted for LDVANYA0001: HTTP 200 {"updated":1,"tags":[{"id":3251,"epc":"LDVANYA0001","itemCode":"LD-VANYA","serialNo":1}]}
+2026-09-18 18:07:55.084  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:07:55.086  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 18:07:55.236  I  SerialService: 'LD-VANYA': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (LDVANYA0002)
+2026-09-18 18:07:56.027  I  Registration: Upload accepted for LDVANYA0002: HTTP 200 {"updated":1,"tags":[{"id":3252,"epc":"LDVANYA0002","itemCode":"LD-VANYA","serialNo":2}]}
+2026-09-18 18:07:56.102  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:07:56.104  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 18:08:16.223  I  SerialService: 'LD-VANYA': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (LDVANYA0003)
+2026-09-18 18:08:17.042  I  Registration: Upload accepted for LDVANYA0003: HTTP 200 {"updated":1,"tags":[{"id":3253,"epc":"LDVANYA0003","itemCode":"LD-VANYA","serialNo":3}]}
+2026-09-18 18:08:17.115  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:08:17.118  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 18:08:18.617 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:08:18.617 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:08:18.620 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:08:18.621 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:08:18.621 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:08:18.621 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:08:18.621 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:08:18.621 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-18 18:08:27.943  I  SerialService: 'LD-VANYA': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (LDVANYA0004)
+2026-09-18 18:08:28.808  I  Registration: Upload accepted for LDVANYA0004: HTTP 200 {"updated":1,"tags":[{"id":3254,"epc":"LDVANYA0004","itemCode":"LD-VANYA","serialNo":4}]}
+2026-09-18 18:08:28.881  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:08:28.883  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 18:08:34.597  I  SerialService: 'LD-VANYA': server holds 4 RFID(s) [1, 2, 3, 4]; taking the lowest free serial 5 (LDVANYA0005)
+2026-09-18 18:08:35.448  I  Registration: Upload accepted for LDVANYA0005: HTTP 200 {"updated":1,"tags":[{"id":3255,"epc":"LDVANYA0005","itemCode":"LD-VANYA","serialNo":5}]}
+2026-09-18 18:08:35.522  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:08:35.523  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 18:08:40.268  I  SerialService: 'LD-VANYA': server holds 5 RFID(s) [1, 2, 3, 4, 5]; taking the lowest free serial 6 (LDVANYA0006)
+2026-09-18 18:08:41.078  I  Registration: Upload accepted for LDVANYA0006: HTTP 200 {"updated":1,"tags":[{"id":3256,"epc":"LDVANYA0006","itemCode":"LD-VANYA","serialNo":6}]}
+2026-09-18 18:08:41.151  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:08:41.154  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 18:08:41.232 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:08:41.232 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:08:41.232 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:08:41.232 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:08:41.233 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:08:41.233 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:08:41.234 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 18:08:41.234 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 18:08:41.235 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 18:09:23.679 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 18:09:33.581 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 18:09:37.535  I  SerialService: 'LD-AISHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-AISHA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:09:37.630  I  SerialService: 'LD-AISHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-AISHA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:09:37.724  I  SerialService: 'LD-AISHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-AISHA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:09:37.741  I  SerialService: 'LD-AISHA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 18:09:37.743  I  SerialService: 'LD-AISHA': server holds 0 RFID(s); taking the lowest free serial 1 (LDAISHA0001)
+2026-09-18 18:09:38.880  I  SerialService: 'LD-AISHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-AISHA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:09:38.974  I  SerialService: 'LD-AISHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-AISHA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:09:39.068  I  SerialService: 'LD-AISHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-AISHA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:09:39.083  I  SerialService: 'LD-AISHA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 18:09:39.084  I  SerialService: 'LD-AISHA': server holds 0 RFID(s); taking the lowest free serial 1 (LDAISHA0001)
+2026-09-18 18:09:39.837  I  Registration: Upload accepted for LDAISHA0001: HTTP 200 {"updated":1,"tags":[{"id":3257,"epc":"LDAISHA0001","itemCode":"LD-AISHA","serialNo":1}]}
+2026-09-18 18:09:39.915  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:09:39.918  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 18:09:45.014  I  SerialService: 'LD-AISHA': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (LDAISHA0002)
+09-18 18:09:45.719 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:09:45.720 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:09:45.721 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:09:45.722 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:09:45.722 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:09:45.722 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:09:45.722 30958 30970 W System  : A resource failed to call close. 
+2026-09-18 18:09:45.786  I  Registration: Upload accepted for LDAISHA0002: HTTP 200 {"updated":1,"tags":[{"id":3258,"epc":"LDAISHA0002","itemCode":"LD-AISHA","serialNo":2}]}
+2026-09-18 18:09:45.859  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:09:45.861  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 18:09:49.102  I  SerialService: 'LD-AISHA': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (LDAISHA0003)
+2026-09-18 18:09:49.859  I  Registration: Upload accepted for LDAISHA0003: HTTP 200 {"updated":1,"tags":[{"id":3259,"epc":"LDAISHA0003","itemCode":"LD-AISHA","serialNo":3}]}
+2026-09-18 18:09:49.929  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:09:49.931  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 18:10:12.183 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 18:10:17.176 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 18:10:18.407 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:10:18.407 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:10:18.407 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 18:10:18.408 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 18:10:18.408 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-09-18 18:10:23.035  I  SerialService: 'LD-SOBHAGYAWATI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SOBHAGYAWATI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:10:23.128  I  SerialService: 'LD-SOBHAGYAWATI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SOBHAGYAWATI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:10:23.225  I  SerialService: 'LD-SOBHAGYAWATI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SOBHAGYAWATI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:10:23.242  I  SerialService: 'LD-SOBHAGYAWATI': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 18:10:23.245  I  SerialService: 'LD-SOBHAGYAWATI': server holds 0 RFID(s); taking the lowest free serial 1 (LDSOBHAGYAWATI0001)
+2026-09-18 18:10:25.450  I  SerialService: 'LD-SOBHAGYAWATI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SOBHAGYAWATI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:10:25.544  I  SerialService: 'LD-SOBHAGYAWATI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SOBHAGYAWATI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:10:25.638  I  SerialService: 'LD-SOBHAGYAWATI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SOBHAGYAWATI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:10:25.656  I  SerialService: 'LD-SOBHAGYAWATI': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 18:10:25.660  I  SerialService: 'LD-SOBHAGYAWATI': server holds 0 RFID(s); taking the lowest free serial 1 (LDSOBHAGYAWATI0001)
+2026-09-18 18:10:26.444  I  Registration: Upload accepted for LDSOBHAGYAWATI0001: HTTP 200 {"updated":1,"tags":[{"id":3260,"epc":"LDSOBHAGYAWATI0001","itemCode":"LD-SOBHAGYAWATI","serialNo":1}]}
+2026-09-18 18:10:26.520  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:10:26.522  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 18:10:32.448  I  SerialService: 'LD-SOBHAGYAWATI': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (LDSOBHAGYAWATI0002)
+2026-09-18 18:10:33.202  I  Registration: Upload accepted for LDSOBHAGYAWATI0002: HTTP 200 {"updated":1,"tags":[{"id":3261,"epc":"LDSOBHAGYAWATI0002","itemCode":"LD-SOBHAGYAWATI","serialNo":2}]}
+2026-09-18 18:10:33.274  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:10:33.276  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 18:10:34.869 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:10:34.869 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:10:34.870 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:10:34.873 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:10:34.873 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:10:34.873 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-18 18:10:38.356  I  SerialService: 'LD-SOBHAGYAWATI': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (LDSOBHAGYAWATI0003)
+2026-09-18 18:10:39.149  I  Registration: Upload accepted for LDSOBHAGYAWATI0003: HTTP 200 {"updated":1,"tags":[{"id":3262,"epc":"LDSOBHAGYAWATI0003","itemCode":"LD-SOBHAGYAWATI","serialNo":3}]}
+2026-09-18 18:10:39.222  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:10:39.224  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 18:10:43.940  I  SerialService: 'LD-SOBHAGYAWATI': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (LDSOBHAGYAWATI0004)
+2026-09-18 18:10:44.745  I  Registration: Upload accepted for LDSOBHAGYAWATI0004: HTTP 200 {"updated":1,"tags":[{"id":3263,"epc":"LDSOBHAGYAWATI0004","itemCode":"LD-SOBHAGYAWATI","serialNo":4}]}
+2026-09-18 18:10:45.108  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:10:45.110  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 18:10:51.061 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:10:51.061 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:10:51.063 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:10:51.063 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:10:59.381 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 18:11:03.573 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 18:11:09.043  I  SerialService: 'LD-MILAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MILAN -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:11:09.136  I  SerialService: 'LD-MILAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MILAN&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:11:09.234  I  SerialService: 'LD-MILAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MILAN&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:11:09.241  I  SerialService: 'LD-MILAN': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 18:11:09.243  I  SerialService: 'LD-MILAN': server holds 0 RFID(s); taking the lowest free serial 1 (LDMILAN0001)
+09-18 18:11:10.242 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 18:11:10.242 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 18:11:10.243 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 18:11:10.243 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 18:11:10.243 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 18:11:10.243 30958 30970 W System  : A resource failed to call close. 
+2026-09-18 18:11:10.400  I  SerialService: 'LD-MILAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MILAN -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:11:10.495  I  SerialService: 'LD-MILAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MILAN&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:11:10.592  I  SerialService: 'LD-MILAN': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MILAN&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 18:11:10.607  I  SerialService: 'LD-MILAN': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 18:11:10.609  I  SerialService: 'LD-MILAN': server holds 0 RFID(s); taking the lowest free serial 1 (LDMILAN0001)
+2026-09-18 18:11:11.367  I  Registration: Upload accepted for LDMILAN0001: HTTP 200 {"updated":1,"tags":[{"id":3264,"epc":"LDMILAN0001","itemCode":"LD-MILAN","serialNo":1}]}
+2026-09-18 18:11:11.443  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:11:11.444  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 18:11:18.328  I  SerialService: 'LD-MILAN': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (LDMILAN0002)
+2026-09-18 18:11:18.961  I  Registration: Upload accepted for LDMILAN0002: HTTP 200 {"updated":1,"tags":[{"id":3265,"epc":"LDMILAN0002","itemCode":"LD-MILAN","serialNo":2}]}
+2026-09-18 18:11:19.036  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 18:11:19.037  I  Registration: Uploaded 1 tag(s); 1 still pending
