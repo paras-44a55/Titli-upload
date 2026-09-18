@@ -1,0 +1,34 @@
+# pushed 2026-09-18 11:49:49.148 (backgrounded)
+# app=2.2 (build 13) device=alps SD60RT display=V.SD60RT.2.1.29.2019120516 android=8.1.0 (sdk 27) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 100486..104625
+
+2026-09-18 11:43:36.098  I  Session: app=2.2 (build 13) device=alps SD60RT display=V.SD60RT.2.1.29.2019120516 android=8.1.0 (sdk 27) server=<not configured> location=TITLI BHILWARA
+2026-09-18 11:43:36.116  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as SD60RT-5206e8bf
+--------- beginning of main
+09-18 11:43:36.841 32529 32562 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-18 11:43:36.841 32529 32562 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+09-18 11:43:36.841 32529 32562 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+09-18 11:43:36.841 32529 32562 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+09-18 11:43:36.841 32529 32562 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+09-18 11:43:36.842 32529 32562 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+09-18 11:43:36.842 32529 32562 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+09-18 11:43:36.842 32529 32562 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+09-18 11:43:36.842 32529 32562 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+09-18 11:43:36.842 32529 32562 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+09-18 11:43:36.842 32529 32562 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:538)
+09-18 11:43:36.842 32529 32562 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+09-18 11:43:36.842 32529 32562 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(Unknown Source:0)
+09-18 11:43:36.842 32529 32562 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+09-18 11:43:36.842 32529 32562 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+09-18 11:44:05.942 32529 32538 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+2026-09-18 11:45:13.449  I  Net: wifi connected
+2026-09-18 11:45:13.455  W  Net: wifi is up but has NO internet (rssi -23 dBm)
+2026-09-18 11:45:13.622  I  Net: wifi has internet (rssi -23 dBm)
+2026-09-18 11:45:42.730  I  UhfSession: UHF reader powered up
+2026-09-18 11:45:45.091  I  ProductSync: unmapped for location 2 needed 2 page(s): 399 row(s), server reported 399
+2026-09-18 11:46:16.727  I  SerialService: 'ANK-344': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-344 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 11:46:17.129  I  SerialService: 'ANK-344': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-344&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 11:46:17.279  I  SerialService: 'ANK-344': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANK-344&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 11:46:17.305  I  SerialService: 'ANK-344': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 11:46:17.310  I  SerialService: 'ANK-344': server holds 0 RFID(s); taking the lowest free serial 1 (ANK3440001)
+2026-09-18 11:49:02.008  I  UhfSession: UHF reader powered down: idle for 3 min
