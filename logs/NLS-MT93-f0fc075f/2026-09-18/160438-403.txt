@@ -1,0 +1,473 @@
+# pushed 2026-09-18 16:04:38.403 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 180166..239790
+
+09-18 15:52:43.754 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 15:52:45.683  I  SerialService: 'HR-HS1659': GET http://164.52.223.163:4636/api/device/products/mapped?search=HR-HS1659 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:52:45.775  I  SerialService: 'HR-HS1659': GET http://164.52.223.163:4636/api/device/products/mapped?search=HR-HS1659&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:52:45.859  I  SerialService: 'HR-HS1659': GET http://164.52.223.163:4636/api/device/products/mapped?search=HR-HS1659&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:52:45.871  I  SerialService: 'HR-HS1659': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 15:52:45.874  I  SerialService: 'HR-HS1659': server holds 0 RFID(s); taking the lowest free serial 1 (HRHS16590001)
+2026-09-18 15:52:48.256  I  SerialService: 'HR-HS1659': GET http://164.52.223.163:4636/api/device/products/mapped?search=HR-HS1659 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:52:48.347  I  SerialService: 'HR-HS1659': GET http://164.52.223.163:4636/api/device/products/mapped?search=HR-HS1659&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:52:48.431  I  SerialService: 'HR-HS1659': GET http://164.52.223.163:4636/api/device/products/mapped?search=HR-HS1659&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:52:48.445  I  SerialService: 'HR-HS1659': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 15:52:48.447  I  SerialService: 'HR-HS1659': server holds 0 RFID(s); taking the lowest free serial 1 (HRHS16590001)
+2026-09-18 15:52:51.004  I  UhfSession: UHF reader powered up
+2026-09-18 15:52:51.809  I  Registration: Upload accepted for HRHS16590001: HTTP 200 {"updated":1,"tags":[{"id":3114,"epc":"HRHS16590001","itemCode":"HR-HS1659","serialNo":1}]}
+2026-09-18 15:52:51.880  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 15:52:51.882  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 15:52:57.783 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 15:52:57.783 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 15:52:57.785 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 15:52:57.785 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 15:52:57.786 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:52:57.786 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:52:57.787 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:52:57.787 30958 30970 W System  : A resource failed to call close. 
+2026-09-18 15:53:09.441  I  SerialService: 'HR-HS1659': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (HRHS16590002)
+2026-09-18 15:53:10.425  I  Registration: Upload accepted for HRHS16590002: HTTP 200 {"updated":1,"tags":[{"id":3115,"epc":"HRHS16590002","itemCode":"HR-HS1659","serialNo":2}]}
+2026-09-18 15:53:10.489  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 15:53:10.491  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 15:53:29.990 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 15:53:29.990 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 15:53:52.425 30958 30973 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:78ee00000008,api:4,p:1165,c:30958) queueBuffer: BufferQueue has been abandoned
+09-18 15:53:52.443 30958 30973 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:78ee00000008,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 15:53:52.444 30958 31169 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:78ee00000008,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 15:53:52.444 30958 31169 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:78ee00000008,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 15:53:52.445 30958 31169 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:78ee00000008,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 15:53:52.453 30958 31169 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:78ee00000008,api:4,p:1165,c:30958) queueBuffer: BufferQueue has been abandoned
+2026-09-18 15:53:56.019  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-18 15:53:56.020  I  Net: Blank Audit: mapped-product sync started
+2026-09-18 15:53:56.022  I  Net: Blank Audit: local products still fresh, no sync needed
+09-18 15:53:56.140 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:53:57.007 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:54:09.235 30958 30958 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-18 15:54:10.410  I  Net: Blank Audit: closed, releasing the UHF module
+09-18 15:54:11.574 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 15:54:12.124  I  ProductSync: unmapped for location 4 needed 3 page(s): 415 row(s), server reported 415
+09-18 15:54:12.443 30958 30970 W System  : A resource failed to call close. 
+09-18 15:54:12.443 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:54:12.443 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:54:12.443 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:54:12.563 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:54:12.563 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:54:12.563 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:54:12.564 30958 30970 W System  : A resource failed to call close. 
+09-18 15:54:13.604 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:54:13.718 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:54:14.259 30958 30958 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-18 15:54:16.289 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 15:54:27.575  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-18 15:55:30.694 30958 30970 W System  : A resource failed to call close. 
+09-18 15:55:30.694 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:55:30.694 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:55:30.695 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:55:30.696 30958 30970 W System  : A resource failed to call close. 
+09-18 15:55:30.696 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:55:30.696 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:55:30.697 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:55:30.704 30958 30970 W System  : A resource failed to call close. 
+09-18 15:55:30.705 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:55:30.705 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:55:30.705 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:55:30.707 30958 30970 W System  : A resource failed to call close. 
+09-18 15:55:30.710 30958 30970 W System  : A resource failed to call close. 
+09-18 15:55:30.710 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:55:30.711 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:55:30.711 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-18 15:56:41.541  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-18 15:56:41.542  I  Net: Blank Audit: mapped-product sync started
+2026-09-18 15:56:41.543  I  Net: Blank Audit: local products still fresh, no sync needed
+09-18 15:56:41.655 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:56:42.429 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 15:56:44.101  I  UhfSession: UHF reader powered up
+09-18 15:56:56.620 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:56:58.844 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 15:57:24.290  I  Net: Blank Audit: closed, releasing the UHF module
+09-18 15:57:29.386 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:57:29.386 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:57:29.387 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:57:29.387 30958 30970 W System  : A resource failed to call close. 
+2026-09-18 15:57:29.572  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-18 15:57:29.616 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 15:57:32.082  W  UhfSession: Could not power up the UHF reader
+2026-09-18 15:57:34.661  I  UhfSession: UHF reader powered up
+2026-09-18 15:57:40.835  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-18 15:57:40.836  I  Net: Blank Audit: mapped-product sync started
+2026-09-18 15:57:40.837  I  Net: Blank Audit: local products still fresh, no sync needed
+09-18 15:57:40.945 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:57:40.961 30958 31581 W hionapplication: No such thread id for suspend: 43
+2026-09-18 15:57:42.147  I  Net: Blank Audit: closed, releasing the UHF module
+09-18 15:57:43.053 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:57:44.075 30958 30958 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+09-18 15:57:44.075 30958 30958 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-18 15:57:45.785 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:57:52.362 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:57:53.212 30958 30958 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+09-18 15:57:53.212 30958 30958 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-18 15:57:54.303 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:58:14.451 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:58:33.315 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 15:58:33.337  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+09-18 15:58:33.388 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:58:33.388 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:58:33.389 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:58:33.389 30958 30970 W System  : A resource failed to call close. 
+09-18 15:58:33.391 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:58:33.391 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:58:33.392 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:58:33.392 30958 30970 W System  : A resource failed to call close. 
+09-18 15:58:33.392 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:58:33.393 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:58:33.393 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:58:33.393 30958 30970 W System  : A resource failed to call close. 
+09-18 15:58:33.396 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:58:33.396 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:58:33.396 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:58:33.396 30958 30970 W System  : A resource failed to call close. 
+09-18 15:58:33.399 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:58:33.399 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:58:33.399 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:58:33.399 30958 30970 W System  : A resource failed to call close. 
+09-18 15:58:34.106 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 15:58:43.946 30958 30970 W System  : A resource failed to call close. 
+09-18 15:58:43.946 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:58:43.946 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:58:43.946 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 15:58:43.946 30958 30970 W System  : A resource failed to call close. 
+09-18 15:58:43.946 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 15:58:43.946 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 15:58:43.946 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-18 15:58:54.074  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+09-18 15:58:54.111 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 15:58:56.706  I  SerialService: 'MN-3178': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3178 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:58:56.787  I  SerialService: 'MN-3178': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3178&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:58:56.868  I  SerialService: 'MN-3178': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3178&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:58:56.875  I  SerialService: 'MN-3178': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 15:58:56.877  I  SerialService: 'MN-3178': server holds 0 RFID(s); taking the lowest free serial 1 (MN31780001)
+2026-09-18 15:58:58.067  I  SerialService: 'MN-3178': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3178 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:58:58.150  I  SerialService: 'MN-3178': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3178&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:58:58.235  I  SerialService: 'MN-3178': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3178&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:58:58.246  I  SerialService: 'MN-3178': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 15:58:58.248  I  SerialService: 'MN-3178': server holds 0 RFID(s); taking the lowest free serial 1 (MN31780001)
+2026-09-18 15:58:59.701  I  Registration: Upload accepted for MN31780001: HTTP 200 {"updated":1,"tags":[{"id":3116,"epc":"MN31780001","itemCode":"MN-3178","serialNo":1}]}
+2026-09-18 15:58:59.762  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 15:58:59.764  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 15:59:06.106 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 15:59:06.106 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 15:59:06.106 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 15:59:06.106 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 15:59:06.106 30958 30970 W System  : A resource failed to call close. 
+09-18 15:59:08.961 30958 31651 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#47(BLAST Consumer)47](id:78ee00000035,api:4,p:1165,c:30958) queueBuffer: BufferQueue has been abandoned
+09-18 15:59:08.961 30958 31651 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#47(BLAST Consumer)47](id:78ee00000035,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 15:59:08.965 30958 31045 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#47(BLAST Consumer)47](id:78ee00000035,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 15:59:08.966 30958 31045 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#47(BLAST Consumer)47](id:78ee00000035,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 15:59:08.966 30958 31045 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#47(BLAST Consumer)47](id:78ee00000035,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 15:59:08.967 30958 31045 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#47(BLAST Consumer)47](id:78ee00000035,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+2026-09-18 15:59:10.671  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+09-18 15:59:10.696 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 15:59:14.058  I  SerialService: 'MN-3180': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3180 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:14.140  I  SerialService: 'MN-3180': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3180&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:14.236  I  SerialService: 'MN-3180': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3180&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:14.247  I  SerialService: 'MN-3180': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 15:59:14.249  I  SerialService: 'MN-3180': server holds 0 RFID(s); taking the lowest free serial 1 (MN31800001)
+2026-09-18 15:59:15.247  I  SerialService: 'MN-3180': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3180 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:15.342  I  SerialService: 'MN-3180': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3180&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:15.460  I  SerialService: 'MN-3180': GET http://164.52.223.163:4636/api/device/products/mapped?search=MN-3180&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:15.474  I  SerialService: 'MN-3180': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 15:59:15.475  I  SerialService: 'MN-3180': server holds 0 RFID(s); taking the lowest free serial 1 (MN31800001)
+2026-09-18 15:59:16.108  I  Registration: Upload accepted for MN31800001: HTTP 200 {"updated":1,"tags":[{"id":3117,"epc":"MN31800001","itemCode":"MN-3180","serialNo":1}]}
+2026-09-18 15:59:16.170  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 15:59:16.173  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 15:59:25.428  I  SerialService: 'AT-15200': GET http://164.52.223.163:4636/api/device/products/mapped?search=AT-15200 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:25.520  I  SerialService: 'AT-15200': GET http://164.52.223.163:4636/api/device/products/mapped?search=AT-15200&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:25.611  I  SerialService: 'AT-15200': GET http://164.52.223.163:4636/api/device/products/mapped?search=AT-15200&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:25.624  I  SerialService: 'AT-15200': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 15:59:25.626  I  SerialService: 'AT-15200': server holds 0 RFID(s); taking the lowest free serial 1 (AT152000001)
+2026-09-18 15:59:27.460  I  SerialService: 'AT-15200': GET http://164.52.223.163:4636/api/device/products/mapped?search=AT-15200 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:27.539  I  SerialService: 'AT-15200': GET http://164.52.223.163:4636/api/device/products/mapped?search=AT-15200&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:27.620  I  SerialService: 'AT-15200': GET http://164.52.223.163:4636/api/device/products/mapped?search=AT-15200&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 15:59:27.637  I  SerialService: 'AT-15200': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 15:59:27.640  I  SerialService: 'AT-15200': server holds 0 RFID(s); taking the lowest free serial 1 (AT152000001)
+2026-09-18 15:59:30.052  I  Registration: Upload accepted for AT152000001: HTTP 200 {"updated":1,"tags":[{"id":3118,"epc":"AT152000001","itemCode":"AT-15200","serialNo":1}]}
+2026-09-18 15:59:30.115  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 15:59:30.119  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 15:59:42.547 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 15:59:42.547 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 15:59:42.547 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 15:59:42.547 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 15:59:42.549 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 15:59:42.549 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 15:59:42.549 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 15:59:42.549 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-18 15:59:44.068  I  SerialService: 'AT-15200': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (AT152000002)
+2026-09-18 15:59:45.806  I  Registration: Upload accepted for AT152000002: HTTP 200 {"updated":1,"tags":[{"id":3119,"epc":"AT152000002","itemCode":"AT-15200","serialNo":2}]}
+2026-09-18 15:59:45.870  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 15:59:45.872  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 16:00:00.652  I  SerialService: 'AT-15200': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (AT152000003)
+2026-09-18 16:00:00.888  I  SerialService: 'AT-15200': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (AT152000003)
+2026-09-18 16:00:05.775  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-18 16:00:06.007  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-18 16:00:10.416  I  SerialService: 'AT-15200': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (AT152000003)
+2026-09-18 16:00:11.054  I  Registration: Upload accepted for AT152000003: HTTP 200 {"updated":1,"tags":[{"id":3120,"epc":"AT152000003","itemCode":"AT-15200","serialNo":3}]}
+2026-09-18 16:00:11.119  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 16:00:11.124  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 16:00:17.285 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 16:00:17.286 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 16:00:17.287 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 16:00:17.287 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 16:00:17.287 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 16:00:17.287 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 16:00:17.288 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 16:00:17.288 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 16:00:20.064 30958 31969 W Codec2Client: query -- param skipped: index = 1107298332.
+09-18 16:00:20.066 30958 31969 W Codec2Client: query -- param skipped: index = 1342179345.
+09-18 16:00:20.066 30958 31969 W Codec2Client: query -- param skipped: index = 2415921170.
+09-18 16:00:20.129 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:00:22.378 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 16:00:22.873  I  ProductSync: unmapped for location 4 needed 3 page(s): 414 row(s), server reported 414
+09-18 16:00:23.271 30958 30970 W System  : A resource failed to call close. 
+09-18 16:00:23.271 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:00:23.271 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:00:23.271 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:00:23.272 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:00:23.272 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:00:23.273 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-18 16:00:24.772  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-18 16:00:24.773  I  Net: Blank Audit: mapped-product sync started
+2026-09-18 16:00:24.774  I  Net: Blank Audit: local products still fresh, no sync needed
+09-18 16:00:24.879 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:00:25.622 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 16:00:57.502  I  Net: Blank Audit: closed, releasing the UHF module
+2026-09-18 16:01:02.418  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-18 16:01:03.369 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 16:01:05.837  W  UhfSession: Could not power up the UHF reader
+2026-09-18 16:01:08.744  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+09-18 16:01:08.765 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 16:01:11.210  I  UhfSession: UHF reader powered up
+2026-09-18 16:01:13.527  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+09-18 16:01:13.550 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:01:17.436 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:01:24.455 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:01:26.281 30958 30970 W System  : A resource failed to call close. 
+09-18 16:01:26.281 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:01:26.281 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:01:26.281 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:01:26.288 30958 30970 W System  : A resource failed to call close. 
+09-18 16:01:26.288 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:01:26.289 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:01:26.289 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:01:26.291 30958 30970 W System  : A resource failed to call close. 
+09-18 16:01:26.291 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:01:26.291 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:01:26.291 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:01:26.292 30958 30970 W System  : A resource failed to call close. 
+09-18 16:01:26.292 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:01:26.292 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:01:26.292 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:01:26.298 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:01:26.298 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:01:26.298 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:01:26.298 30958 30970 W System  : A resource failed to call close. 
+2026-09-18 16:01:26.598  I  SerialService: 'KF-S2518': GET http://164.52.223.163:4636/api/device/products/mapped?search=KF-S2518 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:01:26.680  I  SerialService: 'KF-S2518': GET http://164.52.223.163:4636/api/device/products/mapped?search=KF-S2518&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:01:26.769  I  SerialService: 'KF-S2518': GET http://164.52.223.163:4636/api/device/products/mapped?search=KF-S2518&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:01:26.777  I  SerialService: 'KF-S2518': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 16:01:26.779  I  SerialService: 'KF-S2518': server holds 0 RFID(s); taking the lowest free serial 1 (KFS25180001)
+2026-09-18 16:01:26.986  I  SerialService: 'KF-S2518': GET http://164.52.223.163:4636/api/device/products/mapped?search=KF-S2518 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:01:27.075  I  SerialService: 'KF-S2518': GET http://164.52.223.163:4636/api/device/products/mapped?search=KF-S2518&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:01:27.162  I  SerialService: 'KF-S2518': GET http://164.52.223.163:4636/api/device/products/mapped?search=KF-S2518&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:01:27.174  I  SerialService: 'KF-S2518': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 16:01:27.176  I  SerialService: 'KF-S2518': server holds 0 RFID(s); taking the lowest free serial 1 (KFS25180001)
+2026-09-18 16:01:27.911  I  Registration: Upload accepted for KFS25180001: HTTP 200 {"updated":1,"tags":[{"id":3121,"epc":"KFS25180001","itemCode":"KF-S2518","serialNo":1}]}
+2026-09-18 16:01:27.974  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 16:01:27.976  I  Registration: Uploaded 1 tag(s); 1 still pending
+2026-09-18 16:01:40.440  I  SerialService: 'KF-S2518': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (KFS25180002)
+2026-09-18 16:01:41.215  I  Registration: Upload accepted for KFS25180002: HTTP 200 {"updated":1,"tags":[{"id":3122,"epc":"KFS25180002","itemCode":"KF-S2518","serialNo":2}]}
+2026-09-18 16:01:41.280  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 16:01:41.283  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 16:01:47.265 30958 30973 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:78ee0000004e,api:4,p:1165,c:30958) queueBuffer: BufferQueue has been abandoned
+09-18 16:01:47.266 30958 30973 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:78ee0000004e,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 16:01:47.273 30958 30973 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:78ee0000004e,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 16:01:47.274 30958 31169 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:78ee0000004e,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 16:01:47.275 30958 31169 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:78ee0000004e,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 16:01:47.275 30958 31169 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:78ee0000004e,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+2026-09-18 16:01:50.043  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-18 16:01:50.045  I  Net: Blank Audit: mapped-product sync started
+2026-09-18 16:01:50.046  I  Net: Blank Audit: local products still fresh, no sync needed
+09-18 16:01:50.139 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:01:50.882 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:02:05.751 30958 30958 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-18 16:02:06.729  I  Net: Blank Audit: closed, releasing the UHF module
+09-18 16:02:06.741 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 16:02:06.741 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 16:02:06.744 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 16:02:06.744 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 16:02:06.744 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 16:02:06.744 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 16:02:06.744 30958 30970 W System  : A resource failed to call close. 
+09-18 16:02:08.400 30958 30988 W Parcel  : Expecting binder but got null!
+2026-09-18 16:02:26.198  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+09-18 16:02:26.223 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:02:31.239 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:02:33.870 30958 30958 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-18 16:02:35.766  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+09-18 16:02:35.795 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:02:36.449 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:02:40.617 30958 32335 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#81(BLAST Consumer)81](id:78ee00000061,api:4,p:1165,c:30958) queueBuffer: BufferQueue has been abandoned
+09-18 16:02:40.651 30958 32335 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#81(BLAST Consumer)81](id:78ee00000061,api:4,p:1165,c:30958) queueBuffer: BufferQueue has been abandoned
+09-18 16:02:40.653 30958 32335 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#81(BLAST Consumer)81](id:78ee00000061,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 16:02:40.654 30958 32337 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#81(BLAST Consumer)81](id:78ee00000061,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 16:02:40.654 30958 32337 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#81(BLAST Consumer)81](id:78ee00000061,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 16:02:40.655 30958 32337 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#81(BLAST Consumer)81](id:78ee00000061,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+2026-09-18 16:02:41.540  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+09-18 16:02:41.565 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:03:03.248 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:03:03.248 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:03:03.248 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:03:03.248 30958 30970 W System  : A resource failed to call close. 
+09-18 16:03:03.250 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:03:03.250 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:03:03.251 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:03:03.251 30958 30970 W System  : A resource failed to call close. 
+09-18 16:03:03.252 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:03:03.252 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:03:03.252 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:03:03.254 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:03:03.254 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:03:03.254 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:03:03.254 30958 30970 W System  : A resource failed to call close. 
+2026-09-18 16:03:08.715  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+09-18 16:03:08.735 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:03:12.284 30958 32337 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#88(BLAST Consumer)88](id:78ee0000006c,api:4,p:1165,c:30958) queueBuffer: BufferQueue has been abandoned
+09-18 16:03:12.285 30958 32337 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#88(BLAST Consumer)88](id:78ee0000006c,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 16:03:12.300 30958 32337 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#88(BLAST Consumer)88](id:78ee0000006c,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 16:03:12.300 30958 32337 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#88(BLAST Consumer)88](id:78ee0000006c,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 16:03:12.301 30958 32337 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#88(BLAST Consumer)88](id:78ee0000006c,api:4,p:1165,c:30958) cancelBuffer: BufferQueue has been abandoned
+09-18 16:03:12.314 30958 32337 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#88(BLAST Consumer)88](id:78ee0000006c,api:4,p:1165,c:30958) queueBuffer: BufferQueue has been abandoned
+2026-09-18 16:03:13.308  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+09-18 16:03:13.339 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:03:16.652 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:03:24.488 30958 30988 W Parcel  : Expecting binder but got null!
+09-18 16:03:25.624 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:03:25.624 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:03:25.624 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:03:25.624 30958 30970 W System  : A resource failed to call close. 
+09-18 16:03:25.626 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:03:25.626 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:03:25.627 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:03:25.627 30958 30970 W System  : A resource failed to call close. 
+09-18 16:03:25.628 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:03:25.628 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:03:25.628 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:03:25.628 30958 30970 W System  : A resource failed to call close. 
+09-18 16:03:25.630 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:03:25.630 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:03:25.630 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:03:25.630 30958 30970 W System  : A resource failed to call close. 
+2026-09-18 16:03:25.944  I  SerialService: 'PDSL-610027': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDSL-610027 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:03:26.037  I  SerialService: 'PDSL-610027': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDSL-610027&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:03:26.119  I  SerialService: 'PDSL-610027': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDSL-610027&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:03:26.130  I  SerialService: 'PDSL-610027': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 16:03:26.132  I  SerialService: 'PDSL-610027': server holds 0 RFID(s); taking the lowest free serial 1 (PDSL6100270001)
+2026-09-18 16:03:26.644  I  SerialService: 'PDSL-610027': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDSL-610027 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:03:26.730  I  SerialService: 'PDSL-610027': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDSL-610027&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:03:26.816  I  SerialService: 'PDSL-610027': GET http://164.52.223.163:4636/api/device/products/mapped?search=PDSL-610027&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 16:03:26.829  I  SerialService: 'PDSL-610027': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 16:03:26.830  I  SerialService: 'PDSL-610027': server holds 0 RFID(s); taking the lowest free serial 1 (PDSL6100270001)
+2026-09-18 16:03:27.586  I  Registration: Upload accepted for PDSL6100270001: HTTP 200 {"updated":1,"tags":[{"id":3123,"epc":"PDSL6100270001","itemCode":"PDSL-610027","serialNo":1}]}
+2026-09-18 16:03:27.660  E  Registration: Upload rejected for RCPL56080002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":1887,"epc":"RCPL56080002","itemCode":"RCPL-5608","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC RCPL56080002 is already registered to a different tag (id 3028, item RCPL-5608)."}
+2026-09-18 16:03:27.662  I  Registration: Uploaded 1 tag(s); 1 still pending
+09-18 16:03:43.783 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 16:03:43.783 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 16:03:43.783 30958 30970 W System  : A resource failed to call CursorWindow.close. 
+09-18 16:03:43.783 30958 30970 W System  : A resource failed to call AbstractCursor.close. 
+09-18 16:03:43.783 30958 30970 W System  : A resource failed to call close. 
+09-18 16:04:17.249 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:04:17.249 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:04:17.250 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:04:17.253 30958 30970 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 16:04:17.253 30958 30970 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 16:04:17.253 30958 30970 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 16:04:17.253 30958 30970 W System  : A resource failed to call close. 
