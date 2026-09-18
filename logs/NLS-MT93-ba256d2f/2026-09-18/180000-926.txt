@@ -1,0 +1,217 @@
+# pushed 2026-09-18 18:00:00.926 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 5122..36621
+
+09-18 17:49:45.507  6592  6604 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#248(BLAST Consumer)248](id:19c000000110,api:4,p:1501,c:6592) queueBuffer: BufferQueue has been abandoned
+09-18 17:49:45.522  6592  6604 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#248(BLAST Consumer)248](id:19c000000110,api:4,p:1501,c:6592) queueBuffer: BufferQueue has been abandoned
+09-18 17:49:45.526  6592  6604 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#248(BLAST Consumer)248](id:19c000000110,api:4,p:1501,c:6592) cancelBuffer: BufferQueue has been abandoned
+09-18 17:49:45.527  6592  6605 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#248(BLAST Consumer)248](id:19c000000110,api:4,p:1501,c:6592) cancelBuffer: BufferQueue has been abandoned
+09-18 17:49:45.528  6592  6605 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#248(BLAST Consumer)248](id:19c000000110,api:4,p:1501,c:6592) cancelBuffer: BufferQueue has been abandoned
+2026-09-18 17:49:46.885  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-18 17:51:12.597  I  SerialService: 'ANS-1059': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1059 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:51:12.640  I  SerialService: 'ANS-1059': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1059&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+09-18 17:51:12.641  6592  6601 W System  : A resource failed to call close. 
+2026-09-18 17:51:12.685  I  SerialService: 'ANS-1059': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1059&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:51:12.695  I  SerialService: 'ANS-1059': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 17:51:12.697  I  SerialService: 'ANS-1059': server holds 0 RFID(s); taking the lowest free serial 1 (ANS10590001)
+2026-09-18 17:51:12.850  W  UhfSession: Could not power up the UHF reader
+2026-09-18 17:51:19.892  I  SerialService: 'ANS-1059': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1059 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:51:19.945  I  SerialService: 'ANS-1059': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1059&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:51:19.989  I  SerialService: 'ANS-1059': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1059&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:51:20.004  I  SerialService: 'ANS-1059': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 17:51:20.005  I  SerialService: 'ANS-1059': server holds 0 RFID(s); taking the lowest free serial 1 (ANS10590001)
+2026-09-18 17:51:22.666  I  UhfSession: UHF reader powered up
+2026-09-18 17:51:23.273  I  Registration: Upload accepted for ANS10590001: HTTP 200 {"updated":1,"tags":[{"id":3217,"epc":"ANS10590001","itemCode":"ANS-1059","serialNo":1}]}
+2026-09-18 17:51:23.275  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:51:35.661  I  SerialService: 'ANS-1059': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10590002)
+2026-09-18 17:51:36.243  I  Registration: Upload accepted for ANS10590002: HTTP 200 {"updated":1,"tags":[{"id":3218,"epc":"ANS10590002","itemCode":"ANS-1059","serialNo":2}]}
+2026-09-18 17:51:36.245  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-18 17:51:45.821  6592  6601 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 17:51:45.821  6592  6601 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 17:51:45.821  6592  6601 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 17:51:45.822  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:51:45.823  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:51:45.826  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-18 17:51:50.579  I  SerialService: 'ANS-1016': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10160002)
+2026-09-18 17:51:52.734  I  SerialService: 'ANS-1016': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10160002)
+2026-09-18 17:51:53.340  I  Registration: Upload accepted for ANS10160002: HTTP 200 {"updated":1,"tags":[{"id":3219,"epc":"ANS10160002","itemCode":"ANS-1016","serialNo":2}]}
+2026-09-18 17:51:53.342  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:51:59.474  I  SerialService: 'ANS-1016': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS10160003)
+2026-09-18 17:52:00.065  I  Registration: Upload accepted for ANS10160003: HTTP 200 {"updated":1,"tags":[{"id":3220,"epc":"ANS10160003","itemCode":"ANS-1016","serialNo":3}]}
+2026-09-18 17:52:00.066  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:52:19.056  I  SerialService: 'ANS-1064': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS10640003)
+2026-09-18 17:52:22.921  I  SerialService: 'ANS-1064': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS10640003)
+2026-09-18 17:52:23.746  I  Registration: Upload accepted for ANS10640003: HTTP 200 {"updated":1,"tags":[{"id":3221,"epc":"ANS10640003","itemCode":"ANS-1064","serialNo":3}]}
+2026-09-18 17:52:23.748  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:52:29.650  I  SerialService: 'ANS-1064': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (ANS10640004)
+2026-09-18 17:52:30.246  I  Registration: Upload accepted for ANS10640004: HTTP 200 {"updated":1,"tags":[{"id":3222,"epc":"ANS10640004","itemCode":"ANS-1064","serialNo":4}]}
+2026-09-18 17:52:30.247  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-18 17:52:52.111  6592  6601 W System  : A resource failed to call close. 
+09-18 17:52:52.111  6592  6601 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 17:52:52.111  6592  6601 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 17:52:52.111  6592  6601 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-18 17:52:55.962  I  SerialService: 'ANS-979': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS9790002)
+2026-09-18 17:52:56.233  I  SerialService: 'ANS-979': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS9790002)
+2026-09-18 17:52:56.831  I  Registration: Upload accepted for ANS9790002: HTTP 200 {"updated":1,"tags":[{"id":3223,"epc":"ANS9790002","itemCode":"ANS-979","serialNo":2}]}
+2026-09-18 17:52:56.834  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:53:07.098  I  SerialService: 'ANS-979': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS9790003)
+2026-09-18 17:53:07.698  I  Registration: Upload accepted for ANS9790003: HTTP 200 {"updated":1,"tags":[{"id":3224,"epc":"ANS9790003","itemCode":"ANS-979","serialNo":3}]}
+2026-09-18 17:53:07.699  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:53:14.496  I  SerialService: 'ANS-1066': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10660002)
+2026-09-18 17:53:20.557  I  SerialService: 'ANS-1066': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10660002)
+2026-09-18 17:53:22.202  I  Registration: Upload accepted for ANS10660002: HTTP 200 {"updated":1,"tags":[{"id":3225,"epc":"ANS10660002","itemCode":"ANS-1066","serialNo":2}]}
+2026-09-18 17:53:22.203  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:53:27.321  I  SerialService: 'ANS-1066': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS10660003)
+2026-09-18 17:53:27.922  I  Registration: Upload accepted for ANS10660003: HTTP 200 {"updated":1,"tags":[{"id":3226,"epc":"ANS10660003","itemCode":"ANS-1066","serialNo":3}]}
+2026-09-18 17:53:27.923  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:53:49.074  I  SerialService: 'ANS-1093': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS10930003)
+09-18 17:53:50.696  6592  6601 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 17:53:50.696  6592  6601 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 17:53:50.696  6592  6601 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 17:53:50.697  6592  6601 W System  : A resource failed to call close. 
+2026-09-18 17:53:50.809  I  SerialService: 'ANS-1093': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS10930003)
+2026-09-18 17:53:51.392  I  Registration: Upload accepted for ANS10930003: HTTP 200 {"updated":1,"tags":[{"id":3227,"epc":"ANS10930003","itemCode":"ANS-1093","serialNo":3}]}
+2026-09-18 17:53:51.401  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:53:56.445  I  SerialService: 'ANS-1093': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (ANS10930004)
+2026-09-18 17:53:57.252  I  Registration: Upload accepted for ANS10930004: HTTP 200 {"updated":1,"tags":[{"id":3228,"epc":"ANS10930004","itemCode":"ANS-1093","serialNo":4}]}
+2026-09-18 17:53:57.254  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:54:05.776  I  SerialService: 'ANS-1032': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10320002)
+2026-09-18 17:54:10.733  I  SerialService: 'ANS-1032': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10320002)
+2026-09-18 17:54:11.320  I  Registration: Upload accepted for ANS10320002: HTTP 200 {"updated":1,"tags":[{"id":3229,"epc":"ANS10320002","itemCode":"ANS-1032","serialNo":2}]}
+2026-09-18 17:54:11.321  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:54:16.421  I  SerialService: 'ANS-1032': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS10320003)
+2026-09-18 17:54:17.009  I  Registration: Upload accepted for ANS10320003: HTTP 200 {"updated":1,"tags":[{"id":3230,"epc":"ANS10320003","itemCode":"ANS-1032","serialNo":3}]}
+2026-09-18 17:54:17.010  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:54:23.446  I  SerialService: 'ANS-1032': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (ANS10320004)
+2026-09-18 17:54:25.055  I  Registration: Upload accepted for ANS10320004: HTTP 200 {"updated":1,"tags":[{"id":3231,"epc":"ANS10320004","itemCode":"ANS-1032","serialNo":4}]}
+2026-09-18 17:54:25.057  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:54:33.436  I  SerialService: 'ANS-1106': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS11060003)
+2026-09-18 17:54:37.509  I  SerialService: 'ANS-1106': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS11060003)
+2026-09-18 17:54:38.100  I  Registration: Upload accepted for ANS11060003: HTTP 200 {"updated":1,"tags":[{"id":3232,"epc":"ANS11060003","itemCode":"ANS-1106","serialNo":3}]}
+2026-09-18 17:54:38.101  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:54:44.413  I  SerialService: 'ANS-1106': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (ANS11060004)
+2026-09-18 17:54:45.002  I  Registration: Upload accepted for ANS11060004: HTTP 200 {"updated":1,"tags":[{"id":3233,"epc":"ANS11060004","itemCode":"ANS-1106","serialNo":4}]}
+2026-09-18 17:54:45.003  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:54:57.370  I  SerialService: 'ANS-1040': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1040 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:54:57.412  I  SerialService: 'ANS-1040': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1040&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:54:57.454  I  SerialService: 'ANS-1040': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1040&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:54:57.465  I  SerialService: 'ANS-1040': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 17:54:57.467  I  SerialService: 'ANS-1040': server holds 0 RFID(s); taking the lowest free serial 1 (ANS10400001)
+2026-09-18 17:54:59.388  I  SerialService: 'ANS-1040': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1040 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:54:59.433  I  SerialService: 'ANS-1040': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1040&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:54:59.479  I  SerialService: 'ANS-1040': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1040&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:54:59.493  I  SerialService: 'ANS-1040': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 17:54:59.495  I  SerialService: 'ANS-1040': server holds 0 RFID(s); taking the lowest free serial 1 (ANS10400001)
+2026-09-18 17:55:00.092  I  Registration: Upload accepted for ANS10400001: HTTP 200 {"updated":1,"tags":[{"id":3234,"epc":"ANS10400001","itemCode":"ANS-1040","serialNo":1}]}
+2026-09-18 17:55:00.093  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:55:07.559  I  SerialService: 'ANS-1040': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10400002)
+2026-09-18 17:55:08.137  I  Registration: Upload accepted for ANS10400002: HTTP 200 {"updated":1,"tags":[{"id":3235,"epc":"ANS10400002","itemCode":"ANS-1040","serialNo":2}]}
+2026-09-18 17:55:08.138  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-18 17:55:20.701  6592  6601 W System  : A resource failed to call CursorWindow.close. 
+09-18 17:55:20.701  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:55:20.703  6592  6601 W System  : A resource failed to call CursorWindow.close. 
+09-18 17:55:20.703  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:55:20.703  6592  6601 W System  : A resource failed to call CursorWindow.close. 
+09-18 17:55:20.703  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:55:20.703  6592  6601 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 17:55:20.703  6592  6601 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 17:55:20.704  6592  6601 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 17:55:20.704  6592  6601 W System  : A resource failed to call close. 
+2026-09-18 17:55:20.844  I  SerialService: 'ANS-1091': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10910002)
+2026-09-18 17:55:23.539  I  SerialService: 'ANS-1091': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10910002)
+2026-09-18 17:55:24.110  I  Registration: Upload accepted for ANS10910002: HTTP 200 {"updated":1,"tags":[{"id":3236,"epc":"ANS10910002","itemCode":"ANS-1091","serialNo":2}]}
+2026-09-18 17:55:24.111  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:55:32.975  I  SerialService: 'ANS-1075': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1075 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:33.019  I  SerialService: 'ANS-1075': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1075&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:33.064  I  SerialService: 'ANS-1075': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1075&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:33.080  I  SerialService: 'ANS-1075': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 17:55:33.081  I  SerialService: 'ANS-1075': server holds 0 RFID(s); taking the lowest free serial 1 (ANS10750001)
+2026-09-18 17:55:36.140  I  SerialService: 'ANS-1075': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1075 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:36.184  I  SerialService: 'ANS-1075': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1075&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:36.229  I  SerialService: 'ANS-1075': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1075&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:36.241  I  SerialService: 'ANS-1075': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 17:55:36.242  I  SerialService: 'ANS-1075': server holds 0 RFID(s); taking the lowest free serial 1 (ANS10750001)
+2026-09-18 17:55:36.842  I  Registration: Upload accepted for ANS10750001: HTTP 200 {"updated":1,"tags":[{"id":3237,"epc":"ANS10750001","itemCode":"ANS-1075","serialNo":1}]}
+2026-09-18 17:55:36.843  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:55:44.138  I  SerialService: 'ANS-1075': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10750002)
+2026-09-18 17:55:45.043  I  Registration: Upload accepted for ANS10750002: HTTP 200 {"updated":1,"tags":[{"id":3238,"epc":"ANS10750002","itemCode":"ANS-1075","serialNo":2}]}
+2026-09-18 17:55:45.045  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-18 17:55:53.412  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:55:53.414  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:55:53.418  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-18 17:55:58.184  I  SerialService: 'ANS-1038': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1038 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:58.226  I  SerialService: 'ANS-1038': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1038&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:58.270  I  SerialService: 'ANS-1038': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1038&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:58.280  I  SerialService: 'ANS-1038': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 17:55:58.281  I  SerialService: 'ANS-1038': server holds 0 RFID(s); taking the lowest free serial 1 (ANS10380001)
+2026-09-18 17:55:59.520  I  SerialService: 'ANS-1038': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1038 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:59.569  I  SerialService: 'ANS-1038': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1038&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:59.617  I  SerialService: 'ANS-1038': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-1038&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:55:59.635  I  SerialService: 'ANS-1038': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 17:55:59.636  I  SerialService: 'ANS-1038': server holds 0 RFID(s); taking the lowest free serial 1 (ANS10380001)
+2026-09-18 17:56:00.215  I  Registration: Upload accepted for ANS10380001: HTTP 200 {"updated":1,"tags":[{"id":3239,"epc":"ANS10380001","itemCode":"ANS-1038","serialNo":1}]}
+2026-09-18 17:56:00.217  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:56:05.298  I  SerialService: 'ANS-1038': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10380002)
+2026-09-18 17:56:05.882  I  Registration: Upload accepted for ANS10380002: HTTP 200 {"updated":1,"tags":[{"id":3240,"epc":"ANS10380002","itemCode":"ANS-1038","serialNo":2}]}
+2026-09-18 17:56:05.884  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:56:17.131  I  SerialService: 'ANS-1034': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS10340003)
+09-18 17:56:17.400  6592  6601 W System  : A resource failed to call CursorWindow.close. 
+09-18 17:56:17.400  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:56:17.402  6592  6601 W System  : A resource failed to call CursorWindow.close. 
+09-18 17:56:17.402  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:56:17.403  6592  6601 W System  : A resource failed to call CursorWindow.close. 
+09-18 17:56:17.403  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:56:17.403  6592  6601 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 17:56:17.403  6592  6601 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 17:56:17.403  6592  6601 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 17:56:17.403  6592  6601 W System  : A resource failed to call close. 
+2026-09-18 17:56:19.284  I  SerialService: 'ANS-1034': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ANS10340003)
+2026-09-18 17:56:20.663  I  Registration: Upload accepted for ANS10340003: HTTP 200 {"updated":1,"tags":[{"id":3241,"epc":"ANS10340003","itemCode":"ANS-1034","serialNo":3}]}
+2026-09-18 17:56:20.664  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:56:35.415  I  SerialService: 'ANS-1058': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10580002)
+2026-09-18 17:56:37.602  I  SerialService: 'ANS-1058': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS10580002)
+2026-09-18 17:56:38.200  I  Registration: Upload accepted for ANS10580002: HTTP 200 {"updated":1,"tags":[{"id":3242,"epc":"ANS10580002","itemCode":"ANS-1058","serialNo":2}]}
+2026-09-18 17:56:38.203  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:56:48.784  I  SerialService: 'ANS-987': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS9870002)
+2026-09-18 17:56:52.461  I  SerialService: 'ANS-987': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ANS9870002)
+2026-09-18 17:56:53.057  I  Registration: Upload accepted for ANS9870002: HTTP 200 {"updated":1,"tags":[{"id":3243,"epc":"ANS9870002","itemCode":"ANS-987","serialNo":2}]}
+2026-09-18 17:56:53.059  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-18 17:57:02.413  I  SerialService: 'ANS-988': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-988 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:57:02.466  I  SerialService: 'ANS-988': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-988&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:57:02.511  I  SerialService: 'ANS-988': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-988&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:57:02.519  I  SerialService: 'ANS-988': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 17:57:02.521  I  SerialService: 'ANS-988': server holds 0 RFID(s); taking the lowest free serial 1 (ANS9880001)
+2026-09-18 17:57:15.894  I  SerialService: 'ANS-988': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-988 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:57:15.939  I  SerialService: 'ANS-988': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-988&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:57:15.987  I  SerialService: 'ANS-988': GET http://164.52.223.163:4636/api/device/products/mapped?search=ANS-988&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-18 17:57:15.999  I  SerialService: 'ANS-988': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-18 17:57:16.000  I  SerialService: 'ANS-988': server holds 0 RFID(s); taking the lowest free serial 1 (ANS9880001)
+09-18 17:57:16.557  6592  6601 W System  : A resource failed to call CursorWindow.close. 
+09-18 17:57:16.557  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:57:16.560  6592  6601 W System  : A resource failed to call CursorWindow.close. 
+09-18 17:57:16.560  6592  6601 W System  : A resource failed to call AbstractCursor.close. 
+09-18 17:57:16.560  6592  6601 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-18 17:57:16.560  6592  6601 W System  : A resource failed to call SQLiteConnection.close. 
+09-18 17:57:16.561  6592  6601 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-18 17:57:16.561  6592  6601 W System  : A resource failed to call close. 
+2026-09-18 17:57:16.588  I  Registration: Upload accepted for ANS9880001: HTTP 200 {"updated":1,"tags":[{"id":3244,"epc":"ANS9880001","itemCode":"ANS-988","serialNo":1}]}
+2026-09-18 17:57:16.590  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-18 17:57:34.281  6592  6592 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d32f3a6
+09-18 17:57:34.291  6592 10557 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#250(BLAST Consumer)250](id:19c000000112,api:4,p:1501,c:6592) queueBuffer: BufferQueue has been abandoned
+09-18 17:57:34.309  6592 10557 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#250(BLAST Consumer)250](id:19c000000112,api:4,p:1501,c:6592) cancelBuffer: BufferQueue has been abandoned
+09-18 17:57:34.310  6592 10557 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#250(BLAST Consumer)250](id:19c000000112,api:4,p:1501,c:6592) queueBuffer: BufferQueue has been abandoned
+09-18 17:57:34.312  6592 10557 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#250(BLAST Consumer)250](id:19c000000112,api:4,p:1501,c:6592) cancelBuffer: BufferQueue has been abandoned
+09-18 17:57:34.313  6592 10557 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#250(BLAST Consumer)250](id:19c000000112,api:4,p:1501,c:6592) cancelBuffer: BufferQueue has been abandoned
+09-18 17:57:34.314  6592 10557 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#250(BLAST Consumer)250](id:19c000000112,api:4,p:1501,c:6592) cancelBuffer: BufferQueue has been abandoned
+2026-09-18 17:57:35.285  I  ProductSync: unmapped for location 2 needed 2 page(s): 364 row(s), server reported 364
+2026-09-18 17:57:36.282  I  ProductSync: unmapped for location 2 needed 2 page(s): 364 row(s), server reported 364
+2026-09-18 17:57:37.915  I  ProductSync: unmapped for location 2 needed 2 page(s): 364 row(s), server reported 364
+09-18 17:57:38.076  6592  6601 W System  : A resource failed to call close. 
+09-18 17:57:38.076  6592  6601 W System  : A resource failed to call close. 
+09-18 17:57:38.076  6592  6601 W System  : A resource failed to call close. 
+09-18 17:57:38.076  6592  6601 W System  : A resource failed to call close. 
+2026-09-18 17:57:39.620  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-18 17:57:40.110  6592  6592 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@27a5365
+2026-09-18 17:57:57.281  I  ProductSync: unmapped for location 2 needed 2 page(s): 364 row(s), server reported 364
+09-18 17:57:57.681  6592  6601 W System  : A resource failed to call close. 
+09-18 17:57:57.681  6592  6601 W System  : A resource failed to call close. 
