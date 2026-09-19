@@ -1,0 +1,132 @@
+# pushed 2026-09-19 13:15:42.781 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 23709..39495
+
+09-19 12:49:35.962 20663 20693 W Parcel  : Expecting binder but got null!
+09-19 12:49:50.955 20663 20774 W System.err: java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.1.8 (port 49866) after 15000ms
+09-19 12:49:50.955 20663 20774 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+09-19 12:49:50.955 20663 20774 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+09-19 12:49:50.955 20663 20774 W System.err: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+09-19 12:49:50.955 20663 20774 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+09-19 12:49:50.955 20663 20774 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+09-19 12:49:50.956 20663 20774 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+09-19 12:49:50.956 20663 20774 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+09-19 12:49:50.956 20663 20774 W System.err: 	at java.net.Socket.connect(Socket.java:646)
+09-19 12:49:50.956 20663 20774 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+09-19 12:49:50.956 20663 20774 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+09-19 12:49:50.956 20663 20774 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-19 12:49:50.956 20663 20774 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-19 12:49:50.956 20663 20774 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-19 12:49:50.957 20663 20774 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-19 12:49:50.957 20663 20774 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-19 12:49:50.957 20663 20774 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-19 12:49:50.957 20663 20774 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-19 12:49:50.957 20663 20774 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-19 12:49:50.957 20663 20774 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-19 12:49:50.957 20663 20774 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-19 12:49:50.957 20663 20774 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-19 12:49:50.957 20663 20774 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+09-19 12:49:50.957 20663 20774 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-19 12:49:50.958 20663 20774 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+09-19 12:49:51.125 20663 20693 W Parcel  : Expecting binder but got null!
+09-19 12:49:52.138 20663 20663 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+09-19 12:49:52.138 20663 20663 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-19 12:49:53.722 20663 20693 W Parcel  : Expecting binder but got null!
+09-19 12:49:55.071 20663 20663 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+09-19 12:49:55.071 20663 20663 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-19 12:49:57.956 20663 20693 W Parcel  : Expecting binder but got null!
+09-19 12:50:12.958 20663 20824 W System.err: java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.1.8 (port 44570) after 15000ms
+09-19 12:50:12.958 20663 20824 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+09-19 12:50:12.958 20663 20824 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+09-19 12:50:12.958 20663 20824 W System.err: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+09-19 12:50:12.958 20663 20824 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+09-19 12:50:12.958 20663 20824 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+09-19 12:50:12.958 20663 20824 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+09-19 12:50:12.959 20663 20824 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+09-19 12:50:12.959 20663 20824 W System.err: 	at java.net.Socket.connect(Socket.java:646)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-19 12:50:12.959 20663 20824 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-19 12:50:12.960 20663 20824 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-19 12:50:12.960 20663 20824 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+09-19 12:50:12.960 20663 20824 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-19 12:50:12.960 20663 20824 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+09-19 12:50:13.090 20663 20693 W Parcel  : Expecting binder but got null!
+09-19 12:50:57.259 20663 20663 W libc    : Access denied finding property "vendor.scroll.fpsgo.release"
+09-19 12:50:57.893 20663 20693 W Parcel  : Expecting binder but got null!
+09-19 12:51:12.888 20663 20838 W System.err: java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.1.8 (port 44196) after 15000ms
+09-19 12:51:12.888 20663 20838 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+09-19 12:51:12.888 20663 20838 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+09-19 12:51:12.888 20663 20838 W System.err: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+09-19 12:51:12.888 20663 20838 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+09-19 12:51:12.888 20663 20838 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+09-19 12:51:12.888 20663 20838 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+09-19 12:51:12.888 20663 20838 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+09-19 12:51:12.888 20663 20838 W System.err: 	at java.net.Socket.connect(Socket.java:646)
+09-19 12:51:12.888 20663 20838 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+09-19 12:51:12.888 20663 20838 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+09-19 12:51:12.889 20663 20838 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-19 12:51:12.889 20663 20838 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+2026-09-19 13:15:12.762  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=<not configured> location=TITLI NEEMUCH
+2026-09-19 13:15:12.781  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-f0fc075f
+2026-09-19 13:15:12.795  I  Net: wifi connected
+2026-09-19 13:15:12.801  I  Net: wifi has internet (rssi -27 dBm)
+--------- beginning of main
+09-19 13:15:12.998 12037 12037 W hionapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+09-19 13:15:13.064 12037 12037 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+09-19 13:15:13.228 12037 12070 W Parcel  : Expecting binder but got null!
+09-19 13:15:16.744 12037 12070 W Parcel  : Expecting binder but got null!
+09-19 13:15:17.690 12037 12070 W Parcel  : Expecting binder but got null!
+2026-09-19 13:15:23.868  W  UhfSession: Could not power up the UHF reader
+09-19 13:15:23.904 12037 12048 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+09-19 13:15:23.914 12037 12050 W System  : A resource failed to call close. 
+09-19 13:15:23.914 12037 12050 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-19 13:15:23.915 12037 12050 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-19 13:15:23.915 12037 12050 W System  : A resource failed to call SQLiteConnection.close. 
+09-19 13:15:23.917 12037 12050 W System  : A resource failed to call close. 
+09-19 13:15:23.917 12037 12050 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-19 13:15:23.917 12037 12050 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-19 13:15:23.917 12037 12050 W System  : A resource failed to call SQLiteConnection.close. 
+09-19 13:15:23.918 12037 12050 W System  : A resource failed to call close. 
+09-19 13:15:23.918 12037 12050 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-19 13:15:23.918 12037 12050 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-19 13:15:23.918 12037 12050 W System  : A resource failed to call SQLiteConnection.close. 
+09-19 13:15:23.920 12037 12050 W System  : A resource failed to call close. 
+09-19 13:15:23.920 12037 12050 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-19 13:15:23.920 12037 12050 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-19 13:15:23.920 12037 12050 W System  : A resource failed to call SQLiteConnection.close. 
+09-19 13:15:24.206 12037 12037 W libc    : Access denied finding property "vendor.scroll.fpsgo.release"
+09-19 13:15:28.526 12037 12070 W Parcel  : Expecting binder but got null!
+09-19 13:15:29.296 12037 12037 W CameraX-camerax: type=1400 audit(0.0:792): avc: denied { ioctl } for path="/proc/perfmgr/perf_ioctl" dev="proc" ino=4026534111 ioctlcmd=0x6717 scontext=u:r:untrusted_app:s0:c164,c256,c512,c768 tcontext=u:object_r:proc_perfmgr:s0 tclass=file permissive=0 app=com.poxo.tittlifashionapplication
+09-19 13:15:29.408 12037 12338 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-09-19 13:15:29.629  I  UhfSession: UHF reader powered up
+2026-09-19 13:15:30.205  I  ProductSync: unmapped for location 4 needed 3 page(s): 410 row(s), server reported 410
+09-19 13:15:30.963 12037 12070 W Parcel  : Expecting binder but got null!
+2026-09-19 13:15:31.007  I  UhfSession: UHF reader powered down: operator asked to reconnect
+2026-09-19 13:15:33.525  W  UhfSession: Could not power up the UHF reader
+2026-09-19 13:15:36.083  I  UhfSession: UHF reader powered up
+09-19 13:15:40.292 12037 12050 W System  : A resource failed to call close. 
+09-19 13:15:40.376 12037 12037 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-19 13:15:41.514 12037 12070 W Parcel  : Expecting binder but got null!
+09-19 13:15:42.354 12037 12037 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
