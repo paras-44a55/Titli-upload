@@ -1,0 +1,70 @@
+# pushed 2026-09-19 13:03:49.416 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 187627..195892
+
+2026-09-19 13:03:19.374  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-09-19 13:03:19.388  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-09-19 13:03:19.405  I  Net: wifi connected
+2026-09-19 13:03:19.410  I  Net: wifi has internet (rssi -65 dBm)
+--------- beginning of main
+09-19 13:03:19.424 14342 14370 W QT      : qt_process_init() called
+09-19 13:03:19.424 14342 14370 E QT      : [QT]file does not exist
+09-19 13:03:19.424 14342 14370 W QT      : Support!!
+09-19 13:03:19.665 14342 14342 W HWUI    : Unknown dataspace 0
+09-19 13:03:19.802 14342 14368 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-19 13:03:19.822 14342 14368 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-19 13:03:22.795 14342 14444 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+09-19 13:03:27.675 14342 14373 W System.err: java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.29.222 (port 48196) after 8000ms
+09-19 13:03:27.681 14342 14373 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+09-19 13:03:27.681 14342 14373 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+09-19 13:03:27.681 14342 14373 W System.err: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+09-19 13:03:27.682 14342 14373 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+09-19 13:03:27.682 14342 14373 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+09-19 13:03:27.682 14342 14373 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+09-19 13:03:27.682 14342 14373 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+09-19 13:03:27.682 14342 14373 W System.err: 	at java.net.Socket.connect(Socket.java:646)
+09-19 13:03:27.682 14342 14373 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+09-19 13:03:27.682 14342 14373 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+09-19 13:03:27.682 14342 14373 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-19 13:03:27.683 14342 14373 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-19 13:03:27.683 14342 14373 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-19 13:03:27.683 14342 14373 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-19 13:03:27.683 14342 14373 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-19 13:03:27.683 14342 14373 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-19 13:03:27.683 14342 14373 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-19 13:03:27.683 14342 14373 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+09-19 13:03:27.684 14342 14373 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+09-19 13:03:27.684 14342 14373 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+09-19 13:03:27.684 14342 14373 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(LoginActivity.kt:0)
+09-19 13:03:27.684 14342 14373 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+09-19 13:03:27.684 14342 14373 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+09-19 13:03:39.867 14342 14473 W System.err: java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.29.222 (port 39096) after 15000ms
+09-19 13:03:39.867 14342 14473 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+09-19 13:03:39.867 14342 14473 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+09-19 13:03:39.867 14342 14473 W System.err: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+09-19 13:03:39.867 14342 14473 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+09-19 13:03:39.867 14342 14473 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+09-19 13:03:39.867 14342 14473 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+09-19 13:03:39.867 14342 14473 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+09-19 13:03:39.867 14342 14473 W System.err: 	at java.net.Socket.connect(Socket.java:646)
+09-19 13:03:39.867 14342 14473 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+09-19 13:03:39.867 14342 14473 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+09-19 13:03:39.868 14342 14473 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-19 13:03:39.869 14342 14473 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-19 13:03:39.869 14342 14473 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-19 13:03:39.869 14342 14473 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-19 13:03:39.869 14342 14473 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-19 13:03:39.869 14342 14473 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-19 13:03:39.870 14342 14473 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-19 13:03:39.870 14342 14473 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-19 13:03:39.870 14342 14473 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-19 13:03:39.870 14342 14473 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-19 13:03:39.870 14342 14473 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-19 13:03:39.870 14342 14473 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(LoginActivity.kt:0)
+09-19 13:03:39.870 14342 14473 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-19 13:03:39.871 14342 14473 W System.err: 	at java.lang.Thread.run(Thread.java:1572)
+09-19 13:03:39.871 14342 14342 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6c9b039
+09-19 13:03:42.466 14342 14350 W System  : A resource failed to call close. 
+09-19 13:03:42.466 14342 14350 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-19 13:03:42.466 14342 14350 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-19 13:03:42.466 14342 14350 W System  : A resource failed to call SQLiteConnection.close. 
