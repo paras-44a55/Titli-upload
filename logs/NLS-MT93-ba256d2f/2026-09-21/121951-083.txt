@@ -1,0 +1,191 @@
+# pushed 2026-09-21 12:19:51.083 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 291578..313952
+
+09-21 12:11:51.825  4820  4869 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+09-21 12:11:56.250  4820  4820 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2a760f6
+09-21 12:11:57.037  4820  4820 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cc1a1cb
+2026-09-21 12:12:00.778  I  ProductSync: unmapped for location 2 needed 3 page(s): 406 row(s), server reported 406
+09-21 12:12:01.603  4820  4825 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+09-21 12:12:01.638  4820  4827 W System  : A resource failed to call close. 
+09-21 12:12:01.638  4820  4827 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-21 12:12:01.638  4820  4827 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-21 12:12:01.638  4820  4827 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-21 12:12:03.605  I  ProductSync: unmapped for location 2 needed 3 page(s): 406 row(s), server reported 406
+09-21 12:12:04.671  4820  4827 W System  : A resource failed to call close. 
+09-21 12:12:04.672  4820  4827 W System  : A resource failed to call close. 
+09-21 12:12:05.544  4820  4820 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b0bcdad
+09-21 12:12:07.927  4820  6895 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-09-21 12:12:09.496  W  UhfSession: Could not power up the UHF reader
+2026-09-21 12:12:12.933  I  UhfSession: UHF reader powered up
+09-21 12:12:29.277  4820  4827 W System  : A resource failed to call close. 
+09-21 12:12:29.277  4820  4827 W System  : A resource failed to call close. 
+09-21 12:12:40.683  4820  6821 E TransportRuntime.CctTransportBackend: Couldn't open connection, returning with 500
+2026-09-21 12:12:43.821  W  Net: wifi DISCONNECTED — link had been up for 82s
+09-21 12:12:43.994  4820  4820 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@39d61d4
+09-21 12:12:44.005  4820  4820 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-21 12:12:49.904  4820  4820 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@354c777
+2026-09-21 12:12:49.911  E  SerialService: RFID lookup for 'DBY-1854' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=DBY-1854
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.data.SerialService.nextFreeSerial(SerialService.kt:306)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:385)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+09-21 12:12:49.913  4820  4820 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-21 12:13:00.320  E  SerialService: RFID lookup for 'DBY-1854' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=DBY-1854
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-21 12:13:00.322  E  Registration: Write blocked for 'DBY-1854': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+09-21 12:13:02.593  4820  4827 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-21 12:13:02.593  4820  4827 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-21 12:13:02.593  4820  4827 W System  : A resource failed to call SQLiteConnection.close. 
+09-21 12:13:02.594  4820  4827 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-21 12:13:02.594  4820  4827 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-21 12:13:02.594  4820  4827 W System  : A resource failed to call SQLiteConnection.close. 
+09-21 12:13:02.594  4820  4827 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-21 12:13:02.594  4820  4827 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-21 12:13:02.594  4820  4827 W System  : A resource failed to call SQLiteConnection.close. 
+09-21 12:13:02.594  4820  4827 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-21 12:13:02.594  4820  4827 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-21 12:13:02.594  4820  4827 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-21 12:13:20.058  E  SerialService: RFID lookup for 'DBY-1854' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=DBY-1854
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-21 12:13:20.060  E  Registration: Write blocked for 'DBY-1854': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-09-21 12:13:21.537  E  SerialService: RFID lookup for 'DBY-1854' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=DBY-1854
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-21 12:13:21.540  E  Registration: Write blocked for 'DBY-1854': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-09-21 12:13:21.956  E  SerialService: RFID lookup for 'DBY-1854' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=DBY-1854
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1572)
+2026-09-21 12:13:21.958  E  Registration: Write blocked for 'DBY-1854': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+09-21 12:13:44.170  4820  4832 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9(BLAST Consumer)9](id:12d40000000b,api:4,p:1497,c:4820) queueBuffer: BufferQueue has been abandoned
+09-21 12:13:44.178  4820  4832 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9(BLAST Consumer)9](id:12d40000000b,api:4,p:1497,c:4820) dequeueBuffer: BufferQueue has been abandoned
+09-21 12:13:44.193  4820  4830 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9(BLAST Consumer)9](id:12d40000000b,api:4,p:1497,c:4820) queueBuffer: BufferQueue has been abandoned
+09-21 12:13:44.227  4820  4830 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9(BLAST Consumer)9](id:12d40000000b,api:4,p:1497,c:4820) queueBuffer: BufferQueue has been abandoned
+09-21 12:13:44.253  4820  4830 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9(BLAST Consumer)9](id:12d40000000b,api:4,p:1497,c:4820) queueBuffer: BufferQueue has been abandoned
+09-21 12:13:44.257  4820  4830 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9(BLAST Consumer)9](id:12d40000000b,api:4,p:1497,c:4820) cancelBuffer: BufferQueue has been abandoned
+09-21 12:13:44.259  4820  4832 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9(BLAST Consumer)9](id:12d40000000b,api:4,p:1497,c:4820) cancelBuffer: BufferQueue has been abandoned
+09-21 12:13:44.259  4820  4832 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9(BLAST Consumer)9](id:12d40000000b,api:4,p:1497,c:4820) cancelBuffer: BufferQueue has been abandoned
+2026-09-21 12:13:45.566  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-21 12:19:21.044  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-09-21 12:19:21.077  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-09-21 12:19:21.141  I  Net: wifi connected
+2026-09-21 12:19:21.162  I  Net: wifi has internet (rssi -59 dBm)
+--------- beginning of main
+09-21 12:19:21.214  4972  5068 W QT      : qt_process_init() called
+09-21 12:19:21.214  4972  5068 E QT      : [QT]file does not exist
+09-21 12:19:21.214  4972  5068 W QT      : Support!!
+09-21 12:19:21.564  4972  4972 W HWUI    : Unknown dataspace 0
+09-21 12:19:21.784  4972  5066 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-21 12:19:21.828  4972  5066 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-21 12:19:25.994  4972  5755 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+09-21 12:19:30.395  4972  4972 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@399fc00
+09-21 12:19:30.641  4972  6276 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+09-21 12:19:31.378  4972  4972 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@919ff4
+09-21 12:19:38.857  4972  4988 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+2026-09-21 12:19:38.878  I  ProductSync: unmapped for location 2 needed 3 page(s): 406 row(s), server reported 406
+09-21 12:19:38.910  4972  4990 W System  : A resource failed to call close. 
+09-21 12:19:38.912  4972  4990 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-21 12:19:38.912  4972  4990 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-21 12:19:38.912  4972  4990 W System  : A resource failed to call SQLiteConnection.close. 
+09-21 12:19:38.914  4972  4990 W System  : A resource failed to call close. 
+09-21 12:19:38.914  4972  4990 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-21 12:19:38.914  4972  4990 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-21 12:19:38.914  4972  4990 W System  : A resource failed to call SQLiteConnection.close. 
+09-21 12:19:38.916  4972  4990 W System  : A resource failed to call close. 
+09-21 12:19:38.916  4972  4990 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-21 12:19:38.916  4972  4990 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-21 12:19:38.916  4972  4990 W System  : A resource failed to call SQLiteConnection.close. 
+09-21 12:19:38.921  4972  4990 W System  : A resource failed to call close. 
+09-21 12:19:38.921  4972  4990 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-21 12:19:38.921  4972  4990 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-21 12:19:38.922  4972  4990 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-21 12:19:45.840  I  ProductSync: unmapped for location 2 needed 3 page(s): 406 row(s), server reported 406
+09-21 12:19:46.122  4972  4990 W System  : A resource failed to call close. 
+09-21 12:19:46.122  4972  4990 W System  : A resource failed to call close. 
+09-21 12:19:48.539  4972  4972 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bae53af
