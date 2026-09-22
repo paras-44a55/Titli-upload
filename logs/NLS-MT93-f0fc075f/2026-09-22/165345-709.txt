@@ -1,0 +1,55 @@
+# pushed 2026-09-22 16:53:45.709 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 139297..147050
+
+09-22 16:47:42.605 24872 24904 W Parcel  : Expecting binder but got null!
+09-22 16:47:43.302 24872 24904 W Parcel  : Expecting binder but got null!
+09-22 16:47:47.301 24872 24904 W Parcel  : Expecting binder but got null!
+2026-09-22 16:47:52.442  I  SerialService: 'PF-6338': GET http://164.52.223.163:4636/api/device/products/mapped?search=PF-6338 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 16:47:52.737  I  SerialService: 'PF-6338': GET http://164.52.223.163:4636/api/device/products/mapped?search=PF-6338&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 16:47:53.109  I  SerialService: 'PF-6338': GET http://164.52.223.163:4636/api/device/products/mapped?search=PF-6338&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 16:47:53.125  I  SerialService: 'PF-6338': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 16:47:53.127  I  SerialService: 'PF-6338': server holds 0 RFID(s); taking the lowest free serial 1 (PF63380001)
+2026-09-22 16:47:55.405  I  SerialService: 'PF-6338': GET http://164.52.223.163:4636/api/device/products/mapped?search=PF-6338 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 16:47:55.526  I  SerialService: 'PF-6338': GET http://164.52.223.163:4636/api/device/products/mapped?search=PF-6338&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 16:47:55.646  I  SerialService: 'PF-6338': GET http://164.52.223.163:4636/api/device/products/mapped?search=PF-6338&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 16:47:55.660  I  SerialService: 'PF-6338': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 16:47:55.662  I  SerialService: 'PF-6338': server holds 0 RFID(s); taking the lowest free serial 1 (PF63380001)
+2026-09-22 16:47:56.201  I  SerialService: 'PF-6338': GET http://164.52.223.163:4636/api/device/products/mapped?search=PF-6338 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 16:47:56.299  I  SerialService: 'PF-6338': GET http://164.52.223.163:4636/api/device/products/mapped?search=PF-6338&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 16:47:56.413  I  SerialService: 'PF-6338': GET http://164.52.223.163:4636/api/device/products/mapped?search=PF-6338&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 16:47:56.429  I  SerialService: 'PF-6338': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 16:47:56.431  I  SerialService: 'PF-6338': server holds 0 RFID(s); taking the lowest free serial 2 (PF63380002)
+2026-09-22 16:47:56.438  I  Registration: Upload accepted for PF63380001: HTTP 200 {"updated":1,"tags":[{"id":3984,"epc":"PF63380001","itemCode":"PF-6338","serialNo":1}]}
+2026-09-22 16:47:56.440  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 16:47:57.040  E  Registration: No product id for item code 'PF-6338' - tag PF63380002 (serial 2) saved with id -1 and cannot be uploaded until Sync Data runs. Neither unMappedProduct nor mappedProduct has a row for it.
+2026-09-22 16:47:57.054  E  Registration: Tag PF63380002 (item 'PF-6338', serial 2) has product id -1. The server will answer 400 'Each tag must have a valid id' to this. No row for 'PF-6338' in unMappedProduct or mappedProduct - the product list on this device is stale or the item code differs from the one that was synced.
+09-22 16:48:08.689 24872 24885 W System  : A resource failed to call CursorWindow.close. 
+09-22 16:48:08.689 24872 24885 W System  : A resource failed to call AbstractCursor.close. 
+09-22 16:48:08.689 24872 24885 W System  : A resource failed to call CursorWindow.close. 
+09-22 16:48:08.689 24872 24885 W System  : A resource failed to call AbstractCursor.close. 
+09-22 16:48:08.690 24872 24885 W System  : A resource failed to call CursorWindow.close. 
+09-22 16:48:08.690 24872 24885 W System  : A resource failed to call AbstractCursor.close. 
+09-22 16:48:39.159 24872 24889 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#62(BLAST Consumer)62](id:612800000044,api:4,p:1176,c:24872) queueBuffer: BufferQueue has been abandoned
+09-22 16:48:39.180 24872 24888 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#62(BLAST Consumer)62](id:612800000044,api:4,p:1176,c:24872) queueBuffer: BufferQueue has been abandoned
+09-22 16:48:39.181 24872 24888 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#62(BLAST Consumer)62](id:612800000044,api:4,p:1176,c:24872) cancelBuffer: BufferQueue has been abandoned
+09-22 16:48:39.181 24872 24888 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#62(BLAST Consumer)62](id:612800000044,api:4,p:1176,c:24872) cancelBuffer: BufferQueue has been abandoned
+09-22 16:48:39.181 24872 24888 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#62(BLAST Consumer)62](id:612800000044,api:4,p:1176,c:24872) cancelBuffer: BufferQueue has been abandoned
+09-22 16:48:39.183 24872 24888 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#62(BLAST Consumer)62](id:612800000044,api:4,p:1176,c:24872) cancelBuffer: BufferQueue has been abandoned
+2026-09-22 16:48:44.133  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-22 16:49:11.197 24872 24885 W System  : A resource failed to call close. 
+09-22 16:49:11.197 24872 24885 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-22 16:49:11.197 24872 24885 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-22 16:49:11.197 24872 24885 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-22 16:49:48.578  W  Net: wifi DISCONNECTED — link had been up for 323s
+2026-09-22 16:49:50.041  I  Net: wifi connected
+2026-09-22 16:49:50.043  W  Net: wifi is up but has NO internet (rssi -37 dBm)
+2026-09-22 16:49:50.070  I  Net: wifi has internet (rssi -37 dBm)
+2026-09-22 16:51:28.723  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-22 16:51:28.723  I  Net: Blank Audit: mapped-product sync started
+2026-09-22 16:51:28.725  I  Net: Blank Audit: local products still fresh, no sync needed
+09-22 16:51:28.823 24872 24904 W Parcel  : Expecting binder but got null!
+09-22 16:51:29.555 24872 24904 W Parcel  : Expecting binder but got null!
+2026-09-22 16:51:31.290  I  UhfSession: UHF reader powered up
+09-22 16:51:41.183 24872 24904 W Parcel  : Expecting binder but got null!
+2026-09-22 16:53:45.702  I  Net: Blank Audit: closed, releasing the UHF module
