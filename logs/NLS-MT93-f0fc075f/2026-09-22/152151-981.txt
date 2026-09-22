@@ -1,0 +1,374 @@
+# pushed 2026-09-22 15:21:51.981 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 506077..34996
+
+2026-09-22 15:02:58.741  I  UhfSession: UHF reader powered down: app moved to the background
+09-22 15:04:56.070 12241 12241 E SurfaceSyncer: Failed to find sync for id=0
+09-22 15:04:56.070 12241 12241 E SurfaceSyncer: Failed to find sync for id=1
+2026-09-22 15:04:57.000  I  SerialService: 'VN-GULABO': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (VNGULABO0003)
+2026-09-22 15:04:59.424  I  UhfSession: UHF reader powered up
+09-22 15:05:00.875 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:05:00.875 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-22 15:05:01.333  I  SerialService: 'VN-GULABO': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (VNGULABO0003)
+2026-09-22 15:05:01.992  I  Registration: Upload accepted for VNGULABO0003: HTTP 200 {"updated":1,"tags":[{"id":3923,"epc":"VNGULABO0003","itemCode":"VN-GULABO","serialNo":3}]}
+2026-09-22 15:05:01.994  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:05:02.591  E  Registration: No product id for item code 'VN-GULABO' - tag VNGULABO0003 (serial 3) saved with id -1 and cannot be uploaded until Sync Data runs. Neither unMappedProduct nor mappedProduct has a row for it.
+2026-09-22 15:05:02.594  E  Registration: EPC collision: VNGULABO0003 (seq 3, item VN-GULABO) already exists in serialized_tags - the allocator handed out a number already in use
+09-22 15:05:02.594 12241 19222 W System.err: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: serialized_tags.epc (code 1555 SQLITE_CONSTRAINT_PRIMARYKEY)
+09-22 15:05:02.594 12241 19222 W System.err: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+09-22 15:05:02.594 12241 19222 W System.err: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:961)
+09-22 15:05:02.594 12241 19222 W System.err: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+09-22 15:05:02.594 12241 19222 W System.err: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+09-22 15:05:02.594 12241 19222 W System.err: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1868)
+09-22 15:05:02.594 12241 19222 W System.err: 	at com.poxo.tittlifashionapplication.data.AssetRepository.insertSerializedTag(AssetRepository.kt:933)
+09-22 15:05:02.594 12241 19222 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.saveAndUploadTag$lambda$40(RegistrationActivity.kt:681)
+09-22 15:05:02.594 12241 19222 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$vEOmhcXKW5Icm-iJ04auOYnUTE8(Unknown Source:0)
+09-22 15:05:02.594 12241 19222 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda60.run(D8$$SyntheticClass:0)
+09-22 15:05:02.594 12241 19222 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+09-22 15:05:19.164 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:05:19.164 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:05:30.402 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:05:37.352 12241 12271 W Parcel  : Expecting binder but got null!
+2026-09-22 15:05:43.797  I  SerialService: 'VN-SHANAYA': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (VNSHANAYA0004)
+2026-09-22 15:05:48.312  I  SerialService: 'VN-SHANAYA': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (VNSHANAYA0004)
+2026-09-22 15:05:49.213  I  Registration: Upload accepted for VNSHANAYA0004: HTTP 200 {"updated":1,"tags":[{"id":3924,"epc":"VNSHANAYA0004","itemCode":"VN-SHANAYA","serialNo":4}]}
+2026-09-22 15:05:49.216  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:05:59.195 12241 12253 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-22 15:05:59.195 12241 12253 W System  : A resource failed to call SQLiteConnection.close. 
+09-22 15:05:59.195 12241 12253 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-22 15:05:59.196 12241 12253 W System  : A resource failed to call close. 
+2026-09-22 15:06:00.516  I  SerialService: 'VN-SHANAYA': server holds 4 RFID(s) [1, 2, 3, 4]; taking the lowest free serial 5 (VNSHANAYA0005)
+2026-09-22 15:06:02.110  I  Registration: Upload accepted for VNSHANAYA0005: HTTP 200 {"updated":1,"tags":[{"id":3925,"epc":"VNSHANAYA0005","itemCode":"VN-SHANAYA","serialNo":5}]}
+2026-09-22 15:06:02.114  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:06:08.302  I  SerialService: 'VN-SHANAYA': server holds 5 RFID(s) [1, 2, 3, 4, 5]; taking the lowest free serial 6 (VNSHANAYA0006)
+2026-09-22 15:06:08.970  I  Registration: Upload accepted for VNSHANAYA0006: HTTP 200 {"updated":1,"tags":[{"id":3926,"epc":"VNSHANAYA0006","itemCode":"VN-SHANAYA","serialNo":6}]}
+2026-09-22 15:06:08.973  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:06:20.858  I  SerialService: 'VN-SHANAYA': server holds 6 RFID(s) [1, 2, 3, 4, 5, 6]; taking the lowest free serial 7 (VNSHANAYA0007)
+2026-09-22 15:06:22.668  I  SerialService: 'VN-SHANAYA': server holds 6 RFID(s) [1, 2, 3, 4, 5, 6]; taking the lowest free serial 7 (VNSHANAYA0007)
+2026-09-22 15:06:24.019  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-22 15:06:25.843  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-22 15:06:33.204  I  SerialService: 'VN-SHANAYA': server holds 6 RFID(s) [1, 2, 3, 4, 5, 6]; taking the lowest free serial 7 (VNSHANAYA0007)
+2026-09-22 15:06:36.168  I  Registration: Upload accepted for VNSHANAYA0007: HTTP 200 {"updated":1,"tags":[{"id":3927,"epc":"VNSHANAYA0007","itemCode":"VN-SHANAYA","serialNo":7}]}
+2026-09-22 15:06:36.170  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:06:47.383  I  SerialService: 'VN-SHANAYA': server holds 7 RFID(s) [1, 2, 3, 4, 5, 6, 7]; taking the lowest free serial 8 (VNSHANAYA0008)
+2026-09-22 15:06:48.173  I  Registration: Upload accepted for VNSHANAYA0008: HTTP 200 {"updated":1,"tags":[{"id":3928,"epc":"VNSHANAYA0008","itemCode":"VN-SHANAYA","serialNo":8}]}
+2026-09-22 15:06:48.175  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:07:16.350  I  SerialService: 'VN-SHANAYA': server holds 8 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8]; taking the lowest free serial 9 (VNSHANAYA0009)
+2026-09-22 15:07:18.797  I  Registration: Upload accepted for VNSHANAYA0009: HTTP 200 {"updated":1,"tags":[{"id":3929,"epc":"VNSHANAYA0009","itemCode":"VN-SHANAYA","serialNo":9}]}
+2026-09-22 15:07:18.800  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:07:41.837 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:07:47.116 12241 12271 W Parcel  : Expecting binder but got null!
+2026-09-22 15:07:50.673  I  SerialService: 'VN-FENDYGOLA': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (VNFENDYGOLA0004)
+2026-09-22 15:07:51.567  I  SerialService: 'VN-FENDYGOLA': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (VNFENDYGOLA0004)
+2026-09-22 15:07:52.277  I  Registration: Upload accepted for VNFENDYGOLA0004: HTTP 200 {"updated":1,"tags":[{"id":3930,"epc":"VNFENDYGOLA0004","itemCode":"VN-FENDYGOLA","serialNo":4}]}
+2026-09-22 15:07:52.281  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:08:09.092 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:08:13.489 12241 12271 W Parcel  : Expecting binder but got null!
+2026-09-22 15:08:17.546  I  SerialService: 'VN-KERRY': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (VNKERRY0003)
+09-22 15:08:19.644 12241 12253 W System  : A resource failed to call close. 
+2026-09-22 15:08:21.316  I  SerialService: 'VN-KERRY': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (VNKERRY0003)
+2026-09-22 15:08:21.971  I  Registration: Upload accepted for VNKERRY0003: HTTP 200 {"updated":1,"tags":[{"id":3931,"epc":"VNKERRY0003","itemCode":"VN-KERRY","serialNo":3}]}
+2026-09-22 15:08:21.974  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:08:34.804  I  SerialService: 'VN-KERRY': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (VNKERRY0004)
+2026-09-22 15:08:35.797  I  Registration: Upload accepted for VNKERRY0004: HTTP 200 {"updated":1,"tags":[{"id":3932,"epc":"VNKERRY0004","itemCode":"VN-KERRY","serialNo":4}]}
+2026-09-22 15:08:35.801  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:09:06.043  I  SerialService: 'VN-KERRY': server holds 4 RFID(s) [1, 2, 3, 4]; taking the lowest free serial 5 (VNKERRY0005)
+2026-09-22 15:09:06.699  I  Registration: Upload accepted for VNKERRY0005: HTTP 200 {"updated":1,"tags":[{"id":3933,"epc":"VNKERRY0005","itemCode":"VN-KERRY","serialNo":5}]}
+2026-09-22 15:09:06.701  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:09:20.274 12241 12253 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-22 15:09:20.274 12241 12253 W System  : A resource failed to call SQLiteConnection.close. 
+09-22 15:09:20.274 12241 12253 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-22 15:09:30.096 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:09:35.482 12241 12271 W Parcel  : Expecting binder but got null!
+2026-09-22 15:09:40.118  I  SerialService: 'VN-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-MAHEK -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:09:40.208  I  SerialService: 'VN-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-MAHEK&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:09:40.298  I  SerialService: 'VN-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-MAHEK&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:09:40.314  I  SerialService: 'VN-MAHEK': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:09:40.315  I  SerialService: 'VN-MAHEK': server holds 0 RFID(s); taking the lowest free serial 1 (VNMAHEK0001)
+2026-09-22 15:09:41.335  I  SerialService: 'VN-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-MAHEK -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:09:41.428  I  SerialService: 'VN-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-MAHEK&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:09:41.521  I  SerialService: 'VN-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-MAHEK&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:09:41.533  I  SerialService: 'VN-MAHEK': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:09:41.536  I  SerialService: 'VN-MAHEK': server holds 0 RFID(s); taking the lowest free serial 1 (VNMAHEK0001)
+2026-09-22 15:09:42.226  I  Registration: Upload accepted for VNMAHEK0001: HTTP 200 {"updated":1,"tags":[{"id":3934,"epc":"VNMAHEK0001","itemCode":"VN-MAHEK","serialNo":1}]}
+2026-09-22 15:09:42.229  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:09:59.724  I  SerialService: 'VN-MAHEK': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VNMAHEK0002)
+2026-09-22 15:10:00.361  I  Registration: Upload accepted for VNMAHEK0002: HTTP 200 {"updated":1,"tags":[{"id":3935,"epc":"VNMAHEK0002","itemCode":"VN-MAHEK","serialNo":2}]}
+2026-09-22 15:10:00.363  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:10:20.907 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:10:28.525 12241 12241 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-22 15:10:29.143 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:10:30.931 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:10:30.931 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:10:30.933 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:10:30.933 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:10:30.933 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:10:30.933 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-22 15:10:31.901  I  SerialService: 'VN-HEER': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VNHEER0002)
+2026-09-22 15:10:33.131  I  SerialService: 'VN-HEER': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VNHEER0002)
+2026-09-22 15:10:34.201  I  Registration: Upload accepted for VNHEER0002: HTTP 200 {"updated":1,"tags":[{"id":3936,"epc":"VNHEER0002","itemCode":"VN-HEER","serialNo":2}]}
+2026-09-22 15:10:34.207  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:10:59.098  I  SerialService: 'VN-HEER': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (VNHEER0003)
+2026-09-22 15:11:00.063  I  Registration: Upload accepted for VNHEER0003: HTTP 200 {"updated":1,"tags":[{"id":3937,"epc":"VNHEER0003","itemCode":"VN-HEER","serialNo":3}]}
+2026-09-22 15:11:00.065  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:11:12.489 12241 12253 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-22 15:11:12.489 12241 12253 W System  : A resource failed to call SQLiteConnection.close. 
+09-22 15:11:12.489 12241 12253 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-22 15:11:12.489 12241 12253 W System  : A resource failed to call close. 
+09-22 15:11:12.777 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:11:24.863 12241 12271 W Parcel  : Expecting binder but got null!
+2026-09-22 15:11:29.725  I  SerialService: 'VN-RESHMA': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VNRESHMA0002)
+2026-09-22 15:11:31.012  I  SerialService: 'VN-RESHMA': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VNRESHMA0002)
+2026-09-22 15:11:31.701  I  Registration: Upload accepted for VNRESHMA0002: HTTP 200 {"updated":1,"tags":[{"id":3938,"epc":"VNRESHMA0002","itemCode":"VN-RESHMA","serialNo":2}]}
+2026-09-22 15:11:31.705  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:11:54.398  I  SerialService: 'VN-RESHMA': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (VNRESHMA0003)
+2026-09-22 15:11:55.213  I  Registration: Upload accepted for VNRESHMA0003: HTTP 200 {"updated":1,"tags":[{"id":3939,"epc":"VNRESHMA0003","itemCode":"VN-RESHMA","serialNo":3}]}
+2026-09-22 15:11:55.214  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:12:14.103 12241 12253 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-22 15:12:14.103 12241 12253 W System  : A resource failed to call SQLiteConnection.close. 
+09-22 15:12:14.103 12241 12253 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-22 15:12:14.103 12241 12253 W System  : A resource failed to call close. 
+2026-09-22 15:12:48.102  I  SerialService: 'VN-RESHMA': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (VNRESHMA0004)
+2026-09-22 15:12:48.889  I  Registration: Upload accepted for VNRESHMA0004: HTTP 200 {"updated":1,"tags":[{"id":3941,"epc":"VNRESHMA0004","itemCode":"VN-RESHMA","serialNo":4}]}
+2026-09-22 15:12:48.891  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:13:23.991  I  SerialService: 'VN-RESHMA': server holds 4 RFID(s) [1, 2, 3, 4]; taking the lowest free serial 5 (VNRESHMA0005)
+2026-09-22 15:13:24.966  I  Registration: Upload accepted for VNRESHMA0005: HTTP 200 {"updated":1,"tags":[{"id":3942,"epc":"VNRESHMA0005","itemCode":"VN-RESHMA","serialNo":5}]}
+2026-09-22 15:13:24.968  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:13:50.378 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:13:58.377 12241 12241 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-22 15:14:00.931 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:14:04.187 12241 12241 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-22 15:14:04.928  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:05.024  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:05.312  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:05.324  I  SerialService: 'VN-SANKH': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:14:05.325  I  SerialService: 'VN-SANKH': server holds 0 RFID(s); taking the lowest free serial 1 (VNSANKH0001)
+2026-09-22 15:14:05.657  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:05.752  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:05.846  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:05.861  I  SerialService: 'VN-SANKH': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:14:05.863  I  SerialService: 'VN-SANKH': server holds 0 RFID(s); taking the lowest free serial 1 (VNSANKH0001)
+2026-09-22 15:14:05.967  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:06.062  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:06.153  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:06.170  I  SerialService: 'VN-SANKH': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:14:06.171  I  SerialService: 'VN-SANKH': server holds 0 RFID(s); taking the lowest free serial 1 (VNSANKH0001)
+2026-09-22 15:14:09.580  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-22 15:14:09.651  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:09.747  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:09.844  I  SerialService: 'VN-SANKH': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SANKH&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:14:09.862  I  SerialService: 'VN-SANKH': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:14:09.864  I  SerialService: 'VN-SANKH': server holds 0 RFID(s); taking the lowest free serial 1 (VNSANKH0001)
+2026-09-22 15:14:11.301  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+09-22 15:14:12.254 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:14:12.254 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:14:12.255 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:14:12.256 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:14:12.256 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:14:12.256 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:14:12.257 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:14:12.257 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:14:12.258 12241 12253 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-22 15:14:12.258 12241 12253 W System  : A resource failed to call SQLiteConnection.close. 
+09-22 15:14:12.259 12241 12253 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-22 15:14:12.259 12241 12253 W System  : A resource failed to call close. 
+2026-09-22 15:14:12.328  I  Registration: Upload accepted for VNSANKH0001: HTTP 200 {"updated":1,"tags":[{"id":3944,"epc":"VNSANKH0001","itemCode":"VN-SANKH","serialNo":1}]}
+2026-09-22 15:14:12.331  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:14:34.862 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:14:47.769 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:14:50.332 12241 12241 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-22 15:14:50.638  I  SerialService: 'VN-LILLY': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VNLILLY0002)
+2026-09-22 15:14:52.247  I  SerialService: 'VN-LILLY': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VNLILLY0002)
+2026-09-22 15:14:53.069  I  Registration: Upload accepted for VNLILLY0002: HTTP 200 {"updated":1,"tags":[{"id":3946,"epc":"VNLILLY0002","itemCode":"VN-LILLY","serialNo":2}]}
+2026-09-22 15:14:53.074  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:15:22.746  I  SerialService: 'VN-LILLY': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (VNLILLY0003)
+2026-09-22 15:15:25.316  I  Registration: Upload accepted for VNLILLY0003: HTTP 200 {"updated":1,"tags":[{"id":3948,"epc":"VNLILLY0003","itemCode":"VN-LILLY","serialNo":3}]}
+2026-09-22 15:15:25.319  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:15:35.758 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:15:39.086 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:15:41.572 12241 12241 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-22 15:15:42.297  I  SerialService: 'VN-ZIC_ZAC': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ZIC_ZAC -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:15:42.394  I  SerialService: 'VN-ZIC_ZAC': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ZIC_ZAC&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:15:42.493  I  SerialService: 'VN-ZIC_ZAC': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ZIC_ZAC&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:15:42.507  I  SerialService: 'VN-ZIC_ZAC': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:15:42.508  I  SerialService: 'VN-ZIC_ZAC': server holds 0 RFID(s); taking the lowest free serial 1 (VNZIC_ZAC0001)
+2026-09-22 15:15:44.763  I  SerialService: 'VN-ZIC_ZAC': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ZIC_ZAC -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:15:44.855  I  SerialService: 'VN-ZIC_ZAC': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ZIC_ZAC&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:15:44.945  I  SerialService: 'VN-ZIC_ZAC': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ZIC_ZAC&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:15:44.964  I  SerialService: 'VN-ZIC_ZAC': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:15:44.967  I  SerialService: 'VN-ZIC_ZAC': server holds 0 RFID(s); taking the lowest free serial 1 (VNZIC_ZAC0001)
+2026-09-22 15:15:45.985  I  Registration: Upload accepted for VNZIC_ZAC0001: HTTP 200 {"updated":1,"tags":[{"id":3949,"epc":"VNZIC_ZAC0001","itemCode":"VN-ZIC_ZAC","serialNo":1}]}
+2026-09-22 15:15:45.987  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:15:57.975 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:15:57.976 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:15:57.977 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:15:57.978 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:15:57.978 12241 12253 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-22 15:15:57.978 12241 12253 W System  : A resource failed to call SQLiteConnection.close. 
+09-22 15:15:57.979 12241 12253 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-22 15:15:57.979 12241 12253 W System  : A resource failed to call close. 
+09-22 15:15:59.264 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:16:03.089 12241 12271 W Parcel  : Expecting binder but got null!
+2026-09-22 15:16:06.286  I  SerialService: 'VN-ORGANZAPITTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ORGANZAPITTA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:06.382  I  SerialService: 'VN-ORGANZAPITTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ORGANZAPITTA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:06.479  I  SerialService: 'VN-ORGANZAPITTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ORGANZAPITTA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:06.499  I  SerialService: 'VN-ORGANZAPITTA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:16:06.503  I  SerialService: 'VN-ORGANZAPITTA': server holds 0 RFID(s); taking the lowest free serial 1 (VNORGANZAPITTA0001)
+2026-09-22 15:16:09.447  I  SerialService: 'VN-ORGANZAPITTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ORGANZAPITTA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:09.545  I  SerialService: 'VN-ORGANZAPITTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ORGANZAPITTA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:09.641  I  SerialService: 'VN-ORGANZAPITTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ORGANZAPITTA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:09.651  I  SerialService: 'VN-ORGANZAPITTA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:16:09.652  I  SerialService: 'VN-ORGANZAPITTA': server holds 0 RFID(s); taking the lowest free serial 1 (VNORGANZAPITTA0001)
+2026-09-22 15:16:10.270  I  Registration: Upload accepted for VNORGANZAPITTA0001: HTTP 200 {"updated":1,"tags":[{"id":3950,"epc":"VNORGANZAPITTA0001","itemCode":"VN-ORGANZAPITTA","serialNo":1}]}
+2026-09-22 15:16:10.272  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:16:14.562 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:16:14.562 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:16:14.562 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:16:14.562 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:16:33.452 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:16:37.330 12241 12271 W Parcel  : Expecting binder but got null!
+2026-09-22 15:16:39.366  I  SerialService: 'VN-AKIRA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-AKIRA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:39.460  I  SerialService: 'VN-AKIRA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-AKIRA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:39.555  I  SerialService: 'VN-AKIRA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-AKIRA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:39.572  I  SerialService: 'VN-AKIRA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:16:39.574  I  SerialService: 'VN-AKIRA': server holds 0 RFID(s); taking the lowest free serial 1 (VNAKIRA0001)
+2026-09-22 15:16:40.710  I  SerialService: 'VN-AKIRA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-AKIRA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:40.808  I  SerialService: 'VN-AKIRA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-AKIRA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:40.908  I  SerialService: 'VN-AKIRA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-AKIRA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:16:40.930  I  SerialService: 'VN-AKIRA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:16:40.933  I  SerialService: 'VN-AKIRA': server holds 0 RFID(s); taking the lowest free serial 1 (VNAKIRA0001)
+2026-09-22 15:16:43.379  I  Registration: Upload accepted for VNAKIRA0001: HTTP 200 {"updated":1,"tags":[{"id":3951,"epc":"VNAKIRA0001","itemCode":"VN-AKIRA","serialNo":1}]}
+2026-09-22 15:16:43.382  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:16:55.052 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:16:58.082 12241 12241 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-22 15:16:58.233 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:16:58.233 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:16:58.233 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:16:58.233 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:16:58.702 12241 12271 W Parcel  : Expecting binder but got null!
+2026-09-22 15:17:03.756  I  SerialService: 'VN-BANDHEJBUTTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-BANDHEJBUTTA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:17:03.851  I  SerialService: 'VN-BANDHEJBUTTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-BANDHEJBUTTA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:17:03.944  I  SerialService: 'VN-BANDHEJBUTTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-BANDHEJBUTTA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:17:03.956  I  SerialService: 'VN-BANDHEJBUTTA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:17:03.960  I  SerialService: 'VN-BANDHEJBUTTA': server holds 0 RFID(s); taking the lowest free serial 1 (VNBANDHEJBUTTA0001)
+2026-09-22 15:17:04.563  I  SerialService: 'VN-BANDHEJBUTTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-BANDHEJBUTTA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:17:04.661  I  SerialService: 'VN-BANDHEJBUTTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-BANDHEJBUTTA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:17:04.755  I  SerialService: 'VN-BANDHEJBUTTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-BANDHEJBUTTA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:17:04.775  I  SerialService: 'VN-BANDHEJBUTTA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:17:04.777  I  SerialService: 'VN-BANDHEJBUTTA': server holds 0 RFID(s); taking the lowest free serial 1 (VNBANDHEJBUTTA0001)
+2026-09-22 15:17:05.544  I  Registration: Upload accepted for VNBANDHEJBUTTA0001: HTTP 200 {"updated":1,"tags":[{"id":3952,"epc":"VNBANDHEJBUTTA0001","itemCode":"VN-BANDHEJBUTTA","serialNo":1}]}
+2026-09-22 15:17:05.546  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:17:10.788 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:17:10.788 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:17:10.788 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:17:10.788 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:17:10.788 12241 12253 W System  : A resource failed to call close. 
+2026-09-22 15:17:12.302  I  SerialService: 'VN-BANDHEJBUTTA': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VNBANDHEJBUTTA0002)
+2026-09-22 15:17:12.946  I  Registration: Upload accepted for VNBANDHEJBUTTA0002: HTTP 200 {"updated":1,"tags":[{"id":3953,"epc":"VNBANDHEJBUTTA0002","itemCode":"VN-BANDHEJBUTTA","serialNo":2}]}
+2026-09-22 15:17:12.948  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:17:22.681  I  SerialService: 'VN-BANDHEJBUTTA': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (VNBANDHEJBUTTA0003)
+2026-09-22 15:17:23.657  I  Registration: Upload accepted for VNBANDHEJBUTTA0003: HTTP 200 {"updated":1,"tags":[{"id":3954,"epc":"VNBANDHEJBUTTA0003","itemCode":"VN-BANDHEJBUTTA","serialNo":3}]}
+2026-09-22 15:17:23.659  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:17:42.259 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:17:46.156 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:17:58.297 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:17:58.297 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:17:58.299 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:17:58.299 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:17:58.299 12241 12253 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-22 15:17:58.299 12241 12253 W System  : A resource failed to call SQLiteConnection.close. 
+09-22 15:17:58.300 12241 12253 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-09-22 15:18:10.591  I  SerialService: 'VN-HERRY1': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-HERRY1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:18:10.690  I  SerialService: 'VN-HERRY1': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-HERRY1&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:18:10.782  I  SerialService: 'VN-HERRY1': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-HERRY1&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:18:10.792  I  SerialService: 'VN-HERRY1': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:18:10.793  I  SerialService: 'VN-HERRY1': server holds 0 RFID(s); taking the lowest free serial 1 (VNHERRY10001)
+2026-09-22 15:18:11.628  I  SerialService: 'VN-HERRY1': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-HERRY1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:18:11.722  I  SerialService: 'VN-HERRY1': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-HERRY1&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:18:11.816  I  SerialService: 'VN-HERRY1': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-HERRY1&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:18:11.837  I  SerialService: 'VN-HERRY1': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:18:11.839  I  SerialService: 'VN-HERRY1': server holds 0 RFID(s); taking the lowest free serial 1 (VNHERRY10001)
+2026-09-22 15:18:12.988  I  Registration: Upload accepted for VNHERRY10001: HTTP 200 {"updated":1,"tags":[{"id":3956,"epc":"VNHERRY10001","itemCode":"VN-HERRY1","serialNo":1}]}
+2026-09-22 15:18:12.990  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:18:35.998 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:18:37.129 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:18:37.129 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:18:37.129 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:18:37.130 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:18:37.130 12241 12253 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-22 15:18:37.130 12241 12253 W System  : A resource failed to call SQLiteConnection.close. 
+09-22 15:18:37.130 12241 12253 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-22 15:18:37.130 12241 12253 W System  : A resource failed to call close. 
+09-22 15:19:02.868 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:19:05.516 12241 12241 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-22 15:19:05.612  I  SerialService: 'VN-SARIKA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SARIKA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:19:05.706  I  SerialService: 'VN-SARIKA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SARIKA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:19:05.807  I  SerialService: 'VN-SARIKA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SARIKA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:19:05.826  I  SerialService: 'VN-SARIKA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:19:05.827  I  SerialService: 'VN-SARIKA': server holds 0 RFID(s); taking the lowest free serial 1 (VNSARIKA0001)
+09-22 15:19:08.188 12241 12271 W Parcel  : Expecting binder but got null!
+2026-09-22 15:19:10.049  I  SerialService: 'VN-SAHIBA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SAHIBA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:19:10.152  I  SerialService: 'VN-SAHIBA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SAHIBA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:19:10.247  I  SerialService: 'VN-SAHIBA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SAHIBA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:19:10.267  I  SerialService: 'VN-SAHIBA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:19:10.269  I  SerialService: 'VN-SAHIBA': server holds 0 RFID(s); taking the lowest free serial 1 (VNSAHIBA0001)
+2026-09-22 15:19:11.226  I  SerialService: 'VN-SAHIBA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SAHIBA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:19:11.326  I  SerialService: 'VN-SAHIBA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SAHIBA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:19:11.426  I  SerialService: 'VN-SAHIBA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-SAHIBA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:19:11.444  I  SerialService: 'VN-SAHIBA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:19:11.445  I  SerialService: 'VN-SAHIBA': server holds 0 RFID(s); taking the lowest free serial 1 (VNSAHIBA0001)
+2026-09-22 15:19:12.079  I  Registration: Upload accepted for VNSAHIBA0001: HTTP 200 {"updated":1,"tags":[{"id":3958,"epc":"VNSAHIBA0001","itemCode":"VN-SAHIBA","serialNo":1}]}
+2026-09-22 15:19:12.081  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:19:22.161 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:19:22.161 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:19:22.161 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:19:22.162 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:19:22.165 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:19:22.165 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:20:01.626 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:20:05.284 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:20:07.440 12241 12241 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-22 15:20:08.461  I  SerialService: 'VN-NAREE': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-NAREE -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:08.560  I  SerialService: 'VN-NAREE': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-NAREE&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:08.776  I  SerialService: 'VN-NAREE': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-NAREE&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:08.789  I  SerialService: 'VN-NAREE': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:20:08.791  I  SerialService: 'VN-NAREE': server holds 0 RFID(s); taking the lowest free serial 1 (VNNAREE0001)
+2026-09-22 15:20:12.621  I  SerialService: 'VN-NAREE': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-NAREE -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:12.724  I  SerialService: 'VN-NAREE': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-NAREE&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:12.822  I  SerialService: 'VN-NAREE': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-NAREE&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:12.841  I  SerialService: 'VN-NAREE': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:20:12.843  I  SerialService: 'VN-NAREE': server holds 0 RFID(s); taking the lowest free serial 1 (VNNAREE0001)
+2026-09-22 15:20:13.498  I  Registration: Upload accepted for VNNAREE0001: HTTP 200 {"updated":1,"tags":[{"id":3959,"epc":"VNNAREE0001","itemCode":"VN-NAREE","serialNo":1}]}
+2026-09-22 15:20:13.500  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-22 15:20:29.879  I  SerialService: 'VN-NAREE': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VNNAREE0002)
+2026-09-22 15:20:30.570  I  Registration: Upload accepted for VNNAREE0002: HTTP 200 {"updated":1,"tags":[{"id":3960,"epc":"VNNAREE0002","itemCode":"VN-NAREE","serialNo":2}]}
+2026-09-22 15:20:30.572  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:20:41.528 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:20:41.528 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:20:41.530 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:20:41.530 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:20:41.530 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:20:41.530 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:20:41.530 12241 12253 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-22 15:20:41.530 12241 12253 W System  : A resource failed to call SQLiteConnection.close. 
+09-22 15:20:41.531 12241 12253 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-22 15:20:41.531 12241 12253 W System  : A resource failed to call close. 
+09-22 15:20:48.004 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:20:51.517 12241 12271 W Parcel  : Expecting binder but got null!
+09-22 15:20:53.392 12241 12241 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-22 15:20:53.543  I  SerialService: 'VN-ANUPAMA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ANUPAMA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:53.642  I  SerialService: 'VN-ANUPAMA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ANUPAMA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:53.736  I  SerialService: 'VN-ANUPAMA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ANUPAMA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:53.754  I  SerialService: 'VN-ANUPAMA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:20:53.755  I  SerialService: 'VN-ANUPAMA': server holds 0 RFID(s); taking the lowest free serial 1 (VNANUPAMA0001)
+2026-09-22 15:20:54.961  I  SerialService: 'VN-ANUPAMA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ANUPAMA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:55.054  I  SerialService: 'VN-ANUPAMA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ANUPAMA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:55.151  I  SerialService: 'VN-ANUPAMA': GET http://164.52.223.163:4636/api/device/products/mapped?search=VN-ANUPAMA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-22 15:20:55.167  I  SerialService: 'VN-ANUPAMA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-22 15:20:55.169  I  SerialService: 'VN-ANUPAMA': server holds 0 RFID(s); taking the lowest free serial 1 (VNANUPAMA0001)
+2026-09-22 15:20:55.865  I  Registration: Upload accepted for VNANUPAMA0001: HTTP 200 {"updated":1,"tags":[{"id":3961,"epc":"VNANUPAMA0001","itemCode":"VN-ANUPAMA","serialNo":1}]}
+2026-09-22 15:20:55.867  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-22 15:21:01.675 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:21:01.675 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
+09-22 15:21:01.676 12241 12253 W System  : A resource failed to call CursorWindow.close. 
+09-22 15:21:01.676 12241 12253 W System  : A resource failed to call AbstractCursor.close. 
