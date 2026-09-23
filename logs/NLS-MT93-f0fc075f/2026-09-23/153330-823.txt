@@ -1,0 +1,89 @@
+# pushed 2026-09-23 15:33:30.823 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 347323..358217
+
+2026-09-23 15:32:56.213  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=<not configured> location=TITLI NEEMUCH
+2026-09-23 15:32:56.224  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-f0fc075f
+--------- beginning of main
+09-23 15:32:56.393 23772 23772 W hionapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+09-23 15:32:56.407 23772 23807 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(Unknown Source:0)
+09-23 15:32:56.407 23772 23807 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+09-23 15:32:56.407 23772 23807 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+09-23 15:32:56.452 23772 23772 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+09-23 15:32:56.529 23772 23801 W Parcel  : Expecting binder but got null!
+09-23 15:32:59.893 23772 23939 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-23 15:32:59.893 23772 23939 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+09-23 15:32:59.893 23772 23939 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-23 15:32:59.893 23772 23939 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-23 15:32:59.894 23772 23939 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-23 15:32:59.894 23772 23939 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-23 15:32:59.894 23772 23939 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-23 15:32:59.894 23772 23939 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-23 15:32:59.894 23772 23939 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-23 15:32:59.895 23772 23939 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-23 15:32:59.895 23772 23939 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-23 15:32:59.895 23772 23939 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-23 15:32:59.895 23772 23939 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-23 15:32:59.895 23772 23939 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+09-23 15:32:59.895 23772 23939 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-23 15:32:59.895 23772 23939 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+09-23 15:32:59.911 23772 23801 W Parcel  : Expecting binder but got null!
+09-23 15:33:00.008 23772 23801 W Parcel  : Expecting binder but got null!
+09-23 15:33:04.130 23772 23772 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+09-23 15:33:04.130 23772 23772 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-23 15:33:06.628 23772 23784 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-23 15:33:06.628 23772 23784 W System  : A resource failed to call SQLiteConnection.close. 
+09-23 15:33:06.630 23772 23784 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-23 15:33:06.630 23772 23784 W System  : A resource failed to call close. 
+09-23 15:33:06.642 23772 23983 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-23 15:33:06.642 23772 23983 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+09-23 15:33:06.642 23772 23983 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-23 15:33:06.642 23772 23983 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-23 15:33:06.642 23772 23983 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-23 15:33:06.642 23772 23983 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-23 15:33:06.642 23772 23983 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-23 15:33:06.642 23772 23983 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-23 15:33:06.645 23772 23983 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-23 15:33:06.645 23772 23983 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-23 15:33:06.645 23772 23983 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-23 15:33:06.645 23772 23983 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-23 15:33:06.647 23772 23983 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-23 15:33:06.647 23772 23983 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+09-23 15:33:06.647 23772 23983 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-23 15:33:06.647 23772 23983 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+09-23 15:33:06.671 23772 23801 W Parcel  : Expecting binder but got null!
+09-23 15:33:06.748 23772 23801 W Parcel  : Expecting binder but got null!
+09-23 15:33:09.494 23772 23772 W libc    : Access denied finding property "vendor.scroll.fpsgo.release"
+09-23 15:33:27.150 23772 23995 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-23 15:33:27.150 23772 23995 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+09-23 15:33:27.151 23772 23995 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-23 15:33:27.151 23772 23995 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+09-23 15:33:27.174 23772 23801 W Parcel  : Expecting binder but got null!
+09-23 15:33:27.243 23772 23801 W Parcel  : Expecting binder but got null!
+2026-09-23 15:33:28.744  I  Net: wifi connected
+2026-09-23 15:33:28.747  W  Net: wifi is up but has NO internet (rssi -27 dBm)
+2026-09-23 15:33:28.759  I  Net: wifi has internet (rssi -27 dBm)
