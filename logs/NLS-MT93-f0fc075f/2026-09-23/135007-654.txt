@@ -1,0 +1,103 @@
+# pushed 2026-09-23 13:50:07.654 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 308352..321428
+
+2026-09-23 13:41:20.792  I  UhfSession: UHF reader powered down: app moved to the background
+09-23 13:41:24.135 21401 21401 E SurfaceSyncer: Failed to find sync for id=0
+09-23 13:41:24.135 21401 21401 E SurfaceSyncer: Failed to find sync for id=1
+09-23 13:41:24.135 21401 21401 E SurfaceSyncer: Failed to find sync for id=2
+09-23 13:41:25.404 21401 21432 W Parcel  : Expecting binder but got null!
+2026-09-23 13:41:26.602  W  UhfSession: Could not power up the UHF reader
+2026-09-23 13:41:29.290  I  UhfSession: UHF reader powered up
+09-23 13:41:33.547 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-23 13:41:36.304 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:41:40.074 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:42:53.446 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-23 13:42:54.975  I  SerialService: 'LD-RAKHI': server holds 5 RFID(s) [1, 2, 3, 4, 5]; taking the lowest free serial 6 (LDRAKHI0006)
+2026-09-23 13:42:58.156  I  SerialService: 'LD-RAKHI': server holds 5 RFID(s) [1, 2, 3, 4, 5]; taking the lowest free serial 6 (LDRAKHI0006)
+2026-09-23 13:42:58.478  I  SerialService: 'LD-RAKHI': server holds 5 RFID(s) [1, 2, 3, 4, 5]; taking the lowest free serial 6 (LDRAKHI0006)
+2026-09-23 13:43:01.360  I  SerialService: 'LD-RAKHI': server holds 5 RFID(s) [1, 2, 3, 4, 5]; taking the lowest free serial 6 (LDRAKHI0006)
+2026-09-23 13:43:02.843  I  Registration: Upload accepted for LDRAKHI0006: HTTP 200 {"updated":1,"tags":[{"id":4113,"epc":"LDRAKHI0006","itemCode":"LD-RAKHI","serialNo":6}]}
+2026-09-23 13:43:02.844  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-23 13:43:03.611  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+09-23 13:43:03.877 21401 22294 W System.err: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: serialized_tags.epc (code 1555 SQLITE_CONSTRAINT_PRIMARYKEY)
+2026-09-23 13:43:03.877  E  Registration: EPC collision: LDRAKHI0006 (seq 6, item LD-RAKHI) already exists in serialized_tags - the allocator handed out a number already in use
+09-23 13:43:03.877 21401 22294 W System.err: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+09-23 13:43:03.877 21401 22294 W System.err: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:961)
+09-23 13:43:03.877 21401 22294 W System.err: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+09-23 13:43:03.877 21401 22294 W System.err: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+09-23 13:43:03.877 21401 22294 W System.err: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1868)
+09-23 13:43:03.877 21401 22294 W System.err: 	at com.poxo.tittlifashionapplication.data.AssetRepository.insertSerializedTag(AssetRepository.kt:933)
+09-23 13:43:03.877 21401 22294 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.saveAndUploadTag$lambda$40(RegistrationActivity.kt:681)
+09-23 13:43:03.877 21401 22294 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$vEOmhcXKW5Icm-iJ04auOYnUTE8(Unknown Source:0)
+09-23 13:43:03.877 21401 22294 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda60.run(D8$$SyntheticClass:0)
+09-23 13:43:03.877 21401 22294 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+09-23 13:43:34.569 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:43:39.633 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-23 13:43:40.547 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:43:51.258 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-23 13:43:51.582  I  SerialService: 'LD-PRINCESS': server holds 7 RFID(s) [1, 2, 3, 4, 5, 6, 7]; taking the lowest free serial 8 (LDPRINCESS0008)
+2026-09-23 13:43:53.401  I  SerialService: 'LD-PRINCESS': server holds 7 RFID(s) [1, 2, 3, 4, 5, 6, 7]; taking the lowest free serial 8 (LDPRINCESS0008)
+2026-09-23 13:43:54.040  I  Registration: Upload accepted for LDPRINCESS0008: HTTP 200 {"updated":1,"tags":[{"id":4115,"epc":"LDPRINCESS0008","itemCode":"LD-PRINCESS","serialNo":8}]}
+2026-09-23 13:43:54.042  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-23 13:43:57.855 21401 21413 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-23 13:43:57.855 21401 21413 W System  : A resource failed to call SQLiteConnection.close. 
+09-23 13:43:57.856 21401 21413 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-23 13:43:57.856 21401 21413 W System  : A resource failed to call close. 
+09-23 13:44:18.107 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:44:42.612 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-23 13:44:44.089 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:44:54.161 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-23 13:44:55.072 21401 21432 W Parcel  : Expecting binder but got null!
+2026-09-23 13:44:59.817  I  SerialService: 'LD-SUMMERCOOL': server holds 6 RFID(s) [1, 2, 3, 4, 5, 6]; taking the lowest free serial 7 (LDSUMMERCOOL0007)
+2026-09-23 13:45:03.837  I  SerialService: 'LD-SUMMERCOOL': server holds 6 RFID(s) [1, 2, 3, 4, 5, 6]; taking the lowest free serial 7 (LDSUMMERCOOL0007)
+2026-09-23 13:45:05.470  I  Registration: Upload accepted for LDSUMMERCOOL0007: HTTP 200 {"updated":1,"tags":[{"id":4119,"epc":"LDSUMMERCOOL0007","itemCode":"LD-SUMMERCOOL","serialNo":7}]}
+2026-09-23 13:45:05.471  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-23 13:45:32.873 21401 21413 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-23 13:45:32.874 21401 21413 W System  : A resource failed to call SQLiteConnection.close. 
+09-23 13:45:32.874 21401 21413 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-23 13:45:32.875 21401 21413 W System  : A resource failed to call close. 
+09-23 13:45:35.969 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:45:39.863 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-23 13:45:40.834 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:45:43.925 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-23 13:45:44.263  I  SerialService: 'LD-CHANDANI': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (LDCHANDANI0002)
+2026-09-23 13:45:54.103  I  SerialService: 'LD-CHANDANI': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (LDCHANDANI0002)
+2026-09-23 13:45:55.733  I  Registration: Upload accepted for LDCHANDANI0002: HTTP 200 {"updated":1,"tags":[{"id":4121,"epc":"LDCHANDANI0002","itemCode":"LD-CHANDANI","serialNo":2}]}
+2026-09-23 13:45:55.736  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-23 13:46:43.735 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:47:15.672 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-23 13:47:16.337 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:47:20.096 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-23 13:47:21.334  I  SerialService: 'LD-SAPTRANGI': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (LDSAPTRANGI0003)
+2026-09-23 13:47:22.644  I  SerialService: 'LD-SAPTRANGI': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (LDSAPTRANGI0003)
+2026-09-23 13:47:23.417  I  Registration: Upload accepted for LDSAPTRANGI0003: HTTP 200 {"updated":1,"tags":[{"id":4124,"epc":"LDSAPTRANGI0003","itemCode":"LD-SAPTRANGI","serialNo":3}]}
+2026-09-23 13:47:23.420  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-23 13:47:34.716 21401 21413 W System  : A resource failed to call close. 
+09-23 13:47:45.951 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:48:08.677 21401 21413 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-23 13:48:08.677 21401 21413 W System  : A resource failed to call SQLiteConnection.close. 
+09-23 13:48:08.677 21401 21413 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-23 13:48:12.236 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-23 13:48:12.826 21401 21432 W Parcel  : Expecting binder but got null!
+09-23 13:48:54.259 21401 21401 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-23 13:48:57.462  I  SerialService: 'LD-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAHEK -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-23 13:48:57.566  I  SerialService: 'LD-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAHEK&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-23 13:48:57.669  I  SerialService: 'LD-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAHEK&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-23 13:48:57.687  I  SerialService: 'LD-MAHEK': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-23 13:48:57.688  I  SerialService: 'LD-MAHEK': server holds 0 RFID(s); taking the lowest free serial 1 (LDMAHEK0001)
+2026-09-23 13:48:57.898  I  SerialService: 'LD-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAHEK -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-23 13:48:58.003  I  SerialService: 'LD-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAHEK&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-23 13:48:58.108  I  SerialService: 'LD-MAHEK': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAHEK&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-23 13:48:58.127  I  SerialService: 'LD-MAHEK': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-23 13:48:58.129  I  SerialService: 'LD-MAHEK': server holds 0 RFID(s); taking the lowest free serial 1 (LDMAHEK0001)
+2026-09-23 13:48:58.931  I  Registration: Upload accepted for LDMAHEK0001: HTTP 200 {"updated":1,"tags":[{"id":4129,"epc":"LDMAHEK0001","itemCode":"LD-MAHEK","serialNo":1}]}
+2026-09-23 13:48:58.933  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-23 13:49:13.575 21401 21413 W System  : A resource failed to call CursorWindow.close. 
+09-23 13:49:13.575 21401 21413 W System  : A resource failed to call AbstractCursor.close. 
+09-23 13:49:13.576 21401 21413 W System  : A resource failed to call CursorWindow.close. 
+09-23 13:49:13.576 21401 21413 W System  : A resource failed to call AbstractCursor.close. 
+09-23 13:49:13.576 21401 21413 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-23 13:49:13.576 21401 21413 W System  : A resource failed to call SQLiteConnection.close. 
+09-23 13:49:13.576 21401 21413 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-23 13:49:13.576 21401 21413 W System  : A resource failed to call close. 
