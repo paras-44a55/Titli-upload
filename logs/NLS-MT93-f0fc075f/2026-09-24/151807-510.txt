@@ -1,0 +1,57 @@
+# pushed 2026-09-24 15:18:07.510 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 394670..400147
+
+2026-09-24 14:56:54.345  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-24 15:09:47.923  W  Net: wifi DISCONNECTED — link had been up for 2868s
+2026-09-24 15:17:22.850  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-24 15:17:23.879  I  Net: Blank Audit: closed, releasing the UHF module
+2026-09-24 15:17:25.399  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity.syncMappedProductsOnOpen$lambda$14(ReWriteActivity.kt:132)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity.$r8$lambda$oU5CZog7OG5XmnfdZWoOlneDId0(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+09-24 15:17:25.466 26661 26697 W Parcel  : Expecting binder but got null!
+09-24 15:17:26.893 26661 26661 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+09-24 15:17:26.893 26661 26661 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+2026-09-24 15:17:27.186  I  UhfSession: UHF reader powered up
+09-24 15:17:28.041 26661 26697 W Parcel  : Expecting binder but got null!
+09-24 15:17:30.454 26661 26661 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-24 15:17:30.646 26661 26661 W RemoteInputConnectionImpl: requestCursorAnchorInfo on inactive InputConnection
+09-24 15:17:30.663 26661 26661 E ImeBackDispatcher: Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 86510605
+2026-09-24 15:17:35.588  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-24 15:17:41.150  I  Net: wifi connected
+2026-09-24 15:17:41.153  W  Net: wifi is up but has NO internet (rssi -50 dBm)
+2026-09-24 15:17:41.174  I  Net: wifi has internet (rssi -50 dBm)
+09-24 15:17:44.010 26661 26697 W Parcel  : Expecting binder but got null!
+09-24 15:17:44.715 26661 26661 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+09-24 15:17:44.715 26661 26661 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-24 15:17:45.402 26661 26679 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 15:17:45.402 26661 26679 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 15:17:45.403 26661 26679 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 15:17:45.403 26661 26679 W System  : A resource failed to call close. 
+2026-09-24 15:17:46.485  W  UhfSession: Could not power up the UHF reader
+09-24 15:17:47.109 26661 26679 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 15:17:47.109 26661 26679 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 15:17:47.112 26661 26679 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 15:17:47.113 26661 26679 W System  : A resource failed to call close. 
+09-24 15:17:47.119 26661 26679 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 15:17:47.119 26661 26679 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 15:17:47.120 26661 26679 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 15:17:47.121 26661 26679 W System  : A resource failed to call close. 
+09-24 15:17:49.501 26661 26697 W Parcel  : Expecting binder but got null!
