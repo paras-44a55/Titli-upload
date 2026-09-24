@@ -1,0 +1,574 @@
+# pushed 2026-09-24 16:18:49.319 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 31065..103874
+
+09-24 15:48:58.403  4340  4353 W System  : A resource failed to call close. 
+09-24 15:48:58.403  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 15:48:58.403  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 15:48:58.404  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 15:48:58.411  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 15:48:58.427  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 15:49:13.765  I  SerialService: 'PGH-9160-2': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH916020002)
+2026-09-24 15:49:14.909  I  Registration: Upload accepted for PGH916020002: HTTP 200 {"updated":1,"tags":[{"id":4964,"epc":"PGH916020002","itemCode":"PGH-9160-2","serialNo":2}]}
+2026-09-24 15:49:14.915  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 15:49:34.516  I  SerialService: 'PGH-9160-2': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PGH916020003)
+09-24 15:49:35.076  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 15:49:35.109  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 15:49:35.507  I  Registration: Upload accepted for PGH916020003: HTTP 200 {"updated":1,"tags":[{"id":4965,"epc":"PGH916020003","itemCode":"PGH-9160-2","serialNo":3}]}
+2026-09-24 15:49:35.511  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 15:50:15.536  I  SerialService: 'PGH-9160-2': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (PGH916020004)
+2026-09-24 15:50:16.574  I  Registration: Upload accepted for PGH916020004: HTTP 200 {"updated":1,"tags":[{"id":4966,"epc":"PGH916020004","itemCode":"PGH-9160-2","serialNo":4}]}
+2026-09-24 15:50:16.581  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-24 15:50:43.206  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 15:50:46.945  W  Net: wifi DISCONNECTED — link had been up for 239s
+2026-09-24 15:50:47.714  I  Net: wifi connected
+2026-09-24 15:50:47.720  W  Net: wifi is up but has NO internet (rssi -71 dBm)
+2026-09-24 15:50:47.922  I  Net: wifi has internet (rssi -71 dBm)
+09-24 15:50:56.007  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@93e6e92
+09-24 15:50:56.034  4340  4340 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-24 15:50:59.987  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@193a98e
+2026-09-24 15:51:05.601  I  SerialService: 'PGH-9189': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9189 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:51:05.669  I  SerialService: 'PGH-9189': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9189&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:51:05.730  I  SerialService: 'PGH-9189': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9189&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:51:05.758  I  SerialService: 'PGH-9189': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 15:51:05.761  I  SerialService: 'PGH-9189': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91890001)
+2026-09-24 15:51:12.669  I  SerialService: 'PGH-9189': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9189 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:51:12.732  I  SerialService: 'PGH-9189': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9189&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:51:12.793  I  SerialService: 'PGH-9189': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9189&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:51:12.825  I  SerialService: 'PGH-9189': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 15:51:12.827  I  SerialService: 'PGH-9189': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91890001)
+2026-09-24 15:51:13.856  I  Registration: Upload accepted for PGH91890001: HTTP 200 {"updated":1,"tags":[{"id":4967,"epc":"PGH91890001","itemCode":"PGH-9189","serialNo":1}]}
+2026-09-24 15:51:13.859  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 15:51:26.353  I  SerialService: 'PGH-9189': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH91890002)
+2026-09-24 15:51:27.408  I  Registration: Upload accepted for PGH91890002: HTTP 200 {"updated":1,"tags":[{"id":4968,"epc":"PGH91890002","itemCode":"PGH-9189","serialNo":2}]}
+2026-09-24 15:51:27.411  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-24 15:51:35.048  4340  4353 W System  : A resource failed to call close. 
+09-24 15:51:35.048  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 15:51:35.048  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 15:51:35.048  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 15:51:35.051  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 15:51:35.055  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 15:51:35.073  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 15:51:40.694  I  SerialService: 'PGH-9189': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PGH91890003)
+2026-09-24 15:51:41.725  I  Registration: Upload accepted for PGH91890003: HTTP 200 {"updated":1,"tags":[{"id":4969,"epc":"PGH91890003","itemCode":"PGH-9189","serialNo":3}]}
+2026-09-24 15:51:41.730  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 15:51:51.078  W  Net: wifi DISCONNECTED — link had been up for 63s
+2026-09-24 15:51:51.725  I  Net: wifi connected
+2026-09-24 15:51:51.726  W  Net: wifi is up but has NO internet (rssi -71 dBm)
+2026-09-24 15:51:51.892  I  Net: wifi has internet (rssi -71 dBm)
+2026-09-24 15:51:52.096  I  SerialService: 'PGH-9189': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (PGH91890004)
+2026-09-24 15:51:53.150  I  Registration: Upload accepted for PGH91890004: HTTP 200 {"updated":1,"tags":[{"id":4970,"epc":"PGH91890004","itemCode":"PGH-9189","serialNo":4}]}
+2026-09-24 15:51:53.157  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 15:52:06.761  W  Net: wifi DISCONNECTED — link had been up for 15s
+2026-09-24 15:52:07.390  I  Net: wifi connected
+2026-09-24 15:52:07.392  W  Net: wifi is up but has NO internet (rssi -73 dBm)
+2026-09-24 15:52:07.525  I  Net: wifi has internet (rssi -73 dBm)
+09-24 15:52:09.776  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 15:52:09.833  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 15:53:01.703  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e377c1a
+09-24 15:53:01.736  4340  4340 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-24 15:53:03.049  W  Net: wifi DISCONNECTED — link had been up for 55s
+2026-09-24 15:53:03.825  I  Net: wifi connected
+2026-09-24 15:53:03.827  W  Net: wifi is up but has NO internet (rssi -72 dBm)
+2026-09-24 15:53:03.954  I  Net: wifi has internet (rssi -72 dBm)
+09-24 15:53:05.268  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@16423fb
+2026-09-24 15:53:10.486  I  SerialService: 'PGH-9165': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9165 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:53:10.557  I  SerialService: 'PGH-9165': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9165&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:53:10.619  I  SerialService: 'PGH-9165': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9165&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:53:10.645  I  SerialService: 'PGH-9165': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 15:53:10.648  I  SerialService: 'PGH-9165': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91650001)
+2026-09-24 15:53:12.523  I  SerialService: 'PGH-9165': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9165 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:53:12.593  I  SerialService: 'PGH-9165': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9165&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:53:12.671  I  SerialService: 'PGH-9165': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9165&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 15:53:12.708  I  SerialService: 'PGH-9165': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 15:53:12.710  I  SerialService: 'PGH-9165': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91650001)
+2026-09-24 15:53:13.773  I  Registration: Upload accepted for PGH91650001: HTTP 200 {"updated":1,"tags":[{"id":4971,"epc":"PGH91650001","itemCode":"PGH-9165","serialNo":1}]}
+2026-09-24 15:53:13.782  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 15:53:28.889  I  SerialService: 'PGH-9165': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH91650002)
+2026-09-24 15:53:29.926  I  Registration: Upload accepted for PGH91650002: HTTP 200 {"updated":1,"tags":[{"id":4972,"epc":"PGH91650002","itemCode":"PGH-9165","serialNo":2}]}
+2026-09-24 15:53:29.929  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-24 15:53:31.810  4340  4353 W System  : A resource failed to call close. 
+09-24 15:53:31.810  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 15:53:31.810  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 15:53:31.810  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 15:53:31.818  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 15:53:31.822  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 15:53:31.850  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 15:53:44.967  I  SerialService: 'PGH-9165': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PGH91650003)
+2026-09-24 15:53:45.992  I  Registration: Upload accepted for PGH91650003: HTTP 200 {"updated":1,"tags":[{"id":4973,"epc":"PGH91650003","itemCode":"PGH-9165","serialNo":3}]}
+2026-09-24 15:53:45.995  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-24 15:53:54.926  4340  8246 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#74(BLAST Consumer)74](id:10f400000052,api:4,p:1495,c:4340) queueBuffer: BufferQueue has been abandoned
+09-24 15:53:54.933  4340  8246 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#74(BLAST Consumer)74](id:10f400000052,api:4,p:1495,c:4340) dequeueBuffer: BufferQueue has been abandoned
+09-24 15:53:54.946  4340  8246 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#74(BLAST Consumer)74](id:10f400000052,api:4,p:1495,c:4340) queueBuffer: BufferQueue has been abandoned
+09-24 15:53:54.951  4340  4502 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#74(BLAST Consumer)74](id:10f400000052,api:4,p:1495,c:4340) queueBuffer: BufferQueue has been abandoned
+09-24 15:53:54.979  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@213ccbd
+09-24 15:53:54.993  4340  8246 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#74(BLAST Consumer)74](id:10f400000052,api:4,p:1495,c:4340) queueBuffer: BufferQueue has been abandoned
+09-24 15:53:55.010  4340  8246 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#74(BLAST Consumer)74](id:10f400000052,api:4,p:1495,c:4340) cancelBuffer: BufferQueue has been abandoned
+09-24 15:53:55.026  4340  4502 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#74(BLAST Consumer)74](id:10f400000052,api:4,p:1495,c:4340) cancelBuffer: BufferQueue has been abandoned
+09-24 15:53:55.029  4340  6940 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#74(BLAST Consumer)74](id:10f400000052,api:4,p:1495,c:4340) cancelBuffer: BufferQueue has been abandoned
+2026-09-24 15:53:58.253  I  ProductSync: unmapped for location 2 needed 7 page(s): 1310 row(s), server reported 1310
+09-24 15:53:59.354  4340  4353 W System  : A resource failed to call CursorWindow.close. 
+09-24 15:53:59.354  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 15:53:59.762  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-24 15:54:05.233  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@944f684
+2026-09-24 15:54:06.408  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-24 15:54:06.409  I  Net: Blank Audit: mapped-product sync started
+2026-09-24 15:54:06.411  I  Net: Blank Audit: local products still fresh, no sync needed
+09-24 15:54:06.860  4340  4353 W System  : A resource failed to call close. 
+09-24 15:54:06.860  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 15:54:06.860  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 15:54:06.861  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 15:54:06.862  4340  4353 W System  : A resource failed to call close. 
+09-24 15:54:06.869  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 15:54:06.869  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 15:54:06.869  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 15:54:08.119  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f2e972
+2026-09-24 15:54:08.924  W  UhfSession: Could not power up the UHF reader
+09-24 15:54:18.915  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@23e08a0
+2026-09-24 15:54:23.678  I  UhfSession: UHF reader powered up
+2026-09-24 15:55:18.917  W  Net: wifi DISCONNECTED — link had been up for 135s
+2026-09-24 15:55:19.427  I  Net: wifi connected
+2026-09-24 15:55:19.428  W  Net: wifi is up but has NO internet (rssi -73 dBm)
+2026-09-24 15:55:19.470  I  Net: wifi has internet (rssi -73 dBm)
+2026-09-24 15:55:27.351  W  Net: wifi DISCONNECTED — link had been up for 7s
+2026-09-24 15:55:27.774  I  Net: wifi connected
+2026-09-24 15:55:27.776  W  Net: wifi is up but has NO internet (rssi -85 dBm)
+2026-09-24 15:55:27.784  I  Net: wifi has internet (rssi -85 dBm)
+2026-09-24 15:55:42.909  W  Net: wifi DISCONNECTED — link had been up for 15s
+2026-09-24 15:55:43.309  I  Net: wifi connected
+2026-09-24 15:55:43.313  W  Net: wifi is up but has NO internet (rssi -78 dBm)
+2026-09-24 15:55:43.328  I  Net: wifi has internet (rssi -78 dBm)
+09-24 15:56:24.180  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9f2343b
+2026-09-24 15:56:25.015  I  Net: Blank Audit: closed, releasing the UHF module
+09-24 15:56:25.024  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@df1353e
+2026-09-24 15:56:30.299  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-24 15:56:36.887  I  ProductSync: unmapped for location 2 needed 7 page(s): 1311 row(s), server reported 1311
+09-24 15:56:43.583  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@be9137b
+09-24 15:56:44.604  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 15:56:44.604  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 15:56:44.605  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 15:56:44.605  4340  4353 W System  : A resource failed to call close. 
+09-24 15:56:44.605  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 15:56:44.605  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 15:56:44.605  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 15:56:44.605  4340  4353 W System  : A resource failed to call close. 
+2026-09-24 15:56:44.696  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-24 15:56:44.697  I  Net: Blank Audit: mapped-product sync started
+2026-09-24 15:56:44.698  I  Net: Blank Audit: local products still fresh, no sync needed
+2026-09-24 15:56:47.207  W  UhfSession: Could not power up the UHF reader
+09-24 15:56:49.485  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@26a1e7
+2026-09-24 15:56:50.984  I  UhfSession: UHF reader powered up
+09-24 15:57:04.058  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@51559f4
+2026-09-24 15:57:11.013  W  Net: wifi DISCONNECTED — link had been up for 87s
+2026-09-24 15:57:11.392  I  Net: wifi connected
+2026-09-24 15:57:11.394  W  Net: wifi is up but has NO internet (rssi -78 dBm)
+2026-09-24 15:57:11.414  I  Net: wifi has internet (rssi -78 dBm)
+09-24 15:57:56.627  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e0dbf93
+2026-09-24 15:57:57.277  I  Net: Blank Audit: closed, releasing the UHF module
+09-24 15:57:57.283  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6badf5f
+2026-09-24 15:58:06.949  W  Net: wifi DISCONNECTED — link had been up for 55s
+2026-09-24 15:58:07.461  I  Net: wifi connected
+2026-09-24 15:58:07.463  W  Net: wifi is up but has NO internet (rssi -66 dBm)
+2026-09-24 15:58:07.478  I  Net: wifi has internet (rssi -66 dBm)
+09-24 15:59:10.363  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a932857
+09-24 15:59:17.315  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@79f13e0
+09-24 15:59:27.748  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3b7e3c2
+09-24 15:59:51.615  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@142dee9
+09-24 15:59:51.623  4340  4340 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-24 16:00:01.212  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e4dbb9a
+2026-09-24 16:00:02.355  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-24 16:00:02.355  I  Net: Blank Audit: mapped-product sync started
+2026-09-24 16:00:02.356  I  Net: Blank Audit: local products still fresh, no sync needed
+2026-09-24 16:00:05.473  I  Net: Blank Audit: closed, releasing the UHF module
+09-24 16:00:05.479  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ec83347
+2026-09-24 16:00:07.716  I  ProductSync: unmapped for location 2 needed 7 page(s): 1311 row(s), server reported 1311
+09-24 16:00:07.830  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:00:07.830  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:00:07.831  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:00:07.831  4340  4353 W System  : A resource failed to call close. 
+09-24 16:00:07.836  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:00:07.836  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:00:07.837  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:00:07.837  4340  4353 W System  : A resource failed to call close. 
+09-24 16:00:07.837  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:00:07.837  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:00:07.837  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:00:07.837  4340  4353 W System  : A resource failed to call close. 
+09-24 16:00:07.838  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:00:07.838  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:00:07.839  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:00:07.839  4340  4353 W System  : A resource failed to call close. 
+2026-09-24 16:00:09.895  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-24 16:00:15.077  W  Net: wifi DISCONNECTED — link had been up for 127s
+09-24 16:00:15.214  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2b0d2d
+2026-09-24 16:00:15.559  I  Net: wifi connected
+2026-09-24 16:00:15.562  W  Net: wifi is up but has NO internet (rssi -77 dBm)
+2026-09-24 16:00:15.583  I  Net: wifi has internet (rssi -77 dBm)
+2026-09-24 16:00:17.231  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-24 16:00:17.232  I  Net: Blank Audit: mapped-product sync started
+2026-09-24 16:00:17.233  I  Net: Blank Audit: local products still fresh, no sync needed
+09-24 16:00:17.264  4340  4353 W System  : A resource failed to call close. 
+09-24 16:00:17.264  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:00:17.264  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:00:17.264  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:00:17.266  4340  4353 W System  : A resource failed to call close. 
+09-24 16:00:17.266  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:00:17.266  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:00:17.266  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:00:17.267  4340  4353 W System  : A resource failed to call close. 
+09-24 16:00:17.267  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:00:17.268  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:00:17.268  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:00:17.269  4340  4353 W System  : A resource failed to call close. 
+09-24 16:00:17.269  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:00:17.269  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:00:17.269  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:00:17.269  4340  4353 W System  : A resource failed to call close. 
+09-24 16:00:17.269  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:00:17.269  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:00:17.269  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:00:19.560  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bce20b6
+2026-09-24 16:00:19.743  W  UhfSession: Could not power up the UHF reader
+2026-09-24 16:00:22.413  I  UhfSession: UHF reader powered up
+09-24 16:00:27.001  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6679b31
+2026-09-24 16:00:31.104  W  Net: wifi DISCONNECTED — link had been up for 15s
+2026-09-24 16:00:32.525  I  Net: wifi connected
+2026-09-24 16:00:32.526  W  Net: wifi is up but has NO internet (rssi -74 dBm)
+2026-09-24 16:00:32.541  I  Net: wifi has internet (rssi -74 dBm)
+09-24 16:01:40.174  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d0812bc
+2026-09-24 16:01:40.857  I  Net: Blank Audit: closed, releasing the UHF module
+09-24 16:01:40.866  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e41fae3
+09-24 16:02:32.901  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@169962b
+2026-09-24 16:02:39.189  W  Net: wifi DISCONNECTED — link had been up for 126s
+2026-09-24 16:02:39.729  I  Net: wifi connected
+2026-09-24 16:02:39.731  W  Net: wifi is up but has NO internet (rssi -78 dBm)
+2026-09-24 16:02:39.751  I  Net: wifi has internet (rssi -78 dBm)
+09-24 16:02:43.719  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a1796d0
+2026-09-24 16:02:55.201  W  Net: wifi DISCONNECTED — link had been up for 15s
+2026-09-24 16:02:55.818  I  Net: wifi connected
+2026-09-24 16:02:55.819  W  Net: wifi is up but has NO internet (rssi -73 dBm)
+2026-09-24 16:02:55.835  I  Net: wifi has internet (rssi -73 dBm)
+09-24 16:03:07.201  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@69c621d
+09-24 16:03:07.212  4340  4340 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-24 16:03:18.779  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2cc0354
+09-24 16:03:45.727  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@244830a
+2026-09-24 16:03:48.317  I  ProductSync: unmapped for location 2 needed 7 page(s): 1309 row(s), server reported 1309
+09-24 16:03:49.320  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:03:49.320  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:03:49.322  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:03:49.322  4340  4353 W System  : A resource failed to call close. 
+09-24 16:03:49.323  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:03:49.323  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:03:49.323  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:03:49.323  4340  4353 W System  : A resource failed to call close. 
+09-24 16:03:49.325  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:03:49.325  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:03:49.327  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:03:49.327  4340  4353 W System  : A resource failed to call close. 
+2026-09-24 16:03:50.322  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-24 16:03:57.498  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fee96e9
+2026-09-24 16:03:58.421  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-24 16:03:58.421  I  Net: Blank Audit: mapped-product sync started
+2026-09-24 16:03:58.422  I  Net: Blank Audit: local products still fresh, no sync needed
+09-24 16:04:00.644  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f2b3ba2
+2026-09-24 16:04:00.935  W  UhfSession: Could not power up the UHF reader
+2026-09-24 16:04:03.602  I  UhfSession: UHF reader powered up
+09-24 16:04:09.970  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6b5ffe4
+2026-09-24 16:04:15.227  W  Net: wifi DISCONNECTED — link had been up for 79s
+2026-09-24 16:04:15.578  I  Net: wifi connected
+2026-09-24 16:04:15.580  W  Net: wifi is up but has NO internet (rssi -74 dBm)
+2026-09-24 16:04:15.596  I  Net: wifi has internet (rssi -74 dBm)
+09-24 16:05:27.212  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d3de88e
+2026-09-24 16:05:27.915  I  Net: Blank Audit: closed, releasing the UHF module
+09-24 16:05:27.922  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@73388
+2026-09-24 16:05:33.168  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-24 16:05:38.466  W  UhfSession: Could not power up the UHF reader
+2026-09-24 16:05:41.146  I  UhfSession: UHF reader powered up
+2026-09-24 16:05:51.216  W  Net: wifi DISCONNECTED — link had been up for 95s
+2026-09-24 16:05:51.746  I  Net: wifi connected
+2026-09-24 16:05:51.748  W  Net: wifi is up but has NO internet (rssi -78 dBm)
+2026-09-24 16:05:51.770  I  Net: wifi has internet (rssi -78 dBm)
+2026-09-24 16:05:59.592  W  Net: wifi DISCONNECTED — link had been up for 7s
+2026-09-24 16:06:00.031  I  Net: wifi connected
+2026-09-24 16:06:00.033  W  Net: wifi is up but has NO internet (rssi -78 dBm)
+2026-09-24 16:06:00.052  I  Net: wifi has internet (rssi -78 dBm)
+2026-09-24 16:06:31.347  W  Net: wifi DISCONNECTED — link had been up for 31s
+2026-09-24 16:06:31.852  I  Net: wifi connected
+2026-09-24 16:06:31.854  W  Net: wifi is up but has NO internet (rssi -76 dBm)
+2026-09-24 16:06:31.875  I  Net: wifi has internet (rssi -76 dBm)
+09-24 16:06:41.348  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7049db3
+2026-09-24 16:06:46.672  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-24 16:06:47.271  W  Net: wifi DISCONNECTED — link had been up for 15s
+2026-09-24 16:06:47.739  I  Net: wifi connected
+2026-09-24 16:06:47.741  W  Net: wifi is up but has NO internet (rssi -74 dBm)
+2026-09-24 16:06:47.766  I  Net: wifi has internet (rssi -74 dBm)
+2026-09-24 16:06:50.396  W  UhfSession: Could not power up the UHF reader
+2026-09-24 16:06:53.062  I  UhfSession: UHF reader powered up
+2026-09-24 16:07:03.187  W  Net: wifi DISCONNECTED — link had been up for 15s
+2026-09-24 16:07:03.602  I  Net: wifi connected
+2026-09-24 16:07:03.604  W  Net: wifi is up but has NO internet (rssi -74 dBm)
+2026-09-24 16:07:03.646  I  Net: wifi has internet (rssi -74 dBm)
+09-24 16:07:16.979  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:07:16.979  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:07:16.981  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:07:16.981  4340  4353 W System  : A resource failed to call close. 
+09-24 16:07:21.210  4340  7641 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#129(BLAST Consumer)129](id:10f40000008b,api:4,p:1495,c:4340) queueBuffer: BufferQueue has been abandoned
+09-24 16:07:21.218  4340  7641 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#129(BLAST Consumer)129](id:10f40000008b,api:4,p:1495,c:4340) dequeueBuffer: BufferQueue has been abandoned
+09-24 16:07:21.246  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@749c66e
+09-24 16:07:21.255  4340  6033 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#129(BLAST Consumer)129](id:10f40000008b,api:4,p:1495,c:4340) queueBuffer: BufferQueue has been abandoned
+09-24 16:07:21.286  4340  6982 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#129(BLAST Consumer)129](id:10f40000008b,api:4,p:1495,c:4340) cancelBuffer: BufferQueue has been abandoned
+09-24 16:07:21.287  4340  7641 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#129(BLAST Consumer)129](id:10f40000008b,api:4,p:1495,c:4340) queueBuffer: BufferQueue has been abandoned
+09-24 16:07:21.300  4340  7641 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#129(BLAST Consumer)129](id:10f40000008b,api:4,p:1495,c:4340) cancelBuffer: BufferQueue has been abandoned
+09-24 16:07:21.303  4340  6982 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#129(BLAST Consumer)129](id:10f40000008b,api:4,p:1495,c:4340) cancelBuffer: BufferQueue has been abandoned
+09-24 16:07:21.513  4340  4340 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+2026-09-24 16:07:27.253  W  Net: wifi DISCONNECTED — link had been up for 23s
+2026-09-24 16:07:27.678  I  Net: wifi connected
+2026-09-24 16:07:27.681  W  Net: wifi is up but has NO internet (rssi -79 dBm)
+2026-09-24 16:07:27.733  I  Net: wifi has internet (rssi -79 dBm)
+09-24 16:07:34.677  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a22ddaf
+09-24 16:07:40.102  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cc909f
+09-24 16:07:40.112  4340  4340 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-24 16:07:59.276  W  Net: wifi DISCONNECTED — link had been up for 31s
+2026-09-24 16:07:59.812  I  Net: wifi connected
+2026-09-24 16:07:59.813  W  Net: wifi is up but has NO internet (rssi -80 dBm)
+2026-09-24 16:07:59.832  I  Net: wifi has internet (rssi -80 dBm)
+09-24 16:08:05.217  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7df8f9b
+2026-09-24 16:08:23.208  W  Net: wifi DISCONNECTED — link had been up for 23s
+2026-09-24 16:08:23.667  I  Net: wifi connected
+2026-09-24 16:08:23.669  W  Net: wifi is up but has NO internet (rssi -75 dBm)
+2026-09-24 16:08:23.705  I  Net: wifi has internet (rssi -75 dBm)
+09-24 16:08:37.619  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@17b95f1
+09-24 16:08:37.628  4340  4340 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-24 16:08:39.282  W  Net: wifi DISCONNECTED — link had been up for 15s
+2026-09-24 16:08:39.878  I  Net: wifi connected
+2026-09-24 16:08:39.879  W  Net: wifi is up but has NO internet (rssi -79 dBm)
+2026-09-24 16:08:39.892  I  Net: wifi has internet (rssi -79 dBm)
+2026-09-24 16:08:47.647  W  Net: wifi DISCONNECTED — link had been up for 7s
+2026-09-24 16:08:48.090  I  Net: wifi connected
+2026-09-24 16:08:48.091  W  Net: wifi is up but has NO internet (rssi -81 dBm)
+2026-09-24 16:08:48.107  I  Net: wifi has internet (rssi -81 dBm)
+09-24 16:08:48.895  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@111846c
+09-24 16:08:50.167  4340  4353 W System  : A resource failed to call close. 
+09-24 16:08:50.167  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:08:50.167  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:08:50.167  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:08:50.168  4340  4353 W System  : A resource failed to call close. 
+09-24 16:08:50.168  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:08:50.168  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:08:50.168  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:08:50.169  4340  4353 W System  : A resource failed to call close. 
+09-24 16:08:50.169  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:08:50.169  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:08:50.169  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:08:50.170  4340  4353 W System  : A resource failed to call close. 
+09-24 16:08:50.170  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:08:50.170  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:08:50.170  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:08:50.173  4340  4353 W System  : A resource failed to call close. 
+09-24 16:08:50.173  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:08:50.174  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:08:50.174  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:08:50.174  4340  4353 W System  : A resource failed to call close. 
+09-24 16:08:50.174  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:08:50.174  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:08:50.174  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-24 16:08:50.338  I  ProductSync: unmapped for location 2 needed 7 page(s): 1309 row(s), server reported 1309
+09-24 16:08:52.183  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8ae203a
+2026-09-24 16:08:53.688  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-24 16:08:56.054  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@981dd85
+2026-09-24 16:08:56.826  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-24 16:08:56.826  I  Net: Blank Audit: mapped-product sync started
+2026-09-24 16:08:56.827  I  Net: Blank Audit: local products still fresh, no sync needed
+09-24 16:08:56.950  4340  4353 W System  : A resource failed to call close. 
+09-24 16:08:56.950  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:08:56.950  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:08:56.951  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:08:56.951  4340  4353 W System  : A resource failed to call close. 
+09-24 16:08:56.951  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:08:56.951  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:08:56.951  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:08:56.951  4340  4353 W System  : A resource failed to call close. 
+09-24 16:08:57.819  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@76a2ff0
+2026-09-24 16:08:59.339  W  UhfSession: Could not power up the UHF reader
+2026-09-24 16:09:11.240  W  Net: wifi DISCONNECTED — link had been up for 23s
+2026-09-24 16:09:11.621  I  Net: wifi connected
+2026-09-24 16:09:11.623  W  Net: wifi is up but has NO internet (rssi -69 dBm)
+2026-09-24 16:09:11.637  I  Net: wifi has internet (rssi -69 dBm)
+09-24 16:09:13.652  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@29e2d4e
+2026-09-24 16:09:20.621  I  UhfSession: UHF reader powered up
+2026-09-24 16:09:43.416  W  Net: wifi DISCONNECTED — link had been up for 31s
+2026-09-24 16:09:43.857  I  Net: wifi connected
+2026-09-24 16:09:43.859  W  Net: wifi is up but has NO internet (rssi -79 dBm)
+2026-09-24 16:09:43.878  I  Net: wifi has internet (rssi -79 dBm)
+09-24 16:10:26.720  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@69ebea7
+2026-09-24 16:10:27.376  I  Net: Blank Audit: closed, releasing the UHF module
+09-24 16:10:27.382  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@750e50f
+09-24 16:10:30.348  4340 13629 W Codec2Client: query -- param skipped: index = 1107298332.
+09-24 16:10:30.350  4340 13629 W Codec2Client: query -- param skipped: index = 1342179345.
+09-24 16:10:30.350  4340 13629 W Codec2Client: query -- param skipped: index = 2415921170.
+2026-09-24 16:10:31.266  W  Net: wifi DISCONNECTED — link had been up for 47s
+2026-09-24 16:10:31.610  I  Net: wifi connected
+2026-09-24 16:10:31.612  W  Net: wifi is up but has NO internet (rssi -63 dBm)
+2026-09-24 16:10:31.624  I  Net: wifi has internet (rssi -63 dBm)
+09-24 16:10:32.624  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a6c81e7
+09-24 16:10:45.688  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6570565
+09-24 16:10:58.688  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a744166
+09-24 16:10:58.696  4340  4340 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-24 16:11:11.381  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@eab88a1
+09-24 16:11:20.989  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@136a037
+2026-09-24 16:11:23.359  I  ProductSync: unmapped for location 2 needed 7 page(s): 1309 row(s), server reported 1309
+09-24 16:11:24.519  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:11:24.519  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:11:24.520  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:11:24.520  4340  4353 W System  : A resource failed to call close. 
+09-24 16:11:24.520  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:11:24.520  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:11:24.520  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:11:24.520  4340  4353 W System  : A resource failed to call close. 
+2026-09-24 16:11:26.260  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-24 16:11:31.360  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@90a92a5
+2026-09-24 16:11:31.844  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-24 16:11:31.846  I  Net: Blank Audit: mapped-product sync started
+2026-09-24 16:11:31.846  I  Net: Blank Audit: local products still fresh, no sync needed
+09-24 16:11:32.773  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d5a5b97
+2026-09-24 16:11:34.355  W  UhfSession: Could not power up the UHF reader
+09-24 16:11:49.127  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f450a11
+2026-09-24 16:11:52.675  I  UhfSession: UHF reader powered up
+09-24 16:12:42.769  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:12:42.769  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:12:42.770  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:12:42.771  4340  4353 W System  : A resource failed to call close. 
+09-24 16:12:42.771  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:12:42.771  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:12:42.771  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:12:42.771  4340  4353 W System  : A resource failed to call close. 
+09-24 16:13:12.582  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e968003
+2026-09-24 16:13:13.240  I  Net: Blank Audit: closed, releasing the UHF module
+09-24 16:13:13.246  4340  4340 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4eb3d2b
+2026-09-24 16:13:18.231  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-24 16:13:47.911  W  UhfSession: Could not power up the UHF reader
+2026-09-24 16:13:50.577  I  UhfSession: UHF reader powered up
+2026-09-24 16:14:11.508  I  SerialService: 'PGH-9191': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9191 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:14:11.580  I  SerialService: 'PGH-9191': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9191&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:14:11.653  I  SerialService: 'PGH-9191': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9191&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:14:11.693  I  SerialService: 'PGH-9191': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 16:14:11.695  I  SerialService: 'PGH-9191': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91910001)
+2026-09-24 16:14:18.977  I  SerialService: 'PGH-9191': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9191 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:14:19.064  I  SerialService: 'PGH-9191': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9191&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:14:19.129  I  SerialService: 'PGH-9191': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9191&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:14:19.155  I  SerialService: 'PGH-9191': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 16:14:19.157  I  SerialService: 'PGH-9191': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91910001)
+2026-09-24 16:14:20.437  I  Registration: Upload accepted for PGH91910001: HTTP 200 {"updated":1,"tags":[{"id":4974,"epc":"PGH91910001","itemCode":"PGH-9191","serialNo":1}]}
+2026-09-24 16:14:20.439  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 16:14:33.658  I  SerialService: 'PGH-9191': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH91910002)
+2026-09-24 16:14:34.663  I  Registration: Upload accepted for PGH91910002: HTTP 200 {"updated":1,"tags":[{"id":4975,"epc":"PGH91910002","itemCode":"PGH-9191","serialNo":2}]}
+2026-09-24 16:14:34.673  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-24 16:14:35.048  4340  4353 W System  : A resource failed to call close. 
+09-24 16:14:35.048  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:14:35.048  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:14:35.048  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:14:35.051  4340  4353 W System  : A resource failed to call close. 
+09-24 16:14:35.051  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:14:35.052  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:14:35.052  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:14:35.059  4340  4353 W System  : A resource failed to call close. 
+09-24 16:14:35.059  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:14:35.059  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:14:35.059  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:14:35.062  4340  4353 W System  : A resource failed to call close. 
+09-24 16:14:35.062  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:14:35.062  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:14:35.063  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:14:35.074  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 16:14:35.087  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 16:14:35.102  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 16:15:06.176  I  SerialService: 'PGH-9234': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9234 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:15:06.247  I  SerialService: 'PGH-9234': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9234&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:15:06.326  I  SerialService: 'PGH-9234': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9234&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:15:06.364  I  SerialService: 'PGH-9234': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 16:15:06.366  I  SerialService: 'PGH-9234': server holds 0 RFID(s); taking the lowest free serial 1 (PGH92340001)
+09-24 16:15:12.170  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 16:15:14.888  I  SerialService: 'PGH-9234': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9234 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:15:15.134  I  SerialService: 'PGH-9234': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9234&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:15:15.459  I  SerialService: 'PGH-9234': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9234&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:15:15.489  I  SerialService: 'PGH-9234': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 16:15:15.494  I  SerialService: 'PGH-9234': server holds 0 RFID(s); taking the lowest free serial 1 (PGH92340001)
+2026-09-24 16:15:16.663  I  Registration: Upload accepted for PGH92340001: HTTP 200 {"updated":1,"tags":[{"id":4976,"epc":"PGH92340001","itemCode":"PGH-9234","serialNo":1}]}
+2026-09-24 16:15:16.667  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 16:15:28.452  I  SerialService: 'PGH-9234': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH92340002)
+2026-09-24 16:15:29.729  I  Registration: Upload accepted for PGH92340002: HTTP 200 {"updated":1,"tags":[{"id":4977,"epc":"PGH92340002","itemCode":"PGH-9234","serialNo":2}]}
+2026-09-24 16:15:29.732  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-24 16:15:45.921  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 16:15:45.931  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 16:15:56.110  I  SerialService: 'PGH-9234': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PGH92340003)
+2026-09-24 16:15:57.129  I  Registration: Upload accepted for PGH92340003: HTTP 200 {"updated":1,"tags":[{"id":4978,"epc":"PGH92340003","itemCode":"PGH-9234","serialNo":3}]}
+2026-09-24 16:15:57.134  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 16:16:07.562  W  Net: wifi DISCONNECTED — link had been up for 335s
+2026-09-24 16:16:08.095  I  Net: wifi connected
+2026-09-24 16:16:08.110  W  Net: wifi is up but has NO internet (rssi -73 dBm)
+2026-09-24 16:16:08.221  I  Net: wifi has internet (rssi -73 dBm)
+09-24 16:16:22.226  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 16:16:30.773  I  SerialService: 'PGH-9132': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9132 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:16:31.132  I  SerialService: 'PGH-9132': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9132&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:16:31.196  I  SerialService: 'PGH-9132': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9132&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:16:31.220  I  SerialService: 'PGH-9132': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 16:16:31.223  I  SerialService: 'PGH-9132': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91320001)
+2026-09-24 16:16:39.391  I  SerialService: 'PGH-9132': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9132 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:16:39.456  I  SerialService: 'PGH-9132': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9132&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:16:39.517  I  SerialService: 'PGH-9132': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9132&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:16:39.537  I  SerialService: 'PGH-9132': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 16:16:39.538  I  SerialService: 'PGH-9132': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91320001)
+2026-09-24 16:16:40.846  I  Registration: Upload accepted for PGH91320001: HTTP 200 {"updated":1,"tags":[{"id":4979,"epc":"PGH91320001","itemCode":"PGH-9132","serialNo":1}]}
+2026-09-24 16:16:40.855  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 16:16:47.572  W  Net: wifi DISCONNECTED — link had been up for 39s
+2026-09-24 16:16:49.491  I  Net: wifi connected
+2026-09-24 16:16:49.509  W  Net: wifi is up but has NO internet (rssi -77 dBm)
+2026-09-24 16:16:49.618  I  Net: wifi has internet (rssi -77 dBm)
+2026-09-24 16:16:55.248  I  SerialService: 'PGH-9132': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH91320002)
+2026-09-24 16:16:56.344  I  Registration: Upload accepted for PGH91320002: HTTP 200 {"updated":1,"tags":[{"id":4980,"epc":"PGH91320002","itemCode":"PGH-9132","serialNo":2}]}
+2026-09-24 16:16:56.351  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 16:17:05.895  I  SerialService: 'PGH-9132': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PGH91320003)
+2026-09-24 16:17:07.128  I  Registration: Upload accepted for PGH91320003: HTTP 200 {"updated":1,"tags":[{"id":4981,"epc":"PGH91320003","itemCode":"PGH-9132","serialNo":3}]}
+2026-09-24 16:17:07.135  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-24 16:17:08.111  4340  4353 W System  : A resource failed to call close. 
+09-24 16:17:08.111  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:17:08.111  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:17:08.111  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:17:08.113  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 16:17:08.126  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 16:17:08.142  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 16:17:08.160  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 16:17:19.801  I  SerialService: 'PGH-9132': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (PGH91320004)
+2026-09-24 16:17:21.132  I  Registration: Upload accepted for PGH91320004: HTTP 200 {"updated":1,"tags":[{"id":4982,"epc":"PGH91320004","itemCode":"PGH-9132","serialNo":4}]}
+2026-09-24 16:17:21.141  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 16:17:35.449  W  Net: wifi DISCONNECTED — link had been up for 45s
+2026-09-24 16:17:35.960  I  Net: wifi connected
+2026-09-24 16:17:35.964  W  Net: wifi is up but has NO internet (rssi -77 dBm)
+2026-09-24 16:17:36.076  I  Net: wifi has internet (rssi -77 dBm)
+09-24 16:17:42.896  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-24 16:17:56.186  I  SerialService: 'PGH-9187': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9187 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:17:56.301  I  SerialService: 'PGH-9187': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9187&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:17:56.386  I  SerialService: 'PGH-9187': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9187&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:17:56.419  I  SerialService: 'PGH-9187': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 16:17:56.421  I  SerialService: 'PGH-9187': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91870001)
+2026-09-24 16:17:59.935  I  SerialService: 'PGH-9187': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9187 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:17:59.995  I  SerialService: 'PGH-9187': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9187&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:18:00.085  I  SerialService: 'PGH-9187': GET http://164.52.223.163:4636/api/device/products/mapped?search=PGH-9187&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-24 16:18:00.108  I  SerialService: 'PGH-9187': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-24 16:18:00.110  I  SerialService: 'PGH-9187': server holds 0 RFID(s); taking the lowest free serial 1 (PGH91870001)
+2026-09-24 16:18:01.153  I  Registration: Upload accepted for PGH91870001: HTTP 200 {"updated":1,"tags":[{"id":4983,"epc":"PGH91870001","itemCode":"PGH-9187","serialNo":1}]}
+2026-09-24 16:18:01.157  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-24 16:18:15.594  W  Net: wifi DISCONNECTED — link had been up for 39s
+2026-09-24 16:18:16.208  I  Net: wifi connected
+2026-09-24 16:18:16.214  W  Net: wifi is up but has NO internet (rssi -72 dBm)
+2026-09-24 16:18:16.328  I  Net: wifi has internet (rssi -72 dBm)
+2026-09-24 16:18:20.835  I  SerialService: 'PGH-9187': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PGH91870002)
+2026-09-24 16:18:21.846  I  Registration: Upload accepted for PGH91870002: HTTP 200 {"updated":1,"tags":[{"id":4984,"epc":"PGH91870002","itemCode":"PGH-9187","serialNo":2}]}
+2026-09-24 16:18:21.850  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-24 16:18:29.718  4340  4353 W System  : A resource failed to call close. 
+09-24 16:18:29.718  4340  4353 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 16:18:29.718  4340  4353 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 16:18:29.718  4340  4353 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 16:18:29.722  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 16:18:29.724  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
+09-24 16:18:29.743  4340  4353 W System  : A resource failed to call AbstractCursor.close. 
