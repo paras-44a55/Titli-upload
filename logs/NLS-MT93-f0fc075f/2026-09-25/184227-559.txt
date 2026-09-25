@@ -1,0 +1,47 @@
+# pushed 2026-09-25 18:42:27.559 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 349108..354772
+
+09-25 17:56:06.696 18325 18360 W Parcel  : Expecting binder but got null!
+09-25 17:56:18.302 18325 18360 W Parcel  : Expecting binder but got null!
+2026-09-25 17:56:21.341  I  SerialService: 'VF-GOODDAY': server holds 5 RFID(s) [1, 2, 3, 4, 5]; taking the lowest free serial 6 (VFGOODDAY0006)
+2026-09-25 17:56:23.739  I  SerialService: 'VF-GOODDAY': server holds 5 RFID(s) [1, 2, 3, 4, 5]; taking the lowest free serial 6 (VFGOODDAY0006)
+2026-09-25 17:56:24.501  I  Registration: Upload accepted for VFGOODDAY0006: HTTP 200 {"updated":1,"tags":[{"id":5966,"epc":"VFGOODDAY0006","itemCode":"VF-GOODDAY","serialNo":6}]}
+2026-09-25 17:56:24.505  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-25 17:56:33.302 18325 18360 W Parcel  : Expecting binder but got null!
+09-25 17:56:38.893 18325 18343 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-25 17:56:38.893 18325 18343 W System  : A resource failed to call SQLiteConnection.close. 
+09-25 17:56:38.894 18325 18343 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-25 17:56:38.894 18325 18343 W System  : A resource failed to call close. 
+09-25 17:56:41.341 18325 18360 W Parcel  : Expecting binder but got null!
+2026-09-25 17:56:42.758  I  SerialService: 'VF-SADHNA': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VFSADHNA0002)
+2026-09-25 17:56:46.181  I  SerialService: 'VF-SADHNA': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VFSADHNA0002)
+2026-09-25 17:56:48.375  I  Registration: Upload accepted for VFSADHNA0002: HTTP 200 {"updated":1,"tags":[{"id":5967,"epc":"VFSADHNA0002","itemCode":"VF-SADHNA","serialNo":2}]}
+2026-09-25 17:56:48.380  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-25 17:56:55.744 18325 18360 W Parcel  : Expecting binder but got null!
+09-25 17:57:01.900 18325 18360 W Parcel  : Expecting binder but got null!
+2026-09-25 17:57:03.140  I  SerialService: 'VS001': GET http://164.52.223.163:4636/api/device/products/mapped?search=VS001 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-25 17:57:03.257  I  SerialService: 'VS001': GET http://164.52.223.163:4636/api/device/products/mapped?search=VS001&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-25 17:57:03.367  I  SerialService: 'VS001': GET http://164.52.223.163:4636/api/device/products/mapped?search=VS001&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-25 17:57:03.392  I  SerialService: 'VS001': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-25 17:57:03.394  I  SerialService: 'VS001': server holds 0 RFID(s); taking the lowest free serial 1 (VS0010001)
+09-25 17:57:12.825 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-25 17:57:12.825 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-25 17:58:04.547  I  UhfSession: UHF reader powered down: app moved to the background
+09-25 18:41:50.239 18325 18325 E SurfaceSyncer: Failed to find sync for id=0
+09-25 18:41:50.239 18325 18325 E SurfaceSyncer: Failed to find sync for id=1
+09-25 18:41:50.239 18325 18325 E SurfaceSyncer: Failed to find sync for id=2
+2026-09-25 18:41:54.406  I  UhfSession: UHF reader powered up
+2026-09-25 18:41:54.565  I  SerialService: 'VS001': GET http://164.52.223.163:4636/api/device/products/mapped?search=VS001 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-25 18:41:54.698  I  SerialService: 'VS001': GET http://164.52.223.163:4636/api/device/products/mapped?search=VS001&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-25 18:41:54.806  I  SerialService: 'VS001': GET http://164.52.223.163:4636/api/device/products/mapped?search=VS001&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-25 18:41:54.831  I  SerialService: 'VS001': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-25 18:41:54.832  I  SerialService: 'VS001': server holds 0 RFID(s); taking the lowest free serial 1 (VS0010001)
+2026-09-25 18:41:55.499  I  Registration: Upload accepted for VS0010001: HTTP 200 {"updated":1,"tags":[{"id":5970,"epc":"VS0010001","itemCode":"VS001","serialNo":1}]}
+2026-09-25 18:41:55.505  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-25 18:42:06.845 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-25 18:42:06.845 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-25 18:42:07.267  I  SerialService: 'VS001': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VS0010002)
+2026-09-25 18:42:08.834  I  Registration: Upload accepted for VS0010002: HTTP 200 {"updated":1,"tags":[{"id":5971,"epc":"VS0010002","itemCode":"VS001","serialNo":2}]}
+2026-09-25 18:42:08.838  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-25 18:42:27.533 18325 19124 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#64(BLAST Consumer)64](id:479500000042,api:4,p:1176,c:18325) dequeueBuffer: BufferQueue has been abandoned
