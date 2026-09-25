@@ -1,0 +1,89 @@
+# pushed 2026-09-25 11:15:24.750 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 300879..311655
+
+2026-09-24 18:09:02.051  I  ProductSync: unmapped for location 2 needed 6 page(s): 1156 row(s), server reported 1156
+09-24 18:09:18.132  4908  4908 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a73dcfe
+09-24 18:09:20.624  4908  7026 W libc    : Access denied finding property "ro.hardware.chipname"
+09-24 18:09:20.649  4908  4916 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 18:09:20.649  4908  4916 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 18:09:20.651  4908  4916 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 18:09:20.651  4908  4916 W System  : A resource failed to call close. 
+09-24 18:09:20.652  4908  4916 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-24 18:09:20.652  4908  4916 W System  : A resource failed to call SQLiteConnection.close. 
+09-24 18:09:20.652  4908  4916 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-24 18:09:20.652  4908  4916 W System  : A resource failed to call close. 
+2026-09-24 18:09:22.191  W  UhfSession: Could not power up the UHF reader
+2026-09-24 18:09:31.203  I  UhfSession: UHF reader powered up
+09-24 18:09:44.842  4908  4908 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bc2d8d6
+09-24 18:09:44.858  4908  7047 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#7(BLAST Consumer)7](id:132c00000009,api:4,p:1497,c:4908) queueBuffer: BufferQueue has been abandoned
+09-24 18:09:44.877  4908  7047 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#7(BLAST Consumer)7](id:132c00000009,api:4,p:1497,c:4908) cancelBuffer: BufferQueue has been abandoned
+09-24 18:09:44.879  4908  7047 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#7(BLAST Consumer)7](id:132c00000009,api:4,p:1497,c:4908) cancelBuffer: BufferQueue has been abandoned
+09-24 18:09:44.879  4908  7047 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#7(BLAST Consumer)7](id:132c00000009,api:4,p:1497,c:4908) cancelBuffer: BufferQueue has been abandoned
+09-24 18:09:44.881  4908  7047 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#7(BLAST Consumer)7](id:132c00000009,api:4,p:1497,c:4908) cancelBuffer: BufferQueue has been abandoned
+09-24 18:09:44.886  4908  7047 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#7(BLAST Consumer)7](id:132c00000009,api:4,p:1497,c:4908) queueBuffer: BufferQueue has been abandoned
+2026-09-24 18:09:49.625  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-24 18:09:54.176  E  ProductSync: unmapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.ui.sync.SyncDataActivity.startSync$lambda$30(SyncDataActivity.kt:208)
+	at com.poxo.tittlifashionapplication.ui.sync.SyncDataActivity.$r8$lambda$4Yj5XQwDlDeGkby0wdofE0TbQWU(SyncDataActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.sync.SyncDataActivity$$ExternalSyntheticLambda19.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-09-24 18:09:59.210  W  Net: wifi DISCONNECTED — link had been up for 95s
+09-24 18:10:03.097  4908  4908 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2cbdca7
+09-24 18:10:03.109  4908  4908 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@719b351
+2026-09-24 18:13:22.065  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-09-24 18:13:22.092  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-09-24 18:13:22.121  I  Net: wifi connected
+2026-09-24 18:13:22.124  I  Net: wifi has internet (rssi -75 dBm)
+--------- beginning of main
+09-24 18:13:24.415  9261  9290 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+09-24 18:13:24.615  9261  9261 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+2026-09-25 11:14:54.729  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-09-25 11:14:54.742  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-09-25 11:14:54.755  I  Net: wifi connected
+2026-09-25 11:14:54.760  I  Net: wifi has internet (rssi -71 dBm)
+--------- beginning of main
+09-25 11:14:54.770 13343 13369 W QT      : qt_process_init() called
+09-25 11:14:54.770 13343 13369 E QT      : [QT]file does not exist
+09-25 11:14:54.770 13343 13369 W QT      : Support!!
+09-25 11:14:55.017 13343 13343 W HWUI    : Unknown dataspace 0
+09-25 11:14:55.163 13343 13367 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-25 11:14:55.187 13343 13367 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-25 11:14:57.040 13343 13468 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+09-25 11:15:07.554 13343 13343 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3ad9bf7
+09-25 11:15:08.358 13343 13343 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@364de65
+09-25 11:15:13.467 13343 13349 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+09-25 11:15:13.504 13343 13351 W System  : A resource failed to call close. 
+09-25 11:15:13.504 13343 13351 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-25 11:15:13.504 13343 13351 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-25 11:15:13.504 13343 13351 W System  : A resource failed to call SQLiteConnection.close. 
+09-25 11:15:13.508 13343 13351 W System  : A resource failed to call close. 
+09-25 11:15:13.508 13343 13351 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-25 11:15:13.508 13343 13351 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-25 11:15:13.508 13343 13351 W System  : A resource failed to call SQLiteConnection.close. 
+09-25 11:15:13.509 13343 13351 W System  : A resource failed to call close. 
+09-25 11:15:13.509 13343 13351 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-25 11:15:13.509 13343 13351 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-25 11:15:13.509 13343 13351 W System  : A resource failed to call SQLiteConnection.close. 
+09-25 11:15:13.512 13343 13351 W System  : A resource failed to call close. 
+09-25 11:15:13.512 13343 13351 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-25 11:15:13.513 13343 13351 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-25 11:15:13.513 13343 13351 W System  : A resource failed to call SQLiteConnection.close. 
+09-25 11:15:14.004 13343 13614 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-09-25 11:15:15.814  W  UhfSession: Could not power up the UHF reader
+2026-09-25 11:15:16.084  I  ProductSync: unmapped for location 2 needed 6 page(s): 1156 row(s), server reported 1156
