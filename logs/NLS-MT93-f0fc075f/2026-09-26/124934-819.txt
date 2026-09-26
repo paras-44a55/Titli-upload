@@ -1,0 +1,83 @@
+# pushed 2026-09-26 12:49:34.819 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 420532..431061
+
+09-26 12:42:28.766 18325 18360 W Parcel  : Expecting binder but got null!
+09-26 12:42:39.812 18325 18360 W Parcel  : Expecting binder but got null!
+2026-09-26 12:43:31.168  I  SerialService: 'L2-MAXTURN': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-MAXTURN -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:43:31.274  I  SerialService: 'L2-MAXTURN': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-MAXTURN&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:43:31.378  I  SerialService: 'L2-MAXTURN': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-MAXTURN&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:43:31.401  I  SerialService: 'L2-MAXTURN': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-26 12:43:31.402  I  SerialService: 'L2-MAXTURN': server holds 0 RFID(s); taking the lowest free serial 1 (L2MAXTURN0001)
+2026-09-26 12:43:36.597  I  SerialService: 'L2-MAXTURN': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-MAXTURN -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:43:36.716  I  SerialService: 'L2-MAXTURN': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-MAXTURN&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:43:36.819  I  SerialService: 'L2-MAXTURN': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-MAXTURN&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:43:36.838  I  SerialService: 'L2-MAXTURN': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-26 12:43:36.840  I  SerialService: 'L2-MAXTURN': server holds 0 RFID(s); taking the lowest free serial 1 (L2MAXTURN0001)
+2026-09-26 12:43:37.615  I  Registration: Upload accepted for L2MAXTURN0001: HTTP 200 {"updated":1,"tags":[{"id":6031,"epc":"L2MAXTURN0001","itemCode":"L2-MAXTURN","serialNo":1}]}
+2026-09-26 12:43:37.617  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-26 12:43:53.104  I  SerialService: 'L2-MAXTURN': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (L2MAXTURN0002)
+2026-09-26 12:43:55.283  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-26 12:44:03.145  I  SerialService: 'L2-MAXTURN': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (L2MAXTURN0002)
+2026-09-26 12:44:05.594  I  Registration: Upload accepted for L2MAXTURN0002: HTTP 200 {"updated":1,"tags":[{"id":6032,"epc":"L2MAXTURN0002","itemCode":"L2-MAXTURN","serialNo":2}]}
+2026-09-26 12:44:05.597  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-26 12:44:12.181 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-26 12:44:12.181 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
+09-26 12:44:12.187 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-26 12:44:12.187 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
+09-26 12:44:12.194 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-26 12:44:12.194 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
+09-26 12:44:12.195 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-26 12:44:12.196 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
+09-26 12:44:12.196 18325 18343 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-26 12:44:12.196 18325 18343 W System  : A resource failed to call SQLiteConnection.close. 
+09-26 12:44:12.197 18325 18343 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-26 12:44:12.197 18325 18343 W System  : A resource failed to call close. 
+2026-09-26 12:45:13.919  I  UhfSession: UHF reader powered down: app moved to the background
+09-26 12:45:37.104 18325 18325 E SurfaceSyncer: Failed to find sync for id=0
+09-26 12:45:37.104 18325 18325 E SurfaceSyncer: Failed to find sync for id=1
+09-26 12:45:37.104 18325 18325 E SurfaceSyncer: Failed to find sync for id=2
+2026-09-26 12:45:39.603  I  UhfSession: UHF reader powered up
+09-26 12:46:23.189 18325 18360 W Parcel  : Expecting binder but got null!
+09-26 12:46:31.973 18325 18360 W Parcel  : Expecting binder but got null!
+09-26 12:46:37.029 18325 18325 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-26 12:46:49.652  I  SerialService: 'L2-COAL-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-COAL-1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:46:49.754  I  SerialService: 'L2-COAL-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-COAL-1&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:46:49.855  I  SerialService: 'L2-COAL-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-COAL-1&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:46:49.879  I  SerialService: 'L2-COAL-1': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-26 12:46:49.880  I  SerialService: 'L2-COAL-1': server holds 0 RFID(s); taking the lowest free serial 1 (L2COAL10001)
+2026-09-26 12:46:58.575  I  SerialService: 'L2-COAL-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-COAL-1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:46:58.675  I  SerialService: 'L2-COAL-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-COAL-1&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:46:58.774  I  SerialService: 'L2-COAL-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=L2-COAL-1&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-26 12:46:58.798  I  SerialService: 'L2-COAL-1': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-26 12:46:58.799  I  SerialService: 'L2-COAL-1': server holds 0 RFID(s); taking the lowest free serial 1 (L2COAL10001)
+2026-09-26 12:46:59.560  I  Registration: Upload accepted for L2COAL10001: HTTP 200 {"updated":1,"tags":[{"id":6035,"epc":"L2COAL10001","itemCode":"L2-COAL-1","serialNo":1}]}
+2026-09-26 12:46:59.564  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-26 12:47:10.873 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-26 12:47:10.874 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
+09-26 12:47:10.876 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-26 12:47:10.877 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
+09-26 12:47:10.877 18325 18343 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-26 12:47:10.877 18325 18343 W System  : A resource failed to call SQLiteConnection.close. 
+09-26 12:47:10.878 18325 18343 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-26 12:47:10.879 18325 18343 W System  : A resource failed to call close. 
+2026-09-26 12:47:26.048  I  SerialService: 'L2-COAL-1': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (L2COAL10002)
+2026-09-26 12:47:26.828  I  Registration: Upload accepted for L2COAL10002: HTTP 200 {"updated":1,"tags":[{"id":6036,"epc":"L2COAL10002","itemCode":"L2-COAL-1","serialNo":2}]}
+2026-09-26 12:47:26.831  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-26 12:47:58.693 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-26 12:47:58.693 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-26 12:47:58.890  I  SerialService: 'L2-COAL-1': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (L2COAL10003)
+2026-09-26 12:47:59.537  I  Registration: Upload accepted for L2COAL10003: HTTP 200 {"updated":1,"tags":[{"id":6037,"epc":"L2COAL10003","itemCode":"L2-COAL-1","serialNo":3}]}
+2026-09-26 12:47:59.541  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-26 12:48:13.903  I  SerialService: 'L2-COAL-1': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (L2COAL10004)
+2026-09-26 12:48:14.551  I  Registration: Upload accepted for L2COAL10004: HTTP 200 {"updated":1,"tags":[{"id":6038,"epc":"L2COAL10004","itemCode":"L2-COAL-1","serialNo":4}]}
+2026-09-26 12:48:14.554  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-26 12:48:25.270 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-26 12:48:25.270 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
+09-26 12:48:25.272 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-26 12:48:25.272 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-26 12:48:25.440  I  SerialService: 'L2-COAL-1': server holds 4 RFID(s) [1, 2, 3, 4]; taking the lowest free serial 5 (L2COAL10005)
+2026-09-26 12:48:28.069  I  Registration: Upload accepted for L2COAL10005: HTTP 200 {"updated":1,"tags":[{"id":6039,"epc":"L2COAL10005","itemCode":"L2-COAL-1","serialNo":5}]}
+2026-09-26 12:48:28.072  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-26 12:48:45.815 18325 18343 W System  : A resource failed to call CursorWindow.close. 
+09-26 12:48:45.815 18325 18343 W System  : A resource failed to call AbstractCursor.close. 
