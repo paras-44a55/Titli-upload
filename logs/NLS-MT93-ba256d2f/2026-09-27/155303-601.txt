@@ -1,0 +1,536 @@
+# pushed 2026-09-27 15:53:03.601 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 519358..81060
+
+09-27 15:23:25.323  7118 13768 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9](f:1,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-27 15:23:25.343  7118 13768 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9](f:2,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-27 15:23:25.377  7118  7128 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9](f:3,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-27 15:23:25.408  7118 13769 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9](f:4,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+09-27 15:23:25.440  7118 13768 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#9](f:5,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+2026-09-27 15:23:26.764  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-27 15:23:45.709  W  UhfSession: Could not power up the UHF reader
+2026-09-27 15:23:49.156  I  SerialService: 'ELA-V13265': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV132650002)
+2026-09-27 15:23:51.810  I  UhfSession: UHF reader powered up
+09-27 15:23:53.762  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-27 15:23:54.868  I  UhfSession: UHF reader powered down: operator asked to reconnect
+2026-09-27 15:23:55.169  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-27 15:23:57.379  W  UhfSession: Could not power up the UHF reader
+2026-09-27 15:24:01.770  I  UhfSession: UHF reader powered up
+2026-09-27 15:24:02.731  I  SerialService: 'ELA-V13265': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV132650002)
+2026-09-27 15:24:03.711  I  Registration: Upload accepted for ELAV132650002: HTTP 200 {"updated":1,"tags":[{"id":6170,"epc":"ELAV132650002","itemCode":"ELA-V13265","serialNo":2}]}
+2026-09-27 15:24:03.712  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:24:26.914  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:24:42.639  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4d95632
+09-27 15:25:01.552  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@12a1051
+09-27 15:25:01.566  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-27 15:25:04.384  I  SerialService: 'ELA-V12698': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12698 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:04.450  I  SerialService: 'ELA-V12698': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12698&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:04.514  I  SerialService: 'ELA-V12698': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12698&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:04.524  I  SerialService: 'ELA-V12698': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:25:04.525  I  SerialService: 'ELA-V12698': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV126980001)
+2026-09-27 15:25:16.836  I  SerialService: 'ELA-V12698': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12698 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:17.155  I  SerialService: 'ELA-V12698': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12698&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:17.217  I  SerialService: 'ELA-V12698': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12698&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:17.241  I  SerialService: 'ELA-V12698': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:25:17.247  I  SerialService: 'ELA-V12698': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV126980001)
+09-27 15:25:18.436  7118  7126 W System  : A resource failed to call close. 
+09-27 15:25:18.436  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:25:18.436  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:25:18.436  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:25:18.437  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:25:18.439  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-27 15:25:18.459  I  Registration: Upload accepted for ELAV126980001: HTTP 200 {"updated":1,"tags":[{"id":6171,"epc":"ELAV126980001","itemCode":"ELA-V12698","serialNo":1}]}
+2026-09-27 15:25:18.461  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:25:41.741  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b9bfbc0
+09-27 15:25:41.750  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-27 15:25:44.402  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a9af083
+09-27 15:25:44.412  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-27 15:25:47.787  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@95df379
+2026-09-27 15:25:48.093  I  SerialService: 'ELA-V11910': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11910 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:48.419  I  SerialService: 'ELA-V11910': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11910&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:48.762  I  SerialService: 'ELA-V11910': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11910&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:48.777  I  SerialService: 'ELA-V11910': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:25:48.778  I  SerialService: 'ELA-V11910': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV119100001)
+09-27 15:25:52.132  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:25:52.980  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a273dca
+09-27 15:25:52.987  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-27 15:25:53.053  I  SerialService: 'ELA-V13742': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13742 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:53.118  I  SerialService: 'ELA-V13742': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13742&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:53.184  I  SerialService: 'ELA-V13742': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13742&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:53.215  I  SerialService: 'ELA-V13742': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:25:53.218  I  SerialService: 'ELA-V13742': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV137420001)
+2026-09-27 15:25:57.567  I  SerialService: 'ELA-V13742': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13742 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:57.941  I  SerialService: 'ELA-V13742': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13742&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:58.010  I  SerialService: 'ELA-V13742': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13742&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:25:58.022  I  SerialService: 'ELA-V13742': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:25:58.023  I  SerialService: 'ELA-V13742': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV137420001)
+2026-09-27 15:25:58.852  I  Registration: Upload accepted for ELAV137420001: HTTP 200 {"updated":1,"tags":[{"id":6172,"epc":"ELAV137420001","itemCode":"ELA-V13742","serialNo":1}]}
+2026-09-27 15:25:58.853  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:26:25.384  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:26:25.385  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:26:33.959  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f601de
+09-27 15:26:41.826  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e6367c9
+09-27 15:26:41.835  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-27 15:26:44.070  I  SerialService: 'ELA-V13415': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV134150002)
+2026-09-27 15:26:47.119  I  SerialService: 'ELA-V13415': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV134150002)
+09-27 15:26:47.956  7118  7126 W System  : A resource failed to call close. 
+09-27 15:26:47.956  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:26:47.956  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:26:47.956  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-27 15:26:48.001  I  Registration: Upload accepted for ELAV134150002: HTTP 200 {"updated":1,"tags":[{"id":6173,"epc":"ELAV134150002","itemCode":"ELA-V13415","serialNo":2}]}
+2026-09-27 15:26:48.002  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:27:16.832  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@76fbe28
+09-27 15:27:16.842  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-27 15:27:22.760  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@321a32b
+09-27 15:27:22.772  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-27 15:27:29.518  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@64fbe02
+2026-09-27 15:27:29.601  I  SerialService: 'ELA-V13366': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13366 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:27:29.673  I  SerialService: 'ELA-V13366': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13366&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:27:29.746  I  SerialService: 'ELA-V13366': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13366&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:27:29.766  I  SerialService: 'ELA-V13366': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:27:29.767  I  SerialService: 'ELA-V13366': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV133660001)
+2026-09-27 15:27:33.598  I  SerialService: 'ELA-V13366': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13366 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:27:33.967  I  SerialService: 'ELA-V13366': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13366&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:27:34.039  I  SerialService: 'ELA-V13366': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13366&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:27:34.059  I  SerialService: 'ELA-V13366': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:27:34.060  I  SerialService: 'ELA-V13366': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV133660001)
+2026-09-27 15:27:34.897  I  Registration: Upload accepted for ELAV133660001: HTTP 200 {"updated":1,"tags":[{"id":6174,"epc":"ELAV133660001","itemCode":"ELA-V13366","serialNo":1}]}
+2026-09-27 15:27:34.900  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:27:43.784  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:27:43.785  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:28:38.927  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3e8dbc
+09-27 15:28:56.788  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1d53ec9
+2026-09-27 15:28:59.222  I  SerialService: 'ELA-V13161': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13161 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:28:59.283  I  SerialService: 'ELA-V13161': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13161&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:28:59.344  I  SerialService: 'ELA-V13161': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13161&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:28:59.358  I  SerialService: 'ELA-V13161': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:28:59.360  I  SerialService: 'ELA-V13161': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV131610001)
+2026-09-27 15:29:01.196  I  SerialService: 'ELA-V13161': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13161 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:29:01.263  I  SerialService: 'ELA-V13161': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13161&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:29:01.333  I  SerialService: 'ELA-V13161': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13161&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:29:01.350  I  SerialService: 'ELA-V13161': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:29:01.351  I  SerialService: 'ELA-V13161': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV131610001)
+2026-09-27 15:29:01.963  I  Registration: Upload accepted for ELAV131610001: HTTP 200 {"updated":1,"tags":[{"id":6175,"epc":"ELAV131610001","itemCode":"ELA-V13161","serialNo":1}]}
+2026-09-27 15:29:01.964  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:29:01.976  7118  7126 W System  : A resource failed to call close. 
+09-27 15:29:01.976  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:29:01.976  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:29:01.976  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:29:01.979  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:29:01.980  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-27 15:29:19.975  I  SerialService: 'ELA-V13161': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV131610002)
+2026-09-27 15:29:20.820  I  Registration: Upload accepted for ELAV131610002: HTTP 200 {"updated":1,"tags":[{"id":6176,"epc":"ELAV131610002","itemCode":"ELA-V13161","serialNo":2}]}
+2026-09-27 15:29:20.823  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:29:35.293  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:30:00.465  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1ca439b
+09-27 15:30:07.081  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a8158ab
+2026-09-27 15:30:10.015  I  SerialService: 'ELA-V11665': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11665 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:30:10.078  I  SerialService: 'ELA-V11665': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11665&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:30:10.140  I  SerialService: 'ELA-V11665': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11665&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:30:10.154  I  SerialService: 'ELA-V11665': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:30:10.155  I  SerialService: 'ELA-V11665': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV116650001)
+2026-09-27 15:30:13.092  I  SerialService: 'ELA-V11665': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11665 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:30:13.156  I  SerialService: 'ELA-V11665': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11665&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:30:13.221  I  SerialService: 'ELA-V11665': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11665&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:30:13.236  I  SerialService: 'ELA-V11665': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:30:13.237  I  SerialService: 'ELA-V11665': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV116650001)
+2026-09-27 15:30:13.859  I  Registration: Upload accepted for ELAV116650001: HTTP 200 {"updated":1,"tags":[{"id":6177,"epc":"ELAV116650001","itemCode":"ELA-V11665","serialNo":1}]}
+2026-09-27 15:30:13.861  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:30:25.644  7118  7126 W System  : A resource failed to call close. 
+09-27 15:30:25.644  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:30:25.644  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:30:25.644  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:30:25.646  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:30:25.646  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-27 15:30:30.642  I  SerialService: 'ELA-V11665': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV116650002)
+2026-09-27 15:30:31.471  I  Registration: Upload accepted for ELAV116650002: HTTP 200 {"updated":1,"tags":[{"id":6178,"epc":"ELAV116650002","itemCode":"ELA-V11665","serialNo":2}]}
+2026-09-27 15:30:31.475  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:30:57.700  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:31:02.371  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e5f3641
+09-27 15:31:09.286  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@acee117
+2026-09-27 15:31:09.590  I  SerialService: 'ELA-V12390': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12390 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:31:09.664  I  SerialService: 'ELA-V12390': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12390&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:31:10.024  I  SerialService: 'ELA-V12390': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12390&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:31:10.047  I  SerialService: 'ELA-V12390': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:31:10.048  I  SerialService: 'ELA-V12390': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV123900001)
+2026-09-27 15:31:14.469  I  SerialService: 'ELA-V12390': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12390 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:31:14.540  I  SerialService: 'ELA-V12390': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12390&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:31:14.632  I  SerialService: 'ELA-V12390': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12390&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:31:14.650  I  SerialService: 'ELA-V12390': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:31:14.653  I  SerialService: 'ELA-V12390': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV123900001)
+2026-09-27 15:31:15.507  I  Registration: Upload accepted for ELAV123900001: HTTP 200 {"updated":1,"tags":[{"id":6179,"epc":"ELAV123900001","itemCode":"ELA-V12390","serialNo":1}]}
+2026-09-27 15:31:15.509  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:31:30.827  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:31:30.828  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:31:39.504  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9bd6fb3
+09-27 15:31:40.372  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6aa5fad
+09-27 15:31:40.378  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-27 15:31:50.857  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e94c7c8
+09-27 15:31:50.865  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-27 15:31:53.639  7118  7118 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+2026-09-27 15:31:54.974  I  SerialService: 'ELA-V13552': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13552 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+09-27 15:31:55.014  7118  7126 W System  : A resource failed to call close. 
+2026-09-27 15:31:55.036  I  SerialService: 'ELA-V13552': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13552&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:31:55.107  I  SerialService: 'ELA-V13552': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13552&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:31:55.119  I  SerialService: 'ELA-V13552': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:31:55.120  I  SerialService: 'ELA-V13552': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV135520001)
+09-27 15:31:58.169  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3e94852
+2026-09-27 15:31:58.236  I  SerialService: 'ELA-V13558': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13558 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:31:58.299  I  SerialService: 'ELA-V13558': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13558&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:31:58.364  I  SerialService: 'ELA-V13558': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13558&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:31:58.382  I  SerialService: 'ELA-V13558': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:31:58.383  I  SerialService: 'ELA-V13558': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV135580001)
+2026-09-27 15:32:04.721  I  SerialService: 'ELA-V13558': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13558 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:32:04.786  I  SerialService: 'ELA-V13558': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13558&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:32:04.848  I  SerialService: 'ELA-V13558': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13558&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:32:04.865  I  SerialService: 'ELA-V13558': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:32:04.866  I  SerialService: 'ELA-V13558': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV135580001)
+2026-09-27 15:32:05.719  I  Registration: Upload accepted for ELAV135580001: HTTP 200 {"updated":1,"tags":[{"id":6180,"epc":"ELAV135580001","itemCode":"ELA-V13558","serialNo":1}]}
+2026-09-27 15:32:05.721  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:32:25.484  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:32:25.484  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:32:25.484  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:32:25.485  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:32:25.486  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:32:25.488  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:32:27.909  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@143e799
+09-27 15:32:29.810  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@597139a
+09-27 15:32:37.335  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3478741
+2026-09-27 15:32:37.409  I  SerialService: 'ELA-V12625': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12625 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:32:37.482  I  SerialService: 'ELA-V12625': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12625&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:32:37.548  I  SerialService: 'ELA-V12625': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12625&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:32:37.572  I  SerialService: 'ELA-V12625': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:32:37.573  I  SerialService: 'ELA-V12625': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV126250001)
+2026-09-27 15:32:41.878  I  SerialService: 'ELA-V12625': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12625 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:32:41.945  I  SerialService: 'ELA-V12625': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12625&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:32:42.012  I  SerialService: 'ELA-V12625': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12625&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:32:42.034  I  SerialService: 'ELA-V12625': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:32:42.037  I  SerialService: 'ELA-V12625': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV126250001)
+2026-09-27 15:32:42.878  I  Registration: Upload accepted for ELAV126250001: HTTP 200 {"updated":1,"tags":[{"id":6181,"epc":"ELAV126250001","itemCode":"ELA-V12625","serialNo":1}]}
+2026-09-27 15:32:42.880  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:32:57.241  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:32:57.242  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-27 15:32:59.526  I  SerialService: 'ELA-V12625': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV126250002)
+2026-09-27 15:33:00.356  I  Registration: Upload accepted for ELAV126250002: HTTP 200 {"updated":1,"tags":[{"id":6182,"epc":"ELAV126250002","itemCode":"ELA-V12625","serialNo":2}]}
+2026-09-27 15:33:00.359  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:33:25.838  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:33:26.445  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@33021e9
+09-27 15:33:35.328  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d14192d
+2026-09-27 15:33:37.352  I  SerialService: 'ELA-V12542': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12542 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:33:37.414  I  SerialService: 'ELA-V12542': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12542&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:33:37.478  I  SerialService: 'ELA-V12542': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12542&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:33:37.487  I  SerialService: 'ELA-V12542': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:33:37.488  I  SerialService: 'ELA-V12542': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV125420001)
+2026-09-27 15:33:38.459  I  SerialService: 'ELA-V12542': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12542 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:33:38.523  I  SerialService: 'ELA-V12542': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12542&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:33:38.587  I  SerialService: 'ELA-V12542': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12542&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:33:38.607  I  SerialService: 'ELA-V12542': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:33:38.608  I  SerialService: 'ELA-V12542': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV125420001)
+2026-09-27 15:33:40.117  I  Registration: Upload accepted for ELAV125420001: HTTP 200 {"updated":1,"tags":[{"id":6183,"epc":"ELAV125420001","itemCode":"ELA-V12542","serialNo":1}]}
+2026-09-27 15:33:40.118  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:33:57.850  I  SerialService: 'ELA-V12542': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV125420002)
+2026-09-27 15:33:58.698  I  Registration: Upload accepted for ELAV125420002: HTTP 200 {"updated":1,"tags":[{"id":6184,"epc":"ELAV125420002","itemCode":"ELA-V12542","serialNo":2}]}
+2026-09-27 15:33:58.701  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:33:59.065  7118  7126 W System  : A resource failed to call close. 
+09-27 15:33:59.065  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:33:59.065  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:33:59.065  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:33:59.066  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:33:59.066  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:33:59.072  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:34:22.419  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@dda79d6
+09-27 15:34:28.604  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@20ce1a9
+2026-09-27 15:34:28.681  I  SerialService: 'ELA-V13448': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13448 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:34:28.745  I  SerialService: 'ELA-V13448': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13448&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:34:28.813  I  SerialService: 'ELA-V13448': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13448&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:34:28.830  I  SerialService: 'ELA-V13448': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:34:28.831  I  SerialService: 'ELA-V13448': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV134480001)
+09-27 15:34:29.565  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-27 15:34:30.576  I  SerialService: 'ELA-V13448': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13448 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:34:30.644  I  SerialService: 'ELA-V13448': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13448&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:34:30.714  I  SerialService: 'ELA-V13448': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13448&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:34:30.725  I  SerialService: 'ELA-V13448': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:34:30.726  I  SerialService: 'ELA-V13448': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV134480001)
+2026-09-27 15:34:31.395  I  Registration: Upload accepted for ELAV134480001: HTTP 200 {"updated":1,"tags":[{"id":6185,"epc":"ELAV134480001","itemCode":"ELA-V13448","serialNo":1}]}
+2026-09-27 15:34:31.397  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:34:39.390  I  SerialService: 'ELA-V13448': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV134480002)
+2026-09-27 15:34:40.166  I  Registration: Upload accepted for ELAV134480002: HTTP 200 {"updated":1,"tags":[{"id":6186,"epc":"ELAV134480002","itemCode":"ELA-V13448","serialNo":2}]}
+2026-09-27 15:34:40.170  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:35:02.754  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:35:02.756  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:35:53.903  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ea3f78e
+09-27 15:35:59.013  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cbd96e1
+09-27 15:35:59.022  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-27 15:36:02.447  I  SerialService: 'ELA-V13552': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13552 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+09-27 15:36:02.484  7118  7126 W System  : A resource failed to call close. 
+2026-09-27 15:36:02.512  I  SerialService: 'ELA-V13552': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13552&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:36:02.576  I  SerialService: 'ELA-V13552': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13552&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:36:02.588  I  SerialService: 'ELA-V13552': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:36:02.589  I  SerialService: 'ELA-V13552': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV135520001)
+2026-09-27 15:36:04.210  I  SerialService: 'ELA-V13552': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13552 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:36:04.273  I  SerialService: 'ELA-V13552': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13552&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:36:04.337  I  SerialService: 'ELA-V13552': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13552&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:36:04.353  I  SerialService: 'ELA-V13552': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:36:04.355  I  SerialService: 'ELA-V13552': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV135520001)
+2026-09-27 15:36:05.161  I  Registration: Upload accepted for ELAV135520001: HTTP 200 {"updated":1,"tags":[{"id":6187,"epc":"ELAV135520001","itemCode":"ELA-V13552","serialNo":1}]}
+2026-09-27 15:36:05.162  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:36:33.709  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ec47353
+09-27 15:36:33.956  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:36:33.956  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:36:33.956  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:36:33.956  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:36:33.957  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:36:37.461  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@dcf75a5
+09-27 15:36:37.471  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-27 15:36:37.539  I  SerialService: 'ELA-V13499': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13499 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:36:37.610  I  SerialService: 'ELA-V13499': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13499&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:36:37.675  I  SerialService: 'ELA-V13499': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13499&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:36:37.699  I  SerialService: 'ELA-V13499': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:36:37.700  I  SerialService: 'ELA-V13499': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV134990001)
+2026-09-27 15:36:40.199  I  SerialService: 'ELA-V13499': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13499 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:36:40.267  I  SerialService: 'ELA-V13499': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13499&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:36:40.335  I  SerialService: 'ELA-V13499': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13499&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:36:40.350  I  SerialService: 'ELA-V13499': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:36:40.351  I  SerialService: 'ELA-V13499': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV134990001)
+2026-09-27 15:36:41.190  I  Registration: Upload accepted for ELAV134990001: HTTP 200 {"updated":1,"tags":[{"id":6188,"epc":"ELAV134990001","itemCode":"ELA-V13499","serialNo":1}]}
+2026-09-27 15:36:41.193  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:37:03.419  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@94ef049
+09-27 15:37:03.434  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-27 15:37:05.697  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:37:05.701  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:37:09.750  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d235bdb
+2026-09-27 15:37:12.171  I  SerialService: 'ELA-13554-2': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ELA1355420003)
+2026-09-27 15:37:13.320  I  SerialService: 'ELA-13554-2': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ELA1355420003)
+2026-09-27 15:37:14.159  I  Registration: Upload accepted for ELA1355420003: HTTP 200 {"updated":1,"tags":[{"id":6189,"epc":"ELA1355420003","itemCode":"ELA-13554-2","serialNo":3}]}
+2026-09-27 15:37:14.162  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:37:36.179  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4f28a7
+09-27 15:37:36.867  7118  7126 W System  : A resource failed to call close. 
+09-27 15:37:36.867  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:37:36.867  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:37:36.867  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:37:44.438  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2d3c0ad
+2026-09-27 15:37:44.511  I  SerialService: 'ELA-V12804': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12804 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:37:44.579  I  SerialService: 'ELA-V12804': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12804&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:37:44.647  I  SerialService: 'ELA-V12804': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12804&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:37:44.662  I  SerialService: 'ELA-V12804': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:37:44.664  I  SerialService: 'ELA-V12804': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV128040001)
+2026-09-27 15:37:46.019  I  SerialService: 'ELA-V12804': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12804 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:37:46.082  I  SerialService: 'ELA-V12804': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12804&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:37:46.147  I  SerialService: 'ELA-V12804': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12804&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:37:46.171  I  SerialService: 'ELA-V12804': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:37:46.172  I  SerialService: 'ELA-V12804': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV128040001)
+2026-09-27 15:37:47.006  I  Registration: Upload accepted for ELAV128040001: HTTP 200 {"updated":1,"tags":[{"id":6190,"epc":"ELAV128040001","itemCode":"ELA-V12804","serialNo":1}]}
+2026-09-27 15:37:47.009  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:38:10.386  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:38:10.387  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-27 15:38:53.475  I  SerialService: 'ELA-V12804': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV128040002)
+2026-09-27 15:38:54.654  I  Registration: Upload accepted for ELAV128040002: HTTP 200 {"updated":1,"tags":[{"id":6191,"epc":"ELAV128040002","itemCode":"ELA-V12804","serialNo":2}]}
+2026-09-27 15:38:54.655  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:38:59.472  I  SerialService: 'ELA-V12804': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ELAV128040003)
+2026-09-27 15:39:00.340  I  Registration: Upload accepted for ELAV128040003: HTTP 200 {"updated":1,"tags":[{"id":6192,"epc":"ELAV128040003","itemCode":"ELA-V12804","serialNo":3}]}
+2026-09-27 15:39:00.341  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:39:17.025  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:39:17.029  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:39:28.531  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@17650f6
+09-27 15:39:34.153  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e87c2c2
+2026-09-27 15:39:35.716  I  SerialService: 'ELA-V13356': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13356 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:39:35.780  I  SerialService: 'ELA-V13356': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13356&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:39:35.845  I  SerialService: 'ELA-V13356': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13356&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:39:35.861  I  SerialService: 'ELA-V13356': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:39:35.862  I  SerialService: 'ELA-V13356': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV133560001)
+2026-09-27 15:39:39.012  I  SerialService: 'ELA-V13356': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13356 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:39:39.077  I  SerialService: 'ELA-V13356': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13356&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:39:39.142  I  SerialService: 'ELA-V13356': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V13356&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:39:39.160  I  SerialService: 'ELA-V13356': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:39:39.161  I  SerialService: 'ELA-V13356': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV133560001)
+2026-09-27 15:39:39.993  I  Registration: Upload accepted for ELAV133560001: HTTP 200 {"updated":1,"tags":[{"id":6193,"epc":"ELAV133560001","itemCode":"ELA-V13356","serialNo":1}]}
+2026-09-27 15:39:39.994  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:39:41.178  7118  7126 W System  : A resource failed to call close. 
+09-27 15:39:41.178  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:39:41.178  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:39:41.178  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:39:41.179  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:39:41.180  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:40:04.376  7118  7118 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+09-27 15:40:06.294  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@53834fd
+09-27 15:40:11.237  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@63bf2f7
+2026-09-27 15:40:11.308  I  SerialService: 'ELA-V12805': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12805 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:40:11.374  I  SerialService: 'ELA-V12805': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12805&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:40:11.440  I  SerialService: 'ELA-V12805': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12805&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:40:11.457  I  SerialService: 'ELA-V12805': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:40:11.458  I  SerialService: 'ELA-V12805': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV128050001)
+09-27 15:40:13.690  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-27 15:40:15.021  I  SerialService: 'ELA-V12805': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12805 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:40:15.087  I  SerialService: 'ELA-V12805': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12805&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:40:15.153  I  SerialService: 'ELA-V12805': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12805&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:40:15.177  I  SerialService: 'ELA-V12805': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:40:15.180  I  SerialService: 'ELA-V12805': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV128050001)
+2026-09-27 15:40:15.999  I  Registration: Upload accepted for ELAV128050001: HTTP 200 {"updated":1,"tags":[{"id":6194,"epc":"ELAV128050001","itemCode":"ELA-V12805","serialNo":1}]}
+2026-09-27 15:40:16.000  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:40:35.793  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d0d4432
+09-27 15:40:39.801  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@20ab042
+09-27 15:40:40.994  7118  7126 W System  : A resource failed to call CursorWindow.close. 
+09-27 15:40:40.994  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-27 15:40:41.797  I  SerialService: 'ELA-V13357': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ELAV133570003)
+2026-09-27 15:40:43.514  I  SerialService: 'ELA-V13357': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (ELAV133570003)
+2026-09-27 15:40:44.343  I  Registration: Upload accepted for ELAV133570003: HTTP 200 {"updated":1,"tags":[{"id":6195,"epc":"ELAV133570003","itemCode":"ELA-V13357","serialNo":3}]}
+2026-09-27 15:40:44.344  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:41:02.541  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ffa051
+09-27 15:41:12.921  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@712ce40
+2026-09-27 15:41:13.001  I  SerialService: 'ELA-V11588': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11588 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:41:13.064  I  SerialService: 'ELA-V11588': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11588&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:41:13.132  I  SerialService: 'ELA-V11588': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11588&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:41:13.149  I  SerialService: 'ELA-V11588': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:41:13.150  I  SerialService: 'ELA-V11588': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV115880001)
+09-27 15:41:14.197  7118  7126 W System  : A resource failed to call close. 
+09-27 15:41:14.197  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:41:14.197  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:41:14.197  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:41:14.207  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-27 15:41:15.211  I  SerialService: 'ELA-V11588': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11588 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:41:15.276  I  SerialService: 'ELA-V11588': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11588&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:41:15.343  I  SerialService: 'ELA-V11588': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V11588&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:41:15.364  I  SerialService: 'ELA-V11588': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:41:15.365  I  SerialService: 'ELA-V11588': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV115880001)
+2026-09-27 15:41:16.271  I  Registration: Upload accepted for ELAV115880001: HTTP 200 {"updated":1,"tags":[{"id":6196,"epc":"ELAV115880001","itemCode":"ELA-V11588","serialNo":1}]}
+2026-09-27 15:41:16.272  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:41:37.436  I  SerialService: 'ELA-V11588': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (ELAV115880002)
+2026-09-27 15:41:38.090  I  Registration: Upload accepted for ELAV115880002: HTTP 200 {"updated":1,"tags":[{"id":6197,"epc":"ELAV115880002","itemCode":"ELA-V11588","serialNo":2}]}
+2026-09-27 15:41:38.091  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:41:48.664  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:41:48.669  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:42:35.853  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@68cb6b3
+09-27 15:42:43.019  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bdb3040
+2026-09-27 15:42:44.946  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:42:45.007  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:42:45.068  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:42:45.081  I  SerialService: 'ELA-V12999': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:42:45.082  I  SerialService: 'ELA-V12999': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV129990001)
+2026-09-27 15:42:46.934  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:42:47.002  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:42:47.070  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:42:47.099  I  SerialService: 'ELA-V12999': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:42:47.101  I  SerialService: 'ELA-V12999': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV129990001)
+2026-09-27 15:42:48.488  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:42:48.556  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:42:48.623  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:42:48.652  I  SerialService: 'ELA-V12999': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:42:48.654  I  SerialService: 'ELA-V12999': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV129990001)
+09-27 15:42:49.569  7118  7126 W System  : A resource failed to call close. 
+09-27 15:42:49.569  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:42:49.569  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:42:49.569  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-27 15:42:49.575  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+09-27 15:42:49.571  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:42:49.571  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:42:49.571  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-27 15:42:49.637  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:42:49.704  I  SerialService: 'ELA-V12999': GET http://164.52.223.163:4636/api/device/products/mapped?search=ELA-V12999&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-27 15:42:49.722  I  SerialService: 'ELA-V12999': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-27 15:42:49.723  I  SerialService: 'ELA-V12999': server holds 0 RFID(s); taking the lowest free serial 1 (ELAV129990001)
+2026-09-27 15:42:51.085  I  Registration: Upload accepted for ELAV129990001: HTTP 200 {"updated":1,"tags":[{"id":6198,"epc":"ELAV129990001","itemCode":"ELA-V12999","serialNo":1}]}
+2026-09-27 15:42:51.087  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:42:51.622  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-09-27 15:42:52.770  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+09-27 15:43:28.231  7118  7126 W System  : A resource failed to call AbstractCursor.close. 
+09-27 15:44:11.501  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cab91b
+09-27 15:44:11.511  7118  7118 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+09-27 15:44:13.955  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8837dd6
+09-27 15:44:22.796  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@95fa64d
+2026-09-27 15:44:25.604  I  SerialService: 'ELA-V12304': server holds 8 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8]; taking the lowest free serial 9 (ELAV123040009)
+09-27 15:44:25.640  7118  7126 W System  : A resource failed to call close. 
+09-27 15:44:25.640  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:44:25.640  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:44:25.640  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-27 15:44:45.524  I  SerialService: 'ELA-V12304': server holds 8 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8]; taking the lowest free serial 9 (ELAV123040009)
+2026-09-27 15:44:46.383  I  Registration: Upload accepted for ELAV123040009: HTTP 200 {"updated":1,"tags":[{"id":6199,"epc":"ELAV123040009","itemCode":"ELA-V12304","serialNo":9}]}
+2026-09-27 15:44:46.384  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:45:28.815  I  SerialService: 'ELA-V12304': server holds 9 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9]; taking the lowest free serial 10 (ELAV123040010)
+2026-09-27 15:45:29.675  I  Registration: Upload accepted for ELAV123040010: HTTP 200 {"updated":1,"tags":[{"id":6200,"epc":"ELAV123040010","itemCode":"ELA-V12304","serialNo":10}]}
+2026-09-27 15:45:29.678  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:45:44.599  I  SerialService: 'ELA-V12304': server holds 10 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; taking the lowest free serial 11 (ELAV123040011)
+2026-09-27 15:45:45.269  I  Registration: Upload accepted for ELAV123040011: HTTP 200 {"updated":1,"tags":[{"id":6201,"epc":"ELAV123040011","itemCode":"ELA-V12304","serialNo":11}]}
+2026-09-27 15:45:45.270  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:46:12.057  I  SerialService: 'ELA-V12304': server holds 11 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]; taking the lowest free serial 12 (ELAV123040012)
+2026-09-27 15:46:12.843  I  Registration: Upload accepted for ELAV123040012: HTTP 200 {"updated":1,"tags":[{"id":6202,"epc":"ELAV123040012","itemCode":"ELA-V12304","serialNo":12}]}
+2026-09-27 15:46:12.845  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:46:48.426  I  SerialService: 'ELA-V12304': server holds 12 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; taking the lowest free serial 13 (ELAV123040013)
+2026-09-27 15:46:49.097  I  Registration: Upload accepted for ELAV123040013: HTTP 200 {"updated":1,"tags":[{"id":6203,"epc":"ELAV123040013","itemCode":"ELA-V12304","serialNo":13}]}
+2026-09-27 15:46:49.098  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:47:27.371  I  SerialService: 'ELA-V12304': server holds 13 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]; taking the lowest free serial 14 (ELAV123040014)
+2026-09-27 15:47:28.119  I  Registration: Upload accepted for ELAV123040014: HTTP 200 {"updated":1,"tags":[{"id":6204,"epc":"ELAV123040014","itemCode":"ELA-V12304","serialNo":14}]}
+2026-09-27 15:47:28.122  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:47:58.765  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9226a79
+09-27 15:48:07.536  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2dd8a9c
+2026-09-27 15:48:10.040  I  SerialService: 'ELA-V11592': server holds 10 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; taking the lowest free serial 11 (ELAV115920011)
+2026-09-27 15:48:15.026  I  SerialService: 'ELA-V11592': server holds 10 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; taking the lowest free serial 11 (ELAV115920011)
+09-27 15:48:15.047  7118  7126 W System  : A resource failed to call close. 
+09-27 15:48:15.047  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:48:15.047  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:48:15.047  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-27 15:48:15.710  I  Registration: Upload accepted for ELAV115920011: HTTP 200 {"updated":1,"tags":[{"id":6205,"epc":"ELAV115920011","itemCode":"ELA-V11592","serialNo":11}]}
+2026-09-27 15:48:15.713  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:48:26.706  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@67e3446
+09-27 15:48:34.876  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a6b5340
+2026-09-27 15:48:35.117  I  SerialService: 'ELA-V12305': server holds 10 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; taking the lowest free serial 11 (ELAV123050011)
+2026-09-27 15:48:38.533  I  SerialService: 'ELA-V12305': server holds 10 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; taking the lowest free serial 11 (ELAV123050011)
+2026-09-27 15:48:39.376  I  Registration: Upload accepted for ELAV123050011: HTTP 200 {"updated":1,"tags":[{"id":6206,"epc":"ELAV123050011","itemCode":"ELA-V12305","serialNo":11}]}
+2026-09-27 15:48:39.377  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:48:44.660  I  SerialService: 'ELA-V12305': server holds 11 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]; taking the lowest free serial 12 (ELAV123050012)
+2026-09-27 15:48:45.493  I  Registration: Upload accepted for ELAV123050012: HTTP 200 {"updated":1,"tags":[{"id":6207,"epc":"ELAV123050012","itemCode":"ELA-V12305","serialNo":12}]}
+2026-09-27 15:48:45.494  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:48:54.488  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c72f0d
+09-27 15:49:08.828  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@dff95b9
+2026-09-27 15:49:09.290  I  SerialService: 'ELA-V9135': server holds 10 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; taking the lowest free serial 11 (ELAV91350011)
+2026-09-27 15:49:12.827  I  SerialService: 'ELA-V9135': server holds 10 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; taking the lowest free serial 11 (ELAV91350011)
+2026-09-27 15:49:13.425  I  Registration: Upload accepted for ELAV91350011: HTTP 200 {"updated":1,"tags":[{"id":6208,"epc":"ELAV91350011","itemCode":"ELA-V9135","serialNo":11}]}
+2026-09-27 15:49:13.427  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:49:21.726  I  SerialService: 'ELA-V9135': server holds 11 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]; taking the lowest free serial 12 (ELAV91350012)
+2026-09-27 15:49:22.324  I  Registration: Upload accepted for ELAV91350012: HTTP 200 {"updated":1,"tags":[{"id":6209,"epc":"ELAV91350012","itemCode":"ELA-V9135","serialNo":12}]}
+2026-09-27 15:49:22.325  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:49:31.591  I  SerialService: 'ELA-V9135': server holds 12 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; taking the lowest free serial 13 (ELAV91350013)
+2026-09-27 15:49:32.562  I  Registration: Upload accepted for ELAV91350013: HTTP 200 {"updated":1,"tags":[{"id":6210,"epc":"ELAV91350013","itemCode":"ELA-V9135","serialNo":13}]}
+2026-09-27 15:49:32.565  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-27 15:49:37.694  I  SerialService: 'ELA-V9135': server holds 13 RFID(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]; taking the lowest free serial 14 (ELAV91350014)
+2026-09-27 15:49:38.522  I  Registration: Upload accepted for ELAV91350014: HTTP 200 {"updated":1,"tags":[{"id":6211,"epc":"ELAV91350014","itemCode":"ELA-V9135","serialNo":14}]}
+2026-09-27 15:49:38.523  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-27 15:50:10.247  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8cba9dd
+09-27 15:50:10.261  7118 13765 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#21(BLAST Consumer)21](id:1bce00000017,api:4,p:1496,c:7118) queueBuffer: BufferQueue has been abandoned
+09-27 15:50:10.287  7118 13765 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#21(BLAST Consumer)21](id:1bce00000017,api:4,p:1496,c:7118) cancelBuffer: BufferQueue has been abandoned
+09-27 15:50:10.288  7118 13765 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#21(BLAST Consumer)21](id:1bce00000017,api:4,p:1496,c:7118) cancelBuffer: BufferQueue has been abandoned
+09-27 15:50:10.289  7118 13765 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#21(BLAST Consumer)21](id:1bce00000017,api:4,p:1496,c:7118) cancelBuffer: BufferQueue has been abandoned
+09-27 15:50:10.290  7118 13765 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#21(BLAST Consumer)21](id:1bce00000017,api:4,p:1496,c:7118) cancelBuffer: BufferQueue has been abandoned
+09-27 15:50:10.300  7118 13765 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#21(BLAST Consumer)21](id:1bce00000017,api:4,p:1496,c:7118) queueBuffer: BufferQueue has been abandoned
+09-27 15:50:11.120  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9e9fb4e
+2026-09-27 15:50:12.623  I  ProductSync: unmapped for location 2 needed 3 page(s): 572 row(s), server reported 572
+2026-09-27 15:50:15.615  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-27 15:50:19.843  7118  7126 W System  : A resource failed to call close. 
+09-27 15:50:19.843  7118  7126 W System  : A resource failed to call close. 
+2026-09-27 15:50:19.958  I  ProductSync: unmapped for location 2 needed 3 page(s): 572 row(s), server reported 572
+09-27 15:50:21.705  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@14d3751
+2026-09-27 15:50:23.846  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-27 15:50:23.847  I  Net: Blank Audit: mapped-product sync started
+2026-09-27 15:50:23.847  I  Net: Blank Audit: local products still fresh, no sync needed
+09-27 15:50:25.282  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6548f3f
+2026-09-27 15:50:26.366  W  UhfSession: Could not power up the UHF reader
+09-27 15:50:32.455  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5a06f79
+2026-09-27 15:50:42.429  I  UhfSession: UHF reader powered up
+09-27 15:51:16.408  7118  7118 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9227087
+09-27 15:51:59.634  7118  7126 W System  : A resource failed to call close. 
+09-27 15:51:59.634  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:51:59.634  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:51:59.635  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:51:59.639  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:51:59.639  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:51:59.639  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:51:59.640  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:51:59.640  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:51:59.640  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:51:59.643  7118  7126 W System  : A resource failed to call close. 
+09-27 15:51:59.643  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:51:59.643  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:51:59.643  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 15:51:59.643  7118  7126 W System  : A resource failed to call close. 
+09-27 15:51:59.643  7118  7126 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 15:51:59.643  7118  7126 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 15:51:59.643  7118  7126 W System  : A resource failed to call SQLiteConnection.close. 
