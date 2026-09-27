@@ -1,0 +1,78 @@
+# pushed 2026-09-27 12:22:04.349 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 384575..395465
+
+09-27 11:46:27.999 26310 26327 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+09-27 11:46:29.710 26310 26310 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+09-27 11:46:47.819 26310 26310 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+09-27 11:47:33.096 26310 26310 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+09-27 11:48:05.890 26310 26310 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+09-27 11:48:05.896 26310 26310 E ImeBackDispatcher: Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 73615994
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: Couldn't encode request, returning with 400
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: java.net.SocketTimeoutException: failed to connect to firebaselogging.googleapis.com/172.217.116.4 (port 443) from /192.168.29.222 (port 44634) after 30000ms
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:232)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at libcore.io.IoBridge.connect(IoBridge.java:176)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at java.net.Socket.connect(Socket.java:646)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.cct.CctTransportBackend.doSend(CctTransportBackend.java:304)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.cct.CctTransportBackend.access$lambda$0(CctTransportBackend.java:0)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.cct.CctTransportBackend$$Lambda$1.apply(CctTransportBackend.java:4)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.runtime.retries.Retries.retry(Retries.java:54)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.cct.CctTransportBackend.send(CctTransportBackend.java:373)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.runtime.scheduling.jobscheduling.Uploader.logAndUpdateState(Uploader.java:121)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.runtime.scheduling.jobscheduling.Uploader.lambda$upload$1(Uploader.java:88)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.runtime.scheduling.jobscheduling.Uploader$$Lambda$1.run(Uploader.java:8)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at com.google.android.datatransport.runtime.SafeLoggingExecutor$SafeLoggingRunnable.run(SafeLoggingExecutor.java:47)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-27 12:00:05.240 26310 26366 E TransportRuntime.CctTransportBackend: 	at java.lang.Thread.run(Thread.java:1571)
+2026-09-27 12:21:34.219  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-09-27 12:21:34.364  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-09-27 12:21:34.380  I  Net: wifi connected
+2026-09-27 12:21:34.382  I  Net: wifi has internet (rssi -66 dBm)
+--------- beginning of main
+09-27 12:21:34.974  5417  5417 W HWUI    : Unknown dataspace 0
+09-27 12:21:35.222  5417  5554 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-27 12:21:35.312  5417  5554 W libc    : Access denied finding property "vendor.mbrain.enabled"
+09-27 12:21:37.754  5417  5917 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+09-27 12:21:43.866  5417  5417 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a0d82a6
+09-27 12:21:44.057  5417  6728 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+09-27 12:21:44.936  5417  5417 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b01b3c7
+09-27 12:21:49.795  5417  5429 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+09-27 12:21:49.853  5417  5431 W System  : A resource failed to call close. 
+09-27 12:21:49.853  5417  5431 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 12:21:49.853  5417  5431 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 12:21:49.853  5417  5431 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 12:21:49.854  5417  5431 W System  : A resource failed to call close. 
+09-27 12:21:49.854  5417  5431 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 12:21:49.854  5417  5431 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+2026-09-27 12:21:49.859  I  ProductSync: unmapped for location 2 needed 4 page(s): 639 row(s), server reported 639
+09-27 12:21:49.854  5417  5431 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 12:21:49.855  5417  5431 W System  : A resource failed to call close. 
+09-27 12:21:49.855  5417  5431 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 12:21:49.855  5417  5431 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 12:21:49.855  5417  5431 W System  : A resource failed to call SQLiteConnection.close. 
+09-27 12:21:49.857  5417  5431 W System  : A resource failed to call close. 
+09-27 12:21:49.857  5417  5431 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-27 12:21:49.857  5417  5431 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-27 12:21:49.857  5417  5431 W System  : A resource failed to call SQLiteConnection.close. 
+2026-09-27 12:21:58.472  I  ProductSync: unmapped for location 2 needed 4 page(s): 639 row(s), server reported 639
+09-27 12:21:59.187  5417  5431 W System  : A resource failed to call close. 
+09-27 12:21:59.187  5417  5431 W System  : A resource failed to call close. 
