@@ -1,0 +1,58 @@
+# pushed 2026-09-28 12:17:12.517 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 146849..155870
+
+09-28 12:14:32.863  6588  6614 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#55(BLAST Consumer)55](id:19bc0000003d,api:4,p:1503,c:6588) queueBuffer: BufferQueue has been abandoned
+09-28 12:14:32.903  6588  6604 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#55(BLAST Consumer)55](id:19bc0000003d,api:4,p:1503,c:6588) queueBuffer: BufferQueue has been abandoned
+09-28 12:14:32.948  6588  6614 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#55(BLAST Consumer)55](id:19bc0000003d,api:4,p:1503,c:6588) cancelBuffer: BufferQueue has been abandoned
+09-28 12:14:32.962  6588  6604 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#55(BLAST Consumer)55](id:19bc0000003d,api:4,p:1503,c:6588) cancelBuffer: BufferQueue has been abandoned
+09-28 12:14:32.967  6588  6604 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#55(BLAST Consumer)55](id:19bc0000003d,api:4,p:1503,c:6588) cancelBuffer: BufferQueue has been abandoned
+2026-09-28 12:14:34.219  I  UhfSession: UHF reader powered down: app moved to the background
+2026-09-28 12:14:38.296  W  UhfSession: Could not power up the UHF reader
+09-28 12:14:40.065  6588  6588 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e552966
+09-28 12:14:40.076  6588  6588 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-28 12:14:40.960  I  UhfSession: UHF reader powered up
+09-28 12:14:43.286  6588  6588 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ac83dc0
+09-28 12:14:43.294  6588  6588 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-28 12:14:45.666  I  SerialService: 'ADV-165-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=ADV-165-16 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-28 12:14:45.749  I  SerialService: 'ADV-165-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=ADV-165-16&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-28 12:14:45.889  I  SerialService: 'ADV-165-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=ADV-165-16&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-28 12:14:45.902  I  SerialService: 'ADV-165-16': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-28 12:14:45.903  I  SerialService: 'ADV-165-16': server holds 0 RFID(s); taking the lowest free serial 1 (ADV165160001)
+2026-09-28 12:15:01.750  I  SerialService: 'ADV-165-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=ADV-165-16 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-28 12:15:01.863  I  SerialService: 'ADV-165-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=ADV-165-16&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-28 12:15:01.986  I  SerialService: 'ADV-165-16': GET http://164.52.223.163:4636/api/device/products/mapped?search=ADV-165-16&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-28 12:15:02.010  I  SerialService: 'ADV-165-16': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-28 12:15:02.012  I  SerialService: 'ADV-165-16': server holds 0 RFID(s); taking the lowest free serial 1 (ADV165160001)
+2026-09-28 12:15:02.639  I  Registration: Upload accepted for ADV165160001: HTTP 200 {"updated":1,"tags":[{"id":6220,"epc":"ADV165160001","itemCode":"ADV-165-16","serialNo":1}]}
+2026-09-28 12:15:02.641  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-28 12:15:11.008  6588  6588 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e3cc70
+09-28 12:15:11.015  6588 11924 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#59(BLAST Consumer)59](id:19bc00000041,api:4,p:1503,c:6588) queueBuffer: BufferQueue has been abandoned
+09-28 12:15:11.040  6588 11924 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#59(BLAST Consumer)59](id:19bc00000041,api:4,p:1503,c:6588) cancelBuffer: BufferQueue has been abandoned
+09-28 12:15:11.041  6588 11921 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#59(BLAST Consumer)59](id:19bc00000041,api:4,p:1503,c:6588) cancelBuffer: BufferQueue has been abandoned
+09-28 12:15:11.041  6588 11921 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#59(BLAST Consumer)59](id:19bc00000041,api:4,p:1503,c:6588) cancelBuffer: BufferQueue has been abandoned
+09-28 12:15:11.041  6588 11921 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#59(BLAST Consumer)59](id:19bc00000041,api:4,p:1503,c:6588) cancelBuffer: BufferQueue has been abandoned
+09-28 12:15:11.045  6588 11921 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#59(BLAST Consumer)59](id:19bc00000041,api:4,p:1503,c:6588) queueBuffer: BufferQueue has been abandoned
+2026-09-28 12:15:12.392  I  ProductSync: unmapped for location 2 needed 3 page(s): 563 row(s), server reported 563
+2026-09-28 12:15:15.385  I  UhfSession: UHF reader powered down: no screen is using the reader
+09-28 12:15:38.769  6588  6588 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1b8d2a5
+2026-09-28 12:15:42.876  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-28 12:15:42.876  I  Net: Blank Audit: mapped-product sync started
+2026-09-28 12:15:42.878  I  Net: Blank Audit: local products still fresh, no sync needed
+2026-09-28 12:15:45.384  W  UhfSession: Could not power up the UHF reader
+2026-09-28 12:15:48.064  I  UhfSession: UHF reader powered up
+09-28 12:15:55.909  6588  6588 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3bb8b54
+09-28 12:15:55.930  6588  6600 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-28 12:15:55.930  6588  6600 W System  : A resource failed to call SQLiteConnection.close. 
+09-28 12:15:55.930  6588  6600 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-28 12:15:55.930  6588  6600 W System  : A resource failed to call close. 
+09-28 12:15:55.930  6588  6600 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-28 12:15:55.930  6588  6600 W System  : A resource failed to call SQLiteConnection.close. 
+09-28 12:15:55.931  6588  6600 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-28 12:15:55.931  6588  6600 W System  : A resource failed to call close. 
+09-28 12:15:55.934  6588  6600 W System  : A resource failed to call CursorWindow.close. 
+09-28 12:15:55.934  6588  6600 W System  : A resource failed to call AbstractCursor.close. 
+09-28 12:15:55.937  6588  6600 W System  : A resource failed to call CursorWindow.close. 
+09-28 12:15:55.937  6588  6600 W System  : A resource failed to call AbstractCursor.close. 
+09-28 12:15:55.937  6588  6600 W System  : A resource failed to call close. 
+09-28 12:16:19.918  6588  6588 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c10dbdd
