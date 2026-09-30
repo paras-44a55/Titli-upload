@@ -1,0 +1,135 @@
+# pushed 2026-09-30 16:16:00.817 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 424878..443712
+
+2026-09-30 15:54:38.278  I  UhfSession: UHF reader powered down: app moved to the background
+09-30 16:12:49.694 10184 10184 E SurfaceSyncer: Failed to find sync for id=0
+09-30 16:12:49.694 10184 10184 E SurfaceSyncer: Failed to find sync for id=1
+2026-09-30 16:12:53.597  I  UhfSession: UHF reader powered up
+09-30 16:12:54.623 10184 10214 W Parcel  : Expecting binder but got null!
+09-30 16:12:57.349 10184 10214 W Parcel  : Expecting binder but got null!
+09-30 16:13:01.488 10184 10184 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-30 16:13:03.834  I  SerialService: 'GO-VINFAST': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-VINFAST -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:03.936  I  SerialService: 'GO-VINFAST': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-VINFAST&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:04.042  I  SerialService: 'GO-VINFAST': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-VINFAST&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:04.062  I  SerialService: 'GO-VINFAST': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 16:13:04.063  I  SerialService: 'GO-VINFAST': server holds 0 RFID(s); taking the lowest free serial 1 (GOVINFAST0001)
+2026-09-30 16:13:06.045  I  SerialService: 'GO-VINFAST': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-VINFAST -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:06.151  I  SerialService: 'GO-VINFAST': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-VINFAST&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:06.263  I  SerialService: 'GO-VINFAST': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-VINFAST&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:06.291  I  SerialService: 'GO-VINFAST': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 16:13:06.293  I  SerialService: 'GO-VINFAST': server holds 0 RFID(s); taking the lowest free serial 1 (GOVINFAST0001)
+2026-09-30 16:13:07.068  I  Registration: Upload accepted for GOVINFAST0001: HTTP 200 {"updated":1,"tags":[{"id":6696,"epc":"GOVINFAST0001","itemCode":"GO-VINFAST","serialNo":1}]}
+2026-09-30 16:13:07.074  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-30 16:13:18.364  I  SerialService: 'GO-VINFAST': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (GOVINFAST0002)
+2026-09-30 16:13:18.991  I  Registration: Upload accepted for GOVINFAST0002: HTTP 200 {"updated":1,"tags":[{"id":6697,"epc":"GOVINFAST0002","itemCode":"GO-VINFAST","serialNo":2}]}
+2026-09-30 16:13:18.994  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-30 16:13:40.308 10184 10214 W Parcel  : Expecting binder but got null!
+09-30 16:13:44.360 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:13:44.360 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:13:44.360 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:13:44.361 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:13:44.361 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:13:44.361 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:13:44.361 10184 10196 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-30 16:13:44.361 10184 10196 W System  : A resource failed to call SQLiteConnection.close. 
+09-30 16:13:44.361 10184 10196 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-30 16:13:44.361 10184 10196 W System  : A resource failed to call close. 
+2026-09-30 16:13:44.693  I  SerialService: 'GO-HOPE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-HOPE -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:44.798  I  SerialService: 'GO-HOPE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-HOPE&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:44.900  I  SerialService: 'GO-HOPE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-HOPE&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:44.921  I  SerialService: 'GO-HOPE': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 16:13:44.926  I  SerialService: 'GO-HOPE': server holds 0 RFID(s); taking the lowest free serial 1 (GOHOPE0001)
+2026-09-30 16:13:46.186  I  SerialService: 'GO-HOPE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-HOPE -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:46.288  I  SerialService: 'GO-HOPE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-HOPE&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:46.392  I  SerialService: 'GO-HOPE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-HOPE&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:13:46.411  I  SerialService: 'GO-HOPE': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 16:13:46.412  I  SerialService: 'GO-HOPE': server holds 0 RFID(s); taking the lowest free serial 1 (GOHOPE0001)
+2026-09-30 16:13:48.257  I  Registration: Upload accepted for GOHOPE0001: HTTP 200 {"updated":1,"tags":[{"id":6698,"epc":"GOHOPE0001","itemCode":"GO-HOPE","serialNo":1}]}
+2026-09-30 16:13:48.260  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-30 16:14:00.009  I  SerialService: 'GO-HOPE': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (GOHOPE0002)
+2026-09-30 16:14:00.641  I  Registration: Upload accepted for GOHOPE0002: HTTP 200 {"updated":1,"tags":[{"id":6699,"epc":"GOHOPE0002","itemCode":"GO-HOPE","serialNo":2}]}
+2026-09-30 16:14:00.643  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-30 16:14:01.214 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:14:01.214 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:14:01.215 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:14:01.215 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:14:01.216 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:14:01.216 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:14:11.051 10184 10214 W Parcel  : Expecting binder but got null!
+2026-09-30 16:14:15.442  I  SerialService: 'GO-STANDARD': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-STANDARD -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:15.542  I  SerialService: 'GO-STANDARD': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-STANDARD&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:15.644  I  SerialService: 'GO-STANDARD': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-STANDARD&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:15.666  I  SerialService: 'GO-STANDARD': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 16:14:15.667  I  SerialService: 'GO-STANDARD': server holds 0 RFID(s); taking the lowest free serial 1 (GOSTANDARD0001)
+2026-09-30 16:14:15.802  I  SerialService: 'GO-STANDARD': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-STANDARD -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:15.906  I  SerialService: 'GO-STANDARD': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-STANDARD&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:16.009  I  SerialService: 'GO-STANDARD': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-STANDARD&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:16.036  I  SerialService: 'GO-STANDARD': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 16:14:16.038  I  SerialService: 'GO-STANDARD': server holds 0 RFID(s); taking the lowest free serial 1 (GOSTANDARD0001)
+2026-09-30 16:14:16.653  I  Registration: Upload accepted for GOSTANDARD0001: HTTP 200 {"updated":1,"tags":[{"id":6700,"epc":"GOSTANDARD0001","itemCode":"GO-STANDARD","serialNo":1}]}
+2026-09-30 16:14:16.656  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-30 16:14:24.938  I  SerialService: 'GO-STANDARD': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (GOSTANDARD0002)
+2026-09-30 16:14:25.556  I  Registration: Upload accepted for GOSTANDARD0002: HTTP 200 {"updated":1,"tags":[{"id":6701,"epc":"GOSTANDARD0002","itemCode":"GO-STANDARD","serialNo":2}]}
+2026-09-30 16:14:25.563  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-30 16:14:44.450 10184 10214 W Parcel  : Expecting binder but got null!
+09-30 16:14:47.060 10184 10184 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-09-30 16:14:47.172  I  SerialService: 'GO-PLUSH': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-PLUSH -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:47.273  I  SerialService: 'GO-PLUSH': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-PLUSH&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:47.377  I  SerialService: 'GO-PLUSH': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-PLUSH&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:47.396  I  SerialService: 'GO-PLUSH': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 16:14:47.397  I  SerialService: 'GO-PLUSH': server holds 0 RFID(s); taking the lowest free serial 1 (GOPLUSH0001)
+2026-09-30 16:14:49.331  I  SerialService: 'GO-PLUSH': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-PLUSH -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:49.434  I  SerialService: 'GO-PLUSH': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-PLUSH&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:49.537  I  SerialService: 'GO-PLUSH': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-PLUSH&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:14:49.562  I  SerialService: 'GO-PLUSH': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 16:14:49.564  I  SerialService: 'GO-PLUSH': server holds 0 RFID(s); taking the lowest free serial 1 (GOPLUSH0001)
+2026-09-30 16:14:50.182  I  Registration: Upload accepted for GOPLUSH0001: HTTP 200 {"updated":1,"tags":[{"id":6702,"epc":"GOPLUSH0001","itemCode":"GO-PLUSH","serialNo":1}]}
+2026-09-30 16:14:50.185  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-30 16:14:50.258 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:14:50.258 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:14:50.259 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:14:50.259 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:14:50.265 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:14:50.265 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:14:50.268 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:14:50.268 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:14:50.268 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:14:50.268 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-30 16:14:57.200  I  SerialService: 'GO-PLUSH': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (GOPLUSH0002)
+2026-09-30 16:14:57.834  I  Registration: Upload accepted for GOPLUSH0002: HTTP 200 {"updated":1,"tags":[{"id":6703,"epc":"GOPLUSH0002","itemCode":"GO-PLUSH","serialNo":2}]}
+2026-09-30 16:14:57.839  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-30 16:15:05.048  I  SerialService: 'GO-PLUSH': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (GOPLUSH0003)
+2026-09-30 16:15:06.452  I  Registration: Upload accepted for GOPLUSH0003: HTTP 200 {"updated":1,"tags":[{"id":6704,"epc":"GOPLUSH0003","itemCode":"GO-PLUSH","serialNo":3}]}
+2026-09-30 16:15:06.456  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-30 16:15:15.250 10184 10214 W Parcel  : Expecting binder but got null!
+09-30 16:15:18.059 10184 10214 W Parcel  : Expecting binder but got null!
+09-30 16:15:21.982 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:15:21.982 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:15:21.984 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:15:21.984 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:15:22.139 10184 10196 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-30 16:15:22.140 10184 10196 W System  : A resource failed to call SQLiteConnection.close. 
+09-30 16:15:22.140 10184 10196 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-30 16:15:22.141 10184 10196 W System  : A resource failed to call close. 
+2026-09-30 16:15:22.819  I  SerialService: 'GO-SHOBHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-SHOBHA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:15:22.917  I  SerialService: 'GO-SHOBHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-SHOBHA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:15:23.016  I  SerialService: 'GO-SHOBHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-SHOBHA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:15:23.031  I  SerialService: 'GO-SHOBHA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 16:15:23.032  I  SerialService: 'GO-SHOBHA': server holds 0 RFID(s); taking the lowest free serial 1 (GOSHOBHA0001)
+2026-09-30 16:15:23.902  I  SerialService: 'GO-SHOBHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-SHOBHA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:15:24.003  I  SerialService: 'GO-SHOBHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-SHOBHA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:15:24.111  I  SerialService: 'GO-SHOBHA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-SHOBHA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 16:15:24.125  I  SerialService: 'GO-SHOBHA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 16:15:24.126  I  SerialService: 'GO-SHOBHA': server holds 0 RFID(s); taking the lowest free serial 1 (GOSHOBHA0001)
+2026-09-30 16:15:24.752  I  Registration: Upload accepted for GOSHOBHA0001: HTTP 200 {"updated":1,"tags":[{"id":6705,"epc":"GOSHOBHA0001","itemCode":"GO-SHOBHA","serialNo":1}]}
+2026-09-30 16:15:24.754  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-30 16:15:50.268 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:15:50.269 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:15:50.269 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 16:15:50.269 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 16:15:52.941 10184 10214 W Parcel  : Expecting binder but got null!
+2026-09-30 16:15:54.560  I  SerialService: 'GO-HOPE': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (GOHOPE0003)
+2026-09-30 16:15:56.622  I  SerialService: 'GO-HOPE': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (GOHOPE0003)
+2026-09-30 16:15:57.258  I  Registration: Upload accepted for GOHOPE0003: HTTP 200 {"updated":1,"tags":[{"id":6706,"epc":"GOHOPE0003","itemCode":"GO-HOPE","serialNo":3}]}
+2026-09-30 16:15:57.261  I  Registration: Uploaded 1 tag(s); 0 still pending
