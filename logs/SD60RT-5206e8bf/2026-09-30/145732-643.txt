@@ -1,0 +1,127 @@
+# pushed 2026-09-30 14:57:32.643 (scheduled)
+# app=2.2 (build 13) device=alps SD60RT display=V.SD60RT.2.1.29.2019120516 android=8.1.0 (sdk 27) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 104625..118896
+
+2026-09-18 11:50:49.663  I  UhfSession: UHF reader powered up
+2026-09-18 11:50:51.912  I  Net: Blank Audit: opened, powering the UHF module up
+2026-09-18 11:50:51.917  I  Net: Blank Audit: mapped-product sync started
+2026-09-18 11:50:51.919  I  Net: Blank Audit: local products still fresh, no sync needed
+2026-09-18 11:51:30.077  I  Net: Blank Audit: closed, releasing the UHF module
+2026-09-18 11:51:33.910  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-09-30 14:26:57.508  I  Session: app=2.2 (build 13) device=alps SD60RT display=V.SD60RT.2.1.29.2019120516 android=8.1.0 (sdk 27) server=<not configured> location=TITLI BHILWARA
+2026-09-30 14:26:57.528  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as SD60RT-5206e8bf
+2026-09-30 14:26:57.539  I  Net: wifi connected
+2026-09-30 14:26:57.543  W  Net: wifi is up but has NO internet (rssi -48 dBm)
+--------- beginning of main
+09-30 14:26:58.381 19908 19940 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-30 14:26:58.381 19908 19940 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+09-30 14:26:58.381 19908 19940 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+09-30 14:26:58.381 19908 19940 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+09-30 14:26:58.381 19908 19940 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+09-30 14:26:58.381 19908 19940 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+09-30 14:26:58.382 19908 19940 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+09-30 14:26:58.382 19908 19940 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+09-30 14:26:58.382 19908 19940 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+09-30 14:26:58.382 19908 19940 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+09-30 14:26:58.382 19908 19940 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:538)
+09-30 14:26:58.382 19908 19940 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+09-30 14:26:58.382 19908 19940 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(Unknown Source:0)
+09-30 14:26:58.382 19908 19940 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+09-30 14:26:58.382 19908 19940 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+09-30 14:27:06.101 19908 19917 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-30 14:27:06.282 19908 19983 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-30 14:27:06.282 19908 19983 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+09-30 14:27:06.282 19908 19983 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+09-30 14:27:06.282 19908 19983 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+09-30 14:27:06.282 19908 19983 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+09-30 14:27:06.282 19908 19983 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+09-30 14:27:06.282 19908 19983 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+09-30 14:27:06.282 19908 19983 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+09-30 14:27:06.282 19908 19983 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+09-30 14:27:06.283 19908 19983 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+09-30 14:27:06.283 19908 19983 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:258)
+09-30 14:27:06.283 19908 19983 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-30 14:27:06.283 19908 19983 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-30 14:27:06.283 19908 19983 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+09-30 14:27:06.283 19908 19983 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-30 14:27:06.283 19908 19983 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+09-30 14:27:13.762 19908 19994 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-30 14:27:13.762 19908 19994 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+09-30 14:27:13.763 19908 19994 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+09-30 14:27:13.763 19908 19994 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+09-30 14:27:13.763 19908 19994 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+09-30 14:27:13.763 19908 19994 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+09-30 14:27:13.763 19908 19994 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+09-30 14:27:13.763 19908 19994 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+09-30 14:27:13.763 19908 19994 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+09-30 14:27:13.764 19908 19994 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+09-30 14:27:13.764 19908 19994 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:538)
+09-30 14:27:13.764 19908 19994 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+09-30 14:27:13.764 19908 19994 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(Unknown Source:0)
+09-30 14:27:13.764 19908 19994 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+09-30 14:27:13.764 19908 19994 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+09-30 14:27:15.986 19908 19996 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+09-30 14:27:15.987 19908 19996 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+09-30 14:27:15.987 19908 19996 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+09-30 14:27:15.987 19908 19996 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+09-30 14:27:15.987 19908 19996 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+09-30 14:27:15.987 19908 19996 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+09-30 14:27:15.987 19908 19996 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+09-30 14:27:15.987 19908 19996 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+09-30 14:27:15.988 19908 19996 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+09-30 14:27:15.988 19908 19996 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+09-30 14:27:15.988 19908 19996 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:258)
+09-30 14:27:15.988 19908 19996 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+09-30 14:27:15.988 19908 19996 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+09-30 14:27:15.988 19908 19996 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+09-30 14:27:15.988 19908 19996 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+09-30 14:27:15.988 19908 19996 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+09-30 14:27:16.099 19908 19917 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+2026-09-30 14:27:27.620  W  Net: wifi DISCONNECTED — link had been up for 30s
+2026-09-30 14:27:31.933  I  Net: wifi connected
+2026-09-30 14:27:31.939  W  Net: wifi is up but has NO internet (rssi -41 dBm)
+2026-09-30 14:27:32.618  W  LogUploader: Log push failed
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+	at java.net.InetAddress.getAllByName(InetAddress.java:787)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:39)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:175)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:141)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:83)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:174)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:299)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:258)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:218)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:307)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+	at java.lang.Thread.run(Thread.java:764)
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Linux.android_getaddrinfo(Native Method)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+	... 28 more
+2026-09-30 14:27:57.250  W  Net: wifi DISCONNECTED — link had been up for 25s
+2026-09-30 14:28:01.393  I  Net: wifi connected
+2026-09-30 14:28:01.401  W  Net: wifi is up but has NO internet (rssi -44 dBm)
+2026-09-30 14:28:25.769  I  Net: wifi has internet (rssi -44 dBm)
+09-30 14:28:34.610 19908 19917 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-30 14:28:34.846 19908 19908 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-30 14:28:34.928 19908 19908 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-30 14:28:56.445 19908 19908 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+09-30 14:28:56.449 19908 19908 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
