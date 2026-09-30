@@ -1,0 +1,116 @@
+# pushed 2026-09-30 15:54:36.903 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 409189..424878
+
+2026-09-30 15:49:03.287  I  UhfSession: UHF reader powered down: app moved to the background
+09-30 15:49:14.164 10184 10184 E SurfaceSyncer: Failed to find sync for id=0
+09-30 15:49:14.164 10184 10184 E SurfaceSyncer: Failed to find sync for id=1
+09-30 15:49:14.164 10184 10184 E SurfaceSyncer: Failed to find sync for id=2
+2026-09-30 15:49:15.486  I  SerialService: 'GO-EXCLUSIVE': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (GOEXCLUSIVE0003)
+2026-09-30 15:49:17.745  I  UhfSession: UHF reader powered up
+2026-09-30 15:49:20.085  I  Registration: Upload accepted for GOEXCLUSIVE0003: HTTP 200 {"updated":1,"tags":[{"id":6687,"epc":"GOEXCLUSIVE0003","itemCode":"GO-EXCLUSIVE","serialNo":3}]}
+2026-09-30 15:49:20.105  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-30 15:49:20.106  I  SerialService: 'GO-EXCLUSIVE': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 4 (GOEXCLUSIVE0004)
+2026-09-30 15:49:20.659  E  Registration: No product id for item code 'GO-EXCLUSIVE' - tag GOEXCLUSIVE0004 (serial 4) saved with id -1 and cannot be uploaded until Sync Data runs. Neither unMappedProduct nor mappedProduct has a row for it.
+2026-09-30 15:49:20.677  E  Registration: Tag GOEXCLUSIVE0004 (item 'GO-EXCLUSIVE', serial 4) has product id -1. The server will answer 400 'Each tag must have a valid id' to this. No row for 'GO-EXCLUSIVE' in unMappedProduct or mappedProduct - the product list on this device is stale or the item code differs from the one that was synced.
+09-30 15:49:30.282 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:49:30.282 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 15:49:30.284 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:49:30.285 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 15:49:32.469 10184 10214 W Parcel  : Expecting binder but got null!
+09-30 15:49:35.495 10184 10214 W Parcel  : Expecting binder but got null!
+2026-09-30 15:49:43.082  I  SerialService: 'GO-ANVIKA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-ANVIKA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:49:43.195  I  SerialService: 'GO-ANVIKA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-ANVIKA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:49:43.306  I  SerialService: 'GO-ANVIKA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-ANVIKA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:49:43.328  I  SerialService: 'GO-ANVIKA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 15:49:43.329  I  SerialService: 'GO-ANVIKA': server holds 0 RFID(s); taking the lowest free serial 1 (GOANVIKA0001)
+2026-09-30 15:49:44.510  I  SerialService: 'GO-ANVIKA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-ANVIKA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:49:44.619  I  SerialService: 'GO-ANVIKA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-ANVIKA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:49:44.736  I  SerialService: 'GO-ANVIKA': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-ANVIKA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:49:44.760  I  SerialService: 'GO-ANVIKA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 15:49:44.762  I  SerialService: 'GO-ANVIKA': server holds 0 RFID(s); taking the lowest free serial 1 (GOANVIKA0001)
+2026-09-30 15:49:45.422  I  Registration: Upload accepted for GOANVIKA0001: HTTP 200 {"updated":1,"tags":[{"id":6688,"epc":"GOANVIKA0001","itemCode":"GO-ANVIKA","serialNo":1}]}
+2026-09-30 15:49:45.439  W  Registration: Repaired product id for GOEXCLUSIVE0004 (item GO-EXCLUSIVE) -> 8522
+2026-09-30 15:49:45.511  I  Registration: Upload accepted for GOEXCLUSIVE0004: HTTP 200 {"updated":1,"tags":[{"id":6689,"epc":"GOEXCLUSIVE0004","itemCode":"GO-EXCLUSIVE","serialNo":4}]}
+2026-09-30 15:49:45.514  I  Registration: Uploaded 2 tag(s); 0 still pending
+2026-09-30 15:49:56.445  I  SerialService: 'GO-ANVIKA': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (GOANVIKA0002)
+2026-09-30 15:49:57.084  I  Registration: Upload accepted for GOANVIKA0002: HTTP 200 {"updated":1,"tags":[{"id":6690,"epc":"GOANVIKA0002","itemCode":"GO-ANVIKA","serialNo":2}]}
+2026-09-30 15:49:57.086  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-30 15:50:16.119 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:50:16.120 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 15:50:16.124 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:50:16.124 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 15:50:16.124 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:50:16.124 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 15:50:16.125 10184 10196 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-30 15:50:16.125 10184 10196 W System  : A resource failed to call SQLiteConnection.close. 
+09-30 15:50:16.125 10184 10196 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-30 15:50:16.125 10184 10196 W System  : A resource failed to call close. 
+09-30 15:50:48.844 10184 10214 W Parcel  : Expecting binder but got null!
+2026-09-30 15:50:54.736  I  SerialService: 'GO-LEAGUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-LEAGUE -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:50:54.840  I  SerialService: 'GO-LEAGUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-LEAGUE&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:50:54.945  I  SerialService: 'GO-LEAGUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-LEAGUE&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:50:54.964  I  SerialService: 'GO-LEAGUE': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 15:50:54.966  I  SerialService: 'GO-LEAGUE': server holds 0 RFID(s); taking the lowest free serial 1 (GOLEAGUE0001)
+2026-09-30 15:50:57.119  I  SerialService: 'GO-LEAGUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-LEAGUE -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:50:57.224  I  SerialService: 'GO-LEAGUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-LEAGUE&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:50:57.331  I  SerialService: 'GO-LEAGUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-LEAGUE&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:50:57.354  I  SerialService: 'GO-LEAGUE': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 15:50:57.356  I  SerialService: 'GO-LEAGUE': server holds 0 RFID(s); taking the lowest free serial 1 (GOLEAGUE0001)
+2026-09-30 15:50:57.987  I  Registration: Upload accepted for GOLEAGUE0001: HTTP 200 {"updated":1,"tags":[{"id":6691,"epc":"GOLEAGUE0001","itemCode":"GO-LEAGUE","serialNo":1}]}
+2026-09-30 15:50:57.988  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-30 15:51:11.827  I  SerialService: 'GO-LEAGUE': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (GOLEAGUE0002)
+09-30 15:51:12.498 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:51:12.498 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 15:51:12.505 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:51:12.505 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 15:51:12.507 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:51:12.507 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-30 15:51:12.586  I  Registration: Upload accepted for GOLEAGUE0002: HTTP 200 {"updated":1,"tags":[{"id":6692,"epc":"GOLEAGUE0002","itemCode":"GO-LEAGUE","serialNo":2}]}
+2026-09-30 15:51:12.590  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-09-30 15:51:17.823  I  SerialService: 'GO-LEAGUE': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (GOLEAGUE0003)
+2026-09-30 15:51:18.461  I  Registration: Upload accepted for GOLEAGUE0003: HTTP 200 {"updated":1,"tags":[{"id":6693,"epc":"GOLEAGUE0003","itemCode":"GO-LEAGUE","serialNo":3}]}
+2026-09-30 15:51:18.464  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-30 15:51:38.328 10184 10214 W Parcel  : Expecting binder but got null!
+09-30 15:52:50.513 10184 10214 W Parcel  : Expecting binder but got null!
+09-30 15:52:51.187 10184 10214 W Parcel  : Expecting binder but got null!
+09-30 15:52:54.080 10184 10214 W Parcel  : Expecting binder but got null!
+09-30 15:52:58.939 10184 10196 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-30 15:52:58.939 10184 10196 W System  : A resource failed to call SQLiteConnection.close. 
+09-30 15:52:58.940 10184 10196 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-30 15:52:58.940 10184 10196 W System  : A resource failed to call close. 
+09-30 15:52:58.948 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:52:58.948 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 15:52:58.949 10184 10196 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-30 15:52:58.949 10184 10196 W System  : A resource failed to call SQLiteConnection.close. 
+09-30 15:52:58.949 10184 10196 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-30 15:52:58.949 10184 10196 W System  : A resource failed to call close. 
+09-30 15:53:01.771 10184 10196 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-30 15:53:01.771 10184 10196 W System  : A resource failed to call SQLiteConnection.close. 
+09-30 15:53:01.772 10184 10196 W System  : A resource failed to call SQLiteConnectionPool.close. 
+09-30 15:53:01.773 10184 10196 W System  : A resource failed to call close. 
+2026-09-30 15:53:02.487  I  SerialService: 'GO-MEHAK': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-MEHAK -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+09-30 15:53:02.523 10184 10196 W System  : A resource failed to call close. 
+2026-09-30 15:53:02.591  I  SerialService: 'GO-MEHAK': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-MEHAK&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:53:02.699  I  SerialService: 'GO-MEHAK': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-MEHAK&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:53:02.715  I  SerialService: 'GO-MEHAK': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 15:53:02.717  I  SerialService: 'GO-MEHAK': server holds 0 RFID(s); taking the lowest free serial 1 (GOMEHAK0001)
+2026-09-30 15:53:09.202  I  SerialService: 'GO-MEHAK': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-MEHAK -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:53:09.307  I  SerialService: 'GO-MEHAK': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-MEHAK&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:53:09.417  I  SerialService: 'GO-MEHAK': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-MEHAK&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-09-30 15:53:09.435  I  SerialService: 'GO-MEHAK': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-09-30 15:53:09.437  I  SerialService: 'GO-MEHAK': server holds 0 RFID(s); taking the lowest free serial 1 (GOMEHAK0001)
+2026-09-30 15:53:11.045  I  Registration: Upload accepted for GOMEHAK0001: HTTP 200 {"updated":1,"tags":[{"id":6694,"epc":"GOMEHAK0001","itemCode":"GO-MEHAK","serialNo":1}]}
+2026-09-30 15:53:11.047  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-30 15:53:19.755 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:53:19.756 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 15:53:19.758 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:53:19.758 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+2026-09-30 15:53:27.402  I  SerialService: 'GO-MEHAK': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (GOMEHAK0002)
+2026-09-30 15:53:28.024  I  Registration: Upload accepted for GOMEHAK0002: HTTP 200 {"updated":1,"tags":[{"id":6695,"epc":"GOMEHAK0002","itemCode":"GO-MEHAK","serialNo":2}]}
+2026-09-30 15:53:28.026  I  Registration: Uploaded 1 tag(s); 0 still pending
+09-30 15:53:34.599 10184 10196 W System  : A resource failed to call CursorWindow.close. 
+09-30 15:53:34.599 10184 10196 W System  : A resource failed to call AbstractCursor.close. 
+09-30 15:53:34.603 10184 10196 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-30 15:53:34.603 10184 10196 W System  : A resource failed to call SQLiteConnection.close. 
+09-30 15:53:34.604 10184 10196 W System  : A resource failed to call SQLiteConnectionPool.close. 
