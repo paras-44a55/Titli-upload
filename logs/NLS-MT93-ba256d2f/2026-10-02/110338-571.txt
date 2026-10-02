@@ -1,0 +1,61 @@
+# pushed 2026-10-02 11:03:38.571 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 100626..109501
+
+10-02 10:56:09.222 17636 18778 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-10-02 10:56:10.591  I  UhfSession: UHF reader powered up
+2026-10-02 10:56:13.378  I  ProductSync: unmapped for location 2 needed 3 page(s): 556 row(s), server reported 556
+10-02 10:56:36.195 17636 17648 W System  : A resource failed to call close. 
+10-02 10:56:36.195 17636 17648 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-02 10:56:36.195 17636 17648 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-02 10:56:36.196 17636 17648 W System  : A resource failed to call SQLiteConnection.close. 
+10-02 10:56:36.199 17636 17648 W System  : A resource failed to call close. 
+10-02 10:56:36.199 17636 17648 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-02 10:56:36.199 17636 17648 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-02 10:56:36.199 17636 17648 W System  : A resource failed to call SQLiteConnection.close. 
+10-02 10:57:07.394 17636 17636 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1930360
+10-02 10:57:19.242 17636 17636 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ed1542f
+10-02 10:57:19.258 17636 17636 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-02 10:57:42.707 17636 17636 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8883076
+10-02 10:57:42.715 17636 17636 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-02 10:57:49.125 17636 17636 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ebb675c
+10-02 10:57:49.137 17636 17636 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-02 10:57:51.945  I  SerialService: 'MNM-182': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-182 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:57:52.072  I  SerialService: 'MNM-182': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-182&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:57:52.139  I  SerialService: 'MNM-182': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-182&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:57:52.149  I  SerialService: 'MNM-182': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-02 10:57:52.151  I  SerialService: 'MNM-182': server holds 0 RFID(s); taking the lowest free serial 1 (MNM1820001)
+2026-10-02 10:58:05.341  I  SerialService: 'MNM-182': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-182 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:58:05.721  I  SerialService: 'MNM-182': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-182&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:58:05.794  I  SerialService: 'MNM-182': GET http://164.52.223.163:4636/api/device/products/mapped?search=MNM-182&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:58:05.813  I  SerialService: 'MNM-182': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-02 10:58:05.814  I  SerialService: 'MNM-182': server holds 0 RFID(s); taking the lowest free serial 1 (MNM1820001)
+2026-10-02 10:58:06.861  I  Registration: Upload accepted for MNM1820001: HTTP 200 {"updated":1,"tags":[{"id":6921,"epc":"MNM1820001","itemCode":"MNM-182","serialNo":1}]}
+2026-10-02 10:58:06.863  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-02 10:58:25.009 17636 17648 W System  : A resource failed to call close. 
+10-02 10:58:25.009 17636 17648 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-02 10:58:25.009 17636 17648 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-02 10:58:25.009 17636 17648 W System  : A resource failed to call SQLiteConnection.close. 
+10-02 10:58:25.012 17636 17648 W System  : A resource failed to call AbstractCursor.close. 
+10-02 10:58:25.018 17636 17648 W System  : A resource failed to call AbstractCursor.close. 
+10-02 10:59:11.776 17636 17636 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@86431a0
+10-02 10:59:33.485 17636 17636 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@681af1c
+2026-10-02 10:59:37.768  I  SerialService: 'MM-131': GET http://164.52.223.163:4636/api/device/products/mapped?search=MM-131 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:59:38.014  I  SerialService: 'MM-131': GET http://164.52.223.163:4636/api/device/products/mapped?search=MM-131&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:59:38.081  I  SerialService: 'MM-131': GET http://164.52.223.163:4636/api/device/products/mapped?search=MM-131&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:59:38.096  I  SerialService: 'MM-131': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-02 10:59:38.097  I  SerialService: 'MM-131': server holds 0 RFID(s); taking the lowest free serial 1 (MM1310001)
+2026-10-02 10:59:40.787  I  SerialService: 'MM-131': GET http://164.52.223.163:4636/api/device/products/mapped?search=MM-131 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:59:40.860  I  SerialService: 'MM-131': GET http://164.52.223.163:4636/api/device/products/mapped?search=MM-131&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:59:40.933  I  SerialService: 'MM-131': GET http://164.52.223.163:4636/api/device/products/mapped?search=MM-131&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-02 10:59:40.956  I  SerialService: 'MM-131': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-02 10:59:40.957  I  SerialService: 'MM-131': server holds 0 RFID(s); taking the lowest free serial 1 (MM1310001)
+2026-10-02 10:59:41.581  I  Registration: Upload accepted for MM1310001: HTTP 200 {"updated":1,"tags":[{"id":6922,"epc":"MM1310001","itemCode":"MM-131","serialNo":1}]}
+2026-10-02 10:59:41.584  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-02 11:00:10.914 17636 17648 W System  : A resource failed to call close. 
+10-02 11:00:10.914 17636 17648 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-02 11:00:10.914 17636 17648 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-02 11:00:10.914 17636 17648 W System  : A resource failed to call SQLiteConnection.close. 
+10-02 11:00:10.916 17636 17648 W System  : A resource failed to call AbstractCursor.close. 
+10-02 11:00:10.917 17636 17648 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-02 11:02:42.567  I  UhfSession: UHF reader powered down: idle for 3 min
