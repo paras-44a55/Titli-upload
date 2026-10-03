@@ -1,0 +1,79 @@
+# pushed 2026-10-03 12:08:46.248 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 66438..74024
+
+10-03 12:03:10.025  4724  4724 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@614fd9b
+10-03 12:03:34.149  4724  6828 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-10-03 12:03:35.689  W  UhfSession: Could not power up the UHF reader
+2026-10-03 12:03:48.166  E  ProductSync: mapped page 1 failed
+java.net.SocketTimeoutException: timeout
+	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:887)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:188)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	... 18 more
+2026-10-03 12:03:48.377  E  ProductSync: unmapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:965)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-03 12:03:53.421  W  Net: wifi DISCONNECTED — link had been up for 73s
+10-03 12:04:06.468  4724  4730 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+10-03 12:04:06.508  4724  4732 W System  : A resource failed to call close. 
+10-03 12:04:06.508  4724  4732 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-03 12:04:06.508  4724  4732 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-03 12:04:06.508  4724  4732 W System  : A resource failed to call SQLiteConnection.close. 
+2026-10-03 12:04:11.807  I  UhfSession: UHF reader powered up
+10-03 12:05:54.890  4724  4724 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@47ba510
+10-03 12:05:58.422  4724  4724 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1e4dcdd
+10-03 12:05:58.431  4724  4724 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-03 12:06:00.030  4724  4724 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@34ab685
+10-03 12:06:03.833  4724  4724 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@346f9f3
+10-03 12:06:03.868  4724  4724 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-03 12:06:05.551  4724  4724 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@770a877
+10-03 12:06:08.195  4724  4724 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a615bb7
+10-03 12:06:08.212  4724  4724 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-03 12:06:17.943  4724  4724 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a498c5b
+10-03 12:06:25.711  4724  4724 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c6f17b7
+10-03 12:06:25.726  4724  4724 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-03 12:07:13.473  I  UhfSession: UHF reader powered down: idle for 3 min
+2026-10-03 12:07:38.481  I  Net: wifi connected
+2026-10-03 12:07:38.487  W  Net: wifi is up but has NO internet (rssi -66 dBm)
+2026-10-03 12:07:38.535  I  Net: wifi has internet (rssi -66 dBm)
