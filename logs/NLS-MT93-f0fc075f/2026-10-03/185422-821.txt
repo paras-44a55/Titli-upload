@@ -1,0 +1,94 @@
+# pushed 2026-10-03 18:54:22.821 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 512567..1029
+
+2026-10-03 18:48:46.759  I  UhfSession: UHF reader powered down: app moved to the background
+10-03 18:49:44.295 29539 29539 E SurfaceSyncer: Failed to find sync for id=0
+10-03 18:49:44.295 29539 29539 E SurfaceSyncer: Failed to find sync for id=1
+10-03 18:49:46.157 29539 29720 W Parcel  : Expecting binder but got null!
+2026-10-03 18:49:46.782  W  UhfSession: Could not power up the UHF reader
+2026-10-03 18:49:54.709  I  SerialService: 'LD-MAMTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAMTA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:49:54.825  I  SerialService: 'LD-MAMTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAMTA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:49:54.941  I  SerialService: 'LD-MAMTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAMTA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:49:54.962  I  SerialService: 'LD-MAMTA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-03 18:49:54.964  I  SerialService: 'LD-MAMTA': server holds 0 RFID(s); taking the lowest free serial 4 (LDMAMTA0004)
+2026-10-03 18:49:55.760  I  SerialService: 'LD-MAMTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAMTA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:49:55.879  I  SerialService: 'LD-MAMTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAMTA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:49:56.000  I  SerialService: 'LD-MAMTA': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-MAMTA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:49:56.023  I  SerialService: 'LD-MAMTA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-03 18:49:56.025  I  SerialService: 'LD-MAMTA': server holds 0 RFID(s); taking the lowest free serial 4 (LDMAMTA0004)
+2026-10-03 18:49:58.576  I  UhfSession: UHF reader powered up
+2026-10-03 18:50:00.102  I  Registration: Upload accepted for LDMAMTA0004: HTTP 200 {"updated":1,"tags":[{"id":7100,"epc":"LDMAMTA0004","itemCode":"LD-MAMTA","serialNo":4}]}
+2026-10-03 18:50:00.109  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-03 18:50:00.486  I  SerialService: 'LD-MAMTA': server holds 1 RFID(s) [4]; taking the lowest free serial 5 (LDMAMTA0005)
+2026-10-03 18:50:02.701  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+10-03 18:50:12.333 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 18:50:12.333 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 18:50:12.334 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 18:50:12.335 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 18:50:12.335 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 18:50:12.335 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 18:50:12.335 29539 29566 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-03 18:50:12.336 29539 29566 W System  : A resource failed to call SQLiteConnection.close. 
+10-03 18:50:12.337 29539 29566 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-03 18:50:12.337 29539 29566 W System  : A resource failed to call close. 
+2026-10-03 18:50:13.067  I  SerialService: 'LD-MAMTA': server holds 1 RFID(s) [4]; taking the lowest free serial 5 (LDMAMTA0005)
+2026-10-03 18:50:14.022  I  Registration: Upload accepted for LDMAMTA0005: HTTP 200 {"updated":1,"tags":[{"id":7101,"epc":"LDMAMTA0005","itemCode":"LD-MAMTA","serialNo":5}]}
+2026-10-03 18:50:14.024  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 18:50:23.948 29539 29720 W Parcel  : Expecting binder but got null!
+10-03 18:50:30.753 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 18:50:30.754 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-03 18:50:36.143  I  SerialService: 'LD-PANCHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-PANCHI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:50:36.262  I  SerialService: 'LD-PANCHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-PANCHI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:50:36.378  I  SerialService: 'LD-PANCHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-PANCHI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:50:36.398  I  SerialService: 'LD-PANCHI': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-03 18:50:36.400  I  SerialService: 'LD-PANCHI': server holds 0 RFID(s); taking the lowest free serial 4 (LDPANCHI0004)
+2026-10-03 18:50:40.394  I  SerialService: 'LD-PANCHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-PANCHI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:50:40.509  I  SerialService: 'LD-PANCHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-PANCHI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:50:40.626  I  SerialService: 'LD-PANCHI': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-PANCHI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:50:40.646  I  SerialService: 'LD-PANCHI': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-03 18:50:40.648  I  SerialService: 'LD-PANCHI': server holds 0 RFID(s); taking the lowest free serial 4 (LDPANCHI0004)
+2026-10-03 18:50:41.456  I  Registration: Upload accepted for LDPANCHI0004: HTTP 200 {"updated":1,"tags":[{"id":7102,"epc":"LDPANCHI0004","itemCode":"LD-PANCHI","serialNo":4}]}
+2026-10-03 18:50:41.458  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 18:50:47.252 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 18:50:47.252 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 18:50:47.254 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 18:50:47.254 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 18:50:59.130 29539 29720 W Parcel  : Expecting binder but got null!
+2026-10-03 18:51:38.754  I  SerialService: 'LD-JENNIFER': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-JENNIFER -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:51:38.866  I  SerialService: 'LD-JENNIFER': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-JENNIFER&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:51:38.980  I  SerialService: 'LD-JENNIFER': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-JENNIFER&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:51:39.005  I  SerialService: 'LD-JENNIFER': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-03 18:51:39.006  I  SerialService: 'LD-JENNIFER': server holds 0 RFID(s); taking the lowest free serial 4 (LDJENNIFER0004)
+2026-10-03 18:51:39.817  I  SerialService: 'LD-JENNIFER': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-JENNIFER -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:51:39.933  I  SerialService: 'LD-JENNIFER': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-JENNIFER&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:51:40.048  I  SerialService: 'LD-JENNIFER': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-JENNIFER&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 18:51:40.069  I  SerialService: 'LD-JENNIFER': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-03 18:51:40.071  I  SerialService: 'LD-JENNIFER': server holds 0 RFID(s); taking the lowest free serial 4 (LDJENNIFER0004)
+10-03 18:51:40.699 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 18:51:40.700 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 18:51:40.701 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 18:51:40.701 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 18:51:40.702 29539 29566 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-03 18:51:40.702 29539 29566 W System  : A resource failed to call SQLiteConnection.close. 
+10-03 18:51:40.704 29539 29566 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-03 18:51:40.704 29539 29566 W System  : A resource failed to call close. 
+2026-10-03 18:51:40.776  I  Registration: Upload accepted for LDJENNIFER0004: HTTP 200 {"updated":1,"tags":[{"id":7103,"epc":"LDJENNIFER0004","itemCode":"LD-JENNIFER","serialNo":4}]}
+2026-10-03 18:51:40.778  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-03 18:52:06.330  I  SerialService: 'LD-JENNIFER': server holds 1 RFID(s) [4]; taking the lowest free serial 5 (LDJENNIFER0005)
+2026-10-03 18:52:07.037  I  Registration: Upload accepted for LDJENNIFER0005: HTTP 200 {"updated":1,"tags":[{"id":7104,"epc":"LDJENNIFER0005","itemCode":"LD-JENNIFER","serialNo":5}]}
+2026-10-03 18:52:07.039  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 18:52:22.367 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 18:52:22.367 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 18:52:51.303 29539 29720 W Parcel  : Expecting binder but got null!
+10-03 18:52:57.907 29539 29539 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-03 18:52:58.566 29539 29720 W Parcel  : Expecting binder but got null!
+2026-10-03 18:53:08.046  I  SerialService: 'LD-MAMTA': server holds 2 RFID(s) [4, 5]; taking the lowest free serial 6 (LDMAMTA0006)
+2026-10-03 18:53:09.360  I  SerialService: 'LD-MAMTA': server holds 2 RFID(s) [4, 5]; taking the lowest free serial 6 (LDMAMTA0006)
+2026-10-03 18:53:10.060  I  Registration: Upload accepted for LDMAMTA0006: HTTP 200 {"updated":1,"tags":[{"id":7105,"epc":"LDMAMTA0006","itemCode":"LD-MAMTA","serialNo":6}]}
+2026-10-03 18:53:10.063  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 18:53:25.895 29539 29720 W Parcel  : Expecting binder but got null!
+10-03 18:54:04.191 29539 29566 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-03 18:54:04.191 29539 29566 W System  : A resource failed to call SQLiteConnection.close. 
+10-03 18:54:04.192 29539 29566 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-03 18:54:04.192 29539 29566 W System  : A resource failed to call close. 
