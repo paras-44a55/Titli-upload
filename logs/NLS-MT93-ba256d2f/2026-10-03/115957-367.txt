@@ -1,0 +1,90 @@
+# pushed 2026-10-03 11:59:57.367 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 54537..63244
+
+2026-10-02 19:07:08.441  W  Net: wifi DISCONNECTED — link had been up for 14865s
+2026-10-02 19:07:11.035  I  Net: wifi connected
+2026-10-02 19:07:11.039  W  Net: wifi is up but has NO internet (rssi -49 dBm)
+2026-10-02 19:07:11.085  I  Net: wifi has internet (rssi -49 dBm)
+2026-10-03 00:55:29.206  W  Net: wifi DISCONNECTED — link had been up for 20898s
+2026-10-03 00:55:31.613  I  Net: wifi connected
+2026-10-03 00:55:31.620  W  Net: wifi is up but has NO internet (rssi -50 dBm)
+2026-10-03 00:55:31.687  I  Net: wifi has internet (rssi -50 dBm)
+2026-10-03 11:12:03.709  W  LogUploader: Log push failed
+java.net.SocketException: Software caused connection abort
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:118)
+	at java.net.SocketInputStream.read(SocketInputStream.java:173)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readFromSocket(ConscryptEngineSocket.java:1015)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:979)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readUntilDataAvailable(ConscryptEngineSocket.java:894)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.read(ConscryptEngineSocket.java:867)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:106)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:27)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:207)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(LogUploader.kt:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:369)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:324)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-03 11:59:20.365  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-10-03 11:59:20.377  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-10-03 11:59:20.395  I  Net: wifi connected
+2026-10-03 11:59:20.399  I  Net: wifi has internet (rssi -56 dBm)
+--------- beginning of main
+10-03 11:59:20.407 24105 24131 W QT      : qt_process_init() called
+10-03 11:59:20.407 24105 24131 E QT      : [QT]file does not exist
+10-03 11:59:20.407 24105 24131 W QT      : Support!!
+10-03 11:59:20.550 24105 24105 W HWUI    : Unknown dataspace 0
+10-03 11:59:20.588 24105 24132 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+10-03 11:59:20.746 24105 24129 W libc    : Access denied finding property "vendor.mbrain.enabled"
+10-03 11:59:20.778 24105 24129 W libc    : Access denied finding property "vendor.mbrain.enabled"
+10-03 11:59:22.356 24105 24105 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bfe019e
+2026-10-03 11:59:27.344  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-10-03 11:59:27.360  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-10-03 11:59:27.390  I  Net: wifi connected
+2026-10-03 11:59:27.392  I  Net: wifi has internet (rssi -56 dBm)
+--------- beginning of main
+10-03 11:59:27.411 24394 24419 W QT      : qt_process_init() called
+10-03 11:59:27.411 24394 24419 E QT      : [QT]file does not exist
+10-03 11:59:27.411 24394 24419 W QT      : Support!!
+10-03 11:59:27.794 24394 24394 W HWUI    : Unknown dataspace 0
+10-03 11:59:27.997 24394 24417 W libc    : Access denied finding property "vendor.mbrain.enabled"
+10-03 11:59:28.034 24394 24417 W libc    : Access denied finding property "vendor.mbrain.enabled"
+10-03 11:59:38.775 24394 24394 W Choreographer: Frame time is 0.056626  now = 26040952068782  timestampNanos = 26040952125408 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+10-03 11:59:38.887 24394 24534 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+10-03 11:59:49.179 24394 24394 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5eddc44
+10-03 11:59:50.431 24394 24402 W System  : A resource failed to call close. 
+10-03 11:59:50.432 24394 24402 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-03 11:59:50.432 24394 24402 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-03 11:59:50.432 24394 24402 W System  : A resource failed to call SQLiteConnection.close. 
+10-03 11:59:50.436 24394 24402 W System  : A resource failed to call close. 
+10-03 11:59:50.436 24394 24402 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-03 11:59:50.437 24394 24402 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-03 11:59:50.437 24394 24402 W System  : A resource failed to call SQLiteConnection.close. 
+10-03 11:59:50.442 24394 24402 W System  : A resource failed to call close. 
+10-03 11:59:50.442 24394 24402 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-03 11:59:50.442 24394 24402 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-03 11:59:50.442 24394 24402 W System  : A resource failed to call SQLiteConnection.close. 
+10-03 11:59:51.783 24394 24394 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@97667a3
+10-03 11:59:52.410 24394 24559 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+10-03 11:59:52.580 24394 24394 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ee83dcc
