@@ -1,0 +1,151 @@
+# pushed 2026-10-03 19:42:25.604 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 163897..178707
+
+2026-10-03 19:36:41.892  I  UhfSession: UHF reader powered down: app moved to the background
+10-03 19:36:43.511 29539 29539 E SurfaceSyncer: Failed to find sync for id=0
+10-03 19:36:43.511 29539 29539 E SurfaceSyncer: Failed to find sync for id=1
+10-03 19:36:43.605 29539 29539 E SurfaceSyncer: Failed to find sync for id=0
+10-03 19:36:43.605 29539 29539 E SurfaceSyncer: Failed to find sync for id=1
+2026-10-03 19:36:45.981  W  UhfSession: Could not power up the UHF reader
+2026-10-03 19:36:46.003  I  SerialService: 'LD-KUMARI': server holds 2 RFID(s) [5, 6]; taking the lowest free serial 7 (LDKUMARI0007)
+2026-10-03 19:36:48.543  I  UhfSession: UHF reader powered up
+2026-10-03 19:36:49.265  I  Registration: Upload accepted for LDKUMARI0007: HTTP 200 {"updated":1,"tags":[{"id":7206,"epc":"LDKUMARI0007","itemCode":"LD-KUMARI","serialNo":7}]}
+2026-10-03 19:36:49.266  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 19:36:50.357 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 19:36:50.357 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-03 19:37:05.046  I  SerialService: 'LD-KUMARI': server holds 3 RFID(s) [5, 6, 7]; taking the lowest free serial 8 (LDKUMARI0008)
+2026-10-03 19:37:05.743  I  Registration: Upload accepted for LDKUMARI0008: HTTP 200 {"updated":1,"tags":[{"id":7207,"epc":"LDKUMARI0008","itemCode":"LD-KUMARI","serialNo":8}]}
+2026-10-03 19:37:05.747  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 19:37:09.800 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 19:37:09.800 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 19:38:09.154 29539 29720 W Parcel  : Expecting binder but got null!
+2026-10-03 19:38:26.230  E  ProductSync: mapped page 1 failed
+java.net.SocketTimeoutException: timeout
+	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+	at com.android.okhttp.okio.RealBufferedSource.read(RealBufferedSource.java:51)
+	at com.android.okhttp.internal.http.Http1xStream$ChunkedSource.read(Http1xStream.java:441)
+	at com.android.okhttp.okio.RealBufferedSource$1.read(RealBufferedSource.java:372)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:291)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:355)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:181)
+	at java.io.InputStreamReader.read(InputStreamReader.java:180)
+	at java.io.BufferedReader.read1(BufferedReader.java:221)
+	at java.io.BufferedReader.read(BufferedReader.java:298)
+	at java.io.Reader.read(Reader.java:229)
+	at kotlin.io.TextStreamsKt.copyTo(ReadWrite.kt:132)
+	at kotlin.io.TextStreamsKt.copyTo$default(ReadWrite.kt:125)
+	at kotlin.io.TextStreamsKt.readText(ReadWrite.kt:112)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:314)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.refreshMappedProducts(RegistrationActivity.kt:1770)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:380)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:188)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	... 22 more
+2026-10-03 19:38:26.418  I  SerialService: 'LD-SKY': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SKY -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 19:38:26.529  I  SerialService: 'LD-SKY': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SKY&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 19:38:26.644  I  SerialService: 'LD-SKY': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SKY&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 19:38:26.666  I  SerialService: 'LD-SKY': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-03 19:38:26.669  I  SerialService: 'LD-SKY': server holds 0 RFID(s); taking the lowest free serial 9 (LDSKY0009)
+2026-10-03 19:38:28.624  I  SerialService: 'LD-SKY': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SKY -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 19:38:28.737  I  SerialService: 'LD-SKY': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SKY&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 19:38:28.850  I  SerialService: 'LD-SKY': GET http://164.52.223.163:4636/api/device/products/mapped?search=LD-SKY&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-03 19:38:28.869  I  SerialService: 'LD-SKY': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-03 19:38:28.870  I  SerialService: 'LD-SKY': server holds 0 RFID(s); taking the lowest free serial 9 (LDSKY0009)
+2026-10-03 19:38:29.584  I  Registration: Upload accepted for LDSKY0009: HTTP 200 {"updated":1,"tags":[{"id":7208,"epc":"LDSKY0009","itemCode":"LD-SKY","serialNo":9}]}
+2026-10-03 19:38:29.587  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-03 19:38:42.489  I  SerialService: 'LD-SKY': server holds 1 RFID(s) [9]; taking the lowest free serial 10 (LDSKY0010)
+2026-10-03 19:38:44.016  I  Registration: Upload accepted for LDSKY0010: HTTP 200 {"updated":1,"tags":[{"id":7209,"epc":"LDSKY0010","itemCode":"LD-SKY","serialNo":10}]}
+2026-10-03 19:38:44.018  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 19:38:54.217 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 19:38:54.217 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 19:38:54.221 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 19:38:54.221 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 19:38:54.221 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 19:38:54.221 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-03 19:39:03.923  I  SerialService: 'LD-SKY': server holds 2 RFID(s) [9, 10]; taking the lowest free serial 11 (LDSKY0011)
+2026-10-03 19:39:04.737  I  Registration: Upload accepted for LDSKY0011: HTTP 200 {"updated":1,"tags":[{"id":7210,"epc":"LDSKY0011","itemCode":"LD-SKY","serialNo":11}]}
+2026-10-03 19:39:04.739  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-03 19:39:22.462  I  SerialService: 'LD-SKY': server holds 3 RFID(s) [9, 10, 11]; taking the lowest free serial 12 (LDSKY0012)
+2026-10-03 19:39:23.260  I  Registration: Upload accepted for LDSKY0012: HTTP 200 {"updated":1,"tags":[{"id":7211,"epc":"LDSKY0012","itemCode":"LD-SKY","serialNo":12}]}
+2026-10-03 19:39:23.263  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 19:39:25.766 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 19:39:25.766 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 19:39:25.769 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 19:39:25.769 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-03 19:39:36.737  I  SerialService: 'LD-SKY': server holds 4 RFID(s) [9, 10, 11, 12]; taking the lowest free serial 13 (LDSKY0013)
+2026-10-03 19:39:37.441  I  Registration: Upload accepted for LDSKY0013: HTTP 200 {"updated":1,"tags":[{"id":7212,"epc":"LDSKY0013","itemCode":"LD-SKY","serialNo":13}]}
+2026-10-03 19:39:37.445  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 19:39:56.555 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 19:39:56.556 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-03 19:39:57.046  I  SerialService: 'LD-SKY': server holds 5 RFID(s) [9, 10, 11, 12, 13]; taking the lowest free serial 14 (LDSKY0014)
+2026-10-03 19:39:58.032  I  Registration: Upload accepted for LDSKY0014: HTTP 200 {"updated":1,"tags":[{"id":7213,"epc":"LDSKY0014","itemCode":"LD-SKY","serialNo":14}]}
+2026-10-03 19:39:58.034  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-03 19:40:12.653  I  SerialService: 'LD-SKY': server holds 6 RFID(s) [9, 10, 11, 12, 13, 14]; taking the lowest free serial 15 (LDSKY0015)
+2026-10-03 19:40:13.369  I  Registration: Upload accepted for LDSKY0015: HTTP 200 {"updated":1,"tags":[{"id":7214,"epc":"LDSKY0015","itemCode":"LD-SKY","serialNo":15}]}
+2026-10-03 19:40:13.372  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 19:40:14.114 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 19:40:14.114 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+10-03 19:40:14.116 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 19:40:14.116 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-03 19:40:28.084  I  SerialService: 'LD-SKY': server holds 7 RFID(s) [9, 10, 11, 12, 13, 14, 15]; taking the lowest free serial 16 (LDSKY0016)
+2026-10-03 19:40:28.800  I  Registration: Upload accepted for LDSKY0016: HTTP 200 {"updated":1,"tags":[{"id":7215,"epc":"LDSKY0016","itemCode":"LD-SKY","serialNo":16}]}
+2026-10-03 19:40:28.808  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 19:40:32.817 29539 29566 W System  : A resource failed to call CursorWindow.close. 
+10-03 19:40:32.817 29539 29566 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-03 19:41:36.433  I  UhfSession: UHF reader powered down: app moved to the background
+10-03 19:41:46.002 29539 29539 E SurfaceSyncer: Failed to find sync for id=0
+10-03 19:41:46.002 29539 29539 E SurfaceSyncer: Failed to find sync for id=1
+10-03 19:41:46.002 29539 29539 E SurfaceSyncer: Failed to find sync for id=2
+2026-10-03 19:41:48.486  W  UhfSession: Could not power up the UHF reader
+10-03 19:41:52.871 29539 29720 W Parcel  : Expecting binder but got null!
+10-03 19:41:55.438 29539 29720 W Parcel  : Expecting binder but got null!
+2026-10-03 19:42:01.613  E  ProductSync: mapped page 1 failed
+java.net.SocketTimeoutException: timeout
+	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.refreshMappedProducts(RegistrationActivity.kt:1770)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:380)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:188)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	... 19 more
+2026-10-03 19:42:02.066  I  SerialService: 'LD-PAVITRA': server holds 1 RFID(s) [4]; taking the lowest free serial 5 (LDPAVITRA0005)
+2026-10-03 19:42:03.166  I  SerialService: 'LD-PAVITRA': server holds 1 RFID(s) [4]; taking the lowest free serial 5 (LDPAVITRA0005)
+2026-10-03 19:42:05.721  I  UhfSession: UHF reader powered up
+2026-10-03 19:42:06.623  I  SerialService: 'LD-PAVITRA': server holds 1 RFID(s) [4]; taking the lowest free serial 5 (LDPAVITRA0005)
+2026-10-03 19:42:09.841  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-10-03 19:42:10.941  I  Registration: Upload accepted for LDPAVITRA0005: HTTP 200 {"updated":1,"tags":[{"id":7216,"epc":"LDPAVITRA0005","itemCode":"LD-PAVITRA","serialNo":5}]}
+2026-10-03 19:42:10.943  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-03 19:42:25.591 29539 31512 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#369(BLAST Consumer)369](id:736300000183,api:4,p:1160,c:29539) queueBuffer: BufferQueue has been abandoned
