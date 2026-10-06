@@ -1,0 +1,37 @@
+# pushed 2026-10-06 18:05:24.120 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 178707..183388
+
+10-03 19:42:25.636 29539 31512 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#369(BLAST Consumer)369](id:736300000183,api:4,p:1160,c:29539) cancelBuffer: BufferQueue has been abandoned
+10-03 19:42:25.639 29539 29572 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#369(BLAST Consumer)369](id:736300000183,api:4,p:1160,c:29539) cancelBuffer: BufferQueue has been abandoned
+10-03 19:42:25.640 29539 29572 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#369(BLAST Consumer)369](id:736300000183,api:4,p:1160,c:29539) cancelBuffer: BufferQueue has been abandoned
+10-03 19:42:25.641 29539 29572 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#369(BLAST Consumer)369](id:736300000183,api:4,p:1160,c:29539) cancelBuffer: BufferQueue has been abandoned
+2026-10-03 19:42:27.000  I  UhfSession: UHF reader powered down: app moved to the background
+2026-10-06 18:05:13.905  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=<not configured> location=TITLI NEEMUCH
+2026-10-06 18:05:13.985  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-f0fc075f
+--------- beginning of main
+10-06 18:05:14.334  4054  4054 W hionapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+10-06 18:05:14.380  4054  4211 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(Unknown Source:0)
+10-06 18:05:14.380  4054  4211 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+10-06 18:05:14.380  4054  4211 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-06 18:05:14.439  4054  4054 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+10-06 18:05:14.807  4054  4173 W Parcel  : Expecting binder but got null!
+10-06 18:05:19.270  4054  4054 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+10-06 18:05:19.270  4054  4054 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+2026-10-06 18:05:19.575  I  Net: wifi connected
+2026-10-06 18:05:19.587  W  Net: wifi is up but has NO internet (rssi -38 dBm)
+10-06 18:05:19.848  4054  4173 W Parcel  : Expecting binder but got null!
+2026-10-06 18:05:19.857  I  Net: wifi has internet (rssi -38 dBm)
+10-06 18:05:20.155  4054  4054 W ViewRootImpl: Not reporting timeline because gpuCompletedTime is 1.4411514734960364E11ms ahead of presentTime. FRAME_TIMELINE_VSYNC_ID=9036, INPUT_EVENT_ID=502413455
