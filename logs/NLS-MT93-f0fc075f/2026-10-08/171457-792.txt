@@ -1,0 +1,77 @@
+# pushed 2026-10-08 17:14:57.792 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 453750..463001
+
+2026-10-08 17:09:37.540  I  UhfSession: UHF reader powered down: app moved to the background
+10-08 17:11:04.743  4054  4054 E SurfaceSyncer: Failed to find sync for id=0
+10-08 17:11:04.743  4054  4054 E SurfaceSyncer: Failed to find sync for id=1
+10-08 17:11:04.743  4054  4054 E SurfaceSyncer: Failed to find sync for id=2
+10-08 17:11:04.743  4054  4054 E SurfaceSyncer: Failed to find sync for id=3
+10-08 17:11:04.743  4054  4054 E SurfaceSyncer: Failed to find sync for id=4
+10-08 17:11:04.743  4054  4054 E SurfaceSyncer: Failed to find sync for id=5
+10-08 17:11:04.743  4054  4054 E SurfaceSyncer: Failed to find sync for id=6
+10-08 17:11:05.794  4054  4173 W Parcel  : Expecting binder but got null!
+2026-10-08 17:11:07.894  I  UhfSession: UHF reader powered up
+10-08 17:11:10.590  4054  4173 W Parcel  : Expecting binder but got null!
+2026-10-08 17:11:19.052  I  SerialService: 'VSS-1953': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-1953 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:11:19.152  I  SerialService: 'VSS-1953': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-1953&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:11:19.258  I  SerialService: 'VSS-1953': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-1953&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:11:19.282  I  SerialService: 'VSS-1953': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-08 17:11:19.283  I  SerialService: 'VSS-1953': server holds 0 RFID(s); taking the lowest free serial 1 (VSS19530001)
+2026-10-08 17:11:23.531  I  SerialService: 'VSS-1953': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-1953 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:11:23.634  I  SerialService: 'VSS-1953': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-1953&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:11:23.737  I  SerialService: 'VSS-1953': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-1953&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:11:23.765  I  SerialService: 'VSS-1953': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-08 17:11:23.766  I  SerialService: 'VSS-1953': server holds 0 RFID(s); taking the lowest free serial 1 (VSS19530001)
+2026-10-08 17:11:24.435  I  Registration: Upload accepted for VSS19530001: HTTP 200 {"updated":1,"tags":[{"id":7490,"epc":"VSS19530001","itemCode":"VSS-1953","serialNo":1}]}
+2026-10-08 17:11:24.441  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-08 17:11:30.432  I  SerialService: 'VSS-1953': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VSS19530002)
+2026-10-08 17:11:31.116  I  Registration: Upload accepted for VSS19530002: HTTP 200 {"updated":1,"tags":[{"id":7491,"epc":"VSS19530002","itemCode":"VSS-1953","serialNo":2}]}
+2026-10-08 17:11:31.118  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-08 17:11:42.962  4054  4110 W System  : A resource failed to call CursorWindow.close. 
+10-08 17:11:42.962  4054  4110 W System  : A resource failed to call AbstractCursor.close. 
+10-08 17:11:42.962  4054  4110 W System  : A resource failed to call CursorWindow.close. 
+10-08 17:11:42.962  4054  4110 W System  : A resource failed to call AbstractCursor.close. 
+10-08 17:11:42.963  4054  4110 W System  : A resource failed to call CursorWindow.close. 
+10-08 17:11:42.963  4054  4110 W System  : A resource failed to call AbstractCursor.close. 
+10-08 17:11:42.963  4054  4110 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-08 17:11:42.963  4054  4110 W System  : A resource failed to call SQLiteConnection.close. 
+10-08 17:11:42.963  4054  4110 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-08 17:11:42.963  4054  4110 W System  : A resource failed to call close. 
+2026-10-08 17:12:41.331  I  UhfSession: UHF reader powered down: app moved to the background
+10-08 17:13:28.047  4054  4054 E SurfaceSyncer: Failed to find sync for id=0
+10-08 17:13:28.047  4054  4054 E SurfaceSyncer: Failed to find sync for id=1
+10-08 17:13:28.047  4054  4054 E SurfaceSyncer: Failed to find sync for id=2
+10-08 17:13:28.047  4054  4054 E SurfaceSyncer: Failed to find sync for id=3
+10-08 17:13:28.047  4054  4054 E SurfaceSyncer: Failed to find sync for id=4
+10-08 17:13:28.047  4054  4054 E SurfaceSyncer: Failed to find sync for id=5
+10-08 17:13:28.048  4054  4054 E SurfaceSyncer: Failed to find sync for id=6
+10-08 17:13:28.048  4054  4054 E SurfaceSyncer: Failed to find sync for id=7
+10-08 17:13:28.890  4054  4173 W Parcel  : Expecting binder but got null!
+2026-10-08 17:13:30.853  I  UhfSession: UHF reader powered up
+10-08 17:13:32.390  4054  4173 W Parcel  : Expecting binder but got null!
+2026-10-08 17:13:39.614  I  SerialService: 'VSS-2164': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-2164 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:13:39.726  I  SerialService: 'VSS-2164': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-2164&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:13:39.837  I  SerialService: 'VSS-2164': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-2164&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:13:39.859  I  SerialService: 'VSS-2164': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-08 17:13:39.860  I  SerialService: 'VSS-2164': server holds 0 RFID(s); taking the lowest free serial 1 (VSS21640001)
+2026-10-08 17:13:40.712  I  SerialService: 'VSS-2164': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-2164 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:13:40.828  I  SerialService: 'VSS-2164': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-2164&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:13:40.940  I  SerialService: 'VSS-2164': GET http://164.52.223.163:4636/api/device/products/mapped?search=VSS-2164&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-08 17:13:40.971  I  SerialService: 'VSS-2164': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-08 17:13:40.973  I  SerialService: 'VSS-2164': server holds 0 RFID(s); taking the lowest free serial 1 (VSS21640001)
+2026-10-08 17:13:41.916  I  Registration: Upload accepted for VSS21640001: HTTP 200 {"updated":1,"tags":[{"id":7492,"epc":"VSS21640001","itemCode":"VSS-2164","serialNo":1}]}
+2026-10-08 17:13:41.919  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-08 17:13:48.266  I  SerialService: 'VSS-2164': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VSS21640002)
+2026-10-08 17:13:49.960  I  Registration: Upload accepted for VSS21640002: HTTP 200 {"updated":1,"tags":[{"id":7493,"epc":"VSS21640002","itemCode":"VSS-2164","serialNo":2}]}
+2026-10-08 17:13:49.962  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-08 17:14:20.497  4054  4110 W System  : A resource failed to call CursorWindow.close. 
+10-08 17:14:20.497  4054  4110 W System  : A resource failed to call AbstractCursor.close. 
+10-08 17:14:20.498  4054  4110 W System  : A resource failed to call CursorWindow.close. 
+10-08 17:14:20.498  4054  4110 W System  : A resource failed to call AbstractCursor.close. 
+10-08 17:14:20.498  4054  4110 W System  : A resource failed to call CursorWindow.close. 
+10-08 17:14:20.498  4054  4110 W System  : A resource failed to call AbstractCursor.close. 
+10-08 17:14:20.498  4054  4110 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-08 17:14:20.498  4054  4110 W System  : A resource failed to call SQLiteConnection.close. 
+10-08 17:14:20.499  4054  4110 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-08 17:14:20.499  4054  4110 W System  : A resource failed to call close. 
