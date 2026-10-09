@@ -1,0 +1,82 @@
+# pushed 2026-10-09 13:24:51.711 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 87109..94805
+
+10-09 12:53:42.429 10364 10392 W System  : A resource failed to call close. 
+10-09 12:53:42.429 10364 10392 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-09 12:53:42.430 10364 10392 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-09 12:53:42.430 10364 10392 W System  : A resource failed to call SQLiteConnection.close. 
+2026-10-09 13:24:34.707  W  Net: wifi DISCONNECTED — link had been up for 3172s
+2026-10-09 13:24:35.411  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:887)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-10-09 13:24:35.415  W  ProductSync: unmapped row-count probe failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.serverRowCount(ProductSync.kt:228)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:177)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:965)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-10-09 13:24:35.418  E  ProductSync: unmapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:965)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+10-09 13:24:35.463 10364 10414 W Parcel  : Expecting binder but got null!
+10-09 13:24:36.630 10364 10414 W Parcel  : Expecting binder but got null!
+2026-10-09 13:24:38.567  I  UhfSession: UHF reader powered up
+2026-10-09 13:24:39.820  I  Net: wifi connected
+2026-10-09 13:24:39.821  W  Net: wifi is up but has NO internet (rssi -40 dBm)
+2026-10-09 13:24:39.869  I  Net: wifi has internet (rssi -40 dBm)
+10-09 13:24:48.779 10364 10392 W System  : A resource failed to call close. 
+10-09 13:24:48.779 10364 10392 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-09 13:24:48.779 10364 10392 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-09 13:24:48.779 10364 10392 W System  : A resource failed to call SQLiteConnection.close. 
+10-09 13:24:48.781 10364 10392 W System  : A resource failed to call close. 
+10-09 13:24:48.781 10364 10392 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-09 13:24:48.782 10364 10392 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-09 13:24:48.782 10364 10392 W System  : A resource failed to call SQLiteConnection.close. 
