@@ -1,0 +1,179 @@
+# pushed 2026-10-09 12:37:53.838 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 34951..57121
+
+10-09 12:21:49.256 10364 10392 W System  : A resource failed to call close. 
+10-09 12:21:49.257 10364 10392 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-09 12:21:49.257 10364 10392 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-09 12:21:49.257 10364 10392 W System  : A resource failed to call SQLiteConnection.close. 
+2026-10-09 12:31:36.951  W  Net: wifi DISCONNECTED — link had been up for 1538s
+2026-10-09 12:31:39.226  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:887)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-10-09 12:31:39.229  W  ProductSync: unmapped row-count probe failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.serverRowCount(ProductSync.kt:228)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:177)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:965)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-10-09 12:31:39.233  E  ProductSync: unmapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:965)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+10-09 12:31:39.329 10364 10414 W Parcel  : Expecting binder but got null!
+10-09 12:31:40.473 10364 10414 W Parcel  : Expecting binder but got null!
+2026-10-09 12:31:41.774  I  UhfSession: UHF reader powered up
+2026-10-09 12:31:42.145  I  Net: wifi connected
+2026-10-09 12:31:42.146  W  Net: wifi is up but has NO internet (rssi -34 dBm)
+2026-10-09 12:31:42.202  I  Net: wifi has internet (rssi -34 dBm)
+10-09 12:31:49.276 10364 10414 W Parcel  : Expecting binder but got null!
+10-09 12:32:09.875 10364 10392 W System  : A resource failed to call close. 
+10-09 12:32:09.875 10364 10392 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-09 12:32:09.876 10364 10392 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-09 12:32:09.876 10364 10392 W System  : A resource failed to call SQLiteConnection.close. 
+2026-10-09 12:32:28.732  I  SerialService: 'SSA-RUPALI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-RUPALI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:32:28.835  I  SerialService: 'SSA-RUPALI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-RUPALI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:32:28.938  I  SerialService: 'SSA-RUPALI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-RUPALI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:32:28.954  I  SerialService: 'SSA-RUPALI': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-09 12:32:28.959  I  SerialService: 'SSA-RUPALI': server holds 0 RFID(s); taking the lowest free serial 1 (SSARUPALI0001)
+2026-10-09 12:32:29.434  I  SerialService: 'SSA-RUPALI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-RUPALI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:32:29.537  I  SerialService: 'SSA-RUPALI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-RUPALI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:32:29.649  I  SerialService: 'SSA-RUPALI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-RUPALI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:32:29.667  I  SerialService: 'SSA-RUPALI': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-09 12:32:29.669  I  SerialService: 'SSA-RUPALI': server holds 0 RFID(s); taking the lowest free serial 1 (SSARUPALI0001)
+2026-10-09 12:32:30.428  I  Registration: Upload accepted for SSARUPALI0001: HTTP 200 {"updated":1,"tags":[{"id":7548,"epc":"SSARUPALI0001","itemCode":"SSA-RUPALI","serialNo":1}]}
+2026-10-09 12:32:30.431  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-09 12:32:57.201  I  SerialService: 'SSA-RUPALI': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SSARUPALI0002)
+2026-10-09 12:32:59.400  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-10-09 12:33:05.423  I  SerialService: 'SSA-RUPALI': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SSARUPALI0002)
+2026-10-09 12:33:06.167  I  Registration: Upload accepted for SSARUPALI0002: HTTP 200 {"updated":1,"tags":[{"id":7549,"epc":"SSARUPALI0002","itemCode":"SSA-RUPALI","serialNo":2}]}
+2026-10-09 12:33:06.172  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-09 12:33:16.401 10364 10392 W System  : A resource failed to call CursorWindow.close. 
+10-09 12:33:16.402 10364 10392 W System  : A resource failed to call AbstractCursor.close. 
+10-09 12:33:16.406 10364 10392 W System  : A resource failed to call CursorWindow.close. 
+10-09 12:33:16.406 10364 10392 W System  : A resource failed to call AbstractCursor.close. 
+10-09 12:33:16.416 10364 10392 W System  : A resource failed to call CursorWindow.close. 
+10-09 12:33:16.417 10364 10392 W System  : A resource failed to call AbstractCursor.close. 
+10-09 12:33:16.418 10364 10392 W System  : A resource failed to call CursorWindow.close. 
+10-09 12:33:16.418 10364 10392 W System  : A resource failed to call AbstractCursor.close. 
+10-09 12:33:16.418 10364 10392 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-09 12:33:16.418 10364 10392 W System  : A resource failed to call SQLiteConnection.close. 
+10-09 12:33:16.419 10364 10392 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-09 12:33:16.419 10364 10392 W System  : A resource failed to call close. 
+10-09 12:33:19.947 10364 10414 W Parcel  : Expecting binder but got null!
+10-09 12:33:28.616 10364 10414 W Parcel  : Expecting binder but got null!
+2026-10-09 12:33:38.534  I  SerialService: 'SSA-BOUTIQUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-BOUTIQUE -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:33:38.641  I  SerialService: 'SSA-BOUTIQUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-BOUTIQUE&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:33:38.752  I  SerialService: 'SSA-BOUTIQUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-BOUTIQUE&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:33:38.775  I  SerialService: 'SSA-BOUTIQUE': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-09 12:33:38.777  I  SerialService: 'SSA-BOUTIQUE': server holds 0 RFID(s); taking the lowest free serial 1 (SSABOUTIQUE0001)
+2026-10-09 12:33:42.370  I  SerialService: 'SSA-BOUTIQUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-BOUTIQUE -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:33:42.488  I  SerialService: 'SSA-BOUTIQUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-BOUTIQUE&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:33:42.600  I  SerialService: 'SSA-BOUTIQUE': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-BOUTIQUE&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:33:42.620  I  SerialService: 'SSA-BOUTIQUE': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-09 12:33:42.622  I  SerialService: 'SSA-BOUTIQUE': server holds 0 RFID(s); taking the lowest free serial 1 (SSABOUTIQUE0001)
+2026-10-09 12:33:43.383  I  Registration: Upload accepted for SSABOUTIQUE0001: HTTP 200 {"updated":1,"tags":[{"id":7550,"epc":"SSABOUTIQUE0001","itemCode":"SSA-BOUTIQUE","serialNo":1}]}
+2026-10-09 12:33:43.387  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-09 12:34:17.312  I  SerialService: 'SSA-BOUTIQUE': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SSABOUTIQUE0002)
+2026-10-09 12:34:18.074  I  Registration: Upload accepted for SSABOUTIQUE0002: HTTP 200 {"updated":1,"tags":[{"id":7551,"epc":"SSABOUTIQUE0002","itemCode":"SSA-BOUTIQUE","serialNo":2}]}
+2026-10-09 12:34:18.077  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-09 12:34:18.453 10364 10392 W System  : A resource failed to call CursorWindow.close. 
+10-09 12:34:18.453 10364 10392 W System  : A resource failed to call AbstractCursor.close. 
+10-09 12:34:18.457 10364 10392 W System  : A resource failed to call CursorWindow.close. 
+10-09 12:34:18.457 10364 10392 W System  : A resource failed to call AbstractCursor.close. 
+10-09 12:34:18.458 10364 10392 W System  : A resource failed to call CursorWindow.close. 
+10-09 12:34:18.458 10364 10392 W System  : A resource failed to call AbstractCursor.close. 
+10-09 12:34:38.333 10364 10414 W Parcel  : Expecting binder but got null!
+10-09 12:34:57.424 10364 10414 W Parcel  : Expecting binder but got null!
+10-09 12:35:00.683 10364 10392 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-09 12:35:00.683 10364 10392 W System  : A resource failed to call SQLiteConnection.close. 
+10-09 12:35:00.683 10364 10392 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-09 12:35:00.683 10364 10392 W System  : A resource failed to call close. 
+2026-10-09 12:35:01.339  I  SerialService: 'SSA-SONIA': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SONIA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:35:01.448  I  SerialService: 'SSA-SONIA': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SONIA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:35:01.561  I  SerialService: 'SSA-SONIA': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SONIA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:35:01.586  I  SerialService: 'SSA-SONIA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-09 12:35:01.588  I  SerialService: 'SSA-SONIA': server holds 0 RFID(s); taking the lowest free serial 1 (SSASONIA0001)
+10-09 12:35:07.857 10364 10392 W System  : A resource failed to call CursorWindow.close. 
+10-09 12:35:07.857 10364 10392 W System  : A resource failed to call AbstractCursor.close. 
+10-09 12:35:07.857 10364 10392 W System  : A resource failed to call close. 
+2026-10-09 12:35:08.478  I  SerialService: 'SSA-SONIA': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SONIA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:35:08.588  I  SerialService: 'SSA-SONIA': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SONIA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:35:08.703  I  SerialService: 'SSA-SONIA': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SONIA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:35:08.719  I  SerialService: 'SSA-SONIA': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-09 12:35:08.721  I  SerialService: 'SSA-SONIA': server holds 0 RFID(s); taking the lowest free serial 1 (SSASONIA0001)
+2026-10-09 12:35:09.504  I  Registration: Upload accepted for SSASONIA0001: HTTP 200 {"updated":1,"tags":[{"id":7552,"epc":"SSASONIA0001","itemCode":"SSA-SONIA","serialNo":1}]}
+2026-10-09 12:35:09.511  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-09 12:35:49.660 10364 10392 W System  : A resource failed to call CursorWindow.close. 
+10-09 12:35:49.660 10364 10392 W System  : A resource failed to call AbstractCursor.close. 
+10-09 12:35:49.661 10364 10392 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-09 12:35:49.661 10364 10392 W System  : A resource failed to call SQLiteConnection.close. 
+10-09 12:35:49.662 10364 10392 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-09 12:36:18.004 10364 10414 W Parcel  : Expecting binder but got null!
+10-09 12:36:24.915 10364 10414 W Parcel  : Expecting binder but got null!
+2026-10-09 12:36:28.086  I  SerialService: 'SSA-SAFFRON': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SAFFRON -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:36:28.200  I  SerialService: 'SSA-SAFFRON': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SAFFRON&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:36:28.314  I  SerialService: 'SSA-SAFFRON': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SAFFRON&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:36:28.336  I  SerialService: 'SSA-SAFFRON': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-09 12:36:28.338  I  SerialService: 'SSA-SAFFRON': server holds 0 RFID(s); taking the lowest free serial 1 (SSASAFFRON0001)
+2026-10-09 12:36:43.965  I  SerialService: 'SSA-SAFFRON': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SAFFRON -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:36:44.080  I  SerialService: 'SSA-SAFFRON': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SAFFRON&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:36:44.201  I  SerialService: 'SSA-SAFFRON': GET http://164.52.223.163:4636/api/device/products/mapped?search=SSA-SAFFRON&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-09 12:36:44.230  I  SerialService: 'SSA-SAFFRON': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-09 12:36:44.231  I  SerialService: 'SSA-SAFFRON': server holds 0 RFID(s); taking the lowest free serial 1 (SSASAFFRON0001)
+2026-10-09 12:36:44.983  I  Registration: Upload accepted for SSASAFFRON0001: HTTP 200 {"updated":1,"tags":[{"id":7553,"epc":"SSASAFFRON0001","itemCode":"SSA-SAFFRON","serialNo":1}]}
+2026-10-09 12:36:44.987  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-09 12:36:50.254 10364 10392 W System  : A resource failed to call CursorWindow.close. 
+10-09 12:36:50.254 10364 10392 W System  : A resource failed to call AbstractCursor.close. 
+10-09 12:36:50.261 10364 10392 W System  : A resource failed to call CursorWindow.close. 
+10-09 12:36:50.261 10364 10392 W System  : A resource failed to call AbstractCursor.close. 
+10-09 12:37:50.512 10364 10392 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-09 12:37:50.512 10364 10392 W System  : A resource failed to call SQLiteConnection.close. 
+10-09 12:37:50.513 10364 10392 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-09 12:37:50.513 10364 10392 W System  : A resource failed to call close. 
