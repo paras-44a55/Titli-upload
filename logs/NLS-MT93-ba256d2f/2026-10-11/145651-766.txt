@@ -1,0 +1,81 @@
+# pushed 2026-10-11 14:56:51.766 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 302348..312415
+
+10-11 14:47:56.316 32645  4023 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#11(BLAST Consumer)11](id:7f850000000f,api:4,p:1521,c:32645) queueBuffer: BufferQueue has been abandoned
+10-11 14:47:56.331 32645  4023 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#11(BLAST Consumer)11](id:7f850000000f,api:4,p:1521,c:32645) queueBuffer: BufferQueue has been abandoned
+10-11 14:47:56.334 32645  4023 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#11(BLAST Consumer)11](id:7f850000000f,api:4,p:1521,c:32645) cancelBuffer: BufferQueue has been abandoned
+10-11 14:47:56.335 32645  4023 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#11(BLAST Consumer)11](id:7f850000000f,api:4,p:1521,c:32645) cancelBuffer: BufferQueue has been abandoned
+10-11 14:47:56.335 32645  4023 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#11(BLAST Consumer)11](id:7f850000000f,api:4,p:1521,c:32645) cancelBuffer: BufferQueue has been abandoned
+2026-10-11 14:47:57.671  I  UhfSession: UHF reader powered down: app moved to the background
+2026-10-11 14:49:17.004  W  UhfSession: Could not power up the UHF reader
+2026-10-11 14:49:31.298  I  UhfSession: UHF reader powered up
+10-11 14:49:37.199 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fc827e4
+10-11 14:49:48.447 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5b4ff
+10-11 14:49:48.456 32645 32645 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-11 14:49:57.242 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d2aaa5a
+10-11 14:49:57.249 32645 32645 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-11 14:49:59.555  I  SerialService: 'VFH-2971': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:49:59.625  I  SerialService: 'VFH-2971': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:49:59.696  I  SerialService: 'VFH-2971': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:49:59.711  I  SerialService: 'VFH-2971': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 14:49:59.716  I  SerialService: 'VFH-2971': server holds 0 RFID(s); taking the lowest free serial 1 (VFH29710001)
+10-11 14:50:32.688 32645 32654 W System  : A resource failed to call close. 
+10-11 14:50:32.688 32645 32654 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-11 14:50:32.688 32645 32654 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-11 14:50:32.688 32645 32654 W System  : A resource failed to call SQLiteConnection.close. 
+10-11 14:50:32.689 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+10-11 14:52:26.376 32645 32656 E BLASTBufferQueue: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#14](f:1,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2
+10-11 14:52:26.680 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e2e532
+2026-10-11 14:52:27.723  I  UhfSession: UHF reader powered down: app moved to the background
+2026-10-11 14:56:42.350  W  Net: wifi DISCONNECTED — link had been up for 752s
+2026-10-11 14:56:42.934  E  SerialService: RFID lookup for 'VFH-2971' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-11 14:56:42.937  E  Registration: Write blocked for 'VFH-2971': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-10-11 14:56:43.302  W  UhfSession: Could not power up the UHF reader
+2026-10-11 14:56:46.351  E  SerialService: RFID lookup for 'VFH-2971' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-11 14:56:46.354  E  Registration: Write blocked for 'VFH-2971': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-10-11 14:56:47.491  I  Net: wifi connected
+2026-10-11 14:56:47.495  W  Net: wifi is up but has NO internet (rssi -63 dBm)
+2026-10-11 14:56:47.555  I  Net: wifi has internet (rssi -63 dBm)
+2026-10-11 14:56:48.137  I  UhfSession: UHF reader powered up
+10-11 14:56:51.719 32645  3559 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#20(BLAST Consumer)20](id:7f8500000018,api:4,p:1521,c:32645) queueBuffer: BufferQueue has been abandoned
+10-11 14:56:51.728 32645  3559 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#20(BLAST Consumer)20](id:7f8500000018,api:4,p:1521,c:32645) queueBuffer: BufferQueue has been abandoned
+10-11 14:56:51.741 32645  4965 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#20(BLAST Consumer)20](id:7f8500000018,api:4,p:1521,c:32645) dequeueBuffer: BufferQueue has been abandoned
