@@ -1,0 +1,153 @@
+# pushed 2026-10-11 15:03:56.726 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 312415..338195
+
+10-11 14:56:51.760 32645  3559 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#20(BLAST Consumer)20](id:7f8500000018,api:4,p:1521,c:32645) queueBuffer: BufferQueue has been abandoned
+10-11 14:56:51.800 32645  3559 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#20(BLAST Consumer)20](id:7f8500000018,api:4,p:1521,c:32645) queueBuffer: BufferQueue has been abandoned
+10-11 14:56:51.814 32645  4965 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#20(BLAST Consumer)20](id:7f8500000018,api:4,p:1521,c:32645) cancelBuffer: BufferQueue has been abandoned
+10-11 14:56:51.814 32645 32656 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#20(BLAST Consumer)20](id:7f8500000018,api:4,p:1521,c:32645) cancelBuffer: BufferQueue has been abandoned
+10-11 14:56:51.816 32645 32656 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#20(BLAST Consumer)20](id:7f8500000018,api:4,p:1521,c:32645) cancelBuffer: BufferQueue has been abandoned
+2026-10-11 14:56:53.133  I  UhfSession: UHF reader powered down: app moved to the background
+2026-10-11 14:57:07.221  W  UhfSession: Could not power up the UHF reader
+2026-10-11 14:57:08.442  I  SerialService: 'VFH-2971': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:57:08.508  I  SerialService: 'VFH-2971': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:57:08.571  I  SerialService: 'VFH-2971': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:57:08.588  I  SerialService: 'VFH-2971': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 14:57:08.595  I  SerialService: 'VFH-2971': server holds 0 RFID(s); taking the lowest free serial 1 (VFH29710001)
+2026-10-11 14:57:11.258  I  UhfSession: UHF reader powered up
+2026-10-11 14:57:12.433  I  SerialService: 'VFH-2971': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:57:12.497  I  SerialService: 'VFH-2971': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:57:12.556  I  SerialService: 'VFH-2971': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:57:12.573  I  SerialService: 'VFH-2971': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 14:57:12.574  I  SerialService: 'VFH-2971': server holds 0 RFID(s); taking the lowest free serial 1 (VFH29710001)
+10-11 14:57:14.508 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+10-11 14:57:14.509 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-11 14:57:15.785  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-10-11 14:57:17.013  I  Registration: Upload accepted for VFH29710001: HTTP 200 {"updated":1,"tags":[{"id":7569,"epc":"VFH29710001","itemCode":"VFH-2971","serialNo":1}]}
+2026-10-11 14:57:17.015  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-11 14:57:23.060  I  SerialService: 'VFH-2971': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VFH29710002)
+2026-10-11 14:57:23.667  I  Registration: Upload accepted for VFH29710002: HTTP 200 {"updated":1,"tags":[{"id":7570,"epc":"VFH29710002","itemCode":"VFH-2971","serialNo":2}]}
+2026-10-11 14:57:23.668  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-11 14:57:47.022 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+10-11 14:57:52.795 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5ebb06c
+10-11 14:57:54.738 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b236404
+2026-10-11 14:57:57.880  I  SerialService: 'VFH-2971-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971-XL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:57:57.941  I  SerialService: 'VFH-2971-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971-XL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:57:58.008  I  SerialService: 'VFH-2971-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971-XL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:57:58.025  I  SerialService: 'VFH-2971-XL': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 14:57:58.026  I  SerialService: 'VFH-2971-XL': server holds 0 RFID(s); taking the lowest free serial 1 (VFH2971XL0001)
+2026-10-11 14:58:07.373  I  SerialService: 'VFH-2971-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971-XL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:58:07.433  I  SerialService: 'VFH-2971-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971-XL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:58:07.491  I  SerialService: 'VFH-2971-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-2971-XL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:58:07.512  I  SerialService: 'VFH-2971-XL': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 14:58:07.513  I  SerialService: 'VFH-2971-XL': server holds 0 RFID(s); taking the lowest free serial 1 (VFH2971XL0001)
+2026-10-11 14:58:08.119  I  Registration: Upload accepted for VFH2971XL0001: HTTP 200 {"updated":1,"tags":[{"id":7571,"epc":"VFH2971XL0001","itemCode":"VFH-2971-XL","serialNo":1}]}
+2026-10-11 14:58:08.122  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-11 14:58:11.842  I  SerialService: 'VFH-2971-XL': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VFH2971XL0002)
+2026-10-11 14:58:12.443  I  Registration: Upload accepted for VFH2971XL0002: HTTP 200 {"updated":1,"tags":[{"id":7572,"epc":"VFH2971XL0002","itemCode":"VFH-2971-XL","serialNo":2}]}
+2026-10-11 14:58:12.445  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-11 14:58:30.697 32645 32654 W System  : A resource failed to call close. 
+10-11 14:58:30.697 32645 32654 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-11 14:58:30.697 32645 32654 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-11 14:58:30.697 32645 32654 W System  : A resource failed to call SQLiteConnection.close. 
+10-11 14:58:30.698 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+10-11 14:58:30.701 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+10-11 14:58:30.703 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+10-11 14:58:46.471 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bc0abb1
+10-11 14:58:52.383 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@423260f
+2026-10-11 14:58:52.451  I  SerialService: 'VFH-3243': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3243 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:58:52.511  I  SerialService: 'VFH-3243': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3243&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:58:52.572  I  SerialService: 'VFH-3243': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3243&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:58:52.586  I  SerialService: 'VFH-3243': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 14:58:52.587  I  SerialService: 'VFH-3243': server holds 0 RFID(s); taking the lowest free serial 1 (VFH32430001)
+2026-10-11 14:58:55.443  I  SerialService: 'VFH-3243': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3243 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:58:55.507  I  SerialService: 'VFH-3243': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3243&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:58:55.573  I  SerialService: 'VFH-3243': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3243&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:58:55.593  I  SerialService: 'VFH-3243': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 14:58:55.594  I  SerialService: 'VFH-3243': server holds 0 RFID(s); taking the lowest free serial 1 (VFH32430001)
+2026-10-11 14:58:56.425  I  Registration: Upload accepted for VFH32430001: HTTP 200 {"updated":1,"tags":[{"id":7573,"epc":"VFH32430001","itemCode":"VFH-3243","serialNo":1}]}
+2026-10-11 14:58:56.427  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-11 14:59:03.168 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+10-11 14:59:03.169 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+10-11 14:59:04.087 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@17e9b9b
+10-11 14:59:21.010 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@58795fd
+2026-10-11 14:59:24.749  I  SerialService: 'VFH-3089-L': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3089-L -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:59:24.809  I  SerialService: 'VFH-3089-L': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3089-L&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:59:24.870  I  SerialService: 'VFH-3089-L': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3089-L&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:59:24.889  I  SerialService: 'VFH-3089-L': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 14:59:24.890  I  SerialService: 'VFH-3089-L': server holds 0 RFID(s); taking the lowest free serial 1 (VFH3089L0001)
+2026-10-11 14:59:25.393  I  SerialService: 'VFH-3089-L': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3089-L -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:59:25.456  I  SerialService: 'VFH-3089-L': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3089-L&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:59:25.521  I  SerialService: 'VFH-3089-L': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3089-L&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:59:25.543  I  SerialService: 'VFH-3089-L': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 14:59:25.544  I  SerialService: 'VFH-3089-L': server holds 0 RFID(s); taking the lowest free serial 1 (VFH3089L0001)
+2026-10-11 14:59:26.221  I  SerialService: 'VFH-3089-L': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3089-L -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:59:26.287  I  SerialService: 'VFH-3089-L': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3089-L&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:59:26.347  I  SerialService: 'VFH-3089-L': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3089-L&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 14:59:26.361  I  SerialService: 'VFH-3089-L': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 14:59:26.363  I  SerialService: 'VFH-3089-L': server holds 0 RFID(s); taking the lowest free serial 2 (VFH3089L0002)
+2026-10-11 14:59:26.382  I  Registration: Upload accepted for VFH3089L0001: HTTP 200 {"updated":1,"tags":[{"id":7574,"epc":"VFH3089L0001","itemCode":"VFH-3089-L","serialNo":1}]}
+2026-10-11 14:59:26.384  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-11 14:59:26.945  E  Registration: No product id for item code 'VFH-3089-L' - tag VFH3089L0002 (serial 2) saved with id -1 and cannot be uploaded until Sync Data runs. Neither unMappedProduct nor mappedProduct has a row for it.
+2026-10-11 14:59:26.973  E  Registration: Tag VFH3089L0002 (item 'VFH-3089-L', serial 2) has product id -1. The server will answer 400 'Each tag must have a valid id' to this. No row for 'VFH-3089-L' in unMappedProduct or mappedProduct - the product list on this device is stale or the item code differs from the one that was synced.
+10-11 14:59:36.478 32645 32656 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#22(BLAST Consumer)22](id:7f850000001a,api:4,p:1521,c:32645) dequeueBuffer: BufferQueue has been abandoned
+10-11 14:59:36.479 32645  5231 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#22(BLAST Consumer)22](id:7f850000001a,api:4,p:1521,c:32645) queueBuffer: BufferQueue has been abandoned
+10-11 14:59:36.500 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e6bfb58
+10-11 14:59:36.514 32645 32656 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#22(BLAST Consumer)22](id:7f850000001a,api:4,p:1521,c:32645) queueBuffer: BufferQueue has been abandoned
+10-11 14:59:36.522 32645 32656 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#22(BLAST Consumer)22](id:7f850000001a,api:4,p:1521,c:32645) cancelBuffer: BufferQueue has been abandoned
+10-11 14:59:36.523 32645  4966 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#22(BLAST Consumer)22](id:7f850000001a,api:4,p:1521,c:32645) cancelBuffer: BufferQueue has been abandoned
+10-11 14:59:36.523 32645  4966 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#22(BLAST Consumer)22](id:7f850000001a,api:4,p:1521,c:32645) cancelBuffer: BufferQueue has been abandoned
+10-11 14:59:36.524 32645  4966 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#22(BLAST Consumer)22](id:7f850000001a,api:4,p:1521,c:32645) cancelBuffer: BufferQueue has been abandoned
+10-11 14:59:41.261 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@75d4893
+10-11 14:59:44.529 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@54a4a8a
+10-11 14:59:48.419 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d59665c
+10-11 15:00:02.073 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9ebf9de
+10-11 15:00:07.780 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9e0a975
+2026-10-11 15:00:12.847  I  ProductSync: unmapped for location 2 needed 3 page(s): 508 row(s), server reported 508
+2026-10-11 15:00:13.030  E  Registration: Tag VFH3089L0002 (item 'VFH-3089-L', serial 2) has product id -1. The server will answer 400 'Each tag must have a valid id' to this. No row for 'VFH-3089-L' in unMappedProduct or mappedProduct - the product list on this device is stale or the item code differs from the one that was synced.
+10-11 15:00:28.178 32645 32654 W System  : A resource failed to call close. 
+10-11 15:00:28.178 32645 32654 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-11 15:00:28.178 32645 32654 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-11 15:00:28.178 32645 32654 W System  : A resource failed to call SQLiteConnection.close. 
+10-11 15:00:28.179 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+10-11 15:00:28.179 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+10-11 15:00:28.179 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+10-11 15:00:28.183 32645 32654 W System  : A resource failed to call close. 
+10-11 15:00:28.183 32645 32654 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-11 15:00:28.183 32645 32654 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-11 15:00:28.183 32645 32654 W System  : A resource failed to call SQLiteConnection.close. 
+10-11 15:00:28.183 32645 32654 W System  : A resource failed to call close. 
+10-11 15:00:28.183 32645 32654 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-11 15:00:28.183 32645 32654 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-11 15:00:28.183 32645 32654 W System  : A resource failed to call SQLiteConnection.close. 
+10-11 15:00:28.186 32645 32654 W System  : A resource failed to call close. 
+10-11 15:00:28.186 32645 32654 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-11 15:00:28.186 32645 32654 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-11 15:00:28.186 32645 32654 W System  : A resource failed to call SQLiteConnection.close. 
+10-11 15:00:34.434 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@accf2c
+10-11 15:00:38.206 32645 32645 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cbd0270
+10-11 15:00:38.218 32645 32645 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-11 15:00:41.597  I  SerialService: 'VFH-3277': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3277 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+10-11 15:00:41.602 32645 32654 W System  : A resource failed to call close. 
+10-11 15:00:41.602 32645 32654 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-11 15:00:41.602 32645 32654 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-11 15:00:41.602 32645 32654 W System  : A resource failed to call SQLiteConnection.close. 
+2026-10-11 15:00:41.663  I  SerialService: 'VFH-3277': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3277&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 15:00:41.723  I  SerialService: 'VFH-3277': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3277&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 15:00:41.740  I  SerialService: 'VFH-3277': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 15:00:41.741  I  SerialService: 'VFH-3277': server holds 0 RFID(s); taking the lowest free serial 1 (VFH32770001)
+10-11 15:01:15.036 32645 32654 W System  : A resource failed to call close. 
+10-11 15:01:15.036 32645 32654 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-11 15:01:15.036 32645 32654 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-11 15:01:15.036 32645 32654 W System  : A resource failed to call SQLiteConnection.close. 
+10-11 15:01:15.037 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-11 15:01:47.032  I  SerialService: 'VFH-3277': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3277 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 15:01:47.091  I  SerialService: 'VFH-3277': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3277&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 15:01:47.155  I  SerialService: 'VFH-3277': GET http://164.52.223.163:4636/api/device/products/mapped?search=VFH-3277&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-11 15:01:47.177  I  SerialService: 'VFH-3277': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-11 15:01:47.178  I  SerialService: 'VFH-3277': server holds 0 RFID(s); taking the lowest free serial 1 (VFH32770001)
+10-11 15:01:48.423 32645 32654 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-11 15:01:48.579  I  Registration: Upload accepted for VFH32770001: HTTP 200 {"updated":1,"tags":[{"id":7575,"epc":"VFH32770001","itemCode":"VFH-3277","serialNo":1}]}
+2026-10-11 15:01:48.591  W  Registration: Repaired product id for VFH3089L0002 (item VFH-3089-L) -> 9456
+2026-10-11 15:01:48.625  I  Registration: Upload accepted for VFH3089L0002: HTTP 200 {"updated":1,"tags":[{"id":7576,"epc":"VFH3089L0002","itemCode":"VFH-3089-L","serialNo":2}]}
+2026-10-11 15:01:48.627  I  Registration: Uploaded 2 tag(s); 0 still pending
