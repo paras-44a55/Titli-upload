@@ -1,0 +1,97 @@
+# pushed 2026-10-12 16:44:14.352 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 175256..186053
+
+10-12 16:39:38.628 26590 26590 E SurfaceSyncer: Failed to find sync for id=0
+10-12 16:39:38.628 26590 26590 E SurfaceSyncer: Failed to find sync for id=1
+10-12 16:39:38.628 26590 26590 E SurfaceSyncer: Failed to find sync for id=2
+10-12 16:39:38.628 26590 26590 E SurfaceSyncer: Failed to find sync for id=3
+10-12 16:39:38.628 26590 26590 E SurfaceSyncer: Failed to find sync for id=4
+10-12 16:39:40.167 26590 26621 W Parcel  : Expecting binder but got null!
+2026-10-12 16:39:41.106  I  UhfSession: UHF reader powered up
+10-12 16:40:01.103 26590 26590 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-12 16:40:05.058 26590 26621 W Parcel  : Expecting binder but got null!
+10-12 16:40:11.103 26590 26621 W Parcel  : Expecting binder but got null!
+10-12 16:41:17.502 26590 26590 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-12 16:41:29.536 26590 26621 W Parcel  : Expecting binder but got null!
+10-12 16:41:39.923 26590 26621 W Parcel  : Expecting binder but got null!
+10-12 16:41:47.780 26590 26621 W Parcel  : Expecting binder but got null!
+10-12 16:42:02.989 26590 26621 W Parcel  : Expecting binder but got null!
+2026-10-12 16:42:18.106  E  ProductSync: mapped page 1 failed
+java.net.SocketTimeoutException: timeout
+	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.refreshMappedProducts(RegistrationActivity.kt:1770)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:380)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:188)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	... 19 more
+2026-10-12 16:42:18.420  I  SerialService: 'VTPL-13053': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13053 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:42:18.544  I  SerialService: 'VTPL-13053': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13053&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:42:18.669  I  SerialService: 'VTPL-13053': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13053&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:42:18.696  I  SerialService: 'VTPL-13053': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-12 16:42:18.698  I  SerialService: 'VTPL-13053': server holds 0 RFID(s); taking the lowest free serial 1 (VTPL130530001)
+2026-10-12 16:42:20.136  I  SerialService: 'VTPL-13053': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13053 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:42:20.265  I  SerialService: 'VTPL-13053': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13053&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:42:20.383  I  SerialService: 'VTPL-13053': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13053&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:42:20.404  I  SerialService: 'VTPL-13053': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-12 16:42:20.405  I  SerialService: 'VTPL-13053': server holds 0 RFID(s); taking the lowest free serial 1 (VTPL130530001)
+2026-10-12 16:42:21.475  I  Registration: Upload accepted for VTPL130530001: HTTP 200 {"updated":1,"tags":[{"id":7619,"epc":"VTPL130530001","itemCode":"VTPL-13053","serialNo":1}]}
+2026-10-12 16:42:21.478  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-12 16:42:24.241 26590 26604 W System  : A resource failed to call CursorWindow.close. 
+10-12 16:42:24.241 26590 26604 W System  : A resource failed to call AbstractCursor.close. 
+10-12 16:42:24.242 26590 26604 W System  : A resource failed to call CursorWindow.close. 
+10-12 16:42:24.242 26590 26604 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-12 16:42:30.173  I  SerialService: 'VTPL-13053': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VTPL130530002)
+2026-10-12 16:42:30.801  I  Registration: Upload accepted for VTPL130530002: HTTP 200 {"updated":1,"tags":[{"id":7620,"epc":"VTPL130530002","itemCode":"VTPL-13053","serialNo":2}]}
+2026-10-12 16:42:30.806  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-12 16:42:41.006  I  SerialService: 'VTPL-13053': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (VTPL130530003)
+10-12 16:42:41.044 26590 26604 W System  : A resource failed to call CursorWindow.close. 
+10-12 16:42:41.044 26590 26604 W System  : A resource failed to call AbstractCursor.close. 
+10-12 16:42:41.046 26590 26604 W System  : A resource failed to call CursorWindow.close. 
+10-12 16:42:41.046 26590 26604 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-12 16:42:41.653  I  Registration: Upload accepted for VTPL130530003: HTTP 200 {"updated":1,"tags":[{"id":7621,"epc":"VTPL130530003","itemCode":"VTPL-13053","serialNo":3}]}
+2026-10-12 16:42:41.660  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-12 16:42:56.314 26590 26621 W Parcel  : Expecting binder but got null!
+10-12 16:43:37.625 26590 26621 W Parcel  : Expecting binder but got null!
+2026-10-12 16:43:44.716  I  SerialService: 'VTPL-13009': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13009 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:43:44.830  I  SerialService: 'VTPL-13009': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13009&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:43:44.944  I  SerialService: 'VTPL-13009': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13009&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:43:44.962  I  SerialService: 'VTPL-13009': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-12 16:43:44.963  I  SerialService: 'VTPL-13009': server holds 0 RFID(s); taking the lowest free serial 1 (VTPL130090001)
+2026-10-12 16:43:45.865  I  SerialService: 'VTPL-13009': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13009 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:43:45.988  I  SerialService: 'VTPL-13009': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13009&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:43:46.112  I  SerialService: 'VTPL-13009': GET http://164.52.223.163:4636/api/device/products/mapped?search=VTPL-13009&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-12 16:43:46.135  I  SerialService: 'VTPL-13009': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-12 16:43:46.137  I  SerialService: 'VTPL-13009': server holds 0 RFID(s); taking the lowest free serial 1 (VTPL130090001)
+2026-10-12 16:43:46.896  I  Registration: Upload accepted for VTPL130090001: HTTP 200 {"updated":1,"tags":[{"id":7622,"epc":"VTPL130090001","itemCode":"VTPL-13009","serialNo":1}]}
+2026-10-12 16:43:46.898  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-12 16:43:55.188 26590 26604 W System  : A resource failed to call CursorWindow.close. 
+10-12 16:43:55.188 26590 26604 W System  : A resource failed to call AbstractCursor.close. 
+10-12 16:43:55.189 26590 26604 W System  : A resource failed to call CursorWindow.close. 
+10-12 16:43:55.189 26590 26604 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-12 16:43:58.744  I  SerialService: 'VTPL-13009': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VTPL130090002)
+2026-10-12 16:44:01.153  I  Registration: Upload accepted for VTPL130090002: HTTP 200 {"updated":1,"tags":[{"id":7623,"epc":"VTPL130090002","itemCode":"VTPL-13009","serialNo":2}]}
+2026-10-12 16:44:01.158  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-12 16:44:10.897 26590 26621 W Parcel  : Expecting binder but got null!
