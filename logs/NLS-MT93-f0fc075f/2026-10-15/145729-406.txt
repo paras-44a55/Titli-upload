@@ -1,0 +1,154 @@
+# pushed 2026-10-15 14:57:29.406 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 522111..17823
+
+2026-10-15 11:01:38.388  I  UhfSession: UHF reader powered down: app moved to the background
+2026-10-15 13:12:04.910  W  Net: wifi DISCONNECTED — link had been up for 46652s
+2026-10-15 13:35:22.175  I  Net: wifi connected
+2026-10-15 13:35:22.190  W  Net: wifi is up but has NO internet
+2026-10-15 13:35:22.342  I  Net: wifi has internet (rssi -44 dBm)
+2026-10-15 14:52:57.609  W  Net: wifi DISCONNECTED — link had been up for 4655s
+10-15 14:52:59.848 19722  1860 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(Unknown Source:0)
+10-15 14:52:59.848 19722  1860 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+10-15 14:52:59.848 19722  1860 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-15 14:52:59.907 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:53:01.671 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:53:01.880 19722 19791 W hionapplication: Reducing the number of considered missed Gc histogram windows from 287 to 100
+10-15 14:53:01.881 19722 19793 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 14:53:01.881 19722 19793 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 14:53:01.882 19722 19793 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 14:53:01.882 19722 19793 W System  : A resource failed to call close. 
+2026-10-15 14:53:02.910  I  Net: wifi connected
+2026-10-15 14:53:02.938  W  Net: wifi is up but has NO internet (rssi -31 dBm)
+2026-10-15 14:53:02.975  I  Net: wifi has internet (rssi -31 dBm)
+10-15 14:53:05.067 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:53:08.918 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:53:09.241 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:53:10.276 19722 19793 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 14:53:10.277 19722 19793 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 14:53:10.277 19722 19793 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 14:53:10.277 19722 19793 W System  : A resource failed to call close. 
+10-15 14:53:10.281 19722 19793 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 14:53:10.281 19722 19793 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 14:53:10.282 19722 19793 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 14:53:10.282 19722 19793 W System  : A resource failed to call close. 
+2026-10-15 14:53:11.714  I  UhfSession: UHF reader powered up
+10-15 14:53:12.418 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:53:12.784 19722 19793 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 14:53:12.784 19722 19793 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 14:53:12.785 19722 19793 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 14:53:12.785 19722 19793 W System  : A resource failed to call close. 
+2026-10-15 14:53:12.883  I  ProductSync: unmapped for location 4 needed 3 page(s): 535 row(s), server reported 535
+10-15 14:53:13.772 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:53:53.367 19722 22895 W Parcel  : Expecting binder but got null!
+2026-10-15 14:54:02.198  I  UhfSession: UHF reader powered down: no screen is using the reader
+10-15 14:54:03.891 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:54:04.938 19722 22895 W Parcel  : Expecting binder but got null!
+2026-10-15 14:54:06.396  I  UhfSession: UHF reader powered up
+10-15 14:54:07.460 19722 19793 W System  : A resource failed to call close. 
+10-15 14:54:21.971 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:54:30.272 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:54:31.301 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:54:34.275 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:54:42.497 19722 19793 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 14:54:42.497 19722 19793 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 14:54:42.498 19722 19793 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 14:54:42.498 19722 19793 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 14:54:42.498 19722 19793 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 14:54:42.498 19722 19793 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 14:54:42.498 19722 19793 W System  : A resource failed to call close. 
+10-15 14:54:42.498 19722 19793 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 14:54:42.498 19722 19793 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 14:54:42.498 19722 19793 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 14:54:42.498 19722 19793 W System  : A resource failed to call close. 
+10-15 14:55:06.761 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:55:38.634 19722 19793 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 14:55:38.634 19722 19793 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 14:55:38.634 19722 19793 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 14:55:38.634 19722 19793 W System  : A resource failed to call close. 
+10-15 14:55:38.635 19722 19793 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 14:55:38.635 19722 19793 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 14:55:38.636 19722 19793 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 14:55:38.636 19722 19793 W System  : A resource failed to call close. 
+2026-10-15 14:55:42.904  I  SerialService: 'PTL-PROGRAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-PROGRAM -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:55:43.036  I  SerialService: 'PTL-PROGRAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-PROGRAM&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:55:43.163  I  SerialService: 'PTL-PROGRAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-PROGRAM&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:55:43.175  I  SerialService: 'PTL-PROGRAM': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 14:55:43.177  I  SerialService: 'PTL-PROGRAM': server holds 0 RFID(s); taking the lowest free serial 1 (PTLPROGRAM0001)
+2026-10-15 14:55:48.851  I  SerialService: 'PTL-PROGRAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-PROGRAM -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:55:48.989  I  SerialService: 'PTL-PROGRAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-PROGRAM&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:55:49.133  I  SerialService: 'PTL-PROGRAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-PROGRAM&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:55:49.152  I  SerialService: 'PTL-PROGRAM': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 14:55:49.153  I  SerialService: 'PTL-PROGRAM': server holds 0 RFID(s); taking the lowest free serial 1 (PTLPROGRAM0001)
+2026-10-15 14:55:50.216  I  Registration: Upload accepted for PTLPROGRAM0001: HTTP 200 {"updated":1,"tags":[{"id":7870,"epc":"PTLPROGRAM0001","itemCode":"PTL-PROGRAM","serialNo":1}]}
+2026-10-15 14:55:50.219  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 14:56:06.232 19722 22895 W Parcel  : Expecting binder but got null!
+2026-10-15 14:56:10.057  I  SerialService: 'PTL-566': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-566 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:10.185  I  SerialService: 'PTL-566': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-566&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:10.313  I  SerialService: 'PTL-566': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-566&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:10.336  I  SerialService: 'PTL-566': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 14:56:10.338  I  SerialService: 'PTL-566': server holds 0 RFID(s); taking the lowest free serial 1 (PTL5660001)
+2026-10-15 14:56:12.885  I  SerialService: 'PTL-566': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-566 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:13.010  I  SerialService: 'PTL-566': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-566&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:13.139  I  SerialService: 'PTL-566': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-566&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:13.162  I  SerialService: 'PTL-566': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 14:56:13.163  I  SerialService: 'PTL-566': server holds 0 RFID(s); taking the lowest free serial 1 (PTL5660001)
+2026-10-15 14:56:13.868  I  Registration: Upload accepted for PTL5660001: HTTP 200 {"updated":1,"tags":[{"id":7871,"epc":"PTL5660001","itemCode":"PTL-566","serialNo":1}]}
+2026-10-15 14:56:13.872  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 14:56:15.932 19722 19793 W System  : A resource failed to call CursorWindow.close. 
+10-15 14:56:15.932 19722 19793 W System  : A resource failed to call AbstractCursor.close. 
+10-15 14:56:15.932 19722 19793 W System  : A resource failed to call CursorWindow.close. 
+10-15 14:56:15.932 19722 19793 W System  : A resource failed to call AbstractCursor.close. 
+10-15 14:56:15.938 19722 19793 W System  : A resource failed to call CursorWindow.close. 
+10-15 14:56:15.938 19722 19793 W System  : A resource failed to call AbstractCursor.close. 
+10-15 14:56:15.939 19722 19793 W System  : A resource failed to call CursorWindow.close. 
+10-15 14:56:15.939 19722 19793 W System  : A resource failed to call AbstractCursor.close. 
+10-15 14:56:15.939 19722 19793 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 14:56:15.939 19722 19793 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 14:56:15.939 19722 19793 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 14:56:15.939 19722 19793 W System  : A resource failed to call close. 
+2026-10-15 14:56:24.298  I  SerialService: 'PTL-566': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PTL5660002)
+2026-10-15 14:56:24.963  I  Registration: Upload accepted for PTL5660002: HTTP 200 {"updated":1,"tags":[{"id":7872,"epc":"PTL5660002","itemCode":"PTL-566","serialNo":2}]}
+2026-10-15 14:56:24.967  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 14:56:34.180 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:56:36.769 19722 19793 W System  : A resource failed to call CursorWindow.close. 
+10-15 14:56:36.770 19722 19793 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 14:56:39.953  I  SerialService: 'PTL-SUVARNA21': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-SUVARNA21 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:40.095  I  SerialService: 'PTL-SUVARNA21': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-SUVARNA21&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:40.231  I  SerialService: 'PTL-SUVARNA21': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-SUVARNA21&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:40.253  I  SerialService: 'PTL-SUVARNA21': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 14:56:40.254  I  SerialService: 'PTL-SUVARNA21': server holds 0 RFID(s); taking the lowest free serial 1 (PTLSUVARNA210001)
+2026-10-15 14:56:43.719  I  SerialService: 'PTL-SUVARNA21': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-SUVARNA21 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:43.844  I  SerialService: 'PTL-SUVARNA21': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-SUVARNA21&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:43.977  I  SerialService: 'PTL-SUVARNA21': GET http://164.52.223.163:4636/api/device/products/mapped?search=PTL-SUVARNA21&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 14:56:44.002  I  SerialService: 'PTL-SUVARNA21': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 14:56:44.003  I  SerialService: 'PTL-SUVARNA21': server holds 0 RFID(s); taking the lowest free serial 1 (PTLSUVARNA210001)
+2026-10-15 14:56:45.457  I  Registration: Upload accepted for PTLSUVARNA210001: HTTP 200 {"updated":1,"tags":[{"id":7873,"epc":"PTLSUVARNA210001","itemCode":"PTL-SUVARNA21","serialNo":1}]}
+2026-10-15 14:56:45.459  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 14:56:53.165 19722 19793 W System  : A resource failed to call CursorWindow.close. 
+10-15 14:56:53.165 19722 19793 W System  : A resource failed to call AbstractCursor.close. 
+10-15 14:56:53.166 19722 19793 W System  : A resource failed to call CursorWindow.close. 
+10-15 14:56:53.167 19722 19793 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 14:56:55.389  I  SerialService: 'PTL-SUVARNA21': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (PTLSUVARNA210002)
+2026-10-15 14:56:56.042  I  Registration: Upload accepted for PTLSUVARNA210002: HTTP 200 {"updated":1,"tags":[{"id":7874,"epc":"PTLSUVARNA210002","itemCode":"PTL-SUVARNA21","serialNo":2}]}
+2026-10-15 14:56:56.046  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 14:57:06.285 19722 22895 W Parcel  : Expecting binder but got null!
+10-15 14:57:08.680 19722 19793 W System  : A resource failed to call CursorWindow.close. 
+10-15 14:57:08.680 19722 19793 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 14:57:10.347  I  SerialService: 'PTL-566': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PTL5660003)
+2026-10-15 14:57:11.044  I  SerialService: 'PTL-566': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (PTL5660003)
+2026-10-15 14:57:11.846  I  Registration: Upload accepted for PTL5660003: HTTP 200 {"updated":1,"tags":[{"id":7875,"epc":"PTL5660003","itemCode":"PTL-566","serialNo":3}]}
+2026-10-15 14:57:11.850  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 14:57:18.821 19722 22895 W Parcel  : Expecting binder but got null!
