@@ -1,0 +1,503 @@
+# pushed 2026-10-15 16:25:40.143 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+# bytes 298936..364713
+
+10-15 13:16:33.864  4965  4977 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+10-15 13:16:33.900  4965  4979 W System  : A resource failed to call close. 
+10-15 13:16:33.900  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:16:33.900  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:16:33.900  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+2026-10-15 13:16:38.615  I  ProductSync: unmapped for location 2 needed 3 page(s): 519 row(s), server reported 519
+10-15 13:16:39.866  4965  4979 W System  : A resource failed to call close. 
+10-15 13:16:39.866  4965  4979 W System  : A resource failed to call close. 
+10-15 13:16:45.155  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1e2cff5
+10-15 13:16:47.104  4965  7371 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-10-15 13:16:48.661  W  UhfSession: Could not power up the UHF reader
+2026-10-15 13:16:52.743  I  UhfSession: UHF reader powered up
+2026-10-15 13:17:00.708  E  SerialService: RFID lookup for 'SPSM-8005' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005
+java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.29.222 (port 36864) after 8000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:232)
+	at libcore.io.IoBridge.connect(IoBridge.java:176)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.data.SerialService.nextFreeSerial(SerialService.kt:306)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:385)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-15 13:17:07.813  E  SerialService: RFID lookup for 'SPSM-8005' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-15 13:17:07.813  E  SerialService: RFID lookup for 'SPSM-8005' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-15 13:17:07.816  E  Registration: Write blocked for 'SPSM-8005': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-10-15 13:17:07.818  E  Registration: Write blocked for 'SPSM-8005': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-10-15 13:17:12.856  W  Net: wifi DISCONNECTED — link had been up for 70s
+2026-10-15 13:17:14.874  E  SerialService: RFID lookup for 'SPSM-8005' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-15 13:17:14.876  E  Registration: Write blocked for 'SPSM-8005': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+10-15 13:17:44.291  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:17:44.291  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:17:44.291  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 13:17:44.291  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:17:44.292  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:17:44.292  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 13:17:44.293  4965  4979 W System  : A resource failed to call close. 
+10-15 13:17:44.293  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:17:44.294  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:17:44.294  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 13:17:44.294  4965  4979 W System  : A resource failed to call close. 
+10-15 13:17:44.294  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:17:44.294  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:17:44.294  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+2026-10-15 13:17:50.974  E  SerialService: RFID lookup for 'SPSM-8005' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-15 13:17:50.975  E  Registration: Write blocked for 'SPSM-8005': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-10-15 13:17:51.279  E  SerialService: RFID lookup for 'SPSM-8005' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-15 13:17:51.281  E  Registration: Write blocked for 'SPSM-8005': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-10-15 13:17:51.514  E  SerialService: RFID lookup for 'SPSM-8005' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-15 13:17:51.515  E  Registration: Write blocked for 'SPSM-8005': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-10-15 13:17:51.737  E  SerialService: RFID lookup for 'SPSM-8005' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$35(RegistrationActivity.kt:477)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$eyXFeYI8DNvl-7yQJKXkLHLnZ40(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda36.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-15 13:17:51.738  E  Registration: Write blocked for 'SPSM-8005': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-10-15 13:19:54.412  I  UhfSession: UHF reader powered down: idle for 3 min
+2026-10-15 13:21:03.936  I  Net: wifi connected
+2026-10-15 13:21:03.937  W  Net: wifi is up but has NO internet (rssi -72 dBm)
+2026-10-15 13:21:03.976  I  Net: wifi has internet (rssi -72 dBm)
+2026-10-15 13:21:31.980  I  SerialService: 'SPSM-8005': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:21:32.055  I  SerialService: 'SPSM-8005': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:21:32.123  I  SerialService: 'SPSM-8005': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:21:32.146  I  SerialService: 'SPSM-8005': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:21:32.147  I  SerialService: 'SPSM-8005': server holds 0 RFID(s); taking the lowest free serial 1 (SPSM80050001)
+2026-10-15 13:21:34.664  W  UhfSession: Could not power up the UHF reader
+2026-10-15 13:21:34.668  W  Registration: Write failed: UHF reader not connected. Please try again.
+10-15 13:21:38.147  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 13:21:39.701  I  UhfSession: UHF reader powered up
+2026-10-15 13:21:40.350  I  SerialService: 'SPSM-8005': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:21:40.417  I  SerialService: 'SPSM-8005': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:21:40.477  I  SerialService: 'SPSM-8005': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8005&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:21:40.492  I  SerialService: 'SPSM-8005': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:21:40.493  I  SerialService: 'SPSM-8005': server holds 0 RFID(s); taking the lowest free serial 1 (SPSM80050001)
+2026-10-15 13:21:41.337  I  Registration: Upload accepted for SPSM80050001: HTTP 200 {"updated":1,"tags":[{"id":7855,"epc":"SPSM80050001","itemCode":"SPSM-8005","serialNo":1}]}
+2026-10-15 13:21:41.339  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-15 13:21:55.583  I  SerialService: 'SPSM-8005': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SPSM80050002)
+2026-10-15 13:21:56.251  I  Registration: Upload accepted for SPSM80050002: HTTP 200 {"updated":1,"tags":[{"id":7856,"epc":"SPSM80050002","itemCode":"SPSM-8005","serialNo":2}]}
+2026-10-15 13:21:56.253  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 13:22:11.274  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:22:11.279  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 13:23:13.855  I  SerialService: 'SPSM-8005': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (SPSM80050003)
+2026-10-15 13:23:14.509  I  Registration: Upload accepted for SPSM80050003: HTTP 200 {"updated":1,"tags":[{"id":7857,"epc":"SPSM80050003","itemCode":"SPSM-8005","serialNo":3}]}
+2026-10-15 13:23:14.510  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 13:23:18.066  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 13:23:47.112  I  SerialService: 'SPSM-8042': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8042 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:23:47.180  I  SerialService: 'SPSM-8042': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8042&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:23:47.256  I  SerialService: 'SPSM-8042': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8042&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:23:47.269  I  SerialService: 'SPSM-8042': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:23:47.270  I  SerialService: 'SPSM-8042': server holds 0 RFID(s); taking the lowest free serial 1 (SPSM80420001)
+2026-10-15 13:23:49.311  I  SerialService: 'SPSM-8042': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8042 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:23:49.375  I  SerialService: 'SPSM-8042': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8042&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:23:49.438  I  SerialService: 'SPSM-8042': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8042&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:23:49.459  I  SerialService: 'SPSM-8042': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:23:49.460  I  SerialService: 'SPSM-8042': server holds 0 RFID(s); taking the lowest free serial 1 (SPSM80420001)
+2026-10-15 13:23:52.295  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-10-15 13:23:53.961  I  SerialService: 'SPSM-8042': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8042 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:23:54.022  I  SerialService: 'SPSM-8042': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8042&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:23:54.087  I  SerialService: 'SPSM-8042': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8042&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:23:54.109  I  SerialService: 'SPSM-8042': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:23:54.110  I  SerialService: 'SPSM-8042': server holds 0 RFID(s); taking the lowest free serial 1 (SPSM80420001)
+2026-10-15 13:23:56.691  I  Registration: Upload accepted for SPSM80420001: HTTP 200 {"updated":1,"tags":[{"id":7858,"epc":"SPSM80420001","itemCode":"SPSM-8042","serialNo":1}]}
+2026-10-15 13:23:56.693  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-15 13:24:03.764  I  SerialService: 'SPSM-8042': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SPSM80420002)
+2026-10-15 13:24:04.383  I  Registration: Upload accepted for SPSM80420002: HTTP 200 {"updated":1,"tags":[{"id":7859,"epc":"SPSM80420002","itemCode":"SPSM-8042","serialNo":2}]}
+2026-10-15 13:24:04.385  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 13:24:19.661  4965  4979 W System  : A resource failed to call close. 
+10-15 13:24:19.661  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:24:19.661  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:24:19.661  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 13:24:19.662  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:24:19.663  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:24:19.664  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:24:19.666  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 13:24:22.648  I  SerialService: 'JFAB-2129': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2129 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:24:22.729  I  SerialService: 'JFAB-2129': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2129&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:24:22.811  I  SerialService: 'JFAB-2129': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2129&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:24:22.837  I  SerialService: 'JFAB-2129': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:24:22.838  I  SerialService: 'JFAB-2129': server holds 0 RFID(s); taking the lowest free serial 1 (JFAB21290001)
+2026-10-15 13:24:27.936  I  SerialService: 'JFAB-2129': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2129 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:24:28.004  I  SerialService: 'JFAB-2129': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2129&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:24:28.067  I  SerialService: 'JFAB-2129': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2129&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:24:28.086  I  SerialService: 'JFAB-2129': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:24:28.087  I  SerialService: 'JFAB-2129': server holds 0 RFID(s); taking the lowest free serial 1 (JFAB21290001)
+2026-10-15 13:24:28.700  I  Registration: Upload accepted for JFAB21290001: HTTP 200 {"updated":1,"tags":[{"id":7860,"epc":"JFAB21290001","itemCode":"JFAB-2129","serialNo":1}]}
+2026-10-15 13:24:28.701  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-15 13:24:47.576  I  SerialService: 'JFAB-2129': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (JFAB21290002)
+2026-10-15 13:24:49.041  I  Registration: Upload accepted for JFAB21290002: HTTP 200 {"updated":1,"tags":[{"id":7861,"epc":"JFAB21290002","itemCode":"JFAB-2129","serialNo":2}]}
+2026-10-15 13:24:49.045  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 13:24:51.030  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:24:51.032  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:24:51.037  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 13:25:35.831  I  SerialService: 'JFAB-2139': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2139 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:25:35.896  I  SerialService: 'JFAB-2139': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2139&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:25:35.959  I  SerialService: 'JFAB-2139': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2139&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:25:35.975  I  SerialService: 'JFAB-2139': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:25:35.977  I  SerialService: 'JFAB-2139': server holds 0 RFID(s); taking the lowest free serial 1 (JFAB21390001)
+2026-10-15 13:25:36.609  I  SerialService: 'JFAB-2139': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2139 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:25:36.672  I  SerialService: 'JFAB-2139': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2139&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:25:36.747  I  SerialService: 'JFAB-2139': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2139&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:25:36.768  I  SerialService: 'JFAB-2139': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:25:36.769  I  SerialService: 'JFAB-2139': server holds 0 RFID(s); taking the lowest free serial 1 (JFAB21390001)
+2026-10-15 13:25:37.364  I  Registration: Upload accepted for JFAB21390001: HTTP 200 {"updated":1,"tags":[{"id":7862,"epc":"JFAB21390001","itemCode":"JFAB-2139","serialNo":1}]}
+2026-10-15 13:25:37.365  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-15 13:25:51.933  I  SerialService: 'JFAB-2139': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (JFAB21390002)
+2026-10-15 13:25:52.549  I  Registration: Upload accepted for JFAB21390002: HTTP 200 {"updated":1,"tags":[{"id":7863,"epc":"JFAB21390002","itemCode":"JFAB-2139","serialNo":2}]}
+2026-10-15 13:25:52.550  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-15 13:26:07.834  I  SerialService: 'SPSM-8002': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8002 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:26:07.894  I  SerialService: 'SPSM-8002': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8002&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:26:07.954  I  SerialService: 'SPSM-8002': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8002&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:26:07.977  I  SerialService: 'SPSM-8002': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:26:07.979  I  SerialService: 'SPSM-8002': server holds 0 RFID(s); taking the lowest free serial 1 (SPSM80020001)
+2026-10-15 13:26:10.369  I  SerialService: 'SPSM-8002': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8002 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:26:10.431  I  SerialService: 'SPSM-8002': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8002&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:26:10.496  I  SerialService: 'SPSM-8002': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8002&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:26:10.536  I  SerialService: 'SPSM-8002': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:26:10.539  I  SerialService: 'SPSM-8002': server holds 0 RFID(s); taking the lowest free serial 1 (SPSM80020001)
+2026-10-15 13:26:11.401  I  Registration: Upload accepted for SPSM80020001: HTTP 200 {"updated":1,"tags":[{"id":7864,"epc":"SPSM80020001","itemCode":"SPSM-8002","serialNo":1}]}
+2026-10-15 13:26:11.402  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 13:26:11.960  4965  4979 W System  : A resource failed to call close. 
+10-15 13:26:11.960  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:26:11.960  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:26:11.960  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 13:26:11.961  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:26:11.961  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:26:11.965  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:26:11.968  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:26:11.969  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 13:26:36.048  I  SerialService: 'SPSM-8002': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SPSM80020002)
+2026-10-15 13:26:36.652  I  Registration: Upload accepted for SPSM80020002: HTTP 200 {"updated":1,"tags":[{"id":7865,"epc":"SPSM80020002","itemCode":"SPSM-8002","serialNo":2}]}
+2026-10-15 13:26:36.655  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 13:26:45.302  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 13:27:18.229  I  SerialService: 'JFAB-2105': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2105 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:27:18.291  I  SerialService: 'JFAB-2105': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2105&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:27:18.352  I  SerialService: 'JFAB-2105': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2105&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:27:18.372  I  SerialService: 'JFAB-2105': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:27:18.373  I  SerialService: 'JFAB-2105': server holds 0 RFID(s); taking the lowest free serial 1 (JFAB21050001)
+2026-10-15 13:27:21.039  I  SerialService: 'JFAB-2105': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2105 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:27:21.102  I  SerialService: 'JFAB-2105': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2105&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:27:21.172  I  SerialService: 'JFAB-2105': GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2105&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:27:21.196  I  SerialService: 'JFAB-2105': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:27:21.198  I  SerialService: 'JFAB-2105': server holds 0 RFID(s); taking the lowest free serial 1 (JFAB21050001)
+2026-10-15 13:27:21.802  I  Registration: Upload accepted for JFAB21050001: HTTP 200 {"updated":1,"tags":[{"id":7866,"epc":"JFAB21050001","itemCode":"JFAB-2105","serialNo":1}]}
+2026-10-15 13:27:21.803  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-15 13:27:41.131  I  SerialService: 'JFAB-2105': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (JFAB21050002)
+2026-10-15 13:27:41.921  I  Registration: Upload accepted for JFAB21050002: HTTP 200 {"updated":1,"tags":[{"id":7867,"epc":"JFAB21050002","itemCode":"JFAB-2105","serialNo":2}]}
+2026-10-15 13:27:41.923  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 13:27:52.770  4965  4979 W System  : A resource failed to call close. 
+10-15 13:27:52.770  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:27:52.770  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:27:52.770  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 13:27:52.773  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:27:52.774  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:27:52.779  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 13:28:11.760  I  SerialService: 'SPSM-8007': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8007 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:28:11.822  I  SerialService: 'SPSM-8007': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8007&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:28:11.887  I  SerialService: 'SPSM-8007': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8007&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:28:11.898  I  SerialService: 'SPSM-8007': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:28:11.900  I  SerialService: 'SPSM-8007': server holds 0 RFID(s); taking the lowest free serial 1 (SPSM80070001)
+2026-10-15 13:28:19.168  I  SerialService: 'SPSM-8007': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8007 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:28:19.241  I  SerialService: 'SPSM-8007': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8007&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:28:19.307  I  SerialService: 'SPSM-8007': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8007&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:28:19.335  I  SerialService: 'SPSM-8007': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:28:19.337  I  SerialService: 'SPSM-8007': server holds 0 RFID(s); taking the lowest free serial 1 (SPSM80070001)
+2026-10-15 13:28:19.932  I  Registration: Upload accepted for SPSM80070001: HTTP 200 {"updated":1,"tags":[{"id":7868,"epc":"SPSM80070001","itemCode":"SPSM-8007","serialNo":1}]}
+2026-10-15 13:28:19.933  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 13:28:27.377  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:28:27.378  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:28:50.165  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1330395
+10-15 13:28:56.500  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@11d763a
+10-15 13:28:56.511  4965  4965 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-15 13:28:59.753  I  SerialService: 'SPSM-8001-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8001-2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:28:59.815  I  SerialService: 'SPSM-8001-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8001-2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:28:59.875  I  SerialService: 'SPSM-8001-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8001-2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:28:59.895  I  SerialService: 'SPSM-8001-2': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:28:59.896  I  SerialService: 'SPSM-8001-2': server holds 0 RFID(s); taking the lowest free serial 1 (SPSM800120001)
+2026-10-15 13:29:01.697  I  SerialService: 'SPSM-8001-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8001-2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:29:01.957  I  SerialService: 'SPSM-8001-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8001-2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:29:02.021  I  SerialService: 'SPSM-8001-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=SPSM-8001-2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-15 13:29:02.043  I  SerialService: 'SPSM-8001-2': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-15 13:29:02.044  I  SerialService: 'SPSM-8001-2': server holds 0 RFID(s); taking the lowest free serial 1 (SPSM800120001)
+2026-10-15 13:29:02.947  I  Registration: Upload accepted for SPSM800120001: HTTP 200 {"updated":1,"tags":[{"id":7869,"epc":"SPSM800120001","itemCode":"SPSM-8001-2","serialNo":1}]}
+2026-10-15 13:29:02.948  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-15 13:29:22.796  4965  4983 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:136500000008,api:4,p:1503,c:4965) queueBuffer: BufferQueue has been abandoned
+10-15 13:29:22.820  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4c76e43
+10-15 13:29:22.828  4965  4985 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:136500000008,api:4,p:1503,c:4965) queueBuffer: BufferQueue has been abandoned
+10-15 13:29:22.851  4965  4985 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:136500000008,api:4,p:1503,c:4965) cancelBuffer: BufferQueue has been abandoned
+10-15 13:29:22.852  4965  4985 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:136500000008,api:4,p:1503,c:4965) queueBuffer: BufferQueue has been abandoned
+10-15 13:29:22.853  4965  5182 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:136500000008,api:4,p:1503,c:4965) cancelBuffer: BufferQueue has been abandoned
+10-15 13:29:22.854  4965  4985 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:136500000008,api:4,p:1503,c:4965) cancelBuffer: BufferQueue has been abandoned
+10-15 13:29:22.854  4965  4985 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:136500000008,api:4,p:1503,c:4965) cancelBuffer: BufferQueue has been abandoned
+2026-10-15 13:29:27.558  I  ProductSync: unmapped for location 2 needed 3 page(s): 504 row(s), server reported 504
+2026-10-15 13:29:27.789  I  UhfSession: UHF reader powered down: no screen is using the reader
+10-15 13:29:30.110  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2b7087e
+2026-10-15 13:29:30.585  I  Net: Blank Audit: opened, powering the UHF module up
+2026-10-15 13:29:31.428  I  Net: Blank Audit: mapped-product sync started
+2026-10-15 13:29:31.431  I  Net: Blank Audit: local products still fresh, no sync needed
+10-15 13:29:32.622  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ab6f11
+10-15 13:29:32.731  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:29:32.731  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 13:29:32.732  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:29:32.732  4965  4979 W System  : A resource failed to call close. 
+10-15 13:29:32.732  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:29:32.732  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 13:29:32.732  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:29:32.732  4965  4979 W System  : A resource failed to call close. 
+10-15 13:29:32.738  4965  4979 W System  : A resource failed to call CursorWindow.close. 
+10-15 13:29:32.738  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+10-15 13:29:32.739  4965  4979 W System  : A resource failed to call CursorWindow.close. 
+10-15 13:29:32.739  4965  4979 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-15 13:29:33.096  W  UhfSession: Could not power up the UHF reader
+10-15 13:30:00.030  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f5899d6
+2026-10-15 13:30:15.412  I  UhfSession: UHF reader powered up
+10-15 13:33:02.318  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@92f9d27
+2026-10-15 13:33:03.135  I  Net: Blank Audit: closed, releasing the UHF module
+10-15 13:33:03.142  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b6f1882
+2026-10-15 13:33:08.212  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-10-15 13:33:11.491  W  Net: wifi DISCONNECTED — link had been up for 727s
+2026-10-15 13:33:32.281  W  UhfSession: Could not power up the UHF reader
+2026-10-15 13:33:40.237  I  UhfSession: UHF reader powered up
+10-15 13:33:54.019  4965  4979 W System  : A resource failed to call close. 
+10-15 13:33:54.019  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:33:54.019  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:33:54.019  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 13:33:54.021  4965  4979 W System  : A resource failed to call close. 
+10-15 13:33:54.021  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:33:54.021  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:33:54.021  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 13:34:26.027  4965  4979 W System  : A resource failed to call close. 
+10-15 13:34:26.027  4965  4979 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-15 13:34:26.027  4965  4979 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-15 13:34:26.027  4965  4979 W System  : A resource failed to call SQLiteConnection.close. 
+10-15 13:34:38.397  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f8ca589
+10-15 13:34:40.046  4965  4965 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+10-15 13:34:41.744  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b09b59d
+10-15 13:34:41.754  4965  4965 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-15 13:34:47.589  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7a7e4bf
+10-15 13:34:50.082  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@237e922
+10-15 13:34:50.094  4965  4965 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-15 13:34:57.974  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@28c2695
+10-15 13:35:42.008  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f5b421b
+10-15 13:36:04.627  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@df58679
+10-15 13:36:06.420  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@433462e
+10-15 13:36:34.428  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ea8ae0
+10-15 13:36:36.811  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2cf59d1
+10-15 13:36:36.822  4965  8064 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:136500000016,api:4,p:1503,c:4965) queueBuffer: BufferQueue has been abandoned
+10-15 13:36:36.846  4965  8064 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:136500000016,api:4,p:1503,c:4965) cancelBuffer: BufferQueue has been abandoned
+10-15 13:36:36.846  4965  8064 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:136500000016,api:4,p:1503,c:4965) cancelBuffer: BufferQueue has been abandoned
+10-15 13:36:36.848  4965  8064 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:136500000016,api:4,p:1503,c:4965) cancelBuffer: BufferQueue has been abandoned
+10-15 13:36:36.848  4965  8064 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:136500000016,api:4,p:1503,c:4965) cancelBuffer: BufferQueue has been abandoned
+10-15 13:36:36.852  4965  8064 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:136500000016,api:4,p:1503,c:4965) queueBuffer: BufferQueue has been abandoned
+10-15 13:36:44.384  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3f99b8c
+2026-10-15 13:36:45.632  I  Net: Blank Audit: opened, powering the UHF module up
+2026-10-15 13:36:45.633  I  Net: Blank Audit: mapped-product sync started
+2026-10-15 13:36:45.633  I  Net: Blank Audit: local products still fresh, no sync needed
+10-15 13:36:46.807  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@93a7b29
+10-15 13:37:05.003  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b878c0e
+10-15 13:37:27.596  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9341db7
+10-15 13:37:27.600  4965  9618 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.poxo.tittlifashionapplication.ui.audit.NewAuditActivity.postJsonWithAuth(NewAuditActivity.kt:1021)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.poxo.tittlifashionapplication.ui.audit.NewAuditActivity.submitMappedAuditScans$lambda$62(NewAuditActivity.kt:993)
+10-15 13:37:27.600  4965  9618 W System.err: 	at com.poxo.tittlifashionapplication.ui.audit.NewAuditActivity.$r8$lambda$O6NVET0pqUoIudYHa7Ez5z0OS80(NewAuditActivity.kt:0)
+10-15 13:37:27.601  4965  9618 W System.err: 	at com.poxo.tittlifashionapplication.ui.audit.NewAuditActivity$$ExternalSyntheticLambda21.run(D8$$SyntheticClass:0)
+10-15 13:37:27.601  4965  9618 W System.err: 	at java.lang.Thread.run(Thread.java:1571)
+10-15 13:37:31.404  4965  4965 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1636968
+10-15 13:37:31.407  4965  9626 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+10-15 13:37:31.407  4965  9626 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+10-15 13:37:31.407  4965  9626 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+10-15 13:37:31.407  4965  9626 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+10-15 13:37:31.408  4965  9626 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+10-15 13:37:31.408  4965  9626 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+10-15 13:37:31.408  4965  9626 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+10-15 13:37:31.408  4965  9626 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-15 13:37:31.408  4965  9626 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+10-15 13:37:31.408  4965  9626 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+10-15 13:37:31.408  4965  9626 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+10-15 13:37:31.408  4965  9626 W System.err: 	at com.poxo.tittlifashionapplication.ui.audit.NewAuditActivity.postJsonWithAuth(NewAuditActivity.kt:1021)
+10-15 13:37:31.408  4965  9626 W System.err: 	at com.poxo.tittlifashionapplication.ui.audit.NewAuditActivity.submitMappedAuditScans$lambda$62(NewAuditActivity.kt:993)
+10-15 13:37:31.408  4965  9626 W System.err: 	at com.poxo.tittlifashionapplication.ui.audit.NewAuditActivity.$r8$lambda$O6NVET0pqUoIudYHa7Ez5z0OS80(NewAuditActivity.kt:0)
+10-15 13:37:31.408  4965  9626 W System.err: 	at com.poxo.tittlifashionapplication.ui.audit.NewAuditActivity$$ExternalSyntheticLambda21.run(D8$$SyntheticClass:0)
+10-15 13:37:31.408  4965  9626 W System.err: 	at java.lang.Thread.run(Thread.java:1571)
+2026-10-15 13:39:36.121  I  Net: Blank Audit: closed, releasing the UHF module
+2026-10-15 13:39:37.518  I  UhfSession: UHF reader powered down: app moved to the background
+2026-10-15 13:40:55.205  I  Net: Blank Audit: opened, powering the UHF module up
+2026-10-15 13:40:57.717  W  UhfSession: Could not power up the UHF reader
+2026-10-15 13:41:05.125  I  UhfSession: UHF reader powered up
+2026-10-15 13:42:39.206  I  Net: Blank Audit: closed, releasing the UHF module
+2026-10-15 13:42:40.605  I  UhfSession: UHF reader powered down: app moved to the background
+2026-10-15 13:53:03.546  I  Net: wifi connected
+2026-10-15 13:53:03.551  W  Net: wifi is up but has NO internet (rssi -49 dBm)
+2026-10-15 13:53:03.591  I  Net: wifi has internet (rssi -49 dBm)
+2026-10-15 16:25:38.497  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-10-15 16:25:38.530  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-10-15 16:25:38.550  I  Net: wifi connected
+2026-10-15 16:25:38.552  I  Net: wifi has internet (rssi -49 dBm)
+--------- beginning of main
+10-15 16:25:38.606 25274 25303 W QT      : qt_process_init() called
+10-15 16:25:38.606 25274 25303 E QT      : [QT]file does not exist
+10-15 16:25:38.606 25274 25303 W QT      : Support!!
+2026-10-15 16:25:39.931  I  Net: Blank Audit: opened, powering the UHF module up
+10-15 16:25:40.057 25274 25274 W HWUI    : Unknown dataspace 0
