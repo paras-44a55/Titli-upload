@@ -1,0 +1,341 @@
+# pushed 2026-10-16 18:43:37.602 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 85350..131027
+
+2026-10-16 17:33:57.885  I  UhfSession: UHF reader powered down: app moved to the background
+10-16 18:28:07.142 11771 11771 E SurfaceSyncer: Failed to find sync for id=0
+10-16 18:28:07.142 11771 11771 E SurfaceSyncer: Failed to find sync for id=1
+10-16 18:28:07.142 11771 11771 E SurfaceSyncer: Failed to find sync for id=2
+2026-10-16 18:28:07.310  W  Net: wifi DISCONNECTED — link had been up for 3328s
+10-16 18:28:08.287 11771 11800 W Parcel  : Expecting binder but got null!
+2026-10-16 18:28:11.147  I  UhfSession: UHF reader powered up
+2026-10-16 18:28:12.354  I  Net: wifi connected
+2026-10-16 18:28:12.356  W  Net: wifi is up but has NO internet (rssi -36 dBm)
+2026-10-16 18:28:12.457  I  Net: wifi has internet (rssi -36 dBm)
+10-16 18:28:17.136 11771 11771 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-16 18:28:19.765 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:28:32.165 11771 11800 W Parcel  : Expecting binder but got null!
+2026-10-16 18:28:40.448  E  ProductSync: mapped page 1 failed
+java.net.SocketTimeoutException: timeout
+	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.refreshMappedProducts(RegistrationActivity.kt:1770)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:380)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:188)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	... 19 more
+2026-10-16 18:28:40.750  I  SerialService: 'SM-2906': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2906 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:28:40.884  I  SerialService: 'SM-2906': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2906&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:28:41.015  I  SerialService: 'SM-2906': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2906&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:28:41.031  I  SerialService: 'SM-2906': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:28:41.051  I  SerialService: 'SM-2906': server holds 0 RFID(s); taking the lowest free serial 1 (SM29060001)
+10-16 18:28:45.691 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:28:45.691 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-16 18:28:50.166  I  SerialService: 'SM-2906': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2906 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:28:50.301  I  SerialService: 'SM-2906': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2906&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:28:50.433  I  SerialService: 'SM-2906': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2906&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:28:50.450  I  SerialService: 'SM-2906': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:28:50.452  I  SerialService: 'SM-2906': server holds 0 RFID(s); taking the lowest free serial 1 (SM29060001)
+2026-10-16 18:28:51.602  I  Registration: Upload accepted for SM29060001: HTTP 200 {"updated":1,"tags":[{"id":7902,"epc":"SM29060001","itemCode":"SM-2906","serialNo":1}]}
+2026-10-16 18:28:51.606  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:29:02.070 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:29:02.070 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-16 18:29:03.016  I  SerialService: 'SM-2906': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SM29060002)
+2026-10-16 18:29:03.678  I  Registration: Upload accepted for SM29060002: HTTP 200 {"updated":1,"tags":[{"id":7903,"epc":"SM29060002","itemCode":"SM-2906","serialNo":2}]}
+2026-10-16 18:29:03.681  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-16 18:29:14.689  I  SerialService: 'SM-2906': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (SM29060003)
+10-16 18:29:15.347 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:29:15.347 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:29:15.352 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:29:15.353 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-16 18:29:15.422  I  Registration: Upload accepted for SM29060003: HTTP 200 {"updated":1,"tags":[{"id":7904,"epc":"SM29060003","itemCode":"SM-2906","serialNo":3}]}
+2026-10-16 18:29:15.425  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:29:50.960 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:30:07.775 11771 11800 W Parcel  : Expecting binder but got null!
+2026-10-16 18:30:41.526  I  SerialService: 'SM-3234': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3234 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:30:41.647  I  SerialService: 'SM-3234': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3234&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:30:41.934  I  SerialService: 'SM-3234': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3234&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:30:41.957  I  SerialService: 'SM-3234': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:30:41.962  I  SerialService: 'SM-3234': server holds 0 RFID(s); taking the lowest free serial 1 (SM32340001)
+10-16 18:31:14.229 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:31:14.229 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-16 18:31:28.004  I  SerialService: 'SM-3234': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3234 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:31:28.130  I  SerialService: 'SM-3234': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3234&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:31:28.262  I  SerialService: 'SM-3234': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3234&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:31:28.289  I  SerialService: 'SM-3234': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:31:28.291  I  SerialService: 'SM-3234': server holds 0 RFID(s); taking the lowest free serial 1 (SM32340001)
+2026-10-16 18:31:31.372  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-10-16 18:31:34.328  I  SerialService: 'SM-3234': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3234 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:31:34.453  I  SerialService: 'SM-3234': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3234&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:31:34.575  I  SerialService: 'SM-3234': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3234&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:31:34.601  I  SerialService: 'SM-3234': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:31:34.603  I  SerialService: 'SM-3234': server holds 0 RFID(s); taking the lowest free serial 1 (SM32340001)
+2026-10-16 18:31:37.036  I  Registration: Upload accepted for SM32340001: HTTP 200 {"updated":1,"tags":[{"id":7905,"epc":"SM32340001","itemCode":"SM-3234","serialNo":1}]}
+2026-10-16 18:31:37.040  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-16 18:31:47.127  I  SerialService: 'SM-3234': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SM32340002)
+2026-10-16 18:31:49.608  I  Registration: Upload accepted for SM32340002: HTTP 200 {"updated":1,"tags":[{"id":7906,"epc":"SM32340002","itemCode":"SM-3234","serialNo":2}]}
+2026-10-16 18:31:49.611  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-16 18:32:08.296  I  SerialService: 'SM-3234': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (SM32340003)
+2026-10-16 18:32:08.997  I  Registration: Upload accepted for SM32340003: HTTP 200 {"updated":1,"tags":[{"id":7907,"epc":"SM32340003","itemCode":"SM-3234","serialNo":3}]}
+2026-10-16 18:32:09.000  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:32:10.938 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:32:10.938 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:32:10.945 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:32:10.945 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:32:10.947 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:32:10.947 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:32:10.949 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:32:10.949 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:32:10.952 11771 11783 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-16 18:32:10.952 11771 11783 W System  : A resource failed to call SQLiteConnection.close. 
+10-16 18:32:10.952 11771 11783 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-16 18:32:10.952 11771 11783 W System  : A resource failed to call close. 
+10-16 18:32:46.610 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:33:00.326 11771 11800 W Parcel  : Expecting binder but got null!
+2026-10-16 18:33:21.256  I  SerialService: 'SM-3038': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3038 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:33:21.370  I  SerialService: 'SM-3038': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3038&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:33:21.489  I  SerialService: 'SM-3038': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3038&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:33:21.511  I  SerialService: 'SM-3038': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:33:21.513  I  SerialService: 'SM-3038': server holds 0 RFID(s); taking the lowest free serial 1 (SM30380001)
+2026-10-16 18:33:26.257  I  SerialService: 'SM-3038': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3038 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:33:26.375  I  SerialService: 'SM-3038': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3038&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:33:26.492  I  SerialService: 'SM-3038': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3038&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:33:26.519  I  SerialService: 'SM-3038': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:33:26.521  I  SerialService: 'SM-3038': server holds 0 RFID(s); taking the lowest free serial 1 (SM30380001)
+2026-10-16 18:33:27.312  I  Registration: Upload accepted for SM30380001: HTTP 200 {"updated":1,"tags":[{"id":7908,"epc":"SM30380001","itemCode":"SM-3038","serialNo":1}]}
+2026-10-16 18:33:27.315  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-16 18:33:40.332  I  SerialService: 'SM-3038': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SM30380002)
+2026-10-16 18:33:41.104  I  Registration: Upload accepted for SM30380002: HTTP 200 {"updated":1,"tags":[{"id":7909,"epc":"SM30380002","itemCode":"SM-3038","serialNo":2}]}
+2026-10-16 18:33:41.108  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-16 18:33:54.881  I  SerialService: 'SM-3038': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (SM30380003)
+2026-10-16 18:33:55.648  I  Registration: Upload accepted for SM30380003: HTTP 200 {"updated":1,"tags":[{"id":7910,"epc":"SM30380003","itemCode":"SM-3038","serialNo":3}]}
+2026-10-16 18:33:55.651  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:33:56.282 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:33:56.282 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:33:56.287 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:33:56.288 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:33:56.292 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:33:56.292 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:33:56.293 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:33:56.293 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:34:16.326 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:34:32.245 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:34:36.693 11771 11783 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-16 18:34:36.693 11771 11783 W System  : A resource failed to call SQLiteConnection.close. 
+10-16 18:34:36.694 11771 11783 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-16 18:34:36.694 11771 11783 W System  : A resource failed to call close. 
+2026-10-16 18:34:38.056  I  SerialService: 'SM-3114': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3114 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:34:38.178  I  SerialService: 'SM-3114': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3114&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:34:38.312  I  SerialService: 'SM-3114': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3114&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:34:38.362  I  SerialService: 'SM-3114': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:34:38.365  I  SerialService: 'SM-3114': server holds 0 RFID(s); taking the lowest free serial 1 (SM31140001)
+2026-10-16 18:34:46.275  I  SerialService: 'SM-3114': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3114 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:34:46.396  I  SerialService: 'SM-3114': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3114&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:34:46.517  I  SerialService: 'SM-3114': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3114&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:34:46.534  I  SerialService: 'SM-3114': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:34:46.536  I  SerialService: 'SM-3114': server holds 0 RFID(s); taking the lowest free serial 1 (SM31140001)
+2026-10-16 18:34:47.336  I  Registration: Upload accepted for SM31140001: HTTP 200 {"updated":1,"tags":[{"id":7911,"epc":"SM31140001","itemCode":"SM-3114","serialNo":1}]}
+2026-10-16 18:34:47.339  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:35:02.852 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:35:12.777 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:35:12.778 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:35:12.780 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:35:12.780 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:35:31.403 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:35:37.843 11771 11771 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-16 18:35:38.043  I  SerialService: 'SM-3216-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3216-B -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:35:38.243  I  SerialService: 'SM-3216-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3216-B&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:35:38.365  I  SerialService: 'SM-3216-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3216-B&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:35:38.391  I  SerialService: 'SM-3216-B': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:35:38.393  I  SerialService: 'SM-3216-B': server holds 0 RFID(s); taking the lowest free serial 1 (SM3216B0001)
+2026-10-16 18:35:57.381  I  SerialService: 'SM-3216-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3216-B -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:35:57.507  I  SerialService: 'SM-3216-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3216-B&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:35:57.633  I  SerialService: 'SM-3216-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3216-B&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:35:57.661  I  SerialService: 'SM-3216-B': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:35:57.663  I  SerialService: 'SM-3216-B': server holds 0 RFID(s); taking the lowest free serial 1 (SM3216B0001)
+2026-10-16 18:35:58.443  I  Registration: Upload accepted for SM3216B0001: HTTP 200 {"updated":1,"tags":[{"id":7912,"epc":"SM3216B0001","itemCode":"SM-3216-B","serialNo":1}]}
+2026-10-16 18:35:58.445  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-16 18:36:15.581  I  SerialService: 'SM-3216-B': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SM3216B0002)
+2026-10-16 18:36:17.152  I  Registration: Upload accepted for SM3216B0002: HTTP 200 {"updated":1,"tags":[{"id":7913,"epc":"SM3216B0002","itemCode":"SM-3216-B","serialNo":2}]}
+2026-10-16 18:36:17.156  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:36:17.255 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:36:17.255 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:36:17.256 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:36:17.257 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:36:17.258 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:36:17.258 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:36:17.262 11771 11783 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-16 18:36:17.262 11771 11783 W System  : A resource failed to call SQLiteConnection.close. 
+10-16 18:36:17.262 11771 11783 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-16 18:36:17.262 11771 11783 W System  : A resource failed to call close. 
+2026-10-16 18:36:28.769  I  SerialService: 'SM-3216-B': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (SM3216B0003)
+2026-10-16 18:36:29.553  I  Registration: Upload accepted for SM3216B0003: HTTP 200 {"updated":1,"tags":[{"id":7914,"epc":"SM3216B0003","itemCode":"SM-3216-B","serialNo":3}]}
+2026-10-16 18:36:29.556  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:36:50.400 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:36:50.400 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-16 18:36:50.638  I  SerialService: 'SM-3216-B': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (SM3216B0004)
+2026-10-16 18:36:51.402  I  Registration: Upload accepted for SM3216B0004: HTTP 200 {"updated":1,"tags":[{"id":7915,"epc":"SM3216B0004","itemCode":"SM-3216-B","serialNo":4}]}
+2026-10-16 18:36:51.405  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:37:00.627 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:37:04.268 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:37:07.941 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:37:15.366 11771 11771 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-16 18:37:16.456 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:37:19.986 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:37:19.986 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:37:36.011 11771 11771 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-16 18:37:38.765  I  SerialService: 'SM-3219-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3219-B -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:37:38.887  I  SerialService: 'SM-3219-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3219-B&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:37:39.010  I  SerialService: 'SM-3219-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3219-B&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:37:39.028  I  SerialService: 'SM-3219-B': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:37:39.029  I  SerialService: 'SM-3219-B': server holds 0 RFID(s); taking the lowest free serial 1 (SM3219B0001)
+2026-10-16 18:37:41.309  I  SerialService: 'SM-3219-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3219-B -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:37:41.432  I  SerialService: 'SM-3219-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3219-B&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:37:41.556  I  SerialService: 'SM-3219-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3219-B&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:37:41.599  I  SerialService: 'SM-3219-B': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:37:41.602  I  SerialService: 'SM-3219-B': server holds 0 RFID(s); taking the lowest free serial 1 (SM3219B0001)
+2026-10-16 18:37:42.385  I  Registration: Upload accepted for SM3219B0001: HTTP 200 {"updated":1,"tags":[{"id":7916,"epc":"SM3219B0001","itemCode":"SM-3219-B","serialNo":1}]}
+2026-10-16 18:37:42.390  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:37:51.020 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:37:51.021 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:37:51.023 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:37:51.024 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-16 18:38:09.266  I  SerialService: 'SM-3219-B': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SM3219B0002)
+2026-10-16 18:38:10.863  I  Registration: Upload accepted for SM3219B0002: HTTP 200 {"updated":1,"tags":[{"id":7917,"epc":"SM3219B0002","itemCode":"SM-3219-B","serialNo":2}]}
+2026-10-16 18:38:10.866  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:38:24.928 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:38:24.928 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:38:24.934 11771 11783 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-16 18:38:24.934 11771 11783 W System  : A resource failed to call SQLiteConnection.close. 
+10-16 18:38:24.935 11771 11783 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-16 18:38:24.935 11771 11783 W System  : A resource failed to call close. 
+10-16 18:39:08.330 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:39:21.774 11771 11800 W Parcel  : Expecting binder but got null!
+2026-10-16 18:39:25.323  I  SerialService: 'SM-3008-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3008-B -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:39:25.438  I  SerialService: 'SM-3008-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3008-B&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:39:25.560  I  SerialService: 'SM-3008-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3008-B&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:39:25.579  I  SerialService: 'SM-3008-B': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:39:25.580  I  SerialService: 'SM-3008-B': server holds 0 RFID(s); taking the lowest free serial 1 (SM3008B0001)
+2026-10-16 18:39:28.431  I  SerialService: 'SM-3008-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3008-B -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:39:28.556  I  SerialService: 'SM-3008-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3008-B&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:39:28.676  I  SerialService: 'SM-3008-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3008-B&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:39:28.689  I  SerialService: 'SM-3008-B': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:39:28.691  I  SerialService: 'SM-3008-B': server holds 0 RFID(s); taking the lowest free serial 1 (SM3008B0001)
+2026-10-16 18:39:31.153  I  Registration: Upload accepted for SM3008B0001: HTTP 200 {"updated":1,"tags":[{"id":7918,"epc":"SM3008B0001","itemCode":"SM-3008-B","serialNo":1}]}
+2026-10-16 18:39:31.155  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-16 18:39:46.612  I  SerialService: 'SM-3008-B': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SM3008B0002)
+2026-10-16 18:39:47.403  I  Registration: Upload accepted for SM3008B0002: HTTP 200 {"updated":1,"tags":[{"id":7919,"epc":"SM3008B0002","itemCode":"SM-3008-B","serialNo":2}]}
+2026-10-16 18:39:47.405  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:39:52.914 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:39:52.914 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:39:52.916 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:39:52.916 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:39:52.916 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:39:52.916 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:39:59.304 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:40:10.473 11771 11800 W Parcel  : Expecting binder but got null!
+2026-10-16 18:40:18.246  I  SerialService: 'SM-3183-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3183-B -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:40:18.370  I  SerialService: 'SM-3183-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3183-B&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:40:18.492  I  SerialService: 'SM-3183-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3183-B&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:40:18.512  I  SerialService: 'SM-3183-B': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:40:18.514  I  SerialService: 'SM-3183-B': server holds 0 RFID(s); taking the lowest free serial 1 (SM3183B0001)
+2026-10-16 18:40:24.454  I  SerialService: 'SM-3183-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3183-B -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:40:24.585  I  SerialService: 'SM-3183-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3183-B&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:40:24.712  I  SerialService: 'SM-3183-B': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-3183-B&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:40:24.741  I  SerialService: 'SM-3183-B': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:40:24.743  I  SerialService: 'SM-3183-B': server holds 0 RFID(s); taking the lowest free serial 1 (SM3183B0001)
+10-16 18:40:26.358 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:40:26.358 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:40:26.359 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:40:26.359 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:40:26.365 11771 11783 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-16 18:40:26.365 11771 11783 W System  : A resource failed to call SQLiteConnection.close. 
+10-16 18:40:26.366 11771 11783 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-16 18:40:26.366 11771 11783 W System  : A resource failed to call close. 
+2026-10-16 18:40:26.395  I  Registration: Upload accepted for SM3183B0001: HTTP 200 {"updated":1,"tags":[{"id":7920,"epc":"SM3183B0001","itemCode":"SM-3183-B","serialNo":1}]}
+2026-10-16 18:40:26.399  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-16 18:40:38.231  I  SerialService: 'SM-3183-B': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SM3183B0002)
+2026-10-16 18:40:38.928  I  Registration: Upload accepted for SM3183B0002: HTTP 200 {"updated":1,"tags":[{"id":7921,"epc":"SM3183B0002","itemCode":"SM-3183-B","serialNo":2}]}
+2026-10-16 18:40:38.931  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:40:45.202 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:40:46.266 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:40:46.266 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:41:01.539 11771 11800 W Parcel  : Expecting binder but got null!
+2026-10-16 18:41:07.733  I  SerialService: 'SM-2926': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2926 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:41:07.851  I  SerialService: 'SM-2926': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2926&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:41:07.969  I  SerialService: 'SM-2926': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2926&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:41:07.989  I  SerialService: 'SM-2926': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:41:07.990  I  SerialService: 'SM-2926': server holds 0 RFID(s); taking the lowest free serial 1 (SM29260001)
+10-16 18:41:14.996 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:41:14.996 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:41:14.996 11771 11783 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-16 18:41:14.996 11771 11783 W System  : A resource failed to call SQLiteConnection.close. 
+10-16 18:41:14.997 11771 11783 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-16 18:41:14.997 11771 11783 W System  : A resource failed to call close. 
+2026-10-16 18:41:17.593  I  SerialService: 'SM-2926': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2926 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:41:17.713  I  SerialService: 'SM-2926': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2926&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:41:17.834  I  SerialService: 'SM-2926': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2926&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:41:17.857  I  SerialService: 'SM-2926': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:41:17.859  I  SerialService: 'SM-2926': server holds 0 RFID(s); taking the lowest free serial 1 (SM29260001)
+2026-10-16 18:41:20.035  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-10-16 18:41:21.606  I  SerialService: 'SM-2926': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2926 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:41:21.732  I  SerialService: 'SM-2926': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2926&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:41:21.856  I  SerialService: 'SM-2926': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2926&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:41:21.884  I  SerialService: 'SM-2926': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:41:21.886  I  SerialService: 'SM-2926': server holds 0 RFID(s); taking the lowest free serial 1 (SM29260001)
+2026-10-16 18:41:23.492  I  Registration: Upload accepted for SM29260001: HTTP 200 {"updated":1,"tags":[{"id":7922,"epc":"SM29260001","itemCode":"SM-2926","serialNo":1}]}
+2026-10-16 18:41:23.495  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:41:32.942 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:41:32.942 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:41:32.943 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:41:32.943 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-16 18:41:34.140  I  SerialService: 'SM-2926': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SM29260002)
+2026-10-16 18:41:34.841  I  Registration: Upload accepted for SM29260002: HTTP 200 {"updated":1,"tags":[{"id":7923,"epc":"SM29260002","itemCode":"SM-2926","serialNo":2}]}
+2026-10-16 18:41:34.844  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:41:48.145 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:41:48.146 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:41:50.977 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:42:03.231 11771 11771 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-16 18:42:04.215 11771 11800 W Parcel  : Expecting binder but got null!
+10-16 18:42:08.533 11771 11771 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-16 18:42:09.958 11771 11783 W System  : A resource failed to call close. 
+2026-10-16 18:42:10.197  I  SerialService: 'SM-2958-D': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2958-D -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:42:10.324  I  SerialService: 'SM-2958-D': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2958-D&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:42:10.452  I  SerialService: 'SM-2958-D': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2958-D&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:42:10.467  I  SerialService: 'SM-2958-D': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:42:10.468  I  SerialService: 'SM-2958-D': server holds 0 RFID(s); taking the lowest free serial 1 (SM2958D0001)
+2026-10-16 18:42:31.824  I  SerialService: 'SM-2958-D': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2958-D -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:42:31.950  I  SerialService: 'SM-2958-D': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2958-D&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:42:32.087  I  SerialService: 'SM-2958-D': GET http://164.52.223.163:4636/api/device/products/mapped?search=SM-2958-D&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-16 18:42:32.114  I  SerialService: 'SM-2958-D': no RFID found at any of 3 scope(s) (locations [2, 4]) - treating as unregistered
+2026-10-16 18:42:32.115  I  SerialService: 'SM-2958-D': server holds 0 RFID(s); taking the lowest free serial 1 (SM2958D0001)
+2026-10-16 18:42:32.888  I  Registration: Upload accepted for SM2958D0001: HTTP 200 {"updated":1,"tags":[{"id":7924,"epc":"SM2958D0001","itemCode":"SM-2958-D","serialNo":1}]}
+2026-10-16 18:42:32.890  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-16 18:42:43.339 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:42:43.339 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:42:43.348 11771 11783 W System  : A resource failed to call CursorWindow.close. 
+10-16 18:42:43.348 11771 11783 W System  : A resource failed to call AbstractCursor.close. 
+10-16 18:42:43.348 11771 11783 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-16 18:42:43.348 11771 11783 W System  : A resource failed to call SQLiteConnection.close. 
+10-16 18:42:43.349 11771 11783 W System  : A resource failed to call SQLiteConnectionPool.close. 
