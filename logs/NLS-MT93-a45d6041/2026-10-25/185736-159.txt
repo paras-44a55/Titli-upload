@@ -1,0 +1,54 @@
+# pushed 2026-10-25 18:57:36.159 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 244634..251653
+
+2026-10-25 18:43:59.310  I  UhfSession: UHF reader powered down: no screen is using the reader
+10-25 18:56:06.369 16118 16154 W Parcel  : Expecting binder but got null!
+2026-10-25 18:56:08.831  I  UhfSession: UHF reader powered up
+10-25 18:56:09.506 16118 16138 W System  : A resource failed to call close. 
+10-25 18:56:09.506 16118 16138 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-25 18:56:09.506 16118 16138 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-25 18:56:09.506 16118 16138 W System  : A resource failed to call SQLiteConnection.close. 
+2026-10-25 18:56:10.753  I  ProductSync: unmapped for location 1 needed 5 page(s): 828 row(s), server reported 828
+10-25 18:56:11.472 16118 16154 W Parcel  : Expecting binder but got null!
+10-25 18:56:19.605 16118 16138 W System  : A resource failed to call close. 
+10-25 18:56:22.872 16118 16154 W Parcel  : Expecting binder but got null!
+10-25 18:56:28.466 16118 16138 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-25 18:56:28.466 16118 16138 W System  : A resource failed to call SQLiteConnection.close. 
+10-25 18:56:28.466 16118 16138 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-10-25 18:56:31.583  I  SerialService: 'RRCL-1191-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=RRCL-1191-13 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-25 18:56:31.804  I  SerialService: 'RRCL-1191-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=RRCL-1191-13&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-25 18:56:31.945  I  SerialService: 'RRCL-1191-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=RRCL-1191-13&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-25 18:56:32.071  I  SerialService: 'RRCL-1191-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=RRCL-1191-13&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-25 18:56:32.093  I  SerialService: 'RRCL-1191-13': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-25 18:56:32.095  I  SerialService: 'RRCL-1191-13': server holds 0 RFID(s); taking the lowest free serial 1 (RRCL1191130001)
+2026-10-25 18:56:52.326  I  SerialService: 'RRCL-1191-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=RRCL-1191-13 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-25 18:56:52.476  I  SerialService: 'RRCL-1191-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=RRCL-1191-13&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-25 18:56:52.704  I  SerialService: 'RRCL-1191-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=RRCL-1191-13&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-25 18:56:52.902  I  SerialService: 'RRCL-1191-13': GET http://164.52.223.163:4636/api/device/products/mapped?search=RRCL-1191-13&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-25 18:56:52.921  I  SerialService: 'RRCL-1191-13': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-25 18:56:52.922  I  SerialService: 'RRCL-1191-13': server holds 0 RFID(s); taking the lowest free serial 1 (RRCL1191130001)
+2026-10-25 18:56:53.813  I  Registration: Upload accepted for RRCL1191130001: HTTP 200 {"updated":1,"tags":[{"id":8413,"epc":"RRCL1191130001","itemCode":"RRCL-1191-13","serialNo":1}]}
+2026-10-25 18:56:53.815  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-25 18:56:59.374 16118 16138 W System  : A resource failed to call CursorWindow.close. 
+10-25 18:56:59.374 16118 16138 W System  : A resource failed to call AbstractCursor.close. 
+10-25 18:56:59.377 16118 16138 W System  : A resource failed to call CursorWindow.close. 
+10-25 18:56:59.378 16118 16138 W System  : A resource failed to call AbstractCursor.close. 
+10-25 18:56:59.378 16118 16138 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-25 18:56:59.378 16118 16138 W System  : A resource failed to call SQLiteConnection.close. 
+10-25 18:56:59.379 16118 16138 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-25 18:56:59.379 16118 16138 W System  : A resource failed to call close. 
+2026-10-25 18:56:59.721  I  SerialService: 'RRCL-1191-13': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (RRCL1191130002)
+2026-10-25 18:57:01.891  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-10-25 18:57:07.058  I  SerialService: 'RRCL-1191-13': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (RRCL1191130002)
+2026-10-25 18:57:07.721  I  Registration: Upload accepted for RRCL1191130002: HTTP 200 {"updated":1,"tags":[{"id":8414,"epc":"RRCL1191130002","itemCode":"RRCL-1191-13","serialNo":2}]}
+2026-10-25 18:57:07.722  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-25 18:57:14.935  I  SerialService: 'RRCL-1191-13': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (RRCL1191130003)
+2026-10-25 18:57:15.731  I  Registration: Upload accepted for RRCL1191130003: HTTP 200 {"updated":1,"tags":[{"id":8415,"epc":"RRCL1191130003","itemCode":"RRCL-1191-13","serialNo":3}]}
+2026-10-25 18:57:15.733  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-25 18:57:18.290 16118 16138 W System  : A resource failed to call CursorWindow.close. 
+10-25 18:57:18.290 16118 16138 W System  : A resource failed to call AbstractCursor.close. 
+10-25 18:57:18.292 16118 16138 W System  : A resource failed to call CursorWindow.close. 
+10-25 18:57:18.292 16118 16138 W System  : A resource failed to call AbstractCursor.close. 
+10-25 18:57:18.293 16118 16138 W System  : A resource failed to call CursorWindow.close. 
+10-25 18:57:18.293 16118 16138 W System  : A resource failed to call AbstractCursor.close. 
