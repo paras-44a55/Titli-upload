@@ -1,0 +1,101 @@
+# pushed 2026-10-27 12:19:30.516 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 364915..376838
+
+2026-10-26 18:32:20.617  W  Net: wifi DISCONNECTED — link had been up for 5263s
+10-26 18:32:21.683 24997 24997 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+10-26 18:32:21.683 24997 24997 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-26 18:32:23.709 24997  6926 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+10-26 18:32:23.709 24997  6926 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+10-26 18:32:23.709 24997  6926 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+10-26 18:32:23.709 24997  6926 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+10-26 18:32:23.709 24997  6926 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+10-26 18:32:23.709 24997  6926 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+10-26 18:32:23.709 24997  6926 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+10-26 18:32:23.709 24997  6926 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-26 18:32:23.709 24997  6926 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+10-26 18:32:23.709 24997  6926 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+10-26 18:32:23.710 24997  6926 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+10-26 18:32:23.710 24997  6926 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+10-26 18:32:23.710 24997  6926 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+10-26 18:32:23.710 24997  6926 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+10-26 18:32:23.710 24997  6926 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-26 18:32:23.710 24997  6926 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-26 18:32:23.729 24997 25027 W Parcel  : Expecting binder but got null!
+10-26 18:32:23.773 24997 25007 W hionapplication: Reducing the number of considered missed Gc histogram windows from 163 to 100
+10-26 18:32:23.806 24997 25027 W Parcel  : Expecting binder but got null!
+10-26 18:32:25.590 24997  6931 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+10-26 18:32:25.590 24997  6931 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+10-26 18:32:25.590 24997  6931 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+10-26 18:32:25.590 24997  6931 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+10-26 18:32:25.590 24997  6931 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+10-26 18:32:25.590 24997  6931 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+10-26 18:32:25.591 24997  6931 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+10-26 18:32:25.591 24997  6931 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-26 18:32:25.591 24997  6931 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+10-26 18:32:25.591 24997  6931 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+10-26 18:32:25.591 24997  6931 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+10-26 18:32:25.591 24997  6931 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+10-26 18:32:25.591 24997  6931 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+10-26 18:32:25.591 24997  6931 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+10-26 18:32:25.592 24997  6931 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-26 18:32:25.592 24997  6931 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-26 18:32:25.605 24997 25027 W Parcel  : Expecting binder but got null!
+10-26 18:32:25.687 24997 25027 W Parcel  : Expecting binder but got null!
+2026-10-26 18:32:25.836  I  Net: wifi connected
+2026-10-26 18:32:25.848  W  Net: wifi is up but has NO internet (rssi -40 dBm)
+2026-10-26 18:32:25.868  I  Net: wifi has internet (rssi -40 dBm)
+10-26 18:32:26.072 24997 24997 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-26 18:32:26.366 24997 25027 W Parcel  : Expecting binder but got null!
+10-26 18:32:26.557 24997 25027 W Parcel  : Expecting binder but got null!
+10-26 18:32:30.029 24997  6941 W System.err: java.io.IOException: {"message":"Invalid email or password."}
+10-26 18:32:30.029 24997  6941 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:349)
+10-26 18:32:30.029 24997  6941 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+10-26 18:32:30.029 24997  6941 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+10-26 18:32:30.030 24997  6941 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-26 18:32:30.030 24997  6941 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-26 18:32:30.030 24997  6944 W System.err: java.io.IOException: {"message":"Invalid email or password."}
+10-26 18:32:30.030 24997  6944 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:349)
+10-26 18:32:30.030 24997  6944 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+10-26 18:32:30.030 24997  6944 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+10-26 18:32:30.030 24997  6944 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-26 18:32:30.031 24997  6944 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-26 18:32:30.192 24997 25027 W Parcel  : Expecting binder but got null!
+10-26 18:32:30.225 24997 25027 W Parcel  : Expecting binder but got null!
+2026-10-27 12:19:15.346  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=<not configured> location=TITLI NEEMUCH
+2026-10-27 12:19:15.366  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-f0fc075f
+2026-10-27 12:19:15.379  I  Net: wifi connected
+2026-10-27 12:19:15.381  I  Net: wifi has internet (rssi -29 dBm)
+--------- beginning of main
+10-27 12:19:15.716  5793  5793 W hionapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+10-27 12:19:15.915  5793  5793 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+10-27 12:19:16.219  5793  5858 W Parcel  : Expecting binder but got null!
+10-27 12:19:18.401  5793  5858 W Parcel  : Expecting binder but got null!
+10-27 12:19:21.259  5793  5858 W Parcel  : Expecting binder but got null!
+10-27 12:19:21.729  5793  6465 W System.err: java.io.IOException: {"message":"Invalid email or password."}
+10-27 12:19:21.729  5793  6465 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:349)
+10-27 12:19:21.729  5793  6465 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+10-27 12:19:21.729  5793  6465 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+10-27 12:19:21.729  5793  6465 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-27 12:19:21.729  5793  6465 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-27 12:19:21.856  5793  5858 W Parcel  : Expecting binder but got null!
+10-27 12:19:25.826  5793  5832 W System  : A resource failed to call close. 
+10-27 12:19:25.827  5793  5832 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-27 12:19:25.827  5793  5832 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-27 12:19:25.827  5793  5832 W System  : A resource failed to call SQLiteConnection.close. 
+10-27 12:19:25.828  5793  5832 W System  : A resource failed to call close. 
+10-27 12:19:25.828  5793  5832 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-27 12:19:25.829  5793  5832 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-27 12:19:25.829  5793  5832 W System  : A resource failed to call SQLiteConnection.close. 
+10-27 12:19:25.829  5793  5832 W System  : A resource failed to call close. 
+10-27 12:19:25.830  5793  5832 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-27 12:19:25.830  5793  5832 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-27 12:19:25.830  5793  5832 W System  : A resource failed to call SQLiteConnection.close. 
+10-27 12:19:25.921  5793  5858 W Parcel  : Expecting binder but got null!
+10-27 12:19:26.245  5793  6568 W System.err: java.io.IOException: {"message":"Invalid email or password."}
+10-27 12:19:26.245  5793  6568 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:349)
+10-27 12:19:26.245  5793  6568 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+10-27 12:19:26.245  5793  6568 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+10-27 12:19:26.245  5793  6568 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-27 12:19:26.245  5793  6568 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-27 12:19:26.353  5793  5858 W Parcel  : Expecting binder but got null!
