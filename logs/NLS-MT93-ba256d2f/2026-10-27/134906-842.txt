@@ -1,0 +1,62 @@
+# pushed 2026-10-27 13:49:06.842 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 464317..470959
+
+10-27 12:49:26.570  4680  4828 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.libcore cannot be found on the device
+10-27 12:49:42.805  4680  4680 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ad93c46
+10-27 12:49:44.193  4680  8545 W System.err: java.io.IOException: {"message":"Invalid email or password."}
+10-27 12:49:44.193  4680  8545 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:349)
+10-27 12:49:44.193  4680  8545 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+10-27 12:49:44.193  4680  8545 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(LoginActivity.kt:0)
+10-27 12:49:44.193  4680  8545 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-27 12:49:44.193  4680  8545 W System.err: 	at java.lang.Thread.run(Thread.java:1571)
+10-27 12:49:44.196  4680  4680 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ae9ffa
+2026-10-27 13:49:05.825  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-10-27 13:49:05.840  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-10-27 13:49:05.870  I  Net: wifi connected
+2026-10-27 13:49:05.872  I  Net: wifi has internet (rssi -46 dBm)
+--------- beginning of main
+10-27 13:49:05.926 25718 25778 W QT      : qt_process_init() called
+10-27 13:49:05.926 25718 25778 E QT      : [QT]file does not exist
+10-27 13:49:05.926 25718 25778 W QT      : Support!!
+10-27 13:49:06.068 25718 25718 W Bundle  : Key android:lastAutoFilledData expected android.view.autofill.ParcelableMap but value was of a different type.  The default value <null> was returned.
+10-27 13:49:06.076 25718 25718 W Bundle  : Attempt to cast generated internal exception:
+10-27 13:49:06.076 25718 25718 W Bundle  : android.os.BadTypeParcelableException: About to unparcel a java.util.HashMap, which is not a subtype of type android.view.autofill.ParcelableMap required by caller.
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.Parcel.checkTypeToUnparcel(Parcel.java:5012)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.Parcel.readValue(Parcel.java:4817)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.Parcel.readValue(Parcel.java:4594)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.Parcel.-$$Nest$mreadValue(Parcel.java:0)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.Parcel$LazyValue.apply(Parcel.java:4692)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.Parcel$LazyValue.apply(Parcel.java:4651)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.BaseBundle.unwrapLazyValueFromMapLocked(BaseBundle.java:416)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.BaseBundle.getValueAt(BaseBundle.java:402)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.BaseBundle.getValue(BaseBundle.java:382)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.BaseBundle.getValue(BaseBundle.java:365)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.BaseBundle.get(BaseBundle.java:735)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.Bundle.getParcelable(Bundle.java:1047)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.view.autofill.AutofillManager.onCreate(AutofillManager.java:1239)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.view.autofill.AutofillClientController.onActivityCreated(AutofillClientController.java:105)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.Activity.onCreate(Activity.java:1832)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at androidx.core.app.ComponentActivity.onCreate(ComponentActivity.kt:68)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at androidx.activity.ComponentActivity.onCreate(ComponentActivity.kt:343)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at androidx.fragment.app.FragmentActivity.onCreate(FragmentActivity.java:217)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate(LoginActivity.kt:40)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.Activity.performCreate(Activity.java:9006)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.Activity.performCreate(Activity.java:8984)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1526)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4072)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4277)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2678)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.Handler.dispatchMessage(Handler.java:107)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.Looper.loopOnce(Looper.java:232)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.os.Looper.loop(Looper.java:317)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at android.app.ActivityThread.main(ActivityThread.java:8758)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at java.lang.reflect.Method.invoke(Native Method)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:601)
+10-27 13:49:06.076 25718 25718 W Bundle  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:962)
+10-27 13:49:06.084 25718 25718 W AutofillManager: Session 1718027066 could not be restored
+10-27 13:49:06.779 25718 25718 W HWUI    : Unknown dataspace 0
