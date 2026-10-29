@@ -1,0 +1,412 @@
+# pushed 2026-10-29 14:44:40.861 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 355047..419672
+
+10-29 14:35:01.143 19457 19457 E SurfaceSyncer: Failed to find sync for id=0
+10-29 14:35:01.143 19457 19457 E SurfaceSyncer: Failed to find sync for id=1
+10-29 14:35:01.144 19457 19473 W hionapplication: Reducing the number of considered missed Gc histogram windows from 667 to 100
+2026-10-29 14:35:03.631  I  UhfSession: UHF reader powered up
+2026-10-29 14:35:43.591  E  ProductSync: mapped page 1 failed
+java.net.SocketTimeoutException: timeout
+	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.refreshMappedProducts(RegistrationActivity.kt:1770)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:380)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:188)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	... 19 more
+2026-10-29 14:35:44.033  I  SerialService: 'CHAH-46': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-46 -> HTTP 200, 1 item(s), total=1, 0 matching row(s), no serial: {"items":[{"id":10969,"branch":"All Locations","itemCode":"CHAH-469","productName":"CHAH-469","category":"GARMENT","variant":null,"unit":"PCS","brand":"CHAHEK CREATION","billNo":"1551","mrp":3500.00,"sellingPrice":3500.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":1,"isMapped
+2026-10-29 14:35:44.230  I  SerialService: 'CHAH-46': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-46&locationId=1 -> HTTP 200, 1 item(s), total=1, 0 matching row(s), no serial: {"items":[{"id":10969,"branch":"All Locations","itemCode":"CHAH-469","productName":"CHAH-469","category":"GARMENT","variant":null,"unit":"PCS","brand":"CHAHEK CREATION","billNo":"1551","mrp":3500.00,"sellingPrice":3500.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":1,"isMapped
+2026-10-29 14:35:44.435  I  SerialService: 'CHAH-46': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-46&locationId=2 -> HTTP 200, 1 item(s), total=1, 0 matching row(s), no serial: {"items":[{"id":10969,"branch":"All Locations","itemCode":"CHAH-469","productName":"CHAH-469","category":"GARMENT","variant":null,"unit":"PCS","brand":"CHAHEK CREATION","billNo":"1551","mrp":3500.00,"sellingPrice":3500.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":1,"isMapped
+2026-10-29 14:35:44.640  I  SerialService: 'CHAH-46': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-46&locationId=4 -> HTTP 200, 1 item(s), total=1, 0 matching row(s), no serial: {"items":[{"id":10969,"branch":"All Locations","itemCode":"CHAH-469","productName":"CHAH-469","category":"GARMENT","variant":null,"unit":"PCS","brand":"CHAHEK CREATION","billNo":"1551","mrp":3500.00,"sellingPrice":3500.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":1,"isMapped
+2026-10-29 14:35:44.668  I  SerialService: 'CHAH-46': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:35:44.669  I  SerialService: 'CHAH-46': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH460001)
+2026-10-29 14:35:45.645  I  SerialService: 'CHAH-46': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-46 -> HTTP 200, 1 item(s), total=1, 0 matching row(s), no serial: {"items":[{"id":10969,"branch":"All Locations","itemCode":"CHAH-469","productName":"CHAH-469","category":"GARMENT","variant":null,"unit":"PCS","brand":"CHAHEK CREATION","billNo":"1551","mrp":3500.00,"sellingPrice":3500.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":1,"isMapped
+2026-10-29 14:35:45.813  I  SerialService: 'CHAH-46': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-46&locationId=1 -> HTTP 200, 1 item(s), total=1, 0 matching row(s), no serial: {"items":[{"id":10969,"branch":"All Locations","itemCode":"CHAH-469","productName":"CHAH-469","category":"GARMENT","variant":null,"unit":"PCS","brand":"CHAHEK CREATION","billNo":"1551","mrp":3500.00,"sellingPrice":3500.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":1,"isMapped
+2026-10-29 14:35:46.001  I  SerialService: 'CHAH-46': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-46&locationId=2 -> HTTP 200, 1 item(s), total=1, 0 matching row(s), no serial: {"items":[{"id":10969,"branch":"All Locations","itemCode":"CHAH-469","productName":"CHAH-469","category":"GARMENT","variant":null,"unit":"PCS","brand":"CHAHEK CREATION","billNo":"1551","mrp":3500.00,"sellingPrice":3500.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":1,"isMapped
+2026-10-29 14:35:46.168  I  SerialService: 'CHAH-46': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-46&locationId=4 -> HTTP 200, 1 item(s), total=1, 0 matching row(s), no serial: {"items":[{"id":10969,"branch":"All Locations","itemCode":"CHAH-469","productName":"CHAH-469","category":"GARMENT","variant":null,"unit":"PCS","brand":"CHAHEK CREATION","billNo":"1551","mrp":3500.00,"sellingPrice":3500.00,"qty":1.00,"locationId":null,"locationName":null,"writtenTagCount":1,"isMapped
+2026-10-29 14:35:46.200  I  SerialService: 'CHAH-46': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:35:46.202  I  SerialService: 'CHAH-46': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH460001)
+10-29 14:35:47.004 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:35:47.004 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:35:47.005 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:35:47.005 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-29 14:35:47.404  I  Registration: Upload accepted for CHAH460001: HTTP 200 {"updated":1,"tags":[{"id":8822,"epc":"CHAH460001","itemCode":"CHAH-46","serialNo":1}]}
+2026-10-29 14:35:47.406  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-29 14:36:17.020  I  SerialService: 'CHAH-3037': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3037 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:17.167  I  SerialService: 'CHAH-3037': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3037&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:17.324  I  SerialService: 'CHAH-3037': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3037&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:17.484  I  SerialService: 'CHAH-3037': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3037&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:17.508  I  SerialService: 'CHAH-3037': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:36:17.509  I  SerialService: 'CHAH-3037': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH30370001)
+2026-10-29 14:36:23.480  I  SerialService: 'CHAH-3037': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3037 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:23.648  I  SerialService: 'CHAH-3037': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3037&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:23.832  I  SerialService: 'CHAH-3037': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3037&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:24.040  I  SerialService: 'CHAH-3037': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3037&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:24.057  I  SerialService: 'CHAH-3037': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:36:24.058  I  SerialService: 'CHAH-3037': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH30370001)
+2026-10-29 14:36:24.915  I  Registration: Upload accepted for CHAH30370001: HTTP 200 {"updated":1,"tags":[{"id":8823,"epc":"CHAH30370001","itemCode":"CHAH-3037","serialNo":1}]}
+2026-10-29 14:36:24.917  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:36:41.360 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:36:46.464 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:36:50.222 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:36:50.222 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:36:50.223 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:36:50.223 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:36:50.223 19457 19475 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-29 14:36:50.223 19457 19475 W System  : A resource failed to call SQLiteConnection.close. 
+10-29 14:36:50.223 19457 19475 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-29 14:36:50.223 19457 19475 W System  : A resource failed to call close. 
+2026-10-29 14:36:51.277  I  SerialService: 'CHAH-7007': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-7007 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:51.467  I  SerialService: 'CHAH-7007': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-7007&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:51.629  I  SerialService: 'CHAH-7007': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-7007&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:51.821  I  SerialService: 'CHAH-7007': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-7007&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:51.844  I  SerialService: 'CHAH-7007': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:36:51.845  I  SerialService: 'CHAH-7007': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH70070001)
+2026-10-29 14:36:55.552  I  SerialService: 'CHAH-7007': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-7007 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:55.718  I  SerialService: 'CHAH-7007': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-7007&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:55.912  I  SerialService: 'CHAH-7007': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-7007&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:56.071  I  SerialService: 'CHAH-7007': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-7007&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:36:56.097  I  SerialService: 'CHAH-7007': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:36:56.098  I  SerialService: 'CHAH-7007': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH70070001)
+2026-10-29 14:36:56.835  I  Registration: Upload accepted for CHAH70070001: HTTP 200 {"updated":1,"tags":[{"id":8824,"epc":"CHAH70070001","itemCode":"CHAH-7007","serialNo":1}]}
+2026-10-29 14:36:56.836  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:37:10.920 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:37:10.920 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:37:10.921 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:37:10.921 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:37:16.405 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:37:18.456 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-29 14:37:20.540 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:37:23.238 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:37:25.801  I  SerialService: 'CHAH-469': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (CHAH4690002)
+2026-10-29 14:37:27.308  I  SerialService: 'CHAH-469': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (CHAH4690002)
+2026-10-29 14:37:28.043  I  Registration: Upload accepted for CHAH4690002: HTTP 200 {"updated":1,"tags":[{"id":8825,"epc":"CHAH4690002","itemCode":"CHAH-469","serialNo":2}]}
+2026-10-29 14:37:28.045  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:37:35.675 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:37:38.187 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:37:40.210 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:37:40.479  I  SerialService: 'CHAH-84': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:40.640  I  SerialService: 'CHAH-84': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:40.831  I  SerialService: 'CHAH-84': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:41.000  I  SerialService: 'CHAH-84': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:41.026  I  SerialService: 'CHAH-84': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:37:41.027  I  SerialService: 'CHAH-84': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH840001)
+2026-10-29 14:37:43.033  I  SerialService: 'CHAH-84': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:43.197  I  SerialService: 'CHAH-84': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:43.389  I  SerialService: 'CHAH-84': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:43.557  I  SerialService: 'CHAH-84': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:43.588  I  SerialService: 'CHAH-84': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:37:43.589  I  SerialService: 'CHAH-84': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH840001)
+2026-10-29 14:37:44.354  I  Registration: Upload accepted for CHAH840001: HTTP 200 {"updated":1,"tags":[{"id":8826,"epc":"CHAH840001","itemCode":"CHAH-84","serialNo":1}]}
+2026-10-29 14:37:44.356  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:37:52.385 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:37:55.394 19457 19507 W Parcel  : Expecting binder but got null!
+2026-10-29 14:37:57.651  I  SerialService: 'CHAH-4107': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-4107 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:57.802  I  SerialService: 'CHAH-4107': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-4107&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:57.983  I  SerialService: 'CHAH-4107': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-4107&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:58.155  I  SerialService: 'CHAH-4107': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-4107&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:37:58.187  I  SerialService: 'CHAH-4107': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:37:58.188  I  SerialService: 'CHAH-4107': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH41070001)
+2026-10-29 14:38:00.521  I  SerialService: 'CHAH-4107': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-4107 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:00.680  I  SerialService: 'CHAH-4107': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-4107&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:00.832  I  SerialService: 'CHAH-4107': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-4107&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:01.023  I  SerialService: 'CHAH-4107': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-4107&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:01.066  I  SerialService: 'CHAH-4107': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:38:01.069  I  SerialService: 'CHAH-4107': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH41070001)
+2026-10-29 14:38:03.210  I  Registration: Upload accepted for CHAH41070001: HTTP 200 {"updated":1,"tags":[{"id":8827,"epc":"CHAH41070001","itemCode":"CHAH-4107","serialNo":1}]}
+2026-10-29 14:38:03.212  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:38:03.303 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:38:03.303 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:38:03.304 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:38:03.304 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:38:03.311 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:38:03.311 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:38:03.312 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:38:03.312 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:38:34.031 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:38:35.696 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-29 14:38:37.082 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:38:38.403 19457 19475 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-29 14:38:38.404 19457 19475 W System  : A resource failed to call SQLiteConnection.close. 
+10-29 14:38:38.404 19457 19475 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-29 14:38:38.404 19457 19475 W System  : A resource failed to call close. 
+10-29 14:38:40.093 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:38:42.047  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:42.203  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:42.351  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:42.500  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:42.513  I  SerialService: 'CHAH-ISHITA': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:38:42.514  I  SerialService: 'CHAH-ISHITA': server holds 0 RFID(s); taking the lowest free serial 1 (CHAHISHITA0001)
+2026-10-29 14:38:43.638  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:43.790  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:43.948  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:44.107  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:44.133  I  SerialService: 'CHAH-ISHITA': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:38:44.134  I  SerialService: 'CHAH-ISHITA': server holds 0 RFID(s); taking the lowest free serial 1 (CHAHISHITA0001)
+2026-10-29 14:38:47.598  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-10-29 14:38:53.358  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:53.505  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:53.655  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:53.813  I  SerialService: 'CHAH-ISHITA': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-ISHITA&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:38:53.837  I  SerialService: 'CHAH-ISHITA': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:38:53.838  I  SerialService: 'CHAH-ISHITA': server holds 0 RFID(s); taking the lowest free serial 1 (CHAHISHITA0001)
+2026-10-29 14:38:54.526  I  Registration: Upload accepted for CHAHISHITA0001: HTTP 200 {"updated":1,"tags":[{"id":8828,"epc":"CHAHISHITA0001","itemCode":"CHAH-ISHITA","serialNo":1}]}
+2026-10-29 14:38:54.528  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:39:22.239 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:39:22.239 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:39:22.239 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:39:22.239 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:39:22.239 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:39:22.240 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:39:22.240 19457 19475 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-29 14:39:22.240 19457 19475 W System  : A resource failed to call SQLiteConnection.close. 
+10-29 14:39:22.240 19457 19475 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-29 14:39:22.241 19457 19475 W System  : A resource failed to call close. 
+10-29 14:39:24.547 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:39:26.550 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-29 14:39:27.264 19457 19507 W Parcel  : Expecting binder but got null!
+2026-10-29 14:39:28.975  I  SerialService: 'CHAH-163XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-163XL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:39:29.135  I  SerialService: 'CHAH-163XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-163XL&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:39:29.300  I  SerialService: 'CHAH-163XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-163XL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:39:29.453  I  SerialService: 'CHAH-163XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-163XL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:39:29.481  I  SerialService: 'CHAH-163XL': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:39:29.482  I  SerialService: 'CHAH-163XL': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH163XL0001)
+2026-10-29 14:39:32.593  I  SerialService: 'CHAH-163XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-163XL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:39:32.749  I  SerialService: 'CHAH-163XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-163XL&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:39:32.900  I  SerialService: 'CHAH-163XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-163XL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:39:33.058  I  SerialService: 'CHAH-163XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-163XL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:39:33.089  I  SerialService: 'CHAH-163XL': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:39:33.090  I  SerialService: 'CHAH-163XL': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH163XL0001)
+2026-10-29 14:39:33.795  I  Registration: Upload accepted for CHAH163XL0001: HTTP 200 {"updated":1,"tags":[{"id":8829,"epc":"CHAH163XL0001","itemCode":"CHAH-163XL","serialNo":1}]}
+2026-10-29 14:39:33.797  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:39:42.074 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:39:42.074 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:39:42.075 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:39:42.075 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:39:43.546 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:39:45.862 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:39:48.159  I  SerialService: 'CHAH-ISHITA': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (CHAHISHITA0002)
+2026-10-29 14:39:49.925  I  SerialService: 'CHAH-ISHITA': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (CHAHISHITA0002)
+2026-10-29 14:39:52.914  I  Registration: Upload accepted for CHAHISHITA0002: HTTP 200 {"updated":1,"tags":[{"id":8830,"epc":"CHAHISHITA0002","itemCode":"CHAH-ISHITA","serialNo":2}]}
+2026-10-29 14:39:52.916  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:40:00.591 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:40:03.943 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-29 14:40:04.709 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:40:07.608 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:40:07.791  I  SerialService: 'CHAH-3036': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3036 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:07.951  I  SerialService: 'CHAH-3036': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3036&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:08.112  I  SerialService: 'CHAH-3036': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3036&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:08.272  I  SerialService: 'CHAH-3036': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3036&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:08.298  I  SerialService: 'CHAH-3036': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:40:08.301  I  SerialService: 'CHAH-3036': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH30360001)
+2026-10-29 14:40:09.728  I  SerialService: 'CHAH-3036': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3036 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:09.892  I  SerialService: 'CHAH-3036': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3036&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:10.121  I  SerialService: 'CHAH-3036': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3036&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:10.370  I  SerialService: 'CHAH-3036': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3036&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:10.403  I  SerialService: 'CHAH-3036': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:40:10.404  I  SerialService: 'CHAH-3036': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH30360001)
+2026-10-29 14:40:11.249  I  Registration: Upload accepted for CHAH30360001: HTTP 200 {"updated":1,"tags":[{"id":8831,"epc":"CHAH30360001","itemCode":"CHAH-3036","serialNo":1}]}
+2026-10-29 14:40:11.250  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:40:17.083 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:40:19.467 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:40:22.473 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:40:22.630  I  SerialService: 'CHAH-1085': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-1085 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:22.795  I  SerialService: 'CHAH-1085': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-1085&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:22.947  I  SerialService: 'CHAH-1085': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-1085&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:23.093  I  SerialService: 'CHAH-1085': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-1085&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:23.110  I  SerialService: 'CHAH-1085': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:40:23.112  I  SerialService: 'CHAH-1085': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH10850001)
+2026-10-29 14:40:25.294  I  SerialService: 'CHAH-1085': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-1085 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:25.451  I  SerialService: 'CHAH-1085': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-1085&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:25.615  I  SerialService: 'CHAH-1085': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-1085&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:25.779  I  SerialService: 'CHAH-1085': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-1085&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:25.804  I  SerialService: 'CHAH-1085': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:40:25.805  I  SerialService: 'CHAH-1085': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH10850001)
+2026-10-29 14:40:26.494  I  Registration: Upload accepted for CHAH10850001: HTTP 200 {"updated":1,"tags":[{"id":8832,"epc":"CHAH10850001","itemCode":"CHAH-1085","serialNo":1}]}
+2026-10-29 14:40:26.497  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:40:35.861 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:40:37.771 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:40:37.927  I  SerialService: 'CHAH-84-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84-XL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:38.087  I  SerialService: 'CHAH-84-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84-XL&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:38.250  I  SerialService: 'CHAH-84-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84-XL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:38.395  I  SerialService: 'CHAH-84-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84-XL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:38.418  I  SerialService: 'CHAH-84-XL': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:40:38.419  I  SerialService: 'CHAH-84-XL': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH84XL0001)
+2026-10-29 14:40:40.875  I  SerialService: 'CHAH-84-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84-XL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:41.036  I  SerialService: 'CHAH-84-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84-XL&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:41.205  I  SerialService: 'CHAH-84-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84-XL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:41.365  I  SerialService: 'CHAH-84-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-84-XL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:40:41.402  I  SerialService: 'CHAH-84-XL': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:40:41.404  I  SerialService: 'CHAH-84-XL': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH84XL0001)
+2026-10-29 14:40:42.250  I  Registration: Upload accepted for CHAH84XL0001: HTTP 200 {"updated":1,"tags":[{"id":8833,"epc":"CHAH84XL0001","itemCode":"CHAH-84-XL","serialNo":1}]}
+2026-10-29 14:40:42.254  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:40:42.593 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:40:42.594 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:40:42.594 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:40:42.594 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:40:42.595 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:40:42.595 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:40:42.595 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:40:42.596 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:40:42.601 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:40:42.601 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:40:42.601 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:40:42.601 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:40:42.606 19457 19475 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-29 14:40:42.606 19457 19475 W System  : A resource failed to call SQLiteConnection.close. 
+10-29 14:40:42.606 19457 19475 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-29 14:40:42.606 19457 19475 W System  : A resource failed to call close. 
+10-29 14:40:50.415 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:40:56.111 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-29 14:40:56.663 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:40:58.226 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-29 14:40:59.259 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:41:00.930 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-29 14:41:01.740 19457 19507 W Parcel  : Expecting binder but got null!
+2026-10-29 14:41:07.324  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:07.496  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:07.645  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:07.799  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:07.818  I  SerialService: 'CHAH-2788-XL': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:41:07.819  I  SerialService: 'CHAH-2788-XL': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH2788XL0001)
+2026-10-29 14:41:08.964  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:09.132  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:09.293  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:09.463  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:09.492  I  SerialService: 'CHAH-2788-XL': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:41:09.494  I  SerialService: 'CHAH-2788-XL': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH2788XL0001)
+2026-10-29 14:41:10.230  I  Registration: Upload accepted for CHAH2788XL0001: HTTP 200 {"updated":1,"tags":[{"id":8834,"epc":"CHAH2788XL0001","itemCode":"CHAH-2788-XL","serialNo":1}]}
+2026-10-29 14:41:10.231  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:41:20.571 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:41:23.482 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:41:25.306 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:41:25.306 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:41:25.307 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:41:25.307 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:41:25.464 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:41:25.629  I  SerialService: 'CHAH-3068': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3068 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:25.786  I  SerialService: 'CHAH-3068': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3068&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:25.931  I  SerialService: 'CHAH-3068': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3068&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:26.075  I  SerialService: 'CHAH-3068': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3068&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:26.100  I  SerialService: 'CHAH-3068': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:41:26.101  I  SerialService: 'CHAH-3068': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH30680001)
+2026-10-29 14:41:27.545  I  SerialService: 'CHAH-3068': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3068 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:27.705  I  SerialService: 'CHAH-3068': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3068&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:27.850  I  SerialService: 'CHAH-3068': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3068&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:28.010  I  SerialService: 'CHAH-3068': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-3068&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:28.034  I  SerialService: 'CHAH-3068': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:41:28.035  I  SerialService: 'CHAH-3068': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH30680001)
+2026-10-29 14:41:28.723  I  Registration: Upload accepted for CHAH30680001: HTTP 200 {"updated":1,"tags":[{"id":8835,"epc":"CHAH30680001","itemCode":"CHAH-3068","serialNo":1}]}
+2026-10-29 14:41:28.725  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:41:48.731 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:41:55.927 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:41:58.496 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:41:58.669  I  SerialService: 'CHAH-81': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-81 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:58.836  I  SerialService: 'CHAH-81': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-81&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:59.029  I  SerialService: 'CHAH-81': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-81&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:59.197  I  SerialService: 'CHAH-81': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-81&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:41:59.222  I  SerialService: 'CHAH-81': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:41:59.224  I  SerialService: 'CHAH-81': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH810001)
+2026-10-29 14:42:01.365  I  SerialService: 'CHAH-81': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-81 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:42:01.522  I  SerialService: 'CHAH-81': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-81&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:42:01.706  I  SerialService: 'CHAH-81': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-81&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:42:01.876  I  SerialService: 'CHAH-81': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-81&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:42:01.909  I  SerialService: 'CHAH-81': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:42:01.910  I  SerialService: 'CHAH-81': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH810001)
+2026-10-29 14:42:02.635  I  Registration: Upload accepted for CHAH810001: HTTP 200 {"updated":1,"tags":[{"id":8836,"epc":"CHAH810001","itemCode":"CHAH-81","serialNo":1}]}
+2026-10-29 14:42:02.637  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:42:06.418 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:42:06.418 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:42:06.419 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:42:06.419 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:42:06.425 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:42:06.425 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:42:06.425 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:42:06.426 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:42:06.430 19457 19475 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-29 14:42:06.430 19457 19475 W System  : A resource failed to call SQLiteConnection.close. 
+10-29 14:42:06.430 19457 19475 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-29 14:42:06.430 19457 19475 W System  : A resource failed to call close. 
+2026-10-29 14:42:20.215  I  SerialService: 'CHAH-81': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (CHAH810002)
+2026-10-29 14:42:20.918  I  Registration: Upload accepted for CHAH810002: HTTP 200 {"updated":1,"tags":[{"id":8837,"epc":"CHAH810002","itemCode":"CHAH-81","serialNo":2}]}
+2026-10-29 14:42:20.920  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:42:30.847 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:42:31.510 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:42:31.510 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:42:33.825 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:42:37.726 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:42:40.542  I  SerialService: 'CHAH-4107': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (CHAH41070002)
+2026-10-29 14:42:43.270  I  SerialService: 'CHAH-4107': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (CHAH41070002)
+2026-10-29 14:42:44.027  I  Registration: Upload accepted for CHAH41070002: HTTP 200 {"updated":1,"tags":[{"id":8838,"epc":"CHAH41070002","itemCode":"CHAH-4107","serialNo":2}]}
+2026-10-29 14:42:44.029  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:42:50.073 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:42:52.131 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-29 14:42:52.898 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:42:54.049 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:42:54.772  I  SerialService: 'CHAH-163XL': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (CHAH163XL0002)
+2026-10-29 14:42:55.721  I  SerialService: 'CHAH-163XL': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (CHAH163XL0002)
+2026-10-29 14:42:56.435  I  Registration: Upload accepted for CHAH163XL0002: HTTP 200 {"updated":1,"tags":[{"id":8839,"epc":"CHAH163XL0002","itemCode":"CHAH-163XL","serialNo":2}]}
+2026-10-29 14:42:56.437  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:43:27.770 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:43:30.017 19457 19507 W Parcel  : Expecting binder but got null!
+2026-10-29 14:43:31.757  I  SerialService: 'CHAH-87': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-87 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:31.906  I  SerialService: 'CHAH-87': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-87&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:32.054  I  SerialService: 'CHAH-87': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-87&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:32.295  I  SerialService: 'CHAH-87': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-87&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:32.322  I  SerialService: 'CHAH-87': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:43:32.323  I  SerialService: 'CHAH-87': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH870001)
+2026-10-29 14:43:33.799  I  SerialService: 'CHAH-87': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-87 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:33.991  I  SerialService: 'CHAH-87': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-87&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:34.164  I  SerialService: 'CHAH-87': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-87&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:34.322  I  SerialService: 'CHAH-87': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-87&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:34.351  I  SerialService: 'CHAH-87': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:43:34.353  I  SerialService: 'CHAH-87': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH870001)
+2026-10-29 14:43:35.098  I  Registration: Upload accepted for CHAH870001: HTTP 200 {"updated":1,"tags":[{"id":8840,"epc":"CHAH870001","itemCode":"CHAH-87","serialNo":1}]}
+2026-10-29 14:43:35.099  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-29 14:43:35.180 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:43:35.180 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:43:35.180 19457 19475 W System  : A resource failed to call CursorWindow.close. 
+10-29 14:43:35.180 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 14:43:35.187 19457 19475 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-29 14:43:35.187 19457 19475 W System  : A resource failed to call SQLiteConnection.close. 
+10-29 14:43:35.188 19457 19475 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-29 14:43:35.188 19457 19475 W System  : A resource failed to call close. 
+10-29 14:43:41.109 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:43:43.638 19457 19507 W Parcel  : Expecting binder but got null!
+10-29 14:43:46.946 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 14:43:49.229  I  SerialService: 'CHAH-733': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-733 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:49.387  I  SerialService: 'CHAH-733': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-733&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:49.557  I  SerialService: 'CHAH-733': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-733&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:49.702  I  SerialService: 'CHAH-733': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-733&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:49.730  I  SerialService: 'CHAH-733': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:43:49.731  I  SerialService: 'CHAH-733': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH7330001)
+2026-10-29 14:43:53.462  I  SerialService: 'CHAH-733': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-733 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:53.622  I  SerialService: 'CHAH-733': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-733&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:53.785  I  SerialService: 'CHAH-733': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-733&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:53.945  I  SerialService: 'CHAH-733': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-733&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 14:43:53.979  I  SerialService: 'CHAH-733': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 14:43:53.981  I  SerialService: 'CHAH-733': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH7330001)
+2026-10-29 14:43:54.723  I  Registration: Upload accepted for CHAH7330001: HTTP 200 {"updated":1,"tags":[{"id":8841,"epc":"CHAH7330001","itemCode":"CHAH-733","serialNo":1}]}
+2026-10-29 14:43:54.725  I  Registration: Uploaded 1 tag(s); 0 still pending
