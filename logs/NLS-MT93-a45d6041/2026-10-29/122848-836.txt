@@ -1,0 +1,21 @@
+# pushed 2026-10-29 12:28:48.836 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 301860..304399
+
+10-29 11:37:00.861 19457 19457 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-10-29 11:37:03.042  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 11:37:03.201  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 11:37:03.365  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 11:37:03.543  I  SerialService: 'CHAH-2788-XL': GET http://164.52.223.163:4636/api/device/products/mapped?search=CHAH-2788-XL&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-29 11:37:03.564  I  SerialService: 'CHAH-2788-XL': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-29 11:37:03.569  I  SerialService: 'CHAH-2788-XL': server holds 0 RFID(s); taking the lowest free serial 1 (CHAH2788XL0001)
+2026-10-29 11:37:09.805  I  UhfSession: UHF reader powered down: app moved to the background
+10-29 11:37:13.582 19457 19475 W System  : A resource failed to call close. 
+10-29 11:37:13.582 19457 19475 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-29 11:37:13.582 19457 19475 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-29 11:37:13.582 19457 19475 W System  : A resource failed to call SQLiteConnection.close. 
+10-29 11:37:13.584 19457 19475 W System  : A resource failed to call AbstractCursor.close. 
+10-29 12:28:19.249 19457 19457 E SurfaceSyncer: Failed to find sync for id=0
+10-29 12:28:19.249 19457 19457 E SurfaceSyncer: Failed to find sync for id=1
+10-29 12:28:19.439 19457 19473 W hionapplication: Reducing the number of considered missed Gc histogram windows from 269 to 100
+2026-10-29 12:28:22.096  I  UhfSession: UHF reader powered up
