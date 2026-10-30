@@ -1,0 +1,71 @@
+# pushed 2026-10-30 16:31:05.927 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 380395..388404
+
+2026-10-30 16:30:50.843  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=<not configured> location=TITLI NEEMUCH
+2026-10-30 16:30:50.858  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-f0fc075f
+2026-10-30 16:30:50.871  I  Net: wifi connected
+2026-10-30 16:30:50.878  I  Net: wifi has internet (rssi -37 dBm)
+--------- beginning of main
+10-30 16:30:50.922  9303  9303 W Bundle  : Key android:lastAutoFilledData expected Parcelable but value was a java.util.HashMap.  The default value <null> was returned.
+10-30 16:30:50.923  9303  9303 W Bundle  : Attempt to cast generated internal exception:
+10-30 16:30:50.923  9303  9303 W Bundle  : java.lang.ClassCastException: java.util.HashMap cannot be cast to android.os.Parcelable
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.os.Bundle.getParcelable(Bundle.java:918)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.view.autofill.AutofillManager.onCreate(AutofillManager.java:927)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.view.autofill.AutofillClientController.onActivityCreated(AutofillClientController.java:104)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.app.Activity.onCreate(Activity.java:1646)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at androidx.core.app.ComponentActivity.onCreate(ComponentActivity.kt:68)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at androidx.activity.ComponentActivity.onCreate(ComponentActivity.kt:343)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at androidx.fragment.app.FragmentActivity.onCreate(FragmentActivity.java:217)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate(LoginActivity.kt:40)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.app.Activity.performCreate(Activity.java:8294)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.app.Activity.performCreate(Activity.java:8273)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1384)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3697)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3853)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:101)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2345)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.os.Looper.loopOnce(Looper.java:201)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.os.Looper.loop(Looper.java:288)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at android.app.ActivityThread.main(ActivityThread.java:7941)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at java.lang.reflect.Method.invoke(Native Method)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:569)
+10-30 16:30:50.923  9303  9303 W Bundle  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1019)
+10-30 16:30:50.927  9303  9303 W AutofillManager: Session 14818203 could not be restored
+10-30 16:30:51.090  9303  9303 W hionapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+10-30 16:30:51.166  9303  9303 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+10-30 16:30:51.252  9303  9345 W Parcel  : Expecting binder but got null!
+10-30 16:30:51.334  9303  9345 W Parcel  : Expecting binder but got null!
+10-30 16:30:51.711  9303  9303 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+10-30 16:30:51.711  9303  9303 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-30 16:31:00.055  9303  9345 W Parcel  : Expecting binder but got null!
+10-30 16:31:00.476  9303  9736 W System.err: java.io.IOException: {"message":"Invalid email or password."}
+10-30 16:31:00.477  9303  9736 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:349)
+10-30 16:31:00.477  9303  9736 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+10-30 16:31:00.477  9303  9736 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+10-30 16:31:00.477  9303  9736 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-30 16:31:00.477  9303  9736 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-30 16:31:00.593  9303  9345 W Parcel  : Expecting binder but got null!
+10-30 16:31:01.731  9303  9319 W System  : A resource failed to call close. 
+10-30 16:31:01.731  9303  9319 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-30 16:31:01.731  9303  9319 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-30 16:31:01.731  9303  9319 W System  : A resource failed to call SQLiteConnection.close. 
+10-30 16:31:01.732  9303  9319 W System  : A resource failed to call close. 
+10-30 16:31:01.732  9303  9319 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-30 16:31:01.732  9303  9319 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-30 16:31:01.732  9303  9319 W System  : A resource failed to call SQLiteConnection.close. 
+10-30 16:31:01.733  9303  9319 W System  : A resource failed to call close. 
+10-30 16:31:01.733  9303  9319 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-30 16:31:01.733  9303  9319 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-30 16:31:01.733  9303  9319 W System  : A resource failed to call SQLiteConnection.close. 
+10-30 16:31:03.096  9303  9345 W Parcel  : Expecting binder but got null!
+10-30 16:31:03.340  9303  9748 W System.err: java.io.IOException: {"message":"Invalid email or password."}
+10-30 16:31:03.341  9303  9748 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:349)
+10-30 16:31:03.341  9303  9748 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+10-30 16:31:03.341  9303  9748 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+10-30 16:31:03.341  9303  9748 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-30 16:31:03.341  9303  9748 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-30 16:31:03.433  9303  9345 W Parcel  : Expecting binder but got null!
