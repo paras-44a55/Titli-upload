@@ -1,0 +1,97 @@
+# pushed 2026-10-30 14:40:05.415 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 98326..109874
+
+10-30 14:36:55.206  7759  7805 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:1e4f0000004e,api:4,p:1492,c:7759) queueBuffer: BufferQueue has been abandoned
+10-30 14:36:55.233  7759 16223 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:1e4f0000004e,api:4,p:1492,c:7759) queueBuffer: BufferQueue has been abandoned
+10-30 14:36:55.237  7759 16223 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:1e4f0000004e,api:4,p:1492,c:7759) cancelBuffer: BufferQueue has been abandoned
+10-30 14:36:55.238  7759 16223 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:1e4f0000004e,api:4,p:1492,c:7759) cancelBuffer: BufferQueue has been abandoned
+10-30 14:36:55.240  7759 16223 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#66(BLAST Consumer)66](id:1e4f0000004e,api:4,p:1492,c:7759) cancelBuffer: BufferQueue has been abandoned
+2026-10-30 14:36:56.591  I  UhfSession: UHF reader powered down: app moved to the background
+2026-10-30 14:37:51.339  W  UhfSession: Could not power up the UHF reader
+2026-10-30 14:38:05.016  I  UhfSession: UHF reader powered up
+10-30 14:38:32.450  7759 16222 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#70(BLAST Consumer)70](id:1e4f00000052,api:4,p:1492,c:7759) dequeueBuffer: BufferQueue has been abandoned
+10-30 14:38:32.464  7759 16222 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#70(BLAST Consumer)70](id:1e4f00000052,api:4,p:1492,c:7759) queueBuffer: BufferQueue has been abandoned
+10-30 14:38:32.498  7759 16222 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#70(BLAST Consumer)70](id:1e4f00000052,api:4,p:1492,c:7759) queueBuffer: BufferQueue has been abandoned
+10-30 14:38:32.531  7759 16222 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#70(BLAST Consumer)70](id:1e4f00000052,api:4,p:1492,c:7759) cancelBuffer: BufferQueue has been abandoned
+10-30 14:38:32.533  7759  7769 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#70(BLAST Consumer)70](id:1e4f00000052,api:4,p:1492,c:7759) cancelBuffer: BufferQueue has been abandoned
+10-30 14:38:32.534  7759  7769 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#70(BLAST Consumer)70](id:1e4f00000052,api:4,p:1492,c:7759) cancelBuffer: BufferQueue has been abandoned
+2026-10-30 14:38:33.870  I  UhfSession: UHF reader powered down: app moved to the background
+2026-10-30 14:38:37.472  E  ProductSync: mapped page 1 failed
+java.net.SocketException: Software caused connection abort
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:118)
+	at java.net.SocketInputStream.read(SocketInputStream.java:173)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	at com.android.okhttp.okio.RealBufferedSource.read(RealBufferedSource.java:51)
+	at com.android.okhttp.internal.http.Http1xStream$ChunkedSource.read(Http1xStream.java:441)
+	at com.android.okhttp.okio.RealBufferedSource$1.read(RealBufferedSource.java:372)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:309)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:373)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:183)
+	at java.io.InputStreamReader.read(InputStreamReader.java:177)
+	at java.io.BufferedReader.read1(BufferedReader.java:221)
+	at java.io.BufferedReader.read(BufferedReader.java:298)
+	at java.io.Reader.read(Reader.java:229)
+	at kotlin.io.TextStreamsKt.copyTo(ReadWrite.kt:132)
+	at kotlin.io.TextStreamsKt.copyTo$default(ReadWrite.kt:125)
+	at kotlin.io.TextStreamsKt.readText(ReadWrite.kt:112)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:314)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.refreshMappedProducts(RegistrationActivity.kt:1770)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:380)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-30 14:38:45.489  E  SerialService: RFID lookup for 'JFAB-2101' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=JFAB-2101
+java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.29.223 (port 52068) after 8000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:232)
+	at libcore.io.IoBridge.connect(IoBridge.java:176)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.data.SerialService.nextFreeSerial(SerialService.kt:306)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:385)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-10-30 14:38:50.792  W  UhfSession: Could not power up the UHF reader
+2026-10-30 14:38:55.661  I  SerialService: 'JFAB-2101': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (JFAB21010003)
+2026-10-30 14:38:58.322  I  UhfSession: UHF reader powered up
+2026-10-30 14:38:59.804  I  Registration: Upload accepted for JFAB21010003: HTTP 200 {"updated":1,"tags":[{"id":8989,"epc":"JFAB21010003","itemCode":"JFAB-2101","serialNo":3}]}
+2026-10-30 14:38:59.805  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-30 14:39:11.929  I  SerialService: 'JFAB-2101': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (JFAB21010004)
+2026-10-30 14:39:13.382  I  Registration: Upload accepted for JFAB21010004: HTTP 200 {"updated":1,"tags":[{"id":8990,"epc":"JFAB21010004","itemCode":"JFAB-2101","serialNo":4}]}
+2026-10-30 14:39:13.384  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-30 14:39:34.173  7759  7759 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+2026-10-30 14:39:34.205  I  SerialService: 'JFAB-2101': server holds 4 RFID(s) [1, 2, 3, 4]; taking the lowest free serial 5 (JFAB21010005)
+2026-10-30 14:39:35.096  I  Registration: Upload accepted for JFAB21010005: HTTP 200 {"updated":1,"tags":[{"id":8991,"epc":"JFAB21010005","itemCode":"JFAB-2101","serialNo":5}]}
+2026-10-30 14:39:35.098  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-30 14:40:04.141  7759  7769 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#72(BLAST Consumer)72](id:1e4f00000054,api:4,p:1492,c:7759) queueBuffer: BufferQueue has been abandoned
+10-30 14:40:04.181  7759  7769 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#72(BLAST Consumer)72](id:1e4f00000054,api:4,p:1492,c:7759) queueBuffer: BufferQueue has been abandoned
+10-30 14:40:04.213  7759 16219 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#72(BLAST Consumer)72](id:1e4f00000054,api:4,p:1492,c:7759) cancelBuffer: BufferQueue has been abandoned
+10-30 14:40:04.214  7759 16220 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#72(BLAST Consumer)72](id:1e4f00000054,api:4,p:1492,c:7759) cancelBuffer: BufferQueue has been abandoned
+10-30 14:40:04.215  7759 16220 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#72(BLAST Consumer)72](id:1e4f00000054,api:4,p:1492,c:7759) queueBuffer: BufferQueue has been abandoned
+10-30 14:40:04.217  7759 16220 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#72(BLAST Consumer)72](id:1e4f00000054,api:4,p:1492,c:7759) cancelBuffer: BufferQueue has been abandoned
