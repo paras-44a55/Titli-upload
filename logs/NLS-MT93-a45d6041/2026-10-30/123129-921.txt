@@ -1,0 +1,100 @@
+# pushed 2026-10-30 12:31:29.921 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 276662..287467
+
+10-30 12:30:40.424 19457 19507 W Parcel  : Expecting binder but got null!
+10-30 12:30:40.460 19457 19473 W hionapplication: Reducing the number of considered missed Gc histogram windows from 104 to 100
+2026-10-30 12:30:42.885  I  UhfSession: UHF reader powered up
+2026-10-30 12:30:55.343  E  ProductSync: mapped page 1 failed
+java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.1.20 (port 54390) after 15000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+	at libcore.io.IoBridge.connect(IoBridge.java:179)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$57(RegistrationActivity.kt:887)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$CMV0M7ULNZALt841oxjh8AlwYfQ(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda40.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-10-30 12:30:58.088  I  UhfSession: UHF reader powered down: app moved to the background
+2026-10-30 12:30:59.902  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=<not configured> location=TITLI FASHIONS SURAT
+2026-10-30 12:30:59.912  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-a45d6041
+2026-10-30 12:30:59.920  I  Net: wifi connected
+2026-10-30 12:30:59.922  I  Net: wifi has internet (rssi -58 dBm)
+--------- beginning of main
+10-30 12:31:00.081 16629 16629 W hionapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+10-30 12:31:00.145 16629 16629 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+10-30 12:31:00.229 16629 16659 W Parcel  : Expecting binder but got null!
+10-30 12:31:08.104 16629 16664 W System.err: java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.1.20 (port 38796) after 8000ms
+10-30 12:31:08.105 16629 16664 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+10-30 12:31:08.105 16629 16664 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+10-30 12:31:08.105 16629 16664 W System.err: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+10-30 12:31:08.105 16629 16664 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+10-30 12:31:08.105 16629 16664 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+10-30 12:31:08.105 16629 16664 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+10-30 12:31:08.105 16629 16664 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+10-30 12:31:08.105 16629 16664 W System.err: 	at java.net.Socket.connect(Socket.java:646)
+10-30 12:31:08.105 16629 16664 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+10-30 12:31:08.105 16629 16664 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(Unknown Source:0)
+10-30 12:31:08.106 16629 16664 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+10-30 12:31:08.107 16629 16664 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-30 12:31:10.766 16629 16641 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-30 12:31:10.766 16629 16641 W System  : A resource failed to call SQLiteConnection.close. 
+10-30 12:31:10.766 16629 16641 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-30 12:31:10.766 16629 16641 W System  : A resource failed to call close. 
+10-30 12:31:12.646 16629 16659 W Parcel  : Expecting binder but got null!
+10-30 12:31:27.634 16629 16732 W System.err: java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.1.20 (port 57150) after 15000ms
+10-30 12:31:27.635 16629 16732 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+10-30 12:31:27.635 16629 16732 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+10-30 12:31:27.635 16629 16732 W System.err: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+10-30 12:31:27.635 16629 16732 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+10-30 12:31:27.635 16629 16732 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+10-30 12:31:27.635 16629 16732 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+10-30 12:31:27.635 16629 16732 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+10-30 12:31:27.635 16629 16732 W System.err: 	at java.net.Socket.connect(Socket.java:646)
+10-30 12:31:27.635 16629 16732 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+10-30 12:31:27.635 16629 16732 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+10-30 12:31:27.635 16629 16732 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+10-30 12:31:27.635 16629 16732 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+10-30 12:31:27.635 16629 16732 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+10-30 12:31:27.636 16629 16732 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+10-30 12:31:27.636 16629 16732 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+10-30 12:31:27.636 16629 16732 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-30 12:31:27.636 16629 16732 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+10-30 12:31:27.636 16629 16732 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+10-30 12:31:27.636 16629 16732 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+10-30 12:31:27.636 16629 16732 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+10-30 12:31:27.636 16629 16732 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+10-30 12:31:27.636 16629 16732 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+10-30 12:31:27.636 16629 16732 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-30 12:31:27.636 16629 16732 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+10-30 12:31:27.767 16629 16659 W Parcel  : Expecting binder but got null!
