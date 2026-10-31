@@ -1,0 +1,262 @@
+# pushed 2026-10-31 14:31:46.861 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 7631..45631
+
+10-31 12:22:47.702  4677  7176 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#69(BLAST Consumer)69](id:124500000047,api:4,p:1158,c:4677) queueBuffer: BufferQueue has been abandoned
+10-31 12:22:47.728  4677  7176 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#69(BLAST Consumer)69](id:124500000047,api:4,p:1158,c:4677) cancelBuffer: BufferQueue has been abandoned
+10-31 12:22:47.730  4677  4701 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#69(BLAST Consumer)69](id:124500000047,api:4,p:1158,c:4677) cancelBuffer: BufferQueue has been abandoned
+10-31 12:22:47.730  4677  4701 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#69(BLAST Consumer)69](id:124500000047,api:4,p:1158,c:4677) cancelBuffer: BufferQueue has been abandoned
+10-31 12:22:47.731  4677  4701 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#69(BLAST Consumer)69](id:124500000047,api:4,p:1158,c:4677) cancelBuffer: BufferQueue has been abandoned
+2026-10-31 12:22:49.083  I  UhfSession: UHF reader powered down: app moved to the background
+10-31 14:19:02.171  4677  4677 E SurfaceSyncer: Failed to find sync for id=0
+10-31 14:19:02.171  4677  4677 E SurfaceSyncer: Failed to find sync for id=1
+10-31 14:19:02.171  4677  4677 E SurfaceSyncer: Failed to find sync for id=2
+10-31 14:19:02.171  4677  4677 E SurfaceSyncer: Failed to find sync for id=3
+10-31 14:19:02.171  4677  4677 E SurfaceSyncer: Failed to find sync for id=4
+10-31 14:19:02.171  4677  4677 E SurfaceSyncer: Failed to find sync for id=5
+10-31 14:19:03.542  4677  4693 W hionapplication: Reducing the number of considered missed Gc histogram windows from 680 to 100
+2026-10-31 14:19:04.652  I  UhfSession: UHF reader powered up
+10-31 14:19:16.968  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:20:39.042  4677  4677 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-31 14:20:40.142  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:20:51.118  4677  4677 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-31 14:20:51.308  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:21:11.734  4677  4755 W Parcel  : Expecting binder but got null!
+2026-10-31 14:21:20.120  E  ProductSync: mapped page 1 failed
+java.net.SocketTimeoutException: timeout
+	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.refreshMappedProducts(RegistrationActivity.kt:1770)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:380)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda43.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:118)
+	at java.net.SocketInputStream.read(SocketInputStream.java:173)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	... 19 more
+2026-10-31 14:21:32.737  E  Registration: Write blocked for 'SUMAN-1069': no serial could be reserved (Session expired - please log in again)
+10-31 14:21:32.966  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:21:33.061  4677  6210 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#73(BLAST Consumer)73](id:12450000004b,api:4,p:1158,c:4677) queueBuffer: BufferQueue has been abandoned
+10-31 14:21:33.063  4677  6210 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#73(BLAST Consumer)73](id:12450000004b,api:4,p:1158,c:4677) cancelBuffer: BufferQueue has been abandoned
+10-31 14:21:33.078  4677  6210 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#73(BLAST Consumer)73](id:12450000004b,api:4,p:1158,c:4677) cancelBuffer: BufferQueue has been abandoned
+10-31 14:21:33.081  4677  6210 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#73(BLAST Consumer)73](id:12450000004b,api:4,p:1158,c:4677) cancelBuffer: BufferQueue has been abandoned
+10-31 14:21:33.082  4677  6210 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#73(BLAST Consumer)73](id:12450000004b,api:4,p:1158,c:4677) cancelBuffer: BufferQueue has been abandoned
+10-31 14:21:37.789  4677  4755 W Parcel  : Expecting binder but got null!
+2026-10-31 14:21:38.330  I  UhfSession: UHF reader powered down: no screen is using the reader
+10-31 14:21:38.717  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:21:39.852  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:21:39.911  4677  4695 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-31 14:21:39.911  4677  4695 W System  : A resource failed to call SQLiteConnection.close. 
+10-31 14:21:39.912  4677  4695 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-31 14:21:39.912  4677  4695 W System  : A resource failed to call close. 
+10-31 14:21:39.914  4677  4695 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-31 14:21:39.914  4677  4695 W System  : A resource failed to call SQLiteConnection.close. 
+10-31 14:21:39.914  4677  4695 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-31 14:21:39.914  4677  4695 W System  : A resource failed to call close. 
+10-31 14:21:39.914  4677  4695 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-31 14:21:39.914  4677  4695 W System  : A resource failed to call SQLiteConnection.close. 
+10-31 14:21:39.914  4677  4695 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-31 14:21:39.914  4677  4695 W System  : A resource failed to call close. 
+10-31 14:21:39.915  4677  4695 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-31 14:21:39.916  4677  4695 W System  : A resource failed to call SQLiteConnection.close. 
+10-31 14:21:39.916  4677  4695 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-31 14:21:39.916  4677  4695 W System  : A resource failed to call close. 
+2026-10-31 14:21:42.304  W  UhfSession: Could not power up the UHF reader
+10-31 14:21:43.528  4677  4695 W System  : A resource failed to call close. 
+10-31 14:21:43.528  4677  4695 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-31 14:21:43.528  4677  4695 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-31 14:21:43.528  4677  4695 W System  : A resource failed to call SQLiteConnection.close. 
+2026-10-31 14:21:45.885  I  ProductSync: unmapped for location 1 needed 5 page(s): 993 row(s), server reported 993
+10-31 14:21:45.960  4677  4695 W System  : A resource failed to call close. 
+10-31 14:22:02.871  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:22:28.059  4677  4755 W Parcel  : Expecting binder but got null!
+2026-10-31 14:22:32.354  I  SerialService: 'SUMAN-1069': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1069 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:22:32.520  I  SerialService: 'SUMAN-1069': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1069&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:22:32.701  I  SerialService: 'SUMAN-1069': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1069&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:22:32.978  I  SerialService: 'SUMAN-1069': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1069&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:22:33.001  I  SerialService: 'SUMAN-1069': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:22:33.003  I  SerialService: 'SUMAN-1069': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN10690001)
+2026-10-31 14:22:37.496  I  SerialService: 'SUMAN-1069': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1069 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:22:37.671  I  SerialService: 'SUMAN-1069': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1069&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:22:37.824  I  SerialService: 'SUMAN-1069': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1069&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:22:38.038  I  SerialService: 'SUMAN-1069': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1069&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:22:38.061  I  SerialService: 'SUMAN-1069': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:22:38.063  I  SerialService: 'SUMAN-1069': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN10690001)
+2026-10-31 14:22:40.618  I  UhfSession: UHF reader powered up
+2026-10-31 14:22:43.461  I  Registration: Upload accepted for SUMAN10690001: HTTP 200 {"updated":1,"tags":[{"id":9185,"epc":"SUMAN10690001","itemCode":"SUMAN-1069","serialNo":1}]}
+2026-10-31 14:22:43.464  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-31 14:22:54.987  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:22:54.987  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:22:54.988  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:22:54.988  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:22:54.991  4677  4695 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-31 14:22:54.991  4677  4695 W System  : A resource failed to call SQLiteConnection.close. 
+10-31 14:22:54.991  4677  4695 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-31 14:22:54.991  4677  4695 W System  : A resource failed to call close. 
+10-31 14:22:54.992  4677  4695 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-31 14:22:54.992  4677  4695 W System  : A resource failed to call SQLiteConnection.close. 
+10-31 14:22:54.992  4677  4695 W System  : A resource failed to call SQLiteConnectionPool.close. 
+2026-10-31 14:24:09.725  I  SerialService: 'SUMAN-1069': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SUMAN10690002)
+2026-10-31 14:24:10.435  I  Registration: Upload accepted for SUMAN10690002: HTTP 200 {"updated":1,"tags":[{"id":9186,"epc":"SUMAN10690002","itemCode":"SUMAN-1069","serialNo":2}]}
+2026-10-31 14:24:10.437  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-31 14:24:21.045  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:24:21.045  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:24:54.024  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:25:09.259  4677  4755 W Parcel  : Expecting binder but got null!
+2026-10-31 14:25:17.316  I  SerialService: 'SUMAN-1125': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1125 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:25:17.479  I  SerialService: 'SUMAN-1125': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1125&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:25:17.637  I  SerialService: 'SUMAN-1125': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1125&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:25:17.807  I  SerialService: 'SUMAN-1125': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1125&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:25:17.829  I  SerialService: 'SUMAN-1125': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:25:17.830  I  SerialService: 'SUMAN-1125': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN11250001)
+2026-10-31 14:25:24.743  I  SerialService: 'SUMAN-1125': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1125 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:25:24.902  I  SerialService: 'SUMAN-1125': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1125&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:25:25.082  I  SerialService: 'SUMAN-1125': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1125&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:25:25.244  I  SerialService: 'SUMAN-1125': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1125&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:25:25.266  I  SerialService: 'SUMAN-1125': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:25:25.267  I  SerialService: 'SUMAN-1125': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN11250001)
+2026-10-31 14:25:26.087  I  Registration: Upload accepted for SUMAN11250001: HTTP 200 {"updated":1,"tags":[{"id":9187,"epc":"SUMAN11250001","itemCode":"SUMAN-1125","serialNo":1}]}
+2026-10-31 14:25:26.091  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-31 14:25:26.215  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:25:26.215  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:25:26.217  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:25:26.217  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-31 14:25:32.519  I  SerialService: 'SUMAN-1125': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SUMAN11250002)
+2026-10-31 14:25:34.217  I  Registration: Upload accepted for SUMAN11250002: HTTP 200 {"updated":1,"tags":[{"id":9188,"epc":"SUMAN11250002","itemCode":"SUMAN-1125","serialNo":2}]}
+2026-10-31 14:25:34.220  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-31 14:26:00.740  I  SerialService: 'SUMAN-1045': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1045 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:26:00.890  I  SerialService: 'SUMAN-1045': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1045&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:26:01.096  I  SerialService: 'SUMAN-1045': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1045&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:26:01.260  I  SerialService: 'SUMAN-1045': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1045&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:26:01.284  I  SerialService: 'SUMAN-1045': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:26:01.285  I  SerialService: 'SUMAN-1045': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN10450001)
+10-31 14:26:02.589  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:26:02.589  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:26:02.597  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:26:02.597  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:26:02.599  4677  4695 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-31 14:26:02.599  4677  4695 W System  : A resource failed to call SQLiteConnection.close. 
+10-31 14:26:02.600  4677  4695 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-31 14:26:02.600  4677  4695 W System  : A resource failed to call close. 
+2026-10-31 14:26:03.338  I  SerialService: 'SUMAN-1045': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1045 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:26:03.487  I  SerialService: 'SUMAN-1045': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1045&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:26:03.648  I  SerialService: 'SUMAN-1045': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1045&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:26:03.808  I  SerialService: 'SUMAN-1045': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1045&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:26:03.834  I  SerialService: 'SUMAN-1045': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:26:03.836  I  SerialService: 'SUMAN-1045': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN10450001)
+2026-10-31 14:26:06.821  I  Registration: Upload accepted for SUMAN10450001: HTTP 200 {"updated":1,"tags":[{"id":9189,"epc":"SUMAN10450001","itemCode":"SUMAN-1045","serialNo":1}]}
+2026-10-31 14:26:06.824  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-31 14:26:23.902  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:26:23.902  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:26:26.685  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:26:40.873  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:27:03.125  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:27:23.609  4677  4695 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-31 14:27:23.609  4677  4695 W System  : A resource failed to call SQLiteConnection.close. 
+10-31 14:27:23.610  4677  4695 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-31 14:27:23.610  4677  4695 W System  : A resource failed to call close. 
+2026-10-31 14:27:25.581  I  SerialService: 'SUMAN-1149': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1149 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:25.780  I  SerialService: 'SUMAN-1149': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1149&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:25.930  I  SerialService: 'SUMAN-1149': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1149&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:26.100  I  SerialService: 'SUMAN-1149': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1149&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:26.119  I  SerialService: 'SUMAN-1149': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:27:26.122  I  SerialService: 'SUMAN-1149': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN11490001)
+2026-10-31 14:27:32.225  I  SerialService: 'SUMAN-1149': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1149 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:32.374  I  SerialService: 'SUMAN-1149': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1149&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:32.534  I  SerialService: 'SUMAN-1149': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1149&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:32.683  I  SerialService: 'SUMAN-1149': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1149&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:32.705  I  SerialService: 'SUMAN-1149': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:27:32.707  I  SerialService: 'SUMAN-1149': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN11490001)
+2026-10-31 14:27:35.302  I  Registration: Upload accepted for SUMAN11490001: HTTP 200 {"updated":1,"tags":[{"id":9190,"epc":"SUMAN11490001","itemCode":"SUMAN-1149","serialNo":1}]}
+2026-10-31 14:27:35.304  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-10-31 14:27:54.685  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:54.856  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:55.026  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:55.176  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:55.201  I  SerialService: 'SUMAN-426': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:27:55.202  I  SerialService: 'SUMAN-426': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN4260001)
+2026-10-31 14:27:57.310  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:57.460  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:57.698  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:57.886  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:27:57.918  I  SerialService: 'SUMAN-426': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:27:57.920  I  SerialService: 'SUMAN-426': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN4260001)
+2026-10-31 14:28:00.116  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+10-31 14:28:03.315  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:28:03.315  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:28:03.316  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:28:03.316  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:28:03.321  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:28:03.321  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:28:03.323  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:28:03.323  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:28:03.323  4677  4695 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-31 14:28:03.324  4677  4695 W System  : A resource failed to call SQLiteConnection.close. 
+10-31 14:28:03.324  4677  4695 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-31 14:28:03.324  4677  4695 W System  : A resource failed to call close. 
+2026-10-31 14:28:06.086  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:28:06.249  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:28:06.507  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:28:06.687  I  SerialService: 'SUMAN-426': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-426&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:28:06.713  I  SerialService: 'SUMAN-426': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:28:06.714  I  SerialService: 'SUMAN-426': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN4260001)
+2026-10-31 14:28:08.403  I  Registration: Upload accepted for SUMAN4260001: HTTP 200 {"updated":1,"tags":[{"id":9191,"epc":"SUMAN4260001","itemCode":"SUMAN-426","serialNo":1}]}
+2026-10-31 14:28:08.406  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-31 14:28:26.160  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:28:26.160  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:29:02.968  4677  4677 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-31 14:29:03.978  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:29:16.675  4677  4755 W Parcel  : Expecting binder but got null!
+2026-10-31 14:29:23.062  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:23.276  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:23.436  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:23.595  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:23.616  I  SerialService: 'SUMAN-1129': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:29:23.617  I  SerialService: 'SUMAN-1129': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN11290001)
+2026-10-31 14:29:25.258  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:25.448  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:25.606  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:25.771  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:25.794  I  SerialService: 'SUMAN-1129': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:29:25.795  I  SerialService: 'SUMAN-1129': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN11290001)
+2026-10-31 14:29:27.973  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-10-31 14:29:34.546  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:34.718  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:34.936  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:35.089  I  SerialService: 'SUMAN-1129': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1129&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-10-31 14:29:35.119  I  SerialService: 'SUMAN-1129': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-10-31 14:29:35.120  I  SerialService: 'SUMAN-1129': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN11290001)
+10-31 14:29:35.430  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:29:35.430  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:29:35.434  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:29:35.434  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+10-31 14:29:35.435  4677  4695 W System  : A resource failed to call CursorWindow.close. 
+10-31 14:29:35.435  4677  4695 W System  : A resource failed to call AbstractCursor.close. 
+2026-10-31 14:29:35.884  I  Registration: Upload accepted for SUMAN11290001: HTTP 200 {"updated":1,"tags":[{"id":9192,"epc":"SUMAN11290001","itemCode":"SUMAN-1129","serialNo":1}]}
+2026-10-31 14:29:35.888  I  Registration: Uploaded 1 tag(s); 0 still pending
+10-31 14:30:08.653  4677  4755 W Parcel  : Expecting binder but got null!
+10-31 14:30:14.395  4677  4695 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+10-31 14:30:14.395  4677  4695 W System  : A resource failed to call SQLiteConnection.close. 
+10-31 14:30:14.396  4677  4695 W System  : A resource failed to call SQLiteConnectionPool.close. 
+10-31 14:30:14.396  4677  4695 W System  : A resource failed to call close. 
+10-31 14:30:38.135  4677  4755 W Parcel  : Expecting binder but got null!
