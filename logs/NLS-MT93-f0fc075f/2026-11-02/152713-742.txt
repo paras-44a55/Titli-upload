@@ -1,0 +1,70 @@
+# pushed 2026-11-02 15:27:13.742 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 484285..493714
+
+2026-11-02 15:22:53.081  I  UhfSession: UHF reader powered down: app moved to the background
+11-02 15:23:22.508  9303  9303 E SurfaceSyncer: Failed to find sync for id=0
+11-02 15:23:22.508  9303  9303 E SurfaceSyncer: Failed to find sync for id=1
+11-02 15:23:22.508  9303  9303 E SurfaceSyncer: Failed to find sync for id=2
+11-02 15:23:23.437  9303  9345 W Parcel  : Expecting binder but got null!
+2026-11-02 15:23:26.800  I  UhfSession: UHF reader powered up
+11-02 15:23:29.640  9303  9345 W Parcel  : Expecting binder but got null!
+2026-11-02 15:23:34.399  I  SerialService: 'GO-PLAY': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (GOPLAY0003)
+11-02 15:23:40.569  9303  9319 W System  : A resource failed to call close. 
+2026-11-02 15:23:43.948  I  SerialService: 'GO-PLAY': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (GOPLAY0003)
+2026-11-02 15:23:44.926  I  Registration: Upload accepted for GOPLAY0003: HTTP 200 {"updated":1,"tags":[{"id":9320,"epc":"GOPLAY0003","itemCode":"GO-PLAY","serialNo":3}]}
+2026-11-02 15:23:44.929  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-11-02 15:24:09.374  I  SerialService: 'GO-PLAY': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (GOPLAY0004)
+2026-11-02 15:24:10.154  I  Registration: Upload accepted for GOPLAY0004: HTTP 200 {"updated":1,"tags":[{"id":9321,"epc":"GOPLAY0004","itemCode":"GO-PLAY","serialNo":4}]}
+2026-11-02 15:24:10.158  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-11-02 15:24:35.702  I  SerialService: 'GO-PLAY': server holds 4 RFID(s) [1, 2, 3, 4]; taking the lowest free serial 5 (GOPLAY0005)
+2026-11-02 15:24:36.385  I  Registration: Upload accepted for GOPLAY0005: HTTP 200 {"updated":1,"tags":[{"id":9322,"epc":"GOPLAY0005","itemCode":"GO-PLAY","serialNo":5}]}
+2026-11-02 15:24:36.387  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-02 15:24:41.791  9303  9319 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-02 15:24:41.791  9303  9319 W System  : A resource failed to call SQLiteConnection.close. 
+11-02 15:24:41.791  9303  9319 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-02 15:25:08.178  9303  9345 W Parcel  : Expecting binder but got null!
+11-02 15:25:19.518  9303  9345 W Parcel  : Expecting binder but got null!
+11-02 15:25:25.376  9303  9303 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-11-02 15:25:27.909  I  SerialService: 'GO-DREAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-DREAM -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-02 15:25:28.033  I  SerialService: 'GO-DREAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-DREAM&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-02 15:25:28.162  I  SerialService: 'GO-DREAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-DREAM&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-02 15:25:28.285  I  SerialService: 'GO-DREAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-DREAM&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-02 15:25:28.310  I  SerialService: 'GO-DREAM': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-02 15:25:28.311  I  SerialService: 'GO-DREAM': server holds 0 RFID(s); taking the lowest free serial 1 (GODREAM0001)
+11-02 15:25:38.779  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-02 15:25:38.779  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+11-02 15:26:25.594  9303 10598 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#95(BLAST Consumer)95](id:245700000067,api:4,p:1186,c:9303) queueBuffer: BufferQueue has been abandoned
+11-02 15:26:25.603  9303 10598 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#95(BLAST Consumer)95](id:245700000067,api:4,p:1186,c:9303) dequeueBuffer: BufferQueue has been abandoned
+11-02 15:26:25.654  9303 10598 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#95(BLAST Consumer)95](id:245700000067,api:4,p:1186,c:9303) cancelBuffer: BufferQueue has been abandoned
+11-02 15:26:25.655  9303 10598 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#95(BLAST Consumer)95](id:245700000067,api:4,p:1186,c:9303) queueBuffer: BufferQueue has been abandoned
+11-02 15:26:25.657  9303 10598 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#95(BLAST Consumer)95](id:245700000067,api:4,p:1186,c:9303) cancelBuffer: BufferQueue has been abandoned
+11-02 15:26:25.658  9303 10598 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#95(BLAST Consumer)95](id:245700000067,api:4,p:1186,c:9303) cancelBuffer: BufferQueue has been abandoned
+2026-11-02 15:26:26.995  I  UhfSession: UHF reader powered down: app moved to the background
+11-02 15:26:33.690  9303  9303 E SurfaceSyncer: Failed to find sync for id=0
+11-02 15:26:33.690  9303  9303 E SurfaceSyncer: Failed to find sync for id=1
+11-02 15:26:33.690  9303  9303 E SurfaceSyncer: Failed to find sync for id=2
+11-02 15:26:33.690  9303  9303 E SurfaceSyncer: Failed to find sync for id=3
+2026-11-02 15:26:37.106  I  SerialService: 'GO-DREAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-DREAM -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-02 15:26:37.228  I  SerialService: 'GO-DREAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-DREAM&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-02 15:26:37.358  I  SerialService: 'GO-DREAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-DREAM&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-02 15:26:37.494  I  SerialService: 'GO-DREAM': GET http://164.52.223.163:4636/api/device/products/mapped?search=GO-DREAM&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-02 15:26:37.516  I  UhfSession: UHF reader powered up
+2026-11-02 15:26:37.520  I  SerialService: 'GO-DREAM': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-02 15:26:37.523  I  SerialService: 'GO-DREAM': server holds 0 RFID(s); taking the lowest free serial 1 (GODREAM0001)
+2026-11-02 15:26:38.189  I  Registration: Upload accepted for GODREAM0001: HTTP 200 {"updated":1,"tags":[{"id":9323,"epc":"GODREAM0001","itemCode":"GO-DREAM","serialNo":1}]}
+2026-11-02 15:26:38.192  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-11-02 15:26:54.910  I  SerialService: 'GO-DREAM': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (GODREAM0002)
+2026-11-02 15:26:55.563  I  Registration: Upload accepted for GODREAM0002: HTTP 200 {"updated":1,"tags":[{"id":9324,"epc":"GODREAM0002","itemCode":"GO-DREAM","serialNo":2}]}
+2026-11-02 15:26:55.567  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-02 15:27:07.043  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-02 15:27:07.043  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+11-02 15:27:07.047  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-02 15:27:07.047  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+11-02 15:27:07.055  9303  9319 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-02 15:27:07.055  9303  9319 W System  : A resource failed to call SQLiteConnection.close. 
+11-02 15:27:07.056  9303  9319 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-02 15:27:07.056  9303  9319 W System  : A resource failed to call close. 
+2026-11-02 15:27:09.352  I  SerialService: 'GO-DREAM': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (GODREAM0003)
+2026-11-02 15:27:10.025  I  Registration: Upload accepted for GODREAM0003: HTTP 200 {"updated":1,"tags":[{"id":9325,"epc":"GODREAM0003","itemCode":"GO-DREAM","serialNo":3}]}
+2026-11-02 15:27:10.028  I  Registration: Uploaded 1 tag(s); 0 still pending
