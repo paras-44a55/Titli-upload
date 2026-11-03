@@ -1,0 +1,116 @@
+# pushed 2026-11-03 18:48:49.426 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI NEEMUCH
+# bytes 178746..192368
+
+11-03 18:08:56.688  9303 12785 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#164(BLAST Consumer)164](id:2457000000b0,api:4,p:1186,c:9303) cancelBuffer: BufferQueue has been abandoned
+11-03 18:08:56.689  9303 10598 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#164(BLAST Consumer)164](id:2457000000b0,api:4,p:1186,c:9303) cancelBuffer: BufferQueue has been abandoned
+11-03 18:08:56.690  9303 10598 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#164(BLAST Consumer)164](id:2457000000b0,api:4,p:1186,c:9303) cancelBuffer: BufferQueue has been abandoned
+11-03 18:08:56.691  9303 10598 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#164(BLAST Consumer)164](id:2457000000b0,api:4,p:1186,c:9303) cancelBuffer: BufferQueue has been abandoned
+2026-11-03 18:08:58.038  I  UhfSession: UHF reader powered down: app moved to the background
+11-03 18:09:01.773  9303  9319 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-03 18:09:01.773  9303  9319 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-03 18:09:01.774  9303  9319 W System  : A resource failed to call SQLiteConnection.close. 
+11-03 18:09:01.775  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-03 18:13:13.274  W  LogUploader: Log push failed
+java.net.SocketException: Software caused connection abort
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:118)
+	at java.net.SocketInputStream.read(SocketInputStream.java:173)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readFromSocket(ConscryptEngineSocket.java:945)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:909)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readUntilDataAvailable(ConscryptEngineSocket.java:824)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.read(ConscryptEngineSocket.java:797)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:106)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:207)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:463)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:308)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+11-03 18:44:32.866  9303  9303 E SurfaceSyncer: Failed to find sync for id=0
+11-03 18:44:32.866  9303  9303 E SurfaceSyncer: Failed to find sync for id=1
+11-03 18:44:32.866  9303  9303 E SurfaceSyncer: Failed to find sync for id=2
+11-03 18:44:32.866  9303  9303 E SurfaceSyncer: Failed to find sync for id=3
+2026-11-03 18:44:36.045  I  UhfSession: UHF reader powered up
+11-03 18:44:53.011  9303  9345 W Parcel  : Expecting binder but got null!
+11-03 18:45:28.260  9303  9345 W Parcel  : Expecting binder but got null!
+2026-11-03 18:45:41.353  I  SerialService: 'SD-LAJWANTI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SD-LAJWANTI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-03 18:45:41.468  I  SerialService: 'SD-LAJWANTI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SD-LAJWANTI&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-03 18:45:41.584  I  SerialService: 'SD-LAJWANTI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SD-LAJWANTI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-03 18:45:41.697  I  SerialService: 'SD-LAJWANTI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SD-LAJWANTI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-03 18:45:41.717  I  SerialService: 'SD-LAJWANTI': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-03 18:45:41.719  I  SerialService: 'SD-LAJWANTI': server holds 0 RFID(s); taking the lowest free serial 1 (SDLAJWANTI0001)
+11-03 18:45:50.089  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-03 18:45:50.089  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-03 18:45:50.230  I  SerialService: 'SD-LAJWANTI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SD-LAJWANTI -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-03 18:45:50.356  I  SerialService: 'SD-LAJWANTI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SD-LAJWANTI&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-03 18:45:50.481  I  SerialService: 'SD-LAJWANTI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SD-LAJWANTI&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-03 18:45:50.602  I  SerialService: 'SD-LAJWANTI': GET http://164.52.223.163:4636/api/device/products/mapped?search=SD-LAJWANTI&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-03 18:45:50.633  I  SerialService: 'SD-LAJWANTI': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-03 18:45:50.634  I  SerialService: 'SD-LAJWANTI': server holds 0 RFID(s); taking the lowest free serial 1 (SDLAJWANTI0001)
+2026-11-03 18:45:51.301  I  Registration: Upload accepted for SDLAJWANTI0001: HTTP 200 {"updated":1,"tags":[{"id":9577,"epc":"SDLAJWANTI0001","itemCode":"SD-LAJWANTI","serialNo":1}]}
+2026-11-03 18:45:51.304  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-11-03 18:46:01.239  I  SerialService: 'SD-LAJWANTI': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SDLAJWANTI0002)
+2026-11-03 18:46:01.885  I  Registration: Upload accepted for SDLAJWANTI0002: HTTP 200 {"updated":1,"tags":[{"id":9578,"epc":"SDLAJWANTI0002","itemCode":"SD-LAJWANTI","serialNo":2}]}
+2026-11-03 18:46:01.887  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-11-03 18:46:12.770  I  SerialService: 'SD-LAJWANTI': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (SDLAJWANTI0003)
+2026-11-03 18:46:14.255  I  Registration: Upload accepted for SDLAJWANTI0003: HTTP 200 {"updated":1,"tags":[{"id":9579,"epc":"SDLAJWANTI0003","itemCode":"SD-LAJWANTI","serialNo":3}]}
+2026-11-03 18:46:14.257  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-11-03 18:46:22.434  I  SerialService: 'SD-LAJWANTI': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (SDLAJWANTI0004)
+2026-11-03 18:46:23.087  I  Registration: Upload accepted for SDLAJWANTI0004: HTTP 200 {"updated":1,"tags":[{"id":9580,"epc":"SDLAJWANTI0004","itemCode":"SD-LAJWANTI","serialNo":4}]}
+2026-11-03 18:46:23.089  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-03 18:46:23.130  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-03 18:46:23.130  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+11-03 18:46:23.134  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-03 18:46:23.134  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+11-03 18:46:23.139  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-03 18:46:23.139  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+11-03 18:46:23.142  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-03 18:46:23.143  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+11-03 18:46:23.143  9303  9319 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-03 18:46:23.143  9303  9319 W System  : A resource failed to call SQLiteConnection.close. 
+11-03 18:46:23.144  9303  9319 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-03 18:46:23.144  9303  9319 W System  : A resource failed to call close. 
+2026-11-03 18:46:37.302  I  SerialService: 'SD-LAJWANTI': server holds 4 RFID(s) [1, 2, 3, 4]; taking the lowest free serial 5 (SDLAJWANTI0005)
+2026-11-03 18:46:39.477  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-11-03 18:46:44.220  I  SerialService: 'SD-LAJWANTI': server holds 4 RFID(s) [1, 2, 3, 4]; taking the lowest free serial 5 (SDLAJWANTI0005)
+11-03 18:46:46.069  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-03 18:46:46.069  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+11-03 18:46:46.071  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-03 18:46:46.072  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-03 18:46:46.653  I  Registration: Upload accepted for SDLAJWANTI0005: HTTP 200 {"updated":1,"tags":[{"id":9581,"epc":"SDLAJWANTI0005","itemCode":"SD-LAJWANTI","serialNo":5}]}
+2026-11-03 18:46:46.655  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-11-03 18:47:01.950  I  SerialService: 'SD-LAJWANTI': server holds 5 RFID(s) [1, 2, 3, 4, 5]; taking the lowest free serial 6 (SDLAJWANTI0006)
+2026-11-03 18:47:02.603  I  Registration: Upload accepted for SDLAJWANTI0006: HTTP 200 {"updated":1,"tags":[{"id":9582,"epc":"SDLAJWANTI0006","itemCode":"SD-LAJWANTI","serialNo":6}]}
+2026-11-03 18:47:02.605  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-03 18:47:02.639  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-03 18:47:02.639  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-03 18:47:32.785  I  SerialService: 'SD-LAJWANTI': server holds 6 RFID(s) [1, 2, 3, 4, 5, 6]; taking the lowest free serial 7 (SDLAJWANTI0007)
+2026-11-03 18:47:35.854  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-11-03 18:47:39.391  I  SerialService: 'SD-LAJWANTI': server holds 6 RFID(s) [1, 2, 3, 4, 5, 6]; taking the lowest free serial 7 (SDLAJWANTI0007)
+2026-11-03 18:47:40.165  I  Registration: Upload accepted for SDLAJWANTI0007: HTTP 200 {"updated":1,"tags":[{"id":9583,"epc":"SDLAJWANTI0007","itemCode":"SD-LAJWANTI","serialNo":7}]}
+2026-11-03 18:47:40.167  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-03 18:47:40.931  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-03 18:47:40.931  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
+11-03 18:47:40.932  9303  9319 W System  : A resource failed to call CursorWindow.close. 
+11-03 18:47:40.932  9303  9319 W System  : A resource failed to call AbstractCursor.close. 
