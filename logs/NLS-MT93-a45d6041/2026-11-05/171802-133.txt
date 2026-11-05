@@ -1,0 +1,66 @@
+# pushed 2026-11-05 17:18:02.133 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 378475..385157
+
+11-05 17:08:34.424  7797  7829 W Parcel  : Expecting binder but got null!
+11-05 17:08:35.007  7797  7797 W CameraX-camerax: type=1400 audit(0.0:147143): avc: denied { ioctl } for path="/proc/perfmgr/perf_ioctl" dev="proc" ino=4026534111 ioctlcmd=0x6717 scontext=u:r:untrusted_app:s0:c167,c256,c512,c768 tcontext=u:object_r:proc_perfmgr:s0 tclass=file permissive=0 app=com.poxo.tittlifashionapplication
+11-05 17:08:35.074  7797  8097 W libc    : Access denied finding property "ro.hardware.chipname"
+11-05 17:08:35.110  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-05 17:08:35.110  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-05 17:08:35.111  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-05 17:08:35.112  7797  7811 W System  : A resource failed to call close. 
+2026-11-05 17:08:40.027  I  ProductSync: unmapped for location 1 needed 5 page(s): 830 row(s), server reported 830
+2026-11-05 17:08:40.412  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-05 17:08:40.501  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-05 17:08:43.148  7797  7829 W Parcel  : Expecting binder but got null!
+11-05 17:08:56.135  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-05 17:09:06.620  I  SerialService: 'SUMAN-1112': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1112 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-05 17:09:06.836  I  SerialService: 'SUMAN-1112': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1112&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-05 17:09:07.027  I  SerialService: 'SUMAN-1112': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1112&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-05 17:09:07.213  I  SerialService: 'SUMAN-1112': GET http://164.52.223.163:4636/api/device/products/mapped?search=SUMAN-1112&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-05 17:09:07.240  I  SerialService: 'SUMAN-1112': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-05 17:09:07.242  I  SerialService: 'SUMAN-1112': server holds 0 RFID(s); taking the lowest free serial 1 (SUMAN11120001)
+11-05 17:09:13.167  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-05 17:09:13.167  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-05 17:09:13.181  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-05 17:09:13.181  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-05 17:09:13.181  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-05 17:09:13.181  7797  7811 W System  : A resource failed to call close. 
+11-05 17:09:13.182  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-05 17:09:13.182  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-05 17:09:13.182  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-05 17:09:13.182  7797  7811 W System  : A resource failed to call close. 
+11-05 17:09:14.769  7797  7829 W Parcel  : Expecting binder but got null!
+11-05 17:09:15.536  7797  7797 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-11-05 17:09:16.626  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-05 17:09:16.736  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-05 17:09:17.452  7797  7829 W Parcel  : Expecting binder but got null!
+11-05 17:09:17.954  7797  7797 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-05 17:09:18.505  7797  7829 W Parcel  : Expecting binder but got null!
+11-05 17:09:19.154  7797  7797 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-05 17:09:19.800  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-05 17:09:36.971  I  UhfSession: UHF reader powered down: operator asked to reconnect
+2026-11-05 17:09:39.484  W  UhfSession: Could not power up the UHF reader
+2026-11-05 17:09:42.948  I  UhfSession: UHF reader powered up
+2026-11-05 17:09:45.267  I  UhfSession: UHF reader powered down: app moved to the background
+11-05 17:16:35.999  7797  7797 E SurfaceSyncer: Failed to find sync for id=0
+11-05 17:16:35.999  7797  7797 E SurfaceSyncer: Failed to find sync for id=1
+11-05 17:16:35.999  7797  7797 E SurfaceSyncer: Failed to find sync for id=2
+2026-11-05 17:16:39.283  I  UhfSession: UHF reader powered up
+11-05 17:16:44.234  7797  7829 W Parcel  : Expecting binder but got null!
