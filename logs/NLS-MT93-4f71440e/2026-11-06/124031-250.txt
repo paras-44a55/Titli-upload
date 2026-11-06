@@ -1,0 +1,401 @@
+# pushed 2026-11-06 12:40:31.250 (scheduled)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.017_113023 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 43777..81931
+
+11-05 18:15:52.971  5150  5163 W hionapplication: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+2026-11-05 18:42:25.710  W  Net: wifi DISCONNECTED — link had been up for 1622s
+2026-11-05 18:42:40.706  I  Net: wifi connected
+2026-11-05 18:42:40.712  W  Net: wifi is up but has NO internet (rssi -47 dBm)
+2026-11-05 18:42:40.724  I  Net: wifi has internet (rssi -47 dBm)
+2026-11-05 18:45:55.145  W  LogUploader: Log push failed
+javax.net.ssl.SSLHandshakeException: connection closed
+	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:358)
+	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:245)
+	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:224)
+	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:349)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1564)
+Caused by: java.io.EOFException: connection closed
+	... 27 more
+2026-11-05 19:15:38.320  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity.syncMappedProductsOnOpen$lambda$14(ReWriteActivity.kt:133)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity.$r8$lambda$oU5CZog7OG5XmnfdZWoOlneDId0(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1564)
+11-05 19:15:38.390  5150  5247 W Parcel  : Expecting binder but got null!
+11-05 19:15:39.343  5150  5150 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+11-05 19:15:39.343  5150  5150 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-05 19:15:40.575  5150  5247 W Parcel  : Expecting binder but got null!
+2026-11-05 19:15:40.819  W  UhfSession: Could not power up the UHF reader
+2026-11-05 19:15:55.195  W  LogUploader: Log push failed
+javax.net.ssl.SSLHandshakeException: connection closed
+	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:358)
+	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:245)
+	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:224)
+	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:349)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1564)
+Caused by: java.io.EOFException: connection closed
+	... 27 more
+11-05 19:15:55.226  5150  5163 W hionapplication: Reducing the number of considered missed Gc histogram windows from 360 to 100
+11-05 19:15:55.236  5150  5165 W System  : A resource failed to call close. 
+11-05 19:15:55.236  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-05 19:15:55.236  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-05 19:15:55.236  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-05 19:16:12.024  5150  5247 W Parcel  : Expecting binder but got null!
+2026-11-05 19:16:34.204  I  UhfSession: UHF reader powered up
+11-05 19:16:40.097  5150  5247 W Parcel  : Expecting binder but got null!
+11-05 19:16:44.793  5150  5150 W libc    : Access denied finding property "vendor.scroll.fpsgo.release"
+2026-11-05 19:19:43.093  I  UhfSession: UHF reader powered down: idle for 3 min
+11-05 19:20:08.607  5150  5163 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+11-05 19:20:08.635  5150  5165 W System  : A resource failed to call close. 
+11-05 19:20:08.635  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-05 19:20:08.635  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-05 19:20:08.635  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+2026-11-06 10:45:55.447  W  LogUploader: Log push failed
+javax.net.ssl.SSLHandshakeException: connection closed
+	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:358)
+	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:245)
+	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:224)
+	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:349)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1564)
+Caused by: java.io.EOFException: connection closed
+	... 27 more
+2026-11-06 10:59:40.853  W  UhfSession: Could not power up the UHF reader
+2026-11-06 11:15:55.516  W  LogUploader: Log push failed
+javax.net.ssl.SSLHandshakeException: connection closed
+	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:358)
+	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:245)
+	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:224)
+	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:349)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1564)
+Caused by: java.io.EOFException: connection closed
+	... 27 more
+2026-11-06 11:45:55.574  W  LogUploader: Log push failed
+javax.net.ssl.SSLHandshakeException: connection closed
+	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:358)
+	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:245)
+	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:224)
+	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:349)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1564)
+Caused by: java.io.EOFException: connection closed
+	... 27 more
+2026-11-06 12:15:55.631  W  LogUploader: Log push failed
+javax.net.ssl.SSLHandshakeException: connection closed
+	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:358)
+	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:245)
+	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:224)
+	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:349)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1564)
+Caused by: java.io.EOFException: connection closed
+	... 27 more
+2026-11-06 12:28:59.628  E  Audit: Audit sync-package fetch failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.ui.audit.AuditActivity.syncPackageAndShowDialog$lambda$26(AuditActivity.kt:384)
+	at com.poxo.tittlifashionapplication.ui.audit.AuditActivity.$r8$lambda$gy_zWELrQMMu7Dkuma5QBUKig4A(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.audit.AuditActivity$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1564)
+11-06 12:28:59.802  5150  5247 W Parcel  : Expecting binder but got null!
+2026-11-06 12:29:01.374  E  Audit: Audit sync-package fetch failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.ui.audit.AuditActivity.syncPackageAndShowDialog$lambda$26(AuditActivity.kt:384)
+	at com.poxo.tittlifashionapplication.ui.audit.AuditActivity.$r8$lambda$gy_zWELrQMMu7Dkuma5QBUKig4A(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.audit.AuditActivity$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1564)
+2026-11-06 12:29:02.266  I  UhfSession: UHF reader powered up
+2026-11-06 12:29:35.267  W  LogUploader: Log push failed
+javax.net.ssl.SSLHandshakeException: connection closed
+	at com.android.org.conscrypt.SSLUtils.toSSLHandshakeException(SSLUtils.java:358)
+	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:245)
+	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:224)
+	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.onAppBackgrounded$lambda$4(LogUploader.kt:111)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$97WdKDTZ-jpHvA_e-mMDIwC79ws(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1564)
+Caused by: java.io.EOFException: connection closed
+	... 27 more
+11-06 12:29:35.307  5150  5163 W hionapplication: Reducing the number of considered missed Gc histogram windows from 6176 to 100
+11-06 12:29:35.316  5150  5165 W System  : A resource failed to call close. 
+11-06 12:29:35.316  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:29:35.316  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:29:35.316  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:29:35.335  5150  5165 W System  : A resource failed to call close. 
+11-06 12:29:35.336  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:29:35.336  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:29:35.336  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:29:35.336  5150  5165 W System  : A resource failed to call AbstractCursor.close. 
+11-06 12:29:35.346  5150  5165 W System  : A resource failed to call close. 
+11-06 12:29:35.346  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:29:35.346  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:29:35.346  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:29:35.354  5150  5165 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-06 12:29:36.577  I  UhfSession: UHF reader powered down: app moved to the background
+2026-11-06 12:29:55.129  W  Net: wifi DISCONNECTED — link had been up for 64034s
+2026-11-06 12:29:56.687  I  Net: wifi connected
+2026-11-06 12:29:56.693  W  Net: wifi is up but has NO internet (rssi -29 dBm)
+2026-11-06 12:29:56.713  I  Net: wifi has internet (rssi -29 dBm)
+11-06 12:30:34.008  5150  5150 W Choreographer: Frame time is 0.122509  now = 93917403390212  timestampNanos = 93917403512721 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-06 12:30:34.026  5150  5150 W Choreographer: Frame time is 0.103475  now = 93917421564981  timestampNanos = 93917421668456 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+2026-11-06 12:30:36.352  W  UhfSession: Could not power up the UHF reader
+11-06 12:30:46.912  5150  5247 W Parcel  : Expecting binder but got null!
+11-06 12:30:49.071  5150  5150 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+11-06 12:30:49.071  5150  5150 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-06 12:30:56.425  5150  5247 W Parcel  : Expecting binder but got null!
+11-06 12:30:57.218  5150  5247 W Parcel  : Expecting binder but got null!
+11-06 12:30:59.705  5150  5247 W Parcel  : Expecting binder but got null!
+11-06 12:31:00.343  5150  5247 W Parcel  : Expecting binder but got null!
+2026-11-06 12:31:02.171  I  UhfSession: UHF reader powered up
+11-06 12:31:04.716  5150  5150 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-06 12:31:33.233  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:31:33.233  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:31:33.234  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:31:33.234  5150  5165 W System  : A resource failed to call close. 
+11-06 12:31:33.238  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:31:33.238  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:31:33.239  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:31:33.240  5150  5165 W System  : A resource failed to call close. 
+11-06 12:31:33.244  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:31:33.244  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:31:33.245  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:31:33.245  5150  5165 W System  : A resource failed to call close. 
+11-06 12:31:33.245  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:31:33.245  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:31:33.245  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:31:33.245  5150  5165 W System  : A resource failed to call close. 
+11-06 12:31:33.246  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:31:33.246  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:31:33.247  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:31:33.247  5150  5165 W System  : A resource failed to call close. 
+11-06 12:31:33.253  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:31:33.253  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:31:33.253  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:31:33.253  5150  5165 W System  : A resource failed to call close. 
+11-06 12:31:33.254  5150  5165 W System  : A resource failed to call close. 
+11-06 12:31:33.406  5150  5247 W Parcel  : Expecting binder but got null!
+11-06 12:31:38.730  5150  5247 W Parcel  : Expecting binder but got null!
+11-06 12:31:47.387  5150  5247 W Parcel  : Expecting binder but got null!
+11-06 12:32:00.039  5150  5165 W System  : A resource failed to call close. 
+11-06 12:32:00.039  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:32:00.039  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:32:00.039  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:32:00.042  5150  5165 W System  : A resource failed to call close. 
+11-06 12:32:00.042  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:32:00.042  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:32:00.042  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:32:00.042  5150  5165 W System  : A resource failed to call AbstractCursor.close. 
+11-06 12:32:00.042  5150  5165 W System  : A resource failed to call close. 
+11-06 12:32:00.042  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:32:00.043  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:32:00.043  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:32:13.939  5150  5247 W Parcel  : Expecting binder but got null!
+11-06 12:32:27.799  5150  5247 W Parcel  : Expecting binder but got null!
+11-06 12:32:53.492  5150  5165 W System  : A resource failed to call close. 
+11-06 12:32:53.492  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:32:53.492  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:32:53.493  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+11-06 12:32:53.493  5150  5165 W System  : A resource failed to call AbstractCursor.close. 
+11-06 12:32:53.494  5150  5165 W System  : A resource failed to call close. 
+11-06 12:32:53.494  5150  5165 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-06 12:32:53.494  5150  5165 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-06 12:32:53.494  5150  5165 W System  : A resource failed to call SQLiteConnection.close. 
+2026-11-06 12:32:54.836  I  UhfSession: UHF reader powered down: app moved to the background
+2026-11-06 12:40:01.234  I  Session: app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.017_113023 android=13 (sdk 33) server=<not configured> location=TITLI BHILWARA
+2026-11-06 12:40:01.251  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-4f71440e
+2026-11-06 12:40:01.270  I  Net: wifi connected
+2026-11-06 12:40:01.272  I  Net: wifi has internet (rssi -40 dBm)
+--------- beginning of main
+11-06 12:40:01.483 14578 14578 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+11-06 12:40:01.708 14578 14626 W Parcel  : Expecting binder but got null!
+11-06 12:40:01.946 14578 14658 E GmsUnrecoverableUtil: mFileNative not init yet
