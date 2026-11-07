@@ -1,0 +1,480 @@
+# pushed 2026-11-07 17:13:37.632 (backgrounded)
+# app=2.2 (build 13) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 440755..499318
+
+11-07 16:57:43.155  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 16:58:05.258  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 16:58:05.258  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 16:58:05.258  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 16:58:05.258  7797  7811 W System  : A resource failed to call close. 
+2026-11-07 16:58:21.751  I  SerialService: 'SBSK-AAA-569': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-AAA-569 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:58:21.915  I  SerialService: 'SBSK-AAA-569': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-AAA-569&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:58:22.373  I  SerialService: 'SBSK-AAA-569': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-AAA-569&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:58:22.553  I  SerialService: 'SBSK-AAA-569': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-AAA-569&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:58:22.578  I  SerialService: 'SBSK-AAA-569': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 16:58:22.579  I  SerialService: 'SBSK-AAA-569': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKAAA5690001)
+11-07 16:58:33.404  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 16:58:33.405  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-07 16:58:37.559  I  SerialService: 'SBSK-AAA-569': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-AAA-569 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:58:37.779  I  SerialService: 'SBSK-AAA-569': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-AAA-569&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:58:37.928  I  SerialService: 'SBSK-AAA-569': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-AAA-569&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:58:38.084  I  SerialService: 'SBSK-AAA-569': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-AAA-569&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:58:38.103  I  SerialService: 'SBSK-AAA-569': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 16:58:38.105  I  SerialService: 'SBSK-AAA-569': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKAAA5690001)
+2026-11-07 16:58:39.105  I  Registration: Upload accepted for SBSKAAA5690001: HTTP 200 {"updated":1,"tags":[{"id":9944,"epc":"SBSKAAA5690001","itemCode":"SBSK-AAA-569","serialNo":1}]}
+2026-11-07 16:58:39.269  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 16:58:39.429  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 16:58:39.431  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 16:58:45.804  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 16:59:07.640  I  SerialService: 'SBSK-CT-63': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-63 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+11-07 16:59:07.761  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 16:59:07.761  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 16:59:07.762  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 16:59:07.762  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 16:59:07.763  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 16:59:07.763  7797  7811 W System  : A resource failed to call close. 
+2026-11-07 16:59:07.793  I  SerialService: 'SBSK-CT-63': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-63&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:59:07.948  I  SerialService: 'SBSK-CT-63': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-63&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:59:08.141  I  SerialService: 'SBSK-CT-63': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-63&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:59:08.169  I  SerialService: 'SBSK-CT-63': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 16:59:08.170  I  SerialService: 'SBSK-CT-63': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCT630001)
+2026-11-07 16:59:15.203  I  SerialService: 'SBSK-CT-63': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-63 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:59:15.400  I  SerialService: 'SBSK-CT-63': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-63&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:59:15.719  I  SerialService: 'SBSK-CT-63': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-63&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:59:15.927  I  SerialService: 'SBSK-CT-63': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-63&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 16:59:15.958  I  SerialService: 'SBSK-CT-63': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 16:59:15.959  I  SerialService: 'SBSK-CT-63': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCT630001)
+2026-11-07 16:59:16.473  I  Registration: Upload accepted for SBSKCT630001: HTTP 200 {"updated":1,"tags":[{"id":9945,"epc":"SBSKCT630001","itemCode":"SBSK-CT-63","serialNo":1}]}
+2026-11-07 16:59:16.575  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 16:59:16.695  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 16:59:16.698  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 16:59:24.141  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 16:59:28.906  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 16:59:28.906  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 16:59:28.907  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 16:59:28.907  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 16:59:49.914  7797  7797 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-07 17:00:25.840  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:00:28.379  I  UhfSession: UHF reader powered down: app moved to the background
+11-07 17:00:29.438  7797  7797 E SurfaceSyncer: Failed to find sync for id=0
+11-07 17:00:29.438  7797  7797 E SurfaceSyncer: Failed to find sync for id=1
+11-07 17:00:29.438  7797  7797 E SurfaceSyncer: Failed to find sync for id=2
+11-07 17:00:30.059  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:00:31.925  W  UhfSession: Could not power up the UHF reader
+11-07 17:00:36.189  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:00:43.589  I  SerialService: 'SBSK-AAA-569': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SBSKAAA5690002)
+2026-11-07 17:00:47.074  I  SerialService: 'SBSK-AAA-569': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SBSKAAA5690002)
+2026-11-07 17:00:50.507  I  UhfSession: UHF reader powered up
+2026-11-07 17:00:52.564  I  Registration: Upload accepted for SBSKAAA5690002: HTTP 200 {"updated":1,"tags":[{"id":9946,"epc":"SBSKAAA5690002","itemCode":"SBSK-AAA-569","serialNo":2}]}
+2026-11-07 17:00:52.763  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:00:52.948  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:00:52.953  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-07 17:00:53.302  I  SerialService: 'SBSK-AAA-569': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (SBSKAAA5690003)
+2026-11-07 17:00:54.113  I  Registration: Upload accepted for SBSKAAA5690003: HTTP 200 {"updated":1,"tags":[{"id":9947,"epc":"SBSKAAA5690003","itemCode":"SBSK-AAA-569","serialNo":3}]}
+2026-11-07 17:00:54.304  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:00:54.505  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:00:54.509  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 17:01:01.047  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:01:01.798  7797  7797 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+11-07 17:01:01.798  7797  7797 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-07 17:01:03.897  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:01:17.811  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:01:19.166  7797  7797 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-07 17:01:21.051  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:01:31.304  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:01:36.185  I  UhfSession: UHF reader powered down: no screen is using the reader
+11-07 17:02:03.400  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:02:05.863  W  UhfSession: Could not power up the UHF reader
+2026-11-07 17:02:09.368  I  UhfSession: UHF reader powered up
+11-07 17:03:08.840  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:03:08.840  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:03:08.841  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:03:08.841  7797  7811 W System  : A resource failed to call close. 
+11-07 17:03:08.852  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:03:08.853  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:03:08.854  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:03:08.854  7797  7811 W System  : A resource failed to call close. 
+11-07 17:03:08.854  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:03:08.854  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:03:08.854  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:03:08.854  7797  7811 W System  : A resource failed to call close. 
+11-07 17:03:13.906  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:03:16.856  I  UhfSession: UHF reader powered down: no screen is using the reader
+11-07 17:03:27.918  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:03:30.120  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:03:30.385  W  UhfSession: Could not power up the UHF reader
+2026-11-07 17:03:31.928  I  ProductSync: unmapped for location 1 needed 5 page(s): 930 row(s), server reported 930
+11-07 17:03:33.258  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:03:33.258  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:03:33.258  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:03:33.258  7797  7811 W System  : A resource failed to call close. 
+11-07 17:03:33.928  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:03:33.928  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:03:33.928  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:03:33.928  7797  7811 W System  : A resource failed to call close. 
+11-07 17:03:59.502  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:04:00.166  7797  7797 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+11-07 17:04:00.166  7797  7797 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-07 17:04:01.232  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:04:02.880  I  UhfSession: UHF reader powered up
+11-07 17:04:11.745  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:04:37.180  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:04:39.417  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:04:39.558  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:04:39.696  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:04:41.204  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-11-07 17:04:43.717  W  UhfSession: Could not power up the UHF reader
+11-07 17:04:48.231  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:04:53.494  7797  1881 E native  : E0000 00:00:1794051293.494165    1881 s2polygon.cc:956] UNION operation failed: Given edges do not form loops (indegree != outdegree)
+11-07 17:04:53.494  7797  1881 E native  : E0000 00:00:1794051293.494717    1881 s2polygon.cc:956] INTERSECTION operation failed: Given edges do not form loops (indegree != outdegree)
+11-07 17:04:53.495  7797  1881 E native  : E0000 00:00:1794051293.495009    1881 s2polygon.cc:956] UNION operation failed: Given edges do not form loops (indegree != outdegree)
+11-07 17:04:53.495  7797  1881 E native  : E0000 00:00:1794051293.495310    1881 s2polygon.cc:956] INTERSECTION operation failed: Given edges do not form loops (indegree != outdegree)
+11-07 17:04:54.713  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:05:03.749  7797  7811 W System  : A resource failed to call close. 
+11-07 17:05:03.751  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:05:03.751  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:05:03.751  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:05:03.751  7797  7811 W System  : A resource failed to call close. 
+11-07 17:05:03.753  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:05:03.753  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:05:03.753  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:05:03.753  7797  7811 W System  : A resource failed to call close. 
+11-07 17:05:05.355  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:05:05.355  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:05:05.356  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:05:05.356  7797  7811 W System  : A resource failed to call close. 
+11-07 17:05:05.358  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:05:05.358  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:05:05.359  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:05:05.359  7797  7811 W System  : A resource failed to call close. 
+11-07 17:05:05.359  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:05:05.359  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:05:05.359  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:05:05.359  7797  7811 W System  : A resource failed to call close. 
+2026-11-07 17:05:06.428  I  SerialService: 'SBSK-ZZZ-214': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-214 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:06.628  I  SerialService: 'SBSK-ZZZ-214': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-214&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:06.779  I  SerialService: 'SBSK-ZZZ-214': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-214&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:06.942  I  SerialService: 'SBSK-ZZZ-214': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-214&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:06.962  I  SerialService: 'SBSK-ZZZ-214': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:05:06.963  I  SerialService: 'SBSK-ZZZ-214': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKZZZ2140001)
+2026-11-07 17:05:07.958  I  SerialService: 'SBSK-ZZZ-214': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-214 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:08.103  I  SerialService: 'SBSK-ZZZ-214': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-214&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:08.263  I  SerialService: 'SBSK-ZZZ-214': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-214&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:08.432  I  SerialService: 'SBSK-ZZZ-214': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-ZZZ-214&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:08.456  I  SerialService: 'SBSK-ZZZ-214': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:05:08.457  I  SerialService: 'SBSK-ZZZ-214': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKZZZ2140001)
+2026-11-07 17:05:11.869  I  UhfSession: UHF reader powered up
+2026-11-07 17:05:12.631  I  Registration: Upload accepted for SBSKZZZ2140001: HTTP 200 {"updated":1,"tags":[{"id":9948,"epc":"SBSKZZZ2140001","itemCode":"SBSK-ZZZ-214","serialNo":1}]}
+2026-11-07 17:05:12.743  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:05:12.839  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:05:12.842  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 17:05:25.214  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:05:28.972  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:05:29.105  7797  1875 E native  : E0000 00:00:1794051329.105347    1875 s2polygon.cc:956] UNION operation failed: Given edges do not form loops (indegree != outdegree)
+11-07 17:05:29.105  7797  1875 E native  : E0000 00:00:1794051329.105562    1875 s2polygon.cc:956] INTERSECTION operation failed: Given edges do not form loops (indegree != outdegree)
+11-07 17:05:29.106  7797  1875 E native  : E0000 00:00:1794051329.106082    1875 s2polygon.cc:956] UNION operation failed: Given edges do not form loops (indegree != outdegree)
+11-07 17:05:29.106  7797  1875 E native  : E0000 00:00:1794051329.106230    1875 s2polygon.cc:956] INTERSECTION operation failed: Given edges do not form loops (indegree != outdegree)
+11-07 17:05:33.652  7797  7797 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-07 17:05:33.732  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:05:33.732  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:05:33.732  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:05:33.732  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-07 17:05:33.835  I  SerialService: 'SBSK-CT-168': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-168 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:33.993  I  SerialService: 'SBSK-CT-168': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-168&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:34.152  I  SerialService: 'SBSK-CT-168': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-168&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:34.330  I  SerialService: 'SBSK-CT-168': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-168&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:34.365  I  SerialService: 'SBSK-CT-168': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:05:34.366  I  SerialService: 'SBSK-CT-168': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCT1680001)
+2026-11-07 17:05:36.047  I  SerialService: 'SBSK-CT-168': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-168 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:36.203  I  SerialService: 'SBSK-CT-168': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-168&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:36.357  I  SerialService: 'SBSK-CT-168': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-168&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:36.539  I  SerialService: 'SBSK-CT-168': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-168&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:05:36.571  I  SerialService: 'SBSK-CT-168': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:05:36.573  I  SerialService: 'SBSK-CT-168': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCT1680001)
+2026-11-07 17:05:37.345  I  Registration: Upload accepted for SBSKCT1680001: HTTP 200 {"updated":1,"tags":[{"id":9949,"epc":"SBSKCT1680001","itemCode":"SBSK-CT-168","serialNo":1}]}
+2026-11-07 17:05:37.454  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:05:37.578  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:05:37.581  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 17:05:50.423  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:06:14.604  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:06:15.264  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:06:15.264  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:06:15.265  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:06:15.265  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:06:15.266  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:06:15.266  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:06:15.267  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:06:15.267  7797  7811 W System  : A resource failed to call close. 
+11-07 17:06:23.210  7797  7797 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-11-07 17:06:27.426  I  SerialService: 'SBSK-CT-76': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-76 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:06:27.588  I  SerialService: 'SBSK-CT-76': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-76&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:06:27.757  I  SerialService: 'SBSK-CT-76': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-76&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:06:27.947  I  SerialService: 'SBSK-CT-76': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-76&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:06:27.969  I  SerialService: 'SBSK-CT-76': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:06:27.970  I  SerialService: 'SBSK-CT-76': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCT760001)
+2026-11-07 17:06:30.603  I  SerialService: 'SBSK-CT-76': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-76 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:06:30.798  I  SerialService: 'SBSK-CT-76': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-76&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:06:30.959  I  SerialService: 'SBSK-CT-76': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-76&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:06:31.139  I  SerialService: 'SBSK-CT-76': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-76&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:06:31.169  I  SerialService: 'SBSK-CT-76': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:06:31.171  I  SerialService: 'SBSK-CT-76': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCT760001)
+2026-11-07 17:06:31.666  I  Registration: Upload accepted for SBSKCT760001: HTTP 200 {"updated":1,"tags":[{"id":9950,"epc":"SBSKCT760001","itemCode":"SBSK-CT-76","serialNo":1}]}
+2026-11-07 17:06:32.046  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:06:32.148  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:06:32.151  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 17:06:37.251  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:06:37.251  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:06:37.252  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:06:37.252  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:06:49.027  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:06:57.045  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:07:08.309  I  SerialService: 'SBSK-CT-120': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-120 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+11-07 17:07:08.474  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:07:08.474  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:07:08.475  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:07:08.475  7797  7811 W System  : A resource failed to call close. 
+2026-11-07 17:07:08.493  I  SerialService: 'SBSK-CT-120': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-120&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:07:08.662  I  SerialService: 'SBSK-CT-120': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-120&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:07:08.829  I  SerialService: 'SBSK-CT-120': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-120&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:07:08.856  I  SerialService: 'SBSK-CT-120': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:07:08.857  I  SerialService: 'SBSK-CT-120': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCT1200001)
+2026-11-07 17:07:13.051  I  SerialService: 'SBSK-CT-120': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-120 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:07:13.209  I  SerialService: 'SBSK-CT-120': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-120&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:07:13.380  I  SerialService: 'SBSK-CT-120': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-120&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:07:13.609  I  SerialService: 'SBSK-CT-120': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-CT-120&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:07:13.644  I  SerialService: 'SBSK-CT-120': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:07:13.646  I  SerialService: 'SBSK-CT-120': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKCT1200001)
+2026-11-07 17:07:14.114  I  Registration: Upload accepted for SBSKCT1200001: HTTP 200 {"updated":1,"tags":[{"id":9951,"epc":"SBSKCT1200001","itemCode":"SBSK-CT-120","serialNo":1}]}
+2026-11-07 17:07:14.246  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:07:14.355  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:07:14.359  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 17:07:31.593  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:07:32.367  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:07:32.367  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:07:32.368  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:07:32.368  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:07:41.053  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:07:51.800  I  SerialService: 'SBSK-CT-87': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SBSKCT870002)
+2026-11-07 17:07:55.866  I  SerialService: 'SBSK-CT-87': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SBSKCT870002)
+2026-11-07 17:07:56.365  I  Registration: Upload accepted for SBSKCT870002: HTTP 200 {"updated":1,"tags":[{"id":9952,"epc":"SBSKCT870002","itemCode":"SBSK-CT-87","serialNo":2}]}
+2026-11-07 17:07:56.565  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:07:56.671  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:07:56.673  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 17:08:09.124  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:08:14.331  I  SerialService: 'SBSK-ZZZ-150': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SBSKZZZ1500002)
+2026-11-07 17:08:18.143  I  SerialService: 'SBSK-ZZZ-150': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SBSKZZZ1500002)
+2026-11-07 17:08:18.630  I  Registration: Upload accepted for SBSKZZZ1500002: HTTP 200 {"updated":1,"tags":[{"id":9953,"epc":"SBSKZZZ1500002","itemCode":"SBSK-ZZZ-150","serialNo":2}]}
+2026-11-07 17:08:18.727  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:08:18.829  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:08:18.833  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 17:08:31.345  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:08:31.345  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:08:31.345  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:08:31.345  7797  7811 W System  : A resource failed to call close. 
+11-07 17:08:47.998  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:08:55.857  7797  7797 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-07 17:08:57.574  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:09:12.632  I  SerialService: 'SBSK-SSS-3995S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3995S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:09:12.888  I  SerialService: 'SBSK-SSS-3995S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3995S&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:09:13.048  I  SerialService: 'SBSK-SSS-3995S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3995S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:09:13.237  I  SerialService: 'SBSK-SSS-3995S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3995S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:09:13.262  I  SerialService: 'SBSK-SSS-3995S': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:09:13.263  I  SerialService: 'SBSK-SSS-3995S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS3995S0001)
+2026-11-07 17:09:14.978  I  SerialService: 'SBSK-SSS-3995S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3995S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:09:15.247  I  SerialService: 'SBSK-SSS-3995S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3995S&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:09:15.434  I  SerialService: 'SBSK-SSS-3995S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3995S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:09:15.597  I  SerialService: 'SBSK-SSS-3995S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3995S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:09:15.627  I  SerialService: 'SBSK-SSS-3995S': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:09:15.629  I  SerialService: 'SBSK-SSS-3995S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS3995S0001)
+2026-11-07 17:09:16.224  I  Registration: Upload accepted for SBSKSSS3995S0001: HTTP 200 {"updated":1,"tags":[{"id":9954,"epc":"SBSKSSS3995S0001","itemCode":"SBSK-SSS-3995S","serialNo":1}]}
+2026-11-07 17:09:16.355  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:09:16.458  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:09:16.460  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 17:09:33.269  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:09:44.469  7797  7797 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-07 17:09:45.128  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:09:53.601  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:09:53.601  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:09:53.601  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:09:53.601  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:09:53.602  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:09:53.602  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:09:53.603  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:09:53.603  7797  7811 W System  : A resource failed to call close. 
+11-07 17:09:56.149  7797  7797 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-11-07 17:09:56.870  I  SerialService: 'SBSK-SSS-4013S': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SBSKSSS4013S0002)
+2026-11-07 17:10:03.477  I  SerialService: 'SBSK-SSS-4013S': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SBSKSSS4013S0002)
+2026-11-07 17:10:06.906  I  Registration: Upload accepted for SBSKSSS4013S0002: HTTP 200 {"updated":1,"tags":[{"id":9955,"epc":"SBSKSSS4013S0002","itemCode":"SBSK-SSS-4013S","serialNo":2}]}
+2026-11-07 17:10:07.011  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:10:07.165  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:10:07.169  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 17:10:32.356  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:10:43.475  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:10:49.060  7797  7797 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-07 17:10:49.714  7797  7811 W System  : A resource failed to call close. 
+2026-11-07 17:10:52.185  I  SerialService: 'SBSK-SSS-3992S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3992S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:10:52.344  I  SerialService: 'SBSK-SSS-3992S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3992S&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:10:52.491  I  SerialService: 'SBSK-SSS-3992S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3992S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:10:52.646  I  SerialService: 'SBSK-SSS-3992S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3992S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:10:52.666  I  SerialService: 'SBSK-SSS-3992S': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:10:52.668  I  SerialService: 'SBSK-SSS-3992S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS3992S0001)
+2026-11-07 17:10:56.583  I  SerialService: 'SBSK-SSS-3992S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3992S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:10:56.758  I  SerialService: 'SBSK-SSS-3992S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3992S&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:10:56.924  I  SerialService: 'SBSK-SSS-3992S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3992S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:10:57.093  I  SerialService: 'SBSK-SSS-3992S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-3992S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:10:57.122  I  SerialService: 'SBSK-SSS-3992S': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:10:57.124  I  SerialService: 'SBSK-SSS-3992S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS3992S0001)
+2026-11-07 17:10:57.737  I  Registration: Upload accepted for SBSKSSS3992S0001: HTTP 200 {"updated":1,"tags":[{"id":9956,"epc":"SBSKSSS3992S0001","itemCode":"SBSK-SSS-3992S","serialNo":1}]}
+2026-11-07 17:10:57.838  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:10:57.937  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:10:57.940  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 17:11:18.049  7797  7829 W Parcel  : Expecting binder but got null!
+11-07 17:11:23.392  7797  7829 W Parcel  : Expecting binder but got null!
+2026-11-07 17:11:28.312  I  SerialService: 'SBSK-SSS-4002S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-4002S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:11:28.467  I  SerialService: 'SBSK-SSS-4002S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-4002S&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:11:28.635  I  SerialService: 'SBSK-SSS-4002S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-4002S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:11:28.817  I  SerialService: 'SBSK-SSS-4002S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-4002S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:11:28.842  I  SerialService: 'SBSK-SSS-4002S': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:11:28.844  I  SerialService: 'SBSK-SSS-4002S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS4002S0001)
+2026-11-07 17:11:32.323  I  SerialService: 'SBSK-SSS-4002S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-4002S -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:11:32.528  I  SerialService: 'SBSK-SSS-4002S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-4002S&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:11:32.715  I  SerialService: 'SBSK-SSS-4002S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-4002S&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:11:33.418  I  SerialService: 'SBSK-SSS-4002S': GET http://164.52.223.163:4636/api/device/products/mapped?search=SBSK-SSS-4002S&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-07 17:11:33.447  I  SerialService: 'SBSK-SSS-4002S': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-07 17:11:33.449  I  SerialService: 'SBSK-SSS-4002S': server holds 0 RFID(s); taking the lowest free serial 1 (SBSKSSS4002S0001)
+2026-11-07 17:11:34.069  I  Registration: Upload accepted for SBSKSSS4002S0001: HTTP 200 {"updated":1,"tags":[{"id":9957,"epc":"SBSKSSS4002S0001","itemCode":"SBSK-SSS-4002S","serialNo":1}]}
+2026-11-07 17:11:34.232  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-07 17:11:34.332  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-07 17:11:34.336  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-07 17:11:34.428  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:11:34.428  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:11:34.428  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:11:34.428  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:11:34.436  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:11:34.436  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:11:34.437  7797  7811 W System  : A resource failed to call CursorWindow.close. 
+11-07 17:11:34.437  7797  7811 W System  : A resource failed to call AbstractCursor.close. 
+11-07 17:11:34.437  7797  7811 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-07 17:11:34.437  7797  7811 W System  : A resource failed to call SQLiteConnection.close. 
+11-07 17:11:34.439  7797  7811 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-07 17:11:34.439  7797  7811 W System  : A resource failed to call close. 
