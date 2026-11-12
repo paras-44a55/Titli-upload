@@ -1,0 +1,63 @@
+# pushed 2026-11-12 14:42:13.768 (backgrounded)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 439494..446001
+
+2026-11-12 14:33:24.207  I  UhfSession: UHF reader powered down: app moved to the background
+11-12 14:34:08.423  3710  3710 E SurfaceSyncer: Failed to find sync for id=0
+11-12 14:34:08.423  3710  3710 E SurfaceSyncer: Failed to find sync for id=1
+11-12 14:34:08.423  3710  3710 E SurfaceSyncer: Failed to find sync for id=2
+2026-11-12 14:34:10.898  W  UhfSession: Could not power up the UHF reader
+2026-11-12 14:34:19.335  I  SerialService: 'SCR-4269': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCR-4269 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-12 14:34:19.534  I  SerialService: 'SCR-4269': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCR-4269&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-12 14:34:19.955  I  SerialService: 'SCR-4269': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCR-4269&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-12 14:34:20.135  I  SerialService: 'SCR-4269': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCR-4269&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-12 14:34:20.160  I  SerialService: 'SCR-4269': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-12 14:34:20.161  I  SerialService: 'SCR-4269': server holds 0 RFID(s); taking the lowest free serial 1 (SCR42690001)
+2026-11-12 14:34:26.502  I  SerialService: 'SCR-4269': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCR-4269 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-12 14:34:26.756  I  SerialService: 'SCR-4269': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCR-4269&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-12 14:34:26.936  I  SerialService: 'SCR-4269': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCR-4269&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-12 14:34:27.165  I  SerialService: 'SCR-4269': GET http://164.52.223.163:4636/api/device/products/mapped?search=SCR-4269&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-12 14:34:27.192  I  SerialService: 'SCR-4269': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-12 14:34:27.193  I  SerialService: 'SCR-4269': server holds 0 RFID(s); taking the lowest free serial 1 (SCR42690001)
+2026-11-12 14:34:29.748  I  UhfSession: UHF reader powered up
+2026-11-12 14:34:30.525  I  Registration: Upload accepted for SCR42690001: HTTP 200 {"updated":1,"tags":[{"id":10077,"epc":"SCR42690001","itemCode":"SCR-4269","serialNo":1}]}
+2026-11-12 14:34:30.686  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-12 14:34:30.901  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-12 14:34:30.905  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-12 14:34:31.606  3710  3740 W System  : A resource failed to call CursorWindow.close. 
+11-12 14:34:31.606  3710  3740 W System  : A resource failed to call AbstractCursor.close. 
+11-12 14:34:31.607  3710  3740 W System  : A resource failed to call CursorWindow.close. 
+11-12 14:34:31.607  3710  3740 W System  : A resource failed to call AbstractCursor.close. 
+11-12 14:34:31.607  3710  3740 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-12 14:34:31.607  3710  3740 W System  : A resource failed to call SQLiteConnection.close. 
+11-12 14:34:31.608  3710  3740 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-12 14:34:31.608  3710  3740 W System  : A resource failed to call close. 
+2026-11-12 14:35:08.295  I  SerialService: 'SCR-4269': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (SCR42690002)
+2026-11-12 14:35:09.097  I  Registration: Upload accepted for SCR42690002: HTTP 200 {"updated":1,"tags":[{"id":10078,"epc":"SCR42690002","itemCode":"SCR-4269","serialNo":2}]}
+2026-11-12 14:35:09.275  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+11-12 14:35:09.340  3710  3740 W System  : A resource failed to call CursorWindow.close. 
+11-12 14:35:09.340  3710  3740 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-12 14:35:09.403  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-12 14:35:09.406  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-12 14:38:10.502  I  UhfSession: UHF reader powered down: idle for 3 min
+11-12 14:40:56.529  3710  3710 E SurfaceSyncer: Failed to find sync for id=0
+11-12 14:40:56.529  3710  3710 E SurfaceSyncer: Failed to find sync for id=1
+11-12 14:40:56.529  3710  3710 E SurfaceSyncer: Failed to find sync for id=2
+11-12 14:40:56.529  3710  3710 E SurfaceSyncer: Failed to find sync for id=3
+2026-11-12 14:40:59.015  W  UhfSession: Could not power up the UHF reader
