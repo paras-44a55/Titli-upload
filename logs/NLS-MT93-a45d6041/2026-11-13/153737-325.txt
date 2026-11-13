@@ -1,0 +1,34 @@
+# pushed 2026-11-13 15:37:37.325 (backgrounded)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 510357..514143
+
+11-13 15:36:34.628  4293  4293 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+11-13 15:36:34.628  4293  4293 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-13 15:36:37.206  4293  4339 W Parcel  : Expecting binder but got null!
+11-13 15:36:52.210  4293  4418 W System.err: java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.1.4 (port 49600) after 15000ms
+11-13 15:36:52.212  4293  4418 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+11-13 15:36:52.212  4293  4418 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+11-13 15:36:52.212  4293  4418 W System.err: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+11-13 15:36:52.212  4293  4418 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+11-13 15:36:52.212  4293  4418 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+11-13 15:36:52.213  4293  4418 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+11-13 15:36:52.213  4293  4418 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+11-13 15:36:52.213  4293  4418 W System.err: 	at java.net.Socket.connect(Socket.java:646)
+11-13 15:36:52.213  4293  4418 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+11-13 15:36:52.213  4293  4418 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+11-13 15:36:52.213  4293  4418 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+11-13 15:36:52.213  4293  4418 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+11-13 15:36:52.213  4293  4418 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+11-13 15:36:52.213  4293  4418 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+11-13 15:36:52.213  4293  4418 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+11-13 15:36:52.213  4293  4418 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+11-13 15:36:52.213  4293  4418 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+11-13 15:36:52.213  4293  4418 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+11-13 15:36:52.213  4293  4418 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+11-13 15:36:52.214  4293  4418 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+11-13 15:36:52.214  4293  4418 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+11-13 15:36:52.214  4293  4418 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+11-13 15:36:52.214  4293  4418 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+11-13 15:36:52.214  4293  4418 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+11-13 15:36:52.265  4293  4313 W hionapplication: Reducing the number of considered missed Gc histogram windows from 288 to 100
+11-13 15:36:52.351  4293  4339 W Parcel  : Expecting binder but got null!
