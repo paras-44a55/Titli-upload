@@ -1,0 +1,43 @@
+# pushed 2026-11-14 16:40:22.140 (backgrounded)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 105743..109887
+
+2026-11-14 16:33:11.360  I  UhfSession: UHF reader powered down: app moved to the background
+2026-11-14 16:37:58.086  W  UhfSession: Could not power up the UHF reader
+11-14 16:37:58.563 11639 11668 W Parcel  : Expecting binder but got null!
+11-14 16:37:58.649 11639 11651 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-14 16:37:58.649 11639 11651 W System  : A resource failed to call SQLiteConnection.close. 
+11-14 16:37:58.649 11639 11651 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-14 16:37:58.650 11639 11651 W System  : A resource failed to call close. 
+11-14 16:37:59.306 11639 20432 W libc    : Access denied finding property "ro.hardware.chipname"
+11-14 16:37:59.332 11639 11651 W System  : A resource failed to call close. 
+11-14 16:37:59.332 11639 11651 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-14 16:37:59.332 11639 11651 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-14 16:37:59.332 11639 11651 W System  : A resource failed to call SQLiteConnection.close. 
+2026-11-14 16:38:00.986  I  UhfSession: UHF reader powered up
+2026-11-14 16:38:08.913  I  ProductSync: unmapped for location 1 needed 5 page(s): 880 row(s), server reported 880
+2026-11-14 16:38:09.337  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-14 16:38:09.433  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-14 16:38:18.865 11639 11651 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-14 16:38:18.866 11639 11651 W System  : A resource failed to call SQLiteConnection.close. 
+11-14 16:38:18.867 11639 11651 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-14 16:38:18.867 11639 11651 W System  : A resource failed to call close. 
+11-14 16:38:18.868 11639 11651 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-14 16:38:18.869 11639 11651 W System  : A resource failed to call SQLiteConnection.close. 
+11-14 16:38:18.870 11639 11651 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-14 16:38:18.870 11639 11651 W System  : A resource failed to call close. 
+11-14 16:38:29.716 11639 11668 W Parcel  : Expecting binder but got null!
+11-14 16:38:30.695 11639 11639 W libc    : Access denied finding property "vendor.scroll.fpsgo.release"
+11-14 16:38:33.861 11639 11639 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-14 16:38:34.887 11639 11668 W Parcel  : Expecting binder but got null!
+2026-11-14 16:38:41.188  I  SerialService: 'DHL-43110': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (DHL431100002)
+11-14 16:38:43.634 11639 11668 W Parcel  : Expecting binder but got null!
+11-14 16:39:10.504 11639 11668 W Parcel  : Expecting binder but got null!
