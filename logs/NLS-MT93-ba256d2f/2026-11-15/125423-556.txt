@@ -1,0 +1,349 @@
+# pushed 2026-11-15 12:54:23.556 (backgrounded)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 413850..462017
+
+2026-11-15 12:45:43.112  I  ProductSync: unmapped for location 2 needed 5 page(s): 913 row(s), server reported 913
+11-15 12:45:50.535  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2ba0bd2
+11-15 12:45:52.916  4416  6764 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-11-15 12:45:54.371  W  UhfSession: Could not power up the UHF reader
+2026-11-15 12:45:58.012  I  UhfSession: UHF reader powered up
+11-15 12:46:02.086  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@daa42ff
+11-15 12:46:02.098  4416  4416 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-15 12:46:11.141  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c7d15bf
+11-15 12:46:11.151  4416  4416 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-11-15 12:46:11.239  I  SerialService: 'AWE-49372': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49372 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:11.324  I  SerialService: 'AWE-49372': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49372&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:11.410  I  SerialService: 'AWE-49372': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49372&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:11.494  I  SerialService: 'AWE-49372': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49372&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:11.518  I  SerialService: 'AWE-49372': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:46:11.520  I  SerialService: 'AWE-49372': server holds 0 RFID(s); taking the lowest free serial 1 (AWE493720001)
+2026-11-15 12:46:18.790  I  SerialService: 'AWE-49372': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49372 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:18.875  I  SerialService: 'AWE-49372': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49372&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:18.961  I  SerialService: 'AWE-49372': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49372&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:19.052  I  SerialService: 'AWE-49372': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49372&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:19.074  I  SerialService: 'AWE-49372': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:46:19.075  I  SerialService: 'AWE-49372': server holds 0 RFID(s); taking the lowest free serial 1 (AWE493720001)
+2026-11-15 12:46:19.734  I  Registration: Upload accepted for AWE493720001: HTTP 200 {"updated":1,"tags":[{"id":10095,"epc":"AWE493720001","itemCode":"AWE-49372","serialNo":1}]}
+2026-11-15 12:46:19.736  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 12:46:25.474  4416  4426 W System  : A resource failed to call close. 
+11-15 12:46:25.474  4416  4426 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 12:46:25.474  4416  4426 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 12:46:25.474  4416  4426 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 12:46:25.475  4416  4426 W System  : A resource failed to call close. 
+11-15 12:46:25.475  4416  4426 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 12:46:25.475  4416  4426 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 12:46:25.475  4416  4426 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 12:46:25.479  4416  4426 W System  : A resource failed to call close. 
+11-15 12:46:25.479  4416  4426 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 12:46:25.479  4416  4426 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 12:46:25.479  4416  4426 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 12:46:25.480  4416  4426 W System  : A resource failed to call close. 
+11-15 12:46:25.480  4416  4426 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 12:46:25.480  4416  4426 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 12:46:25.480  4416  4426 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 12:46:25.490  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+11-15 12:46:25.492  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+11-15 12:46:44.110  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f78bf0d
+11-15 12:46:44.117  4416  4416 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-15 12:46:53.687  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ba30a8b
+11-15 12:46:53.694  4416  4416 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-11-15 12:46:57.187  I  SerialService: 'AWE-48985': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48985 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:57.269  I  SerialService: 'AWE-48985': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48985&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:57.357  I  SerialService: 'AWE-48985': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48985&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:57.440  I  SerialService: 'AWE-48985': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48985&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:57.466  I  SerialService: 'AWE-48985': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:46:57.467  I  SerialService: 'AWE-48985': server holds 0 RFID(s); taking the lowest free serial 1 (AWE489850001)
+2026-11-15 12:46:57.652  I  SerialService: 'AWE-48985': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48985 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:57.738  I  SerialService: 'AWE-48985': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48985&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:57.822  I  SerialService: 'AWE-48985': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48985&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:57.904  I  SerialService: 'AWE-48985': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48985&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:46:57.932  I  SerialService: 'AWE-48985': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:46:57.933  I  SerialService: 'AWE-48985': server holds 0 RFID(s); taking the lowest free serial 1 (AWE489850001)
+2026-11-15 12:46:58.834  I  Registration: Upload accepted for AWE489850001: HTTP 200 {"updated":1,"tags":[{"id":10096,"epc":"AWE489850001","itemCode":"AWE-48985","serialNo":1}]}
+2026-11-15 12:46:58.835  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 12:47:16.544  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@effb220
+11-15 12:47:20.786  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@eec699a
+2026-11-15 12:47:21.130  I  SerialService: 'AWE-46641': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46641 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:21.221  I  SerialService: 'AWE-46641': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46641&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:21.304  I  SerialService: 'AWE-46641': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46641&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:21.402  I  SerialService: 'AWE-46641': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46641&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:21.468  I  SerialService: 'AWE-46641': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:47:21.470  I  SerialService: 'AWE-46641': server holds 0 RFID(s); taking the lowest free serial 1 (AWE466410001)
+2026-11-15 12:47:24.052  I  SerialService: 'AWE-46641': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46641 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:24.141  I  SerialService: 'AWE-46641': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46641&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:24.233  I  SerialService: 'AWE-46641': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46641&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:24.333  I  SerialService: 'AWE-46641': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46641&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:24.380  I  SerialService: 'AWE-46641': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:47:24.382  I  SerialService: 'AWE-46641': server holds 0 RFID(s); taking the lowest free serial 1 (AWE466410001)
+2026-11-15 12:47:25.268  I  Registration: Upload accepted for AWE466410001: HTTP 200 {"updated":1,"tags":[{"id":10097,"epc":"AWE466410001","itemCode":"AWE-46641","serialNo":1}]}
+2026-11-15 12:47:25.272  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 12:47:30.842  4416  4426 W System  : A resource failed to call close. 
+11-15 12:47:30.842  4416  4426 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 12:47:30.843  4416  4426 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 12:47:30.843  4416  4426 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 12:47:30.852  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+11-15 12:47:30.853  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+11-15 12:47:30.888  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+11-15 12:47:30.893  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+11-15 12:47:33.697  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@fbc4ff1
+11-15 12:47:39.882  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f7628fa
+11-15 12:47:39.909  4416  4416 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-11-15 12:47:39.983  I  SerialService: 'AWE-48074': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48074 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:40.073  I  SerialService: 'AWE-48074': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48074&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:40.163  I  SerialService: 'AWE-48074': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48074&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:40.252  I  SerialService: 'AWE-48074': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48074&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:40.315  I  SerialService: 'AWE-48074': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:47:40.319  I  SerialService: 'AWE-48074': server holds 0 RFID(s); taking the lowest free serial 1 (AWE480740001)
+2026-11-15 12:47:47.844  I  SerialService: 'AWE-48074': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48074 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:47.932  I  SerialService: 'AWE-48074': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48074&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:48.018  I  SerialService: 'AWE-48074': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48074&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:48.102  I  SerialService: 'AWE-48074': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48074&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:47:48.152  I  SerialService: 'AWE-48074': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:47:48.154  I  SerialService: 'AWE-48074': server holds 0 RFID(s); taking the lowest free serial 1 (AWE480740001)
+2026-11-15 12:47:49.092  I  Registration: Upload accepted for AWE480740001: HTTP 200 {"updated":1,"tags":[{"id":10098,"epc":"AWE480740001","itemCode":"AWE-48074","serialNo":1}]}
+2026-11-15 12:47:49.096  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 12:48:06.525  4416  4426 W System  : A resource failed to call CursorWindow.close. 
+11-15 12:48:06.525  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+11-15 12:48:06.544  4416  4426 W System  : A resource failed to call CursorWindow.close. 
+11-15 12:48:06.544  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-15 12:48:17.566  I  SerialService: 'AWE-47971': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47971 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:17.657  I  SerialService: 'AWE-47971': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47971&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:17.751  I  SerialService: 'AWE-47971': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47971&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:17.837  I  SerialService: 'AWE-47971': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47971&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:17.910  I  SerialService: 'AWE-47971': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:48:17.914  I  SerialService: 'AWE-47971': server holds 0 RFID(s); taking the lowest free serial 1 (AWE479710001)
+2026-11-15 12:48:18.722  I  SerialService: 'AWE-47971': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47971 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:18.811  I  SerialService: 'AWE-47971': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47971&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:19.182  I  SerialService: 'AWE-47971': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47971&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:19.277  I  SerialService: 'AWE-47971': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47971&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:19.343  I  SerialService: 'AWE-47971': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:48:19.346  I  SerialService: 'AWE-47971': server holds 0 RFID(s); taking the lowest free serial 1 (AWE479710001)
+2026-11-15 12:48:20.530  I  Registration: Upload accepted for AWE479710001: HTTP 200 {"updated":1,"tags":[{"id":10099,"epc":"AWE479710001","itemCode":"AWE-47971","serialNo":1}]}
+2026-11-15 12:48:20.540  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 12:48:33.044  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5bf68cd
+11-15 12:48:33.065  4416  4416 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-15 12:48:38.520  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e5be51f
+11-15 12:48:38.553  4416  4416 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-11-15 12:48:38.622  I  SerialService: 'AWE-50776': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-50776 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:38.706  I  SerialService: 'AWE-50776': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-50776&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:38.797  I  SerialService: 'AWE-50776': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-50776&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:38.881  I  SerialService: 'AWE-50776': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-50776&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:38.935  I  SerialService: 'AWE-50776': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:48:38.947  I  SerialService: 'AWE-50776': server holds 0 RFID(s); taking the lowest free serial 1 (AWE507760001)
+11-15 12:48:46.960  4416  4426 W System  : A resource failed to call close. 
+11-15 12:48:46.960  4416  4426 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 12:48:46.960  4416  4426 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 12:48:46.961  4416  4426 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 12:48:46.987  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+11-15 12:48:46.989  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+11-15 12:48:47.023  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-15 12:48:56.147  I  SerialService: 'AWE-50776': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-50776 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:56.234  I  SerialService: 'AWE-50776': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-50776&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:56.321  I  SerialService: 'AWE-50776': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-50776&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:56.410  I  SerialService: 'AWE-50776': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-50776&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:48:56.467  I  SerialService: 'AWE-50776': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:48:56.469  I  SerialService: 'AWE-50776': server holds 0 RFID(s); taking the lowest free serial 1 (AWE507760001)
+2026-11-15 12:48:57.401  I  Registration: Upload accepted for AWE507760001: HTTP 200 {"updated":1,"tags":[{"id":10100,"epc":"AWE507760001","itemCode":"AWE-50776","serialNo":1}]}
+2026-11-15 12:48:57.404  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 12:49:11.289  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@81334e5
+11-15 12:49:19.516  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@34af39f
+11-15 12:49:19.534  4416  4416 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-15 12:49:23.756  4416  4426 W System  : A resource failed to call CursorWindow.close. 
+11-15 12:49:23.757  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-15 12:49:29.649  I  SerialService: 'AWE-46620': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46620 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:49:29.730  I  SerialService: 'AWE-46620': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46620&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:49:37.735  E  SerialService: RFID lookup for 'AWE-46620' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46620&locationId=2
+java.net.SocketTimeoutException: timeout
+	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.data.SerialService.nextFreeSerial(SerialService.kt:306)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:386)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda54.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:188)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	... 19 more
+2026-11-15 12:49:52.351  E  SerialService: RFID lookup for 'AWE-46620' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46620
+java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.29.224 (port 42458) after 8000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:234)
+	at libcore.io.IoBridge.connect(IoBridge.java:178)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$36(RegistrationActivity.kt:490)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$V8klY7Kx4pC6DZNVshO9X2koTPU(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda39.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-11-15 12:49:52.353  E  Registration: Write blocked for 'AWE-46620': no serial could be reserved (failed to connect to /164.52.223.163 (port 4636) from /192.168.29.224 (port 42458) after 8000ms)
+2026-11-15 12:49:56.214  E  SerialService: RFID lookup for 'AWE-46620' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46620
+java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.29.224 (port 42468) after 8000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:234)
+	at libcore.io.IoBridge.connect(IoBridge.java:178)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$36(RegistrationActivity.kt:490)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$V8klY7Kx4pC6DZNVshO9X2koTPU(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda39.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-11-15 12:49:56.218  E  Registration: Write blocked for 'AWE-46620': no serial could be reserved (failed to connect to /164.52.223.163 (port 4636) from /192.168.29.224 (port 42468) after 8000ms)
+2026-11-15 12:49:57.248  I  SerialService: 'AWE-46620': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46620 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:49:57.341  I  SerialService: 'AWE-46620': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46620&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:49:57.429  I  SerialService: 'AWE-46620': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46620&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:49:57.524  I  SerialService: 'AWE-46620': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46620&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:49:57.551  I  SerialService: 'AWE-46620': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 12:49:57.552  I  SerialService: 'AWE-46620': server holds 0 RFID(s); taking the lowest free serial 1 (AWE466200001)
+2026-11-15 12:49:58.216  I  Registration: Upload accepted for AWE466200001: HTTP 200 {"updated":1,"tags":[{"id":10101,"epc":"AWE466200001","itemCode":"AWE-46620","serialNo":1}]}
+2026-11-15 12:49:58.216  I  SerialService: 'AWE-46620': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46620 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 12:49:58.218  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-11-15 12:49:58.516  I  SerialService: 'AWE-46620': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (AWE466200002)
+2026-11-15 12:49:59.125  E  Registration: No product id for item code 'AWE-46620' - tag AWE466200002 (serial 2) saved with id -1 and cannot be uploaded until Sync Data runs. Neither unMappedProduct nor mappedProduct has a row for it.
+2026-11-15 12:49:59.148  E  Registration: Tag AWE466200002 (item 'AWE-46620', serial 2) has product id -1. The server will answer 400 'Each tag must have a valid id' to this. No row for 'AWE-46620' in unMappedProduct or mappedProduct - the product list on this device is stale or the item code differs from the one that was synced.
+11-15 12:49:59.311  4416  4426 W System  : A resource failed to call close. 
+11-15 12:49:59.311  4416  4426 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 12:49:59.311  4416  4426 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 12:49:59.311  4416  4426 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 12:49:59.322  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+11-15 12:49:59.323  4416  4426 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-15 12:49:59.325  E  SerialService: RFID lookup for 'AWE-46620' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46620
+java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.29.224 (port 42470) after 8000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:234)
+	at libcore.io.IoBridge.connect(IoBridge.java:178)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$36(RegistrationActivity.kt:490)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$V8klY7Kx4pC6DZNVshO9X2koTPU(RegistrationActivity.kt:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda39.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1571)
+2026-11-15 12:49:59.326  E  Registration: Write blocked for 'AWE-46620': no serial could be reserved (failed to connect to /164.52.223.163 (port 4636) from /192.168.29.224 (port 42470) after 8000ms)
+11-15 12:50:07.221  4416  6802 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:114000000008,api:4,p:1477,c:4416) dequeueBuffer: BufferQueue has been abandoned
+11-15 12:50:07.226  4416  6802 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:114000000008,api:4,p:1477,c:4416) queueBuffer: BufferQueue has been abandoned
+11-15 12:50:07.241  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@60daa24
+11-15 12:50:07.251  4416  6802 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:114000000008,api:4,p:1477,c:4416) queueBuffer: BufferQueue has been abandoned
+11-15 12:50:07.269  4416  7171 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:114000000008,api:4,p:1477,c:4416) cancelBuffer: BufferQueue has been abandoned
+11-15 12:50:07.270  4416  7171 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:114000000008,api:4,p:1477,c:4416) cancelBuffer: BufferQueue has been abandoned
+11-15 12:50:07.271  4416  7171 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:114000000008,api:4,p:1477,c:4416) queueBuffer: BufferQueue has been abandoned
+11-15 12:50:07.283  4416  7171 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:114000000008,api:4,p:1477,c:4416) cancelBuffer: BufferQueue has been abandoned
+2026-11-15 12:50:11.078  I  ProductSync: unmapped for location 2 needed 5 page(s): 906 row(s), server reported 906
+2026-11-15 12:50:11.946  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-11-15 12:50:20.721  I  ProductSync: unmapped for location 2 needed 5 page(s): 906 row(s), server reported 906
+11-15 12:50:29.906  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@11f852
+2026-11-15 12:50:30.837  I  Net: Blank Audit: mapped-product sync started
+2026-11-15 12:50:30.838  I  Net: Blank Audit: local products still fresh, no sync needed
+2026-11-15 12:50:30.838  I  Net: Blank Audit: opened, powering the UHF module up
+11-15 12:50:32.572  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6ed2b70
+11-15 12:50:32.650  4416  4426 W System  : A resource failed to call close. 
+11-15 12:50:32.650  4416  4426 W System  : A resource failed to call close. 
+2026-11-15 12:50:33.347  W  UhfSession: Could not power up the UHF reader
+11-15 12:50:39.105  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bf2f5c9
+2026-11-15 12:50:43.967  I  UhfSession: UHF reader powered up
+11-15 12:51:08.498  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9deb964
+2026-11-15 12:51:09.208  I  Net: Blank Audit: closed, releasing the UHF module
+11-15 12:51:09.213  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a353b4
+11-15 12:51:23.098  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5e50718
+11-15 12:51:23.118  4416  4416 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-15 12:51:33.407  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3dc3312
+2026-11-15 12:51:35.629  I  ProductSync: unmapped for location 2 needed 5 page(s): 906 row(s), server reported 906
+2026-11-15 12:51:38.439  I  UhfSession: UHF reader powered down: no screen is using the reader
+11-15 12:51:43.430  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4aebdf3
+2026-11-15 12:51:44.388  I  Net: Blank Audit: mapped-product sync started
+2026-11-15 12:51:44.389  I  Net: Blank Audit: opened, powering the UHF module up
+2026-11-15 12:51:44.389  I  Net: Blank Audit: local products still fresh, no sync needed
+11-15 12:51:45.847  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a2e73ff
+2026-11-15 12:51:46.895  W  UhfSession: Could not power up the UHF reader
+11-15 12:51:50.146  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@63fa6a6
+2026-11-15 12:51:55.258  I  UhfSession: UHF reader powered up
+11-15 12:52:12.891  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@778eb73
+11-15 12:52:12.966  4416  4426 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 12:52:12.966  4416  4426 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 12:52:12.967  4416  4426 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 12:52:12.968  4416  4426 W System  : A resource failed to call close. 
+11-15 12:52:12.968  4416  4426 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 12:52:12.968  4416  4426 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 12:52:12.968  4416  4426 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 12:52:12.968  4416  4426 W System  : A resource failed to call close. 
+11-15 12:52:12.971  4416  4426 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 12:52:12.971  4416  4426 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 12:52:12.973  4416  4426 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 12:52:12.973  4416  4426 W System  : A resource failed to call close. 
+11-15 12:52:12.973  4416  4426 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 12:52:12.973  4416  4426 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 12:52:12.973  4416  4426 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 12:52:12.973  4416  4426 W System  : A resource failed to call close. 
+2026-11-15 12:52:13.640  I  Net: Blank Audit: closed, releasing the UHF module
+11-15 12:52:13.647  4416  4416 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@167e87c
+2026-11-15 12:52:18.703  I  UhfSession: UHF reader powered down: no screen is using the reader
