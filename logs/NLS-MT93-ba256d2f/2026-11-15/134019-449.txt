@@ -1,0 +1,322 @@
+# pushed 2026-11-15 13:40:19.449 (scheduled)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 462017..512310
+
+2026-11-15 13:32:33.468  I  Session: app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-11-15 13:32:33.478  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-11-15 13:32:33.491  I  Net: wifi connected
+2026-11-15 13:32:33.494  I  Net: wifi has internet (rssi -58 dBm)
+--------- beginning of main
+11-15 13:32:33.514 15151 15178 W QT      : qt_process_init() called
+11-15 13:32:33.514 15151 15178 E QT      : [QT]file does not exist
+11-15 13:32:33.514 15151 15178 W QT      : Support!!
+11-15 13:32:33.663 15151 15151 W HWUI    : Unknown dataspace 0
+11-15 13:32:33.828 15151 15176 W libc    : Access denied finding property "vendor.mbrain.enabled"
+11-15 13:32:33.860 15151 15176 W libc    : Access denied finding property "vendor.mbrain.enabled"
+11-15 13:32:47.647 15151 15354 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-11-15 13:32:49.289  W  UhfSession: Could not power up the UHF reader
+2026-11-15 13:32:58.836  I  ProductSync: unmapped unchanged at 906 row(s) — skipped the full pull
+2026-11-15 13:32:58.863  W  Registration: Repaired product id for AWE466200002 (item AWE-46620) -> 12446
+2026-11-15 13:33:03.900  I  Registration: Upload accepted for AWE466200002: HTTP 200 {"updated":1,"tags":[{"id":10102,"epc":"AWE466200002","itemCode":"AWE-46620","serialNo":2}]}
+2026-11-15 13:33:03.902  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-11-15 13:33:09.497  W  LogUploader: Log push failed
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(LogUploader.kt:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:369)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:324)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:1571)
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Linux.android_getaddrinfo(Native Method)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:125)
+	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:224)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:125)
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:135)
+	... 28 more
+2026-11-15 13:33:20.907  I  UhfSession: UHF reader powered up
+11-15 13:33:30.904 15151 15159 W System  : A resource failed to call close. 
+11-15 13:33:30.904 15151 15159 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 13:33:30.904 15151 15159 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 13:33:30.904 15151 15159 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 13:33:40.530 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1c2ca1c
+11-15 13:33:45.940 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d861578
+2026-11-15 13:33:46.045  I  SerialService: 'AWE-49258': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49258 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:33:46.141  I  SerialService: 'AWE-49258': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49258&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:33:46.243  I  SerialService: 'AWE-49258': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49258&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:33:46.333  I  SerialService: 'AWE-49258': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49258&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:33:46.365  I  SerialService: 'AWE-49258': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:33:46.366  I  SerialService: 'AWE-49258': server holds 0 RFID(s); taking the lowest free serial 1 (AWE492580001)
+2026-11-15 13:33:50.787  I  SerialService: 'AWE-49258': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49258 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:33:50.879  I  SerialService: 'AWE-49258': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49258&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:33:50.965  I  SerialService: 'AWE-49258': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49258&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:33:51.053  I  SerialService: 'AWE-49258': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49258&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:33:51.086  I  SerialService: 'AWE-49258': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:33:51.087  I  SerialService: 'AWE-49258': server holds 0 RFID(s); taking the lowest free serial 1 (AWE492580001)
+2026-11-15 13:33:51.765  I  Registration: Upload accepted for AWE492580001: HTTP 200 {"updated":1,"tags":[{"id":10103,"epc":"AWE492580001","itemCode":"AWE-49258","serialNo":1}]}
+2026-11-15 13:33:51.766  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 13:34:04.185 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:34:04.186 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:34:17.604 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bf43dba
+11-15 13:34:20.503 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b5b58f9
+11-15 13:34:20.517 15151 15151 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-11-15 13:34:23.679  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:23.764  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:23.848  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:23.930  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:23.956  I  SerialService: 'AWE-47539': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:34:23.957  I  SerialService: 'AWE-47539': server holds 0 RFID(s); taking the lowest free serial 1 (AWE475390001)
+2026-11-15 13:34:27.310  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:29.129  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:29.222  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:29.318  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:29.409  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:29.440  I  SerialService: 'AWE-47539': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:34:29.441  I  SerialService: 'AWE-47539': server holds 0 RFID(s); taking the lowest free serial 1 (AWE475390001)
+2026-11-15 13:34:29.736  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:29.827  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:30.335  I  Registration: Upload accepted for AWE475390001: HTTP 200 {"updated":1,"tags":[{"id":10104,"epc":"AWE475390001","itemCode":"AWE-47539","serialNo":1}]}
+2026-11-15 13:34:30.337  I  Registration: Uploaded 1 tag(s); 0 still pending
+2026-11-15 13:34:30.458  I  SerialService: 'AWE-47539': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-47539&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:34:30.491  I  SerialService: 'AWE-47539': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:34:30.492  I  SerialService: 'AWE-47539': server holds 0 RFID(s); taking the lowest free serial 2 (AWE475390002)
+2026-11-15 13:34:31.109  E  Registration: No product id for item code 'AWE-47539' - tag AWE475390002 (serial 2) saved with id -1 and cannot be uploaded until Sync Data runs. Neither unMappedProduct nor mappedProduct has a row for it.
+2026-11-15 13:34:31.130  E  Registration: Tag AWE475390002 (item 'AWE-47539', serial 2) has product id -1. The server will answer 400 'Each tag must have a valid id' to this. No row for 'AWE-47539' in unMappedProduct or mappedProduct - the product list on this device is stale or the item code differs from the one that was synced.
+11-15 13:34:35.064 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3f71646
+11-15 13:34:35.076 15151 15164 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#2(BLAST Consumer)2](id:3b2f00000004,api:4,p:1477,c:15151) queueBuffer: BufferQueue has been abandoned
+11-15 13:34:35.096 15151 15164 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#2(BLAST Consumer)2](id:3b2f00000004,api:4,p:1477,c:15151) cancelBuffer: BufferQueue has been abandoned
+11-15 13:34:35.097 15151 15164 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#2(BLAST Consumer)2](id:3b2f00000004,api:4,p:1477,c:15151) cancelBuffer: BufferQueue has been abandoned
+11-15 13:34:35.097 15151 15164 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#2(BLAST Consumer)2](id:3b2f00000004,api:4,p:1477,c:15151) cancelBuffer: BufferQueue has been abandoned
+11-15 13:34:35.097 15151 15164 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#2(BLAST Consumer)2](id:3b2f00000004,api:4,p:1477,c:15151) cancelBuffer: BufferQueue has been abandoned
+11-15 13:34:35.105 15151 15164 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#2(BLAST Consumer)2](id:3b2f00000004,api:4,p:1477,c:15151) queueBuffer: BufferQueue has been abandoned
+11-15 13:34:36.831 15151 15571 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+11-15 13:34:48.609 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9e0e6f1
+11-15 13:34:55.353 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b26b23a
+2026-11-15 13:35:00.463  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-11-15 13:35:13.924  I  ProductSync: unmapped for location 2 needed 5 page(s): 904 row(s), server reported 904
+11-15 13:35:15.351 15151 15157 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+11-15 13:35:15.435 15151 15159 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 13:35:15.435 15151 15159 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 13:35:15.436 15151 15159 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 13:35:15.436 15151 15159 W System  : A resource failed to call close. 
+11-15 13:35:15.436 15151 15159 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 13:35:15.436 15151 15159 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 13:35:15.436 15151 15159 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 13:35:15.436 15151 15159 W System  : A resource failed to call close. 
+11-15 13:35:15.441 15151 15159 W System  : A resource failed to call CursorWindow.close. 
+11-15 13:35:15.441 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:35:15.441 15151 15159 W System  : A resource failed to call CursorWindow.close. 
+11-15 13:35:15.441 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:35:15.443 15151 15159 W System  : A resource failed to call CursorWindow.close. 
+11-15 13:35:15.443 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:35:15.444 15151 15159 W System  : A resource failed to call close. 
+11-15 13:35:26.591 15151 15151 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+11-15 13:35:29.244 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@8f2bf63
+2026-11-15 13:35:32.458  W  UhfSession: Could not power up the UHF reader
+11-15 13:35:35.642 15151 15151 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+11-15 13:35:38.960 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@dd3ebb
+11-15 13:35:38.966 15151 15151 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-15 13:35:41.676 15151 15151 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+2026-11-15 13:35:42.198  I  UhfSession: UHF reader powered up
+11-15 13:35:47.708 15151 15151 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+11-15 13:35:56.757 15151 15151 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+11-15 13:36:07.349 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f7b685d
+2026-11-15 13:36:08.353  W  Registration: Repaired product id for AWE475390002 (item AWE-47539) -> 12456
+2026-11-15 13:36:08.403  I  Registration: Upload accepted for AWE475390002: HTTP 200 {"updated":1,"tags":[{"id":10105,"epc":"AWE475390002","itemCode":"AWE-47539","serialNo":2}]}
+2026-11-15 13:36:08.404  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 13:36:08.819 15151 15151 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+11-15 13:36:11.432 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d1f0cc9
+11-15 13:36:11.443 15151 15151 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-15 13:36:11.832 15151 15151 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+11-15 13:36:14.235 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a5eb840
+2026-11-15 13:36:14.330  I  SerialService: 'AWE-48066': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48066 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:14.421  I  SerialService: 'AWE-48066': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48066&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:14.510  I  SerialService: 'AWE-48066': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48066&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:14.601  I  SerialService: 'AWE-48066': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48066&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:14.627  I  SerialService: 'AWE-48066': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:36:14.628  I  SerialService: 'AWE-48066': server holds 0 RFID(s); taking the lowest free serial 1 (AWE480660001)
+11-15 13:36:14.841 15151 15151 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+2026-11-15 13:36:17.285  I  SerialService: 'AWE-48066': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48066 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:17.375  I  SerialService: 'AWE-48066': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48066&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:17.470  I  SerialService: 'AWE-48066': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48066&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:17.571  I  SerialService: 'AWE-48066': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-48066&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:17.601  I  SerialService: 'AWE-48066': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:36:17.602  I  SerialService: 'AWE-48066': server holds 0 RFID(s); taking the lowest free serial 1 (AWE480660001)
+2026-11-15 13:36:18.238  I  Registration: Upload accepted for AWE480660001: HTTP 200 {"updated":1,"tags":[{"id":10106,"epc":"AWE480660001","itemCode":"AWE-48066","serialNo":1}]}
+2026-11-15 13:36:18.239  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 13:36:23.876 15151 15151 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+11-15 13:36:32.901 15151 15151 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+11-15 13:36:40.156 15151 15159 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 13:36:40.156 15151 15159 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 13:36:40.156 15151 15159 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 13:36:40.158 15151 15159 W System  : A resource failed to call close. 
+11-15 13:36:40.158 15151 15159 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 13:36:40.158 15151 15159 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 13:36:40.158 15151 15159 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 13:36:40.158 15151 15159 W System  : A resource failed to call close. 
+11-15 13:36:40.158 15151 15159 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 13:36:40.158 15151 15159 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 13:36:40.158 15151 15159 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 13:36:40.161 15151 15159 W System  : A resource failed to call close. 
+11-15 13:36:40.161 15151 15159 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 13:36:40.161 15151 15159 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 13:36:40.161 15151 15159 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 13:36:40.161 15151 15159 W System  : A resource failed to call close. 
+11-15 13:36:40.161 15151 15159 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 13:36:40.161 15151 15159 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 13:36:40.161 15151 15159 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 13:36:40.169 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:36:40.170 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:36:41.934 15151 15151 W JobService: onNetworkChanged() not implemented in com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService. Must override in a subclass.
+2026-11-15 13:36:44.016  I  SerialService: 'AWE-49738': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49738 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:46.500  I  SerialService: 'AWE-49738': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49738&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:46.587  I  SerialService: 'AWE-49738': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49738&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:46.680  I  SerialService: 'AWE-49738': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49738&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:46.702  I  SerialService: 'AWE-49738': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:36:46.703  I  SerialService: 'AWE-49738': server holds 0 RFID(s); taking the lowest free serial 1 (AWE497380001)
+2026-11-15 13:36:48.815  I  SerialService: 'AWE-49738': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49738 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:48.909  I  SerialService: 'AWE-49738': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49738&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:49.000  I  SerialService: 'AWE-49738': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49738&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:49.099  I  SerialService: 'AWE-49738': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49738&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:36:49.120  I  SerialService: 'AWE-49738': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:36:49.121  I  SerialService: 'AWE-49738': server holds 0 RFID(s); taking the lowest free serial 1 (AWE497380001)
+2026-11-15 13:36:49.836  I  Registration: Upload accepted for AWE497380001: HTTP 200 {"updated":1,"tags":[{"id":10107,"epc":"AWE497380001","itemCode":"AWE-49738","serialNo":1}]}
+2026-11-15 13:36:49.839  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 13:37:10.558 15151 15159 W System  : A resource failed to call close. 
+11-15 13:37:10.559 15151 15159 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 13:37:10.559 15151 15159 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 13:37:10.559 15151 15159 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 13:37:10.564 15151 15159 W System  : A resource failed to call close. 
+11-15 13:37:10.564 15151 15159 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 13:37:10.564 15151 15159 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 13:37:10.564 15151 15159 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 13:37:10.567 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:37:10.568 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-15 13:37:13.984  I  SerialService: 'AWE-46676': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46676 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:37:14.068  I  SerialService: 'AWE-46676': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46676&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:37:14.153  I  SerialService: 'AWE-46676': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46676&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:37:14.237  I  SerialService: 'AWE-46676': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46676&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:37:14.260  I  SerialService: 'AWE-46676': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:37:14.261  I  SerialService: 'AWE-46676': server holds 0 RFID(s); taking the lowest free serial 1 (AWE466760001)
+2026-11-15 13:37:19.910  I  SerialService: 'AWE-46676': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46676 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:37:20.001  I  SerialService: 'AWE-46676': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46676&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:37:20.088  I  SerialService: 'AWE-46676': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46676&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:37:20.178  I  SerialService: 'AWE-46676': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-46676&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:37:20.199  I  SerialService: 'AWE-46676': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:37:20.201  I  SerialService: 'AWE-46676': server holds 0 RFID(s); taking the lowest free serial 1 (AWE466760001)
+2026-11-15 13:37:20.851  I  Registration: Upload accepted for AWE466760001: HTTP 200 {"updated":1,"tags":[{"id":10108,"epc":"AWE466760001","itemCode":"AWE-46676","serialNo":1}]}
+2026-11-15 13:37:20.854  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 13:37:43.348 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:37:43.350 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-15 13:38:09.430  I  SerialService: 'AWE-44055': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-44055 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:09.512  I  SerialService: 'AWE-44055': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-44055&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:09.597  I  SerialService: 'AWE-44055': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-44055&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:09.678  I  SerialService: 'AWE-44055': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-44055&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:09.699  I  SerialService: 'AWE-44055': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:38:09.701  I  SerialService: 'AWE-44055': server holds 0 RFID(s); taking the lowest free serial 1 (AWE440550001)
+2026-11-15 13:38:11.692  I  SerialService: 'AWE-44055': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-44055 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:11.778  I  SerialService: 'AWE-44055': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-44055&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:11.856  I  SerialService: 'AWE-44055': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-44055&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:11.941  I  SerialService: 'AWE-44055': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-44055&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:11.963  I  SerialService: 'AWE-44055': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:38:11.964  I  SerialService: 'AWE-44055': server holds 0 RFID(s); taking the lowest free serial 1 (AWE440550001)
+2026-11-15 13:38:12.604  I  Registration: Upload accepted for AWE440550001: HTTP 200 {"updated":1,"tags":[{"id":10109,"epc":"AWE440550001","itemCode":"AWE-44055","serialNo":1}]}
+2026-11-15 13:38:12.607  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 13:38:24.623 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2fb4406
+11-15 13:38:24.630 15151 15151 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-15 13:38:41.718 15151 15159 W System  : A resource failed to call close. 
+11-15 13:38:41.718 15151 15159 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-15 13:38:41.718 15151 15159 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-15 13:38:41.718 15151 15159 W System  : A resource failed to call SQLiteConnection.close. 
+11-15 13:38:41.720 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:38:41.721 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:38:48.489 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@76b1348
+11-15 13:38:48.500 15151 15151 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-11-15 13:38:48.579  I  SerialService: 'AWE-49068': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49068 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:48.661  I  SerialService: 'AWE-49068': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49068&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:48.748  I  SerialService: 'AWE-49068': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49068&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:48.836  I  SerialService: 'AWE-49068': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49068&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:48.858  I  SerialService: 'AWE-49068': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:38:48.859  I  SerialService: 'AWE-49068': server holds 0 RFID(s); taking the lowest free serial 1 (AWE490680001)
+2026-11-15 13:38:52.536  I  SerialService: 'AWE-49068': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49068 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:52.619  I  SerialService: 'AWE-49068': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49068&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:52.703  I  SerialService: 'AWE-49068': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49068&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:52.788  I  SerialService: 'AWE-49068': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49068&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:38:52.818  I  SerialService: 'AWE-49068': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:38:52.819  I  SerialService: 'AWE-49068': server holds 0 RFID(s); taking the lowest free serial 1 (AWE490680001)
+2026-11-15 13:38:53.449  I  Registration: Upload accepted for AWE490680001: HTTP 200 {"updated":1,"tags":[{"id":10110,"epc":"AWE490680001","itemCode":"AWE-49068","serialNo":1}]}
+2026-11-15 13:38:53.452  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 13:39:13.238 15151 15159 W System  : A resource failed to call CursorWindow.close. 
+11-15 13:39:13.238 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+11-15 13:39:13.240 15151 15159 W System  : A resource failed to call CursorWindow.close. 
+11-15 13:39:13.240 15151 15159 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-15 13:39:14.724  I  SerialService: 'AWE-49846': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49846 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:39:14.807  I  SerialService: 'AWE-49846': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49846&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:39:14.886  I  SerialService: 'AWE-49846': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49846&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:39:14.968  I  SerialService: 'AWE-49846': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49846&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:39:14.988  I  SerialService: 'AWE-49846': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:39:14.989  I  SerialService: 'AWE-49846': server holds 0 RFID(s); taking the lowest free serial 1 (AWE498460001)
+2026-11-15 13:39:18.216  I  SerialService: 'AWE-49846': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49846 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:39:18.300  I  SerialService: 'AWE-49846': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49846&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:39:18.384  I  SerialService: 'AWE-49846': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49846&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:39:18.469  I  SerialService: 'AWE-49846': GET http://164.52.223.163:4636/api/device/products/mapped?search=AWE-49846&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-15 13:39:18.491  I  SerialService: 'AWE-49846': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-15 13:39:18.492  I  SerialService: 'AWE-49846': server holds 0 RFID(s); taking the lowest free serial 1 (AWE498460001)
+2026-11-15 13:39:19.117  I  Registration: Upload accepted for AWE498460001: HTTP 200 {"updated":1,"tags":[{"id":10111,"epc":"AWE498460001","itemCode":"AWE-49846","serialNo":1}]}
+2026-11-15 13:39:19.120  I  Registration: Uploaded 1 tag(s); 0 still pending
+11-15 13:39:27.052 15151 15151 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@22402de
+11-15 13:39:27.063 15151 15171 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#17(BLAST Consumer)17](id:3b2f00000015,api:4,p:1477,c:15151) queueBuffer: BufferQueue has been abandoned
+11-15 13:39:27.087 15151 15171 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#17(BLAST Consumer)17](id:3b2f00000015,api:4,p:1477,c:15151) cancelBuffer: BufferQueue has been abandoned
+11-15 13:39:27.088 15151 15163 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#17(BLAST Consumer)17](id:3b2f00000015,api:4,p:1477,c:15151) cancelBuffer: BufferQueue has been abandoned
+11-15 13:39:27.089 15151 15163 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#17(BLAST Consumer)17](id:3b2f00000015,api:4,p:1477,c:15151) cancelBuffer: BufferQueue has been abandoned
+11-15 13:39:27.090 15151 15163 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#17(BLAST Consumer)17](id:3b2f00000015,api:4,p:1477,c:15151) queueBuffer: BufferQueue has been abandoned
+11-15 13:39:27.090 15151 15164 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#17(BLAST Consumer)17](id:3b2f00000015,api:4,p:1477,c:15151) cancelBuffer: BufferQueue has been abandoned
+2026-11-15 13:39:31.966  I  UhfSession: UHF reader powered down: no screen is using the reader
+2026-11-15 13:39:49.434  I  Session: app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-11-15 13:39:49.444  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-11-15 13:39:49.457  I  Net: wifi connected
+2026-11-15 13:39:49.459  I  Net: wifi has internet (rssi -55 dBm)
+--------- beginning of main
+11-15 13:39:49.479 16138 16163 W QT      : qt_process_init() called
+11-15 13:39:49.479 16138 16163 E QT      : [QT]file does not exist
+11-15 13:39:49.479 16138 16163 W QT      : Support!!
+11-15 13:39:49.623 16138 16138 W HWUI    : Unknown dataspace 0
+11-15 13:39:49.794 16138 16161 W libc    : Access denied finding property "vendor.mbrain.enabled"
+11-15 13:39:49.819 16138 16161 W libc    : Access denied finding property "vendor.mbrain.enabled"
+2026-11-15 13:39:52.382  I  ProductSync: unmapped for location 2 needed 5 page(s): 898 row(s), server reported 898
+11-15 13:40:14.279 16138 16138 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b8f3168
+11-15 13:40:15.982 16138 16310 W libc    : Access denied finding property "ro.hardware.chipname"
+11-15 13:40:17.867 16138 16138 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@4b1253c
+11-15 13:40:17.871 16138 16228 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:3f0a00000006,api:4,p:1477,c:16138) queueBuffer: BufferQueue has been abandoned
+11-15 13:40:17.885 16138 16228 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:3f0a00000006,api:4,p:1477,c:16138) cancelBuffer: BufferQueue has been abandoned
+11-15 13:40:17.893 16138 16147 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:3f0a00000006,api:4,p:1477,c:16138) cancelBuffer: BufferQueue has been abandoned
+11-15 13:40:17.893 16138 16147 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:3f0a00000006,api:4,p:1477,c:16138) cancelBuffer: BufferQueue has been abandoned
+11-15 13:40:17.894 16138 16147 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:3f0a00000006,api:4,p:1477,c:16138) cancelBuffer: BufferQueue has been abandoned
+11-15 13:40:17.894 16138 16147 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#4(BLAST Consumer)4](id:3f0a00000006,api:4,p:1477,c:16138) cancelBuffer: BufferQueue has been abandoned
+2026-11-15 13:40:17.906  W  UhfSession: Could not power up the UHF reader
+2026-11-15 13:40:18.796  I  Net: Blank Audit: opened, powering the UHF module up
+2026-11-15 13:40:18.797  I  Net: Blank Audit: mapped-product sync started
+2026-11-15 13:40:18.797  I  Net: Blank Audit: local products still fresh, no sync needed
