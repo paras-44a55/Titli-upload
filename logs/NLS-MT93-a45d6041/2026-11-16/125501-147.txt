@@ -1,0 +1,554 @@
+# pushed 2026-11-16 12:55:01.147 (backgrounded)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 159880..221481
+
+2026-11-16 11:57:42.932  I  UhfSession: UHF reader powered down: app moved to the background
+11-16 11:57:46.590  8919  8931 W System  : A resource failed to call close. 
+11-16 11:57:46.590  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 11:57:46.590  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 11:57:46.590  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+2026-11-16 12:19:09.257  W  UhfSession: Could not power up the UHF reader
+2026-11-16 12:20:15.715  W  Net: wifi DISCONNECTED — link had been up for 1417s
+2026-11-16 12:20:16.158  W  LogUploader: Log push failed
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.onAppBackgrounded$lambda$4(LogUploader.kt:111)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$97WdKDTZ-jpHvA_e-mMDIwC79ws(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:463)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Linux.android_getaddrinfo(Native Method)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:133)
+	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:222)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:133)
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:135)
+	... 28 more
+2026-11-16 12:48:18.160  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$58(RegistrationActivity.kt:912)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$TT7FZ8zkUTc6x8w3XxDxD-_q_7g(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda51.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:48:18.165  E  ProductSync: unmapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$58(RegistrationActivity.kt:990)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$TT7FZ8zkUTc6x8w3XxDxD-_q_7g(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda51.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:48:18.177  E  Registration: POST http://164.52.223.163:4636/api/device/tags/serialise failed before a response was read
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.postJsonWithAuth(RegistrationActivity.kt:1458)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.flushPendingTags(RegistrationActivity.kt:1592)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$58(RegistrationActivity.kt:1060)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$TT7FZ8zkUTc6x8w3XxDxD-_q_7g(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda51.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:48:18.179  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 0
+  response: 
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.postJsonWithAuth(RegistrationActivity.kt:1458)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.flushPendingTags(RegistrationActivity.kt:1592)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$58(RegistrationActivity.kt:1060)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$TT7FZ8zkUTc6x8w3XxDxD-_q_7g(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda51.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+11-16 12:48:18.200  8919  8929 W hionapplication: Reducing the number of considered missed Gc histogram windows from 217 to 100
+11-16 12:48:18.272  8919  8949 W Parcel  : Expecting binder but got null!
+2026-11-16 12:48:20.703  I  UhfSession: UHF reader powered up
+11-16 12:48:26.878  8919  8936 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:22d700000018,api:4,p:1175,c:8919) queueBuffer: BufferQueue has been abandoned
+11-16 12:48:26.899  8919 11236 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:22d700000018,api:4,p:1175,c:8919) queueBuffer: BufferQueue has been abandoned
+11-16 12:48:26.900  8919 11236 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:22d700000018,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 12:48:26.901  8919  8936 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:22d700000018,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 12:48:26.902  8919  8936 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:22d700000018,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 12:48:26.903  8919  8936 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:22d700000018,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 12:48:26.903  8919  8936 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#18(BLAST Consumer)18](id:22d700000018,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 12:48:28.004  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 12:48:28.048  8919  8931 W System  : A resource failed to call close. 
+11-16 12:48:28.048  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 12:48:28.048  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 12:48:28.048  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 12:48:28.050  8919  8931 W System  : A resource failed to call close. 
+11-16 12:48:28.050  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 12:48:28.051  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 12:48:28.051  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 12:48:29.878  8919 24142 E ToneGenerator: --- Stop timed out
+11-16 12:48:29.880  8919 24142 W libutils.threads: Thread (this=0xb4000072adcd7650): don't call waitForExit() from this Thread object's thread. It's a guaranteed deadlock!
+2026-11-16 12:48:40.141  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$58(RegistrationActivity.kt:912)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$TT7FZ8zkUTc6x8w3XxDxD-_q_7g(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda51.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:48:40.145  E  ProductSync: unmapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$58(RegistrationActivity.kt:990)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$TT7FZ8zkUTc6x8w3XxDxD-_q_7g(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda51.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:48:40.149  E  Registration: POST http://164.52.223.163:4636/api/device/tags/serialise failed before a response was read
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.postJsonWithAuth(RegistrationActivity.kt:1458)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.flushPendingTags(RegistrationActivity.kt:1592)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$58(RegistrationActivity.kt:1060)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$TT7FZ8zkUTc6x8w3XxDxD-_q_7g(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda51.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:48:40.151  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 0
+  response: 
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.postJsonWithAuth(RegistrationActivity.kt:1458)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.flushPendingTags(RegistrationActivity.kt:1592)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.syncMappedProductsOnOpen$lambda$58(RegistrationActivity.kt:1060)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$TT7FZ8zkUTc6x8w3XxDxD-_q_7g(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda51.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+11-16 12:48:40.244  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 12:49:02.507  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 12:49:05.018  8919  8919 W libc    : Access denied finding property "vendor.scroll.fpsgo.release"
+11-16 12:49:24.822  8919  8949 W Parcel  : Expecting binder but got null!
+2026-11-16 12:49:27.846  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.refreshMappedProducts(RegistrationActivity.kt:1771)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:381)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda54.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:49:27.854  E  SerialService: RFID lookup for 'PRI-547-2' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.data.SerialService.nextFreeSerial(SerialService.kt:306)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.onItemCodeSelectionChanged$lambda$25(RegistrationActivity.kt:386)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$LWWnTSX6nv00dLcQIdEnwOerGvY(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda54.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:49:31.446  E  SerialService: RFID lookup for 'PRI-547-2' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$36(RegistrationActivity.kt:490)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$V8klY7Kx4pC6DZNVshO9X2koTPU(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda39.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:49:31.449  E  Registration: Write blocked for 'PRI-547-2': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-11-16 12:49:37.650  E  SerialService: RFID lookup for 'PRI-547-2' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$36(RegistrationActivity.kt:490)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$V8klY7Kx4pC6DZNVshO9X2koTPU(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda39.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:49:37.652  E  Registration: Write blocked for 'PRI-547-2': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-11-16 12:49:49.775  E  SerialService: RFID lookup for 'PRI-547-2' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$36(RegistrationActivity.kt:490)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$V8klY7Kx4pC6DZNVshO9X2koTPU(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda39.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:49:49.777  E  Registration: Write blocked for 'PRI-547-2': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-11-16 12:50:00.800  E  SerialService: RFID lookup for 'PRI-547-2' failed: GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.SerialService.queryMapped(SerialService.kt:168)
+	at com.poxo.tittlifashionapplication.data.SerialService.writtenSerials(SerialService.kt:101)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial(SerialService.kt:276)
+	at com.poxo.tittlifashionapplication.data.SerialService.claimNextSerial$default(SerialService.kt:275)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.executeWrite$lambda$36(RegistrationActivity.kt:490)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$V8klY7Kx4pC6DZNVshO9X2koTPU(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda39.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:50:00.802  E  Registration: Write blocked for 'PRI-547-2': no serial could be reserved (Failed to connect to /164.52.223.163:4636)
+2026-11-16 12:50:09.283  I  Net: wifi connected
+2026-11-16 12:50:09.286  W  Net: wifi is up but has NO internet (rssi -75 dBm)
+2026-11-16 12:50:09.313  I  Net: wifi has internet (rssi -75 dBm)
+2026-11-16 12:50:22.357  I  SerialService: 'PRI-547-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:50:22.558  I  SerialService: 'PRI-547-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:50:22.566  I  SerialService: 'PRI-547-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:50:22.788  I  SerialService: 'PRI-547-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:50:22.788  I  SerialService: 'PRI-547-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:50:22.997  I  SerialService: 'PRI-547-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:50:22.997  I  SerialService: 'PRI-547-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:50:23.018  I  SerialService: 'PRI-547-2': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 12:50:23.019  I  SerialService: 'PRI-547-2': server holds 0 RFID(s); taking the lowest free serial 1 (PRI54720001)
+2026-11-16 12:50:23.223  I  SerialService: 'PRI-547-2': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-2&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:50:23.239  I  SerialService: 'PRI-547-2': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 12:50:23.240  I  SerialService: 'PRI-547-2': server holds 0 RFID(s); taking the lowest free serial 1 (PRI54720001)
+11-16 12:50:27.078  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 12:50:27.078  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 12:50:27.078  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 12:50:27.078  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-16 12:50:27.336  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 12:50:27.457  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 12:50:27.513  E  Registration: No product id for item code 'PRI-547-2' - tag PRI54720001 (serial 1) saved with id -1 and cannot be uploaded until Sync Data runs. Neither unMappedProduct nor mappedProduct has a row for it.
+11-16 12:50:27.516  8919 24511 W System.err: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: serialized_tags.epc (code 1555 SQLITE_CONSTRAINT_PRIMARYKEY)
+11-16 12:50:27.522  8919 24511 W System.err: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+2026-11-16 12:50:27.523  E  Registration: EPC collision: PRI54720001 (seq 1, item PRI-547-2) already exists in serialized_tags - the allocator handed out a number already in use
+11-16 12:50:27.522  8919 24511 W System.err: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:961)
+11-16 12:50:27.522  8919 24511 W System.err: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+11-16 12:50:27.523  8919 24511 W System.err: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+11-16 12:50:27.523  8919 24511 W System.err: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1868)
+11-16 12:50:27.523  8919 24511 W System.err: 	at com.poxo.tittlifashionapplication.data.AssetRepository.insertSerializedTag(AssetRepository.kt:933)
+11-16 12:50:27.523  8919 24511 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.saveAndUploadTag$lambda$41(RegistrationActivity.kt:706)
+11-16 12:50:27.523  8919 24511 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity.$r8$lambda$4mazch67Rtxtx1TM9sU1Cw-LAfw(Unknown Source:0)
+11-16 12:50:27.523  8919 24511 W System.err: 	at com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+11-16 12:50:27.523  8919 24511 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+2026-11-16 12:50:27.818  I  Registration: Upload accepted for PRI54720001: HTTP 200 {"updated":1,"tags":[{"id":10126,"epc":"PRI54720001","itemCode":"PRI-547-2","serialNo":1}]}
+2026-11-16 12:50:27.822  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 12:50:30.936  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 12:50:30.936  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 12:50:30.937  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 12:50:30.937  8919  8931 W System  : A resource failed to call close. 
+11-16 12:50:30.940  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 12:50:30.940  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 12:50:30.941  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 12:50:30.941  8919  8931 W System  : A resource failed to call close. 
+11-16 12:50:33.208  8919 24437 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#23(BLAST Consumer)23](id:22d70000001f,api:4,p:1175,c:8919) queueBuffer: BufferQueue has been abandoned
+11-16 12:50:33.230  8919 24437 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#23(BLAST Consumer)23](id:22d70000001f,api:4,p:1175,c:8919) queueBuffer: BufferQueue has been abandoned
+11-16 12:50:33.231  8919 24437 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#23(BLAST Consumer)23](id:22d70000001f,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 12:50:33.232  8919 24437 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#23(BLAST Consumer)23](id:22d70000001f,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 12:50:33.232  8919 24437 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#23(BLAST Consumer)23](id:22d70000001f,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 12:50:33.233  8919 24437 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#23(BLAST Consumer)23](id:22d70000001f,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 12:50:33.234  8919 24437 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#23(BLAST Consumer)23](id:22d70000001f,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 12:50:34.483  8919  8949 W Parcel  : Expecting binder but got null!
+2026-11-16 12:51:32.451  I  UhfSession: UHF reader powered down: no screen is using the reader
+11-16 12:51:32.504  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 12:51:34.458  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 12:51:34.458  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 12:51:34.459  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 12:51:34.459  8919  8931 W System  : A resource failed to call close. 
+2026-11-16 12:51:34.959  W  UhfSession: Could not power up the UHF reader
+11-16 12:51:37.350  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 12:51:37.350  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 12:51:37.351  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 12:51:37.351  8919  8931 W System  : A resource failed to call close. 
+11-16 12:51:40.418  8919  8931 W System  : A resource failed to call close. 
+2026-11-16 12:51:45.782  I  ProductSync: unmapped for location 1 needed 5 page(s): 883 row(s), server reported 883
+2026-11-16 12:51:46.060  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 12:51:46.186  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-16 12:51:57.529  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 12:51:57.529  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 12:51:57.529  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 12:51:57.529  8919  8931 W System  : A resource failed to call close. 
+11-16 12:51:57.530  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 12:51:57.530  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 12:51:57.530  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 12:52:08.257  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 12:52:17.512  8919  8949 W Parcel  : Expecting binder but got null!
+2026-11-16 12:52:19.003  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:19.161  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:19.383  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:19.640  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:19.674  I  SerialService: 'PRI-547-1': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 12:52:19.677  I  SerialService: 'PRI-547-1': server holds 0 RFID(s); taking the lowest free serial 1 (PRI54710001)
+2026-11-16 12:52:21.763  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:22.261  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:22.541  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:22.755  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:22.775  I  SerialService: 'PRI-547-1': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 12:52:22.776  I  SerialService: 'PRI-547-1': server holds 0 RFID(s); taking the lowest free serial 1 (PRI54710001)
+11-16 12:52:23.250  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 12:52:23.251  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 12:52:23.252  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 12:52:23.253  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-16 12:52:25.328  I  UhfSession: UHF reader powered up
+2026-11-16 12:52:28.468  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+2026-11-16 12:52:31.939  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:32.147  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:32.578  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:32.752  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:32.769  I  SerialService: 'PRI-547-1': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 12:52:32.770  I  SerialService: 'PRI-547-1': server holds 0 RFID(s); taking the lowest free serial 1 (PRI54710001)
+2026-11-16 12:52:34.496  W  Registration: Write failed: Write Failed after 3 attempts. Keep tag close and try again.
+11-16 12:52:40.459  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 12:52:40.459  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-16 12:52:42.217  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:42.461  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:42.709  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:42.917  I  SerialService: 'PRI-547-1': GET http://164.52.223.163:4636/api/device/products/mapped?search=PRI-547-1&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:52:42.943  I  SerialService: 'PRI-547-1': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 12:52:42.945  I  SerialService: 'PRI-547-1': server holds 0 RFID(s); taking the lowest free serial 1 (PRI54710001)
+2026-11-16 12:52:43.752  I  Registration: Upload accepted for PRI54710001: HTTP 200 {"updated":1,"tags":[{"id":10127,"epc":"PRI54710001","itemCode":"PRI-547-1","serialNo":1}]}
+2026-11-16 12:52:43.900  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 12:52:44.024  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 12:52:44.027  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 12:52:54.252  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 12:52:54.252  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 12:52:56.920  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 12:53:09.191  8919  8949 W Parcel  : Expecting binder but got null!
+2026-11-16 12:53:09.240  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 12:53:09.337  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-16 12:53:10.850  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 12:53:10.850  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 12:53:10.850  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 12:53:10.851  8919  8931 W System  : A resource failed to call close. 
+11-16 12:53:16.467  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 12:53:34.111  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 12:53:39.161  8919  8919 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-16 12:53:41.109  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 12:53:41.110  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 12:53:41.111  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 12:53:41.111  8919  8931 W System  : A resource failed to call close. 
+11-16 12:53:44.693  8919  8931 W System  : A resource failed to call close. 
+2026-11-16 12:53:44.881  I  SerialService: 'VAN-3575': GET http://164.52.223.163:4636/api/device/products/mapped?search=VAN-3575 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:53:45.042  I  SerialService: 'VAN-3575': GET http://164.52.223.163:4636/api/device/products/mapped?search=VAN-3575&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:53:45.218  I  SerialService: 'VAN-3575': GET http://164.52.223.163:4636/api/device/products/mapped?search=VAN-3575&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:53:45.419  I  SerialService: 'VAN-3575': GET http://164.52.223.163:4636/api/device/products/mapped?search=VAN-3575&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:53:45.437  I  SerialService: 'VAN-3575': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 12:53:45.442  I  SerialService: 'VAN-3575': server holds 0 RFID(s); taking the lowest free serial 1 (VAN35750001)
+2026-11-16 12:53:50.950  I  SerialService: 'VAN-3575': GET http://164.52.223.163:4636/api/device/products/mapped?search=VAN-3575 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:53:51.120  I  SerialService: 'VAN-3575': GET http://164.52.223.163:4636/api/device/products/mapped?search=VAN-3575&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:53:51.341  I  SerialService: 'VAN-3575': GET http://164.52.223.163:4636/api/device/products/mapped?search=VAN-3575&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:53:51.560  I  SerialService: 'VAN-3575': GET http://164.52.223.163:4636/api/device/products/mapped?search=VAN-3575&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 12:53:51.590  I  SerialService: 'VAN-3575': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 12:53:51.592  I  SerialService: 'VAN-3575': server holds 0 RFID(s); taking the lowest free serial 1 (VAN35750001)
+2026-11-16 12:53:52.442  I  Registration: Upload accepted for VAN35750001: HTTP 200 {"updated":1,"tags":[{"id":10128,"epc":"VAN35750001","itemCode":"VAN-3575","serialNo":1}]}
+2026-11-16 12:53:52.754  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 12:53:52.964  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 12:53:52.966  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 12:53:57.280  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 12:53:57.281  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 12:53:57.284  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 12:53:57.284  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 12:54:15.485  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 12:54:15.486  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 12:54:15.487  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
