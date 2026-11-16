@@ -1,0 +1,471 @@
+# pushed 2026-11-16 16:58:07.700 (backgrounded)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 406106..460762
+
+11-16 16:49:10.704  8919  8929 W hionapplication: Reducing the number of considered missed Gc histogram windows from 303 to 100
+11-16 16:49:10.720  8919  8931 W System  : A resource failed to call close. 
+11-16 16:49:10.721  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 16:49:10.721  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 16:49:10.721  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+2026-11-16 16:49:11.013  I  UhfSession: UHF reader powered down: app moved to the background
+2026-11-16 16:49:51.257  W  UhfSession: Could not power up the UHF reader
+11-16 16:50:00.377  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 16:50:03.357  8919  8931 W System  : A resource failed to call close. 
+11-16 16:50:03.357  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 16:50:03.357  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 16:50:03.357  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+2026-11-16 16:50:03.668  I  UhfSession: UHF reader powered up
+2026-11-16 16:50:12.109  I  ProductSync: unmapped for location 1 needed 5 page(s): 901 row(s), server reported 901
+2026-11-16 16:50:12.445  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:50:12.540  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-16 16:50:17.285  8919  8931 W System  : A resource failed to call close. 
+2026-11-16 16:50:17.658  I  SerialService: 'DHL-3105': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3105 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:50:17.824  I  SerialService: 'DHL-3105': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3105&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:50:18.037  I  SerialService: 'DHL-3105': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3105&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:50:18.208  I  SerialService: 'DHL-3105': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3105&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:50:18.233  I  SerialService: 'DHL-3105': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:50:18.234  I  SerialService: 'DHL-3105': server holds 0 RFID(s); taking the lowest free serial 1 (DHL31050001)
+2026-11-16 16:50:22.101  I  SerialService: 'DHL-3105': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3105 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:50:22.261  I  SerialService: 'DHL-3105': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3105&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:50:22.444  I  SerialService: 'DHL-3105': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3105&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:50:22.616  I  SerialService: 'DHL-3105': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3105&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:50:22.643  I  SerialService: 'DHL-3105': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:50:22.644  I  SerialService: 'DHL-3105': server holds 0 RFID(s); taking the lowest free serial 1 (DHL31050001)
+2026-11-16 16:50:23.289  I  Registration: Upload accepted for DHL31050001: HTTP 200 {"updated":1,"tags":[{"id":10161,"epc":"DHL31050001","itemCode":"DHL-3105","serialNo":1}]}
+2026-11-16 16:50:23.371  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:50:23.470  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:50:23.472  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-16 16:50:36.141  I  SerialService: 'DHL-3105': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (DHL31050002)
+2026-11-16 16:50:38.041  I  Registration: Upload accepted for DHL31050002: HTTP 200 {"updated":1,"tags":[{"id":10162,"epc":"DHL31050002","itemCode":"DHL-3105","serialNo":2}]}
+2026-11-16 16:50:38.138  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:50:38.270  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:50:38.274  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 16:50:53.650  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:50:53.650  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:50:53.652  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:50:53.652  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:50:53.652  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:50:53.652  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:50:53.653  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 16:50:53.653  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 16:50:53.653  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 16:50:53.653  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 16:50:53.653  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 16:50:53.653  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 16:50:53.653  8919  8931 W System  : A resource failed to call close. 
+2026-11-16 16:51:31.237  I  SerialService: 'DHL-3167': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3167 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:51:31.410  I  SerialService: 'DHL-3167': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3167&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:51:31.569  I  SerialService: 'DHL-3167': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3167&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:51:31.730  I  SerialService: 'DHL-3167': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3167&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:51:31.754  I  SerialService: 'DHL-3167': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:51:31.755  I  SerialService: 'DHL-3167': server holds 0 RFID(s); taking the lowest free serial 1 (DHL31670001)
+11-16 16:51:36.208  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:51:36.208  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-16 16:51:36.452  I  SerialService: 'DHL-3167': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3167 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:51:36.617  I  SerialService: 'DHL-3167': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3167&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:51:36.792  I  SerialService: 'DHL-3167': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3167&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:51:36.978  I  SerialService: 'DHL-3167': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3167&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:51:37.012  I  SerialService: 'DHL-3167': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:51:37.014  I  SerialService: 'DHL-3167': server holds 0 RFID(s); taking the lowest free serial 1 (DHL31670001)
+2026-11-16 16:51:37.541  I  Registration: Upload accepted for DHL31670001: HTTP 200 {"updated":1,"tags":[{"id":10163,"epc":"DHL31670001","itemCode":"DHL-3167","serialNo":1}]}
+2026-11-16 16:51:37.651  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:51:37.743  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:51:37.748  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-16 16:51:45.513  I  SerialService: 'DHL-3167': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (DHL31670002)
+2026-11-16 16:51:46.028  I  Registration: Upload accepted for DHL31670002: HTTP 200 {"updated":1,"tags":[{"id":10164,"epc":"DHL31670002","itemCode":"DHL-3167","serialNo":2}]}
+2026-11-16 16:51:46.109  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:51:46.251  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:51:46.254  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-16 16:51:56.624  I  SerialService: 'DHL-3167': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (DHL31670003)
+2026-11-16 16:51:57.124  I  Registration: Upload accepted for DHL31670003: HTTP 200 {"updated":1,"tags":[{"id":10165,"epc":"DHL31670003","itemCode":"DHL-3167","serialNo":3}]}
+2026-11-16 16:51:57.250  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:51:57.453  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:51:57.456  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-16 16:52:01.894  I  SerialService: 'DHL-3167': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (DHL31670004)
+2026-11-16 16:52:02.397  I  Registration: Upload accepted for DHL31670004: HTTP 200 {"updated":1,"tags":[{"id":10166,"epc":"DHL31670004","itemCode":"DHL-3167","serialNo":4}]}
+2026-11-16 16:52:02.495  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:52:02.586  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:52:02.589  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-16 16:52:15.138  I  SerialService: 'DHL-6005': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-6005 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:52:15.312  I  SerialService: 'DHL-6005': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-6005&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:52:15.515  I  SerialService: 'DHL-6005': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-6005&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:52:15.720  I  SerialService: 'DHL-6005': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-6005&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:52:15.740  I  SerialService: 'DHL-6005': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:52:15.741  I  SerialService: 'DHL-6005': server holds 0 RFID(s); taking the lowest free serial 1 (DHL60050001)
+2026-11-16 16:52:18.116  I  SerialService: 'DHL-6005': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-6005 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:52:18.375  I  SerialService: 'DHL-6005': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-6005&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:52:18.561  I  SerialService: 'DHL-6005': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-6005&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+11-16 16:52:18.685  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:52:18.685  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:52:18.690  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:52:18.690  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:52:18.691  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:52:18.692  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:52:18.696  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:52:18.696  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:52:18.699  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:52:18.700  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:52:18.700  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 16:52:18.701  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 16:52:18.701  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 16:52:18.702  8919  8931 W System  : A resource failed to call close. 
+2026-11-16 16:52:18.726  I  SerialService: 'DHL-6005': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-6005&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:52:18.782  I  SerialService: 'DHL-6005': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:52:18.783  I  SerialService: 'DHL-6005': server holds 0 RFID(s); taking the lowest free serial 1 (DHL60050001)
+2026-11-16 16:52:19.399  I  Registration: Upload accepted for DHL60050001: HTTP 200 {"updated":1,"tags":[{"id":10167,"epc":"DHL60050001","itemCode":"DHL-6005","serialNo":1}]}
+2026-11-16 16:52:19.559  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:52:19.937  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:52:19.940  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 16:52:36.337  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:52:36.338  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:52:53.460  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 16:53:01.736  8919  8949 W Parcel  : Expecting binder but got null!
+2026-11-16 16:53:09.469  I  SerialService: 'DHL-SL-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-SL-7 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:09.672  I  SerialService: 'DHL-SL-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-SL-7&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:09.833  I  SerialService: 'DHL-SL-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-SL-7&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:09.981  I  SerialService: 'DHL-SL-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-SL-7&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:10.001  I  SerialService: 'DHL-SL-7': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:53:10.002  I  SerialService: 'DHL-SL-7': server holds 0 RFID(s); taking the lowest free serial 1 (DHLSL70001)
+2026-11-16 16:53:11.172  I  SerialService: 'DHL-SL-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-SL-7 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:11.332  I  SerialService: 'DHL-SL-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-SL-7&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:11.501  I  SerialService: 'DHL-SL-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-SL-7&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:11.650  I  SerialService: 'DHL-SL-7': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-SL-7&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:11.673  I  SerialService: 'DHL-SL-7': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:53:11.675  I  SerialService: 'DHL-SL-7': server holds 0 RFID(s); taking the lowest free serial 1 (DHLSL70001)
+2026-11-16 16:53:12.162  I  Registration: Upload accepted for DHLSL70001: HTTP 200 {"updated":1,"tags":[{"id":10168,"epc":"DHLSL70001","itemCode":"DHL-SL-7","serialNo":1}]}
+2026-11-16 16:53:12.269  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:53:12.358  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:53:12.360  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 16:53:12.732  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:53:12.732  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:53:12.733  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:53:12.734  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:53:14.927  8919  1611 E native  : E0000 00:00:1794828194.927174    1611 s2polygon.cc:956] UNION operation failed: Given edges do not form loops (indegree != outdegree)
+11-16 16:53:14.927  8919  1611 E native  : E0000 00:00:1794828194.927696    1611 s2polygon.cc:956] INTERSECTION operation failed: Given edges do not form loops (indegree != outdegree)
+11-16 16:53:14.927  8919  1611 E native  : E0000 00:00:1794828194.927970    1611 s2polygon.cc:956] UNION operation failed: Given edges do not form loops (indegree != outdegree)
+11-16 16:53:14.928  8919  1611 E native  : E0000 00:00:1794828194.928169    1611 s2polygon.cc:956] INTERSECTION operation failed: Given edges do not form loops (indegree != outdegree)
+2026-11-16 16:53:20.640  I  SerialService: 'DHL-SL-7': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (DHLSL70002)
+2026-11-16 16:53:21.160  I  Registration: Upload accepted for DHLSL70002: HTTP 200 {"updated":1,"tags":[{"id":10169,"epc":"DHLSL70002","itemCode":"DHL-SL-7","serialNo":2}]}
+2026-11-16 16:53:21.311  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:53:21.474  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:53:21.477  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-16 16:53:28.828  I  SerialService: 'DHL-SL-7': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (DHLSL70003)
+2026-11-16 16:53:29.581  I  Registration: Upload accepted for DHLSL70003: HTTP 200 {"updated":1,"tags":[{"id":10170,"epc":"DHLSL70003","itemCode":"DHL-SL-7","serialNo":3}]}
+2026-11-16 16:53:29.679  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:53:30.074  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:53:30.076  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 16:53:42.672  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 16:53:44.698  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:53:44.698  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:53:44.700  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:53:44.700  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:53:44.703  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 16:53:44.703  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 16:53:44.703  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 16:53:44.703  8919  8931 W System  : A resource failed to call close. 
+11-16 16:53:48.693  8919  8919 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-16 16:53:50.873  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 16:53:52.887  8919  8919 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2026-11-16 16:53:53.045  I  SerialService: 'DHL-8001': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-8001 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:53.189  I  SerialService: 'DHL-8001': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-8001&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:53.483  I  SerialService: 'DHL-8001': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-8001&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:53.639  I  SerialService: 'DHL-8001': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-8001&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:53.656  I  SerialService: 'DHL-8001': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:53:53.657  I  SerialService: 'DHL-8001': server holds 0 RFID(s); taking the lowest free serial 1 (DHL80010001)
+2026-11-16 16:53:56.025  I  SerialService: 'DHL-8001': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-8001 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:56.273  I  SerialService: 'DHL-8001': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-8001&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:56.473  I  SerialService: 'DHL-8001': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-8001&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:56.651  I  SerialService: 'DHL-8001': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-8001&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:53:56.678  I  SerialService: 'DHL-8001': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:53:56.679  I  SerialService: 'DHL-8001': server holds 0 RFID(s); taking the lowest free serial 1 (DHL80010001)
+2026-11-16 16:53:57.210  I  Registration: Upload accepted for DHL80010001: HTTP 200 {"updated":1,"tags":[{"id":10171,"epc":"DHL80010001","itemCode":"DHL-8001","serialNo":1}]}
+2026-11-16 16:53:57.323  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:53:57.430  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:53:57.433  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 16:54:01.236  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:54:01.236  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:54:01.238  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:54:01.238  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:54:07.423  8919  8949 W Parcel  : Expecting binder but got null!
+2026-11-16 16:54:13.002  I  SerialService: 'DHL-3119': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3119 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:13.229  I  SerialService: 'DHL-3119': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3119&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:13.411  I  SerialService: 'DHL-3119': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3119&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:13.653  I  SerialService: 'DHL-3119': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3119&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:13.705  I  SerialService: 'DHL-3119': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:54:13.708  I  SerialService: 'DHL-3119': server holds 0 RFID(s); taking the lowest free serial 1 (DHL31190001)
+2026-11-16 16:54:17.200  I  SerialService: 'DHL-3119': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3119 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:17.589  I  SerialService: 'DHL-3119': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3119&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:17.747  I  SerialService: 'DHL-3119': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3119&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:17.912  I  SerialService: 'DHL-3119': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3119&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:17.937  I  SerialService: 'DHL-3119': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:54:17.938  I  SerialService: 'DHL-3119': server holds 0 RFID(s); taking the lowest free serial 1 (DHL31190001)
+2026-11-16 16:54:18.395  I  Registration: Upload accepted for DHL31190001: HTTP 200 {"updated":1,"tags":[{"id":10172,"epc":"DHL31190001","itemCode":"DHL-3119","serialNo":1}]}
+2026-11-16 16:54:18.512  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:54:18.980  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:54:18.984  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 16:54:29.550  8919  8949 W Parcel  : Expecting binder but got null!
+2026-11-16 16:54:31.910  I  SerialService: 'DHL-3143': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3143 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:32.130  I  SerialService: 'DHL-3143': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3143&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:32.273  I  SerialService: 'DHL-3143': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3143&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:32.542  I  SerialService: 'DHL-3143': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3143&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:32.559  I  SerialService: 'DHL-3143': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:54:32.560  I  SerialService: 'DHL-3143': server holds 0 RFID(s); taking the lowest free serial 1 (DHL31430001)
+2026-11-16 16:54:38.555  I  SerialService: 'DHL-3143': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3143 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:38.723  I  SerialService: 'DHL-3143': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3143&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:38.885  I  SerialService: 'DHL-3143': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3143&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:39.168  I  SerialService: 'DHL-3143': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-3143&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:54:39.198  I  SerialService: 'DHL-3143': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:54:39.199  I  SerialService: 'DHL-3143': server holds 0 RFID(s); taking the lowest free serial 1 (DHL31430001)
+2026-11-16 16:54:39.695  I  Registration: Upload accepted for DHL31430001: HTTP 200 {"updated":1,"tags":[{"id":10173,"epc":"DHL31430001","itemCode":"DHL-3143","serialNo":1}]}
+2026-11-16 16:54:39.786  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:54:39.874  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:54:39.876  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 16:54:44.383  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:54:44.383  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:54:44.386  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:54:44.386  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:54:44.390  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:54:44.390  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:54:44.391  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:54:44.391  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:54:44.391  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 16:54:44.391  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 16:54:44.391  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 16:54:44.391  8919  8931 W System  : A resource failed to call close. 
+11-16 16:54:45.769  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 16:54:56.908  8919  8949 W Parcel  : Expecting binder but got null!
+2026-11-16 16:54:56.961  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:54:57.510  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-16 16:55:03.788  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 16:55:06.828  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 16:55:06.828  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 16:55:06.828  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 16:55:06.828  8919  8931 W System  : A resource failed to call close. 
+2026-11-16 16:55:07.228  I  SerialService: 'DHL-1301': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-1301 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:07.392  I  SerialService: 'DHL-1301': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-1301&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:07.555  I  SerialService: 'DHL-1301': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-1301&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:07.782  I  SerialService: 'DHL-1301': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-1301&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:07.827  I  SerialService: 'DHL-1301': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:55:07.829  I  SerialService: 'DHL-1301': server holds 0 RFID(s); taking the lowest free serial 1 (DHL13010001)
+2026-11-16 16:55:11.382  I  SerialService: 'DHL-1301': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-1301 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:11.699  I  SerialService: 'DHL-1301': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-1301&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:11.856  I  SerialService: 'DHL-1301': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-1301&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:12.018  I  SerialService: 'DHL-1301': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-1301&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:12.040  I  SerialService: 'DHL-1301': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:55:12.041  I  SerialService: 'DHL-1301': server holds 0 RFID(s); taking the lowest free serial 1 (DHL13010001)
+2026-11-16 16:55:12.600  I  Registration: Upload accepted for DHL13010001: HTTP 200 {"updated":1,"tags":[{"id":10174,"epc":"DHL13010001","itemCode":"DHL-1301","serialNo":1}]}
+2026-11-16 16:55:12.680  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:55:12.832  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:55:12.836  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 16:55:19.948  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:55:19.948  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:55:19.948  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:55:19.948  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-16 16:55:20.121  I  SerialService: 'DHL-1301': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (DHL13010002)
+2026-11-16 16:55:21.017  I  Registration: Upload accepted for DHL13010002: HTTP 200 {"updated":1,"tags":[{"id":10175,"epc":"DHL13010002","itemCode":"DHL-1301","serialNo":2}]}
+2026-11-16 16:55:21.205  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:55:21.290  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:55:21.293  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 16:55:29.733  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 16:55:31.547  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:55:31.547  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:55:32.150  8919  8931 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-16 16:55:32.150  8919  8931 W System  : A resource failed to call SQLiteConnection.close. 
+11-16 16:55:32.151  8919  8931 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-16 16:55:32.151  8919  8931 W System  : A resource failed to call close. 
+2026-11-16 16:55:34.213  I  SerialService: 'DHL-4109': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-4109 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:34.366  I  SerialService: 'DHL-4109': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-4109&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:34.527  I  SerialService: 'DHL-4109': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-4109&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:34.672  I  SerialService: 'DHL-4109': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-4109&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:34.695  I  SerialService: 'DHL-4109': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:55:34.696  I  SerialService: 'DHL-4109': server holds 0 RFID(s); taking the lowest free serial 1 (DHL41090001)
+2026-11-16 16:55:36.369  I  SerialService: 'DHL-4109': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-4109 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:36.517  I  SerialService: 'DHL-4109': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-4109&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:36.667  I  SerialService: 'DHL-4109': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-4109&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:36.852  I  SerialService: 'DHL-4109': GET http://164.52.223.163:4636/api/device/products/mapped?search=DHL-4109&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-16 16:55:36.884  I  SerialService: 'DHL-4109': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-16 16:55:36.885  I  SerialService: 'DHL-4109': server holds 0 RFID(s); taking the lowest free serial 1 (DHL41090001)
+2026-11-16 16:55:37.406  I  Registration: Upload accepted for DHL41090001: HTTP 200 {"updated":1,"tags":[{"id":10176,"epc":"DHL41090001","itemCode":"DHL-4109","serialNo":1}]}
+2026-11-16 16:55:37.552  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:55:37.696  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:55:37.698  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 16:55:41.820  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:55:41.820  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+11-16 16:55:41.821  8919  8931 W System  : A resource failed to call CursorWindow.close. 
+11-16 16:55:41.821  8919  8931 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-16 16:55:43.662  I  SerialService: 'DHL-4109': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (DHL41090002)
+2026-11-16 16:55:44.160  I  Registration: Upload accepted for DHL41090002: HTTP 200 {"updated":1,"tags":[{"id":10177,"epc":"DHL41090002","itemCode":"DHL-4109","serialNo":2}]}
+2026-11-16 16:55:44.382  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:55:44.479  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-16 16:55:44.483  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-16 16:55:49.578  8919  8936 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#190(BLAST Consumer)190](id:22d7000000fc,api:4,p:1175,c:8919) queueBuffer: BufferQueue has been abandoned
+11-16 16:55:49.587  8919  8936 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#190(BLAST Consumer)190](id:22d7000000fc,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 16:55:49.587  8919  8936 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#190(BLAST Consumer)190](id:22d7000000fc,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 16:55:49.588  8919  8936 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#190(BLAST Consumer)190](id:22d7000000fc,api:4,p:1175,c:8919) cancelBuffer: BufferQueue has been abandoned
+11-16 16:55:53.074  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 16:56:00.390  8919  8949 W Parcel  : Expecting binder but got null!
+2026-11-16 16:56:00.444  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-16 16:56:00.559  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-16 16:56:01.410  8919  8949 W Parcel  : Expecting binder but got null!
+11-16 16:56:07.644  8919  8949 W Parcel  : Expecting binder but got null!
+2026-11-16 16:56:16.660  I  UhfSession: UHF reader powered down: no screen is using the reader
