@@ -1,0 +1,282 @@
+# pushed 2026-11-20 14:35:18.309 (scheduled)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 213382..245744
+
+11-20 12:49:42.659  9150  9200 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+11-20 12:49:42.669  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 12:49:42.670  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 12:49:42.671  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 12:49:42.671  9150  9202 W System  : A resource failed to call close. 
+11-20 12:49:42.676  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 12:49:42.676  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 12:49:42.677  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 12:49:42.677  9150  9202 W System  : A resource failed to call close. 
+2026-11-20 12:49:45.705  I  UhfSession: UHF reader powered down: no screen is using the reader
+11-20 12:49:45.806  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 12:49:46.647  9150  9150 W CameraX-camerax: type=1400 audit(0.0:722): avc: denied { ioctl } for path="/proc/perfmgr/perf_ioctl" dev="proc" ino=4026534111 ioctlcmd=0x6717 scontext=u:r:untrusted_app:s0:c167,c256,c512,c768 tcontext=u:object_r:proc_perfmgr:s0 tclass=file permissive=0 app=com.poxo.tittlifashionapplication
+11-20 12:49:46.774  9150 11260 W libc    : Access denied finding property "ro.hardware.chipname"
+2026-11-20 12:49:48.218  W  UhfSession: Could not power up the UHF reader
+11-20 12:49:48.553  9150  9202 W System  : A resource failed to call close. 
+2026-11-20 12:49:49.274  I  ProductSync: unmapped for location 1 needed 5 page(s): 932 row(s), server reported 932
+2026-11-20 12:49:49.797  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-20 12:49:49.902  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-20 12:49:51.853  I  SerialService: 'AFE-2206': GET http://164.52.223.163:4636/api/device/products/mapped?search=AFE-2206 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 12:49:52.023  I  SerialService: 'AFE-2206': GET http://164.52.223.163:4636/api/device/products/mapped?search=AFE-2206&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 12:49:52.196  I  SerialService: 'AFE-2206': GET http://164.52.223.163:4636/api/device/products/mapped?search=AFE-2206&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 12:49:52.390  I  SerialService: 'AFE-2206': GET http://164.52.223.163:4636/api/device/products/mapped?search=AFE-2206&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 12:49:52.405  I  SerialService: 'AFE-2206': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-20 12:49:52.407  I  SerialService: 'AFE-2206': server holds 0 RFID(s); taking the lowest free serial 1 (AFE22060001)
+2026-11-20 12:49:55.411  I  SerialService: 'AFE-2206': GET http://164.52.223.163:4636/api/device/products/mapped?search=AFE-2206 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 12:49:55.594  I  SerialService: 'AFE-2206': GET http://164.52.223.163:4636/api/device/products/mapped?search=AFE-2206&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 12:49:55.772  I  SerialService: 'AFE-2206': GET http://164.52.223.163:4636/api/device/products/mapped?search=AFE-2206&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 12:49:56.084  I  SerialService: 'AFE-2206': GET http://164.52.223.163:4636/api/device/products/mapped?search=AFE-2206&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 12:49:56.108  I  SerialService: 'AFE-2206': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-20 12:49:56.110  I  SerialService: 'AFE-2206': server holds 0 RFID(s); taking the lowest free serial 1 (AFE22060001)
+2026-11-20 12:49:58.667  I  UhfSession: UHF reader powered up
+2026-11-20 12:49:59.521  I  Registration: Upload accepted for AFE22060001: HTTP 200 {"updated":1,"tags":[{"id":10232,"epc":"AFE22060001","itemCode":"AFE-2206","serialNo":1}]}
+2026-11-20 12:49:59.628  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-20 12:49:59.806  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-20 12:49:59.810  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-20 12:50:06.297  9150 11272 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:23be00000008,api:4,p:1154,c:9150) queueBuffer: BufferQueue has been abandoned
+11-20 12:50:06.299  9150 11272 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:23be00000008,api:4,p:1154,c:9150) cancelBuffer: BufferQueue has been abandoned
+11-20 12:50:06.304  9150  9210 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:23be00000008,api:4,p:1154,c:9150) cancelBuffer: BufferQueue has been abandoned
+11-20 12:50:06.305  9150  9210 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:23be00000008,api:4,p:1154,c:9150) cancelBuffer: BufferQueue has been abandoned
+11-20 12:50:06.305  9150  9210 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:23be00000008,api:4,p:1154,c:9150) cancelBuffer: BufferQueue has been abandoned
+11-20 12:50:06.308  9150  9210 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#6(BLAST Consumer)6](id:23be00000008,api:4,p:1154,c:9150) cancelBuffer: BufferQueue has been abandoned
+11-20 12:50:07.563  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 12:50:27.291  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 12:50:30.246  9150  9150 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+11-20 12:50:30.246  9150  9150 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-20 12:50:32.083  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 12:50:40.513  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 12:50:59.539  9150  9150 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+11-20 12:50:59.539  9150  9150 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-20 12:51:03.194  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 12:51:23.574  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 12:51:31.771  9150  9270 W Parcel  : Expecting binder but got null!
+2026-11-20 12:51:59.552  I  UhfSession: UHF reader powered down: app moved to the background
+11-20 12:52:03.859  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 12:52:03.860  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 12:52:03.865  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 12:52:03.871  9150  9202 W System  : A resource failed to call close. 
+11-20 12:52:03.872  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 12:52:03.872  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 12:52:03.872  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 12:52:03.886  9150  9202 W System  : A resource failed to call AbstractCursor.close. 
+11-20 12:52:03.891  9150  9202 W System  : A resource failed to call AbstractCursor.close. 
+11-20 12:52:03.906  9150  9202 W System  : A resource failed to call close. 
+11-20 12:52:03.906  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 12:52:03.906  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 12:52:03.906  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 12:52:03.925  9150  9202 W System  : A resource failed to call close. 
+11-20 12:52:03.925  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 12:52:03.925  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 12:52:03.925  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 12:52:03.929  9150  9202 W System  : A resource failed to call close. 
+11-20 12:52:03.929  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 12:52:03.929  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 12:52:03.929  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 12:52:03.960  9150  9202 W System  : A resource failed to call close. 
+11-20 12:52:03.960  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 12:52:03.960  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 12:52:03.960  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 12:52:03.965  9150  9202 W System  : A resource failed to call close. 
+11-20 12:52:03.965  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 12:52:03.965  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 12:52:03.965  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 13:51:39.900  9150  9150 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+11-20 13:51:39.900  9150  9150 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+2026-11-20 13:51:40.134  W  UhfSession: Could not power up the UHF reader
+11-20 13:51:43.631  9150  9150 W RemoteInputConnectionImpl: requestCursorAnchorInfo on inactive InputConnection
+11-20 13:51:43.639  9150  9150 E ImeBackDispatcher: Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 239702726
+11-20 13:51:44.771  9150  9270 W Parcel  : Expecting binder but got null!
+2026-11-20 13:51:47.224  I  UhfSession: UHF reader powered up
+11-20 13:51:47.631  9150  9200 W hionapplication: Reducing the number of considered missed Gc histogram windows from 346 to 100
+11-20 13:51:51.551  9150  9270 W Parcel  : Expecting binder but got null!
+2026-11-20 13:51:57.465  W  LogUploader: Log push failed
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.put(LogUploader.kt:206)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.pushOrThrow(LogUploader.kt:174)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.push(LogUploader.kt:133)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.start$lambda$3$lambda$2(LogUploader.kt:88)
+	at com.poxo.tittlifashionapplication.utils.LogUploader.$r8$lambda$Z4QUMgnZOBRlSJq_rMuXBsjjpJA(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.utils.LogUploader$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:463)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:308)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Linux.android_getaddrinfo(Native Method)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:133)
+	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:222)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:133)
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:135)
+	... 28 more
+2026-11-20 13:52:00.979  E  ProductSync: mapped page 1 failed
+java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll(ProductSync.kt:297)
+	at com.poxo.tittlifashionapplication.data.ProductSync.fetchAll$default(ProductSync.kt:251)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh(ProductSync.kt:193)
+	at com.poxo.tittlifashionapplication.data.ProductSync.ensureFresh$default(ProductSync.kt:160)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity.syncMappedProductsOnOpen$lambda$14(ReWriteActivity.kt:133)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity.$r8$lambda$oU5CZog7OG5XmnfdZWoOlneDId0(Unknown Source:0)
+	at com.poxo.tittlifashionapplication.ui.rewrite.ReWriteActivity$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1012)
+11-20 13:52:02.089  9150  9150 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+11-20 13:52:02.089  9150  9150 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-20 13:52:03.121  9150  9270 W Parcel  : Expecting binder but got null!
+2026-11-20 13:52:06.396  W  Net: wifi DISCONNECTED — link had been up for 3773s
+11-20 13:52:08.703  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 13:52:10.398  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 13:52:12.731  9150  9150 W libc    : Access denied finding property "vendor.scroll.fpsgo.release"
+11-20 13:52:22.903  9150  9150 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-20 13:52:23.696  9150  9150 W RemoteInputConnectionImpl: requestCursorAnchorInfo on inactive InputConnection
+11-20 13:52:23.697  9150  9150 E ImeBackDispatcher: Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 239702726
+11-20 13:52:26.511  9150  9270 W Parcel  : Expecting binder but got null!
+2026-11-20 13:53:46.163  I  UhfSession: UHF reader powered down: app moved to the background
+11-20 13:53:49.907  9150  9202 W System  : A resource failed to call close. 
+11-20 13:53:49.907  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 13:53:49.907  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 13:53:49.907  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 13:53:49.930  9150  9202 W System  : A resource failed to call close. 
+11-20 13:53:49.931  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 13:53:49.931  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 13:53:49.931  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 13:53:49.934  9150  9202 W System  : A resource failed to call close. 
+11-20 13:53:49.934  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 13:53:49.934  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 13:53:49.934  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 13:53:49.940  9150  9202 W System  : A resource failed to call close. 
+11-20 13:53:49.940  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 13:53:49.941  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 13:53:49.941  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 13:53:49.942  9150  9202 W System  : A resource failed to call close. 
+11-20 13:53:49.942  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 13:53:49.942  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 13:53:49.942  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+2026-11-20 13:53:50.110  I  Net: wifi connected
+2026-11-20 13:53:50.144  W  Net: wifi is up but has NO internet
+2026-11-20 13:53:50.180  I  Net: wifi has internet (rssi -56 dBm)
+2026-11-20 13:55:04.215  W  UhfSession: Could not power up the UHF reader
+11-20 13:55:09.002  9150  9270 W Parcel  : Expecting binder but got null!
+2026-11-20 13:55:10.513  I  UhfSession: UHF reader powered up
+11-20 13:55:10.617  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 13:55:10.699  9150 32042 W Codec2Client: query -- param skipped: index = 1107298332.
+11-20 13:55:10.701  9150 32042 W Codec2Client: query -- param skipped: index = 1342179345.
+11-20 13:55:10.701  9150 32042 W Codec2Client: query -- param skipped: index = 2415921170.
+11-20 13:55:12.617  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 13:55:13.224  9150  9150 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+11-20 13:55:13.224  9150  9150 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-20 13:55:18.646  9150  9202 W System  : A resource failed to call close. 
+11-20 13:55:18.646  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 13:55:18.647  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 13:55:18.647  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 13:55:24.214  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 13:55:30.221  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 13:55:39.733  9150  9150 W RemoteInputConnectionImpl: requestCursorAnchorInfo on inactive InputConnection
+11-20 13:55:39.736  9150  9150 E ImeBackDispatcher: Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 239702726
+2026-11-20 13:55:44.962  I  UhfSession: UHF reader powered down: no screen is using the reader
+11-20 13:55:47.819  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 13:55:47.881  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 13:55:47.881  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 13:55:47.882  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 13:55:47.882  9150  9202 W System  : A resource failed to call close. 
+11-20 13:55:47.882  9150  9202 W System  : A resource failed to call close. 
+2026-11-20 13:55:49.084  I  ProductSync: unmapped for location 1 needed 5 page(s): 931 row(s), server reported 931
+2026-11-20 13:55:49.433  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-20 13:55:49.541  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-20 13:55:50.261  W  UhfSession: Could not power up the UHF reader
+11-20 13:55:50.511  9150  9270 W Parcel  : Expecting binder but got null!
+11-20 13:55:57.277  9150  9270 W Parcel  : Expecting binder but got null!
+2026-11-20 13:55:59.685  I  SerialService: 'VIH-1938': GET http://164.52.223.163:4636/api/device/products/mapped?search=VIH-1938 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 13:55:59.882  I  SerialService: 'VIH-1938': GET http://164.52.223.163:4636/api/device/products/mapped?search=VIH-1938&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 13:56:00.073  I  SerialService: 'VIH-1938': GET http://164.52.223.163:4636/api/device/products/mapped?search=VIH-1938&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 13:56:00.242  I  SerialService: 'VIH-1938': GET http://164.52.223.163:4636/api/device/products/mapped?search=VIH-1938&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 13:56:00.262  I  SerialService: 'VIH-1938': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-20 13:56:00.268  I  SerialService: 'VIH-1938': server holds 0 RFID(s); taking the lowest free serial 1 (VIH19380001)
+2026-11-20 13:56:06.127  I  SerialService: 'VIH-1938': GET http://164.52.223.163:4636/api/device/products/mapped?search=VIH-1938 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 13:56:06.336  I  SerialService: 'VIH-1938': GET http://164.52.223.163:4636/api/device/products/mapped?search=VIH-1938&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 13:56:06.511  I  SerialService: 'VIH-1938': GET http://164.52.223.163:4636/api/device/products/mapped?search=VIH-1938&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 13:56:06.688  I  SerialService: 'VIH-1938': GET http://164.52.223.163:4636/api/device/products/mapped?search=VIH-1938&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-20 13:56:06.712  I  SerialService: 'VIH-1938': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-20 13:56:06.714  I  SerialService: 'VIH-1938': server holds 0 RFID(s); taking the lowest free serial 1 (VIH19380001)
+2026-11-20 13:56:09.267  I  UhfSession: UHF reader powered up
+2026-11-20 13:56:10.204  I  Registration: Upload accepted for VIH19380001: HTTP 200 {"updated":1,"tags":[{"id":10233,"epc":"VIH19380001","itemCode":"VIH-1938","serialNo":1}]}
+2026-11-20 13:56:10.296  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-20 13:56:10.428  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-20 13:56:10.431  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-20 13:56:16.069  I  UhfSession: UHF reader powered down: app moved to the background
+11-20 13:56:22.712  9150  9202 W System  : A resource failed to call close. 
+11-20 13:56:22.712  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 13:56:22.712  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 13:56:22.713  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 13:56:22.715  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 13:56:22.715  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 13:56:22.715  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 13:56:22.718  9150  9202 W System  : A resource failed to call close. 
+11-20 13:56:22.719  9150  9202 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-20 13:56:22.719  9150  9202 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-20 13:56:22.719  9150  9202 W System  : A resource failed to call SQLiteConnection.close. 
+11-20 13:56:22.733  9150  9202 W System  : A resource failed to call AbstractCursor.close. 
+11-20 13:56:22.736  9150  9202 W System  : A resource failed to call AbstractCursor.close. 
