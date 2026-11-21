@@ -1,0 +1,128 @@
+# pushed 2026-11-21 19:11:52.856 (backgrounded)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 305537..319767
+
+2026-11-21 19:06:04.617  I  UhfSession: UHF reader powered down: app moved to the background
+2026-11-21 19:06:39.112  W  UhfSession: Could not power up the UHF reader
+11-21 19:06:39.317  4620  4722 W Parcel  : Expecting binder but got null!
+2026-11-21 19:06:41.838  I  UhfSession: UHF reader powered up
+2026-11-21 19:08:06.362  I  UhfSession: UHF reader powered down: app moved to the background
+2026-11-21 19:08:22.297  W  UhfSession: Could not power up the UHF reader
+11-21 19:08:23.272  4620  4722 W Parcel  : Expecting binder but got null!
+2026-11-21 19:08:23.375  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-21 19:08:23.506  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-21 19:08:25.723  I  UhfSession: UHF reader powered up
+11-21 19:08:40.241  4620  4722 W Parcel  : Expecting binder but got null!
+11-21 19:08:45.623  4620  4620 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-21 19:08:50.516  4620  4688 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-21 19:08:50.516  4620  4688 W System  : A resource failed to call SQLiteConnection.close. 
+11-21 19:08:50.517  4620  4688 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-21 19:08:50.517  4620  4688 W System  : A resource failed to call close. 
+11-21 19:08:50.518  4620  4688 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-21 19:08:50.518  4620  4688 W System  : A resource failed to call SQLiteConnection.close. 
+11-21 19:08:50.519  4620  4688 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-21 19:08:50.519  4620  4688 W System  : A resource failed to call close. 
+11-21 19:08:50.521  4620  4688 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-21 19:08:50.522  4620  4688 W System  : A resource failed to call SQLiteConnection.close. 
+11-21 19:08:50.522  4620  4688 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-21 19:08:50.522  4620  4688 W System  : A resource failed to call close. 
+11-21 19:08:55.093  4620  4722 W Parcel  : Expecting binder but got null!
+11-21 19:09:10.850  4620  4722 W Parcel  : Expecting binder but got null!
+11-21 19:09:22.241  4620  4688 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-21 19:09:22.241  4620  4688 W System  : A resource failed to call SQLiteConnection.close. 
+11-21 19:09:22.242  4620  4688 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-21 19:09:22.242  4620  4688 W System  : A resource failed to call close. 
+2026-11-21 19:09:25.072  I  SerialService: 'VFH-2968-XL': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VFH2968XL0002)
+2026-11-21 19:09:27.764  I  SerialService: 'VFH-2968-XL': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VFH2968XL0002)
+11-21 19:09:28.383  4620  4688 W System  : A resource failed to call close. 
+2026-11-21 19:09:28.835  I  Registration: Upload accepted for VFH2968XL0002: HTTP 200 {"updated":1,"tags":[{"id":10237,"epc":"VFH2968XL0002","itemCode":"VFH-2968-XL","serialNo":2}]}
+2026-11-21 19:09:28.929  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-21 19:09:29.066  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-21 19:09:29.069  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-21 19:09:54.680  I  SerialService: 'VFH-2968-XL': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (VFH2968XL0003)
+2026-11-21 19:09:55.491  I  Registration: Upload accepted for VFH2968XL0003: HTTP 200 {"updated":1,"tags":[{"id":10238,"epc":"VFH2968XL0003","itemCode":"VFH-2968-XL","serialNo":3}]}
+2026-11-21 19:09:55.663  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-21 19:09:55.777  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-21 19:09:55.782  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-21 19:10:01.314  4620  9885 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:120c0000003a,api:4,p:1176,c:4620) queueBuffer: BufferQueue has been abandoned
+11-21 19:10:01.320  4620  6817 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:120c0000003a,api:4,p:1176,c:4620) cancelBuffer: BufferQueue has been abandoned
+11-21 19:10:01.324  4620  6817 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:120c0000003a,api:4,p:1176,c:4620) cancelBuffer: BufferQueue has been abandoned
+11-21 19:10:01.324  4620  6817 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:120c0000003a,api:4,p:1176,c:4620) cancelBuffer: BufferQueue has been abandoned
+11-21 19:10:01.325  4620  6817 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:120c0000003a,api:4,p:1176,c:4620) cancelBuffer: BufferQueue has been abandoned
+11-21 19:10:01.325  4620  6817 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#48(BLAST Consumer)48](id:120c0000003a,api:4,p:1176,c:4620) cancelBuffer: BufferQueue has been abandoned
+11-21 19:10:02.185  4620  4722 W Parcel  : Expecting binder but got null!
+11-21 19:10:25.637  4620  4722 W Parcel  : Expecting binder but got null!
+2026-11-21 19:10:26.820  I  ProductSync: unmapped for location 1 needed 5 page(s): 957 row(s), server reported 957
+2026-11-21 19:10:27.095  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-21 19:10:27.179  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-21 19:10:29.906  4620  4688 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-21 19:10:29.906  4620  4688 W System  : A resource failed to call SQLiteConnection.close. 
+11-21 19:10:29.907  4620  4688 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-21 19:10:29.907  4620  4688 W System  : A resource failed to call close. 
+11-21 19:10:29.908  4620  4688 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-21 19:10:29.908  4620  4688 W System  : A resource failed to call SQLiteConnection.close. 
+11-21 19:10:29.908  4620  4688 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-21 19:10:29.908  4620  4688 W System  : A resource failed to call close. 
+11-21 19:10:29.917  4620  4688 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-21 19:10:29.917  4620  4688 W System  : A resource failed to call SQLiteConnection.close. 
+11-21 19:10:29.917  4620  4688 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-21 19:10:51.317  4620  4688 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-21 19:10:51.317  4620  4688 W System  : A resource failed to call SQLiteConnection.close. 
+11-21 19:10:51.317  4620  4688 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-21 19:10:51.317  4620  4688 W System  : A resource failed to call close. 
+11-21 19:10:51.759  4620  4722 W Parcel  : Expecting binder but got null!
+11-21 19:10:59.547  4620  4722 W Parcel  : Expecting binder but got null!
+2026-11-21 19:11:08.728  I  SerialService: 'VFH-3176-XL': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VFH3176XL0002)
+2026-11-21 19:11:12.280  I  SerialService: 'VFH-3176-XL': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (VFH3176XL0002)
+2026-11-21 19:11:13.099  I  Registration: Upload accepted for VFH3176XL0002: HTTP 200 {"updated":1,"tags":[{"id":10239,"epc":"VFH3176XL0002","itemCode":"VFH-3176-XL","serialNo":2}]}
+2026-11-21 19:11:13.200  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-21 19:11:13.320  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-21 19:11:13.325  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-21 19:11:18.850  4620  6817 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#56(BLAST Consumer)56](id:120c00000044,api:4,p:1176,c:4620) queueBuffer: BufferQueue has been abandoned
+11-21 19:11:18.853  4620  9334 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#56(BLAST Consumer)56](id:120c00000044,api:4,p:1176,c:4620) cancelBuffer: BufferQueue has been abandoned
+11-21 19:11:18.854  4620  9334 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#56(BLAST Consumer)56](id:120c00000044,api:4,p:1176,c:4620) cancelBuffer: BufferQueue has been abandoned
+11-21 19:11:18.868  4620  9334 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#56(BLAST Consumer)56](id:120c00000044,api:4,p:1176,c:4620) cancelBuffer: BufferQueue has been abandoned
+11-21 19:11:18.868  4620  9334 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#56(BLAST Consumer)56](id:120c00000044,api:4,p:1176,c:4620) cancelBuffer: BufferQueue has been abandoned
+11-21 19:11:18.869  4620  9334 E BufferQueueProducer: [SurfaceView[com.poxo.tittlifashionapplication/com.poxo.tittlifashionapplication.ui.registration.RegistrationActivity]#56(BLAST Consumer)56](id:120c00000044,api:4,p:1176,c:4620) cancelBuffer: BufferQueue has been abandoned
+11-21 19:11:19.702  4620  4722 W Parcel  : Expecting binder but got null!
+2026-11-21 19:11:30.417  I  UhfSession: UHF reader powered down: no screen is using the reader
