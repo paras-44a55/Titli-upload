@@ -1,0 +1,71 @@
+# pushed 2026-11-21 18:54:09.772 (scheduled)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 249243..257165
+
+2026-11-21 18:48:00.429  W  Home: Update check at login failed: Couldn't check for updates. Please try again.
+2026-11-21 18:48:05.478  W  Net: wifi DISCONNECTED — link had been up for 50s
+2026-11-21 18:48:05.801  I  Net: wifi connected
+2026-11-21 18:48:05.804  W  Net: wifi is up but has NO internet (rssi -78 dBm)
+2026-11-21 18:48:05.840  I  Net: wifi has internet (rssi -78 dBm)
+2026-11-21 18:53:39.723  I  Session: app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=<not configured> location=TITLI FASHIONS SURAT
+2026-11-21 18:53:39.740  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-a45d6041
+2026-11-21 18:53:39.753  I  Net: wifi connected
+2026-11-21 18:53:39.754  I  Net: wifi has internet (rssi -61 dBm)
+--------- beginning of main
+11-21 18:53:39.929  4620  4620 W hionapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+11-21 18:53:40.026  4620  4620 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+11-21 18:53:40.236  4620  4722 W Parcel  : Expecting binder but got null!
+2026-11-21 18:53:40.447  W  Net: wifi DISCONNECTED — link had been up for 0s
+11-21 18:53:40.435  4620  4737 W System.err: java.net.SocketException: Software caused connection abort
+11-21 18:53:40.437  4620  4737 W System.err: 	at java.net.SocketInputStream.socketRead0(Native Method)
+11-21 18:53:40.439  4620  4737 W System.err: 	at java.net.SocketInputStream.socketRead(SocketInputStream.java:118)
+11-21 18:53:40.439  4620  4737 W System.err: 	at java.net.SocketInputStream.read(SocketInputStream.java:173)
+11-21 18:53:40.439  4620  4737 W System.err: 	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+11-21 18:53:40.439  4620  4737 W System.err: 	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+11-21 18:53:40.439  4620  4737 W System.err: 	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+11-21 18:53:40.439  4620  4737 W System.err: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+11-21 18:53:40.439  4620  4737 W System.err: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+11-21 18:53:40.439  4620  4737 W System.err: 	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+11-21 18:53:40.439  4620  4737 W System.err: 	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+11-21 18:53:40.439  4620  4737 W System.err: 	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+11-21 18:53:40.439  4620  4737 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+11-21 18:53:40.440  4620  4737 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+11-21 18:53:40.440  4620  4737 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+11-21 18:53:40.440  4620  4737 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+11-21 18:53:40.440  4620  4737 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+11-21 18:53:40.440  4620  4737 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+11-21 18:53:40.440  4620  4737 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(Unknown Source:0)
+11-21 18:53:40.440  4620  4737 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+11-21 18:53:40.440  4620  4737 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+11-21 18:53:43.868  4620  5163 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+11-21 18:53:43.868  4620  5163 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+11-21 18:53:43.868  4620  5163 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+11-21 18:53:43.890  4620  4722 W Parcel  : Expecting binder but got null!
+11-21 18:53:44.012  4620  4722 W Parcel  : Expecting binder but got null!
+2026-11-21 18:53:44.266  I  Net: wifi connected
+2026-11-21 18:53:44.268  W  Net: wifi is up but has NO internet (rssi -65 dBm)
+2026-11-21 18:53:44.290  I  Net: wifi has internet (rssi -65 dBm)
+11-21 18:53:45.955  4620  4722 W Parcel  : Expecting binder but got null!
+11-21 18:53:47.011  4620  4722 W Parcel  : Expecting binder but got null!
+11-21 18:54:00.367  4620  4686 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+11-21 18:54:00.407  4620  4688 W System  : A resource failed to call close. 
+11-21 18:54:00.408  4620  4688 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-21 18:54:00.408  4620  4688 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-21 18:54:00.408  4620  4688 W System  : A resource failed to call SQLiteConnection.close. 
+11-21 18:54:00.416  4620  4688 W System  : A resource failed to call close. 
+11-21 18:54:00.416  4620  4688 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-21 18:54:00.416  4620  4688 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-21 18:54:00.416  4620  4688 W System  : A resource failed to call SQLiteConnection.close. 
