@@ -1,0 +1,118 @@
+# pushed 2026-11-22 17:12:52.336 (backgrounded)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 17009..30143
+
+11-22 16:26:07.759 26777 26789 W System  : A resource failed to call close. 
+11-22 16:26:07.759 26777 26789 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-22 16:26:07.759 26777 26789 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-22 16:26:07.760 26777 26789 W System  : A resource failed to call SQLiteConnection.close. 
+11-22 16:26:07.763 26777 26789 W System  : A resource failed to call AbstractCursor.close. 
+11-22 16:26:07.769 26777 26789 W System  : A resource failed to call AbstractCursor.close. 
+11-22 16:26:07.781 26777 26789 W System  : A resource failed to call close. 
+11-22 16:26:07.782 26777 26789 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-22 16:26:07.782 26777 26789 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-22 16:26:07.782 26777 26789 W System  : A resource failed to call SQLiteConnection.close. 
+11-22 16:26:23.494 26777 26808 W Parcel  : Expecting binder but got null!
+2026-11-22 16:26:23.509  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-22 16:26:23.612  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-22 16:26:25.942  I  UhfSession: UHF reader powered up
+11-22 16:26:42.367 26777 26789 W System  : A resource failed to call close. 
+11-22 16:26:42.367 26777 26789 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-22 16:26:42.367 26777 26789 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-22 16:26:42.367 26777 26789 W System  : A resource failed to call SQLiteConnection.close. 
+11-22 16:26:52.779 26777 26808 W Parcel  : Expecting binder but got null!
+11-22 16:26:58.852 26777 26808 W Parcel  : Expecting binder but got null!
+2026-11-22 16:27:09.230  I  SerialService: 'HORI-5256': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (HORI52560003)
+2026-11-22 16:27:16.003  I  SerialService: 'HORI-5256': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (HORI52560003)
+2026-11-22 16:27:16.759  I  Registration: Upload accepted for HORI52560003: HTTP 200 {"updated":1,"tags":[{"id":10267,"epc":"HORI52560003","itemCode":"HORI-5256","serialNo":3}]}
+2026-11-22 16:27:16.856  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-22 16:27:16.957  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-22 16:27:16.959  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-22 16:27:21.011 26777 26808 W Parcel  : Expecting binder but got null!
+11-22 16:27:21.162 26777 26789 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-22 16:27:21.163 26777 26789 W System  : A resource failed to call SQLiteConnection.close. 
+11-22 16:27:21.163 26777 26789 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-22 16:27:21.163 26777 26789 W System  : A resource failed to call close. 
+11-22 16:27:33.544 26777 26808 W Parcel  : Expecting binder but got null!
+2026-11-22 16:27:37.221  I  UhfSession: UHF reader powered down: app moved to the background
+2026-11-22 17:12:35.852  I  Session: app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=<not configured> location=TITLI FASHIONS SURAT
+2026-11-22 17:12:35.865  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-a45d6041
+--------- beginning of main
+11-22 17:12:36.135 29797 29797 W hionapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+11-22 17:12:36.175 29797 29831 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+11-22 17:12:36.176 29797 29831 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+11-22 17:12:36.176 29797 29831 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+11-22 17:12:36.176 29797 29831 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+11-22 17:12:36.176 29797 29831 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+11-22 17:12:36.176 29797 29831 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+11-22 17:12:36.176 29797 29831 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+11-22 17:12:36.176 29797 29831 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+11-22 17:12:36.176 29797 29831 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+11-22 17:12:36.177 29797 29831 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+11-22 17:12:36.177 29797 29831 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+11-22 17:12:36.177 29797 29831 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+11-22 17:12:36.177 29797 29831 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(Unknown Source:0)
+11-22 17:12:36.177 29797 29831 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+11-22 17:12:36.177 29797 29831 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+11-22 17:12:36.204 29797 29797 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+11-22 17:12:36.261 29797 29826 W Parcel  : Expecting binder but got null!
+11-22 17:12:38.132 29797 29826 W Parcel  : Expecting binder but got null!
+11-22 17:12:39.823 29797 29940 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+11-22 17:12:39.823 29797 29940 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+11-22 17:12:39.823 29797 29940 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+11-22 17:12:39.823 29797 29940 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+11-22 17:12:39.823 29797 29940 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+11-22 17:12:39.823 29797 29940 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+11-22 17:12:39.826 29797 29940 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+11-22 17:12:39.826 29797 29940 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+11-22 17:12:39.826 29797 29940 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+11-22 17:12:39.826 29797 29940 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+11-22 17:12:39.826 29797 29940 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+11-22 17:12:39.826 29797 29940 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+11-22 17:12:39.826 29797 29940 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+11-22 17:12:39.826 29797 29940 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+11-22 17:12:39.826 29797 29940 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+11-22 17:12:39.826 29797 29940 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+11-22 17:12:39.846 29797 29826 W Parcel  : Expecting binder but got null!
+11-22 17:12:39.945 29797 29826 W Parcel  : Expecting binder but got null!
+11-22 17:12:41.089 29797 29956 W System.err: java.net.ConnectException: Failed to connect to /164.52.223.163:4636
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:147)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.postLoginJson(LoginActivity.kt:323)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.onCreate$lambda$16$lambda$15(LoginActivity.kt:189)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$Xz32VlLMl48hetfwRdBO7U_TEF4(Unknown Source:0)
+11-22 17:12:41.089 29797 29956 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+11-22 17:12:41.089 29797 29956 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+11-22 17:12:41.109 29797 29826 W Parcel  : Expecting binder but got null!
+11-22 17:12:41.189 29797 29826 W Parcel  : Expecting binder but got null!
+2026-11-22 17:12:50.969  I  Net: wifi connected
+2026-11-22 17:12:50.971  W  Net: wifi is up but has NO internet (rssi -74 dBm)
+2026-11-22 17:12:51.021  I  Net: wifi has internet (rssi -74 dBm)
+11-22 17:12:51.037 29797 29809 W System  : A resource failed to call close. 
+11-22 17:12:51.037 29797 29809 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-22 17:12:51.037 29797 29809 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-22 17:12:51.037 29797 29809 W System  : A resource failed to call SQLiteConnection.close. 
