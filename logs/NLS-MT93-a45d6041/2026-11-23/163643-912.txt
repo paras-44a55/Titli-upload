@@ -1,0 +1,114 @@
+# pushed 2026-11-23 16:36:43.912 (backgrounded)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 305922..317859
+
+11-23 16:31:36.137  4020  4020 E SurfaceSyncer: Failed to find sync for id=0
+11-23 16:31:36.137  4020  4020 E SurfaceSyncer: Failed to find sync for id=1
+11-23 16:31:36.137  4020  4020 E SurfaceSyncer: Failed to find sync for id=2
+2026-11-23 16:31:38.628  W  UhfSession: Could not power up the UHF reader
+11-23 16:31:42.542  4020  4042 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-23 16:31:42.542  4020  4042 W System  : A resource failed to call SQLiteConnection.close. 
+11-23 16:31:42.543  4020  4042 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-23 16:31:42.543  4020  4042 W System  : A resource failed to call close. 
+11-23 16:31:52.493  4020  4132 W Parcel  : Expecting binder but got null!
+2026-11-23 16:31:54.967  I  UhfSession: UHF reader powered up
+11-23 16:31:59.279  4020  4132 W Parcel  : Expecting binder but got null!
+11-23 16:32:00.151  4020  4042 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-23 16:32:00.151  4020  4042 W System  : A resource failed to call SQLiteConnection.close. 
+11-23 16:32:00.152  4020  4042 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-23 16:32:00.152  4020  4042 W System  : A resource failed to call close. 
+2026-11-23 16:32:01.300  I  ProductSync: unmapped for location 1 needed 6 page(s): 1080 row(s), server reported 1080
+2026-11-23 16:32:01.538  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-23 16:32:01.619  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-23 16:32:12.946  4020  4042 W System  : A resource failed to call close. 
+11-23 16:32:35.428  4020  4132 W Parcel  : Expecting binder but got null!
+11-23 16:32:37.430  4020  4042 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-23 16:32:37.430  4020  4042 W System  : A resource failed to call SQLiteConnection.close. 
+11-23 16:32:37.430  4020  4042 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-23 16:32:37.430  4020  4042 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-23 16:32:37.430  4020  4042 W System  : A resource failed to call SQLiteConnection.close. 
+11-23 16:32:37.431  4020  4042 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-23 16:32:37.431  4020  4042 W System  : A resource failed to call close. 
+11-23 16:32:55.099  4020  4132 W Parcel  : Expecting binder but got null!
+2026-11-23 16:33:01.230  I  SerialService: 'STPL-13471': GET http://164.52.223.163:4636/api/device/products/mapped?search=STPL-13471 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-23 16:33:01.377  I  SerialService: 'STPL-13471': GET http://164.52.223.163:4636/api/device/products/mapped?search=STPL-13471&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-23 16:33:01.560  I  SerialService: 'STPL-13471': GET http://164.52.223.163:4636/api/device/products/mapped?search=STPL-13471&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-23 16:33:01.784  I  SerialService: 'STPL-13471': GET http://164.52.223.163:4636/api/device/products/mapped?search=STPL-13471&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-23 16:33:01.805  I  SerialService: 'STPL-13471': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-23 16:33:01.806  I  SerialService: 'STPL-13471': server holds 0 RFID(s); taking the lowest free serial 1 (STPL134710001)
+2026-11-23 16:33:09.467  I  SerialService: 'STPL-13471': GET http://164.52.223.163:4636/api/device/products/mapped?search=STPL-13471 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-23 16:33:09.701  I  SerialService: 'STPL-13471': GET http://164.52.223.163:4636/api/device/products/mapped?search=STPL-13471&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-23 16:33:09.928  I  SerialService: 'STPL-13471': GET http://164.52.223.163:4636/api/device/products/mapped?search=STPL-13471&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-23 16:33:10.155  I  SerialService: 'STPL-13471': GET http://164.52.223.163:4636/api/device/products/mapped?search=STPL-13471&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-23 16:33:10.169  I  SerialService: 'STPL-13471': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-23 16:33:10.171  I  SerialService: 'STPL-13471': server holds 0 RFID(s); taking the lowest free serial 1 (STPL134710001)
+2026-11-23 16:33:10.942  I  Registration: Upload accepted for STPL134710001: HTTP 200 {"updated":1,"tags":[{"id":10303,"epc":"STPL134710001","itemCode":"STPL-13471","serialNo":1}]}
+2026-11-23 16:33:11.063  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-23 16:33:11.240  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-23 16:33:11.242  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-23 16:33:19.170  4020  4132 W Parcel  : Expecting binder but got null!
+2026-11-23 16:33:47.913  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+11-23 16:33:47.915  4020  4132 W Parcel  : Expecting binder but got null!
+2026-11-23 16:33:48.023  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-23 16:33:58.150  4020  4132 W Parcel  : Expecting binder but got null!
+11-23 16:33:58.742  4020  4042 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-23 16:33:58.742  4020  4042 W System  : A resource failed to call SQLiteConnection.close. 
+11-23 16:33:58.742  4020  4042 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-23 16:33:58.742  4020  4042 W System  : A resource failed to call close. 
+11-23 16:33:58.747  4020  4042 W System  : A resource failed to call CursorWindow.close. 
+11-23 16:33:58.747  4020  4042 W System  : A resource failed to call AbstractCursor.close. 
+11-23 16:33:58.749  4020  4042 W System  : A resource failed to call CursorWindow.close. 
+11-23 16:33:58.749  4020  4042 W System  : A resource failed to call AbstractCursor.close. 
+11-23 16:34:32.004  4020  4042 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-23 16:34:32.004  4020  4042 W System  : A resource failed to call SQLiteConnection.close. 
+11-23 16:34:32.005  4020  4042 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-23 16:34:32.005  4020  4042 W System  : A resource failed to call close. 
+11-23 16:34:38.785  4020  4132 W Parcel  : Expecting binder but got null!
+2026-11-23 16:34:59.713  I  UhfSession: UHF reader powered down: no screen is using the reader
+11-23 16:35:01.704  4020  4132 W Parcel  : Expecting binder but got null!
+2026-11-23 16:35:04.170  W  UhfSession: Could not power up the UHF reader
+2026-11-23 16:35:06.733  I  UhfSession: UHF reader powered up
+11-23 16:35:09.967  4020  4132 W Parcel  : Expecting binder but got null!
+2026-11-23 16:35:10.078  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-23 16:35:10.663  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+11-23 16:35:23.234  4020  4042 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-23 16:35:23.234  4020  4042 W System  : A resource failed to call SQLiteConnection.close. 
+11-23 16:35:23.235  4020  4042 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-23 16:35:23.235  4020  4042 W System  : A resource failed to call close. 
+11-23 16:35:23.241  4020  4042 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-23 16:35:23.241  4020  4042 W System  : A resource failed to call SQLiteConnection.close. 
+11-23 16:35:23.242  4020  4042 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-23 16:35:23.242  4020  4042 W System  : A resource failed to call close. 
+11-23 16:35:29.884  4020  4132 W Parcel  : Expecting binder but got null!
