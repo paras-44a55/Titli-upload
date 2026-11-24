@@ -1,0 +1,71 @@
+# pushed 2026-11-24 11:05:48.392 (scheduled)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=http://164.52.223.163:4636 location=TITLI BHILWARA
+# bytes 202823..210834
+
+11-21 13:28:39.135  6279  6279 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@86096a6
+11-21 13:28:50.868  6279  6279 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@99a7a3f
+11-21 13:28:51.592  6279  6279 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e2a4da6
+11-21 13:29:14.926  6279  7844 W Codec2Client: query -- param skipped: index = 1107298332.
+11-21 13:29:14.929  6279  7844 W Codec2Client: query -- param skipped: index = 1342179345.
+11-21 13:29:14.929  6279  7844 W Codec2Client: query -- param skipped: index = 2415921170.
+2026-11-21 13:29:17.134  W  UhfSession: Could not power up the UHF reader
+2026-11-21 13:29:22.971  I  UhfSession: UHF reader powered up
+11-21 13:29:29.373  6279  6279 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3b093f
+11-21 13:29:57.184  6279  6279 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@9b90fab
+2026-11-21 13:30:00.011  I  UhfSession: UHF reader powered down: app moved to the background
+2026-11-22 11:58:46.301  W  Net: wifi DISCONNECTED — link had been up for 81416s
+2026-11-22 11:58:49.789  I  Net: wifi connected
+2026-11-22 11:58:49.799  W  Net: wifi is up but has NO internet (rssi -45 dBm)
+2026-11-22 11:58:49.818  I  Net: wifi has internet (rssi -45 dBm)
+2026-11-22 13:08:09.734  W  Net: wifi DISCONNECTED — link had been up for 4159s
+2026-11-22 13:08:13.212  I  Net: wifi connected
+2026-11-22 13:08:13.228  W  Net: wifi is up but has NO internet (rssi -55 dBm)
+2026-11-22 13:08:13.237  I  Net: wifi has internet (rssi -55 dBm)
+11-24 11:05:13.453  6279  6279 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@19cd4b8
+2026-11-24 11:05:18.377  I  Session: app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V8.10.002_115006 android=15 (sdk 35) server=<not configured> location=TITLI BHILWARA
+2026-11-24 11:05:18.389  I  LogUploader: Automatic log push on: paras-44a55/Titli-upload@log every 30 min as NLS-MT93-ba256d2f
+2026-11-24 11:05:18.406  I  Net: wifi connected
+2026-11-24 11:05:18.408  I  Net: wifi has internet (rssi -34 dBm)
+--------- beginning of main
+11-24 11:05:18.423 20132 20157 W QT      : Support!!
+11-24 11:05:18.680 20132 20132 W HWUI    : Unknown dataspace 0
+11-24 11:05:18.825 20132 20155 W libc    : Access denied finding property "vendor.mbrain.enabled"
+11-24 11:05:18.850 20132 20155 W libc    : Access denied finding property "vendor.mbrain.enabled"
+11-24 11:05:20.490 20132 20261 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.poxo.tittlifashionapplication
+11-24 11:05:26.698 20132 20175 W System.err: java.net.SocketTimeoutException: failed to connect to /164.52.223.163 (port 4636) from /192.168.29.224 (port 46610) after 8000ms
+11-24 11:05:26.703 20132 20175 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:234)
+11-24 11:05:26.703 20132 20175 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:178)
+11-24 11:05:26.703 20132 20175 W System.err: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+11-24 11:05:26.703 20132 20175 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+11-24 11:05:26.703 20132 20175 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+11-24 11:05:26.704 20132 20175 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+11-24 11:05:26.704 20132 20175 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+11-24 11:05:26.704 20132 20175 W System.err: 	at java.net.Socket.connect(Socket.java:646)
+11-24 11:05:26.704 20132 20175 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+11-24 11:05:26.704 20132 20175 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+11-24 11:05:26.704 20132 20175 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+11-24 11:05:26.704 20132 20175 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+11-24 11:05:26.704 20132 20175 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+11-24 11:05:26.704 20132 20175 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+11-24 11:05:26.705 20132 20175 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+11-24 11:05:26.705 20132 20175 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+11-24 11:05:26.705 20132 20175 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+11-24 11:05:26.705 20132 20175 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+11-24 11:05:26.705 20132 20175 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+11-24 11:05:26.705 20132 20175 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.checkBaseUrlAndLoadDevices$lambda$28(LoginActivity.kt:395)
+11-24 11:05:26.705 20132 20175 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity.$r8$lambda$nxYQi5EMqmj3SGEKoN4CwSW-lYY(LoginActivity.kt:0)
+11-24 11:05:26.706 20132 20175 W System.err: 	at com.poxo.tittlifashionapplication.ui.login.LoginActivity$$ExternalSyntheticLambda18.run(D8$$SyntheticClass:0)
+11-24 11:05:26.706 20132 20175 W System.err: 	at java.lang.Thread.run(Thread.java:1571)
+11-24 11:05:31.000 20132 20132 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@83655
+11-24 11:05:31.794 20132 20132 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@240c87a
+11-24 11:05:34.068 20132 20138 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+11-24 11:05:34.107 20132 20140 W System  : A resource failed to call close. 
+11-24 11:05:34.107 20132 20140 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-24 11:05:34.107 20132 20140 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-24 11:05:34.107 20132 20140 W System  : A resource failed to call SQLiteConnection.close. 
+11-24 11:05:34.111 20132 20140 W System  : A resource failed to call close. 
+11-24 11:05:34.111 20132 20140 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-24 11:05:34.111 20132 20140 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-24 11:05:34.111 20132 20140 W System  : A resource failed to call SQLiteConnection.close. 
+2026-11-24 11:05:34.739  I  ProductSync: unmapped for location 2 needed 6 page(s): 1155 row(s), server reported 1155
+2026-11-24 11:05:45.805  I  ProductSync: unmapped for location 2 needed 6 page(s): 1155 row(s), server reported 1155
