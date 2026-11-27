@@ -1,0 +1,357 @@
+# pushed 2026-11-27 12:20:03.392 (backgrounded)
+# app=2.3 (build 14) device=Newland NLS-MT93 display=MT93-GL_V2.10.010_113007 android=13 (sdk 33) server=http://164.52.223.163:4636 location=TITLI FASHIONS SURAT
+# bytes 314996..355211
+
+2026-11-27 12:00:05.805  W  Net: wifi DISCONNECTED — link had been up for 302s
+--------- beginning of main
+2026-11-27 12:00:13.789  I  Net: wifi connected
+2026-11-27 12:00:13.793  W  Net: wifi is up but has NO internet (rssi -79 dBm)
+2026-11-27 12:00:13.805  I  Net: wifi has internet (rssi -79 dBm)
+2026-11-27 12:00:27.658  W  Net: wifi DISCONNECTED — link had been up for 13s
+2026-11-27 12:00:54.997  I  Net: wifi connected
+2026-11-27 12:00:55.005  W  Net: wifi is up but has NO internet (rssi -79 dBm)
+2026-11-27 12:00:55.021  I  Net: wifi has internet (rssi -79 dBm)
+2026-11-27 12:01:13.384  W  Net: wifi DISCONNECTED — link had been up for 18s
+2026-11-27 12:01:17.461  I  Net: wifi connected
+2026-11-27 12:01:17.464  W  Net: wifi is up but has NO internet (rssi -80 dBm)
+2026-11-27 12:01:17.495  I  Net: wifi has internet (rssi -80 dBm)
+11-27 12:13:07.005 22287 22287 W hionapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+11-27 12:13:07.085 22287 22287 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+11-27 12:13:07.172 22287 27688 W Parcel  : Expecting binder but got null!
+11-27 12:13:07.631 22287 22309 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-27 12:13:07.631 22287 22309 W System  : A resource failed to call SQLiteConnection.close. 
+11-27 12:13:07.632 22287 22309 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-27 12:13:07.632 22287 22309 W System  : A resource failed to call close. 
+11-27 12:13:07.632 22287 22309 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-27 12:13:07.632 22287 22309 W System  : A resource failed to call SQLiteConnection.close. 
+11-27 12:13:07.632 22287 22309 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-27 12:13:07.632 22287 22309 W System  : A resource failed to call close. 
+11-27 12:13:07.632 22287 22309 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-27 12:13:07.632 22287 22309 W System  : A resource failed to call SQLiteConnection.close. 
+11-27 12:13:07.632 22287 22309 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-27 12:13:07.632 22287 22309 W System  : A resource failed to call close. 
+11-27 12:13:26.467 22287 27688 W Parcel  : Expecting binder but got null!
+11-27 12:13:27.529 22287 27688 W Parcel  : Expecting binder but got null!
+11-27 12:13:31.587 22287 22309 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-27 12:13:31.587 22287 22309 W System  : A resource failed to call SQLiteConnection.close. 
+11-27 12:13:31.587 22287 22309 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-27 12:13:31.587 22287 22309 W System  : A resource failed to call close. 
+11-27 12:13:31.665 22287 27688 W Parcel  : Expecting binder but got null!
+11-27 12:13:32.331 22287 22287 W CameraX-camerax: type=1400 audit(0.0:229903): avc: denied { ioctl } for path="/proc/perfmgr/perf_ioctl" dev="proc" ino=4026534111 ioctlcmd=0x6717 scontext=u:r:untrusted_app:s0:c167,c256,c512,c768 tcontext=u:object_r:proc_perfmgr:s0 tclass=file permissive=0 app=com.poxo.tittlifashionapplication
+11-27 12:13:32.419 22287 27915 W libc    : Access denied finding property "ro.hardware.chipname"
+11-27 12:13:32.438 22287 22307 W hionapplication: Cleared Reference was only reachable from finalizer (only reported once)
+2026-11-27 12:13:34.079  I  UhfSession: UHF reader powered up
+2026-11-27 12:13:36.966  I  ProductSync: unmapped for location 1 needed 6 page(s): 1170 row(s), server reported 1170
+2026-11-27 12:13:37.271  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:13:37.430  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:13:44.197  I  SerialService: 'TAN-795': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-795 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:13:44.368  I  SerialService: 'TAN-795': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-795&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:13:44.697  I  SerialService: 'TAN-795': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-795&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:13:45.041  I  SerialService: 'TAN-795': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-795&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:13:45.063  I  SerialService: 'TAN-795': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:13:45.065  I  SerialService: 'TAN-795': server holds 0 RFID(s); taking the lowest free serial 1 (TAN7950001)
+2026-11-27 12:13:48.815  I  SerialService: 'TAN-795': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-795 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:13:49.135  I  SerialService: 'TAN-795': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-795&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:13:49.299  I  SerialService: 'TAN-795': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-795&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:13:49.466  I  SerialService: 'TAN-795': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-795&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:13:49.494  I  SerialService: 'TAN-795': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:13:49.496  I  SerialService: 'TAN-795': server holds 0 RFID(s); taking the lowest free serial 1 (TAN7950001)
+2026-11-27 12:13:50.405  I  Registration: Upload accepted for TAN7950001: HTTP 200 {"updated":1,"tags":[{"id":10388,"epc":"TAN7950001","itemCode":"TAN-795","serialNo":1}]}
+2026-11-27 12:13:50.621  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:13:50.747  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:13:50.750  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-27 12:14:01.200  I  SerialService: 'TAN-795': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (TAN7950002)
+2026-11-27 12:14:01.919  I  Registration: Upload accepted for TAN7950002: HTTP 200 {"updated":1,"tags":[{"id":10389,"epc":"TAN7950002","itemCode":"TAN-795","serialNo":2}]}
+2026-11-27 12:14:02.059  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:14:02.281  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:14:02.284  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-27 12:14:06.619 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:14:06.619 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:14:06.629 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:14:06.629 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:14:06.630 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:14:06.630 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:14:06.632 22287 22309 W System  : A resource failed to call close. 
+2026-11-27 12:14:26.530  I  SerialService: 'TAN-795': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (TAN7950003)
+2026-11-27 12:14:27.235  I  Registration: Upload accepted for TAN7950003: HTTP 200 {"updated":1,"tags":[{"id":10390,"epc":"TAN7950003","itemCode":"TAN-795","serialNo":3}]}
+2026-11-27 12:14:27.532  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:14:27.816  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:14:27.819  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-27 12:14:40.880 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:14:40.880 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:14:42.273 22287 22309 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-27 12:14:42.273 22287 22309 W System  : A resource failed to call SQLiteConnection.close. 
+11-27 12:14:42.274 22287 22309 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-27 12:14:42.274 22287 22309 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-27 12:14:42.274 22287 22309 W System  : A resource failed to call SQLiteConnection.close. 
+11-27 12:14:42.277 22287 22309 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-27 12:14:42.277 22287 22309 W System  : A resource failed to call close. 
+2026-11-27 12:14:43.533  I  SerialService: 'TAN-794': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-794 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:14:43.861  I  SerialService: 'TAN-794': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-794&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:14:44.047  I  SerialService: 'TAN-794': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-794&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:14:44.215  I  SerialService: 'TAN-794': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-794&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:14:44.239  I  SerialService: 'TAN-794': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:14:44.240  I  SerialService: 'TAN-794': server holds 0 RFID(s); taking the lowest free serial 1 (TAN7940001)
+2026-11-27 12:14:46.359  I  SerialService: 'TAN-794': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-794 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:14:46.520  I  SerialService: 'TAN-794': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-794&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:14:46.721  I  SerialService: 'TAN-794': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-794&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:14:46.909  I  SerialService: 'TAN-794': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-794&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:14:46.932  I  SerialService: 'TAN-794': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:14:46.934  I  SerialService: 'TAN-794': server holds 0 RFID(s); taking the lowest free serial 1 (TAN7940001)
+2026-11-27 12:14:47.675  I  Registration: Upload accepted for TAN7940001: HTTP 200 {"updated":1,"tags":[{"id":10391,"epc":"TAN7940001","itemCode":"TAN-794","serialNo":1}]}
+2026-11-27 12:14:47.794  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:14:47.941  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:14:47.945  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-27 12:14:49.134 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:14:49.134 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:14:49.135 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:14:49.135 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:15:22.761 22287 22309 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-27 12:15:22.761 22287 22309 W System  : A resource failed to call SQLiteConnection.close. 
+11-27 12:15:22.762 22287 22309 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-27 12:15:22.762 22287 22309 W System  : A resource failed to call close. 
+2026-11-27 12:15:22.870  I  SerialService: 'TAN-794': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (TAN7940002)
+2026-11-27 12:15:23.563  I  Registration: Upload accepted for TAN7940002: HTTP 200 {"updated":1,"tags":[{"id":10392,"epc":"TAN7940002","itemCode":"TAN-794","serialNo":2}]}
+2026-11-27 12:15:23.901  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:15:23.993  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:15:23.997  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-27 12:15:33.060  I  SerialService: 'TAN-708': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-708 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:15:33.359  I  SerialService: 'TAN-708': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-708&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:15:33.565  I  SerialService: 'TAN-708': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-708&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:15:33.754  I  SerialService: 'TAN-708': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-708&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:15:33.780  I  SerialService: 'TAN-708': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:15:33.781  I  SerialService: 'TAN-708': server holds 0 RFID(s); taking the lowest free serial 1 (TAN7080001)
+11-27 12:15:37.893 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:15:37.893 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:15:37.894 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:15:37.895 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-27 12:15:49.518  I  SerialService: 'TAN-708': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-708 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:15:49.689  I  SerialService: 'TAN-708': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-708&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:15:49.848  I  SerialService: 'TAN-708': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-708&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:15:50.004  I  SerialService: 'TAN-708': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-708&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:15:50.043  I  SerialService: 'TAN-708': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:15:50.044  I  SerialService: 'TAN-708': server holds 0 RFID(s); taking the lowest free serial 1 (TAN7080001)
+2026-11-27 12:15:50.771  I  Registration: Upload accepted for TAN7080001: HTTP 200 {"updated":1,"tags":[{"id":10393,"epc":"TAN7080001","itemCode":"TAN-708","serialNo":1}]}
+2026-11-27 12:15:50.959  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:15:51.055  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:15:51.059  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-27 12:15:55.657 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:15:55.657 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-27 12:16:00.734  I  SerialService: 'TAN-708': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (TAN7080002)
+2026-11-27 12:16:01.647  I  Registration: Upload accepted for TAN7080002: HTTP 200 {"updated":1,"tags":[{"id":10394,"epc":"TAN7080002","itemCode":"TAN-708","serialNo":2}]}
+2026-11-27 12:16:01.837  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:16:02.153  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:16:02.156  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-27 12:16:11.640  I  SerialService: 'TAN-708': server holds 2 RFID(s) [1, 2]; taking the lowest free serial 3 (TAN7080003)
+11-27 12:16:11.653 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:16:11.653 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-27 12:16:12.391  I  Registration: Upload accepted for TAN7080003: HTTP 200 {"updated":1,"tags":[{"id":10395,"epc":"TAN7080003","itemCode":"TAN-708","serialNo":3}]}
+2026-11-27 12:16:12.500  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:16:12.599  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:16:12.602  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-27 12:16:22.511  I  SerialService: 'TAN-708': server holds 3 RFID(s) [1, 2, 3]; taking the lowest free serial 4 (TAN7080004)
+11-27 12:16:23.286 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:16:23.286 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:16:23.290 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:16:23.290 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-27 12:16:23.478  I  Registration: Upload accepted for TAN7080004: HTTP 200 {"updated":1,"tags":[{"id":10396,"epc":"TAN7080004","itemCode":"TAN-708","serialNo":4}]}
+2026-11-27 12:16:23.739  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:16:23.933  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:16:23.936  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-27 12:16:45.588  I  SerialService: 'TAN-720': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:16:45.763  I  SerialService: 'TAN-720': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:16:45.931  I  SerialService: 'TAN-720': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:16:46.091  I  SerialService: 'TAN-720': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:16:46.108  I  SerialService: 'TAN-720': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:16:46.110  I  SerialService: 'TAN-720': server holds 0 RFID(s); taking the lowest free serial 1 (TAN7200001)
+2026-11-27 12:16:58.817  I  SerialService: 'TAN-720': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:16:59.118  I  SerialService: 'TAN-720': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:16:59.310  I  SerialService: 'TAN-720': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:16:59.601  I  SerialService: 'TAN-720': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:16:59.633  I  SerialService: 'TAN-720': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:16:59.634  I  SerialService: 'TAN-720': server holds 0 RFID(s); taking the lowest free serial 1 (TAN7200001)
+2026-11-27 12:17:00.529  I  Registration: Upload accepted for TAN7200001: HTTP 200 {"updated":1,"tags":[{"id":10397,"epc":"TAN7200001","itemCode":"TAN-720","serialNo":1}]}
+2026-11-27 12:17:00.638  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:17:00.762  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:17:00.766  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-27 12:17:04.307 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:17:04.308 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:17:04.313 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:17:04.313 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:17:37.345 22287 22309 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-27 12:17:37.345 22287 22309 W System  : A resource failed to call SQLiteConnection.close. 
+11-27 12:17:37.347 22287 22309 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-27 12:17:37.347 22287 22309 W System  : A resource failed to call close. 
+11-27 12:17:54.281 22287 27688 W Parcel  : Expecting binder but got null!
+11-27 12:17:54.877 22287 22287 W libc    : Access denied finding property "vendor.scroll.fpsgo.release"
+11-27 12:18:03.956 22287 27688 W Parcel  : Expecting binder but got null!
+2026-11-27 12:18:14.954  I  SerialService: 'TAN-720BIG': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720BIG -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:18:15.125  I  SerialService: 'TAN-720BIG': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720BIG&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:18:15.302  I  SerialService: 'TAN-720BIG': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720BIG&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:18:15.501  I  SerialService: 'TAN-720BIG': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720BIG&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:18:15.531  I  SerialService: 'TAN-720BIG': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:18:15.533  I  SerialService: 'TAN-720BIG': server holds 0 RFID(s); taking the lowest free serial 1 (TAN720BIG0001)
+2026-11-27 12:18:17.202  I  SerialService: 'TAN-720BIG': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720BIG -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:18:17.361  I  SerialService: 'TAN-720BIG': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720BIG&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:18:17.577  I  SerialService: 'TAN-720BIG': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720BIG&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:18:17.887  I  SerialService: 'TAN-720BIG': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-720BIG&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:18:17.913  I  SerialService: 'TAN-720BIG': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:18:17.915  I  SerialService: 'TAN-720BIG': server holds 0 RFID(s); taking the lowest free serial 1 (TAN720BIG0001)
+2026-11-27 12:18:19.023  I  Registration: Upload accepted for TAN720BIG0001: HTTP 200 {"updated":1,"tags":[{"id":10398,"epc":"TAN720BIG0001","itemCode":"TAN-720BIG","serialNo":1}]}
+2026-11-27 12:18:19.239  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:18:19.383  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:18:19.390  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-27 12:18:47.748 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:18:47.748 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:18:47.748 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:18:47.748 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:18:47.749 22287 22309 W SQLiteConnectionPool: A SQLiteConnection object for database '/data/user/0/com.poxo.tittlifashionapplication/databases/titliFashion' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+11-27 12:18:47.749 22287 22309 W System  : A resource failed to call SQLiteConnection.close. 
+11-27 12:18:47.749 22287 22309 W System  : A resource failed to call SQLiteConnectionPool.close. 
+11-27 12:18:47.749 22287 22309 W System  : A resource failed to call close. 
+11-27 12:18:56.660 22287 22287 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-27 12:18:57.666 22287 27688 W Parcel  : Expecting binder but got null!
+11-27 12:19:05.879 22287 22287 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-27 12:19:09.070 22287 27688 W Parcel  : Expecting binder but got null!
+11-27 12:19:13.206 22287 22287 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+11-27 12:19:14.696 22287 27688 W Parcel  : Expecting binder but got null!
+2026-11-27 12:19:19.741  I  SerialService: 'TAN-2151A': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-2151A -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:19:19.970  I  SerialService: 'TAN-2151A': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-2151A&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:19:20.226  I  SerialService: 'TAN-2151A': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-2151A&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:19:20.601  I  SerialService: 'TAN-2151A': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-2151A&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:19:20.630  I  SerialService: 'TAN-2151A': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:19:20.631  I  SerialService: 'TAN-2151A': server holds 0 RFID(s); taking the lowest free serial 1 (TAN2151A0001)
+2026-11-27 12:19:29.570  I  SerialService: 'TAN-2151A': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-2151A -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:19:30.325  I  SerialService: 'TAN-2151A': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-2151A&locationId=1 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:19:30.925  I  SerialService: 'TAN-2151A': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-2151A&locationId=2 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:19:31.237  I  SerialService: 'TAN-2151A': GET http://164.52.223.163:4636/api/device/products/mapped?search=TAN-2151A&locationId=4 -> HTTP 200, 0 item(s), total=0, 0 matching row(s), no serial: {"items":[],"total":0,"page":1,"pageSize":0}
+2026-11-27 12:19:31.258  I  SerialService: 'TAN-2151A': no RFID found at any of 4 scope(s) (locations [1, 2, 4]) - treating as unregistered
+2026-11-27 12:19:31.259  I  SerialService: 'TAN-2151A': server holds 0 RFID(s); taking the lowest free serial 1 (TAN2151A0001)
+2026-11-27 12:19:32.426  I  Registration: Upload accepted for TAN2151A0001: HTTP 200 {"updated":1,"tags":[{"id":10399,"epc":"TAN2151A0001","itemCode":"TAN-2151A","serialNo":1}]}
+2026-11-27 12:19:32.943  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:19:33.367  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:19:33.372  I  Registration: Uploaded 1 tag(s); 2 still pending
+2026-11-27 12:19:42.619  I  SerialService: 'TAN-2151A': server holds 1 RFID(s) [1]; taking the lowest free serial 2 (TAN2151A0002)
+11-27 12:19:43.292 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:19:43.293 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:19:43.299 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:19:43.300 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+11-27 12:19:43.304 22287 22309 W System  : A resource failed to call CursorWindow.close. 
+11-27 12:19:43.304 22287 22309 W System  : A resource failed to call AbstractCursor.close. 
+2026-11-27 12:19:43.452  I  Registration: Upload accepted for TAN2151A0002: HTTP 200 {"updated":1,"tags":[{"id":10400,"epc":"TAN2151A0002","itemCode":"TAN-2151A","serialNo":2}]}
+2026-11-27 12:19:43.537  E  Registration: Upload rejected for DBY12790001
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12116,"epc":"DBY12790001","itemCode":"DBY-1279","serialNo":1}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790001 is already registered to a different tag (id 1, item )."}
+2026-11-27 12:19:43.724  E  Registration: Upload rejected for DBY12790002
+  POST http://164.52.223.163:4636/api/device/tags/serialise
+  payload: {"tags":[{"id":12117,"epc":"DBY12790002","itemCode":"DBY-1279","serialNo":2}]}
+  HTTP 409
+  response: {"message":"EPC DBY12790002 is already registered to a different tag (id 2, item )."}
+2026-11-27 12:19:43.728  I  Registration: Uploaded 1 tag(s); 2 still pending
+11-27 12:19:50.155 22287 27688 W Parcel  : Expecting binder but got null!
